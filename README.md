@@ -158,3 +158,65 @@ tecnologías de ingeniería de software.</td>
  - [Referencias Bibliografía](#referencias-bibliografía)
  - [Anexos](#anexos)
  - [Links](#links)
+
+
+# CAPÍTULO I: Introducción
+
+# 1.1. Startup Profile
+
+## 1.1.1. Descripción de la Startup
+
+## 1.1.2. Perfiles de integrantes del equipo
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Estudiante</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="assets/img/" alt="a" width="80"/><br/><b>apellidos, nombres (u2023)</b></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><img src="assets/img/" alt="a" width="80"/><br/><b>apellidos, nombres (u2023)</b></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><img src="assets/img/" alt="a" width="80"/><br/><b>apellidos, nombres (u2023)</b></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><img src="assets/img/" alt="a" width="80"/><br/><b>apellidos, nombres (u2023)</b></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><img src="assets/img/" alt="a" width="80"/><br/><b>apellidos, nombres (u2023)</b></td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+# 1.2 Solution Profile
+
+## 1.2.1. Nombre del producto
+
+## 1.2.2. Antecedentes y problemática
+
+## 1.2.3. Lean UX Process
+### 1.2.3.1. Lean UX Problem Statements
+### 1.2.3.2. Lean UX Assumptions
+### 1.2.3.3. Lean UX Hypothesis
+### 1.2.3.4. Lean UX Canvas
+
+# 1.3. Segmentos objetivo
+
+ # CAPÍTULO II: Requirements & Analysis
+
+ # 2.1. Competidores
+
+ # 2.2. Entrevistas
+
+ # 2.3. Needfinding
