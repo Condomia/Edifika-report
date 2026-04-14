@@ -64,15 +64,15 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
       <td>17/04/2026</td>
       <td>
         
--apellidos, nombres
+-Becerra Tejeda, Alessandra Nicole
 
--apellidos, nombres
+-Bejarano Martinez, Alvaro Leandro
 
--apellidos, nombres
+-Ortiz Cardenas, Johanna Antuanete
 
--apellidos, nombres
+-Sarmiento Medina, Loreley
 
--apellidos, nombres
+-Zegarra López, Renato Sebastián Rubber 
 
       </td>
       <td> ...
@@ -168,36 +168,14 @@ tecnologías de ingeniería de software.</td>
 
 ## 1.1.2. Perfiles de integrantes del equipo
 
-<table border="1">
-  <thead>
-    <tr>
-      <th>Estudiante</th>
-      <th>Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img src="assets/img/" alt="a" width="80"/><br/><b>apellidos, nombres (u2023)</b></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><img src="assets/img/" alt="a" width="80"/><br/><b>apellidos, nombres (u2023)</b></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><img src="assets/img/" alt="a" width="80"/><br/><b>apellidos, nombres (u2023)</b></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><img src="assets/img/" alt="a" width="80"/><br/><b>apellidos, nombres (u2023)</b></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><img src="assets/img/profiles/renato_zegarra.png" alt="a" width="80"/><br/><b>Zegarra Lopez, Renato Sebastian Rubber (u202311558)</b></td>
-      <td>Mi nombre es Renato Zegarra, tengo 20 años y actualmente estoy cursando la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Fuera de mis estudios, disfruto explorar mis intereses en música, videojuegos y tecnología, siempre buscando nuevas formas de integrar estas pasiones en mi vida cotidiana. Me comprometo a colaborar de manera activa y responsable en la elaboración de este documento y en la concreción de la idea propuesta, aportando mis habilidades en análisis, creatividad y adaptabilidad. Estoy convencido de que con esfuerzo y trabajo en equipo, podemos alcanzar resultados innovadores y de alta calidad. </td>
-    </tr>
-  </tbody>
-</table>
+| Estudiante | Descripción |
+|------------|-------------|
+| ![team member profile photo](assets/img/profiles/.png) **Becerra Tejeda, Alessandra Nicole (u2023)** | aaa|
+| ![team member profile photo](assets/img/profiles/.png) **Bejarano Martinez, Alvaro Leandro (u2023)** | aaa|
+| ![team member profile photo](assets/img/profiles/antuanete_ortiz.png) **Ortiz Cardenas, Johanna Antuanete (u202310358)** | Mi nombre es Johanna Antuanete Ortiz Cárdenas, tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona proactiva, responsable y orientada a la calidad, con especial interés en el desarrollo frontend, área en la que disfruto crear interfaces intuitivas y visualmente atractivas. Me apasiona mantenerme actualizada sobre las últimas tendencias y avances tecnológicos, lo que me permite aportar soluciones modernas y fundamentadas a cada proyecto. En mi tiempo libre, disfruto escuchar música y leer cómics, actividades que nutren mi creatividad y perspectiva. En el marco de este proyecto grupal, me comprometo a colaborar de manera activa y responsable, aportando ideas de valor y cumpliendo con los entregables en los plazos establecidos, con el objetivo de alcanzar resultados de alta calidad. |
+| ![team member profile photo](assets/img/profiles/ariana_lizarbe.png) **Sarmiento Medina, Loreley (u2023)** | aaa|
+| ![team member profile photo](assets/img/profiles/renato_zegarra.png) **Zegarra Lopez, Renato Sebastian Rubber (u202311558)** | Mi nombre es Renato Zegarra, tengo 20 años y actualmente estoy cursando la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Fuera de mis estudios, disfruto explorar mis intereses en música, videojuegos y tecnología, siempre buscando nuevas formas de integrar estas pasiones en mi vida cotidiana. Me comprometo a colaborar de manera activa y responsable en la elaboración de este documento y en la concreción de la idea propuesta, aportando mis habilidades en análisis, creatividad y adaptabilidad. Estoy convencido de que con esfuerzo y trabajo en equipo, podemos alcanzar resultados innovadores y de alta calidad. |
+
 
 # 1.2 Solution Profile
 
