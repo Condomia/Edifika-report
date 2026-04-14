@@ -87,7 +87,7 @@ apellidos, nombres (u2023)
 
 
 ## **Student Outcome**
-ABET – EAC - Student Outcome 7: Aprendizaje Continuo y Autónomo
+ABET – EAC - Student Outcome 7: Aprendizaje Continuo y Autónomo <br>
 Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
 
 <table border="1">
