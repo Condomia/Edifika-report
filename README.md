@@ -30,15 +30,15 @@ Producto: Edifika
 <br><br>
 <strong>Integrantes:</strong>  
 <br><br>
-apellidos, nombres (u2023)
+Becerra Tejeda, Alessandra Nicole (u202318947)
 <br><br>
-apellidos, nombres (u2023)
+Bejarano Martinez, Alvaro Leandro (u202311640)
 <br><br>
-apellidos, nombres (u2023)
+Ortiz Cardenas, Johanna Antuanete (u202310358)
 <br><br>
-apellidos, nombres (u2023) 
+Sarmiento Medina, Loreley (u202310005) 
 <br><br>
-apellidos, nombres (u2023)
+Zegarra López, Renato Sebastián Rubber (u202311558)
 <br><br>
 <br>
 
