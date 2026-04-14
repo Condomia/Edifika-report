@@ -194,7 +194,7 @@ tecnologías de ingeniería de software.</td>
     </tr>
     <tr>
       <td><img src="assets/img/" alt="a" width="80"/><br/><b>apellidos, nombres (u2023)</b></td>
-      <td> </td>
+      <td>Holas </td>
     </tr>
   </tbody>
 </table>
