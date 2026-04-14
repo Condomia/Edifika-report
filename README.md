@@ -187,6 +187,23 @@ El nombre elegido para nuestro producto es Edifika. Este nombre surge de la fusi
 
 ## 1.2.3. Lean UX Process
 ### 1.2.3.1. Lean UX Problem Statements
+En la actualidad, la gestión de condominios y edificios residenciales se realiza en muchos casos mediante procesos manuales o herramientas no integradas, como grupos de mensajería, hojas de cálculo o comunicaciones informales. Esta situación genera desorganización, falta de control sobre pagos y deudas, conflictos en la reserva de áreas comunes y una comunicación poco clara entre los miembros de la comunidad, lo que se traduce en ineficiencias operativas, errores en la gestión de la información y dificultades en la coordinación entre los distintos actores involucrados (Deloitte, 2022).
+
+Este problema afecta principalmente a administradores, juntas directivas, propietarios e inquilinos, quienes enfrentan dificultades para mantener una gestión eficiente, transparente y ordenada dentro de sus comunidades, lo que impacta negativamente en la convivencia y en la toma de decisiones colectivas.
+
+Hemos identificado que esta problemática limita la capacidad de los condominios para operar de manera organizada y confiable. Esta situación se vuelve aún más crítica en contextos como el peruano, donde el crecimiento de viviendas en edificios multifamiliares ha ido en aumento en zonas urbanas, especialmente en Lima Metropolitana, incrementando la necesidad de mecanismos de gestión más eficientes (Instituto Nacional de Estadística e Informática [INEI], 2023).
+
+A partir de ello surge la siguiente pregunta:  
+**¿Cómo podríamos brindar a las comunidades residenciales una solución digital centralizada, accesible y confiable que mejore la gestión administrativa, reduzca conflictos y fortalezca la comunicación interna?**
+
+Para abordar esta problemática, se ha definido el contexto del problema y los elementos clave del modelo de negocio, los cuales se detallan a continuación:
+- **Domain:** Gestión de condominios y soluciones digitales para comunidades residenciales.  
+- **Customer Segments:** Administradores de condominios, juntas directivas, propietarios e inquilinos de edificios residenciales.  
+- **Pain Points:** Falta de centralización de información, poca transparencia en pagos y deudas, conflictos por reservas de áreas comunes, comunicación desorganizada.  
+- **Gap:** Ausencia de plataformas digitales integrales, accesibles e intuitivas enfocadas en la gestión completa de comunidades residenciales.  
+- **Vision/Strategy:** Desarrollar una aplicación digital que centralice la gestión del condominio, mejore la comunicación interna y facilite procesos administrativos mediante una experiencia simple, transparente y eficiente.  
+- **Initial Segment:** Edificios residenciales urbanos con gestión tradicional que buscan digitalizar sus procesos administrativos.
+  
 ### 1.2.3.2. Lean UX Assumptions
 ### 1.2.3.3. Lean UX Hypothesis
 ### 1.2.3.4. Lean UX Canvas
