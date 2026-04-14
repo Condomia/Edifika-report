@@ -125,18 +125,18 @@ tecnologías de ingeniería de software.</td>
 
 ## **Contenido**
 - [STUDENT OUTCOME](#student-outcome)
-- [CAPÍTULO I: Introducción](#capítulo-i-introduccion)
+- [CAPÍTULO I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
       - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
       - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
       - [1.2.1. Nombre del producto](#121-nombre-del-producto)
-      - [1.2.2. Antecedentes y problemática](#122-antecedentes-y-problematica)
+      - [1.2.2. Antecedentes y problemática](#122-antecedentes-y-problemática)
       - [1.2.3. Lean UX Process](#123-lean-ux-process)
-        - [1.2.3.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [1.2.3.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-        - [1.2.3.3. Lean UX Hypothesis](#1223-lean-ux-hypothesis)
-        - [1.2.3.4. Lean UX Canvas](#1224-lean-ux-canvas)
+        - [1.2.3.1. Lean UX Problem Statements](#1231-lean-ux-problem-statements)
+        - [1.2.3.2. Lean UX Assumptions](#1232-lean-ux-assumptions)
+        - [1.2.3.3. Lean UX Hypothesis](#1233-lean-ux-hypothesis)
+        - [1.2.3.4. Lean UX Canvas](#1234-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
     
 - [CAPÍTULO II: Requirements & Analysis](#capítulo-ii-requirements--analysis)
@@ -145,13 +145,13 @@ tecnologías de ingeniería de software.</td>
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.4 As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [2.3.3. Empathy Mapping](#233-empathy-mapping)
+    - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
 - [CAPÍTULO III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [3.1 To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [3.2 User Stories](#32-user-stories)
-    - [3.3 Impact Mapping](#33-impact-mapping)
-    - [3.4 Product Backlog](#34-product-backlog)
+    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [3.2. User Stories](#32-user-stories)
+    - [3.3. Impact Mapping](#33-impact-mapping)
+    - [3.4. Product Backlog](#34-product-backlog)
   
  - [Conclusiones](#conclusiones)
  - [Conclusiones-y-Recomendaciones](#conclusiones-y-recomendaciones)
@@ -251,6 +251,20 @@ Para abordar esta problemática, se ha definido el contexto del problema y los e
 
  # 2.3. Needfinding
 
+## 2.3.1. User Personas
+## 2.3.2. User Task Matrix
+## 2.3.3. Empathy Mapping
+## 2.3.4. As-is Scenario Mapping
+
+# CAPÍTULO III: Requirements Specification
+# 3.1. To-Be Scenario Mapping
+# 3.2. User Stories
+# 3.3. Impact Mapping
+# 3.4. Product Backlog
+
+# Conclusiones
+# Conclusiones-y-Recomendaciones
+
 # Referencias Bibliografía
   - Aguilar, K. L. B. (2026). Vacíos regulatorios en la Ley de Propiedad en Condominio, análisis de conflictos recurrentes en su modalidad vertical ubicados en el Distrito Central (Tesis doctoral). Centro Universitario Tecnológico CEUTEC. `https://repositorio.unitec.edu/server/api/core/bitstreams/cd97bbd4-204c-49c8-9901-3d0a5a85d7f3/content`
   - Condominos. (2024, 4 de noviembre). Manejo de chats de WhatsApp de vecinos en condominios. `https://www.condominos.app/sitio/detalle/OA/manejo-de-chats-de-whatsapp-de-vecinos-en-condominios`
@@ -259,3 +273,6 @@ Para abordar esta problemática, se ha definido el contexto del problema y los e
   - ProTool. (2026, 11 de marzo). Administrar un condominio por WhatsApp no es gestión, es un riesgo para la comunidad. `https://www.protool.cl/noticia_detalle.php?slug=administrar-condominios-por-whatsapp-no-es-gestion-es-riesgo`
   - Sociedad Peruana de Bienes Raíces. (2024). Digitalización de edificios y condominios en Perú. `https://bienesraicess.com/blogs/digitalizacion-de-edificios-y-condominios-en-peru`
   - Verastegui Leon, P. A., Mendoza Castañeda, J. L. D. C., Zapata Becerra, M. L., Capristan Leon, K. E., & Ravines Garcia, M. A. (2025). Propuesta de un plan estratégico para mejora de la Gestión en Edificios Multifamiliares en Lima Moderna: Caso De Estudio: MONARCH MANAGERS EIRL. Universidad Peruana de Ciencias Aplicadas. `https://repositorioacademico.upc.edu.pe/handle/10757/686137`
+
+# Anexos
+# Links
