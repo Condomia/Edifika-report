@@ -193,7 +193,7 @@ tecnologías de ingeniería de software.</td>
       <td> </td>
     </tr>
     <tr>
-      <td><img src="assets/img/renato_zegarra.png" alt="a" width="80"/><br/><b>Zegarra Lopez, Renato Sebastian Rubber (u202311558)</b></td>
+      <td><img src="assets/img/profiles/renato_zegarra.png" alt="a" width="80"/><br/><b>Zegarra Lopez, Renato Sebastian Rubber (u202311558)</b></td>
       <td>Mi nombre es Renato Zegarra, tengo 20 años y actualmente estoy cursando la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Fuera de mis estudios, disfruto explorar mis intereses en música, videojuegos y tecnología, siempre buscando nuevas formas de integrar estas pasiones en mi vida cotidiana. Me comprometo a colaborar de manera activa y responsable en la elaboración de este documento y en la concreción de la idea propuesta, aportando mis habilidades en análisis, creatividad y adaptabilidad. Estoy convencido de que con esfuerzo y trabajo en equipo, podemos alcanzar resultados innovadores y de alta calidad. </td>
     </tr>
   </tbody>
