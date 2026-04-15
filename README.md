@@ -324,7 +324,6 @@ Creemos que una comunicación estructurada dentro de la plataforma aumentará la
 **Sabremos que hemos tenido éxito** cuando al menos un 60% de los usuarios interactúen con comunicados o notificaciones dentro de la aplicación.
 
 ### 1.2.3.4. Lean UX Canvas
-
 <table border="1">
   <tr>
     <th>Business Problem</th>
@@ -333,13 +332,13 @@ Creemos que una comunicación estructurada dentro de la plataforma aumentará la
   </tr>
   <tr>
     <td>
-      La gestión de condominios en muchas ciudades del Perú se realiza mediante herramientas informales como grupos de WhatsApp, Excel o comunicación verbal, lo que genera desorden en el control de pagos, falta de claridad en los comunicados y dificultad para la toma de decisiones. Esto provoca conflictos entre administradores y residentes, así como ineficiencia en la administración del edificio.
+      La gestión de condominios en el contexto peruano se realiza, en muchos casos, mediante herramientas no integradas como grupos de WhatsApp, hojas de cálculo y comunicación informal. Esto genera desorganización, falta de control sobre pagos y deudas, conflictos en la reserva de áreas comunes y una comunicación poco clara entre administradores y residentes, afectando la eficiencia operativa y la toma de decisiones dentro del condominio.
     </td>
     <td>
-      La aplicación propone una plataforma digital que centraliza la gestión del condominio, permitiendo a administradores gestionar deudas, enviar comunicados organizados y administrar reservas de áreas comunes. Asimismo, los residentes podrán consultar su estado de pagos, recibir notificaciones y participar activamente en la gestión del edificio desde una sola aplicación.
+      Edifika es una aplicación móvil que centraliza la gestión de condominios, permitiendo a los administradores gestionar deudas, enviar comunicados organizados y administrar reservas de áreas comunes. Asimismo, los propietarios e inquilinos pueden consultar su estado de pagos, recibir notificaciones y acceder a la información del condominio de manera rápida, clara y desde un solo entorno digital.
     </td>
     <td>
-      Se espera mejorar la organización y transparencia en la gestión del condominio, reducir la morosidad y optimizar la comunicación entre administradores y residentes. El éxito se medirá a través de la adopción de la aplicación, la reducción de deudas pendientes y el aumento en la participación de los usuarios dentro de la plataforma.
+      Se espera mejorar la organización y transparencia en la gestión del condominio, reducir la morosidad y optimizar la comunicación entre administradores y residentes. El éxito se medirá mediante el nivel de adopción de la plataforma, la frecuencia de uso semanal, la reducción de conflictos administrativos y el incremento en la participación de los usuarios dentro de la aplicación.
     </td>
   </tr>
   <tr>
@@ -348,15 +347,15 @@ Creemos que una comunicación estructurada dentro de la plataforma aumentará la
   </tr>
   <tr>
     <td>
-      Nuestros usuarios son administradores de condominios, juntas directivas, propietarios e inquilinos que residen en edificios urbanos. Todos ellos buscan mejorar la organización, comunicación y gestión de los procesos dentro del condominio.
+      Nuestros usuarios son administradores de condominios y residentes (propietarios e inquilinos) de edificios urbanos en el Perú, quienes buscan mejorar la organización, comunicación y gestión de los procesos dentro de su comunidad.
     </td>
     <td colspan="2">
       <ul>
-        <li>Acceso rápido y centralizado a información sobre pagos y deudas.</li>
-        <li>Comunicación clara mediante comunicados organizados y notificaciones.</li>
-        <li>Reserva sencilla de áreas comunes desde la aplicación.</li>
+        <li>Acceso centralizado y en tiempo real a información de pagos y deudas.</li>
+        <li>Comunicación clara mediante comunicados estructurados y notificaciones automáticas.</li>
+        <li>Reserva sencilla y organizada de áreas comunes.</li>
         <li>Mayor transparencia en la gestión del condominio.</li>
-        <li>Reducción de conflictos gracias a la información accesible y ordenada.</li>
+        <li>Reducción de conflictos gracias a información clara y accesible.</li>
       </ul>
     </td>
   </tr>
@@ -367,13 +366,13 @@ Creemos que una comunicación estructurada dentro de la plataforma aumentará la
   </tr>
   <tr>
     <td>
-      Creemos que, al ofrecer una plataforma centralizada para la gestión de pagos, reservas y comunicación en condominios, los administradores podrán reducir la carga operativa y los residentes tendrán mayor claridad y participación, mejorando la convivencia y eficiencia del edificio.
+      Creemos que los administradores y residentes utilizarán Edifika como su principal herramienta para gestionar pagos, reservas y comunicación dentro del condominio. Asimismo, creemos que la centralización de la información reducirá conflictos administrativos y mejorará la participación de los usuarios.
     </td>
     <td>
-      Es fundamental validar si los administradores están dispuestos a adoptar una herramienta digital para reemplazar sus métodos actuales y si los residentes consideran útil la aplicación para gestionar su información y participar en el condominio.
+      Es fundamental validar si los administradores están dispuestos a reemplazar sus herramientas actuales (WhatsApp, Excel) por una solución digital y si los residentes perciben valor en utilizar una aplicación para gestionar pagos, reservas y comunicados.
     </td>
     <td>
-      Desarrollar un prototipo básico (MVP) con funciones clave como visualización de deudas, envío de comunicados y reserva de áreas comunes. Luego, probarlo con un grupo pequeño de administradores y residentes para obtener retroalimentación sobre usabilidad, utilidad y disposición de uso.
+      Desarrollar un MVP con funcionalidades clave como visualización de deudas, envío de comunicados y reserva de áreas comunes. Posteriormente, realizar pruebas con usuarios reales (administradores y residentes) para evaluar la usabilidad, adopción y percepción de valor de la plataforma.
     </td>
   </tr>
 </table>
