@@ -329,10 +329,10 @@ Creemos que una comunicación estructurada dentro de la plataforma aumentará la
 
 **Administradores de condominios y juntas directivas:**
 
-Según tendencias de digitalización en la gestión inmobiliaria en Latinoamérica, una gran parte de las administraciones aún utiliza herramientas informales como Excel, WhatsApp o registros manuales, lo que genera desorden en la gestión y dificulta la toma de decisiones.
+Una gran parte de las administraciones aún utiliza herramientas informales como Excel, WhatsApp o registros manuales, lo que genera desorden en la gestión y dificulta la toma de decisiones.
 
 - Edad estimada: 25 a 60 años
-- Ubicación: Zonas urbanas con alta concentración de edificios residenciales como Lima Metropolitana, Arequipa o Santiago
+- Ubicación: Zonas urbanas con alta concentración de edificios residenciales como Lima Metropolitana, Arequipa o Callao
 - Características demográficas y de comportamiento:
    - Son responsables de la gestión operativa, administrativa y financiera del condominio.
    - Utilizan herramientas básicas y poco integradas para el control de pagos y comunicación.
@@ -344,12 +344,12 @@ Según tendencias de digitalización en la gestión inmobiliaria en Latinoaméri
    - Contar con reportes que faciliten la toma de decisiones.
    - Reducir la carga operativa manual y mejorar la eficiencia.
 
-Propietarios e inquilinos de condominios:
+**Propietarios e inquilinos de condominios:**
 
 El crecimiento de la vivienda vertical en ciudades ha incrementado la cantidad de personas que viven en condominios, generando la necesidad de herramientas digitales que faciliten la convivencia, el acceso a información y la participación en la gestión del edificio.
 
 - Edad estimada: 18 a 55 años
-- Ubicación: Zonas urbanas residenciales en ciudades como Lima, Ciudad de México o Buenos Aires
+- Ubicación: Zonas urbanas residenciales en ciudades como Lima y Callao
 - Características demográficas y de comportamiento:
    - Incluye tanto propietarios como inquilinos que residen en el condominio.
    - Utilizan smartphones y aplicaciones móviles de manera frecuente.
