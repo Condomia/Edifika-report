@@ -327,6 +327,40 @@ Creemos que una comunicación estructurada dentro de la plataforma aumentará la
 
 # 1.3. Segmentos objetivo
 
+**Administradores de condominios y juntas directivas:**
+
+Según tendencias de digitalización en la gestión inmobiliaria en Latinoamérica, una gran parte de las administraciones aún utiliza herramientas informales como Excel, WhatsApp o registros manuales, lo que genera desorden en la gestión y dificulta la toma de decisiones.
+
+- Edad estimada: 25 a 60 años
+- Ubicación: Zonas urbanas con alta concentración de edificios residenciales como Lima Metropolitana, Arequipa o Santiago
+- Características demográficas y de comportamiento:
+   - Son responsables de la gestión operativa, administrativa y financiera del condominio.
+   - Utilizan herramientas básicas y poco integradas para el control de pagos y comunicación.
+   - Enfrentan problemas frecuentes de morosidad y desorganización.
+   - Buscan optimizar procesos y reducir conflictos entre residentes.
+- Necesidades principales:
+   - Gestionar de manera clara y automatizada las deudas y pagos.
+   - Enviar comunicados organizados y verificables.
+   - Contar con reportes que faciliten la toma de decisiones.
+   - Reducir la carga operativa manual y mejorar la eficiencia.
+
+Propietarios e inquilinos de condominios:
+
+El crecimiento de la vivienda vertical en ciudades ha incrementado la cantidad de personas que viven en condominios, generando la necesidad de herramientas digitales que faciliten la convivencia, el acceso a información y la participación en la gestión del edificio.
+
+- Edad estimada: 18 a 55 años
+- Ubicación: Zonas urbanas residenciales en ciudades como Lima, Ciudad de México o Buenos Aires
+- Características demográficas y de comportamiento:
+   - Incluye tanto propietarios como inquilinos que residen en el condominio.
+   - Utilizan smartphones y aplicaciones móviles de manera frecuente.
+   - Buscan soluciones rápidas, claras y accesibles.
+   - Valoran la transparencia en la gestión y la buena comunicación.
+- Necesidades principales:
+   - Consultar sus deudas y estado de pagos en cualquier momento.
+   - Recibir notificaciones y comunicados importantes.
+   - Reservar áreas comunes de forma sencilla.
+   - Mantenerse informados y participar en la vida del condominio.
+
  # CAPÍTULO II: Requirements & Analysis
 
  # 2.1. Competidores
