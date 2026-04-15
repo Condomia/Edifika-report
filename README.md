@@ -238,7 +238,91 @@ Para abordar esta problemática, se ha definido el contexto del problema y los e
 - **Initial Segment:** Edificios residenciales urbanos con gestión tradicional que buscan digitalizar sus procesos administrativos.
   
 ### 1.2.3.2. Lean UX Assumptions
+
+### Business Assumptions
+
+1. **Creemos que** nuestros usuarios tienen la necesidad de optimizar la gestión del condominio mediante herramientas digitales que centralicen pagos, reservas y comunicación.  
+
+2. **Estas necesidades se pueden satisfacer con** una aplicación digital que integre en un solo entorno la gestión administrativa, la comunicación interna y la organización de actividades del condominio.  
+
+3. **Nuestros clientes iniciales serán** administradores de edificios, juntas directivas y comunidades residenciales urbanas que buscan digitalizar sus procesos.  
+
+4. **El valor más importante que un cliente quiere de nuestros servicios es** la transparencia, el control de la información y la eficiencia en la gestión del condominio.  
+
+5. **El cliente también va a obtener beneficios adicionales como** la reducción de conflictos, mejor comunicación entre residentes, ahorro de tiempo en tareas administrativas y mayor organización en la comunidad.  
+
+6. **Vamos a obtener la mayoría de los clientes mediante** recomendaciones, marketing digital y alianzas con administradores de condominios.  
+
+7. **Vamos a obtener ingresos mediante** suscripciones mensuales por el uso de la plataforma por parte de cada condominio o administración.  
+
+8. **Nuestra competencia en el mercado serán** herramientas tradicionales como Excel, grupos de mensajería como WhatsApp y algunas plataformas digitales no integradas o poco intuitivas.  
+
+9. **Vamos a tener ventaja frente a nuestra competencia debido a** la centralización de funcionalidades en una sola plataforma, su facilidad de uso y su enfoque específico en comunidades residenciales.  
+
+10. **El mayor riesgo del servicio es** la resistencia al cambio hacia herramientas digitales por parte de administradores o residentes, así como una baja adopción inicial.  
+
+11. **Lo resolveremos realizando** un diseño intuitivo, procesos de onboarding simples y mostrando beneficios claros desde el primer uso de la plataforma.  
+
+12. **Otro riesgo que debemos considerar y que, si resulta falso, haría fracasar el proyecto es** que los usuarios realmente perciban valor en digitalizar la gestión del condominio y estén dispuestos a cambiar sus métodos actuales.  
+
+### User Assumptions
+
+**¿Quién es el usuario?**  
+Nuestro usuario principal son administradores de condominios, miembros de juntas directivas y residentes que buscan mejorar la organización y convivencia dentro de su comunidad.
+
+**¿Dónde encaja nuestro producto en su vida?**  
+Encaja en la gestión diaria del condominio, facilitando tareas administrativas, comunicación y organización de espacios comunes.
+
+**¿Qué problemas resuelve nuestro producto?**  
+Resuelve la desorganización en la gestión, la falta de control en pagos y deudas, los conflictos en reservas de áreas comunes y la comunicación dispersa.
+
+**¿Cuándo y cómo se usa nuestro producto?**  
+Se utiliza de manera frecuente cuando los usuarios necesitan revisar pagos, reservar áreas comunes, recibir comunicados o gestionar información del condominio, principalmente a través de dispositivos móviles.
+
+**¿Qué características son importantes?**
+- Gestión de pagos y deudas  
+- Reserva de áreas comunes  
+- Comunicación centralizada  
+- Notificaciones automáticas  
+- Interfaz simple e intuitiva  
+
+**¿Cómo debería lucir y comportarse el producto?**  
+El producto debe lucir moderno, accesible y amigable, con un diseño centrado en el usuario. Debe comportarse de forma intuitiva, rápida y confiable, priorizando la facilidad de uso y la claridad de la información.
+
+
+### Feature Assumptions
+
+- **Creemos que** los usuarios necesitan visualizar de forma clara y en tiempo real sus pagos y deudas.  
+- **Creemos que** un sistema digital de reservas reducirá conflictos por el uso de áreas comunes.  
+- **Creemos que** una comunicación centralizada mejorará la organización dentro del condominio.  
+- **Creemos que** las notificaciones automáticas aumentarán el compromiso de los usuarios con la plataforma.  
+- **Creemos que** una interfaz intuitiva facilitará la adopción del sistema sin necesidad de capacitación.  
+
 ### 1.2.3.3. Lean UX Hypothesis
+
+#### Hypothesis Statement 01
+Creemos que los administradores y residentes utilizarán Edifika como su principal herramienta para gestionar pagos, reservas y comunicación dentro del condominio.  
+
+**Sabremos que hemos tenido éxito** cuando al menos un 70% de los usuarios registrados utilicen la plataforma semanalmente durante el primer mes.
+
+
+#### Hypothesis Statement 02
+Creemos que la centralización de la información reducirá los conflictos relacionados con pagos y reservas dentro de la comunidad.  
+
+**Sabremos que hemos tenido éxito** cuando se reduzcan en al menos un 40% los reclamos o incidencias relacionadas con la gestión administrativa en un periodo de tres meses.
+
+
+#### Hypothesis Statement 03
+Creemos que una interfaz intuitiva y accesible permitirá que los usuarios adopten la plataforma sin dificultad.  
+
+**Sabremos que hemos tenido éxito** cuando al menos un 80% de los nuevos usuarios completen su registro y primeras acciones sin asistencia.
+
+
+#### Hypothesis Statement 04
+Creemos que una comunicación estructurada dentro de la plataforma aumentará la participación de los residentes en actividades y decisiones del condominio.  
+
+**Sabremos que hemos tenido éxito** cuando al menos un 60% de los usuarios interactúen con comunicados o notificaciones dentro de la aplicación.
+
 ### 1.2.3.4. Lean UX Canvas
 
 # 1.3. Segmentos objetivo
