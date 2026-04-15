@@ -75,7 +75,33 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
 -Zegarra López, Renato Sebastián Rubber 
 
       </td>
-      <td> ...
+      <td> Se realizaron los siguientes puntos del informe: <br>
+      Capítulo I: Introducción
+      1.1	Startup Profile
+      1.1.1	Descripción de la Startup
+      1.1.2	Perfiles de integrantes del equipo
+      1.2	Solution Profile
+      1.2.1	Nombre del producto
+      1.2.2	Antecedentes y problemática
+      1.2.3	Lean UX Process
+      1.2.3.1	Lean UX Problem Statement
+      1.2.3.2	Lean UX Assumptions
+      1.2.3.3	Lean UX Hypothesis
+      1.2.3.4	Lean UX Canvas
+      1.3	Segmentos objetivo
+      Capítulo II: Requirements  & Analysis
+      2.1	Competidores
+      2.2	Entrevistas
+      2.3	Needfinding
+      2.3.1	User Personas
+      2.3.2	User Task Matrix
+      2.3.3	Empathy Maps
+      2.3.4	As-is Scenario Mapping
+      Capítulo III: Requirements Specification
+      3.1	To-Be Scenario Mapping
+      3.2	User Stories
+      3.3	Impact Map
+      3.4	Product Backlog   
 
  </td>
     </tr>
@@ -165,7 +191,7 @@ tecnologías de ingeniería de software.</td>
 # 1.1. Startup Profile
 ## 1.1.1. Descripción de la Startup
 
-Condomia es una startup tecnológica enfocada en transformar la gestión de condominios y edificios residenciales mediante soluciones digitales accesibles, intuitivas y diseñadas para el día a día. Creemos firmemente que administrar una comunidad residencial puede y debe ser una experiencia ordenada, clara y eficiente para todos los actores involucrados, desde la junta directiva hasta cada propietario e inquilino. Nuestro equipo combina experiencia en tecnología, diseño y gestión para desarrollar herramientas que respondan a las necesidades reales de quienes conviven y administran estos espacios. Nuestro producto principal, Edifika, es una plataforma que centraliza en un único entorno digital la gestión de deudas y pagos, agiliza el proceso de reserva de áreas comunes y mantiene a toda la comunidad informada a través de comunicados oficiales estructurados, eliminando los procesos manuales y la información dispersa que podrían generar conflictos y desorganización. Apostamos por una tecnología que no solo resuelve problemas operativos, sino que también fortalece la comunicación interna y facilita la toma de decisiones colectivas dentro de cada edificio. Nuestro objetivo es convertirnos en el aliado digital de cada comunidad residencial, brindándole las herramientas necesarias para funcionar con transparencia, autonomía y confianza.
+Condomia es una startup tecnológica enfocada en transformar la gestión de condominios y edificios residenciales mediante soluciones digitales accesibles, intuitivas y diseñadas para el día a día. Creemos firmemente que administrar una comunidad residencial puede y debe ser una experiencia ordenada, clara y eficiente para todos los actores involucrados, desde la junta directiva hasta cada propietario e inquilino. Nuestro equipo combina experiencia en tecnología, diseño y gestión para desarrollar herramientas que respondan a las necesidades reales de quienes conviven y administran estos espacios. Nuestro producto principal, Edifika, es una plataforma que centraliza en un único entorno digital la gestión de deudas, agiliza el proceso de reserva de áreas comunes y mantiene a toda la comunidad informada a través de comunicados oficiales estructurados, eliminando los procesos manuales y la información dispersa que podrían generar conflictos y desorganización. Apostamos por una tecnología que no solo resuelve problemas operativos, sino que también fortalece la comunicación interna y facilita la toma de decisiones colectivas dentro de cada edificio. Nuestro objetivo es convertirnos en el aliado digital de cada comunidad residencial, brindándole las herramientas necesarias para funcionar con transparencia, autonomía y confianza.
 
 ## 1.1.2. Perfiles de integrantes del equipo
 
@@ -181,7 +207,7 @@ Condomia es una startup tecnológica enfocada en transformar la gestión de cond
 # 1.2 Solution Profile
 ## 1.2.1. Nombre del producto
 
-El nombre elegido para nuestro producto es Edifika. Este nombre surge de la fusión de dos conceptos clave: "edificio", que representa el entorno físico y la comunidad residencial a la que va dirigida la solución, y el sufijo "ka", que le otorga una identidad al producto en sí. Edifika es una aplicación digital que centraliza y simplifica la gestión integral de condominios y edificios residenciales en un solo lugar. Permite administrar deudas y pagos de forma transparente, coordinar la reserva de áreas comunes sin complicaciones y mantener a toda la comunidad informada mediante comunicados fáciles de acceder. Su diseño está pensado para ser intuitivo y accesible, eliminando los procesos manuales y la información dispersa que suelen generar conflictos y desorganización dentro de las comunidades. Edifika no es solo una herramienta operativa, sino un canal que fortalece la comunicación y facilita la toma de decisiones dentro de cada edificio, con el objetivo de construir comunidades más ordenadas, transparentes y eficientes.
+El nombre elegido para nuestro producto es Edifika. Este nombre surge de la fusión de dos conceptos clave: "edificio", que representa el entorno físico y la comunidad residencial a la que va dirigida la solución, y el sufijo "ka", que le otorga una identidad al producto en sí. Edifika es una aplicación digital que centraliza y simplifica la gestión integral de condominios y edificios residenciales en un solo lugar. Permite registrar y hacer un seguimiento de deudas de manera transparente, coordinar la reserva de áreas comunes sin complicaciones y mantener a toda la comunidad informada mediante comunicados fáciles de acceder. Su diseño está pensado para ser intuitivo y accesible, eliminando los procesos manuales y la información dispersa que suelen generar conflictos y desorganización dentro de las comunidades. Edifika no es solo una herramienta operativa, sino un canal que fortalece la comunicación y facilita la toma de decisiones dentro de cada edificio, con el objetivo de construir comunidades más ordenadas, transparentes y eficientes.
 
 ## 1.2.2. Antecedentes y problemática
 
