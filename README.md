@@ -325,6 +325,60 @@ Creemos que una comunicación estructurada dentro de la plataforma aumentará la
 
 ### 1.2.3.4. Lean UX Canvas
 
+<table border="1">
+  <tr>
+    <th>Business Problem</th>
+    <th>Solutions</th>
+    <th>Business Outcomes</th>
+  </tr>
+  <tr>
+    <td>
+      La gestión de condominios en muchas ciudades del Perú se realiza mediante herramientas informales como grupos de WhatsApp, Excel o comunicación verbal, lo que genera desorden en el control de pagos, falta de claridad en los comunicados y dificultad para la toma de decisiones. Esto provoca conflictos entre administradores y residentes, así como ineficiencia en la administración del edificio.
+    </td>
+    <td>
+      La aplicación propone una plataforma digital que centraliza la gestión del condominio, permitiendo a administradores gestionar deudas, enviar comunicados organizados y administrar reservas de áreas comunes. Asimismo, los residentes podrán consultar su estado de pagos, recibir notificaciones y participar activamente en la gestión del edificio desde una sola aplicación.
+    </td>
+    <td>
+      Se espera mejorar la organización y transparencia en la gestión del condominio, reducir la morosidad y optimizar la comunicación entre administradores y residentes. El éxito se medirá a través de la adopción de la aplicación, la reducción de deudas pendientes y el aumento en la participación de los usuarios dentro de la plataforma.
+    </td>
+  </tr>
+  <tr>
+    <th>Users</th>
+    <th colspan="2">User Benefits</th>
+  </tr>
+  <tr>
+    <td>
+      Nuestros usuarios son administradores de condominios, juntas directivas, propietarios e inquilinos que residen en edificios urbanos. Todos ellos buscan mejorar la organización, comunicación y gestión de los procesos dentro del condominio.
+    </td>
+    <td colspan="2">
+      <ul>
+        <li>Acceso rápido y centralizado a información sobre pagos y deudas.</li>
+        <li>Comunicación clara mediante comunicados organizados y notificaciones.</li>
+        <li>Reserva sencilla de áreas comunes desde la aplicación.</li>
+        <li>Mayor transparencia en la gestión del condominio.</li>
+        <li>Reducción de conflictos gracias a la información accesible y ordenada.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <th>Hypotheses</th>
+    <th>What’s the most important thing we need to learn first?</th>
+    <th>What’s the least amount of work we need to do to learn the most important thing?</th>
+  </tr>
+  <tr>
+    <td>
+      Creemos que, al ofrecer una plataforma centralizada para la gestión de pagos, reservas y comunicación en condominios, los administradores podrán reducir la carga operativa y los residentes tendrán mayor claridad y participación, mejorando la convivencia y eficiencia del edificio.
+    </td>
+    <td>
+      Es fundamental validar si los administradores están dispuestos a adoptar una herramienta digital para reemplazar sus métodos actuales y si los residentes consideran útil la aplicación para gestionar su información y participar en el condominio.
+    </td>
+    <td>
+      Desarrollar un prototipo básico (MVP) con funciones clave como visualización de deudas, envío de comunicados y reserva de áreas comunes. Luego, probarlo con un grupo pequeño de administradores y residentes para obtener retroalimentación sobre usabilidad, utilidad y disposición de uso.
+    </td>
+  </tr>
+</table>
+
+
 # 1.3. Segmentos objetivo
 
 **Administradores de condominios y juntas directivas:**
