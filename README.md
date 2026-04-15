@@ -392,7 +392,7 @@ Creemos que una comunicación estructurada dentro de la plataforma aumentará la
   </tr>
   <tr>
     <td>
-      Creemos que, si ofrecemos una plataforma centralizada para pagos, reservas y comunicación, los administradores y residentes adoptarán la aplicación como su principal herramienta de gestión del condominio.
+      Creemos que, si ofrecemos una plataforma centralizada para la gestión de pagos, reservas y comunicación, los administradores y residentes adoptarán la aplicación como su principal herramienta de gestión del condominio.
     </td>
     <td>
       Necesitamos validar si los administradores están dispuestos a cambiar sus herramientas actuales y si los residentes perciben valor en usar una aplicación para gestionar pagos, reservas y comunicados.
