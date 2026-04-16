@@ -496,6 +496,31 @@ El crecimiento de la vivienda vertical en ciudades ha incrementado la cantidad d
 
 ## 2.3.1. User Personas
 ## 2.3.2. User Task Matrix
+
+### Administrador de Condominio – Ricardo Mendoza
+
+| Tarea | Frecuencia | Prioridad | Frustración |
+| :--- | :--- | :--- | :--- |
+| Conciliar pagos y validar transferencias | Diario | Muy Alta | Alta |
+| Actualizar el estado de saldos pendientes | Diario | Alta | Alta |
+| Enviar comunicados oficiales masivos | Semanal | Alta | Media |
+| Gestionar y aprobar reservas de áreas comunes | Diario | Media | Media |
+| Generar reportes financieros mensuales | Mensual | Muy Alta | Alta |
+| Registrar gastos y facturas del edificio | Semanal | Alta | Media |
+| Identificar deudores críticos para cobranza | Semanal | Alta | Media |
+
+### Residente (Propietario/Inquilino) – Andrea Villacorta
+
+| Tarea | Frecuencia | Prioridad | Frustración |
+| :--- | :--- | :--- | :--- |
+| Consultar monto exacto de cuota del mes | Mensual | Muy Alta | Media |
+| Subir el comprobante de pago realizado | Mensual | Alta | Alta |
+| Verificar disponibilidad de áreas comunes | Ocasional | Media | Alta |
+| Realizar una reserva (parrilla, SUM, etc.) | Ocasional | Media | Media |
+| Leer notificaciones de mantenimiento | Semanal | Alta | Media |
+| Revisar el estado de cuenta histórico | Semanal | Media | Alta |
+| Reportar una avería o incidencia | Ocasional | Alta | Alta |
+
 ## 2.3.3. Empathy Mapping
 ## 2.3.4. As-is Scenario Mapping
 
