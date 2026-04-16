@@ -443,6 +443,178 @@ El crecimiento de la vivienda vertical en ciudades ha incrementado la cantidad d
  # CAPÍTULO II: Requirements & Analysis
 
  # 2.1. Competidores
+ ## 2.1.1 Analisis de Competidores
+ 
+ <table border="2" style="text-align: center;">
+	<tbody>
+		<tr>
+			<td colspan="6">Competitive Analysis Landscape</td>
+		</tr>
+		<tr>
+			<td colspan="2">¿Por qué llevar a cabo este análisis?</td>
+			<td colspan="4">
+			Este análisis permite comprender cómo distintas plataformas gestionan la administración de condominios, qué funcionalidades ofrecen y qué valor brindan a los usuarios. De esta manera, se identifican oportunidades de mejora, diferenciación y posicionamiento para Edifika dentro del mercado, especialmente frente a soluciones tradicionales y plataformas digitales existentes.
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+			<td>Edifika</td>
+			<td>Condo Control</td>
+			<td>Buildium</td>
+			<td>AppFolio</td>
+		</tr>
+
+<tr>
+			<td rowspan="2">Perfil</td>
+			<td>Overview</td>
+			<td>Aplicación enfocada en la gestión de condominios en el contexto peruano, que centraliza pagos, reservas y comunicación en una sola plataforma accesible e intuitiva.</td>
+			<td>Software de gestión de condominios que permite la comunicación entre residentes, gestión de documentos y administración de reservas.</td>
+			<td>Plataforma de gestión inmobiliaria en la nube orientada a administradores profesionales, con herramientas financieras, operativas y de comunicación.</td>
+			<td>Software integral de gestión de propiedades que permite administrar pagos, mantenimiento y comunicación desde una sola plataforma.</td>
+		</tr>
+
+<tr>
+			<td>Ventaja competitiva ¿Qué valor ofrece?</td>
+			<td>Centraliza funciones clave en una interfaz simple, enfocada en la adopción real de usuarios que actualmente usan WhatsApp y Excel.</td>
+			<td>Ofrece una plataforma estructurada para la comunicación y organización dentro del condominio.</td>
+			<td>Proporciona herramientas avanzadas de gestión financiera y automatización para empresas administradoras.</td>
+			<td>Integra múltiples funcionalidades con automatización y escalabilidad para grandes volúmenes de propiedades.</td>
+		</tr>
+
+<tr>
+			<td rowspan="2">Perfil de Marketing</td>
+			<td>Mercado objetivo</td>
+			<td>Condominios urbanos en Perú, administradores y residentes que buscan digitalizar su gestión.</td>
+			<td>Condominios y asociaciones de propietarios, principalmente en mercados internacionales.</td>
+			<td>Empresas administradoras de propiedades y profesionales inmobiliarios.</td>
+			<td>Empresas de gestión inmobiliaria y administradores de múltiples propiedades.</td>
+		</tr>
+
+<tr>
+			<td>Estrategias de marketing</td>
+			<td>Enfoque en simplicidad, adopción digital y solución de problemas reales en comunidades locales.</td>
+			<td>Marketing digital enfocado en comunidades y administradores de condominios.</td>
+			<td>Marketing B2B dirigido a empresas inmobiliarias con enfoque en eficiencia y automatización.</td>
+			<td>Estrategias digitales enfocadas en empresas grandes y escalabilidad del servicio.</td>
+		</tr>
+
+<tr>
+			<td rowspan="3">Perfil de Producto</td>
+			<td>Productos & Servicios</td>
+			<td>
+				<ul>
+					<li>Gestión de pagos y deudas</li>
+					<li>Reserva de áreas comunes</li>
+					<li>Comunicados centralizados</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Gestión de documentos</li>
+					<li>Comunicación con residentes</li>
+					<li>Reservas de espacios</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Gestión financiera</li>
+					<li>Pagos en línea</li>
+					<li>Reportes y contabilidad</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Gestión de pagos</li>
+					<li>Mantenimiento</li>
+					<li>Automatización de procesos</li>
+				</ul>
+			</td>
+		</tr>
+
+<tr>
+			<td>Precios & Costos</td>
+			<td>
+				<ul>
+					<li>Modelo de suscripción mensual por condominio</li>
+					<li>Posible versión freemium</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Suscripción mensual según tamaño del condominio</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Suscripción mensual para empresas administradoras</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Modelo SaaS con precios escalables</li>
+				</ul>
+			</td>
+		</tr>
+
+<tr>
+			<td>Canales de distribución</td>
+			<td>
+				<ul>
+					<li>Aplicación móvil (iOS y Android)</li>
+					<li>Posible versión web</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Web y aplicación móvil</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Web (plataforma en la nube)</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Web y aplicación móvil</li>
+				</ul>
+			</td>
+		</tr>
+
+<tr>
+			<td rowspan="4">Análisis SWOT</td>
+			<td>Fortalezas</td>
+			<td>Enfoque local, simplicidad y alta adaptabilidad al contexto peruano.</td>
+			<td>Experiencia en gestión de condominios y comunicación estructurada.</td>
+			<td>Plataforma robusta con herramientas financieras avanzadas.</td>
+			<td>Alta escalabilidad y automatización.</td>
+		</tr>
+
+<tr>
+			<td>Debilidades</td>
+			<td>Aplicación nueva con baja adopción inicial.</td>
+			<td>Puede ser compleja para usuarios no tecnológicos.</td>
+			<td>No está enfocada en usuarios pequeños o individuales.</td>
+			<td>Curva de aprendizaje más alta.</td>
+		</tr>
+
+<tr>
+			<td>Oportunidades</td>
+			<td>Alta demanda de digitalización en condominios en Perú.</td>
+			<td>Expansión en mercados internacionales.</td>
+			<td>Expansión en mercados emergentes.</td>
+			<td>Innovación en automatización y servicios.</td>
+		</tr>
+
+<tr>
+			<td>Amenazas</td>
+			<td>Resistencia al cambio y uso de herramientas informales.</td>
+			<td>Competencia de nuevas apps más simples.</td>
+			<td>Competencia de software especializado más accesible.</td>
+			<td>Competencia creciente en el sector proptech.</td>
+		</tr>
+	</tbody>
+</table>
 
  # 2.2. Entrevistas
  
