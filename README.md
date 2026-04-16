@@ -445,6 +445,52 @@ El crecimiento de la vivienda vertical en ciudades ha incrementado la cantidad d
  # 2.1. Competidores
 
  # 2.2. Entrevistas
+ 
+ ## 2.2.1 Diseño de entrevistas
+
+1. Segmento: Administradores y Juntas Directivas
+¿Qué herramientas utiliza actualmente para registrar ingresos, egresos y pagos pendientes?
+
+- ¿Cuánto tiempo le toma al mes consolidar los pagos y actualizar quién tiene cuotas atrasadas?
+
+- ¿Cómo es el proceso actual cuando un residente quiere reservar un área común?
+
+- ¿Cuál es el método principal para enviar avisos oficiales y cómo confirma que todos los leyeron?
+
+- ¿Qué porcentaje de retraso en los pagos tiene el edificio y qué acciones toma para reducirlo?
+
+- ¿Cuál es la tarea administrativa que más tiempo le quita y que desearía automatizar?
+
+- ¿Cómo gestiona el historial de pagos y deudas cuando un propietario le solicita una aclaración?
+
+- ¿Qué tan frecuente es que surjan conflictos por falta de transparencia o información dispersa?
+
+- ¿Cómo genera y entrega los reportes de gastos a la comunidad al final de cada periodo?
+
+- ¿Cuál es el mayor obstáculo que enfrenta hoy para que el edificio funcione de manera ordenada?
+
+2. Segmento: Propietarios e Inquilinos
+¿Cómo se entera hoy de sus saldos pendientes de mantenimiento y de las noticias de su edificio?
+
+- ¿Qué tan fácil o difícil le resulta realizar el pago y enviar el comprobante de mantenimiento?
+
+- ¿Dónde puede consultar su historial de pagos si necesita verificar un cobro antiguo?
+
+- ¿Ha tenido problemas para reservar áreas comunes por falta de claridad en los horarios?
+
+- ¿Siente que la administración es transparente con el uso del dinero y los gastos del edificio?
+
+- ¿Qué tan rápido recibe respuesta cuando tiene una duda o necesita un comunicado importante?
+
+- ¿Cuál es el canal de comunicación que más le molesta o le satura (ej. grupos de WhatsApp)?
+
+- ¿Qué trámite del edificio le parece el más anticuado o el que más le quita tiempo?
+
+- ¿Estaría dispuesto a gestionar sus pagos y cuotas en una sola aplicación móvil?
+
+- Si pudiera cambiar una sola cosa de la gestión de su condominio, ¿qué sería?
+
+## 2.2.2 Registro de entrevista
 
  # 2.3. Needfinding
 
