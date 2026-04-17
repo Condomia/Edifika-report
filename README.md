@@ -747,6 +747,348 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 </p>
 
 # 3.2. User Stories
+
+**Epics:**
+
+| Epic ID | Título                                          | Descripción                                                                                                                                                                                                                                                                                                                                                                                               |
+| ------- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP01    | Autenticación y gestión de usuarios             | Esta épica se enfoca en la creación, registro y administración de usuarios dentro de la plataforma, incluyendo residentes y administradores. Permite vincular cuentas a unidades específicas dentro del edificio, así como gestionar perfiles, validar información y controlar accesos. Su objetivo es garantizar seguridad, organización y correcta identificación de todos los usuarios del sistema.    |
+| EP02    | Comunicación centralizada                       | Esta épica aborda la gestión de notificaciones y comunicados dentro del condominio, permitiendo mantener informados a los residentes sobre incidencias, pagos, reservas y anuncios importantes. Incluye la personalización de notificaciones y el seguimiento de visualización de comunicados, con el fin de mejorar la comunicación interna y la toma de decisiones oportunas.                           |
+| EP03    | Gestión de áreas comunes                        | Esta épica se centra en la administración y uso eficiente de las áreas comunes del condominio. Permite a los residentes consultar disponibilidad, realizar reservas y cancelarlas, mientras que los administradores pueden aprobar solicitudes y evitar conflictos como duplicidad de reservas. Su objetivo es optimizar el uso de espacios compartidos.                                                  |
+| EP04    | Gestión financiera y reportes                   | Esta épica incluye la administración de pagos, deudas y gastos del condominio. Permite a los residentes consultar su estado financiero, registrar pagos y revisar su historial, mientras que los administradores pueden generar reportes, identificar morosidad y llevar un control transparente de los ingresos y egresos. El objetivo es brindar claridad financiera y facilitar la toma de decisiones. |
+| EP05    | Transparencia y control administrativo          | Esta épica se enfoca en fortalecer la confianza entre residentes y administradores mediante funcionalidades como registro de gastos, publicación de reportes, encuestas virtuales y acceso a información relevante del condominio. Busca promover una gestión transparente, participativa y organizada dentro de la comunidad.                                                                            |
+| EP06    | Infraestructura técnica y seguridad del sistema | Esta épica abarca el desarrollo técnico del backend, incluyendo la implementación de autenticación segura mediante JWT, endpoints de registro e inicio de sesión, y la gestión de datos del sistema. Su objetivo es garantizar el correcto funcionamiento, escalabilidad y seguridad de la plataforma.                                                                                                    |
+| EP07    | Organización y visualización de actividades     | Esta épica se centra en herramientas visuales como calendarios de reservas y gestión de eventos dentro del condominio. Permite a los administradores y residentes visualizar actividades de forma clara y organizada, mejorando la planificación y reduciendo conflictos operativos.                                                                                                                      |
+
+**User Stories:**
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US01</td>
+      <td>Residente</td>
+      <td>3</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Crear cuenta vinculada a unidad</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como residente, deseo crear una cuenta vinculada a mi unidad para acceder a la gestión de mi edificio.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Registro exitoso vinculado a unidad</strong><br>
+        Dado que el residente ingresa sus datos correctamente<br>
+        Cuando selecciona su unidad<br>
+        Entonces su cuenta queda vinculada a dicha unidad.<br><br>
+
+<strong>Escenario: Error al no seleccionar unidad</strong><br>
+        Dado que el residente completa el formulario<br>
+        Cuando no selecciona una unidad<br>
+        Entonces el sistema muestra un mensaje de error.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+<table>
+	  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US02</td>
+      <td>Usuario</td>
+      <td>3</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Registro con correo</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero registrarme con mi correo para acceder a la plataforma.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Registro exitoso</strong><br>
+        Dado que el usuario ingresa un correo válido<br>
+        Cuando completa el registro<br>
+        Entonces su cuenta es creada correctamente.<br><br>
+
+<strong>Escenario: Correo inválido</strong><br>
+        Dado que el usuario ingresa un correo incorrecto<br>
+        Cuando intenta registrarse<br>
+        Entonces el sistema muestra un error de validación.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+	  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US03</td>
+      <td>Usuario</td>
+      <td>3</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Inicio de sesión</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero iniciar sesión para acceder a mi información del condominio.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Login exitoso</strong><br>
+        Dado que el usuario ingresa credenciales correctas<br>
+        Cuando inicia sesión<br>
+        Entonces accede a su panel.<br><br>
+
+<strong>Escenario: Credenciales incorrectas</strong><br>
+        Dado que el usuario ingresa datos incorrectos<br>
+        Cuando intenta iniciar sesión<br>
+        Entonces el sistema muestra un error.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+	  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US04</td>
+      <td>Administrador</td>
+      <td>3</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Verificar información de usuarios</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como administrador, quiero verificar la información de los usuarios para asegurar que sea correcta.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Verificación exitosa</strong><br>
+        Dado que el administrador revisa los datos<br>
+        Cuando valida la información<br>
+        Entonces el usuario queda verificado.<br><br>
+
+<strong>Escenario: Información incorrecta</strong><br>
+        Dado que el administrador detecta errores<br>
+        Cuando revisa el perfil<br>
+        Entonces marca al usuario como pendiente de corrección.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table>
+	  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US05</td>
+      <td>Administrador</td>
+      <td>3</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Actualizar información de usuarios</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como administrador, quiero actualizar información de usuarios para mantener datos correctos.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Actualización exitosa</strong><br>
+        Dado que el administrador edita datos<br>
+        Cuando guarda los cambios<br>
+        Entonces la información se actualiza correctamente.<br><br>
+
+<strong>Escenario: Error en datos</strong><br>
+        Dado que el administrador ingresa datos inválidos<br>
+        Cuando intenta guardar<br>
+        Entonces el sistema muestra un error.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table>
+	<thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US06</td>
+      <td>Residente</td>
+      <td>3</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Editar perfil</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como residente, quiero editar mi perfil para mantener mi información actualizada.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Edición exitosa</strong><br>
+        Dado que el residente modifica su información<br>
+        Cuando guarda los cambios<br>
+        Entonces su perfil se actualiza correctamente.<br><br>
+
+<strong>Escenario: Cancelación de cambios</strong><br>
+        Dado que el residente edita su perfil<br>
+        Cuando cancela la operación<br>
+        Entonces no se guardan los cambios.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table>
+	  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US07</td>
+      <td>Administrador</td>
+      <td>3</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Registrar edificio y unidades</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como administrador, quiero registrar el edificio con sus unidades residenciales para poder gestionar la comunidad desde la app.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Registro exitoso</strong><br>
+        Dado que el administrador ingresa datos del edificio<br>
+        Cuando registra las unidades<br>
+        Entonces el edificio queda configurado correctamente.<br><br>
+
+ <strong>Escenario: Datos incompletos</strong><br>
+        Dado que faltan datos del edificio<br>
+        Cuando intenta registrar<br>
+        Entonces el sistema muestra un error.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 # 3.3. Impact Mapping
 # 3.4. Product Backlog
 
