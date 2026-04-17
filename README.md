@@ -695,9 +695,37 @@ El crecimiento de la vivienda vertical en ciudades ha incrementado la cantidad d
 
 ## 2.3.3. Empathy Mapping
 ## 2.3.4. As-is Scenario Mapping
+**Segmento 1-Administradores y junta directiva:**
+El escenario actual del administrador de condominios refleja una gestión altamente manual y fragmentada. Ricardo depende de herramientas como Excel y WhatsApp para llevar el control de pagos, comunicarse con los vecinos y organizar la información. Esta dispersión genera errores, retrabajo y una alta carga operativa, dificultando la transparencia y la toma de decisiones dentro del condominio.
+
+<p align="center">
+  <img src="assets/img/AsIsRicardo.PNG" alt="AsIsR"/>
+</p>
+
+**Segmento 2-Propietarios/Inquilinos:**
+Actualmente, los residentes como Andrea enfrentan una experiencia poco eficiente y desorganizada en la gestión del condominio. La información relevante se encuentra dispersa en múltiples canales, lo que dificulta el acceso a datos importantes como pagos, comunicados o reservas. Esto genera frustración, pérdida de tiempo y una baja participación en la comunidad.
+
+<p align="center">
+  <img src="assets/img/AsIsAndrea.PNG" alt="AsIsR"/>
+</p>
 
 # CAPÍTULO III: Requirements Specification
 # 3.1. To-Be Scenario Mapping
+
+**Segmento 1-Administradores y junta directiva:**
+El escenario futuro plantea una transformación hacia una gestión digital centralizada mediante Edifika. Ricardo podrá automatizar procesos clave como el control de pagos, la generación de reportes y la comunicación con los residentes. Esto le permitirá reducir su carga operativa, mejorar la transparencia y brindar un servicio más profesional y eficiente.
+
+<p align="center">
+  <img src="assets/img/ToBeRicardo.PNG" alt="AsIsR" />
+</p>
+
+**Segmento 2-Propietarios/Inquilinos:**
+El escenario ideal propone una experiencia digital simple, rápida y centralizada a través de Edifika. Andrea podrá acceder a toda la información desde su celular, gestionar pagos, recibir notificaciones y reservar espacios de forma intuitiva. Esto mejora la transparencia, la comodidad y fomenta una mayor participación en la vida del condominio.
+
+<p align="center">
+  <img src="assets/img/ToBeAndrea.PNG" alt="AsIsR"/>
+</p>
+
 # 3.2. User Stories
 # 3.3. Impact Mapping
 # 3.4. Product Backlog
