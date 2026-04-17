@@ -191,7 +191,7 @@ tecnologías de ingeniería de software.</td>
 # 1.1. Startup Profile
 ## 1.1.1. Descripción de la Startup
 
-Condomia es una startup tecnológica enfocada en transformar la gestión de condominios y edificios residenciales mediante soluciones digitales accesibles, intuitivas y diseñadas para el día a día. Creemos firmemente que administrar una comunidad residencial puede y debe ser una experiencia ordenada, clara y eficiente para todos los actores involucrados, desde la junta directiva hasta cada propietario e inquilino. Nuestro equipo combina experiencia en tecnología, diseño y gestión para desarrollar herramientas que respondan a las necesidades reales de quienes conviven y administran estos espacios. Nuestro producto principal, Edifika, es una plataforma que centraliza en un único entorno digital la gestión y seguimiento de deudas y pagos, agiliza el proceso de reserva de áreas comunes y mantiene a toda la comunidad informada a través de comunicados oficiales estructurados, eliminando los procesos manuales y la información dispersa que podrían generar conflictos y desorganización. Apostamos por una tecnología que no solo resuelve problemas operativos, sino que también fortalece la comunicación interna y facilita la toma de decisiones colectivas dentro de cada edificio. Nuestro objetivo es convertirnos en el aliado digital de cada comunidad residencial, brindándole las herramientas necesarias para funcionar con transparencia, autonomía y confianza.
+Condomia es una startup tecnológica enfocada en transformar la gestión de condominios y edificios residenciales mediante soluciones digitales accesibles, intuitivas y diseñadas para el día a día. Creemos firmemente que administrar una comunidad residencial puede y debe ser una experiencia ordenada, clara y eficiente para todos los actores involucrados. Nuestro equipo combina experiencia en tecnología, diseño y gestión para desarrollar herramientas que respondan a las necesidades reales de quienes conviven y administran estos espacios. Nuestro producto principal, Edifika, es una plataforma que centraliza en un único entorno digital la gestión y seguimiento de deudas y pagos, agiliza el proceso de reserva de áreas comunes y mantiene a toda la comunidad informada a través de comunicados oficiales estructurados, eliminando los procesos manuales y la información dispersa que podrían generar conflictos y desorganización. Apostamos por una tecnología que no solo resuelve problemas operativos, sino que también fortalece la comunicación interna y facilita la toma de decisiones colectivas dentro de cada edificio. Nuestro objetivo es convertirnos en el aliado digital de cada comunidad residencial, brindándole las herramientas necesarias para funcionar con transparencia, autonomía y confianza.
 
 ## 1.1.2. Perfiles de integrantes del equipo
 
@@ -248,7 +248,7 @@ A nivel de los residentes, la morosidad en el pago de gastos comunes es una prob
 ### 1.2.3.1. Lean UX Problem Statements
 En la actualidad, la gestión de condominios y edificios residenciales se realiza, en muchos casos, mediante procesos manuales o herramientas no integradas, como grupos de mensajería, hojas de cálculo o comunicaciones informales. Esta situación genera desorganización, falta de control sobre pagos y deudas, conflictos en la reserva de áreas comunes y una comunicación poco clara entre los miembros de la comunidad, lo que se traduce en ineficiencias operativas, errores en la gestión de la información y dificultades en la coordinación entre los distintos actores involucrados (Deloitte, 2022).
 
-Este problema afecta principalmente a administradores, juntas directivas, propietarios e inquilinos, quienes enfrentan dificultades para mantener una gestión eficiente, transparente y ordenada dentro de sus comunidades, lo que impacta negativamente en la convivencia y en la toma de decisiones colectivas.
+Este problema afecta principalmente a administradores y propietarios e inquilinos, quienes enfrentan dificultades para mantener una gestión eficiente, transparente y ordenada dentro de sus comunidades, lo que impacta negativamente en la convivencia y en la toma de decisiones colectivas.
 
 Hemos identificado que esta problemática limita la capacidad de los condominios para operar de manera organizada y confiable. Esta situación se vuelve aún más crítica en contextos como el peruano, donde el crecimiento de viviendas en edificios multifamiliares ha ido en aumento en zonas urbanas, especialmente en Lima Metropolitana, incrementando la necesidad de mecanismos de gestión más eficientes (Instituto Nacional de Estadística e Informática [INEI], 2023).
 
@@ -257,7 +257,7 @@ A partir de ello surge la siguiente pregunta:
 
 Para abordar esta problemática, se ha definido el contexto del problema y los elementos clave del modelo de negocio, los cuales se detallan a continuación:
 - **Domain:** Gestión de condominios y soluciones digitales para comunidades residenciales.  
-- **Customer Segments:** Administradores de condominios, juntas directivas, propietarios e inquilinos de edificios residenciales.  
+- **Customer Segments:** Administradores de edificios y condominios, propietarios e inquilinos de edificios residenciales.  
 - **Pain Points:** Falta de centralización de información, poca transparencia en pagos y deudas, conflictos por reservas de áreas comunes, comunicación desorganizada.  
 - **Gap:** Ausencia de plataformas digitales integrales, accesibles e intuitivas enfocadas en la gestión completa de comunidades residenciales.  
 - **Vision/Strategy:** Desarrollar una aplicación digital que centralice la gestión del condominio, mejore la comunicación interna y facilite procesos administrativos mediante una experiencia simple, transparente y eficiente.  
@@ -271,7 +271,7 @@ Para abordar esta problemática, se ha definido el contexto del problema y los e
 
 2. **Estas necesidades se pueden satisfacer con** una aplicación digital que integre en un solo entorno la gestión administrativa, la comunicación interna y la organización de actividades del condominio.  
 
-3. **Nuestros clientes iniciales serán** administradores de edificios, juntas directivas y comunidades residenciales urbanas que buscan digitalizar sus procesos.  
+3. **Nuestros clientes iniciales serán** administradores de edificios y condominios, y comunidades residenciales urbanas que buscan digitalizar sus procesos.  
 
 4. **El valor más importante que un cliente quiere de nuestros servicios es** la transparencia, el control de la información y la eficiencia en la gestión del condominio.  
 
@@ -294,7 +294,7 @@ Para abordar esta problemática, se ha definido el contexto del problema y los e
 ### User Assumptions
 
 **¿Quién es el usuario?**  
-Nuestro usuario principal son administradores de condominios, miembros de juntas directivas y residentes que buscan mejorar la organización y convivencia dentro de su comunidad.
+Nuestro usuario principal son administradores de edificios y condominios y los residentes que buscan mejorar la organización y convivencia dentro de su comunidad.
 
 **¿Dónde encaja nuestro producto en su vida?**  
 Encaja en la gestión diaria del condominio, facilitando tareas administrativas, comunicación y organización de espacios comunes.
@@ -406,7 +406,7 @@ Creemos que una comunicación estructurada dentro de la plataforma aumentará la
 
 # 1.3. Segmentos objetivo
 
-**Administradores de condominios y juntas directivas:**
+**Administradores de edificios y condominios:**
 
 Una gran parte de las administraciones aún utiliza herramientas informales como Excel, WhatsApp o registros manuales, lo que genera desorden en la gestión y dificulta la toma de decisiones.
 
@@ -620,29 +620,31 @@ El crecimiento de la vivienda vertical en ciudades ha incrementado la cantidad d
  
  ## 2.2.1 Diseño de entrevistas
 
-1. Segmento: Administradores y Juntas Directivas
-¿Qué herramientas utiliza actualmente para registrar ingresos, egresos y pagos pendientes?
+1. Segmento: Administradores de edificios y condominios
 
-- ¿Cuánto tiempo le toma al mes consolidar los pagos y actualizar quién tiene cuotas atrasadas?
+- ¿Cuántos edificios administran actualmente y cómo llevan hoy la gestión del día a día?
 
-- ¿Cómo es el proceso actual cuando un residente quiere reservar un área común?
+- ¿Qué herramientas o sistemas utilizan para gestionar los pagos y deudas de todos sus edificios?
 
-- ¿Cuál es el método principal para enviar avisos oficiales y cómo confirma que todos los leyeron?
+- ¿Cómo coordinan las reservas de áreas comunes en los distintos edificios que administran?
 
-- ¿Qué porcentaje de retraso en los pagos tiene el edificio y qué acciones toma para reducirlo?
+- ¿De qué manera envían avisos oficiales a los residentes y cómo verifican que la información llegó a todos?
 
-- ¿Cuál es la tarea administrativa que más tiempo le quita y que desearía automatizar?
+- ¿Cuál es el proceso más tedioso que quisieran eliminar de su operación diaria?
 
-- ¿Cómo gestiona el historial de pagos y deudas cuando un propietario le solicita una aclaración?
+- ¿Qué tan seguido reciben quejas de residentes por falta de información o transparencia?
 
-- ¿Qué tan frecuente es que surjan conflictos por falta de transparencia o información dispersa?
+- ¿Han evaluado antes algún software de administración? Si es así, ¿qué fue lo que no les convenció?
 
-- ¿Cómo genera y entrega los reportes de gastos a la comunidad al final de cada periodo?
+- ¿Qué tan probable sería para su empresa migrar toda la gestión a una sola plataforma digital?
 
-- ¿Cuál es el mayor obstáculo que enfrenta hoy para que el edificio funcione de manera ordenada?
+- ¿Qué tendría que tener una plataforma para que su empresa la adopte sin dudarlo?
+  
+- ¿Cuánto estarían dispuestos a pagar mensualmente por una herramienta que centralice toda su gestión?
 
 2. Segmento: Propietarios e Inquilinos
-¿Cómo se entera hoy de sus saldos pendientes de mantenimiento y de las noticias de su edificio?
+
+- ¿Cómo se entera hoy de sus saldos pendientes de mantenimiento y de las noticias de su edificio?
 
 - ¿Qué tan fácil o difícil le resulta realizar el pago y enviar el comprobante de mantenimiento?
 
@@ -713,7 +715,7 @@ El crecimiento de la vivienda vertical en ciudades ha incrementado la cantidad d
 ![Empathy Mapping](assets/img/Andrea_empathy_map.png)
 
 ## 2.3.4. As-is Scenario Mapping
-**Segmento 1-Administradores y junta directiva:**
+**Segmento 1-Administradores de edificios y condominios:**
 El escenario actual del administrador de condominios refleja una gestión altamente manual y fragmentada. Ricardo depende de herramientas como Excel y WhatsApp para llevar el control de pagos, comunicarse con los vecinos y organizar la información. Esta dispersión genera errores, retrabajo y una alta carga operativa, dificultando la transparencia y la toma de decisiones dentro del condominio.
 
 <p align="center">
@@ -730,7 +732,7 @@ Actualmente, los residentes como Andrea enfrentan una experiencia poco eficiente
 # CAPÍTULO III: Requirements Specification
 # 3.1. To-Be Scenario Mapping
 
-**Segmento 1-Administradores y junta directiva:**
+**Segmento 1-Administradores de edificios y condominios:**
 El escenario futuro plantea una transformación hacia una gestión digital centralizada mediante Edifika. Ricardo podrá automatizar procesos clave como el control de pagos, la generación de reportes y la comunicación con los residentes. Esto le permitirá reducir su carga operativa, mejorar la transparencia y brindar un servicio más profesional y eficiente.
 
 <p align="center">
