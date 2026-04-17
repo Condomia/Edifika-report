@@ -616,6 +616,45 @@ El crecimiento de la vivienda vertical en ciudades ha incrementado la cantidad d
 	</tbody>
 </table>
 
+ ## 2.1.2. Estrategias frente a competidores
+
+**Enfoque en la digitalización total del condominio**
+
+Estrategia: Diferenciarse de soluciones tradicionales (WhatsApp, Excel, papel) ofreciendo una plataforma centralizada y estructurada
+
+Táctica: Integrar en una sola app funcionalidades como pagos, comunicados, reservas y gestión de usuarios, evitando el uso de múltiples herramientas dispersas
+
+**Transparencia en la gestión administrativa**
+
+Estrategia: Generar confianza entre residentes y administradores mediante acceso claro a la información
+
+Táctica: Mostrar historiales de pagos, deudas (morosidad), reportes financieros y registros de decisiones accesibles en tiempo real para todos los usuarios autorizados
+
+**Comunicación centralizada y efectiva**
+
+Estrategia: Reemplazar la comunicación desordenada de múltiples canales por un sistema único y eficiente
+
+Táctica: Crear un sistema de notificaciones dentro de la app con confirmación de lectura, segmentación por tipo de usuario (residente/administrador) y categorización de anuncios
+
+**Experiencia de usuario simple y accesible**
+
+Estrategia: Facilitar la adopción tecnológica incluso para usuarios no familiarizados con apps complejas
+
+Táctica: Diseñar una interfaz intuitiva, con accesos rápidos (ej: “Pagar”, “Reservar”, “Ver avisos”) y procesos simplificados en pocos pasos
+
+**Adaptación al contexto local (Perú / LATAM)**
+
+Estrategia: Diferenciarse de competidores internacionales adaptándose a la realidad local
+
+Táctica: Incluir métodos de pago locales (Yape, Plin), lenguaje adaptado, y funcionalidades específicas como control de morosos o juntas vecinales
+
+**Gestión inteligente de áreas comunes**
+
+Estrategia: Optimizar el uso de recursos compartidos dentro del condominio
+
+Táctica: Implementar un calendario interactivo con disponibilidad en tiempo real, reglas automáticas de uso y confirmaciones instantáneas de reservas
+
+
  # 2.2. Entrevistas
  
  ## 2.2.1 Diseño de entrevistas
@@ -755,6 +794,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 | EP01    | Autenticación y gestión de usuarios             | Esta épica se enfoca en la creación, registro y administración de usuarios dentro de la plataforma, incluyendo residentes y administradores. Permite vincular cuentas a unidades específicas dentro del edificio, así como gestionar perfiles, validar información y controlar accesos. Su objetivo es garantizar seguridad, organización y correcta identificación de todos los usuarios del sistema.    |
 | EP02    | Comunicación centralizada                       | Esta épica aborda la gestión de notificaciones y comunicados dentro del condominio, permitiendo mantener informados a los residentes sobre incidencias, pagos, reservas y anuncios importantes. Incluye la personalización de notificaciones y el seguimiento de visualización de comunicados, con el fin de mejorar la comunicación interna y la toma de decisiones oportunas.                           |
 | EP03    | Gestión de áreas comunes                        | Esta épica se centra en la administración y uso eficiente de las áreas comunes del condominio. Permite a los residentes consultar disponibilidad, realizar reservas y cancelarlas, mientras que los administradores pueden aprobar solicitudes y evitar conflictos como duplicidad de reservas. Su objetivo es optimizar el uso de espacios compartidos.                                                  |
+| EP04    | Gestión financiera y reportes                   | Esta épica se enfoca en la administración económica del condominio, permitiendo a los residentes consultar su deuda, registrar pagos y revisar su historial financiero. Asimismo, los administradores pueden gestionar pagos, identificar residentes morosos, generar reportes financieros y exportarlos para su análisis y comunicación. Su objetivo es garantizar transparencia, control y confianza en la gestión económica del condominio. |
 
 **User Stories:**
 
