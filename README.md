@@ -667,6 +667,15 @@ El crecimiento de la vivienda vertical en ciudades ha incrementado la cantidad d
  # 2.3. Needfinding
 
 ## 2.3.1. User Personas
+
+### Administrador de Condominio – Ricardo Mendoza
+
+![User Personas](assets/img/Ricardo_Mendoza.png)
+
+### Residente (Propietario/Inquilino) – Andrea Villacorta
+
+![User Personas](assets/img/Andrea_Villacorta.png)
+
 ## 2.3.2. User Task Matrix
 
 ### Administrador de Condominio – Ricardo Mendoza
@@ -694,6 +703,15 @@ El crecimiento de la vivienda vertical en ciudades ha incrementado la cantidad d
 | Reportar una avería o incidencia | Ocasional | Alta | Alta |
 
 ## 2.3.3. Empathy Mapping
+
+### Administrador de Condominio – Ricardo Mendoza
+
+![Empathy Mapping](assets/img/Ricardo_empathy_map.png)
+
+### Residente (Propietario/Inquilino) – Andrea Villacorta
+
+![Empathy Mapping](assets/img/Andrea_empathy_map.png)
+
 ## 2.3.4. As-is Scenario Mapping
 **Segmento 1-Administradores y junta directiva:**
 El escenario actual del administrador de condominios refleja una gestión altamente manual y fragmentada. Ricardo depende de herramientas como Excel y WhatsApp para llevar el control de pagos, comunicarse con los vecinos y organizar la información. Esta dispersión genera errores, retrabajo y una alta carga operativa, dificultando la transparencia y la toma de decisiones dentro del condominio.
