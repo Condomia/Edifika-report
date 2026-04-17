@@ -755,10 +755,6 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 | EP01    | Autenticación y gestión de usuarios             | Esta épica se enfoca en la creación, registro y administración de usuarios dentro de la plataforma, incluyendo residentes y administradores. Permite vincular cuentas a unidades específicas dentro del edificio, así como gestionar perfiles, validar información y controlar accesos. Su objetivo es garantizar seguridad, organización y correcta identificación de todos los usuarios del sistema.    |
 | EP02    | Comunicación centralizada                       | Esta épica aborda la gestión de notificaciones y comunicados dentro del condominio, permitiendo mantener informados a los residentes sobre incidencias, pagos, reservas y anuncios importantes. Incluye la personalización de notificaciones y el seguimiento de visualización de comunicados, con el fin de mejorar la comunicación interna y la toma de decisiones oportunas.                           |
 | EP03    | Gestión de áreas comunes                        | Esta épica se centra en la administración y uso eficiente de las áreas comunes del condominio. Permite a los residentes consultar disponibilidad, realizar reservas y cancelarlas, mientras que los administradores pueden aprobar solicitudes y evitar conflictos como duplicidad de reservas. Su objetivo es optimizar el uso de espacios compartidos.                                                  |
-| EP04    | Gestión financiera y reportes                   | Esta épica incluye la administración de pagos, deudas y gastos del condominio. Permite a los residentes consultar su estado financiero, registrar pagos y revisar su historial, mientras que los administradores pueden generar reportes, identificar morosidad y llevar un control transparente de los ingresos y egresos. El objetivo es brindar claridad financiera y facilitar la toma de decisiones. |
-| EP05    | Transparencia y control administrativo          | Esta épica se enfoca en fortalecer la confianza entre residentes y administradores mediante funcionalidades como registro de gastos, publicación de reportes, encuestas virtuales y acceso a información relevante del condominio. Busca promover una gestión transparente, participativa y organizada dentro de la comunidad.                                                                            |
-| EP06    | Infraestructura técnica y seguridad del sistema | Esta épica abarca el desarrollo técnico del backend, incluyendo la implementación de autenticación segura mediante JWT, endpoints de registro e inicio de sesión, y la gestión de datos del sistema. Su objetivo es garantizar el correcto funcionamiento, escalabilidad y seguridad de la plataforma.                                                                                                    |
-| EP07    | Organización y visualización de actividades     | Esta épica se centra en herramientas visuales como calendarios de reservas y gestión de eventos dentro del condominio. Permite a los administradores y residentes visualizar actividades de forma clara y organizada, mejorando la planificación y reduciendo conflictos operativos.                                                                                                                      |
 
 **User Stories:**
 
@@ -766,129 +762,57 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 <table>
   <thead>
     <tr>
-      <th>Story ID</th>
-      <th>User</th>
-      <th>Priority</th>
-      <th>Epic</th>
+      <th>Epic / User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>US01</td>
-      <td>Residente</td>
-      <td>3</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td><strong>Title</strong></td>
-      <td colspan="3">Crear cuenta vinculada a unidad</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>Description</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4">Como residente, deseo crear una cuenta vinculada a mi unidad para acceder a la gestión de mi edificio.</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>Acceptance Criteria</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4">
+      <td>Crear cuenta vinculada a unidad</td>
+      <td>Como residente, deseo crear una cuenta vinculada a mi unidad para acceder a la gestión de mi edificio.</td>
+      <td>
         <strong>Escenario: Registro exitoso vinculado a unidad</strong><br>
         Dado que el residente ingresa sus datos correctamente<br>
         Cuando selecciona su unidad<br>
         Entonces su cuenta queda vinculada a dicha unidad.<br><br>
 
-<strong>Escenario: Error al no seleccionar unidad</strong><br>
+ <strong>Escenario: Error al no seleccionar unidad</strong><br>
         Dado que el residente completa el formulario<br>
         Cuando no selecciona una unidad<br>
         Entonces el sistema muestra un mensaje de error.
       </td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-<table>
-	  <thead>
-    <tr>
-      <th>Story ID</th>
-      <th>User</th>
-      <th>Priority</th>
-      <th>Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US02</td>
-      <td>Usuario</td>
-      <td>3</td>
       <td>EP01</td>
     </tr>
-    <tr>
-      <td><strong>Title</strong></td>
-      <td colspan="3">Registro con correo</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>Description</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4">Como usuario, quiero registrarme con mi correo para acceder a la plataforma.</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>Acceptance Criteria</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4">
+  </tbody>
+
+
+ <tr>
+      <td>US02</td>
+      <td>Registro con correo</td>
+      <td>Como usuario, quiero registrarme con mi correo para acceder a la plataforma.</td>
+      <td>
         <strong>Escenario: Registro exitoso</strong><br>
         Dado que el usuario ingresa un correo válido<br>
         Cuando completa el registro<br>
         Entonces su cuenta es creada correctamente.<br><br>
 
-<strong>Escenario: Correo inválido</strong><br>
+ <strong>Escenario: Correo inválido</strong><br>
         Dado que el usuario ingresa un correo incorrecto<br>
         Cuando intenta registrarse<br>
         Entonces el sistema muestra un error de validación.
       </td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-<table>
-	  <thead>
-    <tr>
-      <th>Story ID</th>
-      <th>User</th>
-      <th>Priority</th>
-      <th>Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US03</td>
-      <td>Usuario</td>
-      <td>3</td>
       <td>EP01</td>
     </tr>
-    <tr>
-      <td><strong>Title</strong></td>
-      <td colspan="3">Inicio de sesión</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>Description</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4">Como usuario, quiero iniciar sesión para acceder a mi información del condominio.</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>Acceptance Criteria</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4">
+
+<tr>
+      <td>US03</td>
+      <td>Inicio de sesión</td>
+      <td>Como usuario, quiero iniciar sesión para acceder a mi información del condominio.</td>
+      <td>
         <strong>Escenario: Login exitoso</strong><br>
         Dado que el usuario ingresa credenciales correctas<br>
         Cuando inicia sesión<br>
@@ -899,43 +823,14 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
         Cuando intenta iniciar sesión<br>
         Entonces el sistema muestra un error.
       </td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-<table>
-	  <thead>
-    <tr>
-      <th>Story ID</th>
-      <th>User</th>
-      <th>Priority</th>
-      <th>Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US04</td>
-      <td>Administrador</td>
-      <td>3</td>
       <td>EP01</td>
     </tr>
-    <tr>
-      <td><strong>Title</strong></td>
-      <td colspan="3">Verificar información de usuarios</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>Description</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4">Como administrador, quiero verificar la información de los usuarios para asegurar que sea correcta.</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>Acceptance Criteria</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4">
+
+ <tr>
+      <td>US04</td>
+      <td>Verificar información de usuarios</td>
+      <td>Como administrador, quiero verificar la información de los usuarios para asegurar que sea correcta.</td>
+      <td>
         <strong>Escenario: Verificación exitosa</strong><br>
         Dado que el administrador revisa los datos<br>
         Cuando valida la información<br>
@@ -946,43 +841,14 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
         Cuando revisa el perfil<br>
         Entonces marca al usuario como pendiente de corrección.
       </td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-<table>
-	  <thead>
-    <tr>
-      <th>Story ID</th>
-      <th>User</th>
-      <th>Priority</th>
-      <th>Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US05</td>
-      <td>Administrador</td>
-      <td>3</td>
       <td>EP01</td>
     </tr>
-    <tr>
-      <td><strong>Title</strong></td>
-      <td colspan="3">Actualizar información de usuarios</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>Description</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4">Como administrador, quiero actualizar información de usuarios para mantener datos correctos.</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>Acceptance Criteria</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4">
+	
+ <tr>
+      <td>US05</td>
+      <td>Actualizar información de usuarios</td>
+      <td>Como administrador, quiero actualizar información de usuarios para mantener datos correctos.</td>
+      <td>
         <strong>Escenario: Actualización exitosa</strong><br>
         Dado que el administrador edita datos<br>
         Cuando guarda los cambios<br>
@@ -993,88 +859,31 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
         Cuando intenta guardar<br>
         Entonces el sistema muestra un error.
       </td>
-    </tr>
-  </tbody>
-</table>
-
-
-<table>
-	<thead>
-    <tr>
-      <th>Story ID</th>
-      <th>User</th>
-      <th>Priority</th>
-      <th>Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US06</td>
-      <td>Residente</td>
-      <td>3</td>
       <td>EP01</td>
     </tr>
-    <tr>
-      <td><strong>Title</strong></td>
-      <td colspan="3">Editar perfil</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>Description</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4">Como residente, quiero editar mi perfil para mantener mi información actualizada.</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>Acceptance Criteria</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4">
+
+ <tr>
+      <td>US06</td>
+      <td>Editar perfil</td>
+      <td>Como residente, quiero editar mi perfil para mantener mi información actualizada.</td>
+      <td>
         <strong>Escenario: Edición exitosa</strong><br>
         Dado que el residente modifica su información<br>
         Cuando guarda los cambios<br>
         Entonces su perfil se actualiza correctamente.<br><br>
 
-<strong>Escenario: Cancelación de cambios</strong><br>
+ <strong>Escenario: Cancelación de cambios</strong><br>
         Dado que el residente edita su perfil<br>
         Cuando cancela la operación<br>
         Entonces no se guardan los cambios.
       </td>
-    </tr>
-  </tbody>
-</table>
-
-
-<table>
-	  <thead>
-    <tr>
-      <th>Story ID</th>
-      <th>User</th>
-      <th>Priority</th>
-      <th>Epic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US07</td>
-      <td>Administrador</td>
-      <td>3</td>
       <td>EP01</td>
     </tr>
-    <tr>
-      <td><strong>Title</strong></td>
-      <td colspan="3">Registrar edificio y unidades</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>Description</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4">Como administrador, quiero registrar el edificio con sus unidades residenciales para poder gestionar la comunidad desde la app.</td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>Acceptance Criteria</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4">
+  <tr>
+      <td>US07</td>
+      <td>Registrar edificio y unidades</td>
+      <td>Como administrador, quiero registrar el edificio con sus unidades residenciales para poder gestionar la comunidad desde la app.</td>
+      <td>
         <strong>Escenario: Registro exitoso</strong><br>
         Dado que el administrador ingresa datos del edificio<br>
         Cuando registra las unidades<br>
@@ -1085,9 +894,430 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
         Cuando intenta registrar<br>
         Entonces el sistema muestra un error.
       </td>
+      <td>EP01</td>
     </tr>
+
   </tbody>
 </table>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Epic / User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+
+ <tr>
+      <td>US08</td>
+      <td>Notificaciones de incidencias o emergencias</td>
+      <td>Como residente, quiero recibir notificaciones inmediatas sobre incidencias o emergencias en el edificio para poder tomar precauciones a tiempo.</td>
+      <td>
+        <strong>Escenario: Notificación de emergencia enviada</strong><br>
+        Dado que ocurre una incidencia en el edificio<br>
+        Cuando el administrador la registra<br>
+        Entonces los residentes reciben una notificación inmediata.<br><br>
+
+ <strong>Escenario: Fallo en envío de notificación</strong><br>
+        Dado que ocurre una incidencia<br>
+        Cuando el sistema no puede enviar la notificación<br>
+        Entonces se registra un error en el sistema.
+      </td>
+      <td>EP02</td>
+    </tr>
+<tr>
+      <td>US09</td>
+      <td>Recordatorios de pagos pendientes</td>
+      <td>Como residente, quiero recibir recordatorios de mis pagos pendientes para evitar retrasos y mantenerme al día.</td>
+      <td>
+        <strong>Escenario: Recordatorio enviado correctamente</strong><br>
+        Dado que el residente tiene un pago pendiente<br>
+        Cuando se acerca la fecha de vencimiento<br>
+        Entonces recibe un recordatorio.<br><br>
+
+ <strong>Escenario: Sin pagos pendientes</strong><br>
+        Dado que el residente no tiene deudas<br>
+        Cuando se ejecuta el sistema de recordatorios<br>
+        Entonces no recibe ninguna notificación.
+      </td>
+      <td>EP02</td>
+    </tr>
+  <tr>
+      <td>US10</td>
+      <td>Recepción de comunicados importantes</td>
+      <td>Como residente, quiero recibir comunicados importantes del condominio para mantenerme informado sobre decisiones o actividades.</td>
+      <td>
+        <strong>Escenario: Comunicado recibido</strong><br>
+        Dado que el administrador publica un comunicado<br>
+        Cuando el residente tiene activadas las notificaciones<br>
+        Entonces recibe el comunicado.<br><br>
+
+ <strong>Escenario: Notificaciones desactivadas</strong><br>
+        Dado que el residente desactivó notificaciones<br>
+        Cuando se publica un comunicado<br>
+        Entonces no recibe alerta inmediata.
+      </td>
+      <td>EP02</td>
+    </tr>
+ <tr>
+      <td>US11</td>
+      <td>Notificaciones de reservas</td>
+      <td>Como residente, quiero recibir notificaciones sobre mis reservas de áreas comunes para recordar horarios y evitar conflictos.</td>
+      <td>
+        <strong>Escenario: Recordatorio de reserva</strong><br>
+        Dado que el residente tiene una reserva<br>
+        Cuando se acerca la hora<br>
+        Entonces recibe una notificación.<br><br>
+
+ <strong>Escenario: Reserva cancelada</strong><br>
+        Dado que una reserva es cancelada<br>
+        Cuando el sistema actualiza el estado<br>
+        Entonces el residente recibe una notificación de cancelación.
+      </td>
+      <td>EP02</td>
+    </tr>
+ <tr>
+      <td>US12</td>
+      <td>Configuración de notificaciones</td>
+      <td>Como residente, quiero elegir qué tipo de notificaciones recibir para recibir solo información relevante para mí.</td>
+      <td>
+        <strong>Escenario: Configuración guardada</strong><br>
+        Dado que el residente selecciona sus preferencias<br>
+        Cuando guarda los cambios<br>
+        Entonces el sistema actualiza sus notificaciones.<br><br>
+
+   <strong>Escenario: Error al guardar configuración</strong><br>
+        Dado que ocurre un error en el sistema<br>
+        Cuando el residente intenta guardar<br>
+        Entonces se muestra un mensaje de error.
+      </td>
+      <td>EP02</td>
+    </tr>
+<tr>
+      <td>US13</td>
+      <td>Publicar comunicados oficiales</td>
+      <td>Como administrador, quiero publicar comunicados oficiales para informar a los residentes.</td>
+      <td>
+        <strong>Escenario: Comunicado publicado</strong><br>
+        Dado que el administrador redacta un comunicado<br>
+        Cuando lo publica<br>
+        Entonces los residentes pueden visualizarlo.<br><br>
+
+  <strong>Escenario: Error al publicar</strong><br>
+        Dado que faltan datos en el comunicado<br>
+        Cuando intenta publicarlo<br>
+        Entonces el sistema muestra un error.
+      </td>
+      <td>EP02</td>
+    </tr>
+<tr>
+      <td>US14</td>
+      <td>Visualizar comunicados anteriores</td>
+      <td>Como residente, quiero visualizar comunicados anteriores para mantenerme informado.</td>
+      <td>
+        <strong>Escenario: Consulta de historial</strong><br>
+        Dado que existen comunicados previos<br>
+        Cuando el residente accede al historial<br>
+        Entonces puede visualizarlos.<br><br>
+
+  <strong>Escenario: Sin comunicados</strong><br>
+        Dado que no existen comunicados<br>
+        Cuando el residente accede<br>
+        Entonces se muestra un mensaje informativo.
+      </td>
+      <td>EP02</td>
+    </tr>
+ <tr>
+      <td>US15</td>
+      <td>Seguimiento de visualización de comunicados</td>
+      <td>Como administrador, quiero saber quién ha visto los comunicados para asegurar su alcance.</td>
+      <td>
+        <strong>Escenario: Registro de visualización</strong><br>
+        Dado que un residente abre un comunicado<br>
+        Cuando lo visualiza<br>
+        Entonces el sistema registra la vista.<br><br>
+
+ <strong>Escenario: Consulta de visualizaciones</strong><br>
+        Dado que el administrador revisa un comunicado<br>
+        Cuando consulta las métricas<br>
+        Entonces puede ver quién lo ha leído.
+      </td>
+      <td>EP02</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Epic / User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+
+ <tr>
+      <td>US16</td>
+      <td>Ver disponibilidad de áreas comunes</td>
+      <td>Como residente, quiero ver la disponibilidad de áreas comunes para planificar su uso.</td>
+      <td>
+        <strong>Escenario: Consulta de disponibilidad</strong><br>
+        Dado que el residente accede al calendario<br>
+        Cuando selecciona un área común<br>
+        Entonces puede ver los horarios disponibles.<br><br>
+
+ <strong>Escenario: Área sin disponibilidad</strong><br>
+        Dado que el área está completamente reservada<br>
+        Cuando el residente consulta<br>
+        Entonces el sistema muestra que no hay horarios disponibles.
+      </td>
+      <td>EP03</td>
+    </tr>
+
+<tr>
+      <td>US17</td>
+      <td>Reservar área común</td>
+      <td>Como residente, quiero reservar un área común para asegurar su uso en una fecha específica.</td>
+      <td>
+        <strong>Escenario: Reserva exitosa</strong><br>
+        Dado que el área está disponible<br>
+        Cuando el residente realiza la reserva<br>
+        Entonces el sistema registra la reserva correctamente.<br><br>
+
+ <strong>Escenario: Reserva en horario no disponible</strong><br>
+        Dado que el horario ya está ocupado<br>
+        Cuando intenta reservar<br>
+        Entonces el sistema muestra un mensaje de error.
+      </td>
+      <td>EP03</td>
+    </tr>
+<tr>
+      <td>US18</td>
+      <td>Aprobar o rechazar reservas</td>
+      <td>Como administrador, quiero aprobar o rechazar reservas para mantener el control.</td>
+      <td>
+        <strong>Escenario: Reserva aprobada</strong><br>
+        Dado que el administrador revisa una solicitud<br>
+        Cuando la aprueba<br>
+        Entonces la reserva queda confirmada.<br><br>
+
+ <strong>Escenario: Reserva rechazada</strong><br>
+        Dado que el administrador revisa una solicitud<br>
+        Cuando la rechaza<br>
+        Entonces el residente recibe una notificación de rechazo.
+      </td>
+      <td>EP03</td>
+    </tr>
+<tr>
+      <td>US19</td>
+      <td>Evitar reservas duplicadas</td>
+      <td>Como administrador, quiero evitar reservas duplicadas para prevenir conflictos.</td>
+      <td>
+        <strong>Escenario: Bloqueo de reserva duplicada</strong><br>
+        Dado que ya existe una reserva en ese horario<br>
+        Cuando otro usuario intenta reservar<br>
+        Entonces el sistema bloquea la operación.<br><br>
+
+ <strong>Escenario: Validación de disponibilidad</strong><br>
+        Dado que se realiza una nueva reserva<br>
+        Cuando el sistema valida el horario<br>
+        Entonces permite solo si no hay conflictos.
+      </td>
+      <td>EP03</td>
+    </tr>
+
+<tr>
+      <td>US20</td>
+      <td>Cancelar reserva</td>
+      <td>Como residente, quiero cancelar una reserva para liberar el espacio.</td>
+      <td>
+        <strong>Escenario: Cancelación exitosa</strong><br>
+        Dado que el residente tiene una reserva activa<br>
+        Cuando decide cancelarla<br>
+        Entonces el sistema libera el horario.<br><br>
+
+ <strong>Escenario: Cancelación fuera de tiempo permitido</strong><br>
+        Dado que la reserva está próxima a iniciar<br>
+        Cuando intenta cancelarla fuera del plazo permitido<br>
+        Entonces el sistema muestra un mensaje de restricción.
+      </td>
+      <td>EP03</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Epic / User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr>
+      <td>US21</td>
+      <td>Ver deuda actual</td>
+      <td>Como residente, quiero ver mi deuda actual para saber cuánto debo pagar.</td>
+      <td>
+        <strong>Escenario: Consulta de deuda actual</strong><br>
+        Dado que el residente ingresa a su panel financiero<br>
+        Cuando consulta su estado de cuenta<br>
+        Entonces el sistema muestra el monto total pendiente.<br><br>
+
+ <strong>Escenario: Sin deuda registrada</strong><br>
+        Dado que el residente no tiene pagos pendientes<br>
+        Cuando revisa su deuda actual<br>
+        Entonces el sistema muestra un saldo de cero.
+      </td>
+      <td>EP04</td>
+    </tr>
+
+<tr>
+      <td>US22</td>
+      <td>Registrar pago con comprobante</td>
+      <td>Como residente, quiero registrar mi pago y subir un comprobante para validarlo.</td>
+      <td>
+        <strong>Escenario: Registro exitoso de pago</strong><br>
+        Dado que el residente completa los datos del pago<br>
+        Cuando adjunta el comprobante y envía la información<br>
+        Entonces el sistema registra el pago como pendiente de validación.<br><br>
+
+ <strong>Escenario: Comprobante no adjuntado</strong><br>
+        Dado que el residente registra un pago<br>
+        Cuando no adjunta el comprobante<br>
+        Entonces el sistema muestra un mensaje de error.
+      </td>
+      <td>EP04</td>
+    </tr>
+
+<tr>
+      <td>US23</td>
+      <td>Registrar pagos en el sistema</td>
+      <td>Como administrador, quiero registrar pagos para mantener actualizado el sistema.</td>
+      <td>
+        <strong>Escenario: Registro manual exitoso</strong><br>
+        Dado que el administrador ingresa los datos del pago<br>
+        Cuando guarda la información<br>
+        Entonces el sistema actualiza el estado de cuenta del residente.<br><br>
+
+<strong>Escenario: Datos de pago incompletos</strong><br>
+        Dado que el administrador intenta registrar un pago<br>
+        Cuando faltan datos obligatorios<br>
+        Entonces el sistema muestra un error.
+      </td>
+      <td>EP04</td>
+    </tr>
+<tr>
+      <td>US24</td>
+      <td>Visualizar residentes morosos</td>
+      <td>Como administrador, quiero visualizar residentes morosos para tomar acciones.</td>
+      <td>
+        <strong>Escenario: Consulta de morosos</strong><br>
+        Dado que existen residentes con deudas pendientes<br>
+        Cuando el administrador accede al módulo de morosidad<br>
+        Entonces el sistema muestra la lista de morosos.<br><br>
+
+<strong>Escenario: Sin residentes morosos</strong><br>
+        Dado que todos los residentes están al día<br>
+        Cuando el administrador revisa la morosidad<br>
+        Entonces el sistema muestra que no hay deudas pendientes.
+      </td>
+      <td>EP04</td>
+    </tr>
+
+ <tr>
+      <td>US25</td>
+      <td>Generar reportes financieros</td>
+      <td>Como administrador, quiero generar reportes financieros para evaluar el estado del condominio.</td>
+      <td>
+        <strong>Escenario: Generación exitosa de reporte</strong><br>
+        Dado que el administrador selecciona un período de tiempo<br>
+        Cuando solicita el reporte financiero<br>
+        Entonces el sistema genera el resumen de ingresos y egresos.<br><br>
+
+<strong>Escenario: Período no válido</strong><br>
+        Dado que el administrador selecciona fechas incorrectas<br>
+        Cuando intenta generar el reporte<br>
+        Entonces el sistema muestra un mensaje de error.
+      </td>
+      <td>EP04</td>
+    </tr>
+
+<tr>
+      <td>US26</td>
+      <td>Exportar reportes financieros</td>
+      <td>Como administrador, quiero exportar reportes para compartirlos con la comunidad.</td>
+      <td>
+        <strong>Escenario: Exportación exitosa</strong><br>
+        Dado que el administrador genera un reporte<br>
+        Cuando selecciona la opción de exportar<br>
+        Entonces el sistema descarga el archivo correctamente.<br><br>
+
+ <strong>Escenario: Error en exportación</strong><br>
+        Dado que el administrador intenta exportar un reporte<br>
+        Cuando ocurre un fallo del sistema<br>
+        Entonces se muestra un mensaje de error.
+      </td>
+      <td>EP04</td>
+    </tr>
+
+<tr>
+      <td>US27</td>
+      <td>Ver resumen de gastos</td>
+      <td>Como residente, quiero ver un resumen de gastos para confiar en la gestión.</td>
+      <td>
+        <strong>Escenario: Visualización de resumen</strong><br>
+        Dado que existen gastos registrados del condominio<br>
+        Cuando el residente accede al resumen financiero<br>
+        Entonces el sistema muestra el detalle de gastos.<br><br>
+
+<strong>Escenario: Sin gastos registrados</strong><br>
+        Dado que no existen gastos cargados en el período<br>
+        Cuando el residente consulta el resumen<br>
+        Entonces el sistema muestra un mensaje informativo.
+      </td>
+      <td>EP04</td>
+    </tr>
+
+ <tr>
+      <td>US28</td>
+      <td>Consultar pagos pasados</td>
+      <td>Como residente, deseo consultar mis pagos pasados para tener un respaldo de mis transacciones.</td>
+      <td>
+        <strong>Escenario: Consulta de historial de pagos</strong><br>
+        Dado que el residente tiene pagos registrados<br>
+        Cuando accede al historial<br>
+        Entonces el sistema muestra sus transacciones anteriores.<br><br>
+
+ <strong>Escenario: Sin historial de pagos</strong><br>
+        Dado que el residente no tiene pagos registrados<br>
+        Cuando consulta sus pagos pasados<br>
+        Entonces el sistema muestra un mensaje informativo.
+      </td>
+      <td>EP04</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+
+
 
 # 3.3. Impact Mapping
 # 3.4. Product Backlog
