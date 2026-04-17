@@ -1355,7 +1355,56 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
   </tbody>
 </table>
 
+<table>
+  <thead>
+    <tr>
+      <th>Epic / User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
 
+<tr>
+      <td>TS01</td>
+      <td>Implementar autenticación con JWT</td>
+      <td>Como desarrollador, quiero implementar autenticación mediante tokens JWT para garantizar acceso seguro a todos los endpoints de la API.</td>
+      <td>
+        <strong>Escenario: Generación de token JWT</strong><br>
+        Dado que el usuario se autentica correctamente<br>
+        Cuando el sistema valida sus credenciales<br>
+        Entonces se genera un token JWT válido.<br><br>
+
+ <strong>Escenario: Acceso con token inválido</strong><br>
+        Dado que un usuario intenta acceder a un endpoint protegido<br>
+        Cuando el token es inválido o expirado<br>
+        Entonces el sistema rechaza la solicitud con error de autenticación.
+      </td>
+      <td>EP01</td>
+ </tr>
+
+<tr>
+      <td>TS02</td>
+      <td>Implementar endpoints de registro e inicio de sesión</td>
+      <td>Como desarrollador, quiero implementar los endpoints de registro e inicio de sesión para que los usuarios puedan crear cuentas y autenticarse.</td>
+      <td>
+        <strong>Escenario: Registro de usuario exitoso</strong><br>
+        Dado que el usuario envía datos válidos<br>
+        Cuando el sistema procesa el registro<br>
+        Entonces se crea una nueva cuenta en la base de datos.<br><br>
+
+ <strong>Escenario: Inicio de sesión exitoso</strong><br>
+        Dado que el usuario ingresa credenciales correctas<br>
+        Cuando realiza la solicitud de login<br>
+        Entonces el sistema autentica al usuario y devuelve un token.
+      </td>
+      <td>EP01</td>
+    </tr>
+
+  </tbody>
+</table>
 
 
 
