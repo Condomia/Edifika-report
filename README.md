@@ -1411,6 +1411,39 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 # 3.3. Impact Mapping
 # 3.4. Product Backlog
 
+| Orden | User Story Id | Título | Descripción | Story Points |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | US01 | Crear cuenta vinculada a unidad | Como residente, deseo crear una cuenta vinculada a mi unidad para acceder a la gestión de mi edificio. | 5 |
+| 2 | US02 | Registro con correo | Como usuario, quiero registrarme con mi correo para acceder a la plataforma. | 3 |
+| 3 | US03 | Inicio de sesión | Como usuario, quiero iniciar sesión para acceder a mi información del condominio. | 2 |
+| 4 | US04 | Verificar información de usuarios | Como administrador, quiero verificar la información de los usuarios para asegurar que sea correcta. | 3 |
+| 5 | US05 | Actualizar información de usuarios | Como administrador, quiero actualizar información de usuarios para mantener datos correctos. | 2 |
+| 6 | US06 | Editar perfil | Como residente, quiero editar mi perfil para mantener mi información actualizada. | 2 |
+| 7 | US07 | Registrar edificio y unidades | Como administrador, quiero registrar el edificio con sus unidades residenciales para gestionar la comunidad. | 8 |
+| 8 | US08 | Notificaciones de incidencias | Como residente, quiero recibir notificaciones inmediatas sobre incidencias o emergencias. | 5 |
+| 9 | US09 | Recordatorios de pagos | Como residente, quiero recibir recordatorios de mis pagos pendientes para evitar retrasos. | 5 |
+| 10 | US10 | Recepción de comunicados | Como residente, quiero recibir comunicados importantes del condominio para mantenerme informado. | 3 |
+| 11 | US11 | Notificaciones de reservas | Como residente, quiero recibir notificaciones sobre mis reservas de áreas comunes. | 3 |
+| 12 | US12 | Configuración de notificaciones | Como residente, quiero elegir qué tipo de notificaciones recibir para filtrar información. | 3 |
+| 13 | US13 | Publicar comunicados oficiales | Como administrador, quiero publicar comunicados oficiales para informar a los residentes. | 3 |
+| 14 | US14 | Visualizar comunicados anteriores | Como residente, quiero visualizar comunicados anteriores para mantenerme informado. | 2 |
+| 15 | US15 | Seguimiento de visualización | Como administrador, quiero saber quién ha visto los comunicados para asegurar su alcance. | 5 |
+| 16 | US16 | Ver disponibilidad de áreas | Como residente, quiero ver la disponibilidad de áreas comunes para planificar su uso. | 3 |
+| 17 | US17 | Reservar área común | Como residente, quiero reservar un área común para asegurar su uso en una fecha específica. | 5 |
+| 18 | US18 | Aprobar o rechazar reservas | Como administrador, quiero aprobar o rechazar reservas para mantener el control. | 3 |
+| 19 | US19 | Evitar reservas duplicadas | Como administrador, quiero evitar reservas duplicadas para prevenir conflictos. | 5 |
+| 20 | US20 | Cancelar reserva | Como residente, quiero cancelar una reserva para liberar el espacio. | 2 |
+| 21 | US21 | Ver deuda actual | Como residente, quiero ver mi deuda actual para saber cuánto debo pagar. | 3 |
+| 22 | US22 | Registrar pago con comprobante | Como residente, quiero registrar mi pago y subir un comprobante para validarlo. | 5 |
+| 23 | US23 | Registrar pagos en el sistema | Como administrador, quiero registrar pagos para mantener actualizado el sistema. | 3 |
+| 24 | US24 | Visualizar residentes morosos | Como administrador, quiero visualizar residentes morosos para tomar acciones. | 5 |
+| 25 | US25 | Generar reportes financieros | Como administrador, quiero generar reportes financieros para evaluar el estado del condominio. | 8 |
+| 26 | US26 | Exportar reportes financieros | Como administrador, quiero exportar reportes para compartirlos con la comunidad. | 3 |
+| 27 | US27 | Ver resumen de gastos | Como residente, quiero ver un resumen de gastos para confiar en la gestión. | 3 |
+| 28 | US28 | Consultar pagos pasados | Como residente, deseo consultar mis pagos pasados para tener un respaldo. | 3 |
+| 29 | TS01 | Implementar autenticación JWT | Como desarrollador, quiero implementar autenticación mediante tokens JWT para acceso seguro. | 5 |
+| 30 | TS02 | Endpoints de registro y login | Como desarrollador, quiero implementar los endpoints de registro e inicio de sesión. | 5 |
+
 # Conclusiones
 # Conclusiones-y-Recomendaciones
 
