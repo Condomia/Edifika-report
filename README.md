@@ -133,7 +133,7 @@ su proyecto en soluciones de ingeniería
 de software</td>
       <td>
    		Becerra Tejeda, Alessandra Nicole <br><br>
-		TB1: <br><br>
+		TB1: <br> Investigué y consolidé conceptos actualizados relacionados con la definición del problem statement, hypothesis y assumptions, aplicándolos de manera estructurada en el planteamiento inicial del proyecto. <br>
 		Martinez, Alvaro Leandro <br><br>
 		TB1: <br><br>
 		Ortiz Cardenas, Johanna Antuanete <br><br>
@@ -753,7 +753,7 @@ Entrevista #2: <br><br>
 
 ![interview2](assets/img/interviews/admin2.png)
 
-Enlace de entrevista: <br><br>
+Enlace de entrevista: <br> <br>
 
 Nombre y apellido: <br>
 Edad:  <br>
@@ -780,13 +780,14 @@ Entrevista #1: <br><br>
 
 ![interview1](assets/img/interviews/prop1.png)
 
-Enlace de entrevista: <br><br>
+Enlace de entrevista: <br>  <br>
 
-Nombre y apellido: <br>
-Edad: <br>
-Distrito: <br>
-Resumen: <br><br>
-
+Nombre y apellido: Mery Ojeda <br>
+Edad: 38 <br>
+Distrito: San Miguel<br>
+Resumen: <br>
+Mery es propietaria de un departamento en un condominio, ella indicó que recibe información sobre sus pagos mediante recibos mensuales y que el proceso de pago es sencillo a través de depósitos o aplicativos; sin embargo, señaló que no existe un acceso directo al historial de pagos, lo que obliga a recurrir a la administración. Asimismo, mencionó dificultades en la reserva de áreas comunes por falta de claridad y alta demanda, además de demoras en la comunicación, ya que WhatsApp no siempre ofrece respuestas oportunas y la atención presencial no es constante. Aunque percibe cierto nivel de transparencia en los gastos, considera tedioso el proceso de reclamos y manifestó interés en una aplicación móvil que centralice pagos, reservas y comunicaciones de manera rápida y eficiente.
+<br>
 
 Entrevista #2: <br>
 
