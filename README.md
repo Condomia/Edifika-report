@@ -705,6 +705,83 @@ Táctica: Implementar un calendario interactivo con disponibilidad en tiempo rea
 
 ## 2.2.2 Registro de entrevista
 
+**Segmento obejtivo: Administradores de edificios y condominios:**
+
+Entrevista #1: <br><br>
+
+![interview1](assets/img/interview/admin1.png)
+
+Enlace de entrevista: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQDEXx-uGk1tS71xXaDeSeDeAf3fEODmStVZKztx7vcr0i8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5V6W7o`
+
+Nombre y apellido: Cesar Villalobos <br><br>
+Edad: 51 años <br><br>
+Distrito: Cercado de Lima <br><br>
+Resumen: <br>
+César es administrador de edificios en GWM EIRL y actualmente gestiona 15 edificios usando Excel con macros como herramienta principal, apoyándose en WhatsApp para coordinar reservas y comunicaciones, y en las páginas de los bancos para pagos. El proceso más tedioso es la emisión de recibos, que aún se hace de forma física en varios edificios y que desea digitalizar al 100%. Ha evaluado entre 3 y 4 sistemas sin éxito, ya que todos presentaban exceso de información que generaba confusión en los propietarios y una percepción de desorden o falta de transparencia. Como empresa tiene el objetivo claro de migrar a una plataforma digital, y considera que una app o sistema web mejoraría significativamente la comunicación y la gestión, siempre que sea ágil, ordenada, fácil de entender y con información siempre actualizada. En cuanto al precio, conoce el mercado y sabe que el rango habitual oscila entre 2 y 5 dólares por unidad al mes. <br><br>
+
+Entrevista #2: <br><br>
+
+![interview2](assets/img/interview/admin2.png)
+
+Enlace de entrevista: <br><br>
+
+Nombre y apellido: <br><br>
+Edad:  <br><br>
+Distrito:  <br><br>
+Resumen: <br><br>
+
+
+Entrevista #3: <br><br>
+
+![interview3](assets/img/interview/admin3.png)
+
+Enlace de entrevista: <br><br>
+
+Nombre y apellido: <br><br>
+Edad: <br><br>
+Distrito: <br><br>
+Resumen: <br><br>
+
+
+**Segmento obejtivo: Propietarios e Inquilinos:**
+
+
+Entrevista #1: <br><br>
+
+![interview1](assets/img/interview/prop1.png)
+
+Enlace de entrevista: <br><br>
+
+Nombre y apellido: <br><br>
+Edad: <br><br>
+Distrito: <br><br>
+Resumen: <br><br>
+
+
+Entrevista #2: <br>
+
+![interview2](assets/img/interview/prop2.png)
+
+Enlace de entrevista: <br><br>
+
+Nombre y apellido: <br><br>
+Edad: <br><br>
+Distrito: <br><br>
+Resumen:<br><br>
+
+Entrevista #3: <br><br>
+
+![interview3](assets/img/interview/prop3.png)
+
+Enlace de entrevista: <br><br>
+
+Nombre y apellido: <br><br>
+Edad: <br><br>
+Distrito: <br><br>
+Resumen: <br><br>
+
+## 2.2.3 Análisis de entrevistas
+
  # 2.3. Needfinding
 
 ## 2.3.1. User Personas
