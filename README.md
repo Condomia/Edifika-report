@@ -132,8 +132,20 @@ desarrollo profesional y en especial para
 su proyecto en soluciones de ingeniería
 de software</td>
       <td>
-   
+   		Becerra Tejeda, Alessandra Nicole <br><br>
+		TB1: <br><br>
+		Martinez, Alvaro Leandro <br><br>
+		TB1: <br><br>
+		Ortiz Cardenas, Johanna Antuanete <br><br>
+		TB1: <br>
+		Investigué y documenté el perfil de la startup Condomia, el nombre y concepto del producto Edifika, y los antecedentes del problema que busca resolver en la gestión de condominios.<br><br>
+		Sarmiento Medina, Loreley <br><br>
+		TB1: <br><br>
+		Zegarra López, Renato Sebastián Rubber <br><br>
+		TB1: <br><br>
   </td>
+	<td>
+		A lo largo del desarrollo del primer entregable, el equipo demostró capacidad para incorporar nuevos conceptos y herramientas propias de la ingeniería de software. El desarrollo del perfil de Condomia, la definición de Edifika y el trabajo con metodologías como Lean UX nos llevaron a investigar y aplicar conocimientos que inicialmente no manejábamos con profundidad. Este proceso de actualización continua se reflejó directamente en la calidad y coherencia de la documentación entregada.</td>
     </tr>
     <tr>
       <td>7.c2. Reconoce la necesidad del
@@ -142,8 +154,21 @@ desempeño profesional y el desarrollo
 de proyectos en soluciones de
 tecnologías de ingeniería de software.</td>
   <td>
-   
+		Becerra Tejeda, Alessandra Nicole <br><br>
+		TB1: <br><br>
+		Martinez, Alvaro Leandro <br><br>
+		TB1: <br><br>
+		Ortiz Cardenas, Johanna Antuanete <br><br>
+		TB1: Reconocí la importancia de investigar el sector de gestión de condominios para desarrollar una solución relevante, lo que me motivó a profundizar en nuevos conceptos y herramientas necesarias para el proyecto Edifika.<br><br>
+		Sarmiento Medina, Loreley <br><br>
+		TB1: <br><br>
+		Zegarra López, Renato Sebastián Rubber <br><br>
+		TB1: <br><br>
+		
   </td>
+  <td>
+		El desarrollo del proyecto Edifika nos permitió comprender que mantenerse en constante aprendizaje no es opcional, sino necesario. Cada sección trabajada en la TB1 nos presentó nuevos retos que exigieron investigar, cuestionar y adaptarnos. Como equipo, entendimos que la disposición para aprender de forma autónoma es una habilidad igual de importante que el conocimiento técnico en sí.
+		</td>
     </tr>
     <tr>
   </tbody>
