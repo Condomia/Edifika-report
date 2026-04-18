@@ -167,7 +167,12 @@ tecnologías de ingeniería de software.</td>
     
 - [CAPÍTULO II: Requirements & Analysis](#capítulo-ii-requirements--analysis)
   - [2.1. Competidores](#21-competidores)
+    -[2.1.1 Análisis de Competidores](#211-análisis-de-competidores)
+    -[2.1.2. Estrategias frente a competidores](#212-estrategias-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2 Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3 Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
@@ -443,7 +448,7 @@ El crecimiento de la vivienda vertical en ciudades ha incrementado la cantidad d
  # CAPÍTULO II: Requirements & Analysis
 
  # 2.1. Competidores
- ## 2.1.1 Analisis de Competidores
+ ## 2.1.1 Análisis de Competidores
  
  <table border="2" style="text-align: center;">
 	<tbody>
@@ -703,43 +708,43 @@ Táctica: Implementar un calendario interactivo con disponibilidad en tiempo rea
 
 - Si pudiera cambiar una sola cosa de la gestión de su condominio, ¿qué sería?
 
-## 2.2.2 Registro de entrevista
+## 2.2.2 Registro de entrevistas
 
 **Segmento obejtivo: Administradores de edificios y condominios:**
 
 Entrevista #1: <br><br>
 
-![interview1](assets/img/interview/admin1.png)
+![interview1](assets/img/interviews/admin1.png)
 
 Enlace de entrevista: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQDEXx-uGk1tS71xXaDeSeDeAf3fEODmStVZKztx7vcr0i8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5V6W7o`
 
-Nombre y apellido: Cesar Villalobos <br><br>
-Edad: 51 años <br><br>
-Distrito: Cercado de Lima <br><br>
+Nombre y apellido: Cesar Villalobos <br>
+Edad: 51 años <br>
+Distrito: Cercado de Lima <br>
 Resumen: <br>
 César es administrador de edificios en GWM EIRL y actualmente gestiona 15 edificios usando Excel con macros como herramienta principal, apoyándose en WhatsApp para coordinar reservas y comunicaciones, y en las páginas de los bancos para pagos. El proceso más tedioso es la emisión de recibos, que aún se hace de forma física en varios edificios y que desea digitalizar al 100%. Ha evaluado entre 3 y 4 sistemas sin éxito, ya que todos presentaban exceso de información que generaba confusión en los propietarios y una percepción de desorden o falta de transparencia. Como empresa tiene el objetivo claro de migrar a una plataforma digital, y considera que una app o sistema web mejoraría significativamente la comunicación y la gestión, siempre que sea ágil, ordenada, fácil de entender y con información siempre actualizada. En cuanto al precio, conoce el mercado y sabe que el rango habitual oscila entre 2 y 5 dólares por unidad al mes. <br><br>
 
 Entrevista #2: <br><br>
 
-![interview2](assets/img/interview/admin2.png)
+![interview2](assets/img/interviews/admin2.png)
 
 Enlace de entrevista: <br><br>
 
-Nombre y apellido: <br><br>
-Edad:  <br><br>
-Distrito:  <br><br>
+Nombre y apellido: <br>
+Edad:  <br>
+Distrito:  <br>
 Resumen: <br><br>
 
 
 Entrevista #3: <br><br>
 
-![interview3](assets/img/interview/admin3.png)
+![interview3](assets/img/interviews/admin3.png)
 
 Enlace de entrevista: <br><br>
 
-Nombre y apellido: <br><br>
-Edad: <br><br>
-Distrito: <br><br>
+Nombre y apellido: <br>
+Edad: <br>
+Distrito: <br>
 Resumen: <br><br>
 
 
@@ -748,36 +753,36 @@ Resumen: <br><br>
 
 Entrevista #1: <br><br>
 
-![interview1](assets/img/interview/prop1.png)
+![interview1](assets/img/interviews/prop1.png)
 
 Enlace de entrevista: <br><br>
 
-Nombre y apellido: <br><br>
-Edad: <br><br>
-Distrito: <br><br>
+Nombre y apellido: <br>
+Edad: <br>
+Distrito: <br>
 Resumen: <br><br>
 
 
 Entrevista #2: <br>
 
-![interview2](assets/img/interview/prop2.png)
+![interview2](assets/img/interviews/prop2.png)
 
 Enlace de entrevista: <br><br>
 
-Nombre y apellido: <br><br>
-Edad: <br><br>
-Distrito: <br><br>
+Nombre y apellido: <br>
+Edad: <br>
+Distrito: <br>
 Resumen:<br><br>
 
 Entrevista #3: <br><br>
 
-![interview3](assets/img/interview/prop3.png)
+![interview3](assets/img/interviews/prop3.png)
 
 Enlace de entrevista: <br><br>
 
-Nombre y apellido: <br><br>
-Edad: <br><br>
-Distrito: <br><br>
+Nombre y apellido: <br>
+Edad: <br>
+Distrito: <br>
 Resumen: <br><br>
 
 ## 2.2.3 Análisis de entrevistas
