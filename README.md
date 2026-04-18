@@ -1566,3 +1566,4 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 
 # Anexos
 # Links
+- Enlace del repositorio: `https://github.com/Condomia/Edifika-report.git`
