@@ -797,9 +797,9 @@ Entrevista #2: <br>
 
 Enlace de entrevista: <br><br>
 
-Nombre y apellido: <br>
+Nombre y apellido: Melina Lopez<br>
 Edad: <br>
-Distrito: <br>
+Distrito: San Miguel<br>
 Resumen:<br><br>
 
 Entrevista #3: <br><br>
