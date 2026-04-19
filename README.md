@@ -714,15 +714,14 @@ Resumen: <br>El entrevistado, Daniel Farro, administrador de un condominio de ci
 
 Entrevista #3: <br><br>
 
-![interview3](assets/img/interviews/admin3.png)
+![interview3](assets/img/imagen_2026-04-18_194125234.png)
 
 Enlace de entrevista: <br><br>
 
-Nombre y apellido: <br>
-Edad: <br>
-Distrito: <br>
-Resumen: <br><br>
-
+Nombre y apellido: <br>Andrés Ventoncilla
+Edad: <br>25
+Distrito: <br>San Miguel
+Resumen: <br>Andrés Ventocilla se encarga de la supervisión de 4 inmuebles residenciales, basando toda su estructura de trabajo en documentos de Excel y la mensajería de WhatsApp para el contacto con los residentes. El mayor cuello de botella que enfrenta es la verificación de depósitos, una tarea manual donde debe contrastar cada movimiento bancario con las capturas de pantalla que envían los vecinos, lo que le resta eficiencia a su labor administrativa. Tras haber probado otras alternativas tecnológicas, las descartó por ser demasiado robustas y difíciles de navegar, lo que terminaba por confundir a los usuarios finales. Su meta es integrar la operación en un ecosistema digital como Edifika, siempre que la herramienta priorice la simplicidad visual y permita que los propietarios visualicen el uso de los fondos de forma clara. Bajo su perspectiva, una tarifa mensual de entre S/ 150 y S/ 300 por edificio sería un monto justo, siempre que el sistema logre liberar su tiempo de tareas repetitivas.<br>
 
 **Segmento obejtivo: Propietarios e Inquilinos:**
 
@@ -753,14 +752,14 @@ Resumen: Se entrevistó a Melina López, propietaria de un departamento, ella in
 
 Entrevista #3: <br><br>
 
-![interview3](assets/img/interviews/prop3.png)
+![interview3](assets/img/imagen_2026-04-18_194046671.png)
 
 Enlace de entrevista: <br><br>
 
-Nombre y apellido: <br>
-Edad: <br>
-Distrito: <br>
-Resumen: <br><br>
+Nombre y apellido: <br>Angel Lazo Panduro
+Edad: <br>24
+Distrito: <br>San Miguel
+Resumen: <br>Angel Lazo Panduro reside en un condominio de tamaño medio y manifiesta una clara frustración por la dependencia de métodos tradicionales, como el uso de papeles informativos en áreas comunes y el envío de capturas de pantalla por chats grupales para reportar sus cuotas. Para él, la comunicación actual es desordenada, lo que provoca que muchas veces ignore avisos importantes sobre reparaciones o servicios del edificio. Su prioridad principal es la autogestión; busca una herramienta que le permita confirmar la disponibilidad del área de parrillas y realizar su reserva de forma instantánea sin tener que esperar la aprobación manual de un portero o administrador. Angel ve en Edifika la oportunidad de profesionalizar la convivencia, eliminando la fricción de los trámites presenciales y obteniendo una visibilidad clara de su historial financiero. Considera que la plataforma será un éxito en su edificio si logra simplificar el proceso de reporte de pagos y centraliza los reglamentos internos en un formato digital de fácil acceso.<br>
 
 ## 2.2.3 Análisis de entrevistas
 ## **Segmento objetivo de administradores de edificios y condominios**
