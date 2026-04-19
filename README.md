@@ -130,7 +130,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         Sarmiento Medina, Loreley <br><br>
         TB1: <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
-        TB1: <br><br>
+        TB1: <br>Realicé investigación sobre el sector de gestión de condominios, incluyendo análisis de competidores y entrevistas a usuarios, lo que me permitió actualizar conocimientos relevantes para el desarrollo de una solución de software.<br>
       </td>
       <td>A lo largo del desarrollo del primer entregable, el equipo demostró capacidad para incorporar nuevos conceptos y herramientas propias de la ingeniería de software. El desarrollo del perfil de Condomia, la definición de Edifika y el trabajo con metodologías como Lean UX nos llevaron a investigar y aplicar conocimientos que inicialmente no manejábamos con profundidad. Este proceso de actualización continua se reflejó directamente en la calidad y coherencia de la documentación entregada.</td>
     </tr>
@@ -146,7 +146,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         Sarmiento Medina, Loreley <br><br>
         TB1: <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
-        TB1: <br><br>
+        TB1: <br>A partir del desarrollo del Lean UX Canvas, el análisis de competidores y las entrevistas realizadas, reconocí que el aprendizaje permanente es esencial para el desempeño profesional en ingeniería de software. Esta experiencia evidenció la necesidad de actualizar continuamente conocimientos sobre tecnologías, metodologías y necesidades del usuario para diseñar soluciones efectivas y relevantes.<br>
       </td>
       <td>El desarrollo del proyecto Edifika nos permitió comprender que mantenerse en constante aprendizaje no es opcional, sino necesario. Cada sección trabajada en la TB1 nos presentó nuevos retos que exigieron investigar, cuestionar y adaptarnos. Como equipo, entendimos que la disposición para aprender de forma autónoma es una habilidad igual de importante que el conocimiento técnico en sí.</td>
     </tr>
