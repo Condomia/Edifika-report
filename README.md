@@ -48,69 +48,61 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
 
 
 ## Registro de Versiones del Informe
+
 <div align="center">
 <table>
-  <thead>
-    <tr>
-      <th>Versión</th>
-      <th>Fecha</th>
-      <th>Autor</th>
-      <th>Descripción de modificación</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>TB1</td>
-      <td>17/04/2026</td>
-      <td>
-        
--Becerra Tejeda, Alessandra Nicole
-
--Bejarano Martinez, Alvaro Leandro
-
--Ortiz Cardenas, Johanna Antuanete
-
--Sarmiento Medina, Loreley
-
--Zegarra López, Renato Sebastián Rubber 
-
-      </td>
-      <td> Se realizaron los siguientes puntos del informe: <br>
-      Capítulo I: Introducción
-      1.1	Startup Profile
-      1.1.1	Descripción de la Startup
-      1.1.2	Perfiles de integrantes del equipo
-      1.2	Solution Profile
-      1.2.1	Nombre del producto
-      1.2.2	Antecedentes y problemática
-      1.2.3	Lean UX Process
-      1.2.3.1	Lean UX Problem Statement
-      1.2.3.2	Lean UX Assumptions
-      1.2.3.3	Lean UX Hypothesis
-      1.2.3.4	Lean UX Canvas
-      1.3	Segmentos objetivo
-      Capítulo II: Requirements  & Analysis
-      2.1	Competidores
-      2.2	Entrevistas
-      2.3	Needfinding
-      2.3.1	User Personas
-      2.3.2	User Task Matrix
-      2.3.3	Empathy Maps
-      2.3.4	As-is Scenario Mapping
-      Capítulo III: Requirements Specification
-      3.1	To-Be Scenario Mapping
-      3.2	User Stories
-      3.3	Impact Map
-      3.4	Product Backlog   
-
- </td>
-    </tr>
-  
-  </tbody>
-
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TB1</td>
+      <td>17/04/2026</td>
+      <td>
+        - Becerra Tejeda, Alessandra Nicole <br>
+        - Bejarano Martinez, Alvaro Leandro <br>
+        - Ortiz Cardenas, Johanna Antuanete <br>
+        - Sarmiento Medina, Loreley <br>
+        - Zegarra López, Renato Sebastián Rubber
+      </td>
+      <td>
+        Se realizaron los siguientes puntos del informe: <br><br>
+        <b>Capítulo I: Introducción</b> <br>
+        1.1 Startup Profile <br>
+        1.1.1 Descripción de la Startup <br>
+        1.1.2 Perfiles de integrantes del equipo <br>
+        1.2 Solution Profile <br>
+        1.2.1 Nombre del producto <br>
+        1.2.2 Antecedentes y problemática <br>
+        1.2.3 Lean UX Process <br>
+        1.2.3.1 Lean UX Problem Statement <br>
+        1.2.3.2 Lean UX Assumptions <br>
+        1.2.3.3 Lean UX Hypothesis <br>
+        1.2.3.4 Lean UX Canvas <br>
+        1.3 Segmentos objetivo <br><br>
+        <b>Capítulo II: Requirements & Analysis</b> <br>
+        2.1 Competidores <br>
+        2.2 Entrevistas <br>
+        2.3 Needfinding <br>
+        2.3.1 User Personas <br>
+        2.3.2 User Task Matrix <br>
+        2.3.3 Empathy Maps <br>
+        2.3.4 As-is Scenario Mapping <br><br>
+        <b>Capítulo III: Requirements Specification</b> <br>
+        3.1 To-Be Scenario Mapping <br>
+        3.2 User Stories <br>
+        3.3 Impact Map <br>
+        3.4 Product Backlog
+      </td>
+    </tr>
+  </tbody>
 </table>
 </div>
-
 
 ## **Student Outcome**
 ABET – EAC - Student Outcome 7: Aprendizaje Continuo y Autónomo <br>
@@ -126,51 +118,38 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
   </thead>
   <tbody>
     <tr>
-      <td>7.c1. Actualiza conceptos y
-conocimientos necesarios para su
-desarrollo profesional y en especial para
-su proyecto en soluciones de ingeniería
-de software</td>
+      <td>7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software</td>
       <td>
-   		Becerra Tejeda, Alessandra Nicole <br><br>
-		TB1: <br> Investigué y consolidé conceptos actualizados relacionados con la definición del problem statement, hypothesis y assumptions, aplicándolos de manera estructurada en el planteamiento inicial del proyecto. <br>
-		Martinez, Alvaro Leandro <br><br>
-		TB1: <br><br>
-		Ortiz Cardenas, Johanna Antuanete <br><br>
-		TB1: <br>
-		Investigué y documenté el perfil de la startup Condomia, el nombre y concepto del producto Edifika, y los antecedentes del problema que busca resolver en la gestión de condominios.<br><br>
-		Sarmiento Medina, Loreley <br><br>
-		TB1: <br><br>
-		Zegarra López, Renato Sebastián Rubber <br><br>
-		TB1: <br><br>
-  </td>
-	<td>
-		A lo largo del desarrollo del primer entregable, el equipo demostró capacidad para incorporar nuevos conceptos y herramientas propias de la ingeniería de software. El desarrollo del perfil de Condomia, la definición de Edifika y el trabajo con metodologías como Lean UX nos llevaron a investigar y aplicar conocimientos que inicialmente no manejábamos con profundidad. Este proceso de actualización continua se reflejó directamente en la calidad y coherencia de la documentación entregada.</td>
+        Becerra Tejeda, Alessandra Nicole <br><br>
+        TB1: <br> Investigué y consolidé conceptos actualizados relacionados con la definición del problem statement, hypothesis y assumptions, aplicándolos de manera estructurada en el planteamiento inicial del proyecto. <br><br>
+        Martinez, Alvaro Leandro <br><br>
+        TB1: <br><br>
+        Ortiz Cardenas, Johanna Antuanete <br><br>
+        TB1: <br>
+        Investigué y documenté el perfil de la startup Condomia, el nombre y concepto del producto Edifika, y los antecedentes del problema que busca resolver en la gestión de condominios.<br><br>
+        Sarmiento Medina, Loreley <br><br>
+        TB1: <br><br>
+        Zegarra López, Renato Sebastián Rubber <br><br>
+        TB1: <br><br>
+      </td>
+      <td>A lo largo del desarrollo del primer entregable, el equipo demostró capacidad para incorporar nuevos conceptos y herramientas propias de la ingeniería de software. El desarrollo del perfil de Condomia, la definición de Edifika y el trabajo con metodologías como Lean UX nos llevaron a investigar y aplicar conocimientos que inicialmente no manejábamos con profundidad. Este proceso de actualización continua se reflejó directamente en la calidad y coherencia de la documentación entregada.</td>
     </tr>
     <tr>
-      <td>7.c2. Reconoce la necesidad del
-aprendizaje permanente para el
-desempeño profesional y el desarrollo
-de proyectos en soluciones de
-tecnologías de ingeniería de software.</td>
-  <td>
-		Becerra Tejeda, Alessandra Nicole <br><br>
-		TB1: <br><br>
-		Martinez, Alvaro Leandro <br><br>
-		TB1: <br><br>
-		Ortiz Cardenas, Johanna Antuanete <br><br>
-		TB1: Reconocí la importancia de investigar el sector de gestión de condominios para desarrollar una solución relevante, lo que me motivó a profundizar en nuevos conceptos y herramientas necesarias para el proyecto Edifika.<br><br>
-		Sarmiento Medina, Loreley <br><br>
-		TB1: <br><br>
-		Zegarra López, Renato Sebastián Rubber <br><br>
-		TB1: <br><br>
-		
-  </td>
-  <td>
-		El desarrollo del proyecto Edifika nos permitió comprender que mantenerse en constante aprendizaje no es opcional, sino necesario. Cada sección trabajada en la TB1 nos presentó nuevos retos que exigieron investigar, cuestionar y adaptarnos. Como equipo, entendimos que la disposición para aprender de forma autónoma es una habilidad igual de importante que el conocimiento técnico en sí.
-		</td>
+      <td>7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software.</td>
+      <td>
+        Becerra Tejeda, Alessandra Nicole <br><br>
+        TB1: <br><br>
+        Martinez, Alvaro Leandro <br><br>
+        TB1: <br><br>
+        Ortiz Cardenas, Johanna Antuanete <br><br>
+        TB1: Reconocí la importancia de investigar el sector de gestión de condominios para desarrollar una solución relevante, lo que me motivó a profundizar en nuevos conceptos y herramientas necesarias para el proyecto Edifika.<br><br>
+        Sarmiento Medina, Loreley <br><br>
+        TB1: <br><br>
+        Zegarra López, Renato Sebastián Rubber <br><br>
+        TB1: <br><br>
+      </td>
+      <td>El desarrollo del proyecto Edifika nos permitió comprender que mantenerse en constante aprendizaje no es opcional, sino necesario. Cada sección trabajada en la TB1 nos presentó nuevos retos que exigieron investigar, cuestionar y adaptarnos. Como equipo, entendimos que la disposición para aprender de forma autónoma es una habilidad igual de importante que el conocimiento técnico en sí.</td>
     </tr>
-    <tr>
   </tbody>
 </table>
 
@@ -424,175 +403,164 @@ El crecimiento de la vivienda vertical en ciudades ha incrementado la cantidad d
  # 2.1. Competidores
  ## 2.1.1 Análisis de Competidores
  
- <table border="2" style="text-align: center;">
-	<tbody>
-		<tr>
-			<td colspan="6">Competitive Analysis Landscape</td>
-		</tr>
-		<tr>
-			<td colspan="2">¿Por qué llevar a cabo este análisis?</td>
-			<td colspan="4">
-			Este análisis permite comprender cómo distintas plataformas gestionan la administración de condominios, qué funcionalidades ofrecen y qué valor brindan a los usuarios. De esta manera, se identifican oportunidades de mejora, diferenciación y posicionamiento para Edifika dentro del mercado, especialmente frente a soluciones tradicionales y plataformas digitales existentes.
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2"></td>
-			<td>Edifika</td>
-			<td>Condo Control</td>
-			<td>Buildium</td>
-			<td>AppFolio</td>
-		</tr>
-
-<tr>
-			<td rowspan="2">Perfil</td>
-			<td>Overview</td>
-			<td>Aplicación enfocada en la gestión de condominios en el contexto peruano, que centraliza pagos, reservas y comunicación en una sola plataforma accesible e intuitiva.</td>
-			<td>Software de gestión de condominios que permite la comunicación entre residentes, gestión de documentos y administración de reservas.</td>
-			<td>Plataforma de gestión inmobiliaria en la nube orientada a administradores profesionales, con herramientas financieras, operativas y de comunicación.</td>
-			<td>Software integral de gestión de propiedades que permite administrar pagos, mantenimiento y comunicación desde una sola plataforma.</td>
-		</tr>
-
-<tr>
-			<td>Ventaja competitiva ¿Qué valor ofrece?</td>
-			<td>Centraliza funciones clave en una interfaz simple, enfocada en la adopción real de usuarios que actualmente usan WhatsApp y Excel.</td>
-			<td>Ofrece una plataforma estructurada para la comunicación y organización dentro del condominio.</td>
-			<td>Proporciona herramientas avanzadas de gestión financiera y automatización para empresas administradoras.</td>
-			<td>Integra múltiples funcionalidades con automatización y escalabilidad para grandes volúmenes de propiedades.</td>
-		</tr>
-
-<tr>
-			<td rowspan="2">Perfil de Marketing</td>
-			<td>Mercado objetivo</td>
-			<td>Condominios urbanos en Perú, administradores y residentes que buscan digitalizar su gestión.</td>
-			<td>Condominios y asociaciones de propietarios, principalmente en mercados internacionales.</td>
-			<td>Empresas administradoras de propiedades y profesionales inmobiliarios.</td>
-			<td>Empresas de gestión inmobiliaria y administradores de múltiples propiedades.</td>
-		</tr>
-
-<tr>
-			<td>Estrategias de marketing</td>
-			<td>Enfoque en simplicidad, adopción digital y solución de problemas reales en comunidades locales.</td>
-			<td>Marketing digital enfocado en comunidades y administradores de condominios.</td>
-			<td>Marketing B2B dirigido a empresas inmobiliarias con enfoque en eficiencia y automatización.</td>
-			<td>Estrategias digitales enfocadas en empresas grandes y escalabilidad del servicio.</td>
-		</tr>
-
-<tr>
-			<td rowspan="3">Perfil de Producto</td>
-			<td>Productos & Servicios</td>
-			<td>
-				<ul>
-					<li>Gestión de pagos y deudas</li>
-					<li>Reserva de áreas comunes</li>
-					<li>Comunicados centralizados</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li>Gestión de documentos</li>
-					<li>Comunicación con residentes</li>
-					<li>Reservas de espacios</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li>Gestión financiera</li>
-					<li>Pagos en línea</li>
-					<li>Reportes y contabilidad</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li>Gestión de pagos</li>
-					<li>Mantenimiento</li>
-					<li>Automatización de procesos</li>
-				</ul>
-			</td>
-		</tr>
-
-<tr>
-			<td>Precios & Costos</td>
-			<td>
-				<ul>
-					<li>Modelo de suscripción mensual por condominio</li>
-					<li>Posible versión freemium</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li>Suscripción mensual según tamaño del condominio</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li>Suscripción mensual para empresas administradoras</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li>Modelo SaaS con precios escalables</li>
-				</ul>
-			</td>
-		</tr>
-
-<tr>
-			<td>Canales de distribución</td>
-			<td>
-				<ul>
-					<li>Aplicación móvil (iOS y Android)</li>
-					<li>Posible versión web</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li>Web y aplicación móvil</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li>Web (plataforma en la nube)</li>
-				</ul>
-			</td>
-			<td>
-				<ul>
-					<li>Web y aplicación móvil</li>
-				</ul>
-			</td>
-		</tr>
-
-<tr>
-			<td rowspan="4">Análisis SWOT</td>
-			<td>Fortalezas</td>
-			<td>Enfoque local, simplicidad y alta adaptabilidad al contexto peruano.</td>
-			<td>Experiencia en gestión de condominios y comunicación estructurada.</td>
-			<td>Plataforma robusta con herramientas financieras avanzadas.</td>
-			<td>Alta escalabilidad y automatización.</td>
-		</tr>
-
-<tr>
-			<td>Debilidades</td>
-			<td>Aplicación nueva con baja adopción inicial.</td>
-			<td>Puede ser compleja para usuarios no tecnológicos.</td>
-			<td>No está enfocada en usuarios pequeños o individuales.</td>
-			<td>Curva de aprendizaje más alta.</td>
-		</tr>
-
-<tr>
-			<td>Oportunidades</td>
-			<td>Alta demanda de digitalización en condominios en Perú.</td>
-			<td>Expansión en mercados internacionales.</td>
-			<td>Expansión en mercados emergentes.</td>
-			<td>Innovación en automatización y servicios.</td>
-		</tr>
-
-<tr>
-			<td>Amenazas</td>
-			<td>Resistencia al cambio y uso de herramientas informales.</td>
-			<td>Competencia de nuevas apps más simples.</td>
-			<td>Competencia de software especializado más accesible.</td>
-			<td>Competencia creciente en el sector proptech.</td>
-		</tr>
-	</tbody>
+ <table border="2" style="text-align: center; border-collapse: collapse; width: 100%;">
+  <tbody>
+    <tr>
+      <td colspan="6" style="padding: 8px; font-weight: bold;">Competitive Analysis Landscape</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="padding: 8px; font-weight: bold;">¿Por qué llevar a cabo este análisis?</td>
+      <td colspan="4" style="padding: 8px;">
+        Este análisis permite comprender cómo distintas plataformas gestionan la administración de condominios, qué funcionalidades ofrecen y qué valor brindan a los usuarios. De esta manera, se identifican oportunidades de mejora, diferenciación y posicionamiento para Edifika dentro del mercado, especialmente frente a soluciones tradicionales y plataformas digitales existentes.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="padding: 8px;"></td>
+      <td style="padding: 8px; font-weight: bold;">Edifika</td>
+      <td style="padding: 8px; font-weight: bold;">Condo Control</td>
+      <td style="padding: 8px; font-weight: bold;">Buildium</td>
+      <td style="padding: 8px; font-weight: bold;">AppFolio</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="padding: 8px; font-weight: bold; vertical-align: middle;">Perfil</td>
+      <td style="padding: 8px; font-weight: bold;">Overview</td>
+      <td style="padding: 8px; vertical-align: top;">Aplicación enfocada en la gestión de condominios en el contexto peruano, que centraliza pagos, reservas y comunicación en una sola plataforma accesible e intuitiva.</td>
+      <td style="padding: 8px; vertical-align: top;">Software de gestión de condominios que permite la comunicación entre residentes, gestión de documentos y administración de reservas.</td>
+      <td style="padding: 8px; vertical-align: top;">Plataforma de gestión inmobiliaria en la nube orientada a administradores profesionales, con herramientas financieras, operativas y de comunicación.</td>
+      <td style="padding: 8px; vertical-align: top;">Software integral de gestión de propiedades que permite administrar pagos, mantenimiento y comunicación desde una sola plataforma.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; font-weight: bold;">Ventaja competitiva ¿Qué valor ofrece?</td>
+      <td style="padding: 8px; vertical-align: top;">Centraliza funciones clave en una interfaz simple, enfocada en la adopción real de usuarios que actualmente usan WhatsApp y Excel.</td>
+      <td style="padding: 8px; vertical-align: top;">Ofrece una plataforma estructurada para la comunicación y organización dentro del condominio.</td>
+      <td style="padding: 8px; vertical-align: top;">Proporciona herramientas avanzadas de gestión financiera y automatización para empresas administradoras.</td>
+      <td style="padding: 8px; vertical-align: top;">Integra múltiples funcionalidades con automatización y escalabilidad para grandes volúmenes de propiedades.</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="padding: 8px; font-weight: bold; vertical-align: middle;">Perfil de Marketing</td>
+      <td style="padding: 8px; font-weight: bold;">Mercado objetivo</td>
+      <td style="padding: 8px; vertical-align: top;">Condominios urbanos en Perú, administradores y residentes que buscan digitalizar su gestión.</td>
+      <td style="padding: 8px; vertical-align: top;">Condominios y asociaciones de propietarios, principalmente en mercados internacionales.</td>
+      <td style="padding: 8px; vertical-align: top;">Empresas administradoras de propiedades y profesionales inmobiliarios.</td>
+      <td style="padding: 8px; vertical-align: top;">Empresas de gestión inmobiliaria y administradores de múltiples propiedades.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; font-weight: bold;">Estrategias de marketing</td>
+      <td style="padding: 8px; vertical-align: top;">Enfoque en simplicidad, adopción digital y solución de problemas reales en comunidades locales.</td>
+      <td style="padding: 8px; vertical-align: top;">Marketing digital enfocado en comunidades y administradores de condominios.</td>
+      <td style="padding: 8px; vertical-align: top;">Marketing B2B dirigido a empresas inmobiliarias con enfoque en eficiencia y automatización.</td>
+      <td style="padding: 8px; vertical-align: top;">Estrategias digitales enfocadas en empresas grandes y escalabilidad del servicio.</td>
+    </tr>
+    <tr>
+      <td rowspan="3" style="padding: 8px; font-weight: bold; vertical-align: middle;">Perfil de Producto</td>
+      <td style="padding: 8px; font-weight: bold;">Productos & Servicios</td>
+      <td style="padding: 8px; vertical-align: top; text-align: left;">
+        <ul>
+          <li>Gestión de pagos y deudas</li>
+          <li>Reserva de áreas comunes</li>
+          <li>Comunicados centralizados</li>
+        </ul>
+      </td>
+      <td style="padding: 8px; vertical-align: top; text-align: left;">
+        <ul>
+          <li>Gestión de documentos</li>
+          <li>Comunicación con residentes</li>
+          <li>Reservas de espacios</li>
+        </ul>
+      </td>
+      <td style="padding: 8px; vertical-align: top; text-align: left;">
+        <ul>
+          <li>Gestión financiera</li>
+          <li>Pagos en línea</li>
+          <li>Reportes y contabilidad</li>
+        </ul>
+      </td>
+      <td style="padding: 8px; vertical-align: top; text-align: left;">
+        <ul>
+          <li>Gestión de pagos</li>
+          <li>Mantenimiento</li>
+          <li>Automatización de procesos</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; font-weight: bold;">Precios & Costos</td>
+      <td style="padding: 8px; vertical-align: top; text-align: left;">
+        <ul>
+          <li>Modelo de suscripción mensual por condominio</li>
+          <li>Posible versión freemium</li>
+        </ul>
+      </td>
+      <td style="padding: 8px; vertical-align: top; text-align: left;">
+        <ul>
+          <li>Suscripción mensual según tamaño del condominio</li>
+        </ul>
+      </td>
+      <td style="padding: 8px; vertical-align: top; text-align: left;">
+        <ul>
+          <li>Suscripción mensual para empresas administradoras</li>
+        </ul>
+      </td>
+      <td style="padding: 8px; vertical-align: top; text-align: left;">
+        <ul>
+          <li>Modelo SaaS con precios escalables</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; font-weight: bold;">Canales de distribución</td>
+      <td style="padding: 8px; vertical-align: top; text-align: left;">
+        <ul>
+          <li>Aplicación móvil (iOS y Android)</li>
+          <li>Posible versión web</li>
+        </ul>
+      </td>
+      <td style="padding: 8px; vertical-align: top; text-align: left;">
+        <ul>
+          <li>Web y aplicación móvil</li>
+        </ul>
+      </td>
+      <td style="padding: 8px; vertical-align: top; text-align: left;">
+        <ul>
+          <li>Web (plataforma en la nube)</li>
+        </ul>
+      </td>
+      <td style="padding: 8px; vertical-align: top; text-align: left;">
+        <ul>
+          <li>Web y aplicación móvil</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="4" style="padding: 8px; font-weight: bold; vertical-align: middle;">Análisis SWOT</td>
+      <td style="padding: 8px; font-weight: bold;">Fortalezas</td>
+      <td style="padding: 8px; vertical-align: top;">Enfoque local, simplicidad y alta adaptabilidad al contexto peruano.</td>
+      <td style="padding: 8px; vertical-align: top;">Experiencia en gestión de condominios y comunicación estructurada.</td>
+      <td style="padding: 8px; vertical-align: top;">Plataforma robusta con herramientas financieras avanzadas.</td>
+      <td style="padding: 8px; vertical-align: top;">Alta escalabilidad y automatización.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; font-weight: bold;">Debilidades</td>
+      <td style="padding: 8px; vertical-align: top;">Aplicación nueva con baja adopción inicial.</td>
+      <td style="padding: 8px; vertical-align: top;">Puede ser compleja para usuarios no tecnológicos.</td>
+      <td style="padding: 8px; vertical-align: top;">No está enfocada en usuarios pequeños o individuales.</td>
+      <td style="padding: 8px; vertical-align: top;">Curva de aprendizaje más alta.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; font-weight: bold;">Oportunidades</td>
+      <td style="padding: 8px; vertical-align: top;">Alta demanda de digitalización en condominios en Perú.</td>
+      <td style="padding: 8px; vertical-align: top;">Expansión en mercados internacionales.</td>
+      <td style="padding: 8px; vertical-align: top;">Expansión en mercados emergentes.</td>
+      <td style="padding: 8px; vertical-align: top;">Innovación en automatización y servicios.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; font-weight: bold;">Amenazas</td>
+      <td style="padding: 8px; vertical-align: top;">Resistencia al cambio y uso de herramientas informales.</td>
+      <td style="padding: 8px; vertical-align: top;">Competencia de nuevas apps más simples.</td>
+      <td style="padding: 8px; vertical-align: top;">Competencia de software especializado más accesible.</td>
+      <td style="padding: 8px; vertical-align: top;">Competencia creciente en el sector proptech.</td>
+    </tr>
+  </tbody>
 </table>
 
  ## 2.1.2. Estrategias frente a competidores
@@ -716,7 +684,7 @@ Entrevista #3: <br><br>
 
 ![interview3](assets/img/imagen_2026-04-18_194046671.png)
 
-Enlace de entrevista: <br><br>
+Enlace de entrevista: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQAwy_k6sU2YRKI18EALtlfaAW-oOO5gsiUFc0BnRIHZsMw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KlfhO1` <br><br>
 
 Nombre y apellido: <br>Andrés Ventoncilla
 Edad: <br>25
@@ -754,7 +722,7 @@ Entrevista #3: <br><br>
 
 ![interview3](assets/img/imagen_2026-04-18_194125234.png)
 
-Enlace de entrevista: <br><br>
+Enlace de entrevista: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQAwy_k6sU2YRKI18EALtlfaAW-oOO5gsiUFc0BnRIHZsMw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KlfhO1` <br><br>
 
 Nombre y apellido: <br>Angel Lazo Panduro
 Edad: <br>24
