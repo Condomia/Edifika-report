@@ -751,14 +751,16 @@ César es administrador de edificios en GWM EIRL y actualmente gestiona 15 edifi
 
 Entrevista #2: <br><br>
 
-![interview2](assets/img/interviews/admin2.png)
+![interview2](assets/img/interviews/entrevista_renato.png)
 
-Enlace de entrevista: <br> <br>
+Enlace de entrevista: <br> `https://onedrive.live.com/?photosData=%2Fshare%2F9437654E47DA79DA%21s5bef16853bb54438ab9b19568c78ff92%3Fithint%3Dvideo%26e%3Ducc9iX%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy85NDM3NjU0ZTQ3ZGE3OWRhL0lRQ0ZGdTlidFRzNFJLdWJHVmFNZVAtU0FUQ1d5VHdxVHFSMGkxSEE5VnVhQ2MwP2U9dWNjOWlY&view=8`
+<br>
 
-Nombre y apellido: <br>
-Edad:  <br>
-Distrito:  <br>
-Resumen: <br><br>
+Nombre y apellido: Daniel Farro<br>
+Edad: 52 <br>
+Distrito: San Miguel <br>
+Resumen: <br>El entrevistado, Daniel Farro, administrador de un condominio de cinco unidades, señala que actualmente gestiona los pagos y la información de los condominios utilizando únicamente Excel y WhatsApp. Sin embargo, considera que estas herramientas son limitadas y le gustaría implementar un software especializado que le permita centralizar y organizar mejor la información, facilitando así una gestión más eficiente y ordenada.
+<br>
 
 
 Entrevista #3: <br><br>
