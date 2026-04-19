@@ -380,59 +380,8 @@ Creemos que una comunicación estructurada dentro de la plataforma aumentará la
 **Sabremos que hemos tenido éxito** cuando al menos un 60% de los usuarios interactúen con comunicados o notificaciones dentro de la aplicación.
 
 ### 1.2.3.4. Lean UX Canvas
-<table border="1">
-  <tr>
-    <th>Business Problem</th>
-    <th>Solutions</th>
-    <th>Business Outcomes</th>
-  </tr>
-  <tr>
-    <td>
-      La gestión de condominios en el Perú se realiza, en muchos casos, mediante herramientas no integradas como WhatsApp, hojas de cálculo y comunicación informal. Esto genera desorganización, falta de control sobre pagos y deudas, conflictos en la reserva de áreas comunes y una comunicación poco clara entre administradores y residentes, afectando la eficiencia operativa y la toma de decisiones.
-    </td>
-    <td>
-      Edifika es una aplicación móvil que centraliza la gestión de condominios, permitiendo administrar deudas, enviar comunicados estructurados y gestionar reservas de áreas comunes. Asimismo, los residentes pueden consultar su información, recibir notificaciones y participar en la gestión desde una sola plataforma digital.
-    </td>
-    <td>
-      Esperamos mejorar la organización y transparencia del condominio, reducir la morosidad y optimizar la comunicación. El éxito se medirá mediante la adopción de la aplicación, el uso frecuente por parte de los usuarios y la reducción de conflictos administrativos.
-    </td>
-  </tr>
-  <tr>
-    <th>Users</th>
-    <th colspan="2">User Benefits</th>
-  </tr>
-  <tr>
-    <td>
-      Administradores de condominios y residentes (propietarios e inquilinos) de edificios urbanos en el Perú que buscan mejorar la gestión, comunicación y organización de su comunidad.
-    </td>
-    <td colspan="2">
-      <ul>
-        <li>Acceso centralizado a pagos y deudas.</li>
-        <li>Comunicación clara mediante comunicados y notificaciones.</li>
-        <li>Reserva organizada de áreas comunes.</li>
-        <li>Mayor transparencia en la gestión.</li>
-        <li>Reducción de conflictos en el condominio.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <th>Hypotheses</th>
-    <th>What’s the most important thing we need to learn first?</th>
-    <th>What’s the least amount of work we need to do to learn the most important thing?</th>
-  </tr>
-  <tr>
-    <td>
-      Creemos que, si ofrecemos una plataforma centralizada para la gestión de pagos, reservas y comunicación, los administradores y residentes adoptarán la aplicación como su principal herramienta de gestión del condominio.
-    </td>
-    <td>
-      Necesitamos validar si los administradores están dispuestos a cambiar sus herramientas actuales y si los residentes perciben valor en usar una aplicación para gestionar pagos, reservas y comunicados.
-    </td>
-    <td>
-      Crear un prototipo simple (mockup o MVP básico) con las funciones principales y probarlo con usuarios reales para evaluar su utilidad, facilidad de uso y disposición de adopción.
-    </td>
-  </tr>
-</table>
 
+![Lean Ux Canvas](assets/img/lean_ux_canvas.png)
 
 # 1.3. Segmentos objetivo
 
@@ -1580,5 +1529,6 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
   - Verastegui Leon, P. A., Mendoza Castañeda, J. L. D. C., Zapata Becerra, M. L., Capristan Leon, K. E., & Ravines Garcia, M. A. (2025). Propuesta de un plan estratégico para mejora de la Gestión en Edificios Multifamiliares en Lima Moderna: Caso De Estudio: MONARCH MANAGERS EIRL. Universidad Peruana de Ciencias Aplicadas. `https://repositorioacademico.upc.edu.pe/handle/10757/686137`
 
 # Anexos
+- Lean Ux Canvas: `https://miro.com/welcomeonboard/SXAwU0llbzVXekRWcG4zWHhBSjBBMjJkUEdXTXlncGEzOHlPWDM1dkRvMVlPU3I5QzE1UWhrMEg2USsyTFYvU002eVpyS2JvdVlYRzFsODZLV0xpcEYwblhkNkx1RHZZM3VjeDlHbmV5MXU0dmpsMFZ4K050NVVxMlRUTVNzRFZhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=35010524832`
 # Links
 - Enlace del repositorio: `https://github.com/Condomia/Edifika-report.git`
