@@ -122,15 +122,15 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       <td>
         Becerra Tejeda, Alessandra Nicole <br><br>
         TB1: <br> Investigué y consolidé conceptos actualizados relacionados con la definición del problem statement, hypothesis y assumptions, aplicándolos de manera estructurada en el planteamiento inicial del proyecto. <br><br>
-        Martinez, Alvaro Leandro <br><br>
-        TB1: <br><br>
+        Bejarano Martinez, Alvaro Leandro <br><br>
+        TB1: <br>Investigué y apliqué metodologías de diseño centrado en el usuario para la creación de User Personas y la User Task Matrix. Asimismo, profundicé en técnicas de Empathy Mapping y priorización de requisitos mediante la elaboración del Product Backlog, asegurando que la solución Edifika responda a necesidades técnicas y funcionales reales.<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: <br>
         Investigué y documenté el perfil de la startup Condomia, el nombre y concepto del producto Edifika, y los antecedentes del problema que busca resolver en la gestión de condominios.<br><br>
         Sarmiento Medina, Loreley <br><br>
-        TB1: <br><br>
+        TB1: <br>Desarrollé los cuadros As-Is y To-Be, el Impact Map y la entrevista a un usuario, para poder analizar el comportamiento del usuario y alinear sus necesidades con la solución propuesta.<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
-        TB1: <br>Realicé investigación sobre el sector de gestión de condominios, incluyendo análisis de competidores y entrevistas a usuarios, lo que me permitió actualizar conocimientos relevantes para el desarrollo de una solución de software.<br>
+        TB1: <br>Realicé investigación sobre el sector de gestión de condominios, incluyendo análisis de competidores y entrevistas a usuarios, lo que me permitió actualizar conocimientos relevantes para el desarrollo de una solución de software<br><br>
       </td>
       <td>A lo largo del desarrollo del primer entregable, el equipo demostró capacidad para incorporar nuevos conceptos y herramientas propias de la ingeniería de software. El desarrollo del perfil de Condomia, la definición de Edifika y el trabajo con metodologías como Lean UX nos llevaron a investigar y aplicar conocimientos que inicialmente no manejábamos con profundidad. Este proceso de actualización continua se reflejó directamente en la calidad y coherencia de la documentación entregada.</td>
     </tr>
@@ -138,13 +138,13 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       <td>7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software.</td>
       <td>
         Becerra Tejeda, Alessandra Nicole <br><br>
-        TB1: <br><br>
-        Martinez, Alvaro Leandro <br><br>
-        TB1: <br><br>
+        TB1: <br>Investigué y contrasté información de diversas fuentes para comprender y aplicar adecuadamente los conceptos de problem statement, hypothesis y assumptions en el desarrollo del proyecto.<br><br>
+        Bejarano Martinez, Alvaro Leandro <br><br>
+        TB1: <br>Reconocí la importancia de dominar técnicas de investigación cualitativa mediante el diseño y ejecución de entrevistas a los dos segmentos objetivo. Esta experiencia me permitió comprender que el aprendizaje de nuevas estrategias de recolección de datos es vital para validar hipótesis y reducir la incertidumbre en el desarrollo de software.<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: Reconocí la importancia de investigar el sector de gestión de condominios para desarrollar una solución relevante, lo que me motivó a profundizar en nuevos conceptos y herramientas necesarias para el proyecto Edifika.<br><br>
         Sarmiento Medina, Loreley <br><br>
-        TB1: <br><br>
+        TB1: <br>Reconocí la importancia del aprendizaje continuo al desarrollar los cuadros As-Is, To-Be, el Impact Map y la entrevista, lo que me permitió mejorar mi análisis del usuario y comprender mejor cómo estructurar soluciones alineadas a sus necesidades reales.<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br>A partir del desarrollo del Lean UX Canvas, el análisis de competidores y las entrevistas realizadas, reconocí que el aprendizaje permanente es esencial para el desempeño profesional en ingeniería de software. Esta experiencia evidenció la necesidad de actualizar continuamente conocimientos sobre tecnologías, metodologías y necesidades del usuario para diseñar soluciones efectivas y relevantes.<br>
       </td>
@@ -171,7 +171,9 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
     
 - [CAPÍTULO II: Requirements & Analysis](#capítulo-ii-requirements--analysis)
   - [2.1. Competidores](#21-competidores)
+    
     -[2.1.1 Análisis de Competidores](#211-análisis-de-competidores)
+    
     -[2.1.2. Estrategias frente a competidores](#212-estrategias-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
@@ -653,81 +655,64 @@ Táctica: Implementar un calendario interactivo con disponibilidad en tiempo rea
 ## 2.2.2 Registro de entrevistas
 
 **Segmento obejtivo: Administradores de edificios y condominios:**
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** |  Cesar Villalobos  |
+| **Edad** | 51 |
+| **Departamento** | Cercado de Lima  |
+| **Link del video** | `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQDEXx-uGk1tS71xXaDeSeDeAf3fEODmStVZKztx7vcr0i8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5V6W7o` |
+| **Foto entrevista** |   <img src="assets/img/interviews/admin1.png" alt="logo" width="500"/>|
+| **Resumen** | César es administrador de edificios en GWM EIRL y actualmente gestiona 15 edificios usando Excel con macros como herramienta principal, apoyándose en WhatsApp para coordinar reservas y comunicaciones, y en las páginas de los bancos para pagos. El proceso más tedioso es la emisión de recibos, que aún se hace de forma física en varios edificios y que desea digitalizar al 100%. Ha evaluado entre 3 y 4 sistemas sin éxito, ya que todos presentaban exceso de información que generaba confusión en los propietarios y una percepción de desorden o falta de transparencia. Como empresa tiene el objetivo claro de migrar a una plataforma digital, y considera que una app o sistema web mejoraría significativamente la comunicación y la gestión, siempre que sea ágil, ordenada, fácil de entender y con información siempre actualizada. En cuanto al precio, conoce el mercado y sabe que el rango habitual oscila entre 2 y 5 dólares por unidad al mes. |
 
-Entrevista #1: <br><br>
+| **ENTREVISTA 2** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** |  Daniel Farro  |
+| **Edad** | 52 |
+| **Departamento** | San Miguel  |
+| **Link del video** | `https://onedrive.live.com/?photosData=%2Fshare%2F9437654E47DA79DA%21s5bef16853bb54438ab9b19568c78ff92%3Fithint%3Dvideo%26e%3Ducc9iX%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy85NDM3NjU0ZTQ3ZGE3OWRhL0lRQ0ZGdTlidFRzNFJLdWJHVmFNZVAtU0FUQ1d5VHdxVHFSMGkxSEE5VnVhQ2MwP2U9dWNjOWlY&view=8` |
+| **Foto entrevista** | <img src="assets/img/interviews/entrevista_renato.png" alt="logo" width="500"/>|
+| **Resumen** | El entrevistado, Daniel Farro, administrador de un condominio de cinco unidades, señala que actualmente gestiona los pagos y la información de los condominios utilizando únicamente Excel y WhatsApp. Sin embargo, considera que estas herramientas son limitadas y le gustaría implementar un software especializado que le permita centralizar y organizar mejor la información, facilitando así una gestión más eficiente y ordenada. |
 
-![interview1](assets/img/interviews/admin1.png)
+| **ENTREVISTA 3** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Andrés Ventoncilla  |
+| **Edad** | 25 |
+| **Departamento** | San Miguel  |
+| **Link del video** | `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQAwy_k6sU2YRKI18EALtlfaAW-oOO5gsiUFc0BnRIHZsMw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KlfhO1`  |
+| **Foto entrevista** | <img src="assets/img/imagen_2026-04-18_194046671.png" alt="logo" width="500"/> |
+| **Resumen** |Andrés Ventocilla se encarga de la supervisión de 4 inmuebles residenciales, basando toda su estructura de trabajo en documentos de Excel y la mensajería de WhatsApp para el contacto con los residentes. El mayor cuello de botella que enfrenta es la verificación de depósitos, una tarea manual donde debe contrastar cada movimiento bancario con las capturas de pantalla que envían los vecinos, lo que le resta eficiencia a su labor administrativa. Tras haber probado otras alternativas tecnológicas, las descartó por ser demasiado robustas y difíciles de navegar, lo que terminaba por confundir a los usuarios finales. Su meta es integrar la operación en un ecosistema digital como Edifika, siempre que la herramienta priorice la simplicidad visual y permita que los propietarios visualicen el uso de los fondos de forma clara. Bajo su perspectiva, una tarifa mensual de entre S/ 150 y S/ 300 por edificio sería un monto justo, siempre que el sistema logre liberar su tiempo de tareas repetitivas |
 
-Enlace de entrevista: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQDEXx-uGk1tS71xXaDeSeDeAf3fEODmStVZKztx7vcr0i8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5V6W7o`
-
-Nombre y apellido: Cesar Villalobos <br>
-Edad: 51 <br>
-Distrito: Cercado de Lima <br>
-Resumen: <br>
-César es administrador de edificios en GWM EIRL y actualmente gestiona 15 edificios usando Excel con macros como herramienta principal, apoyándose en WhatsApp para coordinar reservas y comunicaciones, y en las páginas de los bancos para pagos. El proceso más tedioso es la emisión de recibos, que aún se hace de forma física en varios edificios y que desea digitalizar al 100%. Ha evaluado entre 3 y 4 sistemas sin éxito, ya que todos presentaban exceso de información que generaba confusión en los propietarios y una percepción de desorden o falta de transparencia. Como empresa tiene el objetivo claro de migrar a una plataforma digital, y considera que una app o sistema web mejoraría significativamente la comunicación y la gestión, siempre que sea ágil, ordenada, fácil de entender y con información siempre actualizada. En cuanto al precio, conoce el mercado y sabe que el rango habitual oscila entre 2 y 5 dólares por unidad al mes. <br><br>
-
-Entrevista #2: <br><br>
-
-![interview2](assets/img/interviews/entrevista_renato.png)
-
-Enlace de entrevista: <br> `https://onedrive.live.com/?photosData=%2Fshare%2F9437654E47DA79DA%21s5bef16853bb54438ab9b19568c78ff92%3Fithint%3Dvideo%26e%3Ducc9iX%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy85NDM3NjU0ZTQ3ZGE3OWRhL0lRQ0ZGdTlidFRzNFJLdWJHVmFNZVAtU0FUQ1d5VHdxVHFSMGkxSEE5VnVhQ2MwP2U9dWNjOWlY&view=8`
-<br>
-
-Nombre y apellido: Daniel Farro<br>
-Edad: 52 <br>
-Distrito: San Miguel <br>
-Resumen: <br>El entrevistado, Daniel Farro, administrador de un condominio de cinco unidades, señala que actualmente gestiona los pagos y la información de los condominios utilizando únicamente Excel y WhatsApp. Sin embargo, considera que estas herramientas son limitadas y le gustaría implementar un software especializado que le permita centralizar y organizar mejor la información, facilitando así una gestión más eficiente y ordenada.
-<br>
-
-
-Entrevista #3: <br><br>
-
-![interview3](assets/img/imagen_2026-04-18_194046671.png)
-
-Enlace de entrevista: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQAwy_k6sU2YRKI18EALtlfaAW-oOO5gsiUFc0BnRIHZsMw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KlfhO1` <br><br>
-
-Nombre y apellido: <br>Andrés Ventoncilla
-Edad: <br>25
-Distrito: <br>San Miguel
-Resumen: <br>Andrés Ventocilla se encarga de la supervisión de 4 inmuebles residenciales, basando toda su estructura de trabajo en documentos de Excel y la mensajería de WhatsApp para el contacto con los residentes. El mayor cuello de botella que enfrenta es la verificación de depósitos, una tarea manual donde debe contrastar cada movimiento bancario con las capturas de pantalla que envían los vecinos, lo que le resta eficiencia a su labor administrativa. Tras haber probado otras alternativas tecnológicas, las descartó por ser demasiado robustas y difíciles de navegar, lo que terminaba por confundir a los usuarios finales. Su meta es integrar la operación en un ecosistema digital como Edifika, siempre que la herramienta priorice la simplicidad visual y permita que los propietarios visualicen el uso de los fondos de forma clara. Bajo su perspectiva, una tarifa mensual de entre S/ 150 y S/ 300 por edificio sería un monto justo, siempre que el sistema logre liberar su tiempo de tareas repetitivas.<br>
 
 **Segmento obejtivo: Propietarios e Inquilinos:**
 
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Mery Ojeda  |
+| **Edad** | 38 |
+| **Departamento** | San Miguel  |
+| **Link del video** | `https://onedrive.live.com/?photosData=%2Fshare%2FAD69326B0DEF8050%21s3d07563af59e4884bc99e8c85efc208e%3Fithint%3Dvideo%26e%3DcyTopU%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy9hZDY5MzI2YjBkZWY4MDUwL0lRQTZWZ2M5bnZXRVNMeVo2TWhlX0NDT0FUNDh4X3d5OWFpZXdkY1pEODJTd2pzP2U9Y3lUb3BV&view=8`  |
+| **Foto entrevista** | <img src="assets/img/interviews/prop1.png" alt="logo" width="500"/>|
+| **Resumen** |Mery es propietaria de un departamento en un condominio, ella indicó que recibe información sobre sus pagos mediante recibos mensuales y que el proceso de pago es sencillo a través de depósitos o aplicativos; sin embargo, señaló que no existe un acceso directo al historial de pagos, lo que obliga a recurrir a la administración. Asimismo, mencionó dificultades en la reserva de áreas comunes por falta de claridad y alta demanda, además de demoras en la comunicación, ya que WhatsApp no siempre ofrece respuestas oportunas y la atención presencial no es constante. Aunque percibe cierto nivel de transparencia en los gastos, considera tedioso el proceso de reclamos y manifestó interés en una aplicación móvil que centralice pagos, reservas y comunicaciones de manera rápida y eficiente. |
 
-Entrevista #1: <br><br>
+| **ENTREVISTA 2** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Melina Lopez  |
+| **Edad** | 51 |
+| **Departamento** | San Miguel  |
+| **Link del video** | `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQCrGL7_ZORtSbK1HjVPRnKSAV6DqNEu28FqeS0W-wKJ7Rk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PPJ5TV`  |
+| **Foto entrevista** |<img src="assets/img/interviews/prop2.png" alt="logo" width="500"/>  |
+| **Resumen** |Se entrevistó a Melina López, propietaria de un departamento, ella indica que no suele estar al tanto de las reuniones del edificio debido a la falta de tiempo. En cuanto a los pagos, envía los comprobantes por correo al administrador y mantiene un archivo físico como respaldo, ya que de lo contrario no tendría un historial accesible, asumiendo que la administración podría brindárselo si lo solicita. Señala que el proceso de reserva de espacios es el más tedioso, pues implica consultar disponibilidad, dejar garantía, realizar pagos y luego hacer seguimiento para su devolución, lo que la obliga a estar constantemente detrás de la administración. Además, le incomoda la gran cantidad de mensajes en el grupo de WhatsApp, donde se pierde información relevante. Finalmente, se muestra abierta al uso de una aplicación que centralice la información, considerando que actualmente los eventos y reuniones ya se comunican mediante un tablero. |
 
-![interview1](assets/img/interviews/prop1.png)
 
-Enlace de entrevista: <br> `https://onedrive.live.com/?photosData=%2Fshare%2FAD69326B0DEF8050%21s3d07563af59e4884bc99e8c85efc208e%3Fithint%3Dvideo%26e%3DcyTopU%26migratedtospo%3Dtrue&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3YvYy9hZDY5MzI2YjBkZWY4MDUwL0lRQTZWZ2M5bnZXRVNMeVo2TWhlX0NDT0FUNDh4X3d5OWFpZXdkY1pEODJTd2pzP2U9Y3lUb3BV&view=8` <br>
+| **ENTREVISTA 3** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Angel Lazo Panduro  |
+| **Edad** | 24 |
+| **Departamento** | San Miguel  |
+| **Link del video** | `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQAwy_k6sU2YRKI18EALtlfaAW-oOO5gsiUFc0BnRIHZsMw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KlfhO1`  |
+| **Foto entrevista** |<img src="assets/img/imagen_2026-04-18_194125234.png" alt="logo" width="500"/> |
+| **Resumen** |Angel Lazo Panduro reside en un condominio de tamaño medio y manifiesta una clara frustración por la dependencia de métodos tradicionales, como el uso de papeles informativos en áreas comunes y el envío de capturas de pantalla por chats grupales para reportar sus cuotas. Para él, la comunicación actual es desordenada, lo que provoca que muchas veces ignore avisos importantes sobre reparaciones o servicios del edificio. Su prioridad principal es la autogestión; busca una herramienta que le permita confirmar la disponibilidad del área de parrillas y realizar su reserva de forma instantánea sin tener que esperar la aprobación manual de un portero o administrador. Angel ve en Edifika la oportunidad de profesionalizar la convivencia, eliminando la fricción de los trámites presenciales y obteniendo una visibilidad clara de su historial financiero. Considera que la plataforma será un éxito en su edificio si logra simplificar el proceso de reporte de pagos y centraliza los reglamentos internos en un formato digital de fácil acceso. |
 
-Nombre y apellido: Mery Ojeda <br>
-Edad: 38 <br>
-Distrito: San Miguel<br>
-Resumen: <br>
-Mery es propietaria de un departamento en un condominio, ella indicó que recibe información sobre sus pagos mediante recibos mensuales y que el proceso de pago es sencillo a través de depósitos o aplicativos; sin embargo, señaló que no existe un acceso directo al historial de pagos, lo que obliga a recurrir a la administración. Asimismo, mencionó dificultades en la reserva de áreas comunes por falta de claridad y alta demanda, además de demoras en la comunicación, ya que WhatsApp no siempre ofrece respuestas oportunas y la atención presencial no es constante. Aunque percibe cierto nivel de transparencia en los gastos, considera tedioso el proceso de reclamos y manifestó interés en una aplicación móvil que centralice pagos, reservas y comunicaciones de manera rápida y eficiente.
-<br>
-
-Entrevista #2: <br>
-
-![interview2](assets/img/interviews/prop2.png)
-
-Enlace de entrevista: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQCrGL7_ZORtSbK1HjVPRnKSAV6DqNEu28FqeS0W-wKJ7Rk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PPJ5TV`<br><br>
-
-Nombre y apellido: Melina Lopez<br>
-Edad: 51 <br>
-Distrito: San Miguel<br>
-Resumen: Se entrevistó a Melina López, propietaria de un departamento, ella indica que no suele estar al tanto de las reuniones del edificio debido a la falta de tiempo. En cuanto a los pagos, envía los comprobantes por correo al administrador y mantiene un archivo físico como respaldo, ya que de lo contrario no tendría un historial accesible, asumiendo que la administración podría brindárselo si lo solicita. Señala que el proceso de reserva de espacios es el más tedioso, pues implica consultar disponibilidad, dejar garantía, realizar pagos y luego hacer seguimiento para su devolución, lo que la obliga a estar constantemente detrás de la administración. Además, le incomoda la gran cantidad de mensajes en el grupo de WhatsApp, donde se pierde información relevante. Finalmente, se muestra abierta al uso de una aplicación que centralice la información, considerando que actualmente los eventos y reuniones ya se comunican mediante un tablero.<br><br>
-
-Entrevista #3: <br><br>
-
-![interview3](assets/img/imagen_2026-04-18_194125234.png)
-
-Enlace de entrevista: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQAwy_k6sU2YRKI18EALtlfaAW-oOO5gsiUFc0BnRIHZsMw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KlfhO1` <br><br>
-
-Nombre y apellido: <br>Angel Lazo Panduro
-Edad: <br>24
-Distrito: <br>San Miguel
-Resumen: <br>Angel Lazo Panduro reside en un condominio de tamaño medio y manifiesta una clara frustración por la dependencia de métodos tradicionales, como el uso de papeles informativos en áreas comunes y el envío de capturas de pantalla por chats grupales para reportar sus cuotas. Para él, la comunicación actual es desordenada, lo que provoca que muchas veces ignore avisos importantes sobre reparaciones o servicios del edificio. Su prioridad principal es la autogestión; busca una herramienta que le permita confirmar la disponibilidad del área de parrillas y realizar su reserva de forma instantánea sin tener que esperar la aprobación manual de un portero o administrador. Angel ve en Edifika la oportunidad de profesionalizar la convivencia, eliminando la fricción de los trámites presenciales y obteniendo una visibilidad clara de su historial financiero. Considera que la plataforma será un éxito en su edificio si logra simplificar el proceso de reporte de pagos y centraliza los reglamentos internos en un formato digital de fácil acceso.<br>
 
 ## 2.2.3 Análisis de entrevistas
 ## **Segmento objetivo de administradores de edificios y condominios**
@@ -834,6 +819,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 | EP02    | Comunicación centralizada                       | Esta épica aborda la gestión de notificaciones y comunicados dentro del condominio, permitiendo mantener informados a los residentes sobre incidencias, pagos, reservas y anuncios importantes. Incluye la personalización de notificaciones y el seguimiento de visualización de comunicados, con el fin de mejorar la comunicación interna y la toma de decisiones oportunas.                           |
 | EP03    | Gestión de áreas comunes                        | Esta épica se centra en la administración y uso eficiente de las áreas comunes del condominio. Permite a los residentes consultar disponibilidad, realizar reservas y cancelarlas, mientras que los administradores pueden aprobar solicitudes y evitar conflictos como duplicidad de reservas. Su objetivo es optimizar el uso de espacios compartidos.                                                  |
 | EP04    | Gestión financiera y reportes                   | Esta épica se enfoca en la administración económica del condominio, permitiendo a los residentes consultar su deuda, registrar pagos y revisar su historial financiero. Asimismo, los administradores pueden gestionar pagos, identificar residentes morosos, generar reportes financieros y exportarlos para su análisis y comunicación. Su objetivo es garantizar transparencia, control y confianza en la gestión económica del condominio. |
+| EP05    | Infraestructura, seguridad y restricciones técnicas                   | Esta épica abarca todos los aspectos técnicos necesarios para el correcto funcionamiento del sistema Edifika, incluyendo la arquitectura tecnológica, disponibilidad, seguridad y cumplimiento de restricciones. Su objetivo es garantizar que la plataforma sea segura, escalable, confiable y cumpla con los requerimientos técnicos del proyecto. |
 
 **User Stories:**
 
@@ -1442,12 +1428,106 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>EP01</td>
     </tr>
 
+<tr>
+  <td>TS03</td>
+  <td>Soporte multiplataforma iOS y Android</td>
+  <td>Como desarrollador, quiero que el sistema sea accesible desde dispositivos iOS y Android para garantizar disponibilidad a todos los usuarios.</td>
+  <td>
+    <strong>Escenario: Acceso desde dispositivo móvil</strong><br>
+    Dado que el usuario instala la aplicación<br>
+    Cuando accede desde un dispositivo iOS o Android<br>
+    Entonces puede utilizar todas las funcionalidades del sistema.<br><br>
+
+<strong> Escenario: Dispositivo no soportado</strong><br>
+    Dado que el usuario intenta acceder desde un dispositivo incompatible<br>
+    Cuando ejecuta la aplicación<br>
+    Entonces el sistema muestra un mensaje de incompatibilidad.
+  </td>
+  <td>EP05</td>
+</tr>
+
+<tr>
+  <td>TS04</td>
+  <td>Implementar base de datos MySQL</td>
+  <td>Como desarrollador, quiero utilizar MySQL como sistema de almacenamiento para gestionar de forma estructurada la información del sistema.</td>
+  <td>
+    <strong>Escenario: Guardado de datos</strong><br>
+    Dado que el sistema registra información<br>
+    Cuando se almacena en la base de datos<br>
+    Entonces los datos se guardan correctamente.<br><br>
+
+<strong>Escenario: Error de conexión</strong><br>
+    Dado que ocurre un fallo en la base de datos<br>
+    Cuando el sistema intenta guardar información<br>
+    Entonces se genera un error controlado.
+  </td>
+  <td>EP05</td>
+
+  
+</tr>
+
+<tr>
+  <td>TS05</td>
+  <td>Disponibilidad 24/7 del sistema</td>
+  <td>Como desarrollador, quiero que el sistema esté disponible las 24 horas para garantizar acceso continuo a los usuarios.</td>
+  <td>
+    <strong>Escenario: Acceso continuo</strong><br>
+    Dado que el usuario accede al sistema<br>
+    Cuando lo hace en cualquier momento<br>
+    Entonces el sistema responde correctamente.<br><br>
+
+<strong>Escenario: Falla del sistema</strong><br>
+    Dado que ocurre una caída<br>
+    Cuando el sistema detecta el error<br>
+    Entonces activa mecanismos de recuperación.
+  </td>
+  <td>EP05</td>
+</tr>
+
+<tr>
+  <td>TS06</td>
+  <td>Implementar TIU para acceso temporal</td>
+  <td>Como desarrollador, quiero implementar un TIU para acceso temporal para permitir ingresos controlados al sistema.</td>
+  <td>
+    <strong>Escenario: Acceso válido</strong><br>
+    Dado que el usuario tiene un TIU activo<br>
+    Cuando lo usa dentro del tiempo permitido<br>
+    Entonces puede acceder.<br><br>
+
+<strong>Escenario: TIU expirado</strong><br>
+    Dado que el TIU ha vencido<br>
+    Cuando el usuario intenta usarlo<br>
+    Entonces el sistema rechaza el acceso.
+  </td>
+  <td>EP05</td>
+</tr>
+<tr>
+  <td>TS07</td>
+  <td>Cumplimiento de normativa de condominios</td>
+  <td>Como desarrollador, quiero que el sistema cumpla con el marco regulatorio de condominios para asegurar su correcto uso legal.</td>
+  <td>
+    <strong>Escenario: Validación normativa</strong><br>
+    Dado que el sistema gestiona información del condominio<br>
+    Cuando se valida contra normativa vigente<br>
+    Entonces cumple con las regulaciones.<br><br>
+
+<strong>Escenario: Incumplimiento</strong><br>
+    Dado que existe inconsistencia legal<br>
+    Cuando se detecta<br>
+    Entonces el sistema genera una alerta.
+  </td>
+  <td>EP05</td>
+</tr>
   </tbody>
 </table>
 
 
 
 # 3.3. Impact Mapping
+El  Impact Map muestra la relación entre el objetivo de negocio de Edifika y los cambios de comportamiento esperados en los usuarios clave: administradores y residentes. A partir de este análisis, se definen los impactos principales que la solución busca generar en cada tipo de usuario y los entregables necesarios para lograrlo, los cuales están directamente vinculados a las historias de usuario planteadas. Esto permite asegurar que cada funcionalidad desarrollada responda a necesidades reales y contribuya al cumplimiento del objetivo del sistema.
+
+  <img src="assets/img/Impact_map_Edifika.png" alt="IME"/>
+
 # 3.4. Product Backlog
 
 | Orden | User Story Id | Título | Descripción | Story Points |
@@ -1482,6 +1562,11 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 | 28 | US28 | Consultar pagos pasados | Como residente, deseo consultar mis pagos pasados para tener un respaldo. | 3 |
 | 29 | TS01 | Implementar autenticación JWT | Como desarrollador, quiero implementar autenticación mediante tokens JWT para acceso seguro. | 5 |
 | 30 | TS02 | Endpoints de registro y login | Como desarrollador, quiero implementar los endpoints de registro e inicio de sesión. | 5 |
+| 31 | TS03 | Soporte multiplataforma iOS y Android | Como desarrollador, quiero que el sistema sea accesible desde dispositivos iOS y Android para garantizar disponibilidad a todos los usuarios. | 8 |
+| 32 | TS04 | Implementar base de datos MySQL | Como desarrollador, quiero utilizar MySQL como sistema de almacenamiento para gestionar de forma estructurada la información del sistema. | 5 |
+| 33 | TS05 | Disponibilidad 24/7 del sistema | Como desarrollador, quiero que el sistema esté disponible las 24 horas para garantizar acceso continuo a los usuarios. | 8 |
+| 34 | TS06 | Implementar TIU para acceso temporal | Como desarrollador, quiero implementar un TIU para acceso temporal para permitir ingresos controlados al sistema. | 5 |
+| 35 | TS07 | Cumplimiento de normativa de condominios | Como desarrollador, quiero que el sistema cumpla con el marco regulatorio de condominios para asegurar su correcto uso legal. | 3 |
 
 # Conclusiones
 # Conclusiones-y-Recomendaciones
@@ -1504,5 +1589,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 
 # Anexos
 - Lean Ux Canvas: `https://miro.com/welcomeonboard/SXAwU0llbzVXekRWcG4zWHhBSjBBMjJkUEdXTXlncGEzOHlPWDM1dkRvMVlPU3I5QzE1UWhrMEg2USsyTFYvU002eVpyS2JvdVlYRzFsODZLV0xpcEYwblhkNkx1RHZZM3VjeDlHbmV5MXU0dmpsMFZ4K050NVVxMlRUTVNzRFZhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=35010524832`
+- Cuadros as-is y to-be: `https://miro.com/app/board/uXjVGhe7HqQ=/?share_link_id=293203178495`
+- 
 # Links
 - Enlace del repositorio: `https://github.com/Condomia/Edifika-report.git`
