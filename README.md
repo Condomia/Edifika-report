@@ -814,6 +814,14 @@ Distrito: <br>
 Resumen: <br><br>
 
 ## 2.2.3 Análisis de entrevistas
+## **Segmento objetivo de administradores de edificios y condominios**
+
+El segmento de administradores de edificios y condominios, representado por nuestros tres entrevistados, opera actualmente con herramientas no especializadas como Excel y WhatsApp, que si bien cubren las necesidades básicas, resultan insuficientes para gestionar de forma ordenada y eficiente múltiples edificios o unidades. Esta situación es reconocida por los propios administradores, lo que indica que la necesidad de digitalización es consciente y no requiere ser justificada.
+El dolor más concreto se concentra en la gestión de pagos y emisión de recibos, un proceso que sigue siendo manual, disperso y en algunos casos físico, generando una carga operativa significativa. La comunicación con residentes también representa un punto crítico, al depender de canales informales sin trazabilidad ni orden centralizado.
+Un hallazgo relevante es que ya existen soluciones en el mercado que han sido evaluadas y descartadas, no por falta de funcionalidades sino por exceso de información mal organizada, lo que genera confusión en los propietarios y una percepción de desorden. Esto señala que la oportunidad para Edifika no está en ofrecer más funciones, sino en ofrecer una experiencia más clara, simple y bien presentada.
+La disposición a migrar hacia una plataforma digital es alta en este segmento, lo que reduce la fricción comercial. Adicionalmente, existe conciencia sobre el modelo de precios del mercado, con un rango conocido de entre 2 y 5 dólares por unidad al mes, lo que facilita el posicionamiento de Edifika dentro de una referencia de precio ya aceptada.
+
+## **Segmento objetivo de propietarios e inquilinos**
 
  # 2.3. Needfinding
 
