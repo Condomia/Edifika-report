@@ -1591,5 +1591,7 @@ El  Impact Map muestra la relación entre el objetivo de negocio de Edifika y lo
 - Lean Ux Canvas: `https://miro.com/welcomeonboard/SXAwU0llbzVXekRWcG4zWHhBSjBBMjJkUEdXTXlncGEzOHlPWDM1dkRvMVlPU3I5QzE1UWhrMEg2USsyTFYvU002eVpyS2JvdVlYRzFsODZLV0xpcEYwblhkNkx1RHZZM3VjeDlHbmV5MXU0dmpsMFZ4K050NVVxMlRUTVNzRFZhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=35010524832`
 - Cuadros as-is y to-be: `https://miro.com/app/board/uXjVGhe7HqQ=/?share_link_id=293203178495`
 - Impact map: `https://drive.google.com/file/d/1vSoBPwzNnKNbPt-nrmsQtPQPS1uqYmOt/view?usp=sharing`
+- User Persona 1: `https://drive.google.com/file/d/1CZasihoytHlc5yitISw_9r6zasZjfTG0/view?usp=sharing`
+- User Persona 2: `https://drive.google.com/file/d/1Iy0-x1W3vIBjgpKlcGfhzkv9yUg4askm/view?usp=sharing`
 # Links
 - Enlace del repositorio: `https://github.com/Condomia/Edifika-report.git`
