@@ -714,7 +714,7 @@ Resumen: <br>El entrevistado, Daniel Farro, administrador de un condominio de ci
 
 Entrevista #3: <br><br>
 
-![interview3](assets/img/imagen_2026-04-18_194125234.png)
+![interview3](assets/img/imagen_2026-04-18_194046671.png)
 
 Enlace de entrevista: <br><br>
 
@@ -752,7 +752,7 @@ Resumen: Se entrevistó a Melina López, propietaria de un departamento, ella in
 
 Entrevista #3: <br><br>
 
-![interview3](assets/img/imagen_2026-04-18_194046671.png)
+![interview3](assets/img/imagen_2026-04-18_194125234.png)
 
 Enlace de entrevista: <br><br>
 
