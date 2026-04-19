@@ -744,7 +744,7 @@ Entrevista #1: <br><br>
 Enlace de entrevista: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQDEXx-uGk1tS71xXaDeSeDeAf3fEODmStVZKztx7vcr0i8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5V6W7o`
 
 Nombre y apellido: Cesar Villalobos <br>
-Edad: 51 años <br>
+Edad: 51 <br>
 Distrito: Cercado de Lima <br>
 Resumen: <br>
 César es administrador de edificios en GWM EIRL y actualmente gestiona 15 edificios usando Excel con macros como herramienta principal, apoyándose en WhatsApp para coordinar reservas y comunicaciones, y en las páginas de los bancos para pagos. El proceso más tedioso es la emisión de recibos, que aún se hace de forma física en varios edificios y que desea digitalizar al 100%. Ha evaluado entre 3 y 4 sistemas sin éxito, ya que todos presentaban exceso de información que generaba confusión en los propietarios y una percepción de desorden o falta de transparencia. Como empresa tiene el objetivo claro de migrar a una plataforma digital, y considera que una app o sistema web mejoraría significativamente la comunicación y la gestión, siempre que sea ágil, ordenada, fácil de entender y con información siempre actualizada. En cuanto al precio, conoce el mercado y sabe que el rango habitual oscila entre 2 y 5 dólares por unidad al mes. <br><br>
@@ -798,9 +798,9 @@ Entrevista #2: <br>
 Enlace de entrevista: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQCrGL7_ZORtSbK1HjVPRnKSAV6DqNEu28FqeS0W-wKJ7Rk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PPJ5TV`<br><br>
 
 Nombre y apellido: Melina Lopez<br>
-Edad: <br>
+Edad: 51 <br>
 Distrito: San Miguel<br>
-Resumen:<br><br>
+Resumen: Se entrevistó a Melina López, propietaria de un departamento, ella indica que no suele estar al tanto de las reuniones del edificio debido a la falta de tiempo. En cuanto a los pagos, envía los comprobantes por correo al administrador y mantiene un archivo físico como respaldo, ya que de lo contrario no tendría un historial accesible, asumiendo que la administración podría brindárselo si lo solicita. Señala que el proceso de reserva de espacios es el más tedioso, pues implica consultar disponibilidad, dejar garantía, realizar pagos y luego hacer seguimiento para su devolución, lo que la obliga a estar constantemente detrás de la administración. Además, le incomoda la gran cantidad de mensajes en el grupo de WhatsApp, donde se pierde información relevante. Finalmente, se muestra abierta al uso de una aplicación que centralice la información, considerando que actualmente los eventos y reuniones ya se comunican mediante un tablero.<br><br>
 
 Entrevista #3: <br><br>
 
@@ -822,6 +822,11 @@ Un hallazgo relevante es que ya existen soluciones en el mercado que han sido ev
 La disposición a migrar hacia una plataforma digital es alta en este segmento, lo que reduce la fricción comercial. Adicionalmente, existe conciencia sobre el modelo de precios del mercado, con un rango conocido de entre 2 y 5 dólares por unidad al mes, lo que facilita el posicionamiento de Edifika dentro de una referencia de precio ya aceptada.
 
 ## **Segmento objetivo de propietarios e inquilinos**
+
+El segmento de propietarios e inquilinos, representado por tres entrevistados, refleja una experiencia de vida en condominio marcada por la dependencia constante hacia la administración para acceder a información básica. En general, ninguno cuenta con un canal directo para consultar su historial de pagos, lo que los obliga a mantener respaldos personales o a solicitar la información cada vez que la necesitan.
+El dolor más concreto se concentra en la reserva de áreas comunes, proceso que los entrevistados describen como tedioso y poco claro, con múltiples pasos manuales, falta de disponibilidad visible y seguimiento de garantías que recae completamente en el residente. Esta fricción acumulada genera una percepción negativa de la administración, aunque el problema de fondo es la ausencia de un proceso estructurado.
+La comunicación representa otro punto crítico. WhatsApp, canal principal en la mayoría de casos, es percibido como ineficiente por el volumen de mensajes y la falta de respuestas oportunas. La información relevante se pierde con facilidad, generando desconexión entre los residentes y la gestión del edificio.
+Un hallazgo importante es que los entrevistados ya reconocen la necesidad de una solución digital y se muestran abiertos a adoptarla sin necesidad de ser convencidos. La oportunidad para Edifika está en ofrecerles visibilidad, orden y autonomía, permitiéndoles acceder a su información sin depender de terceros.
 
  # 2.3. Needfinding
 
