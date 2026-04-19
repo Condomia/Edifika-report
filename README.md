@@ -795,7 +795,7 @@ Entrevista #2: <br>
 
 ![interview2](assets/img/interviews/prop2.png)
 
-Enlace de entrevista: <br><br>
+Enlace de entrevista: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQCrGL7_ZORtSbK1HjVPRnKSAV6DqNEu28FqeS0W-wKJ7Rk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PPJ5TV`<br><br>
 
 Nombre y apellido: Melina Lopez<br>
 Edad: <br>
