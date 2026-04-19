@@ -1519,6 +1519,13 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 # Conclusiones
 # Conclusiones-y-Recomendaciones
 
+- La investigación realizada confirmó que la gestión de condominios en el Perú presenta problemas estructurales de desorganización, falta de transparencia y comunicación deficiente, validando la necesidad real que Edifika busca resolver mediante la digitalización.
+- Ambos segmentos objetivo mostraron disposición para adoptar una solución digital, lo que reduce la fricción de entrada al mercado y respalda la viabilidad del producto, siempre que ofrezca una experiencia simple y accesible.
+- El análisis competitivo reveló que las soluciones existentes no están adaptadas al contexto local, lo que representa una oportunidad de diferenciación para Edifika al enfocarse en la simplicidad y las necesidades reales del usuario peruano.
+- Se recomienda priorizar las funcionalidades de mayor impacto como pagos, reservas y comunicados, validarlas con usuarios reales antes del lanzamiento e incorporar métodos de pago locales para facilitar la adopción.
+- Para escalar el producto de forma sostenible, se recomienda explorar alianzas con empresas administradoras de condominios como canal principal de distribución, permitiendo llegar a múltiples comunidades a través de un solo punto de entrada.
+- El desarrollo del product backlog, los user stories y los escenarios To-Be demostró que el equipo logró comprender en profundidad los problemas de ambos segmentos y traducirlos en soluciones concretas, lo que garantiza que el producto esté orientado a generar valor real desde sus primeras versiones.
+
 # Referencias Bibliografía
   - Aguilar, K. L. B. (2026). Vacíos regulatorios en la Ley de Propiedad en Condominio, análisis de conflictos recurrentes en su modalidad vertical ubicados en el Distrito Central (Tesis doctoral). Centro Universitario Tecnológico CEUTEC. `https://repositorio.unitec.edu/server/api/core/bitstreams/cd97bbd4-204c-49c8-9901-3d0a5a85d7f3/content`
   - Condominos. (2024, 4 de noviembre). Manejo de chats de WhatsApp de vecinos en condominios. `https://www.condominos.app/sitio/detalle/OA/manejo-de-chats-de-whatsapp-de-vecinos-en-condominios`
