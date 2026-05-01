@@ -1553,6 +1553,8 @@ El  Impact Map muestra la relación entre el objetivo de negocio de Edifika y lo
 
 # 3.4. Product Backlog
 
+En esta sección, se presenta el Product Backlog como una recopilación organizada de historias de usuario priorizadas, la estimación de estas se realizó mediante story points basados en la escala Fibonacci, con el fin de tener una planificación más clara y una gestión eficiente para desarrollo de Edifika.
+
 | Orden | User Story Id | Título | Descripción | Story Points |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | US01 | Crear cuenta vinculada a unidad | Como residente, deseo crear una cuenta vinculada a mi unidad para acceder a la gestión de mi edificio. | 5 |
