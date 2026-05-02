@@ -387,6 +387,8 @@ Creemos que una comunicación estructurada dentro de la plataforma aumentará la
 
 ![Lean Ux Canvas](assets/img/lean_ux_canvas.png)
 
+Fuente: Elaboración propia del grupo de trabajo.
+
 # 1.3. Segmentos objetivo
 
 **Administradores de edificios y condominios:**
@@ -587,6 +589,9 @@ El crecimiento de la vivienda vertical en ciudades ha incrementado la cantidad d
     </tr>
   </tbody>
 </table>
+
+Fuente: Elaboración propia del grupo de trabajo.
+
 
  ## 2.1.2. Estrategias frente a competidores
 
@@ -1758,6 +1763,7 @@ En esta sección se describen los patrones de diseño aplicados en el desarrollo
   - ProTool. (2026, 11 de marzo). Administrar un condominio por WhatsApp no es gestión, es un riesgo para la comunidad. `https://www.protool.cl/noticia_detalle.php?slug=administrar-condominios-por-whatsapp-no-es-gestion-es-riesgo`
   - Sociedad Peruana de Bienes Raíces. (2024). Digitalización de edificios y condominios en Perú. `https://bienesraicess.com/blogs/digitalizacion-de-edificios-y-condominios-en-peru`
   - Verastegui Leon, P. A., Mendoza Castañeda, J. L. D. C., Zapata Becerra, M. L., Capristan Leon, K. E., & Ravines Garcia, M. A. (2025). Propuesta de un plan estratégico para mejora de la Gestión en Edificios Multifamiliares en Lima Moderna: Caso De Estudio: MONARCH MANAGERS EIRL. Universidad Peruana de Ciencias Aplicadas. `https://repositorioacademico.upc.edu.pe/handle/10757/686137`
+  - Lean Ux Canvas (2026) Elaboración propia del grupo de trabajo.
 
 # Anexos
 - Lean Ux Canvas: `https://miro.com/welcomeonboard/SXAwU0llbzVXekRWcG4zWHhBSjBBMjJkUEdXTXlncGEzOHlPWDM1dkRvMVlPU3I5QzE1UWhrMEg2USsyTFYvU002eVpyS2JvdVlYRzFsODZLV0xpcEYwblhkNkx1RHZZM3VjeDlHbmV5MXU0dmpsMFZ4K050NVVxMlRUTVNzRFZhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=35010524832`
