@@ -812,6 +812,7 @@ El escenario actual del administrador de condominios refleja una gestión altame
 <p align="center">
   <img src="assets/img/AsIsRicardo.PNG" alt="AsIsR"/>
 </p>
+<p><strong><small>Figura 6. Scenario Mapping (As-Is Segmento 1). Elaborado por el equipo utilizando Miro (Miro, s.f.).</small></strong></p>
 
 **Segmento 2-Propietarios/Inquilinos:**
 Actualmente, los residentes como Andrea enfrentan una experiencia poco eficiente y desorganizada en la gestión del condominio. La información relevante se encuentra dispersa en múltiples canales, lo que dificulta el acceso a datos importantes como pagos, comunicados o reservas. Esto genera frustración, pérdida de tiempo y una baja participación en la comunidad.
@@ -819,6 +820,7 @@ Actualmente, los residentes como Andrea enfrentan una experiencia poco eficiente
 <p align="center">
   <img src="assets/img/AsIsAndrea.PNG" alt="AsIsR"/>
 </p>
+<p><strong><small>Figura 7. Scenario Mapping (As-Is Segmento 2). Elaborado por el equipo utilizando Miro (Miro, s.f.).</small></strong></p>
 
 # CAPÍTULO III: Requirements Specification
 # 3.1. To-Be Scenario Mapping
@@ -829,6 +831,7 @@ El escenario futuro plantea una transformación hacia una gestión digital centr
 <p align="center">
   <img src="assets/img/ToBeRicardo.PNG" alt="AsIsR" />
 </p>
+<p><strong><small>Figura 7. Scenario Mapping (To-Be Segmento 1). Elaborado por el equipo utilizando Miro (Miro, s.f.).</small></strong></p>
 
 **Segmento 2-Propietarios/Inquilinos:**
 El escenario ideal propone una experiencia digital simple, rápida y centralizada a través de Edifika. Andrea podrá acceder a toda la información desde su celular, gestionar pagos, recibir notificaciones y reservar espacios de forma intuitiva. Esto mejora la transparencia, la comodidad y fomenta una mayor participación en la vida del condominio.
@@ -836,6 +839,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 <p align="center">
   <img src="assets/img/ToBeAndrea.PNG" alt="AsIsR"/>
 </p>
+<p><strong><small>Figura 8. Scenario Mapping (To-Be Segmento 2). Elaborado por el equipo utilizando Miro (Miro, s.f.).</small></strong></p>
 
 # 3.2. User Stories
 
@@ -1555,6 +1559,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 El  Impact Map muestra la relación entre el objetivo de negocio de Edifika y los cambios de comportamiento esperados en los usuarios clave: administradores y residentes. A partir de este análisis, se definen los impactos principales que la solución busca generar en cada tipo de usuario y los entregables necesarios para lograrlo, los cuales están directamente vinculados a las historias de usuario planteadas. Esto permite asegurar que cada funcionalidad desarrollada responda a necesidades reales y contribuya al cumplimiento del objetivo del sistema.
 
   <img src="assets/img/Impact_map_Edifika.png" alt="IME"/>
+<p><strong><small>Figura 9. Scenario Mapping (Imapct map). Elaborado por el equipo utilizando Uxpressia (UXPressia, s.f.).</small></strong></p>
 
 # 3.4. Product Backlog
 
@@ -1884,6 +1889,8 @@ Cuando la pasarela de pagos Culqi procesa una transacción, ya sea aprobada o re
   - Sociedad Peruana de Bienes Raíces. (2024). Digitalización de edificios y condominios en Perú. `https://bienesraicess.com/blogs/digitalizacion-de-edificios-y-condominios-en-peru`
   - Verastegui Leon, P. A., Mendoza Castañeda, J. L. D. C., Zapata Becerra, M. L., Capristan Leon, K. E., & Ravines Garcia, M. A. (2025). Propuesta de un plan estratégico para mejora de la Gestión en Edificios Multifamiliares en Lima Moderna: Caso De Estudio: MONARCH MANAGERS EIRL. Universidad Peruana de Ciencias Aplicadas. `https://repositorioacademico.upc.edu.pe/handle/10757/686137`
   - Lean Ux Canvas (2026) Elaboración propia del grupo de trabajo.
+  - Miro. (s.f.). `https://miro.com/`
+  - UXPressia. (s.f.). `https://uxpressia.com/`
 
 # Anexos
 - Lean Ux Canvas: `https://miro.com/welcomeonboard/SXAwU0llbzVXekRWcG4zWHhBSjBBMjJkUEdXTXlncGEzOHlPWDM1dkRvMVlPU3I5QzE1UWhrMEg2USsyTFYvU002eVpyS2JvdVlYRzFsODZLV0xpcEYwblhkNkx1RHZZM3VjeDlHbmV5MXU0dmpsMFZ4K050NVVxMlRUTVNzRFZhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=35010524832`
