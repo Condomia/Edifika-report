@@ -1669,7 +1669,7 @@ En esta sección se presentan los diagramas que describen el comportamiento y la
 
 **Diagrama de contenedores**
 
- <img src="assets/img/conatiner.png" alt="context"/>
+ <img src="assets/img/container.png" alt="context"/>
 
  **Diagramas de componentes**
 
