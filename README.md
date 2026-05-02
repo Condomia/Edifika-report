@@ -1725,12 +1725,113 @@ En esta sección se describen los patrones de diseño aplicados en el desarrollo
 ### 4.1.7. Tactics
 
 ## 4.2. Architectural Drivers
+Esta sección describe los principales conceptos de diseño arquitectónico del sistema Edifika, así como los puntos de vista utilizados para su modelado y análisis. Se abordan las decisiones clave que permiten estructurar la solución de manera eficiente, considerando tanto los requerimientos funcionales como los atributos de calidad.
+
+A través de esta sección, se busca proporcionar una visión clara de cómo la arquitectura soporta las funcionalidades principales del sistema y responde a los desafíos identificados en el dominio del problema.
 
 ### 4.2.1. Design Purpose
 
+El diseño arquitectónico de Edifika tiene como objetivo ofrecer una plataforma digital centralizada, segura y accesible para la gestión de condominios. Los principales drivers del negocio son la transparencia financiera, la optimización de procesos administrativos y la mejora de la comunicación entre residentes y administradores.
+
+La arquitectura debe permitir el acceso eficiente a información crítica como pagos, deudas, reservas y comunicados, así como soportar múltiples usuarios con distintos niveles de permisos (Administrador y Residente). Además, el sistema debe operar de manera continua, ya que los usuarios requieren acceso permanente a sus funcionalidades.
+
+Se priorizan atributos de calidad como la disponibilidad, necesaria para garantizar el acceso al sistema en todo momento; la seguridad, fundamental para proteger datos sensibles y transacciones financieras; el rendimiento, para asegurar tiempos de respuesta adecuados ante múltiples usuarios concurrentes; la usabilidad, que permite a usuarios no técnicos interactuar fácilmente con la plataforma; la escalabilidad, para soportar el crecimiento en número de condominios y usuarios; y la integridad de transacciones, especialmente importante para asegurar que los pagos se registren correctamente y sin inconsistencias.
+
+Para cumplir con estos requerimientos, se adopta una arquitectura basada en microservicios, donde cada funcionalidad principal del sistema (gestión de usuarios, pagos, reservas y comunicación) se implementa como un servicio independiente. Este enfoque permite escalar componentes críticos como el módulo de pagos de manera independiente, mejorar la disponibilidad del sistema al aislar fallos y facilitar la evolución del sistema sin afectar el resto de funcionalidades. Además, favorece la integración con servicios externos como Culqi mediante servicios especializados.
+
+
 ### 4.2.2. Primary Functionality (Primary User Stories)
+| User Story ID | Título | Descripción |
+|--------------|--------|------------|
+| US03 | Inicio de sesión | Como usuario, quiero iniciar sesión para acceder a mi información del condominio. |
+| US13 | Publicar comunicados | Como administrador, quiero publicar comunicados para informar a los residentes. |
+| US16 | Ver disponibilidad de áreas comunes | Como residente, quiero visualizar la disponibilidad para planificar su uso. |
+| US17 | Reservar área común | Como residente, quiero reservar un área común para asegurar su uso. |
+| US21 | Ver deuda actual | Como residente, quiero visualizar mi deuda pendiente. |
+| US22 | Registrar pago | Como residente, quiero realizar pagos mediante Culqi para cumplir mis obligaciones. |
+| US24 | Visualizar morosos | Como administrador, quiero identificar residentes con deudas pendientes. |
+| US25 | Generar reportes | Como administrador, quiero generar reportes financieros del condominio. |
+
 
 ### 4.2.3. Quality Attribute Scenarios
+
+A continuación, se presentan los escenarios de atributos de calidad de Edifika, los cuales describen cómo el sistema responde ante distintos estímulos relacionados con escalabilidad, seguridad, disponibilidad, rendimiento, usabilidad e integridad de transacciones, tomando como referencia las principales funcionalidades del sistema.
+
+#### QA-01 – Escalabilidad
+
+| Atributo | Fuente | Estímulo | Artefacto | Entorno | Respuesta | Medida |
+|----------|--------|----------|----------|---------|----------|--------|
+| Escalabilidad | Administrador del sistema | Incremento en la cantidad de usuarios y condominios registrados | Arquitectura en capas y base de datos | Sistema en operación normal con crecimiento progresivo | El sistema permite soportar el aumento de usuarios sin afectar el desempeño general ni los tiempos de respuesta | El sistema mantiene tiempos de respuesta menores a 3 segundos bajo carga concurrente |
+
+**Escenario:**  
+Cuando se produce un crecimiento sostenido en la cantidad de usuarios y condominios que utilizan la plataforma, el sistema debe ser capaz de escalar sin necesidad de rediseñar su arquitectura base, permitiendo la incorporación de nuevos registros y operaciones sin degradar el rendimiento ni afectar la experiencia de los usuarios existentes. Esto implica que el sistema pueda manejar múltiples solicitudes concurrentes manteniendo estabilidad y consistencia en el acceso a la información.
+
+**User Stories relacionadas:** US03, US25  
+
+---
+
+#### QA-02 – Seguridad
+
+| Atributo | Fuente | Estímulo | Artefacto | Entorno | Respuesta | Medida |
+|----------|--------|----------|----------|---------|----------|--------|
+| Seguridad | Usuario malintencionado | Intento de acceso no autorizado o ejecución de operaciones restringidas | Módulo de autenticación y autorización | Sistema en operación normal con múltiples usuarios | El sistema valida credenciales, aplica control de acceso por roles y bloquea operaciones no autorizadas | 100% de accesos no autorizados rechazados; autenticación obligatoria en operaciones críticas |
+
+**Escenario:**  
+Cuando un usuario intenta acceder al sistema sin credenciales válidas o intenta ejecutar acciones que no corresponden a su rol, el sistema debe autenticar su identidad y verificar sus permisos antes de permitir cualquier operación. En caso de no cumplir con los requisitos de autorización, la solicitud debe ser rechazada de manera inmediata. Este comportamiento es especialmente crítico en funcionalidades relacionadas con pagos, donde se debe garantizar la protección de la información financiera y la integridad de las transacciones realizadas a través de Culqi.
+
+**User Stories relacionadas:** US03, US22, US25  
+
+---
+
+#### QA-03 – Disponibilidad
+
+| Atributo | Fuente | Estímulo | Artefacto | Entorno | Respuesta | Medida |
+|----------|--------|----------|----------|---------|----------|--------|
+| Disponibilidad | Usuario | Solicitud de acceso a funcionalidades del sistema | Aplicación móvil y backend | Sistema en operación con alta concurrencia de usuarios | El sistema permanece operativo y responde a las solicitudes sin interrupciones | Disponibilidad igual o mayor al 99% del tiempo; tiempo de respuesta menor a 3 segundos |
+
+**Escenario:**  
+Cuando múltiples usuarios acceden simultáneamente al sistema para consultar deudas, realizar reservas o visualizar comunicados, la plataforma debe mantenerse disponible y garantizar el acceso continuo a sus funcionalidades. Incluso ante escenarios de alta demanda, el sistema debe evitar interrupciones del servicio y asegurar una experiencia fluida, permitiendo que las operaciones críticas se ejecuten sin fallos.
+
+**User Stories relacionadas:** US03, US21, US16  
+
+---
+
+#### QA-04 – Rendimiento
+
+| Atributo | Fuente | Estímulo | Artefacto | Entorno | Respuesta | Medida |
+|----------|--------|----------|----------|---------|----------|--------|
+| Rendimiento | Usuarios concurrentes | Múltiples solicitudes simultáneas de consulta y operación | Backend y base de datos | Horarios de alta demanda | El sistema procesa solicitudes de manera eficiente sin generar retrasos significativos | Tiempo de respuesta menor a 2 segundos en operaciones de consulta |
+
+**Escenario:**  
+Cuando varios usuarios realizan consultas simultáneas sobre información crítica como deudas, reservas o comunicados, el sistema debe procesar dichas solicitudes de manera eficiente, evitando cuellos de botella y tiempos de espera prolongados. Esto implica optimizar el acceso a la base de datos y la gestión de solicitudes para garantizar una experiencia rápida y consistente.
+
+**User Stories relacionadas:** US16, US21, US17  
+
+---
+
+#### QA-05 – Usabilidad
+
+| Atributo | Fuente | Estímulo | Artefacto | Entorno | Respuesta | Medida |
+|----------|--------|----------|----------|---------|----------|--------|
+| Usabilidad | Usuario nuevo | Interacción inicial con la aplicación | Interfaz móvil | Uso normal del sistema | El usuario puede navegar y realizar acciones sin dificultad | Al menos 90% de usuarios completan tareas sin asistencia |
+
+**Escenario:**  
+Cuando un usuario accede por primera vez a la aplicación, debe ser capaz de comprender la interfaz y ejecutar acciones básicas como consultar su deuda, reservar áreas comunes o revisar comunicados sin necesidad de capacitación previa. Esto implica un diseño intuitivo, con flujos claros y una organización lógica de la información que facilite la interacción del usuario.
+
+**User Stories relacionadas:** US16, US17, US21  
+
+---
+
+#### QA-06 – Integridad de transacciones
+
+| Atributo | Fuente | Estímulo | Artefacto | Entorno | Respuesta | Medida |
+|----------|--------|----------|----------|---------|----------|--------|
+| Integridad de transacciones | Pasarela de pagos Culqi | Confirmación o rechazo de una transacción de pago | Módulo de pagos e integración externa | Transacción financiera en proceso | El sistema actualiza correctamente el estado del pago y la deuda del usuario | 100% de consistencia entre el estado de Culqi y el sistema interno |
+
+**Escenario:**  
+Cuando la pasarela de pagos Culqi procesa una transacción, ya sea aprobada o rechazada, el sistema debe reflejar de manera inmediata y correcta el resultado en la cuenta del usuario. Esto implica actualizar el estado de la deuda, registrar el pago correspondiente y evitar inconsistencias en la información financiera. En caso de fallos en la comunicación con el servicio externo, el sistema debe manejar la situación de forma controlada para garantizar la integridad de los datos.
+
+**User Stories relacionadas:** US22  
 
 ### 4.2.4. Constraints
 
