@@ -1713,7 +1713,7 @@ Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta Plant
 
 En esta sección se presenta el diagrama de base de datos relacional de Edifika, el cual define las tablas, columnas, tipos de datos, restricciones y relaciones necesarias para garantizar la persistencia de la información del sistema. El diagrama refleja los principales dominios de la plataforma, incluyendo la gestión de usuarios, pagos, reservas de áreas comunes y comunicados oficiales, asegurando integridad referencial mediante el uso de claves primarias y foráneas.
 
-<img src="assets/img/edifica_erd.png" alt="ERD_driagram"/>
+<img src="assets/img/edifika_erd.png" alt="ERD_driagram"/>
 Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta LucidChart.
 
 
