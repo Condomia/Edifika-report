@@ -1658,15 +1658,47 @@ El desarrollo de Edifika se sustenta en enfoques metodológicos y técnicos que 
 
 El diagrama de contexto presenta a Edifika como sistema central e identifica los actores externos que interactúan con él y los sistemas con los que se integra. A través de este diagrama se puede comprender el alcance del sistema, sus límites y las relaciones que establece con el entorno, permitiendo visualizar cómo encaja la plataforma dentro del ecosistema de gestión residencial.
 
+  <img src="assets/img/systemcontext.png" alt="context"/>
+
 
 ### 4.1.4. Approach driven ViewPoints Diagrams
 
 En esta sección se presentan los diagramas que describen el comportamiento y la estructura del sistema desde distintas perspectivas. Se incluyen diagramas de actividad para representar los flujos principales de usuario, diagramas de estado para modelar los ciclos de vida de entidades clave como pagos y reservas, diagramas de clases para reflejar la estructura del dominio, y diagramas C4 complementarios que permiten visualizar la arquitectura del sistema en distintos niveles de detalle.
 
+**Diagrama de contenedores**
+
+ <img src="assets/img/conatiner.png" alt="context"/>
+
+ **Diagramas de componentes**
+
+<img src="assets/img/apigetaway.png" alt="context"/>
+
+<img src="assets/img/auth.png" alt="context"/>
+
+<img src="assets/img/communication.png" alt="context"/>
+
+<img src="assets/img/notification.png" alt="context"/>
+
+<img src="assets/img/payment.png" alt="context"/>
+
+<img src="assets/img/report.png" alt="context"/>
+
+<img src="assets/img/reservation.png" alt="context"/>
+
+<img src="assets/img/residental.png" alt="context"/>
+
+ **Diagramas de Clases**
+
+<img src="assets/img/class_diagram_1.png" alt="context"/>
+
+<img src="assets/img/class_diagram_2.png" alt="context"/>
+ 
 
 ### 4.1.5. Relational/Non Relational Database Diagram
 
 En esta sección se presenta el diagrama de base de datos relacional de Edifika, el cual define las tablas, columnas, tipos de datos, restricciones y relaciones necesarias para garantizar la persistencia de la información del sistema. El diagrama refleja los principales dominios de la plataforma, incluyendo la gestión de usuarios, pagos, reservas de áreas comunes y comunicados oficiales, asegurando integridad referencial mediante el uso de claves primarias y foráneas.
+
+<img src="assets/img/edifica_erd.png" alt="ERD_driagram"/>
 
 
 ### 4.1.6. Design Patterns
