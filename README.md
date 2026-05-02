@@ -1408,7 +1408,39 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       </td>
       <td>EP04</td>
     </tr>
+<tr>
+  <td>US29</td>
+  <td>Publicar mensaje en la comunidad</td>
+  <td>Como residente, quiero publicar un mensaje en el canal del condominio para comunicarme con otros residentes.</td>
+  <td>
+    <strong>Escenario: Publicación exitosa</strong><br>
+    Dado que el residente no ha publicado mensajes en el día<br>
+    Cuando redacta y publica un mensaje<br>
+    Entonces el sistema lo muestra en el canal comunitario.<br><br>
+    <strong>Escenario: Límite diario alcanzado</strong><br>
+    Dado que el residente ya publicó un mensaje en el día<br>
+    Cuando intenta publicar otro<br>
+    Entonces el sistema bloquea la acción y muestra un mensaje de límite diario.
 
+  </td>
+  <td>EP02</td>
+</tr>
+<tr>
+  <td>US30</td>
+  <td>Pagar deuda en línea</td>
+  <td>Como residente, quiero pagar mi deuda en línea para mantenerme al día sin realizar procesos manuales.</td>
+  <td>
+    <strong>Escenario: Pago exitoso</strong><br>
+    Dado que el residente tiene una deuda pendiente<br>
+    Cuando selecciona la opción de pago y confirma la transacción<br>
+    Entonces el sistema procesa el pago y actualiza su deuda.<br><br>
+    <strong>Escenario: Pago rechazado</strong><br>
+    Dado que el residente intenta pagar<br>
+    Cuando la transacción es rechazada<br>
+    Entonces el sistema muestra un mensaje de error y no actualiza la deuda.
+  </td>
+  <td>EP04</td>
+</tr>
   </tbody>
 </table>
 
@@ -1595,13 +1627,15 @@ En esta sección, se presenta el Product Backlog como una recopilación organiza
 | 26 | US26 | Exportar reportes financieros | Como administrador, quiero exportar reportes para compartirlos con la comunidad. | 3 |
 | 27 | US27 | Ver resumen de gastos | Como residente, quiero ver un resumen de gastos para confiar en la gestión. | 3 |
 | 28 | US28 | Consultar pagos pasados | Como residente, deseo consultar mis pagos pasados para tener un respaldo. | 3 |
-| 29 | TS01 | Implementar autenticación JWT | Como desarrollador, quiero implementar autenticación mediante tokens JWT para acceso seguro. | 5 |
-| 30 | TS02 | Endpoints de registro y login | Como desarrollador, quiero implementar los endpoints de registro e inicio de sesión. | 5 |
-| 31 | TS03 | Soporte multiplataforma iOS y Android | Como desarrollador, quiero que el sistema sea accesible desde dispositivos iOS y Android para garantizar disponibilidad a todos los usuarios. | 8 |
-| 32 | TS04 | Implementar base de datos MySQL | Como desarrollador, quiero utilizar MySQL como sistema de almacenamiento para gestionar de forma estructurada la información del sistema. | 5 |
-| 33 | TS05 | Disponibilidad 24/7 del sistema | Como desarrollador, quiero que el sistema esté disponible las 24 horas para garantizar acceso continuo a los usuarios. | 8 |
-| 34 | TS06 | Implementar TIU para acceso temporal | Como desarrollador, quiero implementar un TIU para acceso temporal para permitir ingresos controlados al sistema. | 5 |
-| 35 | TS07 | Cumplimiento de normativa de condominios | Como desarrollador, quiero que el sistema cumpla con el marco regulatorio de condominios para asegurar su correcto uso legal. | 3 |
+| 29 | US29 | Publicar mensaje en la comunidad | Como residente, quiero publicar un mensaje en el canal del condominio para comunicarme con otros residentes. | 3 |
+| 30 | US30 | Pagar deuda en línea | Como residente, quiero pagar mi deuda en línea para mantenerme al día sin realizar procesos manuales. | 8 |
+| 31 | TS01 | Implementar autenticación JWT | Como desarrollador, quiero implementar autenticación mediante tokens JWT para acceso seguro. | 5 |
+| 32 | TS02 | Endpoints de registro y login | Como desarrollador, quiero implementar los endpoints de registro e inicio de sesión. | 5 |
+| 33 | TS03 | Soporte multiplataforma iOS y Android | Como desarrollador, quiero que el sistema sea accesible desde dispositivos iOS y Android para garantizar disponibilidad a todos los usuarios. | 8 |
+| 34 | TS04 | Implementar base de datos MySQL | Como desarrollador, quiero utilizar MySQL como sistema de almacenamiento para gestionar de forma estructurada la información del sistema. | 5 |
+| 35 | TS05 | Disponibilidad 24/7 del sistema | Como desarrollador, quiero que el sistema esté disponible las 24 horas para garantizar acceso continuo a los usuarios. | 8 |
+| 36 | TS06 | Implementar TIU para acceso temporal | Como desarrollador, quiero implementar un TIU para acceso temporal para permitir ingresos controlados al sistema. | 5 |
+| 37 | TS07 | Cumplimiento de normativa de condominios | Como desarrollador, quiero que el sistema cumpla con el marco regulatorio de condominios para asegurar su correcto uso legal. | 3 |
 
 # CAPÍTULO IV: Product Architecture Design
 
