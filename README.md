@@ -1705,7 +1705,8 @@ El desarrollo de Edifika se sustenta en enfoques metodológicos y técnicos que 
 El diagrama de contexto presenta a Edifika como sistema central e identifica los actores externos que interactúan con él y los sistemas con los que se integra. A través de este diagrama se puede comprender el alcance del sistema, sus límites y las relaciones que establece con el entorno, permitiendo visualizar cómo encaja la plataforma dentro del ecosistema de gestión residencial.
 
   <img src="assets/img/systemcontext.png" alt="context"/>
-  Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta structurizr.
+  
+ *Figura 10. Context Diagram. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 
 ### 4.1.4. Approach driven ViewPoints Diagrams
@@ -1715,53 +1716,136 @@ En esta sección se presentan los diagramas que describen el comportamiento y la
 **Diagrama de contenedores**
 
  <img src="assets/img/container.png" alt="context"/>
- Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta structurizr.
+ 
+*Figura 11. Diagrama de Contenedores. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
  **Diagramas de componentes**
 
 <img src="assets/img/apigetaway.png" alt="context"/>
-Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta structurizr.
+
+*Figura 12. Diagrama de Componentes - API Gateway. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/auth.png" alt="context"/>
-Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta structurizr.
+
+*Figura 13. Diagrama de Componentes - Auth Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/communication.png" alt="context"/>
-Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta structurizr.
+
+*Figura 14. Diagrama de Componentes - Communication Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/notification.png" alt="context"/>
-Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta structurizr.
+
+*Figura 15. Diagrama de Componentes - Notification Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/payment.png" alt="context"/>
-Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta structurizr.
+
+*Figura 16. Diagrama de Componentes - Payment Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/report.png" alt="context"/>
-Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta structurizr.
+
+*Figura 17. Diagrama de Componentes - Report Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/reservation.png" alt="context"/>
-Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta structurizr.
+
+*Figura 18. Diagrama de Componentes - Reservation Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/forum.png" alt="context"/>
-Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta structurizr.
+
+*Figura 19. Diagrama de Componentes - Forum Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/residental.png" alt="context"/>
-Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta structurizr.
+
+*Figura 20. Diagrama de Componentes - Residential Management Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
  **Diagramas de Clases**
 
 <img src="assets/img/class_diagram_1.png" alt="context"/>
-Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta PlantUML Editor.
+
+*Figura 21. Diagrama de Clases (Parte 1). Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 <img src="assets/img/class_diagram_2.png" alt="context"/>
-Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta PlantUML Editor.
- 
+
+*Figura 22. Diagrama de Clases (Parte 2). Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
+**Diagramas de Secuencia**
+
+**Registro e inicio de sesión del Administrador**
+
+<div align="center">
+
+<img src="assets/img/secuencia1.png" alt="Diagrama de secuencia autenticación administrador"/>
+
+*Figura 23. Diagrama de Secuencia - Autenticación Administrador. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
+</div>
+
+Este diagrama muestra el flujo de registro e inicio de sesión del administrador en Edifika. El administrador ingresa sus datos a través de la App Mobile, que envía la solicitud al API Gateway, el cual la redirige al Auth Service para verificar y registrar las credenciales en la base de datos MySQL, retornando finalmente un token JWT para el acceso a la plataforma.
+
+---
+
+**Registro e inicio de sesión del Inquilino/Propietario**
+
+<div align="center">
+
+<img src="assets/img/secuencia2.png" alt="Diagrama de secuencia autenticación inquilino propietario"/>
+
+*Figura 24. Diagrama de Secuencia - Autenticación Inquilino/Propietario. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
+</div>
+
+Este diagrama presenta el flujo de registro e inicio de sesión del propietario o inquilino. Al igual que el administrador, el residente crea su cuenta vinculada a su unidad residencial a través de la App Mobile, pasando por el API Gateway y el Auth Service para validar sus credenciales y obtener acceso a la plataforma mediante un token JWT.
+
+---
+
+
+**Publicación de comunicados**
+
+<div align="center">
+
+<img src="assets/img/secuencia_comunicados.png" alt="Diagrama de secuencia comunicados oficiales"/>
+
+*Figura 25. Diagrama de Secuencia - Comunicados Oficiales. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
+</div>
+
+Este diagrama ilustra el proceso de publicación de comunicados oficiales en Edifika. El administrador redacta y publica el comunicado desde la App Mobile, el cual es procesado por el API Gateway y el Announcement Service, que lo almacena en la base de datos y envía notificaciones push a todos los residentes mediante Firebase.
+
+---
+
+
+**Registro y aprobación de pagos**
+
+<div align="center">
+
+<img src="assets/img/secuencia_pagos.png" alt="Diagrama de secuencia gestión de pagos"/>
+
+*Figura 26. Diagrama de Secuencia - Gestión de Pagos. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
+</div>
+
+Este diagrama describe el flujo completo de gestión de pagos en Edifika. El residente consulta su deuda, registra su pago adjuntando el comprobante, y el administrador lo valida desde la plataforma. Una vez aprobado, el Payment Service genera automáticamente una constancia en PDF y notifica al residente mediante una notificación push.
+
+---
+
+**Reserva y aprobación de áreas comunes**
+
+<div align="center">
+
+<img src="assets/img/secuencia_reservas.png" alt="Diagrama de secuencia reserva de áreas comunes"/>
+
+*Figura 27. Diagrama de Secuencia - Reserva de Áreas Comunes. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
+</div>
+
+Este diagrama muestra el flujo de reserva de áreas comunes en Edifika. El residente consulta la disponibilidad, selecciona un horario y envía su solicitud. El Reservation Service verifica que no existan duplicados y registra la reserva como pendiente. El administrador la revisa y aprueba, notificando automáticamente al residente sobre la confirmación.
 
 ### 4.1.5. Relational/Non Relational Database Diagram
 
 En esta sección se presenta el diagrama de base de datos relacional de Edifika, el cual define las tablas, columnas, tipos de datos, restricciones y relaciones necesarias para garantizar la persistencia de la información del sistema. El diagrama refleja los principales dominios de la plataforma, incluyendo la gestión de usuarios, pagos, reservas de áreas comunes y comunicados oficiales, asegurando integridad referencial mediante el uso de claves primarias y foráneas.
 
 <img src="assets/img/edifika_erd.png" alt="ERD_driagram"/>
-Fuente: Elaboración propia del grupo de trabajo utilizando la herramienta LucidChart.
 
+*Figura 28. Diagrama Entidad-Relación. Elaborado por el equipo utilizando LucidChart (LucidChart, s.f.).*
 
 ### 4.1.6. Design Patterns
 
@@ -1769,6 +1853,75 @@ En esta sección se describen los patrones de diseño aplicados en el desarrollo
 
 
 ### 4.1.7. Tactics
+
+En esta sección se describen las tácticas arquitectónicas aplicadas en el diseño de Edifika. Estas tácticas representan decisiones técnicas concretas que permiten alcanzar los atributos de calidad definidos para la plataforma, considerando las restricciones del sistema, los escenarios de calidad identificados y las preocupaciones arquitectónicas que deben ser atendidas.
+
+---
+
+**1. Escalabilidad**
+
+Escenario: Cuando la cantidad de condominios, unidades y usuarios registrados en Edifika crece de forma progresiva, el sistema debe mantenerse estable y responder en menos de 3 segundos sin necesidad de rediseñar su arquitectura base.
+
+Tácticas:
+- **Arquitectura basada en microservicios:** Cada módulo del sistema (pagos, reservas, comunicados, usuarios) opera de forma independiente, permitiendo escalar únicamente los componentes con mayor demanda sin afectar al resto.
+- **API Gateway como punto de entrada único:** Centraliza el enrutamiento de solicitudes hacia los microservicios correspondientes, distribuyendo la carga de manera ordenada y permitiendo incorporar nuevos servicios sin modificar los existentes.
+- **Base de datos relacional con modelo optimizado:** El uso de MySQL con relaciones bien definidas entre entidades permite manejar grandes volúmenes de registros sin comprometer la integridad ni el rendimiento de las consultas.
+
+---
+
+**2. Seguridad**
+
+Escenario: Cuando un usuario intenta acceder a información o ejecutar operaciones que no corresponden a su rol, como un inquilino intentando aprobar pagos o acceder a datos de otros residentes, el sistema debe rechazar la solicitud de forma inmediata y registrar el intento.
+
+Tácticas:
+- **Autenticación mediante JWT:** Cada solicitud al sistema debe incluir un token válido que identifique al usuario y su rol antes de permitir cualquier operación.
+- **Autorización por roles en cada endpoint:** El API Gateway y cada microservicio validan que el rol del usuario coincida con los permisos requeridos para ejecutar la operación solicitada.
+- **Cifrado de contraseñas y datos sensibles:** Las contraseñas se almacenan cifradas y la información financiera se protege tanto en tránsito como en reposo.
+- **Aislamiento del Payment Service:** La lógica de integración con Culqi se encapsula en un servicio dedicado que maneja errores, validaciones y confirmaciones de pago de forma controlada, evitando inconsistencias en el estado de las deudas.
+
+---
+
+**3. Disponibilidad**
+
+Escenario: Cuando múltiples residentes y administradores acceden simultáneamente a la plataforma para consultar deudas, realizar reservas o revisar comunicados, el sistema debe mantenerse operativo y responder sin interrupciones, garantizando una disponibilidad igual o mayor al 99%.
+
+Tácticas:
+- **Separación de servicios independientes:** Al estar cada módulo desacoplado, un fallo en el servicio de notificaciones o en la integración con Firebase no afecta el funcionamiento de los módulos de pagos o reservas.
+- **Manejo controlado de fallos externos:** Ante la indisponibilidad de Culqi o Firebase, el sistema responde con mensajes claros al usuario y permite que el resto de funcionalidades continúe operando con normalidad.
+- **Despliegue en infraestructura cloud con contenedores:** Los servicios están preparados para ejecutarse en entornos cloud con variables de entorno y configuración externa, facilitando la recuperación ante fallos y el reinicio automático de instancias.
+
+---
+
+**4. Rendimiento**
+
+Escenario: Cuando varios usuarios realizan consultas simultáneas sobre deudas, disponibilidad de áreas comunes o comunicados publicados, el sistema debe responder en menos de 2 segundos sin generar cuellos de botella en la base de datos.
+
+Tácticas:
+- **Paginación de resultados:** Las consultas de historial de pagos, comunicados y reservas se devuelven en páginas para reducir el volumen de datos transferidos en cada solicitud.
+- **Distribución de carga mediante API Gateway:** Al centralizar el enrutamiento, el API Gateway permite distribuir las solicitudes entre los microservicios disponibles, evitando que un solo servicio concentre toda la carga.
+- **Almacenamiento de imágenes en servicio externo:** Los comprobantes de pago e imágenes adjuntas se guardan en un servicio de almacenamiento separado, y la base de datos MySQL solo conserva la URL correspondiente, reduciendo el peso de las consultas.
+
+---
+
+**5. Usabilidad**
+
+Escenario: Cuando un residente accede por primera vez a Edifika, debe poder consultar su deuda, reservar un área común o revisar un comunicado sin necesidad de capacitación previa, completando estas acciones de forma exitosa en su primer intento.
+
+Tácticas:
+- **Flujos simplificados por rol:** La interfaz presenta únicamente las opciones correspondientes al rol del usuario, evitando sobrecarga de información y reduciendo la curva de aprendizaje.
+- **Notificaciones push como guía de acción:** Los recordatorios de pago, confirmaciones de reserva y alertas de comunicados orientan al usuario hacia las acciones más relevantes sin necesidad de que navegue activamente por la app.
+- **Validación inmediata de formularios:** Los errores en el registro de pagos, reservas o datos del perfil se detectan y comunican al usuario antes de enviar la solicitud al servidor, evitando frustración y reprocesos.
+
+---
+
+**6. Integridad de transacciones**
+
+Escenario: Cuando la pasarela de pagos Culqi procesa una transacción, el sistema debe reflejar de inmediata y correctamente el resultado en la cuenta del usuario, garantizando el 100% de consistencia entre el estado registrado en Culqi y el estado interno del sistema.
+
+Tácticas:
+- **Estados de pago definidos y trazables:** Cada pago registrado en el sistema pasa por estados claros (pendiente, validado, rechazado), con fecha, usuario responsable y referencia del comprobante, asegurando trazabilidad completa de cada operación.
+- **Validación antes de confirmar deuda como pagada:** El Payment Service verifica la respuesta de Culqi antes de actualizar el estado de la deuda del residente, evitando registros incorrectos ante fallos en la comunicación con el servicio externo.
+- **Restricciones en base de datos:** Se aplican constraints relacionales en MySQL para evitar inconsistencias entre pagos, deudas y usuarios, garantizando coherencia en la información financiera almacenada.
 
 ## 4.2. Architectural Drivers
 Esta sección describe los principales conceptos de diseño arquitectónico del sistema Edifika, así como los puntos de vista utilizados para su modelado y análisis. Se abordan las decisiones clave que permiten estructurar la solución de manera eficiente, considerando tanto los requerimientos funcionales como los atributos de calidad.
@@ -1797,7 +1950,8 @@ Para cumplir con estos requerimientos, se adopta una arquitectura basada en micr
 | US22 | Registrar pago | Como residente, quiero realizar pagos mediante Culqi para cumplir mis obligaciones. |
 | US24 | Visualizar morosos | Como administrador, quiero identificar residentes con deudas pendientes. |
 | US25 | Generar reportes | Como administrador, quiero generar reportes financieros del condominio. |
-
+| US29 | Publicar mensaje en la comunidad | Como residente, quiero comunicarme con otros residentes mediante un canal comunitario. |
+| US30 | Pagar deuda en línea | Como residente, quiero pagar mi deuda en línea para mantenerme al día sin realizar procesos manuales. |
 
 ### 4.2.3. Quality Attribute Scenarios
 
@@ -1880,8 +2034,43 @@ Cuando la pasarela de pagos Culqi procesa una transacción, ya sea aprobada o re
 **User Stories relacionadas:** US22  
 
 ### 4.2.4. Constraints
+Las restricciones arquitectónicas definen los límites técnicos, tecnológicos y normativos bajo los cuales diseñaramos el sistema de EDIFIKA. Estas condiciones no pueden ser ignoradas, ya que influyen directamente en las decisiones de diseño, selección de tecnologías e implementación de la solución. Al considerar estas restricciones nos aseguramos la viabilidad del sistema, facilitar su integración con el entorno y reducir riesgos asociados al momento de desarrollar.
+| Constraint                                              | Descripción                                                                                                                                                          | Impacto arquitectónico                                                                                                                                                |
+| ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Uso de aplicación móvil                                 | EDIFIKA será consumida principalmente desde una aplicación móvil iOS/Android.                    | El backend debe exponer APIs REST seguras y optimizadas para dispositivos móviles.                                                                                    |
+| Uso de API Gateway                                      | Todas las solicitudes deben pasar por el API Gateway.                                              | Centraliza validación JWT, filtros de seguridad y enrutamiento a microservicios.                                                                                      |
+| Uso de JWT                                              | La autenticación se realizará mediante tokens JWT.                                               | Todos los servicios protegidos deben validar identidad y rol del usuario.                                                                                             |
+| Uso de MySQL                                            | La información estructurada se almacenará en una base de datos MySQL.                                                                                                | Las entidades como usuarios, edificios, unidades, deudas, pagos, reservas y comunicados se modelarán relacionalmente.                                                 |
+| Base o almacenamiento de imágenes                       | Las imágenes no deben guardarse directamente como binarios en MySQL.                                                                                                 | Se usará una base/servicio de almacenamiento de imágenes y en MySQL solo se guardará la URL o identificador.                                                          |
+| Integración con Culqi                                   | Culqi solo puede usarse si se cumplen sus requisitos de cuenta, comercio, credenciales API y configuración de seguridad.                                             | Payment Service debe aislar la lógica de Culqi y manejar errores, validaciones y confirmaciones de pago.                                                              |
+| Dependencia de Firebase Cloud Messaging                 | Las notificaciones push dependerán de Firebase Cloud Messaging.                                                                                                      | Notification Service debe integrarse con FCM y manejar tokens de dispositivos.                                                                                        |
+| Límite del mini foro                                    | Cada usuario solo podrá realizar una publicación diaria.                                                                                                             | Communication Service debe validar fecha de última publicación antes de aceptar una nueva.                                                                            |
+| Roles diferenciados                                     | Existen administradores, propietarios e inquilinos.                                                                                                                  | El sistema debe aplicar autorización por rol para limitar operaciones.                                                                                                |
+| Seguridad de datos sensibles                            | Se gestionan pagos, deudas, usuarios y datos del condominio.                                                                                                         | Se deben cifrar contraseñas, proteger endpoints y evitar exposición de información privada.                                                                           |
+| Disponibilidad de servicios externos                    | Culqi y Firebase son servicios externos fuera del control del sistema.                                                                                               | Se deben manejar fallos externos sin afectar todo el sistema.                                                                                                         |
+| Arquitectura basada en microservicios                   | El sistema se divide en servicios independientes.                                                                                                                    | Cada servicio debe tener responsabilidades claras y comunicación mediante APIs.                                                                                       |
+| Restricción de despliegue cloud                         | El sistema debe poder desplegarse en una infraestructura cloud.                                                                                                      | Los servicios deben estar preparados para contenedores, variables de entorno y configuración externa.                                                                 |
+| Cumplimiento normativo para administración de edificios | EDIFIKA debe considerar la normativa peruana relacionada con la administración de edificios, bienes comunes, cuotas, acuerdos y responsabilidades del administrador. | Los módulos de pagos, deudas, comunicados, reservas y reportes deben registrar información trazable, ordenada y consultable para respaldar la gestión del condominio. |
 
 ### 4.2.5. Architectural Concerns
+Las preocupaciones arquitectónicas representan los aspectos críticos del sistema que generan interés o riesgo para el negocio y los usuarios. Estas preocupaciones están relacionadas con atributos de calidad como seguridad, disponibilidad, escalabilidad y mantenibilidad, y deben ser abordadas mediante decisiones arquitectónicas adecuadas. Al identificarlas nos permite anticipar problemas potenciales y diseñar soluciones que garanticen el correcto funcionamiento del sistema.
+
+| Concern                                 | Riesgo                                                                                                          | Decisión arquitectónica                                                                                                     |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Fallos durante el pago                  | Un pago podría quedar incompleto, duplicado o sin confirmación si Culqi no responde correctamente.              | El Payment Service debe manejar estados de pago, errores controlados y validación antes de confirmar una deuda como pagada. |
+| Acceso indebido a información privada   | Un usuario podría ver deudas, pagos, reservas o datos que no le corresponden.                                   | Se validará el token JWT y el rol del usuario antes de permitir cada operación sensible.                                    |
+| Falta de trazabilidad administrativa    | El administrador podría no contar con evidencia clara sobre pagos, acuerdos, comunicados o acciones realizadas. | El sistema debe registrar fecha, usuario responsable, tipo de operación e historial de cambios.                             |
+| Pérdida o carga lenta de imágenes       | Las imágenes podrían afectar el rendimiento o perderse si no se almacenan correctamente.                        | Las imágenes se guardarán en un almacenamiento separado y la base principal solo guardará su URL o identificador.           |
+| Notificaciones importantes no recibidas | Los usuarios podrían no enterarse de pagos pendientes, comunicados o reservas confirmadas.                      | El Notification Service gestionará tokens de dispositivos y manejará respuestas de Firebase.                                |
+| Doble reserva de áreas comunes          | Dos usuarios podrían reservar el mismo espacio en el mismo horario.                                             | El Reservation Service validará disponibilidad antes de registrar la reserva.                                               |
+| Abuso del mini foro                     | El foro podría llenarse de publicaciones repetitivas o poco relevantes.                                         | Se aplicará la regla de máximo una publicación diaria por usuario.                                                          |
+| Bajo rendimiento en horas de mayor uso  | La app podría volverse lenta cuando muchos residentes consulten pagos, reservas o comunicados al mismo tiempo.  | Se usará API Gateway, paginación y servicios separados para distribuir mejor la carga.                                      |
+| Cambios difíciles de mantener           | Modificar pagos, reservas o comunicados podría afectar otras partes del sistema.                                | Se separarán responsabilidades por microservicio y se mantendrán interfaces claras entre ellos.                             |
+| Inconsistencia entre módulos            | Un pago, reserva o comunicado podría quedar registrado de forma diferente entre servicios.                      | Se aplicarán validaciones de negocio y restricciones en base de datos para mantener coherencia.                             |
+| Uso incorrecto de roles                 | Un inquilino podría realizar acciones de administrador o un propietario acceder a información ajena.            | Se definirá autorización por roles en cada endpoint protegido.                                                              |
+| Dependencia de servicios externos       | Si Culqi o Firebase fallan, algunas funciones críticas podrían verse afectadas.                                 | El sistema debe responder con mensajes claros y permitir que el resto de módulos siga funcionando.                          |
+
+
 
 ## 4.3. ADD Iterations
 
