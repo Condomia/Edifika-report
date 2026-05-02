@@ -1596,18 +1596,85 @@ En esta sección, se presenta el Product Backlog como una recopilación organiza
 # CAPÍTULO IV: Product Architecture Design
 
 ## 4.1. Design Concepts, ViewPoints & ER Diagrams
-
 ### 4.1.1. Principles Statements
+Edifika se construye sobre un conjunto de principios que orientan cada decisión de diseño y desarrollo, asegurando que la plataforma responda de forma coherente a las necesidades reales de quienes administran y habitan las comunidades residenciales. Estos principios reflejan el compromiso de Condomia con la transparencia, la simplicidad y la eficiencia operativa.
+
+Principios de Edifika:
+
+- <strong> Centralización de la Gestión Residencial: </strong> La plataforma integra en un solo entorno digital las funciones principales del condominio, incluyendo pagos, reservas y comunicados, eliminando la dependencia de herramientas dispersas como WhatsApp o Excel.
+- <strong> Simplicidad y Accesibilidad: </strong> Administradores y residentes deben poder realizar acciones clave como pagar, reservar o consultar deudas en pocos pasos, sin necesidad de capacitación previa ni conocimientos técnicos.
+- <strong> Transparencia Financiera: </strong> Toda operación relacionada con pagos, deudas y gastos del condominio debe quedar registrada y accesible para todos los actores autorizados, reduciendo conflictos y fortaleciendo la confianza dentro de la comunidad.
+- <strong> Seguridad en el Acceso y los Datos: </strong> La plataforma protege la información personal y financiera de los usuarios mediante autenticación con JWT y control de acceso por roles, garantizando un entorno confiable para todas las operaciones.
+- <strong> Disponibilidad Continua: </strong> El sistema debe estar disponible las 24 horas desde dispositivos iOS y Android, permitiendo que los usuarios accedan a su información y realicen operaciones en cualquier momento sin interrupciones.
 
 ### 4.1.2. Approaches Statements Architectural Styles & Patterns
 
+El desarrollo de Edifika se sustenta en enfoques metodológicos y técnicos que garantizan una arquitectura organizada, escalable y alineada con las necesidades reales de la gestión residencial. Estos enfoques permiten tomar decisiones de diseño coherentes desde las primeras etapas del proyecto.
+
+<strong> Approaches Statements </strong>
+-----------
+- <strong>Domain Driven Design (DDD):</strong>
+
+	Edifika adoptará DDD como enfoque principal para el modelado del sistema. Dado que la plataforma gestiona dominios bien diferenciados como pagos, reservas y comunicados, este enfoque permite organizar el código en torno a la lógica del negocio real, facilitando 		una arquitectura comprensible, mantenible y alineada con los procesos cotidianos de administración de condominios.
+
+- <strong>Agile Development:</strong>
+
+	El proyecto se desarrollará bajo una metodología ágil con entregas incrementales. Esto permite validar funcionalidades con usuarios reales de ambos segmentos, adaptar el producto a cambios en los requerimientos y asegurar que cada iteración aporte valor concreto a 	administradores y residentes.
+
+- <strong>Continuous Integration and Continuous Deployment (CI/CD):</strong>
+
+	Se implementará un flujo de integración y despliegue continuo para automatizar la construcción y entrega de nuevas versiones, reduciendo errores en producción y acelerando la incorporación de mejoras a la plataforma.
+
+- <strong>Attribute-Driven Design (ADD):</strong>
+
+	Desde el diseño inicial se priorizarán atributos de calidad como disponibilidad, seguridad, usabilidad y escalabilidad, asegurando que la arquitectura de Edifika no solo cumpla con los requisitos funcionales sino también con las expectativas de confiabilidad de 		sus usuarios.
+
+<strong> Architectural Styles & Patterns </strong>
+-----------
+
+- <strong>Layered Architecture</strong>
+
+	La plataforma se estructurará en capas definidas: presentación, aplicación, dominio e infraestructura. Este enfoque promueve alta cohesión interna y bajo acoplamiento entre componentes, facilitando el mantenimiento y la evolución del sistema a medida que 		Edifika incorpore nuevas funcionalidades.
+
+- <strong>Microservices Architecture</strong>
+  
+	Edifika se organizará en microservicios independientes por dominio, donde cada módulo como pagos, reservas o comunicados operará de forma autónoma con su propia lógica y base de datos. Esto garantiza escalabilidad, resiliencia y despliegue independiente de cada 		componente, soportado por herramientas como Docker.
+
+<strong> Patrones Arquitectónicos </strong>
+-----------
+
+- <strong>Repository Pattern:</strong>
+	Abstrae el acceso a datos desacoplando la lógica de negocio de la infraestructura, lo que permite cambiar la fuente de datos sin afectar el comportamiento del sistema. Es fundamental para mantener la coherencia con el enfoque DDD adoptado en Edifika.
+
+- <strong>Observer / Event Publisher-Subscriber:</strong>
+	Permite la comunicación desacoplada entre módulos del sistema, notificando automáticamente a los residentes sobre eventos relevantes como el vencimiento de un pago, la confirmación de una reserva o la publicación de un comunicado oficial.
+
+- <strong>Saga Pattern:</strong>
+	Se aplicará para gestionar transacciones distribuidas entre microservicios, como el proceso de registro de un pago que involucra validación del comprobante, actualización del estado de deuda y notificación al residente, garantizando consistencia sin bloquear el sistema.
+
+- <strong>API Gateway Pattern:</strong>
+	Se utilizará un punto de entrada único para centralizar las solicitudes de los clientes hacia los distintos microservicios. Esto simplifica la comunicación, permite aplicar políticas de seguridad de forma centralizada y mejora el control del tráfico entre el frontend y el backend.
+
+
 ### 4.1.3. Context Diagram
+
+El diagrama de contexto presenta a Edifika como sistema central e identifica los actores externos que interactúan con él y los sistemas con los que se integra. A través de este diagrama se puede comprender el alcance del sistema, sus límites y las relaciones que establece con el entorno, permitiendo visualizar cómo encaja la plataforma dentro del ecosistema de gestión residencial.
+
 
 ### 4.1.4. Approach driven ViewPoints Diagrams
 
+En esta sección se presentan los diagramas que describen el comportamiento y la estructura del sistema desde distintas perspectivas. Se incluyen diagramas de actividad para representar los flujos principales de usuario, diagramas de estado para modelar los ciclos de vida de entidades clave como pagos y reservas, diagramas de clases para reflejar la estructura del dominio, y diagramas C4 complementarios que permiten visualizar la arquitectura del sistema en distintos niveles de detalle.
+
+
 ### 4.1.5. Relational/Non Relational Database Diagram
 
+En esta sección se presenta el diagrama de base de datos relacional de Edifika, el cual define las tablas, columnas, tipos de datos, restricciones y relaciones necesarias para garantizar la persistencia de la información del sistema. El diagrama refleja los principales dominios de la plataforma, incluyendo la gestión de usuarios, pagos, reservas de áreas comunes y comunicados oficiales, asegurando integridad referencial mediante el uso de claves primarias y foráneas.
+
+
 ### 4.1.6. Design Patterns
+
+En esta sección se describen los patrones de diseño aplicados en el desarrollo de Edifika. Estos patrones fueron seleccionados con base en las necesidades específicas de cada módulo del sistema, con el objetivo de promover un código más organizado, reutilizable y fácil de mantener, alineado con los principios y estilos arquitectónicos definidos para la plataforma.
+
 
 ### 4.1.7. Tactics
 
