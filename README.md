@@ -1751,7 +1751,8 @@ Para cumplir con estos requerimientos, se adopta una arquitectura basada en micr
 | US22 | Registrar pago | Como residente, quiero realizar pagos mediante Culqi para cumplir mis obligaciones. |
 | US24 | Visualizar morosos | Como administrador, quiero identificar residentes con deudas pendientes. |
 | US25 | Generar reportes | Como administrador, quiero generar reportes financieros del condominio. |
-
+| US29 | Publicar mensaje en la comunidad | Como residente, quiero comunicarme con otros residentes mediante un canal comunitario. |
+| US30 | Pagar deuda en línea | Como residente, quiero pagar mi deuda en línea para mantenerme al día sin realizar procesos manuales. |
 
 ### 4.2.3. Quality Attribute Scenarios
 
