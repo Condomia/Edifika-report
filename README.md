@@ -61,7 +61,7 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
   </thead>
   <tbody>
     <tr>
-      <td>TB1</td>
+      <td>Avance 1</td>
       <td>17/04/2026</td>
       <td>
         - Becerra Tejeda, Alessandra Nicole <br>
@@ -100,6 +100,44 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         3.4 Product Backlog
       </td>
     </tr>
+    <tr>
+      <td>TB1</td>
+      <td>02/05/2026</td>
+      <td>
+        - Becerra Tejeda, Alessandra Nicole <br>
+        - Bejarano Martinez, Alvaro Leandro <br>
+        - Ortiz Cardenas, Johanna Antuanete <br>
+        - Sarmiento Medina, Loreley <br>
+        - Zegarra López, Renato Sebastián Rubber
+      </td>
+      <td>
+        Se realizaron los siguientes puntos del informe: <br><br>
+        <b>Capítulo IV: Product Architecture Design</b> <br>
+        4.1 Design Concepts, ViewPoints & ER Diagrams <br>
+        4.1.1 Principles Statements <br>
+        4.1.2 Approaches Statements Architectural Styles & Patterns <br>
+        4.1.3 Context Diagram <br>
+        4.1.4 Approach driven ViewPoints Diagrams <br>
+        4.1.5 Relational/Non Relational Database Diagram <br>
+        4.1.6 Design Patterns <br>
+        4.1.7 Tactics <br><br>
+        4.2 Architectural Drivers <br>
+        4.2.1 Design Purpose <br>
+        4.2.2 Primary Functionality (Primary User Stories) <br>
+        4.2.3 Quality Attribute Scenarios <br>
+        4.2.4 Constraints <br>
+        4.2.5 Architectural Concerns <br><br>
+        4.3 ADD Iterations <br>
+        4.3.1 Iteration 1 <br>
+        4.3.1.1 Architectural Design Backlog <br>
+        4.3.1.2 Establish Iteration Goal by Selecting Drivers <br>
+        4.3.1.3 Choose One or More Elements of the System to Refine <br>
+        4.3.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers <br>
+        4.3.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces <br>
+        4.3.1.6 Sketch Views (C4 & UML) and Record Design Decisions <br>
+        4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+      </td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -121,34 +159,40 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       <td>7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software</td>
       <td>
         Becerra Tejeda, Alessandra Nicole <br><br>
-        TB1: <br> Investigué y consolidé conceptos actualizados relacionados con la definición del problem statement, hypothesis y assumptions, aplicándolos de manera estructurada en el planteamiento inicial del proyecto. <br><br>
+        Avance 1: <br> Investigué y consolidé conceptos actualizados relacionados con la definición del problem statement, hypothesis y assumptions, aplicándolos de manera estructurada en el planteamiento inicial del proyecto. <br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
-        TB1: <br>Investigué y apliqué metodologías de diseño centrado en el usuario para la creación de User Personas y la User Task Matrix. Asimismo, profundicé en técnicas de Empathy Mapping y priorización de requisitos mediante la elaboración del Product Backlog, asegurando que la solución Edifika responda a necesidades técnicas y funcionales reales.<br><br>
+        Avance 1: <br>Investigué y apliqué metodologías de diseño centrado en el usuario para la creación de User Personas y la User Task Matrix. Asimismo, profundicé en técnicas de Empathy Mapping y priorización de requisitos mediante la elaboración del Product Backlog, asegurando que la solución Edifika responda a necesidades técnicas y funcionales reales.<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
-        TB1: <br>
+        Avance 1: <br>
         Investigué y documenté el perfil de la startup Condomia, el nombre y concepto del producto Edifika, y los antecedentes del problema que busca resolver en la gestión de condominios.<br><br>
+		TB1: <br> Investigué y apliqué conceptos de arquitectura de software para definir los principios, enfoques y patrones del sistema Edifika, y desarrollé los diagramas de secuencia junto con las tácticas arquitectónicas del proyecto.<br><br>
         Sarmiento Medina, Loreley <br><br>
-        TB1: <br>Desarrollé los cuadros As-Is y To-Be, el Impact Map y la entrevista a un usuario, para poder analizar el comportamiento del usuario y alinear sus necesidades con la solución propuesta.<br><br>
+        Avance 1: <br>Desarrollé los cuadros As-Is y To-Be, el Impact Map y la entrevista a un usuario, para poder analizar el comportamiento del usuario y alinear sus necesidades con la solución propuesta.<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
-        TB1: <br>Realicé investigación sobre el sector de gestión de condominios, incluyendo análisis de competidores y entrevistas a usuarios, lo que me permitió actualizar conocimientos relevantes para el desarrollo de una solución de software<br><br>
+        Avance 1: <br>Realicé investigación sobre el sector de gestión de condominios, incluyendo análisis de competidores y entrevistas a usuarios, lo que me permitió actualizar conocimientos relevantes para el desarrollo de una solución de software<br><br>
       </td>
-      <td>A lo largo del desarrollo del primer entregable, el equipo demostró capacidad para incorporar nuevos conceptos y herramientas propias de la ingeniería de software. El desarrollo del perfil de Condomia, la definición de Edifika y el trabajo con metodologías como Lean UX nos llevaron a investigar y aplicar conocimientos que inicialmente no manejábamos con profundidad. Este proceso de actualización continua se reflejó directamente en la calidad y coherencia de la documentación entregada.</td>
+      <td>Avance 1: A lo largo del desarrollo del primer entregable, el equipo demostró capacidad para incorporar nuevos conceptos y herramientas propias de la ingeniería de software. El desarrollo del perfil de Condomia, la definición de Edifika y el trabajo con metodologías como Lean UX nos llevaron a investigar y aplicar conocimientos que inicialmente no manejábamos con profundidad. Este proceso de actualización continua se reflejó directamente en la calidad y coherencia de la documentación entregada.<br><br>
+	  TB1: Durante el segundo entregable, el equipo profundizó en conceptos de arquitectura de software aplicados directamente al diseño de Edifika. El trabajo con metodologías como ADD, patrones arquitectónicos y la elaboración de diagramas técnicos exigió investigar y consolidar conocimientos que van más allá del desarrollo funcional, reforzando la capacidad del equipo para tomar decisiones de diseño fundamentadas y coherentes con los objetivos del sistema.
+	  </td>
     </tr>
     <tr>
       <td>7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software.</td>
       <td>
         Becerra Tejeda, Alessandra Nicole <br><br>
-        TB1: <br>Investigué y contrasté información de diversas fuentes para comprender y aplicar adecuadamente los conceptos de problem statement, hypothesis y assumptions en el desarrollo del proyecto.<br><br>
+        Avance 1: <br>Investigué y contrasté información de diversas fuentes para comprender y aplicar adecuadamente los conceptos de problem statement, hypothesis y assumptions en el desarrollo del proyecto.<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
-        TB1: <br>Reconocí la importancia de dominar técnicas de investigación cualitativa mediante el diseño y ejecución de entrevistas a los dos segmentos objetivo. Esta experiencia me permitió comprender que el aprendizaje de nuevas estrategias de recolección de datos es vital para validar hipótesis y reducir la incertidumbre en el desarrollo de software.<br><br>
+        Avance 1: <br>Reconocí la importancia de dominar técnicas de investigación cualitativa mediante el diseño y ejecución de entrevistas a los dos segmentos objetivo. Esta experiencia me permitió comprender que el aprendizaje de nuevas estrategias de recolección de datos es vital para validar hipótesis y reducir la incertidumbre en el desarrollo de software.<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
-        TB1: Reconocí la importancia de investigar el sector de gestión de condominios para desarrollar una solución relevante, lo que me motivó a profundizar en nuevos conceptos y herramientas necesarias para el proyecto Edifika.<br><br>
+        Avance 1: <br>Reconocí la importancia de investigar el sector de gestión de condominios para desarrollar una solución relevante, lo que me motivó a profundizar en nuevos conceptos y herramientas necesarias para el proyecto Edifika.<br><br>
+		TB1: <br> Reconocí que diseñar la arquitectura de Edifika exige aprendizaje continuo, ya que trabajar con patrones como microservicios, DDD y atributos de calidad me motivó a investigar y profundizar en conceptos que no manejaba previamente.<br><br>
         Sarmiento Medina, Loreley <br><br>
-        TB1: <br>Reconocí la importancia del aprendizaje continuo al desarrollar los cuadros As-Is, To-Be, el Impact Map y la entrevista, lo que me permitió mejorar mi análisis del usuario y comprender mejor cómo estructurar soluciones alineadas a sus necesidades reales.<br><br>
+        Avance 1: <br>Reconocí la importancia del aprendizaje continuo al desarrollar los cuadros As-Is, To-Be, el Impact Map y la entrevista, lo que me permitió mejorar mi análisis del usuario y comprender mejor cómo estructurar soluciones alineadas a sus necesidades reales.<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
-        TB1: <br>A partir del desarrollo del Lean UX Canvas, el análisis de competidores y las entrevistas realizadas, reconocí que el aprendizaje permanente es esencial para el desempeño profesional en ingeniería de software. Esta experiencia evidenció la necesidad de actualizar continuamente conocimientos sobre tecnologías, metodologías y necesidades del usuario para diseñar soluciones efectivas y relevantes.<br>
+        Avance 1: <br>A partir del desarrollo del Lean UX Canvas, el análisis de competidores y las entrevistas realizadas, reconocí que el aprendizaje permanente es esencial para el desempeño profesional en ingeniería de software. Esta experiencia evidenció la necesidad de actualizar continuamente conocimientos sobre tecnologías, metodologías y necesidades del usuario para diseñar soluciones efectivas y relevantes.<br>
       </td>
-      <td>El desarrollo del proyecto Edifika nos permitió comprender que mantenerse en constante aprendizaje no es opcional, sino necesario. Cada sección trabajada en la TB1 nos presentó nuevos retos que exigieron investigar, cuestionar y adaptarnos. Como equipo, entendimos que la disposición para aprender de forma autónoma es una habilidad igual de importante que el conocimiento técnico en sí.</td>
+      <td>Avance 1: El desarrollo del proyecto Edifika nos permitió comprender que mantenerse en constante aprendizaje no es opcional, sino necesario. Cada sección trabajada en la TB1 nos presentó nuevos retos que exigieron investigar, cuestionar y adaptarnos. Como equipo, entendimos que la disposición para aprender de forma autónoma es una habilidad igual de importante que el conocimiento técnico en sí.<br><br>
+	  TB1: El desarrollo de la arquitectura de Edifika reafirmó que el aprendizaje permanente es indispensable en la ingeniería de software. Enfrentarse a decisiones de diseño arquitectónico, integración de servicios externos y modelado de atributos de calidad nos demostró que los conocimientos técnicos deben actualizarse constantemente para responder a los retos reales que presenta el desarrollo de una solución profesional.
+	  </td>
     </tr>
   </tbody>
 </table>
@@ -2102,18 +2146,20 @@ Las preocupaciones arquitectónicas representan los aspectos críticos del siste
 
 # Referencias Bibliografía
   - Aguilar, K. L. B. (2026). Vacíos regulatorios en la Ley de Propiedad en Condominio, análisis de conflictos recurrentes en su modalidad vertical ubicados en el Distrito Central (Tesis doctoral). Centro Universitario Tecnológico CEUTEC. `https://repositorio.unitec.edu/server/api/core/bitstreams/cd97bbd4-204c-49c8-9901-3d0a5a85d7f3/content`
-  - Instituto Nacional de Estadística e Informática (INEI). (2023). Perú: Características de las viviendas particulares y hogares. `https://www.gob.pe/institucion/inei/informes-publicaciones/4377979-las-tecnologias-de-informacion-y-comunicacion-en-los-hogares-ene-feb-mar-2023`
+  - Condominos. (2024, 4 de noviembre). Manejo de chats de WhatsApp de vecinos en condominios. `https://www.condominos.app/sitio/detalle/OA/manejo-de-chats-de-whatsapp-de-vecinos-en-condominios`
   - Deloitte. (2022). Digital transformation and operational efficiency.
 `https://www2.deloitte.com/us/en/insights/topics/digital-transformation.html`
-  - Condominos. (2024, 4 de noviembre). Manejo de chats de WhatsApp de vecinos en condominios. `https://www.condominos.app/sitio/detalle/OA/manejo-de-chats-de-whatsapp-de-vecinos-en-condominios`
   - El Comercio. (2026, 3 de abril). Fallas en la gestión de edificios corporativos pueden generar sobrecostos de hasta 30%. `https://elcomercio.pe/economia/fallas-en-la-gestion-de-edificios-corporativos-pueden-generar-sobrecostos-de-hasta-30-noticia/`
   - Gestión. (2023, 12 de septiembre). Advierten que deudas por gastos en condominios llevan a inquilinos a Infocorp. `https://gestion.pe/tu-dinero/inmobiliarias/advierten-que-deudas-por-gastos-en-condominios-llevan-a-inquilinos-a-infocorp-condominios-deudas-por-pagos-de-mantenimiento-noticia/`
+  - Instituto Nacional de Estadística e Informática (INEI). (2023). Perú: Características de las viviendas particulares y hogares. `https://www.gob.pe/institucion/inei/informes-publicaciones/4377979-las-tecnologias-de-informacion-y-comunicacion-en-los-hogares-ene-feb-mar-2023`
+  - Lucidchart. (s.f.). `https://www.lucidchart.com`
+  - Miro. (s.f.). `https://miro.com/`
+  - PlantUML. (s.f.). `https://plantuml.com`
   - ProTool. (2026, 11 de marzo). Administrar un condominio por WhatsApp no es gestión, es un riesgo para la comunidad. `https://www.protool.cl/noticia_detalle.php?slug=administrar-condominios-por-whatsapp-no-es-gestion-es-riesgo`
   - Sociedad Peruana de Bienes Raíces. (2024). Digitalización de edificios y condominios en Perú. `https://bienesraicess.com/blogs/digitalizacion-de-edificios-y-condominios-en-peru`
-  - Verastegui Leon, P. A., Mendoza Castañeda, J. L. D. C., Zapata Becerra, M. L., Capristan Leon, K. E., & Ravines Garcia, M. A. (2025). Propuesta de un plan estratégico para mejora de la Gestión en Edificios Multifamiliares en Lima Moderna: Caso De Estudio: MONARCH MANAGERS EIRL. Universidad Peruana de Ciencias Aplicadas. `https://repositorioacademico.upc.edu.pe/handle/10757/686137`
-  - Lean Ux Canvas (2026) Elaboración propia del grupo de trabajo.
-  - Miro. (s.f.). `https://miro.com/`
   - UXPressia. (s.f.). `https://uxpressia.com/`
+  - Verastegui Leon, P. A., Mendoza Castañeda, J. L. D. C., Zapata Becerra, M. L., Capristan Leon, K. E., & Ravines Garcia, M. A. (2025). Propuesta de un plan estratégico para mejora de la Gestión en Edificios Multifamiliares en Lima Moderna: Caso De Estudio: MONARCH MANAGERS EIRL. Universidad Peruana de Ciencias Aplicadas. `https://repositorioacademico.upc.edu.pe/handle/10757/686137`
+  
 
 # Anexos
 - Lean Ux Canvas: `https://miro.com/welcomeonboard/SXAwU0llbzVXekRWcG4zWHhBSjBBMjJkUEdXTXlncGEzOHlPWDM1dkRvMVlPU3I5QzE1UWhrMEg2USsyTFYvU002eVpyS2JvdVlYRzFsODZLV0xpcEYwblhkNkx1RHZZM3VjeDlHbmV5MXU0dmpsMFZ4K050NVVxMlRUTVNzRFZhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=35010524832`
