@@ -1745,13 +1745,40 @@ En esta sección se presentan los diagramas que describen el comportamiento y la
 
  **Diagramas de Clases**
 
-<img src="assets/img/class_diagram_1.png" alt="context"/>
+<img src="assets/img/iam_class.png" alt="context"/>
 
-*Figura 21. Diagrama de Clases (Parte 1). Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 21. Diagrama de Clases IAM. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
-<img src="assets/img/class_diagram_2.png" alt="context"/>
+<img src="assets/img/residental_class.png" alt="context"/>
 
-*Figura 22. Diagrama de Clases (Parte 2). Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 22. Diagrama de Clases Residential management. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
+<img src="assets/img/notifications_class.png" alt="context"/>
+
+*Figura 23. Diagrama de Clases Notifications. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
+<img src="assets/img/reports_class.png" alt="context"/>
+
+*Figura 24. Diagrama de Clases Reports. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
+
+<img src="assets/img/communications_class.png" alt="context"/>
+
+*Figura 25. Diagrama de Clases Communications. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
+<img src="assets/img/payment_class.png" alt="context"/>
+
+*Figura 26. Diagrama de Clases Payments. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
+
+<img src="assets/img/forum_class.png" alt="context"/>
+
+*Figura 27. Diagrama de Clases Forums. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
+
+<img src="assets/img/reservations_class.png" alt="context"/>
+
+*Figura 28. Diagrama de Clases Reservations. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 **Diagramas de Secuencia**
 
