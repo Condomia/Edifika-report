@@ -2045,7 +2045,7 @@ Las preocupaciones arquitectónicas representan los aspectos críticos del siste
 
 El objetivo de esta iteración es definir una arquitectura base que permita soportar múltiples usuarios concurrentes garantizando **alta disponibilidad** y **buen rendimiento** en operaciones críticas como pagos y reservas.
 
----
+
 
 ### 4.3.1.3 Choose One or More Elements of the System to Refine
 
@@ -2058,7 +2058,6 @@ Se refinan los siguientes elementos del sistema:
   - IAM / Auth Service
 - **Base de datos MySQL**
 
----
 
 ### 4.3.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
 
@@ -2076,7 +2075,6 @@ Se adoptan los siguientes conceptos de diseño:
 - **Base de datos relacional (MySQL)**  
   Permite mantener la integridad de las relaciones entre entidades.
 
----
 
 ### 4.3.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
@@ -2124,7 +2122,6 @@ El objetivo de esta iteración es refinar los módulos de **Payment Service** y 
 
 Se busca garantizar la correcta ejecución de pagos, evitar inconsistencias en deudas y prevenir conflictos en reservas de áreas comunes, manteniendo tiempos de respuesta adecuados.
 
----
 
 ### 4.3.2.3 Choose One or More Elements of the System to Refine
 
@@ -2135,7 +2132,6 @@ Se refinan los siguientes elementos:
 - **Integración con Culqi**
 - **Base de datos MySQL**
 
----
 
 ### 4.3.2.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
 
@@ -2153,7 +2149,6 @@ Se adoptan los siguientes conceptos:
 - **Control de errores en servicios externos**  
   Evita que fallos de Culqi afecten todo el sistema.
 
----
 
 ### 4.3.2.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
@@ -2180,7 +2175,6 @@ Se definen los siguientes elementos:
 - **Reservation Service**
   - Registra reservas
 
----
 
 ### 4.3.2.6 Sketch Views (C4 & UML) and Record Design Decisions
 
@@ -2216,7 +2210,6 @@ El objetivo de esta iteración es refinar los módulos de **Report Service**, **
 
 Se busca que las consultas administrativas y el envío de notificaciones funcionen de manera eficiente, sin sobrecargar los servicios principales como pagos y reservas.
 
----
 
 ### 4.3.3.3 Choose One or More Elements of the System to Refine
 
@@ -2228,7 +2221,6 @@ Se refinan los siguientes elementos:
 - **Firebase Integration**
 - **Base de datos MySQL**
 
----
 
 ### 4.3.3.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
 
@@ -2246,7 +2238,6 @@ Se adoptan los siguientes conceptos de diseño:
 - **Firebase Cloud Messaging**  
   Permite enviar notificaciones push a los usuarios de la aplicación móvil.
 
----
 
 ### 4.3.3.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
