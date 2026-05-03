@@ -160,6 +160,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       <td>
         Becerra Tejeda, Alessandra Nicole <br><br>
         Avance 1: <br> Investigué y consolidé conceptos actualizados relacionados con la definición del problem statement, hypothesis y assumptions, aplicándolos de manera estructurada en el planteamiento inicial del proyecto. <br><br>
+		   TB1: <br>Actualicé y apliqué conceptos de arquitectura de software necesarios para el desarrollo del proyecto, incluyendo drivers arquitectónicos como Design Purpose, User Stories y Quality Attribute Scenarios, logrando estructurar de manera adecuada los requerimientos y decisiones del sistema.<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
         Avance 1: <br>Investigué y apliqué metodologías de diseño centrado en el usuario para la creación de User Personas y la User Task Matrix. Asimismo, profundicé en técnicas de Empathy Mapping y priorización de requisitos mediante la elaboración del Product Backlog, asegurando que la solución Edifika responda a necesidades técnicas y funcionales reales.<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
@@ -181,6 +182,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       <td>
         Becerra Tejeda, Alessandra Nicole <br><br>
         Avance 1: <br>Investigué y contrasté información de diversas fuentes para comprender y aplicar adecuadamente los conceptos de problem statement, hypothesis y assumptions en el desarrollo del proyecto.<br><br>
+		   TB1: <br>Desarrollé en conjunto los drivers arquitectónicos, incluyendo Design Purpose, Primary Functionality (User Stories) y Quality Attribute Scenarios. Para ello, investigué y apliqué conceptos de arquitectura de software, permitiendo estructurar correctamente los requerimientos y decisiones del sistema.<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
         Avance 1: <br>Reconocí la importancia de dominar técnicas de investigación cualitativa mediante el diseño y ejecución de entrevistas a los dos segmentos objetivo. Esta experiencia me permitió comprender que el aprendizaje de nuevas estrategias de recolección de datos es vital para validar hipótesis y reducir la incertidumbre en el desarrollo de software.<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
