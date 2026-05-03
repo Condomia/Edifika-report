@@ -2036,10 +2036,11 @@ Las preocupaciones arquitectónicas representan los aspectos críticos del siste
 |----|------|------|----------|------------|
 | AD-01 | Disponibilidad | Atributo de calidad | Alta | El sistema debe mantenerse operativo incluso con múltiples usuarios concurrentes. |
 | AD-02 | Rendimiento | Atributo de calidad | Alta | Las operaciones deben responder en menos de 2–3 segundos. |
-| AD-03 | Seguridad (JWT) | Restricción | Alta | Las solicitudes deben autenticarse mediante JWT. |
-| AD-04 | API Gateway | Restricción | Alta | Todas las solicitudes deben pasar por un punto centralizado. |
+| AD-03 | Seguridad | Atributo de calidad | Alta | El sistema debe proteger el acceso a datos sensibles mediante autenticación y autorización. |
+| AD-04 | Uso de JWT | Restricción | Alta | La autenticación se implementará mediante tokens JWT. |
 | AD-05 | Integridad de datos | Atributo de calidad | Alta | La información de pagos, deudas y reservas debe mantenerse consistente. |
-| AD-06 | MySQL | Restricción | Alta | Los datos estructurados se almacenan en una base relacional. |
+| AD-06 | Uso de API Gateway | Restricción | Alta | Todas las solicitudes deben pasar por un punto centralizado. |
+| AD-07 | Uso de MySQL | Restricción | Alta | Los datos estructurados se almacenan en una base relacional. |
 
 ### 4.3.1.2 Establish Iteration Goal by Selecting Drivers
 
