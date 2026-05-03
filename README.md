@@ -2254,6 +2254,9 @@ Se definen los siguientes elementos:
 
 *Figura 18. Diagrama de Componentes - Reservation Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
+
+### 4.3.2.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+
 | Estado | Actividades |
 |--------|------------|
 | To Do | Optimizar disponibilidad y manejo de errores |
