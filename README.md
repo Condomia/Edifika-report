@@ -1788,7 +1788,7 @@ En esta sección se presentan los diagramas que describen el comportamiento y la
 
 <img src="assets/img/secuencia1.png" alt="Diagrama de secuencia autenticación administrador"/>
 
-*Figura 23. Diagrama de Secuencia - Autenticación Administrador. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 29. Diagrama de Secuencia - Autenticación Administrador. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 </div>
 
@@ -1802,7 +1802,7 @@ Este diagrama muestra el flujo de registro e inicio de sesión del administrador
 
 <img src="assets/img/secuencia2.png" alt="Diagrama de secuencia autenticación inquilino propietario"/>
 
-*Figura 24. Diagrama de Secuencia - Autenticación Inquilino/Propietario. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 30. Diagrama de Secuencia - Autenticación Inquilino/Propietario. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 </div>
 
@@ -1817,7 +1817,7 @@ Este diagrama presenta el flujo de registro e inicio de sesión del propietario 
 
 <img src="assets/img/secuencia_comunicados.png" alt="Diagrama de secuencia comunicados oficiales"/>
 
-*Figura 25. Diagrama de Secuencia - Comunicados Oficiales. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 31. Diagrama de Secuencia - Comunicados Oficiales. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 </div>
 
@@ -1832,7 +1832,7 @@ Este diagrama ilustra el proceso de publicación de comunicados oficiales en Edi
 
 <img src="assets/img/secuencia_pagos.png" alt="Diagrama de secuencia gestión de pagos"/>
 
-*Figura 26. Diagrama de Secuencia - Gestión de Pagos. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 32. Diagrama de Secuencia - Gestión de Pagos. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 </div>
 
@@ -1846,7 +1846,7 @@ Este diagrama describe el flujo completo de gestión de pagos en Edifika. El res
 
 <img src="assets/img/secuencia_reservas.png" alt="Diagrama de secuencia reserva de áreas comunes"/>
 
-*Figura 27. Diagrama de Secuencia - Reserva de Áreas Comunes. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 33. Diagrama de Secuencia - Reserva de Áreas Comunes. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 </div>
 
@@ -1858,7 +1858,7 @@ Este diagrama muestra el flujo de reserva de áreas comunes en Edifika. El resid
 <img src="assets/img/secuencia_reportes.png" alt="Diagrama de secuencia reportes"/>
 </div>
 
-*Figura 28. Diagrama de Secuencia - Reportes Financieros. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 34. Diagrama de Secuencia - Reportes Financieros. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 Este diagrama describe el flujo de generación y exportación de reportes financieros en Edifika. El administrador selecciona el período y tipo de reporte, el Report Service consulta los datos de pagos y deudas en la base de datos, genera el resumen financiero y lo presenta en pantalla. Adicionalmente, permite exportar el reporte en formato PDF y consultar la lista de residentes morosos para tomar acciones administrativas.
 
@@ -1868,7 +1868,7 @@ En esta sección se presenta el diagrama de base de datos relacional de Edifika,
 
 <img src="assets/img/edifika_erd.png" alt="ERD_driagram"/>
 
-*Figura 29. Diagrama Entidad-Relación. Elaborado por el equipo utilizando LucidChart (LucidChart, s.f.).*
+*Figura 35. Diagrama Entidad-Relación. Elaborado por el equipo utilizando LucidChart (LucidChart, s.f.).*
 
 ### 4.1.6. Design Patterns
 
