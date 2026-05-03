@@ -2026,23 +2026,340 @@ Las preocupaciones arquitectónicas representan los aspectos críticos del siste
 
 
 
-## 4.3. ADD Iterations
+## 4.3 ADD Iterations
 
-### 4.3.1. Iteration 1
+## 4.3.1 Iteration 1: Definición de la arquitectura base del sistema
 
-#### 4.3.1.1. Architectural Design Backlog
+### 4.3.1.1 Architectural Design Backlog
 
-#### 4.3.1.2. Establish Iteration Goal by Selecting Drivers
+En esta primera iteración se identifican los drivers más relevantes:
 
-#### 4.3.1.3. Choose One or More Elements of the System to Refine
+- **Disponibilidad:** el sistema debe mantenerse operativo incluso con múltiples usuarios concurrentes.  
+- **Rendimiento:** las operaciones principales deben responder en menos de 2–3 segundos.  
+- **Seguridad:** acceso protegido mediante autenticación con **JWT**.  
+- **Integridad de datos:** la información de pagos, deudas y reservas debe mantenerse consistente.  
+- **Restricción:** uso de **API Gateway** como punto único de entrada.  
+- **Restricción:** uso de **MySQL** como base de datos relacional.  
 
-#### 4.3.1.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
+---
 
-#### 4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+### 4.3.1.2 Establish Iteration Goal by Selecting Drivers
 
-#### 4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions
+El objetivo de esta iteración es definir una arquitectura base que permita soportar múltiples usuarios concurrentes garantizando **alta disponibilidad** y **buen rendimiento** en operaciones críticas como pagos y reservas.
 
-#### 4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
+---
+
+### 4.3.1.3 Choose One or More Elements of the System to Refine
+
+Se refinan los siguientes elementos del sistema:
+
+- **API Gateway**
+- **Microservicios principales:**
+  - Payment Service
+  - Reservation Service
+  - IAM / Auth Service
+- **Base de datos MySQL**
+
+---
+
+### 4.3.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+Se adoptan los siguientes conceptos de diseño:
+
+- **Arquitectura de microservicios**  
+  Permite aislar fallos y mejorar la disponibilidad del sistema.
+
+- **API Gateway**  
+  Centraliza el acceso, validación de tokens y enrutamiento.
+
+- **Separación por dominios**  
+  Cada servicio maneja una responsabilidad específica, mejorando el rendimiento.
+
+- **Base de datos relacional (MySQL)**  
+  Permite mantener la integridad de las relaciones entre entidades.
+
+---
+
+### 4.3.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+
+Se definen los siguientes elementos y responsabilidades:
+
+- **API Gateway**
+  - Valida tokens JWT
+  - Redirige solicitudes a los servicios correspondientes
+
+- **IAM / Auth Service**
+  - Gestiona autenticación y roles
+
+- **Payment Service**
+  - Gestiona pagos y deudas
+
+- **Reservation Service**
+  - Gestiona reservas y disponibilidad
+
+- **MySQL**
+  - Almacena la información estructurada
+
+**Interfaces principales:**
+- `/auth`
+- `/payments`
+- `/reservations`
+
+---
+
+### 4.3.1.6 Sketch Views (C4 & UML) and Record Design Decisions
+
+<img src="assets/img/container.png" alt="context"/>
+ 
+*Figura 11. Diagrama de Contenedores. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+
+### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+
+La arquitectura propuesta cumple con los objetivos de disponibilidad y rendimiento.
+
+- La separación en microservicios mejora la **disponibilidad**  
+- La división por dominios mejora el **rendimiento**  
+
+**Kanban Board:**
+
+- **To Do**
+  - Optimizar consultas en base de datos
+  - Refinar reglas de negocio
+
+- **In Progress**
+  - Implementación de servicios principales
+  - Configuración del API Gateway
+
+- **Done**
+  - Definición de arquitectura base
+  - Identificación de microservicios
+  - Modelado de base de datos
+ 
+## 4.3.2 Iteration 2: Refinamiento de módulos críticos (Pagos y Reservas)
+
+### 4.3.2.1 Architectural Design Backlog
+
+En esta iteración se priorizan los siguientes drivers:
+
+- **Integridad de transacciones:** los pagos deben registrarse correctamente sin inconsistencias.
+- **Disponibilidad:** el sistema no debe fallar ante errores en servicios externos como Culqi.
+- **Rendimiento:** las consultas de disponibilidad y deudas deben responder rápidamente.
+- **Seguridad:** solo usuarios autorizados deben realizar pagos o reservas.
+
+---
+
+### 4.3.2.2 Establish Iteration Goal by Selecting Drivers
+
+El objetivo de esta iteración es refinar los módulos de **Payment Service** y **Reservation Service**, ya que representan operaciones críticas del sistema.
+
+Se busca garantizar la correcta ejecución de pagos, evitar inconsistencias en deudas y prevenir conflictos en reservas de áreas comunes, manteniendo tiempos de respuesta adecuados.
+
+---
+
+### 4.3.2.3 Choose One or More Elements of the System to Refine
+
+Se refinan los siguientes elementos:
+
+- **Payment Service**
+- **Reservation Service**
+- **Integración con Culqi**
+- **Base de datos MySQL**
+
+---
+
+### 4.3.2.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+Se adoptan los siguientes conceptos:
+
+- **Saga Pattern (Payment Saga)**  
+  Permite coordinar el proceso de pago y mantener consistencia entre pago y deuda.
+
+- **Availability Service**  
+  Permite validar disponibilidad antes de registrar una reserva.
+
+- **Separación de responsabilidades**  
+  Cada componente maneja una parte específica del flujo.
+
+- **Control de errores en servicios externos**  
+  Evita que fallos de Culqi afecten todo el sistema.
+
+---
+
+### 4.3.2.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+
+Se definen los siguientes elementos:
+
+- **Payment Controller**
+  - Recibe solicitudes de pago
+
+- **Payment Application Service**
+  - Coordina el flujo de pago
+
+- **Payment Saga**
+  - Gestiona estados del pago (pendiente, confirmado, fallido)
+
+- **Culqi Integration**
+  - Procesa pagos externos
+
+- **Reservation Controller**
+  - Gestiona solicitudes de reserva
+
+- **Availability Service**
+  - Valida disponibilidad de áreas comunes
+
+- **Reservation Service**
+  - Registra reservas
+
+---
+
+### 4.3.2.6 Sketch Views (C4 & UML) and Record Design Decisions
+
+<img src="assets/img/payment.png" alt="context"/>
+
+*Figura 16. Diagrama de Componentes - Payment Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+
+<img src="assets/img/reservation.png" alt="context"/>
+
+*Figura 18. Diagrama de Componentes - Reservation Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+
+### 4.3.2.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+
+La segunda iteración mejora significativamente la confiabilidad del sistema en operaciones críticas.
+
+- Se reduce el riesgo de inconsistencias en pagos  
+- Se evita la doble reserva de áreas comunes  
+- Se mejora el control sobre errores externos  
+
+**Kanban Board:**
+
+- **To Do**
+  - Optimizar consultas de disponibilidad
+  - Mejorar manejo de errores
+
+- **In Progress**
+  - Implementación de Payment Saga
+  - Validación de reservas
+
+- **Done**
+  - Diseño de flujo de pagos
+  - Definición de componentes de reserva
+
+## 4.3.3 Iteration 3: Optimización de reportes, comunicados y notificaciones
+
+### 4.3.3.1 Architectural Design Backlog
+
+En esta iteración se priorizan los siguientes drivers:
+
+- **Rendimiento:** los reportes y consultas administrativas deben generarse sin afectar las operaciones principales del sistema.
+- **Disponibilidad:** el envío de notificaciones o comunicados no debe interrumpir el funcionamiento de pagos y reservas.
+- **Escalabilidad:** el sistema debe soportar el crecimiento de usuarios, edificios y registros históricos.
+- **Mantenibilidad:** los módulos de reportes, comunicados y notificaciones deben poder evolucionar sin afectar otros servicios.
+
+---
+
+### 4.3.3.2 Establish Iteration Goal by Selecting Drivers
+
+El objetivo de esta iteración es refinar los módulos de **Report Service**, **Communication Service** y **Notification Service**, ya que estos componentes apoyan la operación diaria del condominio mediante reportes, comunicados y alertas.
+
+Se busca que las consultas administrativas y el envío de notificaciones funcionen de manera eficiente, sin sobrecargar los servicios principales como pagos y reservas.
+
+---
+
+### 4.3.3.3 Choose One or More Elements of the System to Refine
+
+Se refinan los siguientes elementos:
+
+- **Report Service**
+- **Communication Service**
+- **Notification Service**
+- **Firebase Integration**
+- **Base de datos MySQL**
+
+---
+
+### 4.3.3.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+Se adoptan los siguientes conceptos de diseño:
+
+- **Query Component**  
+  Permite separar las consultas de reportes de las operaciones transaccionales, evitando afectar el rendimiento de pagos y reservas.
+
+- **Event-Driven Communication**  
+  Permite que eventos como pago registrado, reserva confirmada o comunicado publicado activen notificaciones sin acoplar directamente los servicios.
+
+- **Read Tracking**  
+  Permite registrar qué usuarios leyeron un comunicado, mejorando la trazabilidad de la comunicación interna.
+
+- **Firebase Cloud Messaging**  
+  Permite enviar notificaciones push a los usuarios de la aplicación móvil.
+
+---
+
+### 4.3.3.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+
+Se definen los siguientes elementos:
+
+- **Report Controller**
+  - Recibe solicitudes para consultar reportes administrativos.
+
+- **Report Query Component**
+  - Ejecuta consultas optimizadas sobre pagos, reservas y morosidad.
+
+- **Communication Controller**
+  - Gestiona la publicación de comunicados oficiales.
+
+- **Announcement Service**
+  - Administra comunicados y contenido informativo para los residentes.
+
+- **Read Tracking Service**
+  - Registra la lectura de comunicados por parte de los usuarios.
+
+- **Notification Controller**
+  - Gestiona solicitudes de envío de notificaciones.
+
+- **Firebase Integration**
+  - Envía notificaciones push a dispositivos móviles.
+
+**Interfaces principales:**
+
+- `/reports`
+- `/announcements`
+- `/notifications`
+
+---
+
+### 4.3.3.6 Sketch Views (C4 & UML) and Record Design Decisions
+
+<img src="assets/img/communication.png" alt="context"/>
+
+*Figura 14. Diagrama de Componentes - Communication Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+
+<img src="assets/img/notification.png" alt="context"/>
+
+*Figura 15. Diagrama de Componentes - Notification Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+
+### 4.3.3.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+
+La tercera iteración permite mejorar el rendimiento y la mantenibilidad del sistema en módulos de soporte administrativo. Al separar los reportes en un servicio independiente, se evita que las consultas pesadas afecten operaciones críticas como pagos y reservas.
+
+Asimismo, el uso de notificaciones desacopladas permite informar a los usuarios sobre pagos, reservas y comunicados sin interrumpir el flujo principal del sistema.
+
+**Kanban Board:**
+
+- **To Do**
+  - Optimizar consultas de reportes
+  - Definir criterios de lectura de comunicados
+
+- **In Progress**
+  - Diseño del Report Query Component
+  - Integración con Firebase
+
+- **Done**
+  - Separación del módulo de reportes
+  - Definición del flujo de comunicados
+  - Identificación del servicio de notificaciones
+
+
 
 # Conclusiones
 # Conclusiones-y-Recomendaciones
