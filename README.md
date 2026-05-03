@@ -170,6 +170,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         Avance 1: <br>Desarrollé los cuadros As-Is y To-Be, el Impact Map y la entrevista a un usuario, para poder analizar el comportamiento del usuario y alinear sus necesidades con la solución propuesta.<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         Avance 1: <br>Realicé investigación sobre el sector de gestión de condominios, incluyendo análisis de competidores y entrevistas a usuarios, lo que me permitió actualizar conocimientos relevantes para el desarrollo de una solución de software<br><br>
+		TB1:<br> Actualicé y apliqué conocimientos sobre arquitectura de software mediante los diagramas C4 y el diagrama ERD. Esto me permitió comprender mejor la estructura del sistema, sus componentes, servicios, bases de datos y relaciones principales.<br>
       </td>
       <td>Avance 1: A lo largo del desarrollo del primer entregable, el equipo demostró capacidad para incorporar nuevos conceptos y herramientas propias de la ingeniería de software. El desarrollo del perfil de Condomia, la definición de Edifika y el trabajo con metodologías como Lean UX nos llevaron a investigar y aplicar conocimientos que inicialmente no manejábamos con profundidad. Este proceso de actualización continua se reflejó directamente en la calidad y coherencia de la documentación entregada.<br><br>
 	  TB1: Durante el segundo entregable, el equipo profundizó en conceptos de arquitectura de software aplicados directamente al diseño de Edifika. El trabajo con metodologías como ADD, patrones arquitectónicos y la elaboración de diagramas técnicos exigió investigar y consolidar conocimientos que van más allá del desarrollo funcional, reforzando la capacidad del equipo para tomar decisiones de diseño fundamentadas y coherentes con los objetivos del sistema.
@@ -189,6 +190,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         Avance 1: <br>Reconocí la importancia del aprendizaje continuo al desarrollar los cuadros As-Is, To-Be, el Impact Map y la entrevista, lo que me permitió mejorar mi análisis del usuario y comprender mejor cómo estructurar soluciones alineadas a sus necesidades reales.<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         Avance 1: <br>A partir del desarrollo del Lean UX Canvas, el análisis de competidores y las entrevistas realizadas, reconocí que el aprendizaje permanente es esencial para el desempeño profesional en ingeniería de software. Esta experiencia evidenció la necesidad de actualizar continuamente conocimientos sobre tecnologías, metodologías y necesidades del usuario para diseñar soluciones efectivas y relevantes.<br>
+		TB1:<br> Reconocí la importancia del aprendizaje permanente porque, para elaborar estos diagramas, fue necesario reforzar conceptos como arquitectura, comunicación entre servicios y modelado de datos. Esto demuestra que en ingeniería de software se debe seguir aprendiendo para diseñar soluciones más completas y profesionales<br>
       </td>
       <td>Avance 1: El desarrollo del proyecto Edifika nos permitió comprender que mantenerse en constante aprendizaje no es opcional, sino necesario. Cada sección trabajada en la TB1 nos presentó nuevos retos que exigieron investigar, cuestionar y adaptarnos. Como equipo, entendimos que la disposición para aprender de forma autónoma es una habilidad igual de importante que el conocimiento técnico en sí.<br><br>
 	  TB1: El desarrollo de la arquitectura de Edifika reafirmó que el aprendizaje permanente es indispensable en la ingeniería de software. Enfrentarse a decisiones de diseño arquitectónico, integración de servicios externos y modelado de atributos de calidad nos demostró que los conocimientos técnicos deben actualizarse constantemente para responder a los retos reales que presenta el desarrollo de una solución profesional.
@@ -437,7 +439,7 @@ Creemos que una comunicación estructurada dentro de la plataforma aumentará la
 
 ![Lean Ux Canvas](assets/img/lean_ux_canvas.png)
 
-Fuente: Elaboración propia del grupo de trabajo.
+ *Figura 1. Lean Ux Canvas. Elaborado por el equipo utilizando Miro (Miro, s.f.).*
 
 # 1.3. Segmentos objetivo
 
