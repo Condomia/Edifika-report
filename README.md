@@ -172,9 +172,9 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
 - [CAPÍTULO II: Requirements & Analysis](#capítulo-ii-requirements--analysis)
   - [2.1. Competidores](#21-competidores)
     
-    -[2.1.1 Análisis de Competidores](#211-análisis-de-competidores)
+    - [2.1.1 Análisis de Competidores](#211-análisis-de-competidores)
     
-    -[2.1.2. Estrategias frente a competidores](#212-estrategias-frente-a-competidores)
+    - [2.1.2. Estrategias frente a competidores](#212-estrategias-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2 Registro de entrevistas](#222-registro-de-entrevistas)
@@ -184,11 +184,13 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. Empathy Mapping](#233-empathy-mapping)
     - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
+
 - [CAPÍTULO III: Requirements Specification](#capítulo-iii-requirements-specification)
     - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
     - [3.2. User Stories](#32-user-stories)
     - [3.3. Impact Mapping](#33-impact-mapping)
     - [3.4. Product Backlog](#34-product-backlog)
+
 - [CAPÍTULO IV: Product Architecture Design](#capítulo-iv-product-architecture-design)
   - [4.1. Design Concepts, ViewPoints & ER Diagrams](#41-design-concepts-viewpoints--er-diagrams)
       - [4.1.1. Principles Statements](#411-principles-statements)
@@ -198,13 +200,16 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       - [4.1.5. Relational/Non Relational Database Diagram](#415-relationalnon-relational-database-diagram)
       - [4.1.6. Design Patterns](#416-design-patterns)
       - [4.1.7. Tactics](#417-tactics)
+
   - [4.2. Architectural Drivers](#42-architectural-drivers)
       - [4.2.1. Design Purpose](#421-design-purpose)
       - [4.2.2. Primary Functionality (Primary User Stories)](#422-primary-functionality-primary-user-stories)
       - [4.2.3. Quality Attribute Scenarios](#423-quality-attribute-scenarios)
       - [4.2.4. Constraints](#424-constraints)
       - [4.2.5. Architectural Concerns](#425-architectural-concerns)
+
   - [4.3. ADD Iterations](#43-add-iterations)
+
       - [4.3.1. Iteration 1](#431-iteration-1)
         - [4.3.1.1. Architectural Design Backlog](#4311-architectural-design-backlog)
         - [4.3.1.2. Establish Iteration Goal by Selecting Drivers](#4312-establish-iteration-goal-by-selecting-drivers)
@@ -213,12 +218,30 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         - [4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4315-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
         - [4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions](#4316-sketch-views-c4--uml-and-record-design-decisions)
         - [4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4317-analysis-of-current-design-and-review-iteration-goal-kanban-board)
- - [Conclusiones](#conclusiones)
- - [Conclusiones-y-Recomendaciones](#conclusiones-y-recomendaciones)
- - [Referencias Bibliografía](#referencias-bibliografía)
- - [Anexos](#anexos)
- - [Links](#links)
 
+      - [4.3.2. Iteration 2](#432-iteration-2)
+        - [4.3.2.1. Architectural Design Backlog](#4321-architectural-design-backlog)
+        - [4.3.2.2. Establish Iteration Goal by Selecting Drivers](#4322-establish-iteration-goal-by-selecting-drivers)
+        - [4.3.2.3. Choose One or More Elements of the System to Refine](#4323-choose-one-or-more-elements-of-the-system-to-refine)
+        - [4.3.2.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4324-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
+        - [4.3.2.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4325-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
+        - [4.3.2.6. Sketch Views (C4 & UML) and Record Design Decisions](#4326-sketch-views-c4--uml-and-record-design-decisions)
+        - [4.3.2.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4327-analysis-of-current-design-and-review-iteration-goal-kanban-board)
+
+      - [4.3.3. Iteration 3](#433-iteration-3)
+        - [4.3.3.1. Architectural Design Backlog](#4331-architectural-design-backlog)
+        - [4.3.3.2. Establish Iteration Goal by Selecting Drivers](#4332-establish-iteration-goal-by-selecting-drivers)
+        - [4.3.3.3. Choose One or More Elements of the System to Refine](#4333-choose-one-or-more-elements-of-the-system-to-refine)
+        - [4.3.3.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4334-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
+        - [4.3.3.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4335-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
+        - [4.3.3.6. Sketch Views (C4 & UML) and Record Design Decisions](#4336-sketch-views-c4--uml-and-record-design-decisions)
+        - [4.3.3.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4337-analysis-of-current-design-and-review-iteration-goal-kanban-board)
+
+- [Conclusiones](#conclusiones)
+- [Conclusiones-y-Recomendaciones](#conclusiones-y-recomendaciones)
+- [Referencias Bibliografía](#referencias-bibliografía)
+- [Anexos](#anexos)
+- [Links](#links)
 
 # CAPÍTULO I: Introducción
 
@@ -760,13 +783,13 @@ Un hallazgo importante es que los entrevistados ya reconocen la necesidad de una
 
 ![User Personas](assets/img/Ricardo_Mendoza.png)
 
-**Elaborado por: Equipo Condomia**
+*Figura 2. User persona del administrador de condominio. Elaborado por el equipo utilizando UXPressia (UXPressia, s.f.).*
 
 ### Residente (Propietario/Inquilino) – Andrea Villacorta
 
 ![User Personas](assets/img/Andrea_Villacorta.png)
 
-**Elaborado por: Equipo Condomia**
+*Figura 3. User persona del residente. Elaborado por el equipo utilizando UXPressia (UXPressia, s.f.).*
 
 ## 2.3.2. User Task Matrix
 
@@ -800,13 +823,14 @@ Un hallazgo importante es que los entrevistados ya reconocen la necesidad de una
 
 ![Empathy Mapping](assets/img/Ricardo_empathy_map.png)
 
-**Elaborado por: Equipo Condomia**
+ *Figura 4. Empathy mapping del administrador de condominio. Elaborado por el equipo utilizando UXPressia (UXPressia, s.f.).*
+
 
 ### Residente (Propietario/Inquilino) – Andrea Villacorta
 
 ![Empathy Mapping](assets/img/Andrea_empathy_map.png)
 
-**Elaborado por: Equipo Condomia**
+*Figura 5. Empathy mapping del residente. Elaborado por el equipo utilizando UXPressia (UXPressia, s.f.).*
 
 ## 2.3.4. As-is Scenario Mapping
 **Segmento 1-Administradores de edificios y condominios:**
@@ -2114,8 +2138,6 @@ Se adoptan los siguientes conceptos de diseño:
 *Figura 11. Diagrama de Contenedores. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 ### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
-
-### 4.3.1.7 Analysis (Kanban Board)
 
 | Estado | Actividades |
 |--------|------------|
