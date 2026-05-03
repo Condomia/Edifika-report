@@ -2032,16 +2032,14 @@ Las preocupaciones arquitectónicas representan los aspectos críticos del siste
 
 ### 4.3.1.1 Architectural Design Backlog
 
-En esta primera iteración se identifican los drivers más relevantes:
-
-- **Disponibilidad:** el sistema debe mantenerse operativo incluso con múltiples usuarios concurrentes.  
-- **Rendimiento:** las operaciones principales deben responder en menos de 2–3 segundos.  
-- **Seguridad:** acceso protegido mediante autenticación con **JWT**.  
-- **Integridad de datos:** la información de pagos, deudas y reservas debe mantenerse consistente.  
-- **Restricción:** uso de **API Gateway** como punto único de entrada.  
-- **Restricción:** uso de **MySQL** como base de datos relacional.  
-
----
+| ID | Driver | Tipo | Prioridad | Descripción |
+|----|------|------|----------|------------|
+| AD-01 | Disponibilidad | Atributo de calidad | Alta | El sistema debe mantenerse operativo incluso con múltiples usuarios concurrentes. |
+| AD-02 | Rendimiento | Atributo de calidad | Alta | Las operaciones deben responder en menos de 2–3 segundos. |
+| AD-03 | Seguridad (JWT) | Restricción | Alta | Las solicitudes deben autenticarse mediante JWT. |
+| AD-04 | API Gateway | Restricción | Alta | Todas las solicitudes deben pasar por un punto centralizado. |
+| AD-05 | Integridad de datos | Atributo de calidad | Alta | La información de pagos, deudas y reservas debe mantenerse consistente. |
+| AD-06 | MySQL | Restricción | Alta | Los datos estructurados se almacenan en una base relacional. |
 
 ### 4.3.1.2 Establish Iteration Goal by Selecting Drivers
 
@@ -2082,30 +2080,15 @@ Se adoptan los siguientes conceptos de diseño:
 
 ### 4.3.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
-Se definen los siguientes elementos y responsabilidades:
+### 4.3.1.5 Instantiate Architectural Elements
 
-- **API Gateway**
-  - Valida tokens JWT
-  - Redirige solicitudes a los servicios correspondientes
-
-- **IAM / Auth Service**
-  - Gestiona autenticación y roles
-
-- **Payment Service**
-  - Gestiona pagos y deudas
-
-- **Reservation Service**
-  - Gestiona reservas y disponibilidad
-
-- **MySQL**
-  - Almacena la información estructurada
-
-**Interfaces principales:**
-- `/auth`
-- `/payments`
-- `/reservations`
-
----
+| Elemento | Responsabilidad | Interfaces |
+|----------|--------------|-----------|
+| API Gateway | Validar JWT y enrutar solicitudes | `/api/v1/*` |
+| IAM / Auth Service | Autenticación y roles | `/auth` |
+| Payment Service | Gestión de pagos y deudas | `/payments` |
+| Reservation Service | Gestión de reservas | `/reservations` |
+| MySQL | Persistencia de datos | Conexión interna |
 
 ### 4.3.1.6 Sketch Views (C4 & UML) and Record Design Decisions
 
@@ -2115,38 +2098,25 @@ Se definen los siguientes elementos y responsabilidades:
 
 ### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
-La arquitectura propuesta cumple con los objetivos de disponibilidad y rendimiento.
+### 4.3.1.7 Analysis (Kanban Board)
 
-- La separación en microservicios mejora la **disponibilidad**  
-- La división por dominios mejora el **rendimiento**  
-
-**Kanban Board:**
-
-- **To Do**
-  - Optimizar consultas en base de datos
-  - Refinar reglas de negocio
-
-- **In Progress**
-  - Implementación de servicios principales
-  - Configuración del API Gateway
-
-- **Done**
-  - Definición de arquitectura base
-  - Identificación de microservicios
-  - Modelado de base de datos
+| Estado | Actividades |
+|--------|------------|
+| To Do | Optimizar consultas y reglas de negocio |
+| In Progress | Implementación de servicios y API Gateway |
+| Done | Diseño de arquitectura base y modelo de datos |
  
 ## 4.3.2 Iteration 2: Refinamiento de módulos críticos (Pagos y Reservas)
 
 ### 4.3.2.1 Architectural Design Backlog
 
-En esta iteración se priorizan los siguientes drivers:
 
-- **Integridad de transacciones:** los pagos deben registrarse correctamente sin inconsistencias.
-- **Disponibilidad:** el sistema no debe fallar ante errores en servicios externos como Culqi.
-- **Rendimiento:** las consultas de disponibilidad y deudas deben responder rápidamente.
-- **Seguridad:** solo usuarios autorizados deben realizar pagos o reservas.
-
----
+| ID | Driver | Tipo | Prioridad | Descripción |
+|----|------|------|----------|------------|
+| AD-07 | Integridad de pagos | Atributo de calidad | Alta | Evitar inconsistencias entre pagos y deudas. |
+| AD-08 | Disponibilidad | Atributo de calidad | Alta | El sistema debe seguir funcionando ante fallos de Culqi. |
+| AD-09 | Rendimiento | Atributo de calidad | Alta | Consultas rápidas de disponibilidad y deudas. |
+| AD-10 | Seguridad | Atributo de calidad | Alta | Solo usuarios autorizados pueden pagar o reservar. |
 
 ### 4.3.2.2 Establish Iteration Goal by Selecting Drivers
 
@@ -2222,40 +2192,23 @@ Se definen los siguientes elementos:
 
 *Figura 18. Diagrama de Componentes - Reservation Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
-### 4.3.2.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+| Estado | Actividades |
+|--------|------------|
+| To Do | Optimizar disponibilidad y manejo de errores |
+| In Progress | Implementación de Saga y validación de reservas |
+| Done | Diseño de Payment Saga y Availability Service |
 
-La segunda iteración mejora significativamente la confiabilidad del sistema en operaciones críticas.
-
-- Se reduce el riesgo de inconsistencias en pagos  
-- Se evita la doble reserva de áreas comunes  
-- Se mejora el control sobre errores externos  
-
-**Kanban Board:**
-
-- **To Do**
-  - Optimizar consultas de disponibilidad
-  - Mejorar manejo de errores
-
-- **In Progress**
-  - Implementación de Payment Saga
-  - Validación de reservas
-
-- **Done**
-  - Diseño de flujo de pagos
-  - Definición de componentes de reserva
 
 ## 4.3.3 Iteration 3: Optimización de reportes, comunicados y notificaciones
 
 ### 4.3.3.1 Architectural Design Backlog
 
-En esta iteración se priorizan los siguientes drivers:
-
-- **Rendimiento:** los reportes y consultas administrativas deben generarse sin afectar las operaciones principales del sistema.
-- **Disponibilidad:** el envío de notificaciones o comunicados no debe interrumpir el funcionamiento de pagos y reservas.
-- **Escalabilidad:** el sistema debe soportar el crecimiento de usuarios, edificios y registros históricos.
-- **Mantenibilidad:** los módulos de reportes, comunicados y notificaciones deben poder evolucionar sin afectar otros servicios.
-
----
+| ID | Driver | Tipo | Prioridad | Descripción |
+|----|------|------|----------|------------|
+| AD-11 | Rendimiento en reportes | Atributo de calidad | Alta | Los reportes no deben afectar operaciones críticas. |
+| AD-12 | Disponibilidad de notificaciones | Atributo de calidad | Media | Fallos en notificaciones no deben afectar el sistema. |
+| AD-13 | Escalabilidad | Atributo de calidad | Media | Soportar crecimiento de datos históricos. |
+| AD-14 | Mantenibilidad | Atributo de calidad | Media | Permitir evolución de módulos sin afectar otros servicios. |
 
 ### 4.3.3.2 Establish Iteration Goal by Selecting Drivers
 
@@ -2297,36 +2250,14 @@ Se adoptan los siguientes conceptos de diseño:
 
 ### 4.3.3.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
-Se definen los siguientes elementos:
+### 4.3.3.5 Instantiate Architectural Elements
 
-- **Report Controller**
-  - Recibe solicitudes para consultar reportes administrativos.
-
-- **Report Query Component**
-  - Ejecuta consultas optimizadas sobre pagos, reservas y morosidad.
-
-- **Communication Controller**
-  - Gestiona la publicación de comunicados oficiales.
-
-- **Announcement Service**
-  - Administra comunicados y contenido informativo para los residentes.
-
-- **Read Tracking Service**
-  - Registra la lectura de comunicados por parte de los usuarios.
-
-- **Notification Controller**
-  - Gestiona solicitudes de envío de notificaciones.
-
-- **Firebase Integration**
-  - Envía notificaciones push a dispositivos móviles.
-
-**Interfaces principales:**
-
-- `/reports`
-- `/announcements`
-- `/notifications`
-
----
+| Elemento | Responsabilidad | Interfaces |
+|----------|--------------|-----------|
+| Report Service | Generación de reportes | `/reports` |
+| Communication Service | Gestión de comunicados | `/announcements` |
+| Notification Service | Envío de notificaciones | `/notifications` |
+| Firebase | Notificaciones push | API externa |
 
 ### 4.3.3.6 Sketch Views (C4 & UML) and Record Design Decisions
 
@@ -2340,24 +2271,11 @@ Se definen los siguientes elementos:
 
 ### 4.3.3.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
-La tercera iteración permite mejorar el rendimiento y la mantenibilidad del sistema en módulos de soporte administrativo. Al separar los reportes en un servicio independiente, se evita que las consultas pesadas afecten operaciones críticas como pagos y reservas.
-
-Asimismo, el uso de notificaciones desacopladas permite informar a los usuarios sobre pagos, reservas y comunicados sin interrumpir el flujo principal del sistema.
-
-**Kanban Board:**
-
-- **To Do**
-  - Optimizar consultas de reportes
-  - Definir criterios de lectura de comunicados
-
-- **In Progress**
-  - Diseño del Report Query Component
-  - Integración con Firebase
-
-- **Done**
-  - Separación del módulo de reportes
-  - Definición del flujo de comunicados
-  - Identificación del servicio de notificaciones
+| Estado | Actividades |
+|--------|------------|
+| To Do | Optimizar consultas y métricas |
+| In Progress | Integración con Firebase |
+| Done | Separación de reportes y notificaciones |
 
 
 
