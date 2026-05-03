@@ -222,9 +222,9 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
 - [CAPÍTULO II: Requirements & Analysis](#capítulo-ii-requirements--analysis)
   - [2.1. Competidores](#21-competidores)
     
-    -[2.1.1 Análisis de Competidores](#211-análisis-de-competidores)
+    - [2.1.1 Análisis de Competidores](#211-análisis-de-competidores)
     
-    -[2.1.2. Estrategias frente a competidores](#212-estrategias-frente-a-competidores)
+    - [2.1.2. Estrategias frente a competidores](#212-estrategias-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2 Registro de entrevistas](#222-registro-de-entrevistas)
@@ -234,11 +234,13 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. Empathy Mapping](#233-empathy-mapping)
     - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
+
 - [CAPÍTULO III: Requirements Specification](#capítulo-iii-requirements-specification)
     - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
     - [3.2. User Stories](#32-user-stories)
     - [3.3. Impact Mapping](#33-impact-mapping)
     - [3.4. Product Backlog](#34-product-backlog)
+
 - [CAPÍTULO IV: Product Architecture Design](#capítulo-iv-product-architecture-design)
   - [4.1. Design Concepts, ViewPoints & ER Diagrams](#41-design-concepts-viewpoints--er-diagrams)
       - [4.1.1. Principles Statements](#411-principles-statements)
@@ -248,13 +250,16 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       - [4.1.5. Relational/Non Relational Database Diagram](#415-relationalnon-relational-database-diagram)
       - [4.1.6. Design Patterns](#416-design-patterns)
       - [4.1.7. Tactics](#417-tactics)
+
   - [4.2. Architectural Drivers](#42-architectural-drivers)
       - [4.2.1. Design Purpose](#421-design-purpose)
       - [4.2.2. Primary Functionality (Primary User Stories)](#422-primary-functionality-primary-user-stories)
       - [4.2.3. Quality Attribute Scenarios](#423-quality-attribute-scenarios)
       - [4.2.4. Constraints](#424-constraints)
       - [4.2.5. Architectural Concerns](#425-architectural-concerns)
+
   - [4.3. ADD Iterations](#43-add-iterations)
+
       - [4.3.1. Iteration 1](#431-iteration-1)
         - [4.3.1.1. Architectural Design Backlog](#4311-architectural-design-backlog)
         - [4.3.1.2. Establish Iteration Goal by Selecting Drivers](#4312-establish-iteration-goal-by-selecting-drivers)
@@ -263,12 +268,30 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         - [4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4315-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
         - [4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions](#4316-sketch-views-c4--uml-and-record-design-decisions)
         - [4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4317-analysis-of-current-design-and-review-iteration-goal-kanban-board)
- - [Conclusiones](#conclusiones)
- - [Conclusiones-y-Recomendaciones](#conclusiones-y-recomendaciones)
- - [Referencias Bibliografía](#referencias-bibliografía)
- - [Anexos](#anexos)
- - [Links](#links)
 
+      - [4.3.2. Iteration 2](#432-iteration-2)
+        - [4.3.2.1. Architectural Design Backlog](#4321-architectural-design-backlog)
+        - [4.3.2.2. Establish Iteration Goal by Selecting Drivers](#4322-establish-iteration-goal-by-selecting-drivers)
+        - [4.3.2.3. Choose One or More Elements of the System to Refine](#4323-choose-one-or-more-elements-of-the-system-to-refine)
+        - [4.3.2.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4324-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
+        - [4.3.2.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4325-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
+        - [4.3.2.6. Sketch Views (C4 & UML) and Record Design Decisions](#4326-sketch-views-c4--uml-and-record-design-decisions)
+        - [4.3.2.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4327-analysis-of-current-design-and-review-iteration-goal-kanban-board)
+
+      - [4.3.3. Iteration 3](#433-iteration-3)
+        - [4.3.3.1. Architectural Design Backlog](#4331-architectural-design-backlog)
+        - [4.3.3.2. Establish Iteration Goal by Selecting Drivers](#4332-establish-iteration-goal-by-selecting-drivers)
+        - [4.3.3.3. Choose One or More Elements of the System to Refine](#4333-choose-one-or-more-elements-of-the-system-to-refine)
+        - [4.3.3.4. Choose One or More Design Concepts That Satisfy the Selected Drivers](#4334-choose-one-or-more-design-concepts-that-satisfy-the-selected-drivers)
+        - [4.3.3.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4335-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
+        - [4.3.3.6. Sketch Views (C4 & UML) and Record Design Decisions](#4336-sketch-views-c4--uml-and-record-design-decisions)
+        - [4.3.3.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4337-analysis-of-current-design-and-review-iteration-goal-kanban-board)
+
+- [Conclusiones](#conclusiones)
+- [Conclusiones-y-Recomendaciones](#conclusiones-y-recomendaciones)
+- [Referencias Bibliografía](#referencias-bibliografía)
+- [Anexos](#anexos)
+- [Links](#links)
 
 # CAPÍTULO I: Introducción
 
@@ -821,9 +844,13 @@ Un hallazgo importante es que los entrevistados ya reconocen la necesidad de una
 
 ![User Personas](assets/img/Ricardo_Mendoza.png)
 
+*Figura 2. User persona del administrador de condominio. Elaborado por el equipo utilizando UXPressia (UXPressia, s.f.).*
+
 ### Residente (Propietario/Inquilino) – Andrea Villacorta
 
 ![User Personas](assets/img/Andrea_Villacorta.png)
+
+*Figura 3. User persona del residente. Elaborado por el equipo utilizando UXPressia (UXPressia, s.f.).*
 
 ## 2.3.2. User Task Matrix
 
@@ -857,9 +884,14 @@ Un hallazgo importante es que los entrevistados ya reconocen la necesidad de una
 
 ![Empathy Mapping](assets/img/Ricardo_empathy_map.png)
 
+ *Figura 4. Empathy mapping del administrador de condominio. Elaborado por el equipo utilizando UXPressia (UXPressia, s.f.).*
+
+
 ### Residente (Propietario/Inquilino) – Andrea Villacorta
 
 ![Empathy Mapping](assets/img/Andrea_empathy_map.png)
+
+*Figura 5. Empathy mapping del residente. Elaborado por el equipo utilizando UXPressia (UXPressia, s.f.).*
 
 ## 2.3.4. As-is Scenario Mapping
 **Segmento 1-Administradores de edificios y condominios:**
@@ -1895,13 +1927,23 @@ Este diagrama describe el flujo completo de gestión de pagos en Edifika. El res
 
 Este diagrama muestra el flujo de reserva de áreas comunes en Edifika. El residente consulta la disponibilidad, selecciona un horario y envía su solicitud. El Reservation Service verifica que no existan duplicados y registra la reserva como pendiente. El administrador la revisa y aprueba, notificando automáticamente al residente sobre la confirmación.
 
+**Generación y exportación de reportes**
+
+<div align="center">
+<img src="assets/img/secuencia_reportes.png" alt="Diagrama de secuencia reportes"/>
+</div>
+
+*Figura 28. Diagrama de Secuencia - Reportes Financieros. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
+Este diagrama describe el flujo de generación y exportación de reportes financieros en Edifika. El administrador selecciona el período y tipo de reporte, el Report Service consulta los datos de pagos y deudas en la base de datos, genera el resumen financiero y lo presenta en pantalla. Adicionalmente, permite exportar el reporte en formato PDF y consultar la lista de residentes morosos para tomar acciones administrativas.
+
 ### 4.1.5. Relational/Non Relational Database Diagram
 
 En esta sección se presenta el diagrama de base de datos relacional de Edifika, el cual define las tablas, columnas, tipos de datos, restricciones y relaciones necesarias para garantizar la persistencia de la información del sistema. El diagrama refleja los principales dominios de la plataforma, incluyendo la gestión de usuarios, pagos, reservas de áreas comunes y comunicados oficiales, asegurando integridad referencial mediante el uso de claves primarias y foráneas.
 
 <img src="assets/img/edifika_erd.png" alt="ERD_driagram"/>
 
-*Figura 28. Diagrama Entidad-Relación. Elaborado por el equipo utilizando LucidChart (LucidChart, s.f.).*
+*Figura 29. Diagrama Entidad-Relación. Elaborado por el equipo utilizando LucidChart (LucidChart, s.f.).*
 
 ### 4.1.6. Design Patterns
 
@@ -2128,26 +2170,253 @@ Las preocupaciones arquitectónicas representan los aspectos críticos del siste
 
 
 
-## 4.3. ADD Iterations
+## 4.3 ADD Iterations
 
-### 4.3.1. Iteration 1
+## 4.3.1 Iteration 1: Definición de la arquitectura base del sistema
 
-#### 4.3.1.1. Architectural Design Backlog
+### 4.3.1.1 Architectural Design Backlog
 
-#### 4.3.1.2. Establish Iteration Goal by Selecting Drivers
+| ID | Driver | Tipo | Prioridad | Descripción |
+|----|------|------|----------|------------|
+| AD-01 | Disponibilidad | Atributo de calidad | Alta | El sistema debe mantenerse operativo incluso con múltiples usuarios concurrentes. |
+| AD-02 | Rendimiento | Atributo de calidad | Alta | Las operaciones deben responder en menos de 2–3 segundos. |
+| AD-03 | Seguridad | Atributo de calidad | Alta | El sistema debe proteger el acceso a datos sensibles mediante autenticación y autorización. |
+| AD-04 | Uso de JWT | Restricción | Alta | La autenticación se implementará mediante tokens JWT. |
+| AD-05 | Integridad de datos | Atributo de calidad | Alta | La información de pagos, deudas y reservas debe mantenerse consistente. |
+| AD-06 | Uso de API Gateway | Restricción | Alta | Todas las solicitudes deben pasar por un punto centralizado. |
+| AD-07 | Uso de MySQL | Restricción | Alta | Los datos estructurados se almacenan en una base relacional. |
 
-#### 4.3.1.3. Choose One or More Elements of the System to Refine
+### 4.3.1.2 Establish Iteration Goal by Selecting Drivers
 
-#### 4.3.1.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
+El objetivo de esta iteración es definir una arquitectura base que permita soportar múltiples usuarios concurrentes garantizando **alta disponibilidad** y **buen rendimiento** en operaciones críticas como pagos y reservas.
 
-#### 4.3.1.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
-#### 4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions
 
-#### 4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
+### 4.3.1.3 Choose One or More Elements of the System to Refine
+
+Se refinan los siguientes elementos del sistema:
+
+- **API Gateway**
+- **Microservicios principales:**
+  - Payment Service
+  - Reservation Service
+  - IAM / Auth Service
+- **Base de datos MySQL**
+
+
+### 4.3.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+Se adoptan los siguientes conceptos de diseño:
+
+- **Arquitectura de microservicios**  
+  Permite aislar fallos y mejorar la disponibilidad del sistema.
+
+- **API Gateway**  
+  Centraliza el acceso, validación de tokens y enrutamiento.
+
+- **Separación por dominios**  
+  Cada servicio maneja una responsabilidad específica, mejorando el rendimiento.
+
+- **Base de datos relacional (MySQL)**  
+  Permite mantener la integridad de las relaciones entre entidades.
+
+
+### 4.3.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+
+### 4.3.1.5 Instantiate Architectural Elements
+
+| Elemento | Responsabilidad | Interfaces |
+|----------|--------------|-----------|
+| API Gateway | Validar JWT y enrutar solicitudes | `/api/v1/*` |
+| IAM / Auth Service | Autenticación y roles | `/auth` |
+| Payment Service | Gestión de pagos y deudas | `/payments` |
+| Reservation Service | Gestión de reservas | `/reservations` |
+| MySQL | Persistencia de datos | Conexión interna |
+
+### 4.3.1.6 Sketch Views (C4 & UML) and Record Design Decisions
+
+<img src="assets/img/container.png" alt="context"/>
+ 
+*Figura 11. Diagrama de Contenedores. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+
+### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+
+| Estado | Actividades |
+|--------|------------|
+| To Do | Optimizar consultas y reglas de negocio |
+| In Progress | Implementación de servicios y API Gateway |
+| Done | Diseño de arquitectura base y modelo de datos |
+ 
+## 4.3.2 Iteration 2: Refinamiento de módulos críticos (Pagos y Reservas)
+
+### 4.3.2.1 Architectural Design Backlog
+
+
+| ID | Driver | Tipo | Prioridad | Descripción |
+|----|------|------|----------|------------|
+| AD-07 | Integridad de pagos | Atributo de calidad | Alta | Evitar inconsistencias entre pagos y deudas. |
+| AD-08 | Disponibilidad | Atributo de calidad | Alta | El sistema debe seguir funcionando ante fallos de Culqi. |
+| AD-09 | Rendimiento | Atributo de calidad | Alta | Consultas rápidas de disponibilidad y deudas. |
+| AD-10 | Seguridad | Atributo de calidad | Alta | Solo usuarios autorizados pueden pagar o reservar. |
+
+### 4.3.2.2 Establish Iteration Goal by Selecting Drivers
+
+El objetivo de esta iteración es refinar los módulos de **Payment Service** y **Reservation Service**, ya que representan operaciones críticas del sistema.
+
+Se busca garantizar la correcta ejecución de pagos, evitar inconsistencias en deudas y prevenir conflictos en reservas de áreas comunes, manteniendo tiempos de respuesta adecuados.
+
+
+### 4.3.2.3 Choose One or More Elements of the System to Refine
+
+Se refinan los siguientes elementos:
+
+- **Payment Service**
+- **Reservation Service**
+- **Integración con Culqi**
+- **Base de datos MySQL**
+
+
+### 4.3.2.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+Se adoptan los siguientes conceptos:
+
+- **Saga Pattern (Payment Saga)**  
+  Permite coordinar el proceso de pago y mantener consistencia entre pago y deuda.
+
+- **Availability Service**  
+  Permite validar disponibilidad antes de registrar una reserva.
+
+- **Separación de responsabilidades**  
+  Cada componente maneja una parte específica del flujo.
+
+- **Control de errores en servicios externos**  
+  Evita que fallos de Culqi afecten todo el sistema.
+
+
+### 4.3.2.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+
+Se definen los siguientes elementos:
+
+- **Payment Controller**
+  - Recibe solicitudes de pago
+
+- **Payment Application Service**
+  - Coordina el flujo de pago
+
+- **Payment Saga**
+  - Gestiona estados del pago (pendiente, confirmado, fallido)
+
+- **Culqi Integration**
+  - Procesa pagos externos
+
+- **Reservation Controller**
+  - Gestiona solicitudes de reserva
+
+- **Availability Service**
+  - Valida disponibilidad de áreas comunes
+
+- **Reservation Service**
+  - Registra reservas
+
+
+### 4.3.2.6 Sketch Views (C4 & UML) and Record Design Decisions
+
+<img src="assets/img/payment.png" alt="context"/>
+
+*Figura 16. Diagrama de Componentes - Payment Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+
+<img src="assets/img/reservation.png" alt="context"/>
+
+*Figura 18. Diagrama de Componentes - Reservation Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+
+| Estado | Actividades |
+|--------|------------|
+| To Do | Optimizar disponibilidad y manejo de errores |
+| In Progress | Implementación de Saga y validación de reservas |
+| Done | Diseño de Payment Saga y Availability Service |
+
+
+## 4.3.3 Iteration 3: Optimización de reportes, comunicados y notificaciones
+
+### 4.3.3.1 Architectural Design Backlog
+
+| ID | Driver | Tipo | Prioridad | Descripción |
+|----|------|------|----------|------------|
+| AD-11 | Rendimiento en reportes | Atributo de calidad | Alta | Los reportes no deben afectar operaciones críticas. |
+| AD-12 | Disponibilidad de notificaciones | Atributo de calidad | Media | Fallos en notificaciones no deben afectar el sistema. |
+| AD-13 | Escalabilidad | Atributo de calidad | Media | Soportar crecimiento de datos históricos. |
+| AD-14 | Mantenibilidad | Atributo de calidad | Media | Permitir evolución de módulos sin afectar otros servicios. |
+
+### 4.3.3.2 Establish Iteration Goal by Selecting Drivers
+
+El objetivo de esta iteración es refinar los módulos de **Report Service**, **Communication Service** y **Notification Service**, ya que estos componentes apoyan la operación diaria del condominio mediante reportes, comunicados y alertas.
+
+Se busca que las consultas administrativas y el envío de notificaciones funcionen de manera eficiente, sin sobrecargar los servicios principales como pagos y reservas.
+
+
+### 4.3.3.3 Choose One or More Elements of the System to Refine
+
+Se refinan los siguientes elementos:
+
+- **Report Service**
+- **Communication Service**
+- **Notification Service**
+- **Firebase Integration**
+- **Base de datos MySQL**
+
+
+### 4.3.3.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+Se adoptan los siguientes conceptos de diseño:
+
+- **Query Component**  
+  Permite separar las consultas de reportes de las operaciones transaccionales, evitando afectar el rendimiento de pagos y reservas.
+
+- **Event-Driven Communication**  
+  Permite que eventos como pago registrado, reserva confirmada o comunicado publicado activen notificaciones sin acoplar directamente los servicios.
+
+- **Read Tracking**  
+  Permite registrar qué usuarios leyeron un comunicado, mejorando la trazabilidad de la comunicación interna.
+
+- **Firebase Cloud Messaging**  
+  Permite enviar notificaciones push a los usuarios de la aplicación móvil.
+
+
+### 4.3.3.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+
+### 4.3.3.5 Instantiate Architectural Elements
+
+| Elemento | Responsabilidad | Interfaces |
+|----------|--------------|-----------|
+| Report Service | Generación de reportes | `/reports` |
+| Communication Service | Gestión de comunicados | `/announcements` |
+| Notification Service | Envío de notificaciones | `/notifications` |
+| Firebase | Notificaciones push | API externa |
+
+### 4.3.3.6 Sketch Views (C4 & UML) and Record Design Decisions
+
+<img src="assets/img/communication.png" alt="context"/>
+
+*Figura 14. Diagrama de Componentes - Communication Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+
+<img src="assets/img/notification.png" alt="context"/>
+
+*Figura 15. Diagrama de Componentes - Notification Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+
+### 4.3.3.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+
+| Estado | Actividades |
+|--------|------------|
+| To Do | Optimizar consultas y métricas |
+| In Progress | Integración con Firebase |
+| Done | Separación de reportes y notificaciones |
+
+
 
 # Conclusiones
-# Conclusiones-y-Recomendaciones
+# Conclusiones y Recomendaciones
+
+Avance 1:
 
 - La investigación realizada confirmó que la gestión de condominios en el Perú presenta problemas estructurales de desorganización, falta de transparencia y comunicación deficiente, validando la necesidad real que Edifika busca resolver mediante la digitalización.
 - Ambos segmentos objetivo mostraron disposición para adoptar una solución digital, lo que reduce la fricción de entrada al mercado y respalda la viabilidad del producto, siempre que ofrezca una experiencia simple y accesible.
@@ -2155,6 +2424,14 @@ Las preocupaciones arquitectónicas representan los aspectos críticos del siste
 - Se recomienda priorizar las funcionalidades de mayor impacto como pagos, reservas y comunicados, validarlas con usuarios reales antes del lanzamiento e incorporar métodos de pago locales para facilitar la adopción.
 - Para escalar el producto de forma sostenible, se recomienda explorar alianzas con empresas administradoras de condominios como canal principal de distribución, permitiendo llegar a múltiples comunidades a través de un solo punto de entrada.
 - El desarrollo del product backlog, los user stories y los escenarios To-Be demostró que el equipo logró comprender en profundidad los problemas de ambos segmentos y traducirlos en soluciones concretas, lo que garantiza que el producto esté orientado a generar valor real desde sus primeras versiones.
+
+TB1:
+
+- La definición de principios y enfoques arquitectónicos para Edifika permitió establecer una base sólida y coherente para el diseño del sistema, asegurando que cada decisión técnica esté alineada con los objetivos del negocio y las necesidades reales de los usuarios.
+- La adopción de una arquitectura basada en microservicios, junto con patrones como API Gateway, Repository y Saga, demostró ser la decisión más adecuada para garantizar la escalabilidad, disponibilidad e independencia de los módulos críticos de Edifika como pagos, reservas y comunicados.
+- La elaboración de los diagramas C4, de secuencia y de base de datos permitió visualizar con claridad cómo interactúan los componentes del sistema, facilitando la identificación de dependencias, riesgos y oportunidades de mejora en etapas tempranas del diseño.
+- Los escenarios de atributos de calidad definidos en el ADD confirmaron que la arquitectura propuesta responde adecuadamente a los requisitos de seguridad, rendimiento, usabilidad e integridad de transacciones que exige una plataforma de gestión residencial.
+- La identificación de restricciones y preocupaciones arquitectónicas permitió al equipo anticipar riesgos como fallos en servicios externos, doble reserva o inconsistencias en pagos, diseñando tácticas concretas para mitigarlos desde el diseño inicial.
 
 # Referencias Bibliografía
   - Aguilar, K. L. B. (2026). Vacíos regulatorios en la Ley de Propiedad en Condominio, análisis de conflictos recurrentes en su modalidad vertical ubicados en el Distrito Central (Tesis doctoral). Centro Universitario Tecnológico CEUTEC. `https://repositorio.unitec.edu/server/api/core/bitstreams/cd97bbd4-204c-49c8-9901-3d0a5a85d7f3/content`
