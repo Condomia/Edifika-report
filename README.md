@@ -760,9 +760,13 @@ Un hallazgo importante es que los entrevistados ya reconocen la necesidad de una
 
 ![User Personas](assets/img/Ricardo_Mendoza.png)
 
+**Elaborado por: Equipo Condomia**
+
 ### Residente (Propietario/Inquilino) – Andrea Villacorta
 
 ![User Personas](assets/img/Andrea_Villacorta.png)
+
+**Elaborado por: Equipo Condomia**
 
 ## 2.3.2. User Task Matrix
 
@@ -796,9 +800,13 @@ Un hallazgo importante es que los entrevistados ya reconocen la necesidad de una
 
 ![Empathy Mapping](assets/img/Ricardo_empathy_map.png)
 
+**Elaborado por: Equipo Condomia**
+
 ### Residente (Propietario/Inquilino) – Andrea Villacorta
 
 ![Empathy Mapping](assets/img/Andrea_empathy_map.png)
+
+**Elaborado por: Equipo Condomia**
 
 ## 2.3.4. As-is Scenario Mapping
 **Segmento 1-Administradores de edificios y condominios:**
