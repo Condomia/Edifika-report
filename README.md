@@ -2280,7 +2280,9 @@ Se adoptan los siguientes conceptos de diseño:
 
 
 # Conclusiones
-# Conclusiones-y-Recomendaciones
+# Conclusiones y Recomendaciones
+
+Avance 1:
 
 - La investigación realizada confirmó que la gestión de condominios en el Perú presenta problemas estructurales de desorganización, falta de transparencia y comunicación deficiente, validando la necesidad real que Edifika busca resolver mediante la digitalización.
 - Ambos segmentos objetivo mostraron disposición para adoptar una solución digital, lo que reduce la fricción de entrada al mercado y respalda la viabilidad del producto, siempre que ofrezca una experiencia simple y accesible.
@@ -2288,6 +2290,14 @@ Se adoptan los siguientes conceptos de diseño:
 - Se recomienda priorizar las funcionalidades de mayor impacto como pagos, reservas y comunicados, validarlas con usuarios reales antes del lanzamiento e incorporar métodos de pago locales para facilitar la adopción.
 - Para escalar el producto de forma sostenible, se recomienda explorar alianzas con empresas administradoras de condominios como canal principal de distribución, permitiendo llegar a múltiples comunidades a través de un solo punto de entrada.
 - El desarrollo del product backlog, los user stories y los escenarios To-Be demostró que el equipo logró comprender en profundidad los problemas de ambos segmentos y traducirlos en soluciones concretas, lo que garantiza que el producto esté orientado a generar valor real desde sus primeras versiones.
+
+TB1:
+
+- La definición de principios y enfoques arquitectónicos para Edifika permitió establecer una base sólida y coherente para el diseño del sistema, asegurando que cada decisión técnica esté alineada con los objetivos del negocio y las necesidades reales de los usuarios.
+- La adopción de una arquitectura basada en microservicios, junto con patrones como API Gateway, Repository y Saga, demostró ser la decisión más adecuada para garantizar la escalabilidad, disponibilidad e independencia de los módulos críticos de Edifika como pagos, reservas y comunicados.
+- La elaboración de los diagramas C4, de secuencia y de base de datos permitió visualizar con claridad cómo interactúan los componentes del sistema, facilitando la identificación de dependencias, riesgos y oportunidades de mejora en etapas tempranas del diseño.
+- Los escenarios de atributos de calidad definidos en el ADD confirmaron que la arquitectura propuesta responde adecuadamente a los requisitos de seguridad, rendimiento, usabilidad e integridad de transacciones que exige una plataforma de gestión residencial.
+- La identificación de restricciones y preocupaciones arquitectónicas permitió al equipo anticipar riesgos como fallos en servicios externos, doble reserva o inconsistencias en pagos, diseñando tácticas concretas para mitigarlos desde el diseño inicial.
 
 # Referencias Bibliografía
   - Aguilar, K. L. B. (2026). Vacíos regulatorios en la Ley de Propiedad en Condominio, análisis de conflictos recurrentes en su modalidad vertical ubicados en el Distrito Central (Tesis doctoral). Centro Universitario Tecnológico CEUTEC. `https://repositorio.unitec.edu/server/api/core/bitstreams/cd97bbd4-204c-49c8-9901-3d0a5a85d7f3/content`
