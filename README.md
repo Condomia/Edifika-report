@@ -1807,7 +1807,7 @@ Este diagrama muestra el flujo de reserva de áreas comunes en Edifika. El resid
 <img src="assets/img/secuencia_reportes.png" alt="Diagrama de secuencia reportes"/>
 </div>
 
-**Figura 28.** Diagrama de Secuencia - Reportes Financieros. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).
+*Figura 28. Diagrama de Secuencia - Reportes Financieros. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 Este diagrama describe el flujo de generación y exportación de reportes financieros en Edifika. El administrador selecciona el período y tipo de reporte, el Report Service consulta los datos de pagos y deudas en la base de datos, genera el resumen financiero y lo presenta en pantalla. Adicionalmente, permite exportar el reporte en formato PDF y consultar la lista de residentes morosos para tomar acciones administrativas.
 
