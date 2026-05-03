@@ -1801,13 +1801,23 @@ Este diagrama describe el flujo completo de gestión de pagos en Edifika. El res
 
 Este diagrama muestra el flujo de reserva de áreas comunes en Edifika. El residente consulta la disponibilidad, selecciona un horario y envía su solicitud. El Reservation Service verifica que no existan duplicados y registra la reserva como pendiente. El administrador la revisa y aprueba, notificando automáticamente al residente sobre la confirmación.
 
+**Generación y exportación de reportes**
+
+<div align="center">
+<img src="assets/img/secuencia_reportes.png" alt="Diagrama de secuencia reportes"/>
+</div>
+
+**Figura 28.** Diagrama de Secuencia - Reportes Financieros. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).
+
+Este diagrama describe el flujo de generación y exportación de reportes financieros en Edifika. El administrador selecciona el período y tipo de reporte, el Report Service consulta los datos de pagos y deudas en la base de datos, genera el resumen financiero y lo presenta en pantalla. Adicionalmente, permite exportar el reporte en formato PDF y consultar la lista de residentes morosos para tomar acciones administrativas.
+
 ### 4.1.5. Relational/Non Relational Database Diagram
 
 En esta sección se presenta el diagrama de base de datos relacional de Edifika, el cual define las tablas, columnas, tipos de datos, restricciones y relaciones necesarias para garantizar la persistencia de la información del sistema. El diagrama refleja los principales dominios de la plataforma, incluyendo la gestión de usuarios, pagos, reservas de áreas comunes y comunicados oficiales, asegurando integridad referencial mediante el uso de claves primarias y foráneas.
 
 <img src="assets/img/edifika_erd.png" alt="ERD_driagram"/>
 
-*Figura 28. Diagrama Entidad-Relación. Elaborado por el equipo utilizando LucidChart (LucidChart, s.f.).*
+*Figura 29. Diagrama Entidad-Relación. Elaborado por el equipo utilizando LucidChart (LucidChart, s.f.).*
 
 ### 4.1.6. Design Patterns
 
