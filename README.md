@@ -21,7 +21,7 @@ NRC: 7944
 <br><br>
 Docente: Abel Nehemias Rosales Caururu  
 <br><br>
-<strong>Informe de TB1</strong>  
+<strong>Informe de TP1</strong>  
 <br><br>
 Startup: Condomia  
 <br><br>
@@ -61,7 +61,7 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
   </thead>
   <tbody>
     <tr>
-      <td>Avance 1</td>
+      <td>TB1</td>
       <td>17/04/2026</td>
       <td>
         - Becerra Tejeda, Alessandra Nicole <br>
@@ -101,7 +101,7 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
       </td>
     </tr>
     <tr>
-      <td>TB1</td>
+      <td>TB2</td>
       <td>02/05/2026</td>
       <td>
         - Becerra Tejeda, Alessandra Nicole <br>
@@ -159,49 +159,49 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       <td>7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software</td>
       <td>
         Becerra Tejeda, Alessandra Nicole <br><br>
-        Avance 1: <br> Investigué y consolidé conceptos actualizados relacionados con la definición del problem statement, hypothesis y assumptions, aplicándolos de manera estructurada en el planteamiento inicial del proyecto. <br><br>
-        TB1: <br>Actualicé y apliqué conceptos de arquitectura de software necesarios para el desarrollo del proyecto, incluyendo drivers arquitectónicos como Design Purpose, User Stories y Quality Attribute Scenarios, logrando estructurar de manera adecuada los requerimientos y decisiones del sistema.<br><br>
+        TB1: <br> Investigué y consolidé conceptos actualizados relacionados con la definición del problem statement, hypothesis y assumptions, aplicándolos de manera estructurada en el planteamiento inicial del proyecto. <br><br>
+        TB2: <br>Actualicé y apliqué conceptos de arquitectura de software necesarios para el desarrollo del proyecto, incluyendo drivers arquitectónicos como Design Purpose, User Stories y Quality Attribute Scenarios, logrando estructurar de manera adecuada los requerimientos y decisiones del sistema.<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
-        Avance 1: <br>Investigué y apliqué metodologías de diseño centrado en el usuario para la creación de User Personas y la User Task Matrix. Asimismo, profundicé en técnicas de Empathy Mapping y priorización de requisitos mediante la elaboración del Product Backlog, asegurando que la solución Edifika responda a necesidades técnicas y funcionales reales.<br><br>
-        TB1: <br>Desarrollé las ADD Iterations del proyecto Edifika, aplicando el método Attribute-Driven Design para definir y refinar la arquitectura del sistema. Identifiqué drivers como disponibilidad, rendimiento, seguridad e integridad de datos, y propuse soluciones como microservicios, API Gateway y patrones como Saga y Availability Service, fortaleciendo el diseño arquitectónico del sistema.<br><br>
+        TB1: <br>Investigué y apliqué metodologías de diseño centrado en el usuario para la creación de User Personas y la User Task Matrix. Asimismo, profundicé en técnicas de Empathy Mapping y priorización de requisitos mediante la elaboración del Product Backlog, asegurando que la solución Edifika responda a necesidades técnicas y funcionales reales.<br><br>
+        TB2: <br>Desarrollé las ADD Iterations del proyecto Edifika, aplicando el método Attribute-Driven Design para definir y refinar la arquitectura del sistema. Identifiqué drivers como disponibilidad, rendimiento, seguridad e integridad de datos, y propuse soluciones como microservicios, API Gateway y patrones como Saga y Availability Service, fortaleciendo el diseño arquitectónico del sistema.<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
-        Avance 1: <br>
+        TB1: <br>
         Investigué y documenté el perfil de la startup Condomia, el nombre y concepto del producto Edifika, y los antecedentes del problema que busca resolver en la gestión de condominios.<br><br>
-        TB1: <br> Investigué y apliqué conceptos de arquitectura de software para definir los principios, enfoques y patrones del sistema Edifika, y desarrollé los diagramas de secuencia junto con las tácticas arquitectónicas del proyecto.<br><br>
+        TB2: <br> Investigué y apliqué conceptos de arquitectura de software para definir los principios, enfoques y patrones del sistema Edifika, y desarrollé los diagramas de secuencia junto con las tácticas arquitectónicas del proyecto.<br><br>
         Sarmiento Medina, Loreley <br><br>
-        Avance 1: <br>Desarrollé los cuadros As-Is y To-Be, el Impact Map y la entrevista a un usuario, para poder analizar el comportamiento del usuario y alinear sus necesidades con la solución propuesta.<br><br>
-        TB1 1: <br>Durante el desarrollo del capítulo 4, actualicé y apliqué conocimientos relacionados con el diseño de arquitectura de software, incluyendo la identificación de drivers arquitectónicos, constraints y concerns, así como la definición de componentes y relaciones dentro del sistema. Este proceso me permitió fortalecer mi comprensión sobre cómo estructurar una solución técnica alineada a los requerimientos del proyecto.<br><br>
+        TB1: <br>Desarrollé los cuadros As-Is y To-Be, el Impact Map y la entrevista a un usuario, para poder analizar el comportamiento del usuario y alinear sus necesidades con la solución propuesta.<br><br>
+        TB2: <br>Durante el desarrollo del capítulo 4, actualicé y apliqué conocimientos relacionados con el diseño de arquitectura de software, incluyendo la identificación de drivers arquitectónicos, constraints y concerns, así como la definición de componentes y relaciones dentro del sistema. Este proceso me permitió fortalecer mi comprensión sobre cómo estructurar una solución técnica alineada a los requerimientos del proyecto.<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
-        Avance 1: <br>Realicé investigación sobre el sector de gestión de condominios, incluyendo análisis de competidores y entrevistas a usuarios, lo que me permitió actualizar conocimientos relevantes para el desarrollo de una solución de software<br><br>
-        TB1:<br> Actualicé y apliqué conocimientos sobre arquitectura de software mediante los diagramas C4 y el diagrama ERD. Esto me permitió comprender mejor la estructura del sistema, sus componentes, servicios, bases de datos y relaciones principales.<br>
+        TB1: <br>Realicé investigación sobre el sector de gestión de condominios, incluyendo análisis de competidores y entrevistas a usuarios, lo que me permitió actualizar conocimientos relevantes para el desarrollo de una solución de software<br><br>
+        TB2:<br> Actualicé y apliqué conocimientos sobre arquitectura de software mediante los diagramas C4 y el diagrama ERD. Esto me permitió comprender mejor la estructura del sistema, sus componentes, servicios, bases de datos y relaciones principales.<br>
       </td>
       <td>
-        Avance 1: A lo largo del desarrollo del primer entregable, el equipo demostró capacidad para incorporar nuevos conceptos y herramientas propias de la ingeniería de software. El desarrollo del perfil de Condomia, la definición de Edifika y el trabajo con metodologías como Lean UX nos llevaron a investigar y aplicar conocimientos que inicialmente no manejábamos con profundidad. Este proceso de actualización continua se reflejó directamente en la calidad y coherencia de la documentación entregada.<br><br>
-        TB1: Durante el segundo entregable, el equipo profundizó en conceptos de arquitectura de software aplicados directamente al diseño de Edifika. El desarrollo de las ADD Iterations permitió tomar decisiones arquitectónicas basadas en atributos de calidad, así como aplicar patrones y metodologías que fortalecen la estructura del sistema, evidenciando la capacidad del equipo para diseñar soluciones técnicas coherentes y escalables.
+        TB1: A lo largo del desarrollo del primer entregable, el equipo demostró capacidad para incorporar nuevos conceptos y herramientas propias de la ingeniería de software. El desarrollo del perfil de Condomia, la definición de Edifika y el trabajo con metodologías como Lean UX nos llevaron a investigar y aplicar conocimientos que inicialmente no manejábamos con profundidad. Este proceso de actualización continua se reflejó directamente en la calidad y coherencia de la documentación entregada.<br><br>
+        TB2: Durante el segundo entregable, el equipo profundizó en conceptos de arquitectura de software aplicados directamente al diseño de Edifika. El desarrollo de las ADD Iterations permitió tomar decisiones arquitectónicas basadas en atributos de calidad, así como aplicar patrones y metodologías que fortalecen la estructura del sistema, evidenciando la capacidad del equipo para diseñar soluciones técnicas coherentes y escalables.
       </td>
     </tr>
     <tr>
       <td>7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software.</td>
       <td>
         Becerra Tejeda, Alessandra Nicole <br><br>
-        Avance 1: <br>Investigué y contrasté información de diversas fuentes para comprender y aplicar adecuadamente los conceptos de problem statement, hypothesis y assumptions en el desarrollo del proyecto.<br><br>
-        TB1: <br>Desarrollé en conjunto los drivers arquitectónicos, incluyendo Design Purpose, Primary Functionality (User Stories) y Quality Attribute Scenarios. Para ello, investigué y apliqué conceptos de arquitectura de software, permitiendo estructurar correctamente los requerimientos y decisiones del sistema.<br><br>
+        TB1: <br>Investigué y contrasté información de diversas fuentes para comprender y aplicar adecuadamente los conceptos de problem statement, hypothesis y assumptions en el desarrollo del proyecto.<br><br>
+        TB2: <br>Desarrollé en conjunto los drivers arquitectónicos, incluyendo Design Purpose, Primary Functionality (User Stories) y Quality Attribute Scenarios. Para ello, investigué y apliqué conceptos de arquitectura de software, permitiendo estructurar correctamente los requerimientos y decisiones del sistema.<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
-        Avance 1: <br>Reconocí la importancia de dominar técnicas de investigación cualitativa mediante el diseño y ejecución de entrevistas a los dos segmentos objetivo. Esta experiencia me permitió comprender que el aprendizaje de nuevas estrategias de recolección de datos es vital para validar hipótesis y reducir la incertidumbre en el desarrollo de software.<br><br>
-        TB1: <br>Al desarrollar las ADD Iterations, reconocí que el aprendizaje permanente es clave para tomar decisiones arquitectónicas fundamentadas. Fue necesario investigar conceptos como atributos de calidad, patrones arquitectónicos y diseño de microservicios, comprendiendo que el conocimiento debe actualizarse constantemente para diseñar soluciones robustas.<br><br>
+        TB1: <br>Reconocí la importancia de dominar técnicas de investigación cualitativa mediante el diseño y ejecución de entrevistas a los dos segmentos objetivo. Esta experiencia me permitió comprender que el aprendizaje de nuevas estrategias de recolección de datos es vital para validar hipótesis y reducir la incertidumbre en el desarrollo de software.<br><br>
+        TB2: <br>Al desarrollar las ADD Iterations, reconocí que el aprendizaje permanente es clave para tomar decisiones arquitectónicas fundamentadas. Fue necesario investigar conceptos como atributos de calidad, patrones arquitectónicos y diseño de microservicios, comprendiendo que el conocimiento debe actualizarse constantemente para diseñar soluciones robustas.<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
-        Avance 1: <br>Reconocí la importancia de investigar el sector de gestión de condominios para desarrollar una solución relevante, lo que me motivó a profundizar en nuevos conceptos y herramientas necesarias para el proyecto Edifika.<br><br>
-        TB1: <br> Reconocí que diseñar la arquitectura de Edifika exige aprendizaje continuo, ya que trabajar con patrones como microservicios, DDD y atributos de calidad me motivó a investigar y profundizar en conceptos que no manejaba previamente.<br><br>
+        TB1: <br>Reconocí la importancia de investigar el sector de gestión de condominios para desarrollar una solución relevante, lo que me motivó a profundizar en nuevos conceptos y herramientas necesarias para el proyecto Edifika.<br><br>
+        TB2: <br> Reconocí que diseñar la arquitectura de Edifika exige aprendizaje continuo, ya que trabajar con patrones como microservicios, DDD y atributos de calidad me motivó a investigar y profundizar en conceptos que no manejaba previamente.<br><br>
         Sarmiento Medina, Loreley <br><br>
-        Avance 1: <br>Reconocí la importancia del aprendizaje continuo al desarrollar los cuadros As-Is, To-Be, el Impact Map y la entrevista, lo que me permitió mejorar mi análisis del usuario y comprender mejor cómo estructurar soluciones alineadas a sus necesidades reales.<br><br>
-        TB1: <br>A partir del desarrollo del capítulo 4, reconocí la importancia del aprendizaje continuo para comprender conceptos clave de arquitectura de software y su aplicación en un caso real.<br><br>
+        TB1: <br>Reconocí la importancia del aprendizaje continuo al desarrollar los cuadros As-Is, To-Be, el Impact Map y la entrevista, lo que me permitió mejorar mi análisis del usuario y comprender mejor cómo estructurar soluciones alineadas a sus necesidades reales.<br><br>
+        TB2: <br>A partir del desarrollo del capítulo 4, reconocí la importancia del aprendizaje continuo para comprender conceptos clave de arquitectura de software y su aplicación en un caso real.<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
-        Avance 1: <br>A partir del desarrollo del Lean UX Canvas, el análisis de competidores y las entrevistas realizadas, reconocí que el aprendizaje permanente es esencial para el desempeño profesional en ingeniería de software.<br>
-        TB1:<br> Reconocí la importancia del aprendizaje permanente porque, para elaborar estos diagramas, fue necesario reforzar conceptos como arquitectura, comunicación entre servicios y modelado de datos.
+        TB1: <br>A partir del desarrollo del Lean UX Canvas, el análisis de competidores y las entrevistas realizadas, reconocí que el aprendizaje permanente es esencial para el desempeño profesional en ingeniería de software.<br>
+        TB2:<br> Reconocí la importancia del aprendizaje permanente porque, para elaborar estos diagramas, fue necesario reforzar conceptos como arquitectura, comunicación entre servicios y modelado de datos.
       </td>
       <td>
-        Avance 1: El desarrollo del proyecto Edifika nos permitió comprender que mantenerse en constante aprendizaje no es opcional, sino necesario. Cada sección trabajada en la TB1 nos presentó nuevos retos que exigieron investigar, cuestionar y adaptarnos.<br><br>
-        TB1: El desarrollo de la arquitectura de Edifika reafirmó que el aprendizaje permanente es indispensable en la ingeniería de software. La aplicación de ADD Iterations, patrones arquitectónicos y diseño basado en atributos de calidad evidenció que el conocimiento debe actualizarse continuamente para enfrentar retos reales del desarrollo de software.
+        TB1: El desarrollo del proyecto Edifika nos permitió comprender que mantenerse en constante aprendizaje no es opcional, sino necesario. Cada sección trabajada en la TB1 nos presentó nuevos retos que exigieron investigar, cuestionar y adaptarnos.<br><br>
+        TB2: El desarrollo de la arquitectura de Edifika reafirmó que el aprendizaje permanente es indispensable en la ingeniería de software. La aplicación de ADD Iterations, patrones arquitectónicos y diseño basado en atributos de calidad evidenció que el conocimiento debe actualizarse continuamente para enfrentar retos reales del desarrollo de software.
       </td>
     </tr>
   </tbody>
@@ -225,9 +225,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
     
 - [CAPÍTULO II: Requirements & Analysis](#capítulo-ii-requirements--analysis)
   - [2.1. Competidores](#21-competidores)
-    
     - [2.1.1 Análisis de Competidores](#211-análisis-de-competidores)
-    
     - [2.1.2. Estrategias frente a competidores](#212-estrategias-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
@@ -264,7 +262,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
 
   - [4.3. ADD Iterations](#43-add-iterations)
 
-      - [4.3.1. Iteration 1](#431-iteration-1)
+      - [4.3.1. Iteration 1: Definición de la arquitectura base del sistema](#431-iteration-1-definición-de-la-arquitectura-base-del-sistema)
         - [4.3.1.1. Architectural Design Backlog](#4311-architectural-design-backlog)
         - [4.3.1.2. Establish Iteration Goal by Selecting Drivers](#4312-establish-iteration-goal-by-selecting-drivers)
         - [4.3.1.3. Choose One or More Elements of the System to Refine](#4313-choose-one-or-more-elements-of-the-system-to-refine)
@@ -273,7 +271,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         - [4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions](#4316-sketch-views-c4--uml-and-record-design-decisions)
         - [4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4317-analysis-of-current-design-and-review-iteration-goal-kanban-board)
 
-      - [4.3.2. Iteration 2](#432-iteration-2)
+      - [4.3.2. Iteration 2: Refinamiento de módulos críticos (Pagos y Reservas)](#432-iteration-2-refinamiento-de-módulos-críticos-pagos-y-reservas)
         - [4.3.2.1. Architectural Design Backlog](#4321-architectural-design-backlog)
         - [4.3.2.2. Establish Iteration Goal by Selecting Drivers](#4322-establish-iteration-goal-by-selecting-drivers)
         - [4.3.2.3. Choose One or More Elements of the System to Refine](#4323-choose-one-or-more-elements-of-the-system-to-refine)
@@ -282,7 +280,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         - [4.3.2.6. Sketch Views (C4 & UML) and Record Design Decisions](#4326-sketch-views-c4--uml-and-record-design-decisions)
         - [4.3.2.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4327-analysis-of-current-design-and-review-iteration-goal-kanban-board)
 
-      - [4.3.3. Iteration 3](#433-iteration-3)
+      - [4.3.3. Iteration 3: Optimización de reportes, comunicados y notificaciones](#433-iteration-3-optimización-de-reportes-comunicados-y-notificaciones)
         - [4.3.3.1. Architectural Design Backlog](#4331-architectural-design-backlog)
         - [4.3.3.2. Establish Iteration Goal by Selecting Drivers](#4332-establish-iteration-goal-by-selecting-drivers)
         - [4.3.3.3. Choose One or More Elements of the System to Refine](#4333-choose-one-or-more-elements-of-the-system-to-refine)
@@ -290,9 +288,31 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         - [4.3.3.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4335-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
         - [4.3.3.6. Sketch Views (C4 & UML) and Record Design Decisions](#4336-sketch-views-c4--uml-and-record-design-decisions)
         - [4.3.3.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4337-analysis-of-current-design-and-review-iteration-goal-kanban-board)
-
+          
+- [CAPÍTULO V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+ - [5.1. Testing Suites & General Patterns](#51-testing-suites--general-patterns)
+      - [5.1.1. Backend Application Core Testing Suite](#511-backend-application-core-testing-suite)
+      - [5.1.2. Pattern Based Backend Application(s)](#512-pattern-based-backend-applications)
+      - [5.1.3. Pattern Based Custom Software Library](#513-pattern-based-custom-software-library)
+      - [5.1.4. Framework Pattern Driven Refactoring Report](#514-framework-pattern-driven-refactoring-report)
+  - [5.2. Software Configuration Management](#52-software-configuration-management)
+      - [5.2.1. Software Development Environment Configuration](#521-software-development-environment-configuration)
+      - [5.2.2. Source Code Management](#522-source-code-management)
+      - [5.2.3. Source Code Style Guide & Conventions](#523-source-code-style-guide--conventions)
+      - [5.2.4. Software Deployment Configuration](#524-software-deployment-configuration)
+  - [5.3. Microservices Implementation](#53-microservices-implementation)
+      - [5.3.1. Sprint 1](#531-sprint-1)
+        - [5.3.1.1. Sprint Backlog 1](#5311-sprint-backlog-1)
+        - [5.3.1.2. Development Evidence for Sprint Review](#5312-development-evidence-for-sprint-review)
+        - [5.3.1.3. Testing Suite Evidence for Sprint Review](#5313-testing-suite-evidence-for-sprint-review)
+        - [5.3.1.4. Execution Evidence for Sprint Review](#5314-execution-evidence-for-sprint-review)
+        - [5.3.1.5. Microservices Documentation Evidence for Sprint Review](#5315-microservices-documentation-evidence-for-sprint-review)
+        - [5.3.1.6. Software Deployment Evidence for Sprint Review](#5316-software-deployment-evidence-for-sprint-review)
+        - [5.3.1.7. Team Collaboration Insights during Sprint](#5317-team-collaboration-insights-during-sprint)
+        - [5.3.1.8. Kanban Board](#5318-kanban-board)
+          
 - [Conclusiones](#conclusiones)
-- [Conclusiones-y-Recomendaciones](#conclusiones-y-recomendaciones)
+- [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Referencias Bibliografía](#referencias-bibliografía)
 - [Anexos](#anexos)
 - [Links](#links)
@@ -2445,12 +2465,35 @@ Se adoptan los siguientes conceptos de diseño:
 | In Progress | Integración con Firebase |
 | Done | Separación de reportes y notificaciones |
 
+# CAPÍTULO V: Product Implementation, Validation & Deployment
+### 5.1. Testing Suites & General Patterns
+##### 5.1.1. Backend Application Core Testing Suite
+##### 5.1.2. Pattern Based Backend Application(s)
+##### 5.1.3. Pattern Based Custom Software Library
+##### 5.1.4. Framework Pattern Driven Refactoring Report
+
+### 5.2. Software Configuration Management
+##### 5.2.1. Software Development Environment Configuration
+##### 5.2.2. Source Code Management
+##### 5.2.3. Source Code Style Guide & Conventions
+##### 5.2.4. Software Deployment Configuration
+
+### 5.3. Microservices Implementation
+#### 5.3.1. Sprint 1
+##### 5.3.1.1. Sprint Backlog 1
+##### 5.3.1.2. Development Evidence for Sprint Review
+##### 5.3.1.3. Testing Suite Evidence for Sprint Review
+##### 5.3.1.4. Execution Evidence for Sprint Review
+##### 5.3.1.5. Microservices Documentation Evidence for Sprint Review
+##### 5.3.1.6. Software Deployment Evidence for Sprint Review
+##### 5.3.1.7. Team Collaboration Insights during Sprint
+##### 5.3.1.8. Kanban Board
 
 
 # Conclusiones
 # Conclusiones y Recomendaciones
 
-Avance 1:
+TB1:
 
 - La investigación realizada confirmó que la gestión de condominios en el Perú presenta problemas estructurales de desorganización, falta de transparencia y comunicación deficiente, validando la necesidad real que Edifika busca resolver mediante la digitalización.
 - Ambos segmentos objetivo mostraron disposición para adoptar una solución digital, lo que reduce la fricción de entrada al mercado y respalda la viabilidad del producto, siempre que ofrezca una experiencia simple y accesible.
@@ -2459,7 +2502,7 @@ Avance 1:
 - Para escalar el producto de forma sostenible, se recomienda explorar alianzas con empresas administradoras de condominios como canal principal de distribución, permitiendo llegar a múltiples comunidades a través de un solo punto de entrada.
 - El desarrollo del product backlog, los user stories y los escenarios To-Be demostró que el equipo logró comprender en profundidad los problemas de ambos segmentos y traducirlos en soluciones concretas, lo que garantiza que el producto esté orientado a generar valor real desde sus primeras versiones.
 
-TB1:
+TB2:
 
 - La definición de principios y enfoques arquitectónicos para Edifika permitió establecer una base sólida y coherente para el diseño del sistema, asegurando que cada decisión técnica esté alineada con los objetivos del negocio y las necesidades reales de los usuarios.
 - La adopción de una arquitectura basada en microservicios, junto con patrones como API Gateway, Repository y Saga, demostró ser la decisión más adecuada para garantizar la escalabilidad, disponibilidad e independencia de los módulos críticos de Edifika como pagos, reservas y comunicados.
