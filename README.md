@@ -2288,7 +2288,7 @@ Se adoptan los siguientes conceptos de diseño:
 
 <img src="assets/img/container.png" alt="context"/>
  
-*Figura 11. Diagrama de Contenedores. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 36. Diagrama de Contenedores. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 ### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
@@ -2305,10 +2305,10 @@ Se adoptan los siguientes conceptos de diseño:
 
 | ID | Driver | Tipo | Prioridad | Descripción |
 |----|------|------|----------|------------|
-| AD-07 | Integridad de pagos | Atributo de calidad | Alta | Evitar inconsistencias entre pagos y deudas. |
-| AD-08 | Disponibilidad | Atributo de calidad | Alta | El sistema debe seguir funcionando ante fallos de Culqi. |
-| AD-09 | Rendimiento | Atributo de calidad | Alta | Consultas rápidas de disponibilidad y deudas. |
-| AD-10 | Seguridad | Atributo de calidad | Alta | Solo usuarios autorizados pueden pagar o reservar. |
+| AD-08 | Integridad de pagos | Atributo de calidad | Alta | Evitar inconsistencias entre pagos y deudas. |
+| AD-09 | Disponibilidad | Atributo de calidad | Alta | El sistema debe seguir funcionando ante fallos de Culqi. |
+| AD-10 | Rendimiento | Atributo de calidad | Alta | Consultas rápidas de disponibilidad y deudas. |
+| AD-11 | Seguridad | Atributo de calidad | Alta | Solo usuarios autorizados pueden pagar o reservar. |
 
 ### 4.3.2.2 Establish Iteration Goal by Selecting Drivers
 
@@ -2374,11 +2374,11 @@ Se definen los siguientes elementos:
 
 <img src="assets/img/payment.png" alt="context"/>
 
-*Figura 16. Diagrama de Componentes - Payment Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 37. Diagrama de Componentes - Payment Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/reservation.png" alt="context"/>
 
-*Figura 18. Diagrama de Componentes - Reservation Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 38. Diagrama de Componentes - Reservation Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 
 ### 4.3.2.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
@@ -2396,10 +2396,10 @@ Se definen los siguientes elementos:
 
 | ID | Driver | Tipo | Prioridad | Descripción |
 |----|------|------|----------|------------|
-| AD-11 | Rendimiento en reportes | Atributo de calidad | Alta | Los reportes no deben afectar operaciones críticas. |
-| AD-12 | Disponibilidad de notificaciones | Atributo de calidad | Media | Fallos en notificaciones no deben afectar el sistema. |
-| AD-13 | Escalabilidad | Atributo de calidad | Media | Soportar crecimiento de datos históricos. |
-| AD-14 | Mantenibilidad | Atributo de calidad | Media | Permitir evolución de módulos sin afectar otros servicios. |
+| AD-12 | Rendimiento en reportes | Atributo de calidad | Alta | Los reportes no deben afectar operaciones críticas. |
+| AD-13 | Disponibilidad de notificaciones | Atributo de calidad | Media | Fallos en notificaciones no deben afectar el sistema. |
+| AD-14 | Escalabilidad | Atributo de calidad | Media | Soportar crecimiento de datos históricos. |
+| AD-15 | Mantenibilidad | Atributo de calidad | Media | Permitir evolución de módulos sin afectar otros servicios. |
 
 ### 4.3.3.2 Establish Iteration Goal by Selecting Drivers
 
@@ -2451,11 +2451,11 @@ Se adoptan los siguientes conceptos de diseño:
 
 <img src="assets/img/communication.png" alt="context"/>
 
-*Figura 14. Diagrama de Componentes - Communication Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 39. Diagrama de Componentes - Communication Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/notification.png" alt="context"/>
 
-*Figura 15. Diagrama de Componentes - Notification Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 40. Diagrama de Componentes - Notification Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 ### 4.3.3.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
