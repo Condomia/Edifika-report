@@ -2292,11 +2292,7 @@ Se adoptan los siguientes conceptos de diseño:
 
 ### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
-| Estado | Actividades |
-|--------|------------|
-| To Do | Optimizar consultas y reglas de negocio |
-| In Progress | Implementación de servicios y API Gateway |
-| Done | Diseño de arquitectura base y modelo de datos |
+<img src="assets/img/TRELLO1.png" alt="context"/>
  
 ## 4.3.2 Iteration 2: Refinamiento de módulos críticos (Pagos y Reservas)
 
@@ -2383,11 +2379,7 @@ Se definen los siguientes elementos:
 
 ### 4.3.2.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
-| Estado | Actividades |
-|--------|------------|
-| To Do | Optimizar disponibilidad y manejo de errores |
-| In Progress | Implementación de Saga y validación de reservas |
-| Done | Diseño de Payment Saga y Availability Service |
+<img src="assets/img/TRELLO2.png" alt="context"/>
 
 
 ## 4.3.3 Iteration 3: Optimización de reportes, comunicados y notificaciones
@@ -2459,11 +2451,7 @@ Se adoptan los siguientes conceptos de diseño:
 
 ### 4.3.3.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
-| Estado | Actividades |
-|--------|------------|
-| To Do | Optimizar consultas y métricas |
-| In Progress | Integración con Firebase |
-| Done | Separación de reportes y notificaciones |
+<img src="assets/img/TRELLO3.png" alt="context"/>
 
 # CAPÍTULO V: Product Implementation, Validation & Deployment
 ### 5.1. Testing Suites & General Patterns
