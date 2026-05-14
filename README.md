@@ -1908,8 +1908,36 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       </td>
       <td>EP05</td>
     </tr>
+	  <tr>
+	  <td>TS03</td>
+	  <td>Implementación de endpoints de gestión de usuarios</td>
+	  <td>Como desarrollador, quiero implementar los endpoints CRUD de gestión de usuarios y consulta de roles en el microservicio IAM, para que los administradores puedan consultar, actualizar y eliminar usuarios del 				sistema.</td>
+	  <td>
+	    <strong>Escenario 1: Consulta exitosa de usuario por id</strong><br>
+	    Dado que se envía un GET a /api/v1/users/{id} con token válido<br>
+	    Cuando el sistema encuentra al usuario<br>
+	    Entonces retorna 200 con los datos completos del usuario incluyendo fullName, email, phone, status, documentType, documentNumber y roles asignados en menos de 300ms.<br><br>
+	    <strong>Escenario 2: Actualización exitosa de datos de usuario</strong><br>
+	    Dado que se envía un PUT a /api/v1/users/{id} con datos válidos y token válido<br>
+	    Cuando el sistema procesa la solicitud<br>
+	    Entonces actualiza los datos del usuario en PostgreSQL y retorna 200 con la información actualizada.<br><br>
+	    <strong>Escenario 3: Eliminación exitosa de usuario</strong><br>
+	    Dado que se envía un DELETE a /api/v1/users/{id} con token válido<br>
+	    Cuando el sistema procesa la solicitud<br>
+	    Entonces elimina al usuario de la base de datos y retorna 200 confirmando la operación.<br><br>
+	    <strong>Escenario 4: Listado completo de usuarios registrados</strong><br>
+	    Dado que se envía un GET a /api/v1/users con token válido<br>
+	    Cuando el sistema procesa la solicitud<br>
+	    Entonces retorna 200 con la lista de todos los usuarios incluyendo sus roles asignados.<br><br>
+	    <strong>Escenario 5: Consulta de roles disponibles del sistema</strong><br>
+	    Dado que se envía un GET a /api/v1/roles con token válido<br>
+	    Cuando el sistema procesa la solicitud<br>
+	    Entonces retorna 200 con la lista de roles configurados en el sistema.
+	  </td>
+	  <td>EP05</td>
+	</tr>
     <tr>
-      <td>TS03</td>
+      <td>TS04</td>
       <td>Configuración del API Gateway como punto de entrada centralizado</td>
       <td>Como desarrollador, quiero configurar un API Gateway que centralice todas las solicitudes de la aplicación móvil hacia los microservicios de Edifika, para gestionar el enrutamiento, validación de tokens JWT y políticas de seguridad en un único punto de acceso.</td>
       <td>
@@ -1929,7 +1957,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>EP05</td>
     </tr>
     <tr>
-      <td>TS04</td>
+      <td>TS05</td>
       <td>Configuración de base de datos PostgreSQL independiente por microservicio</td>
       <td>Como desarrollador, quiero configurar una base de datos PostgreSQL independiente para cada microservicio de Edifika, para garantizar el aislamiento de datos, la autonomía operativa y la consistencia referencial dentro de cada dominio.</td>
       <td>
@@ -1949,7 +1977,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>EP05</td>
     </tr>
     <tr>
-      <td>TS05</td>
+      <td>TS06</td>
       <td>Configuración base del microservicio Residential Management</td>
       <td>Como desarrollador, quiero crear el microservicio de gestión residencial para administrar edificios, unidades y la vinculación de residentes con sus unidades, de forma independiente y desacoplada del microservicio IAM.</td>
       <td>
@@ -1969,7 +1997,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>EP05</td>
     </tr>
     <tr>
-      <td>TS06</td>
+      <td>TS07</td>
       <td>Configuración base del microservicio Payment Service con integración Culqi</td>
       <td>Como desarrollador, quiero crear el microservicio de pagos para gestionar deudas, cuotas y transacciones del condominio integrándose con Culqi, garantizando consistencia en el estado de cada pago ante cualquier escenario de fallo.</td>
       <td>
@@ -1989,7 +2017,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>EP05</td>
     </tr>
     <tr>
-      <td>TS07</td>
+      <td>TS08</td>
       <td>Configuración base del microservicio Reservation Service</td>
       <td>Como desarrollador, quiero crear el microservicio de reservas para gestionar la disponibilidad y uso de áreas comunes del condominio, garantizando que no existan conflictos ni reservas duplicadas en el sistema.</td>
       <td>
@@ -2009,7 +2037,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>EP05</td>
     </tr>
     <tr>
-      <td>TS08</td>
+      <td>TS09</td>
       <td>Configuración base del microservicio Communication Service</td>
       <td>Como desarrollador, quiero crear el microservicio de comunicados para que los administradores puedan publicar avisos oficiales y tener trazabilidad de quiénes los han leído dentro del condominio.</td>
       <td>
@@ -2029,7 +2057,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>EP05</td>
     </tr>
     <tr>
-      <td>TS09</td>
+      <td>TS10</td>
       <td>Configuración base del microservicio Notification Service con Firebase</td>
       <td>Como desarrollador, quiero crear el microservicio de notificaciones integrado con Firebase Cloud Messaging para enviar alertas push a los dispositivos móviles de los usuarios ante eventos relevantes del sistema.</td>
       <td>
@@ -2049,7 +2077,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>EP05</td>
     </tr>
     <tr>
-      <td>TS10</td>
+      <td>TS11</td>
       <td>Configuración base del microservicio Report Service</td>
       <td>Como desarrollador, quiero crear el microservicio de reportes para que los administradores puedan generar y exportar reportes financieros y de actividad del condominio consultando datos de otros microservicios.</td>
       <td>
@@ -2069,7 +2097,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>EP05</td>
     </tr>
     <tr>
-      <td>TS11</td>
+      <td>TS12</td>
       <td>Configuración base del microservicio Messaging Forum Service</td>
       <td>Como desarrollador, quiero crear el microservicio de foro comunitario para que los residentes puedan publicar mensajes en el canal de su edificio con un límite de una publicación diaria por usuario.</td>
       <td>
@@ -2089,7 +2117,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>EP05</td>
     </tr>
     <tr>
-      <td>TS12</td>
+      <td>TS13</td>
       <td>Implementación de comunicación entre microservicios mediante REST con manejo de fallos</td>
       <td>Como desarrollador, quiero implementar la comunicación entre microservicios de Edifika mediante llamadas REST con manejo controlado de errores, para que los servicios intercambien información de forma desacoplada sin generar fallos en cascada.</td>
       <td>
@@ -2105,7 +2133,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>EP05</td>
     </tr>
     <tr>
-      <td>TS13</td>
+      <td>TS14</td>
       <td>Documentación de API con Swagger y autenticación JWT en cada microservicio</td>
       <td>Como desarrollador, quiero integrar Swagger con soporte de autenticación JWT en cada microservicio de Edifika, para que los endpoints estén documentados con sus esquemas de request y response y puedan ser probados desde una interfaz gráfica.</td>
       <td>
@@ -2121,7 +2149,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>EP05</td>
     </tr>
     <tr>
-      <td>TS14</td>
+      <td>TS15</td>
       <td>Configuración de CORS en el API Gateway para comunicación con clientes</td>
       <td>Como desarrollador, quiero configurar las políticas de CORS en el API Gateway para permitir que la aplicación móvil y el frontend de Edifika se comuniquen correctamente con el backend en entornos de desarrollo y producción.</td>
       <td>
