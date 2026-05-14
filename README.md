@@ -971,590 +971,738 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 <table>
   <thead>
     <tr>
-      <th>Epic / User Story ID</th>
+      <th>Epic / US ID</th>
       <th>Título</th>
       <th>Descripción</th>
-      <th>Criterios de Aceptación</th>
-      <th>Relacionado con (Epic ID)</th>
+      <th>Criterios de Aceptación (Escenarios)</th>
+      <th>Relacionado</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>US01</td>
+      <td><strong>US01</strong></td>
       <td>Crear cuenta vinculada a unidad</td>
       <td>Como residente, deseo crear una cuenta vinculada a mi unidad para acceder a la gestión de mi edificio.</td>
       <td>
-        <strong>Escenario: Registro exitoso vinculado a unidad</strong><br>
-        Dado que el residente ingresa sus datos correctamente<br>
-        Cuando selecciona su unidad<br>
-        Entonces su cuenta queda vinculada a dicha unidad.<br><br>
-
- <strong>Escenario: Error al no seleccionar unidad</strong><br>
-        Dado que el residente completa el formulario<br>
-        Cuando no selecciona una unidad<br>
-        Entonces el sistema muestra un mensaje de error.
+        <strong>E1: Registro exitoso.</strong><br>
+        Dado que el residente completa sus datos y selecciona torre/unidad,<br>
+        cuando envía el formulario de registro,<br>
+        entonces el sistema confirma el vínculo y crea la cuenta exitosamente.<br><br>
+        <strong>E2: Unidad ya ocupada.</strong><br>
+        Dado que el residente selecciona una unidad con titular activo,<br>
+        cuando intenta completar el registro,<br>
+        entonces el sistema bloquea el registro y solicita adjuntar título de propiedad para validación manual.<br><br>
+        <strong>E3: Error de red.</strong><br>
+        Dado que el residente está en proceso de vinculación,<br>
+        cuando se pierde la conexión a internet,<br>
+        entonces el sistema muestra "Error de sincronización" y permite reintentar sin rellenar todo el formulario.
       </td>
       <td>EP01</td>
     </tr>
-  </tbody>
-
-
- <tr>
-      <td>US02</td>
+    <tr>
+      <td><strong>US02</strong></td>
       <td>Registro con correo</td>
       <td>Como usuario, quiero registrarme con mi correo para acceder a la plataforma.</td>
       <td>
-        <strong>Escenario: Registro exitoso</strong><br>
-        Dado que el usuario ingresa un correo válido<br>
-        Cuando completa el registro<br>
-        Entonces su cuenta es creada correctamente.<br><br>
-
- <strong>Escenario: Correo inválido</strong><br>
-        Dado que el usuario ingresa un correo incorrecto<br>
-        Cuando intenta registrarse<br>
-        Entonces el sistema muestra un error de validación.
+        <strong>E1: Validación de formato.</strong><br>
+        Dado que el usuario está completando el formulario de registro,<br>
+        cuando ingresa un correo sin "@",<br>
+        entonces el sistema muestra instantáneamente "Formato de correo inválido".<br><br>
+        <strong>E2: Correo duplicado.</strong><br>
+        Dado que el usuario intenta registrarse con un correo existente,<br>
+        cuando envía el formulario,<br>
+        entonces el sistema indica que la cuenta ya existe y ofrece la opción de recuperar contraseña.<br><br>
+        <strong>E3: Timeout en verificación.</strong><br>
+        Dado que el usuario espera el código de verificación,<br>
+        cuando el servicio de envío demora más de 30 segundos,<br>
+        entonces el sistema muestra "Servicio temporalmente lento" y habilita el botón "Reenviar código".
       </td>
       <td>EP01</td>
     </tr>
-
-<tr>
-      <td>US03</td>
+    <tr>
+      <td><strong>US03</strong></td>
       <td>Inicio de sesión</td>
-      <td>Como usuario, quiero iniciar sesión para acceder a mi información del condominio.</td>
+      <td>Como usuario, quiero iniciar sesión para acceder a mi información.</td>
       <td>
-        <strong>Escenario: Login exitoso</strong><br>
-        Dado que el usuario ingresa credenciales correctas<br>
-        Cuando inicia sesión<br>
-        Entonces accede a su panel.<br><br>
-
-<strong>Escenario: Credenciales incorrectas</strong><br>
-        Dado que el usuario ingresa datos incorrectos<br>
-        Cuando intenta iniciar sesión<br>
-        Entonces el sistema muestra un error.
+        <strong>E1: Login exitoso.</strong><br>
+        Dado que el usuario tiene credenciales válidas,<br>
+        cuando las ingresa y confirma el inicio de sesión,<br>
+        entonces el sistema lo redirige al dashboard correspondiente según su rol (Admin/Residente).<br><br>
+        <strong>E2: Bloqueo por intentos.</strong><br>
+        Dado que el usuario ha ingresado credenciales incorrectas,<br>
+        cuando acumula 5 intentos fallidos,<br>
+        entonces el sistema bloquea la cuenta por 15 minutos por razones de seguridad.<br><br>
+        <strong>E3: Sesión expirada.</strong><br>
+        Dado que el token JWT del usuario ha caducado,<br>
+        cuando intenta navegar dentro de la plataforma,<br>
+        entonces el sistema lo redirige al login con el mensaje "Su sesión ha expirado".
       </td>
       <td>EP01</td>
     </tr>
-
- <tr>
-      <td>US04</td>
-      <td>Verificar información de usuarios</td>
-      <td>Como administrador, quiero verificar la información de los usuarios para asegurar que sea correcta.</td>
+    <tr>
+      <td><strong>US04</strong></td>
+      <td>Verificar información por torre y dpto.</td>
+      <td>Como administrador, quiero verificar los datos de usuarios por ubicación para asegurar que el censo sea correcto.</td>
       <td>
-        <strong>Escenario: Verificación exitosa</strong><br>
-        Dado que el administrador revisa los datos<br>
-        Cuando valida la información<br>
-        Entonces el usuario queda verificado.<br><br>
-
-<strong>Escenario: Información incorrecta</strong><br>
-        Dado que el administrador detecta errores<br>
-        Cuando revisa el perfil<br>
-        Entonces marca al usuario como pendiente de corrección.
+        <strong>E1: Validación exitosa.</strong><br>
+        Dado que el admin filtra por "Torre B - 402",<br>
+        cuando revisa el DNI adjunto y los datos coinciden,<br>
+        entonces puede marcar el registro como "Verificado".<br><br>
+        <strong>E2: Datos inconsistentes.</strong><br>
+        Dado que el admin revisa un registro con datos incorrectos,<br>
+        cuando el nombre no coincide con el documento adjunto,<br>
+        entonces el sistema permite marcar como "Pendiente de corrección" y notifica al residente el motivo específico.<br><br>
+        <strong>E3: Error de carga de media.</strong><br>
+        Dado que el admin intenta abrir el documento adjunto,<br>
+        cuando el servidor de archivos no responde,<br>
+        entonces el sistema muestra "No se pudo cargar la imagen del DNI, reintente en unos minutos".
       </td>
       <td>EP01</td>
     </tr>
-	
- <tr>
-      <td>US05</td>
-      <td>Actualizar información de usuarios</td>
-      <td>Como administrador, quiero actualizar información de usuarios para mantener datos correctos.</td>
+    <tr>
+      <td><strong>US05</strong></td>
+      <td>Actualizar info. de usuarios</td>
+      <td>Como administrador, quiero editar datos de usuarios para corregir errores.</td>
       <td>
-        <strong>Escenario: Actualización exitosa</strong><br>
-        Dado que el administrador edita datos<br>
-        Cuando guarda los cambios<br>
-        Entonces la información se actualiza correctamente.<br><br>
-
-<strong>Escenario: Error en datos</strong><br>
-        Dado que el administrador ingresa datos inválidos<br>
-        Cuando intenta guardar<br>
-        Entonces el sistema muestra un error.
+        <strong>E1: Edición de contacto.</strong><br>
+        Dado que el admin accede al perfil de un residente,<br>
+        cuando modifica el número de teléfono y guarda los cambios,<br>
+        entonces el sistema almacena la información y registra en el log quién realizó el cambio.<br><br>
+        <strong>E2: Cambio de rol inválido.</strong><br>
+        Dado que el admin es el único administrador activo del sistema,<br>
+        cuando intenta quitarse sus propios permisos de administrador,<br>
+        entonces el sistema lanza "Error: Debe existir al menos un administrador activo".<br><br>
+        <strong>E3: Fallo de persistencia.</strong><br>
+        Dado que el admin intenta guardar cambios en un perfil,<br>
+        cuando la base de datos se encuentra en mantenimiento,<br>
+        entonces el sistema muestra "Error 500: No se pudieron guardar los cambios".
       </td>
       <td>EP01</td>
     </tr>
-
- <tr>
-      <td>US06</td>
+    <tr>
+      <td><strong>US06</strong></td>
       <td>Editar perfil</td>
-      <td>Como residente, quiero editar mi perfil para mantener mi información actualizada.</td>
+      <td>Como residente, quiero editar mi perfil para mantener mi contacto actualizado.</td>
       <td>
-        <strong>Escenario: Edición exitosa</strong><br>
-        Dado que el residente modifica su información<br>
-        Cuando guarda los cambios<br>
-        Entonces su perfil se actualiza correctamente.<br><br>
-
- <strong>Escenario: Cancelación de cambios</strong><br>
-        Dado que el residente edita su perfil<br>
-        Cuando cancela la operación<br>
-        Entonces no se guardan los cambios.
+        <strong>E1: Actualización de foto.</strong><br>
+        Dado que el residente accede a la edición de su perfil,<br>
+        cuando sube una nueva imagen de perfil,<br>
+        entonces el sistema la procesa y actualiza en todos los módulos de la plataforma.<br><br>
+        <strong>E2: Cancelación.</strong><br>
+        Dado que el usuario ha modificado campos de su perfil,<br>
+        cuando pulsa el botón "Cancelar",<br>
+        entonces el sistema descarta los cambios y vuelve al estado anterior sin alterar la base de datos.<br><br>
+        <strong>E3: Formato no soportado.</strong><br>
+        Dado que el usuario intenta subir una imagen de perfil,<br>
+        cuando selecciona un archivo en formato .gif,<br>
+        entonces el sistema indica "Solo se permiten formatos JPG/PNG".
       </td>
       <td>EP01</td>
     </tr>
-  <tr>
-      <td>US07</td>
+    <tr>
+      <td><strong>US07</strong></td>
       <td>Registrar edificio y unidades</td>
-      <td>Como administrador, quiero registrar el edificio con sus unidades residenciales para poder gestionar la comunidad desde la app.</td>
+      <td>Como administrador, quiero configurar la estructura del edificio (torres/unidades).</td>
       <td>
-        <strong>Escenario: Registro exitoso</strong><br>
-        Dado que el administrador ingresa datos del edificio<br>
-        Cuando registra las unidades<br>
-        Entonces el edificio queda configurado correctamente.<br><br>
-
- <strong>Escenario: Datos incompletos</strong><br>
-        Dado que faltan datos del edificio<br>
-        Cuando intenta registrar<br>
-        Entonces el sistema muestra un error.
+        <strong>E1: Configuración inicial.</strong><br>
+        Dado que el admin ingresa la configuración del edificio,<br>
+        cuando registra 2 torres con 20 departamentos cada una,<br>
+        entonces el sistema genera IDs únicos para cada unidad automáticamente.<br><br>
+        <strong>E2: Unidades duplicadas.</strong><br>
+        Dado que el admin intenta registrar una unidad,<br>
+        cuando el "Dpto 101" ya existe en la misma torre,<br>
+        entonces el sistema arroja "Error: Identificador de unidad ya existe".<br><br>
+        <strong>E3: Interrupción de carga masiva.</strong><br>
+        Dado que el admin está subiendo un Excel de unidades,<br>
+        cuando el proceso se interrumpe inesperadamente,<br>
+        entonces el sistema indica cuál fue la última fila procesada exitosamente.
       </td>
       <td>EP01</td>
     </tr>
-
-  </tbody>
-</table>
-
-
-<table>
-  <thead>
     <tr>
-      <th>Epic / User Story ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Criterios de Aceptación</th>
-      <th>Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
-
- <tr>
-      <td>US08</td>
-      <td>Notificaciones de incidencias o emergencias</td>
-      <td>Como residente, quiero recibir notificaciones inmediatas sobre incidencias o emergencias en el edificio para poder tomar precauciones a tiempo.</td>
+      <td><strong>US08</strong></td>
+      <td>Notificaciones de emergencias</td>
+      <td>Como residente/admin, quiero gestionar avisos inmediatos de incidencias.</td>
       <td>
-        <strong>Escenario: Notificación de emergencia enviada</strong><br>
-        Dado que ocurre una incidencia en el edificio<br>
-        Cuando el administrador la registra<br>
-        Entonces los residentes reciben una notificación inmediata.<br><br>
-
- <strong>Escenario: Fallo en envío de notificación</strong><br>
-        Dado que ocurre una incidencia<br>
-        Cuando el sistema no puede enviar la notificación<br>
-        Entonces se registra un error en el sistema.
+        <strong>E1: Alerta de incendio.</strong><br>
+        Dado que el admin activa una alerta de emergencia,<br>
+        cuando confirma el envío,<br>
+        entonces todos los residentes reciben push y SMS en menos de 5 segundos.<br><br>
+        <strong>E2: Reporte de incidencia.</strong><br>
+        Dado que un residente detecta una fuga de gas,<br>
+        cuando reporta la incidencia desde la app,<br>
+        entonces el admin recibe una notificación con la ubicación exacta (Torre/Dpto).<br><br>
+        <strong>E3: Fallo de Push Service.</strong><br>
+        Dado que se intenta enviar una notificación de emergencia,<br>
+        cuando el servicio de Firebase no está disponible,<br>
+        entonces el sistema registra el error y reintenta el envío automáticamente hasta 3 veces.
       </td>
       <td>EP02</td>
     </tr>
-<tr>
-      <td>US09</td>
-      <td>Recordatorios de pagos pendientes</td>
-      <td>Como residente, quiero recibir recordatorios de mis pagos pendientes para evitar retrasos y mantenerme al día.</td>
+    <tr>
+      <td><strong>US09</strong></td>
+      <td>Recordatorios de pago</td>
+      <td>Como residente, quiero recibir alertas de mis deudas próximas a vencer.</td>
       <td>
-        <strong>Escenario: Recordatorio enviado correctamente</strong><br>
-        Dado que el residente tiene un pago pendiente<br>
-        Cuando se acerca la fecha de vencimiento<br>
-        Entonces recibe un recordatorio.<br><br>
-
- <strong>Escenario: Sin pagos pendientes</strong><br>
-        Dado que el residente no tiene deudas<br>
-        Cuando se ejecuta el sistema de recordatorios<br>
-        Entonces no recibe ninguna notificación.
+        <strong>E1: Aviso preventivo.</strong><br>
+        Dado que un pago de mantenimiento está próximo a vencer,<br>
+        cuando faltan 3 días para la fecha límite,<br>
+        entonces el sistema envía automáticamente un recordatorio al residente.<br><br>
+        <strong>E2: Notificación de mora.</strong><br>
+        Dado que un residente no realizó su pago a tiempo,<br>
+        cuando se cumple el primer día de retraso,<br>
+        entonces el sistema alerta al residente sobre el recargo aplicado.<br><br>
+        <strong>E3: Pago parcial.</strong><br>
+        Dado que el residente tiene una deuda de S/ 100,<br>
+        cuando realiza un abono de S/ 50,<br>
+        entonces el sistema notifica que aún queda un saldo pendiente de S/ 50.
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>US10</strong></td>
+      <td>Recepción de comunicados</td>
+      <td>Como residente, quiero recibir información oficial del condominio.</td>
+      <td>
+        <strong>E1: Lectura de acta.</strong><br>
+        Dado que el admin publica el acta de una junta,<br>
+        cuando el residente recibe el aviso,<br>
+        entonces puede abrir y leer el PDF directamente desde la app.<br><br>
+        <strong>E2: Filtro de relevancia.</strong><br>
+        Dado que el admin publica un aviso dirigido únicamente a "Torre A",<br>
+        cuando el comunicado es enviado,<br>
+        entonces los residentes de "Torre B" no reciben el mensaje.<br><br>
+        <strong>E3: Notificaciones desactivadas.</strong><br>
+        Dado que el residente tiene las notificaciones push desactivadas,<br>
+        cuando el admin publica un comunicado,<br>
+        entonces el sistema no envía push pero marca el mensaje como "No leído" en el buzón interno.
       </td>
       <td>EP02</td>
     </tr>
-  <tr>
-      <td>US10</td>
-      <td>Recepción de comunicados importantes</td>
-      <td>Como residente, quiero recibir comunicados importantes del condominio para mantenerme informado sobre decisiones o actividades.</td>
-      <td>
-        <strong>Escenario: Comunicado recibido</strong><br>
-        Dado que el administrador publica un comunicado<br>
-        Cuando el residente tiene activadas las notificaciones<br>
-        Entonces recibe el comunicado.<br><br>
-
- <strong>Escenario: Notificaciones desactivadas</strong><br>
-        Dado que el residente desactivó notificaciones<br>
-        Cuando se publica un comunicado<br>
-        Entonces no recibe alerta inmediata.
-      </td>
-      <td>EP02</td>
-    </tr>
- <tr>
-      <td>US11</td>
+    <tr>
+      <td><strong>US11</strong></td>
       <td>Notificaciones de reservas</td>
-      <td>Como residente, quiero recibir notificaciones sobre mis reservas de áreas comunes para recordar horarios y evitar conflictos.</td>
+      <td>Como residente, quiero avisos sobre mis turnos en áreas comunes.</td>
       <td>
-        <strong>Escenario: Recordatorio de reserva</strong><br>
-        Dado que el residente tiene una reserva<br>
-        Cuando se acerca la hora<br>
-        Entonces recibe una notificación.<br><br>
-
- <strong>Escenario: Reserva cancelada</strong><br>
-        Dado que una reserva es cancelada<br>
-        Cuando el sistema actualiza el estado<br>
-        Entonces el residente recibe una notificación de cancelación.
+        <strong>E1: Confirmación.</strong><br>
+        Dado que el residente completa una reserva en el gimnasio,<br>
+        cuando el sistema procesa la solicitud,<br>
+        entonces envía una notificación confirmando el día y la hora reservados.<br><br>
+        <strong>E2: Recordatorio de uso.</strong><br>
+        Dado que el residente tiene una reserva activa,<br>
+        cuando falta 1 hora para el inicio del turno,<br>
+        entonces el sistema envía el aviso: "Tu turno en el área común inicia pronto".<br><br>
+        <strong>E3: Cancelación forzada.</strong><br>
+        Dado que el admin cierra un área por mantenimiento,<br>
+        cuando existen reservas activas para esa área,<br>
+        entonces el sistema notifica al residente afectado y libera el cobro si correspondiera.
       </td>
-      <td>EP02</td>
+      <td>EP03</td>
     </tr>
- <tr>
-      <td>US12</td>
+    <tr>
+      <td><strong>US12</strong></td>
       <td>Configuración de notificaciones</td>
-      <td>Como residente, quiero elegir qué tipo de notificaciones recibir para recibir solo información relevante para mí.</td>
+      <td>Como residente, quiero elegir qué avisos recibir.</td>
       <td>
-        <strong>Escenario: Configuración guardada</strong><br>
-        Dado que el residente selecciona sus preferencias<br>
-        Cuando guarda los cambios<br>
-        Entonces el sistema actualiza sus notificaciones.<br><br>
-
-   <strong>Escenario: Error al guardar configuración</strong><br>
-        Dado que ocurre un error en el sistema<br>
-        Cuando el residente intenta guardar<br>
-        Entonces se muestra un mensaje de error.
+        <strong>E1: Personalización.</strong><br>
+        Dado que el usuario accede a la configuración de notificaciones,<br>
+        cuando desactiva "Comunicados" pero mantiene "Pagos" activo,<br>
+        entonces el sistema guarda esa preferencia en su perfil.<br><br>
+        <strong>E2: Error al guardar.</strong><br>
+        Dado que el usuario intenta guardar sus preferencias,<br>
+        cuando el servicio de preferencias falla,<br>
+        entonces el sistema muestra "No se pudo actualizar la configuración, intente más tarde".<br><br>
+        <strong>E3: Reseteo de preferencias.</strong><br>
+        Dado que el usuario desea volver a la configuración original,<br>
+        cuando pulsa el botón "Restablecer",<br>
+        entonces el sistema activa todas las notificaciones con sus valores por defecto.
       </td>
       <td>EP02</td>
     </tr>
-<tr>
-      <td>US13</td>
+    <tr>
+      <td><strong>US13</strong></td>
       <td>Publicar comunicados oficiales</td>
-      <td>Como administrador, quiero publicar comunicados oficiales para informar a los residentes.</td>
+      <td>Como administrador, quiero difundir noticias a la comunidad.</td>
       <td>
-        <strong>Escenario: Comunicado publicado</strong><br>
-        Dado que el administrador redacta un comunicado<br>
-        Cuando lo publica<br>
-        Entonces los residentes pueden visualizarlo.<br><br>
-
-  <strong>Escenario: Error al publicar</strong><br>
-        Dado que faltan datos en el comunicado<br>
-        Cuando intenta publicarlo<br>
-        Entonces el sistema muestra un error.
+        <strong>E1: Publicación con adjunto.</strong><br>
+        Dado que el admin redacta un comunicado con el presupuesto anual adjunto,<br>
+        cuando lo publica,<br>
+        entonces el sistema lo distribuye a todos los perfiles activos.<br><br>
+        <strong>E2: Borrador de comunicado.</strong><br>
+        Dado que el admin está redactando un comunicado,<br>
+        cuando lo guarda como borrador,<br>
+        entonces el sistema lo mantiene oculto para los residentes hasta su publicación.<br><br>
+        <strong>E3: Error de formato.</strong><br>
+        Dado que el admin intenta adjuntar un archivo al comunicado,<br>
+        cuando el archivo supera los 50MB,<br>
+        entonces el sistema indica "El archivo excede el límite permitido (10MB)".
       </td>
       <td>EP02</td>
     </tr>
-<tr>
-      <td>US14</td>
+    <tr>
+      <td><strong>US14</strong></td>
       <td>Visualizar comunicados anteriores</td>
-      <td>Como residente, quiero visualizar comunicados anteriores para mantenerme informado.</td>
+      <td>Como residente, quiero ver el historial de anuncios.</td>
       <td>
-        <strong>Escenario: Consulta de historial</strong><br>
-        Dado que existen comunicados previos<br>
-        Cuando el residente accede al historial<br>
-        Entonces puede visualizarlos.<br><br>
-
-  <strong>Escenario: Sin comunicados</strong><br>
-        Dado que no existen comunicados<br>
-        Cuando el residente accede<br>
-        Entonces se muestra un mensaje informativo.
+        <strong>E1: Búsqueda histórica.</strong><br>
+        Dado que el residente accede al historial de comunicados,<br>
+        cuando filtra por "Enero 2024",<br>
+        entonces el sistema lista los comunicados de ese período de forma cronológica.<br><br>
+        <strong>E2: Lista vacía.</strong><br>
+        Dado que el residente aplica un filtro de búsqueda,<br>
+        cuando no existen registros para ese período,<br>
+        entonces el sistema muestra "No hay comunicados para este periodo".<br><br>
+        <strong>E3: Error de carga de lista.</strong><br>
+        Dado que el residente solicita el historial de comunicados,<br>
+        cuando el servicio de base de datos demora en responder,<br>
+        entonces el sistema muestra un "Skeleton loader" mientras recupera los datos.
       </td>
       <td>EP02</td>
     </tr>
- <tr>
-      <td>US15</td>
-      <td>Seguimiento de visualización de comunicados</td>
-      <td>Como administrador, quiero saber quién ha visto los comunicados para asegurar su alcance.</td>
-      <td>
-        <strong>Escenario: Registro de visualización</strong><br>
-        Dado que un residente abre un comunicado<br>
-        Cuando lo visualiza<br>
-        Entonces el sistema registra la vista.<br><br>
-
- <strong>Escenario: Consulta de visualizaciones</strong><br>
-        Dado que el administrador revisa un comunicado<br>
-        Cuando consulta las métricas<br>
-        Entonces puede ver quién lo ha leído.
-      </td>
-      <td>EP02</td>
-    </tr>
-
-  </tbody>
-</table>
-
-
-<table>
-  <thead>
     <tr>
-      <th>Epic / User Story ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Criterios de Aceptación</th>
-      <th>Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
-
- <tr>
-      <td>US16</td>
+      <td><strong>US16</strong></td>
       <td>Ver disponibilidad de áreas comunes</td>
-      <td>Como residente, quiero ver la disponibilidad de áreas comunes para planificar su uso.</td>
+      <td>Como residente/admin, quiero ver qué áreas están libres.</td>
       <td>
-        <strong>Escenario: Consulta de disponibilidad</strong><br>
-        Dado que el residente accede al calendario<br>
-        Cuando selecciona un área común<br>
-        Entonces puede ver los horarios disponibles.<br><br>
-
- <strong>Escenario: Área sin disponibilidad</strong><br>
-        Dado que el área está completamente reservada<br>
-        Cuando el residente consulta<br>
-        Entonces el sistema muestra que no hay horarios disponibles.
+        <strong>E1: Consulta de calendario.</strong><br>
+        Dado que el usuario accede al área "Piscina",<br>
+        cuando visualiza el calendario,<br>
+        entonces puede ver los bloques de 1 hora disponibles y ocupados.<br><br>
+        <strong>E2: Área fuera de servicio.</strong><br>
+        Dado que el admin marca el "Gimnasio" como inactivo,<br>
+        cuando un residente consulta la disponibilidad,<br>
+        entonces ve el área sombreada con el mensaje "Mantenimiento".<br><br>
+        <strong>E3: Error de concurrencia.</strong><br>
+        Dado que dos usuarios consultan el mismo horario simultáneamente,<br>
+        cuando uno de ellos completa una reserva,<br>
+        entonces el sistema actualiza la disponibilidad en tiempo real para el otro usuario.
       </td>
       <td>EP03</td>
     </tr>
-
-<tr>
-      <td>US17</td>
-      <td>Reservar área común</td>
-      <td>Como residente, quiero reservar un área común para asegurar su uso en una fecha específica.</td>
-      <td>
-        <strong>Escenario: Reserva exitosa</strong><br>
-        Dado que el área está disponible<br>
-        Cuando el residente realiza la reserva<br>
-        Entonces el sistema registra la reserva correctamente.<br><br>
-
- <strong>Escenario: Reserva en horario no disponible</strong><br>
-        Dado que el horario ya está ocupado<br>
-        Cuando intenta reservar<br>
-        Entonces el sistema muestra un mensaje de error.
-      </td>
-      <td>EP03</td>
-    </tr>
-<tr>
-      <td>US18</td>
-      <td>Aprobar o rechazar reservas</td>
-      <td>Como administrador, quiero aprobar o rechazar reservas para mantener el control.</td>
-      <td>
-        <strong>Escenario: Reserva aprobada</strong><br>
-        Dado que el administrador revisa una solicitud<br>
-        Cuando la aprueba<br>
-        Entonces la reserva queda confirmada.<br><br>
-
- <strong>Escenario: Reserva rechazada</strong><br>
-        Dado que el administrador revisa una solicitud<br>
-        Cuando la rechaza<br>
-        Entonces el residente recibe una notificación de rechazo.
-      </td>
-      <td>EP03</td>
-    </tr>
-<tr>
-      <td>US19</td>
-      <td>Evitar reservas duplicadas</td>
-      <td>Como administrador, quiero evitar reservas duplicadas para prevenir conflictos.</td>
-      <td>
-        <strong>Escenario: Bloqueo de reserva duplicada</strong><br>
-        Dado que ya existe una reserva en ese horario<br>
-        Cuando otro usuario intenta reservar<br>
-        Entonces el sistema bloquea la operación.<br><br>
-
- <strong>Escenario: Validación de disponibilidad</strong><br>
-        Dado que se realiza una nueva reserva<br>
-        Cuando el sistema valida el horario<br>
-        Entonces permite solo si no hay conflictos.
-      </td>
-      <td>EP03</td>
-    </tr>
-
-<tr>
-      <td>US20</td>
-      <td>Cancelar reserva</td>
-      <td>Como residente, quiero cancelar una reserva para liberar el espacio.</td>
-      <td>
-        <strong>Escenario: Cancelación exitosa</strong><br>
-        Dado que el residente tiene una reserva activa<br>
-        Cuando decide cancelarla<br>
-        Entonces el sistema libera el horario.<br><br>
-
- <strong>Escenario: Cancelación fuera de tiempo permitido</strong><br>
-        Dado que la reserva está próxima a iniciar<br>
-        Cuando intenta cancelarla fuera del plazo permitido<br>
-        Entonces el sistema muestra un mensaje de restricción.
-      </td>
-      <td>EP03</td>
-    </tr>
-
-  </tbody>
-</table>
-
-
-<table>
-  <thead>
     <tr>
-      <th>Epic / User Story ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Criterios de Aceptación</th>
-      <th>Relacionado con (Epic ID)</th>
+      <td><strong>US17</strong></td>
+      <td>Reservar área común</td>
+      <td>Como residente, quiero separar un espacio para uso personal.</td>
+      <td>
+        <strong>E1: Reserva exitosa.</strong><br>
+        Dado que el residente selecciona un horario disponible,<br>
+        cuando confirma la reserva,<br>
+        entonces el sistema genera un código QR de acceso para ese turno.<br><br>
+        <strong>E2: Cruce de horarios.</strong><br>
+        Dado que el residente intenta reservar un área común,<br>
+        cuando el horario seleccionado ya está tomado,<br>
+        entonces el sistema indica "Horario no disponible, elija otro".<br><br>
+        <strong>E3: Límite de reservas.</strong><br>
+        Dado que el residente ya alcanzó el máximo de reservas diarias,<br>
+        cuando intenta realizar una quinta reserva en el mismo día,<br>
+        entonces el sistema bloquea la acción indicando "Límite diario de reservas alcanzado".
+      </td>
+      <td>EP03</td>
     </tr>
-  </thead>
-  <tbody>
-<tr>
-      <td>US21</td>
+    <tr>
+      <td><strong>US20</strong></td>
+      <td>Cancelar reserva</td>
+      <td>Como residente, quiero liberar un espacio que ya no usaré.</td>
+      <td>
+        <strong>E1: Cancelación a tiempo.</strong><br>
+        Dado que el residente desea cancelar su reserva,<br>
+        cuando lo hace con al menos 24 horas de anticipación,<br>
+        entonces el sistema libera el cupo y notifica la disponibilidad a otros residentes.<br><br>
+        <strong>E2: Cancelación tardía.</strong><br>
+        Dado que el residente intenta cancelar una reserva,<br>
+        cuando lo hace faltando solo 5 minutos para el turno,<br>
+        entonces el sistema indica "Plazo de cancelación vencido, se aplicará el cobro".<br><br>
+        <strong>E3: Error de estado.</strong><br>
+        Dado que el residente intenta cancelar una reserva,<br>
+        cuando esta ya fue cancelada previamente por el admin,<br>
+        entonces el sistema muestra "Esta reserva ya no está activa".
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td><strong>US21</strong></td>
       <td>Ver deuda actual</td>
-      <td>Como residente, quiero ver mi deuda actual para saber cuánto debo pagar.</td>
+      <td>Como residente, quiero saber cuánto debo pagar de mantenimiento.</td>
       <td>
-        <strong>Escenario: Consulta de deuda actual</strong><br>
-        Dado que el residente ingresa a su panel financiero<br>
-        Cuando consulta su estado de cuenta<br>
-        Entonces el sistema muestra el monto total pendiente.<br><br>
-
- <strong>Escenario: Sin deuda registrada</strong><br>
-        Dado que el residente no tiene pagos pendientes<br>
-        Cuando revisa su deuda actual<br>
-        Entonces el sistema muestra un saldo de cero.
+        <strong>E1: Detalle de deuda.</strong><br>
+        Dado que el residente accede a la sección de pagos,<br>
+        cuando consulta su deuda actual,<br>
+        entonces el sistema muestra el desglose: mantenimiento + multas + servicios adicionales.<br><br>
+        <strong>E2: Sin deuda.</strong><br>
+        Dado que el residente está al día con sus pagos,<br>
+        cuando consulta su saldo,<br>
+        entonces el sistema muestra "Saldo: S/ 0.00" y un botón para descargar la constancia de no adeudo.<br><br>
+        <strong>E3: Error de sincronización bancaria.</strong><br>
+        Dado que el residente consulta su deuda,<br>
+        cuando el sistema de pagos externos está caído,<br>
+        entonces se muestra el aviso "Los montos podrían no estar actualizados".
       </td>
       <td>EP04</td>
     </tr>
-
-<tr>
-      <td>US22</td>
+    <tr>
+      <td><strong>US22</strong></td>
       <td>Registrar pago con comprobante</td>
-      <td>Como residente, quiero registrar mi pago y subir un comprobante para validarlo.</td>
+      <td>Como residente, quiero subir mi foto de voucher para validar mi pago.</td>
       <td>
-        <strong>Escenario: Registro exitoso de pago</strong><br>
-        Dado que el residente completa los datos del pago<br>
-        Cuando adjunta el comprobante y envía la información<br>
-        Entonces el sistema registra el pago como pendiente de validación.<br><br>
-
- <strong>Escenario: Comprobante no adjuntado</strong><br>
-        Dado que el residente registra un pago<br>
-        Cuando no adjunta el comprobante<br>
-        Entonces el sistema muestra un mensaje de error.
+        <strong>E1: Subida exitosa.</strong><br>
+        Dado que el residente realizó un pago,<br>
+        cuando adjunta la foto del voucher en la plataforma,<br>
+        entonces el sistema cambia el estado de la deuda a "En revisión".<br><br>
+        <strong>E2: Voucher ilegible.</strong><br>
+        Dado que el admin revisa un comprobante enviado,<br>
+        cuando la imagen no permite leer la información correctamente,<br>
+        entonces el sistema notifica al residente que debe subir una imagen más clara.<br><br>
+        <strong>E3: Archivo corrupto.</strong><br>
+        Dado que el residente intenta subir su comprobante,<br>
+        cuando el archivo seleccionado está dañado,<br>
+        entonces el sistema muestra "Error: No se pudo procesar el archivo, intente de nuevo".
       </td>
       <td>EP04</td>
     </tr>
-
-<tr>
-      <td>US23</td>
-      <td>Registrar pagos en el sistema</td>
-      <td>Como administrador, quiero registrar pagos para mantener actualizado el sistema.</td>
-      <td>
-        <strong>Escenario: Registro manual exitoso</strong><br>
-        Dado que el administrador ingresa los datos del pago<br>
-        Cuando guarda la información<br>
-        Entonces el sistema actualiza el estado de cuenta del residente.<br><br>
-
-<strong>Escenario: Datos de pago incompletos</strong><br>
-        Dado que el administrador intenta registrar un pago<br>
-        Cuando faltan datos obligatorios<br>
-        Entonces el sistema muestra un error.
-      </td>
-      <td>EP04</td>
-    </tr>
-<tr>
-      <td>US24</td>
+    <tr>
+      <td><strong>US24</strong></td>
       <td>Visualizar residentes morosos</td>
-      <td>Como administrador, quiero visualizar residentes morosos para tomar acciones.</td>
+      <td>Como administrador, quiero ver la lista de deudores.</td>
       <td>
-        <strong>Escenario: Consulta de morosos</strong><br>
-        Dado que existen residentes con deudas pendientes<br>
-        Cuando el administrador accede al módulo de morosidad<br>
-        Entonces el sistema muestra la lista de morosos.<br><br>
-
-<strong>Escenario: Sin residentes morosos</strong><br>
-        Dado que todos los residentes están al día<br>
-        Cuando el administrador revisa la morosidad<br>
-        Entonces el sistema muestra que no hay deudas pendientes.
+        <strong>E1: Filtro de morosidad.</strong><br>
+        Dado que el admin accede al módulo de morosidad,<br>
+        cuando aplica el filtro de más de 2 meses de deuda,<br>
+        entonces el sistema lista los residentes en esa condición para aplicar restricciones.<br><br>
+        <strong>E2: Exportar reporte.</strong><br>
+        Dado que el admin necesita el listado de morosos,<br>
+        cuando solicita la descarga en PDF,<br>
+        entonces el sistema genera el archivo con nombres, departamentos y montos totales.<br><br>
+        <strong>E3: Error de datos masivos.</strong><br>
+        Dado que existen 500 residentes morosos registrados,<br>
+        cuando el admin consulta la lista completa,<br>
+        entonces el sistema implementa paginación para evitar que la app se cuelgue.
       </td>
       <td>EP04</td>
     </tr>
-
- <tr>
-      <td>US25</td>
+    <tr>
+      <td><strong>US25</strong></td>
       <td>Generar reportes financieros</td>
-      <td>Como administrador, quiero generar reportes financieros para evaluar el estado del condominio.</td>
+      <td>Como administrador, quiero ver el balance de ingresos/egresos.</td>
       <td>
-        <strong>Escenario: Generación exitosa de reporte</strong><br>
-        Dado que el administrador selecciona un período de tiempo<br>
-        Cuando solicita el reporte financiero<br>
-        Entonces el sistema genera el resumen de ingresos y egresos.<br><br>
-
-<strong>Escenario: Período no válido</strong><br>
-        Dado que el administrador selecciona fechas incorrectas<br>
-        Cuando intenta generar el reporte<br>
-        Entonces el sistema muestra un mensaje de error.
+        <strong>E1: Reporte mensual.</strong><br>
+        Dado que el admin selecciona el mes "Mayo",<br>
+        cuando solicita el reporte,<br>
+        entonces el sistema suma los pagos validados versus los gastos registrados y muestra el neto.<br><br>
+        <strong>E2: Rango inválido.</strong><br>
+        Dado que el admin configura el rango de fechas del reporte,<br>
+        cuando la fecha de fin es anterior a la fecha de inicio,<br>
+        entonces el sistema muestra "Rango de fechas incoherente".<br><br>
+        <strong>E3: Timeout de cálculo.</strong><br>
+        Dado que el admin solicita un reporte anual,<br>
+        cuando el procesamiento tarda demasiado,<br>
+        entonces el sistema muestra una barra de progreso y permite descargar el resultado al finalizar.
       </td>
       <td>EP04</td>
     </tr>
-
-<tr>
-      <td>US26</td>
+    <tr>
+      <td><strong>US26</strong></td>
       <td>Exportar reportes financieros</td>
-      <td>Como administrador, quiero exportar reportes para compartirlos con la comunidad.</td>
+      <td>Como administrador, quiero descargar balances en Excel/PDF.</td>
       <td>
-        <strong>Escenario: Exportación exitosa</strong><br>
-        Dado que el administrador genera un reporte<br>
-        Cuando selecciona la opción de exportar<br>
-        Entonces el sistema descarga el archivo correctamente.<br><br>
-
- <strong>Escenario: Error en exportación</strong><br>
-        Dado que el administrador intenta exportar un reporte<br>
-        Cuando ocurre un fallo del sistema<br>
-        Entonces se muestra un mensaje de error.
+        <strong>E1: Exportación exitosa.</strong><br>
+        Dado que el admin genera un reporte de ingresos,<br>
+        cuando descarga el archivo Excel,<br>
+        entonces el sistema aplica correctamente los formatos de moneda.<br><br>
+        <strong>E2: Error de permisos.</strong><br>
+        Dado que un usuario sin rol de administrador accede al módulo de reportes,<br>
+        cuando intenta exportar un balance,<br>
+        entonces el sistema deniega el acceso con el mensaje "Permisos insuficientes".<br><br>
+        <strong>E3: Fallo de generación.</strong><br>
+        Dado que el admin solicita exportar un reporte,<br>
+        cuando no existen datos para el período seleccionado,<br>
+        entonces el sistema exporta un documento indicando "Sin registros encontrados".
       </td>
       <td>EP04</td>
     </tr>
-
-<tr>
-      <td>US27</td>
+    <tr>
+      <td><strong>US27</strong></td>
       <td>Ver resumen de gastos</td>
-      <td>Como residente, quiero ver un resumen de gastos para confiar en la gestión.</td>
+      <td>Como residente, quiero saber en qué se gasta el dinero del edificio.</td>
       <td>
-        <strong>Escenario: Visualización de resumen</strong><br>
-        Dado que existen gastos registrados del condominio<br>
-        Cuando el residente accede al resumen financiero<br>
-        Entonces el sistema muestra el detalle de gastos.<br><br>
-
-<strong>Escenario: Sin gastos registrados</strong><br>
-        Dado que no existen gastos cargados en el período<br>
-        Cuando el residente consulta el resumen<br>
-        Entonces el sistema muestra un mensaje informativo.
+        <strong>E1: Gráfico de gastos.</strong><br>
+        Dado que el residente accede al resumen financiero,<br>
+        cuando consulta la distribución de gastos,<br>
+        entonces el sistema muestra un gráfico de torta con categorías como: 40% Seguridad, 30% Limpieza, etc.<br><br>
+        <strong>E2: Consulta de facturas.</strong><br>
+        Dado que el residente visualiza el resumen de gastos,<br>
+        cuando selecciona un ítem específico,<br>
+        entonces el sistema muestra la descripción del gasto (ej: Reparación de bomba de agua).<br><br>
+        <strong>E3: Información no publicada.</strong><br>
+        Dado que el admin aún no ha cerrado el período mensual,<br>
+        cuando el residente consulta el resumen,<br>
+        entonces el sistema muestra "Información en proceso de cierre".
       </td>
       <td>EP04</td>
     </tr>
-
- <tr>
-      <td>US28</td>
+    <tr>
+      <td><strong>US28</strong></td>
       <td>Consultar pagos pasados</td>
-      <td>Como residente, deseo consultar mis pagos pasados para tener un respaldo de mis transacciones.</td>
+      <td>Como residente, quiero ver mi historial de transacciones.</td>
       <td>
-        <strong>Escenario: Consulta de historial de pagos</strong><br>
-        Dado que el residente tiene pagos registrados<br>
-        Cuando accede al historial<br>
-        Entonces el sistema muestra sus transacciones anteriores.<br><br>
-
- <strong>Escenario: Sin historial de pagos</strong><br>
-        Dado que el residente no tiene pagos registrados<br>
-        Cuando consulta sus pagos pasados<br>
-        Entonces el sistema muestra un mensaje informativo.
+        <strong>E1: Historial histórico.</strong><br>
+        Dado que el residente accede a su historial de pagos,<br>
+        cuando consulta el período de los últimos 12 meses,<br>
+        entonces el sistema lista todos sus pagos con sus respectivos comprobantes.<br><br>
+        <strong>E2: Filtro por año.</strong><br>
+        Dado que el residente desea revisar pagos anteriores,<br>
+        cuando selecciona el año "2023",<br>
+        entonces el sistema recupera únicamente los pagos de ese ejercicio fiscal.<br><br>
+        <strong>E3: Error de base de datos.</strong><br>
+        Dado que el residente consulta su historial,<br>
+        cuando el servidor de archivos de vouchers antiguos falla,<br>
+        entonces el sistema muestra "Detalles temporalmente no disponibles".
       </td>
       <td>EP04</td>
     </tr>
-<tr>
-  <td>US29</td>
-  <td>Publicar mensaje en la comunidad</td>
-  <td>Como residente, quiero publicar un mensaje en el canal del condominio para comunicarme con otros residentes.</td>
-  <td>
-    <strong>Escenario: Publicación exitosa</strong><br>
-    Dado que el residente no ha publicado mensajes en el día<br>
-    Cuando redacta y publica un mensaje<br>
-    Entonces el sistema lo muestra en el canal comunitario.<br><br>
-    <strong>Escenario: Límite diario alcanzado</strong><br>
-    Dado que el residente ya publicó un mensaje en el día<br>
-    Cuando intenta publicar otro<br>
-    Entonces el sistema bloquea la acción y muestra un mensaje de límite diario.
-
-  </td>
-  <td>EP02</td>
-</tr>
-<tr>
-  <td>US30</td>
-  <td>Pagar deuda en línea</td>
-  <td>Como residente, quiero pagar mi deuda en línea para mantenerme al día sin realizar procesos manuales.</td>
-  <td>
-    <strong>Escenario: Pago exitoso</strong><br>
-    Dado que el residente tiene una deuda pendiente<br>
-    Cuando selecciona la opción de pago y confirma la transacción<br>
-    Entonces el sistema procesa el pago y actualiza su deuda.<br><br>
-    <strong>Escenario: Pago rechazado</strong><br>
-    Dado que el residente intenta pagar<br>
-    Cuando la transacción es rechazada<br>
-    Entonces el sistema muestra un mensaje de error y no actualiza la deuda.
-  </td>
-  <td>EP04</td>
-</tr>
+    <tr>
+      <td><strong>US29</strong></td>
+      <td>Publicar mensaje en la comunidad</td>
+      <td>Como residente, quiero escribir en el muro comunitario.</td>
+      <td>
+        <strong>E1: Publicación exitosa.</strong><br>
+        Dado que el residente redacta un mensaje en el muro comunitario,<br>
+        cuando lo publica,<br>
+        entonces el sistema lo muestra en el feed de la comunidad.<br><br>
+        <strong>E2: Límite diario.</strong><br>
+        Dado que el residente ya publicó un mensaje en el día,<br>
+        cuando intenta publicar un segundo mensaje,<br>
+        entonces el sistema bloquea la acción indicando "Máximo 1 post por día".<br><br>
+        <strong>E3: Filtro de palabras.</strong><br>
+        Dado que el residente redacta un mensaje con contenido inapropiado,<br>
+        cuando intenta publicarlo,<br>
+        entonces el sistema detecta las palabras prohibidas y bloquea la publicación.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td><strong>US30</strong></td>
+      <td>Pagar deuda en línea</td>
+      <td>Como residente, quiero pagar con tarjeta de crédito/débito.</td>
+      <td>
+        <strong>E1: Pago aprobado.</strong><br>
+        Dado que el residente ingresa los datos de su tarjeta para pagar S/ 200,<br>
+        cuando la pasarela de pago aprueba la transacción,<br>
+        entonces la deuda se marca como "Pagado" de forma inmediata.<br><br>
+        <strong>E2: Transacción rechazada.</strong><br>
+        Dado que el residente intenta pagar con su tarjeta,<br>
+        cuando la tarjeta no tiene fondos suficientes,<br>
+        entonces el sistema muestra el error del banco y permite cambiar de tarjeta.<br><br>
+        <strong>E3: Pago parcial permitido.</strong><br>
+        Dado que el residente tiene una deuda de S/ 300,<br>
+        cuando realiza un pago de S/ 100,<br>
+        entonces el sistema actualiza el saldo restante a S/ 200 de forma inmediata.
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td><strong>US31</strong></td>
+      <td>Notificación por reserva (Admin)</td>
+      <td>Como admin, quiero saber cuándo alguien reserva un área común.</td>
+      <td>
+        <strong>E1: Alerta inmediata.</strong><br>
+        Dado que un residente realiza una reserva en el área de parrillas,<br>
+        cuando la reserva es confirmada,<br>
+        entonces el admin recibe un push: "Reserva nueva en Área Parrillas - Dpto 501".<br><br>
+        <strong>E2: Filtro de alertas.</strong><br>
+        Dado que el admin configura sus preferencias de notificación,<br>
+        cuando desactiva alertas para áreas de bajo impacto,<br>
+        entonces el sistema solo le notifica las reservas de áreas críticas.<br><br>
+        <strong>E3: Sobrecarga de avisos.</strong><br>
+        Dado que se registran 50 reservas en 1 minuto,<br>
+        cuando el sistema procesa todas las notificaciones,<br>
+        entonces las agrupa en un resumen para no saturar al administrador.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td><strong>US32</strong></td>
+      <td>Consultar Leyes y Manuales</td>
+      <td>Como administrador, quiero ver la normativa legal y del edificio.</td>
+      <td>
+        <strong>E1: Lectura de PDF.</strong><br>
+        Dado que el admin accede a la sección de documentos legales,<br>
+        cuando abre el "Reglamento de Convivencia",<br>
+        entonces el sistema permite hacer zoom y buscar palabras clave dentro del documento.<br><br>
+        <strong>E2: Actualización de leyes.</strong><br>
+        Dado que existe una actualización en la normativa legal,<br>
+        cuando el admin consulta la sección correspondiente,<br>
+        entonces el sistema muestra un enlace a la última ley de propiedad horizontal accesible vía webview.<br><br>
+        <strong>E3: Archivo no disponible.</strong><br>
+        Dado que el admin intenta abrir un manual del edificio,<br>
+        cuando el archivo fue eliminado accidentalmente,<br>
+        entonces el sistema muestra "Documento no encontrado, contacte a soporte".
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td><strong>US33</strong></td>
+      <td>Ver disponibilidad global (Admin)</td>
+      <td>Como admin, quiero ver el mapa de ocupación de todo el edificio.</td>
+      <td>
+        <strong>E1: Vista de calendario total.</strong><br>
+        Dado que el admin accede al panel de disponibilidad global,<br>
+        cuando consulta el día actual,<br>
+        entonces puede ver qué áreas están ocupadas para coordinar el personal de limpieza.<br><br>
+        <strong>E2: Bloqueo de fechas.</strong><br>
+        Dado que el admin necesita reservar la piscina para mantenimiento el domingo,<br>
+        cuando bloquea esa fecha en el calendario,<br>
+        entonces los residentes ya no pueden realizar reservas para ese día.<br><br>
+        <strong>E3: Error de refresco.</strong><br>
+        Dado que el admin visualiza el calendario de ocupación,<br>
+        cuando los datos no se actualizan correctamente,<br>
+        entonces el sistema ofrece un botón de "Forzar actualización".
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td><strong>US34</strong></td>
+      <td>Activar/Desactivar cuentas</td>
+      <td>Como administrador, quiero controlar quién tiene acceso a la app.</td>
+      <td>
+        <strong>E1: Desactivación por mudanza.</strong><br>
+        Dado que un residente se ha mudado del edificio,<br>
+        cuando el admin inactiva su cuenta,<br>
+        entonces las credenciales del residente dejan de funcionar al instante.<br><br>
+        <strong>E2: Reactivación.</strong><br>
+        Dado que el admin habilita una cuenta suspendida,<br>
+        cuando confirma la reactivación,<br>
+        entonces el sistema envía automáticamente un correo: "Tu cuenta ha sido reactivada".<br><br>
+        <strong>E3: Error al desactivar Admin.</strong><br>
+        Dado que el sistema tiene un único super-administrador activo,<br>
+        cuando se intenta desactivar esa cuenta,<br>
+        entonces el sistema impide la acción por razones de seguridad.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>US35</strong></td>
+      <td>Cancelar reserva (Admin)</td>
+      <td>Como administrador, quiero anular una reserva de un residente.</td>
+      <td>
+        <strong>E1: Anulación por emergencia.</strong><br>
+        Dado que ocurre una rotura de tubería en el SUM,<br>
+        cuando el admin cancela las reservas activas de esa área,<br>
+        entonces el sistema notifica a cada residente afectado con el motivo de la cancelación.<br><br>
+        <strong>E2: Anulación por deuda.</strong><br>
+        Dado que un residente con reserva activa entra en mora,<br>
+        cuando el admin cancela su reserva,<br>
+        entonces el sistema la anula y bloquea futuras reservas para ese residente.<br><br>
+        <strong>E3: Error de red.</strong><br>
+        Dado que el admin intenta cancelar una reserva,<br>
+        cuando el sistema falla durante el proceso,<br>
+        entonces se muestra "No se pudo cancelar, verifique su conexión e intente de nuevo".
+      </td>
+      <td>EP03</td>
+    </tr>
+ <tr>
+      <td><strong>US36</strong></td>
+      <td>Crear encuestas o votaciones para la comunidad</td>
+      <td>Como administrador, quiero crear encuestas o votaciones para conocer la opinión de los residentes sobre temas del condominio.</td>
+      <td>
+        <strong>E1: Creación exitosa.</strong><br>
+        Dado que el admin completa el formulario de encuesta con pregunta y opciones,<br>
+        cuando la publica,<br>
+        entonces todos los residentes activos reciben una notificación y pueden votar desde la app.<br><br>
+        <strong>E2: Encuesta con fecha límite.</strong><br>
+        Dado que el admin configura una fecha de cierre para la encuesta,<br>
+        cuando se cumple el plazo,<br>
+        entonces el sistema cierra automáticamente la votación y muestra los resultados finales.<br><br>
+        <strong>E3: Voto duplicado.</strong><br>
+        Dado que un residente ya emitió su voto,<br>
+        cuando intenta votar nuevamente,<br>
+        entonces el sistema bloquea la acción indicando "Ya has registrado tu voto en esta encuesta".
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td><strong>US37</strong></td>
+      <td>Moderar mensajes del muro comunitario</td>
+      <td>Como administrador, quiero revisar y eliminar mensajes inapropiados del muro para mantener un ambiente respetuoso.</td>
+      <td>
+        <strong>E1: Eliminación exitosa.</strong><br>
+        Dado que el admin detecta un mensaje con contenido inapropiado,<br>
+        cuando lo elimina desde el panel de moderación,<br>
+        entonces el mensaje desaparece del feed y el residente recibe una notificación indicando el motivo.<br><br>
+        <strong>E2: Advertencia al residente.</strong><br>
+        Dado que un residente publica contenido que infringe las normas por primera vez,<br>
+        cuando el admin aplica una advertencia,<br>
+        entonces el sistema registra el aviso en el perfil del residente y lo notifica.<br><br>
+        <strong>E3: Bloqueo por reincidencia.</strong><br>
+        Dado que un residente acumula 3 advertencias,<br>
+        cuando el admin confirma el bloqueo,<br>
+        entonces el residente queda inhabilitado para publicar en el muro comunitario.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td><strong>US38</strong></td>
+      <td>Habilitar o deshabilitar área común</td>
+      <td>Como administrador, quiero activar o desactivar áreas comunes para reflejar su disponibilidad real según mantenimiento o restricciones.</td>
+      <td>
+        <strong>E1: Deshabilitación exitosa.</strong><br>
+        Dado que el admin deshabilita el "Gimnasio" por mantenimiento,<br>
+        cuando confirma la acción,<br>
+        entonces el área aparece como no disponible y los residentes no pueden realizar nuevas reservas.<br><br>
+        <strong>E2: Notificación a reservas activas.</strong><br>
+        Dado que existen reservas vigentes en el área deshabilitada,<br>
+        cuando el admin la desactiva,<br>
+        entonces el sistema cancela esas reservas automáticamente y notifica a los residentes afectados.<br><br>
+        <strong>E3: Rehabilitación del área.</strong><br>
+        Dado que el admin reactiva un área previamente deshabilitada,<br>
+        cuando confirma la acción,<br>
+        entonces el área vuelve a aparecer disponible para reservas y el sistema notifica a los residentes.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td><strong>US39</strong></td>
+      <td>Configurar reglas de área común</td>
+      <td>Como administrador, quiero definir las reglas, horarios y límites de cada área común para regular su uso correctamente.</td>
+      <td>
+        <strong>E1: Configuración exitosa.</strong><br>
+        Dado que el admin accede a la configuración de un área,<br>
+        cuando establece el aforo máximo, horario de apertura/cierre y duración máxima de reserva,<br>
+        entonces el sistema aplica esas reglas en todas las nuevas reservas.<br><br>
+        <strong>E2: Conflicto con reservas existentes.</strong><br>
+        Dado que el admin reduce el horario de un área con reservas ya registradas fuera del nuevo rango,<br>
+        cuando guarda los cambios,<br>
+        entonces el sistema alerta "Existen reservas que superan el nuevo horario, serán canceladas" y solicita confirmación.<br><br>
+        <strong>E3: Validación de datos inválidos.</strong><br>
+        Dado que el admin ingresa un aforo de 0 personas o un horario de cierre anterior al de apertura,<br>
+        cuando intenta guardar,<br>
+        entonces el sistema muestra "Configuración inválida, verifique los datos ingresados".
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td><strong>US40</strong></td>
+      <td>Ver historial de uso de áreas comunes</td>
+      <td>Como administrador, quiero consultar el historial completo de uso de las áreas comunes con estadísticas para tomar mejores decisiones de gestión.</td>
+      <td>
+        <strong>E1: Consulta de historial.</strong><br>
+        Dado que el admin accede al historial de un área,<br>
+        cuando selecciona un rango de fechas,<br>
+        entonces el sistema lista todas las reservas realizadas con residente, fecha, hora y estado (completada/cancelada).<br><br>
+        <strong>E2: Estadísticas de uso.</strong><br>
+        Dado que el admin consulta las estadísticas globales,<br>
+        cuando visualiza el resumen,<br>
+        entonces el sistema muestra el área más usada, el horario pico y el porcentaje de cancelaciones del período.<br><br>
+        <strong>E3: Exportar historial.</strong><br>
+        Dado que el admin necesita el historial para un informe,<br>
+        cuando solicita la exportación,<br>
+        entonces el sistema genera un archivo Excel con todos los registros del período seleccionado.
+      </td>
+      <td>EP03</td>
+    </tr>
   </tbody>
 </table>
+
+
 
 <table>
   <thead>
