@@ -1700,6 +1700,153 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       </td>
       <td>EP03</td>
     </tr>
+	<tr>
+  <td><strong>US41</strong></td>
+  <td>Visualizar sección Hero de la Landing Page</td>
+  <td>Como visitante, quiero ver una sección principal con el mensaje de valor de Edifika para entender rápidamente de qué trata el producto.</td>
+  <td>
+    <strong>E1: Carga correcta.</strong><br>
+    Dado que el visitante accede a la landing page,<br>
+    cuando la página termina de cargar,<br>
+    entonces visualiza el título principal, subtítulo descriptivo, botones CTA ("Solicitar demo gratis" y "Ver funciones") y el mockup del producto.<br><br>
+    <strong>E2: Responsividad.</strong><br>
+    Dado que el visitante accede desde un dispositivo móvil,<br>
+    cuando carga la sección Hero,<br>
+    entonces el contenido se adapta correctamente sin desbordamiento ni elementos superpuestos.<br><br>
+    <strong>E3: Navegación por CTA.</strong><br>
+    Dado que el visitante hace clic en "Ver funciones",<br>
+    cuando el sistema procesa la acción,<br>
+    entonces la página realiza scroll suave hacia la sección de funcionalidades.
+  </td>
+  <td>EP06</td>
+</tr>
+
+<tr>
+  <td><strong>US42</strong></td>
+  <td>Navegar entre secciones de la Landing Page</td>
+  <td>Como visitante, quiero usar la barra de navegación para desplazarme entre las secciones de la landing page para hacerlo de forma rápida.</td>
+  <td>
+    <strong>E1: Navegación exitosa.</strong><br>
+    Dado que el visitante hace clic en "Planes" desde el navbar,<br>
+    cuando el sistema procesa la acción,<br>
+    entonces la página realiza scroll automático hasta la sección de planes.<br><br>
+    <strong>E2: Sección activa resaltada.</strong><br>
+    Dado que el visitante hace scroll por la página,<br>
+    cuando pasa por una sección específica,<br>
+    entonces el ítem correspondiente en el navbar se resalta visualmente con el color primario.<br><br>
+    <strong>E3: Navbar fijo en scroll.</strong><br>
+    Dado que el visitante hace scroll hacia abajo,<br>
+    cuando supera los primeros 100px de la página,<br>
+    entonces el navbar permanece visible y fijo en la parte superior de la pantalla.
+  </td>
+  <td>EP06</td>
+</tr>
+
+<tr>
+  <td><strong>US43</strong></td>
+  <td>Cambiar idioma de la Landing Page</td>
+  <td>Como visitante internacional, quiero cambiar el idioma entre español e inglés para entender el contenido en mi idioma preferido.</td>
+  <td>
+    <strong>E1: Cambio a inglés.</strong><br>
+    Dado que el visitante hace clic en "EN" en el selector de idioma,<br>
+    cuando el sistema procesa el cambio,<br>
+    entonces todo el contenido visible de la página se actualiza al inglés sin recargar la página.<br><br>
+    <strong>E2: Persistencia de idioma.</strong><br>
+    Dado que el visitante seleccionó inglés previamente,<br>
+    cuando navega a otra sección o recarga la página,<br>
+    entonces el sistema mantiene el idioma previamente seleccionado.<br><br>
+    <strong>E3: Idioma por defecto.</strong><br>
+    Dado que el visitante accede a la landing por primera vez,<br>
+    cuando no ha configurado preferencia de idioma alguna,<br>
+    entonces el sistema muestra el contenido en español por defecto.
+  </td>
+  <td>EP06</td>
+</tr>
+
+<tr>
+  <td><strong>US44</strong></td>
+  <td>Cambiar tema visual (claro/oscuro)</td>
+  <td>Como visitante, quiero alternar entre el modo claro y oscuro de la landing page para mejorar mi experiencia visual.</td>
+  <td>
+    <strong>E1: Activar modo claro.</strong><br>
+    Dado que la página está en modo oscuro,<br>
+    cuando el visitante hace clic en el ícono de sol,<br>
+    entonces la interfaz cambia al tema claro con todos sus colores adaptados correctamente.<br><br>
+    <strong>E2: Persistencia del tema.</strong><br>
+    Dado que el visitante activó el modo claro,<br>
+    cuando recarga la página,<br>
+    entonces el sistema conserva la preferencia guardada localmente.<br><br>
+    <strong>E3: Preferencia del sistema operativo.</strong><br>
+    Dado que el visitante tiene configurado modo oscuro en su sistema operativo,<br>
+    cuando accede a la landing por primera vez sin preferencia guardada,<br>
+    entonces la página adopta automáticamente el tema oscuro.
+  </td>
+  <td>EP06</td>
+</tr>
+
+<tr>
+  <td><strong>US45</strong></td>
+  <td>Visualizar sección de funcionalidades</td>
+  <td>Como visitante, quiero ver las funcionalidades principales de Edifika para evaluar si la plataforma se adapta a mis necesidades.</td>
+  <td>
+    <strong>E1: Visualización de módulos.</strong><br>
+    Dado que el visitante accede a la sección "Funciones",<br>
+    cuando la sección carga correctamente,<br>
+    entonces se muestran los tres módulos clave: Gestión de Pagos y Deudas, Reserva de Áreas Comunes y Comunicados, cada uno con su descripción e ícono.<br><br>
+    <strong>E2: Listado de características.</strong><br>
+    Dado que el visitante revisa cada tarjeta de módulo,<br>
+    cuando lee su contenido,<br>
+    entonces puede ver el listado de características con íconos de verificación para cada funcionalidad incluida.<br><br>
+    <strong>E3: Etiqueta de módulo destacado.</strong><br>
+    Dado que el visitante visualiza las tarjetas de funcionalidades,<br>
+    cuando observa la tarjeta de Gestión de Pagos y Deudas,<br>
+    entonces aparece visible la etiqueta "Más popular" para orientar la decisión del visitante.
+  </td>
+  <td>EP06</td>
+</tr>
+
+<tr>
+  <td><strong>US46</strong></td>
+  <td>Visualizar sección del equipo</td>
+  <td>Como visitante, quiero conocer al equipo detrás de Edifika para generar confianza antes de contratar el servicio.</td>
+  <td>
+    <strong>E1: Tarjetas del equipo visibles.</strong><br>
+    Dado que el visitante accede a la sección "Equipo",<br>
+    cuando la sección carga correctamente,<br>
+    entonces se muestran las tarjetas con foto y nombre de cada uno de los cinco integrantes del equipo.<br><br>
+    <strong>E2: Carga exitosa de imágenes de perfil.</strong><br>
+    Dado que el visitante navega por la sección del equipo,<br>
+    cuando las imágenes de perfil están disponibles en el servidor,<br>
+    entonces cada tarjeta muestra la fotografía del integrante con su nombre completo visible debajo.<br><br>
+    <strong>E3: Fallback por fallo en carga de imagen.</strong><br>
+    Dado que una imagen de perfil no puede ser cargada por fallo del servidor,<br>
+    cuando el navegador no puede renderizarla,<br>
+    entonces el sistema muestra un avatar con las iniciales del integrante como imagen alternativa.
+  </td>
+  <td>EP06</td>
+</tr>
+
+<tr>
+  <td><strong>US47</strong></td>
+  <td>Acceder a la app web desde la Landing Page</td>
+  <td>Como usuario registrado, quiero acceder a la aplicación web directamente desde la landing page para iniciar sesión sin pasos adicionales.</td>
+  <td>
+    <strong>E1: Redirección al login.</strong><br>
+    Dado que el visitante hace clic en "Empieza gratis" desde el navbar,<br>
+    cuando el sistema procesa la acción,<br>
+    entonces es redirigido a la pantalla de registro o login de la aplicación web.<br><br>
+    <strong>E2: Usuario con sesión activa.</strong><br>
+    Dado que el usuario ya tiene una sesión activa en la plataforma,<br>
+    cuando accede a la landing y hace clic en "Empieza gratis",<br>
+    entonces es redirigido directamente a su dashboard sin pasar por el formulario de login.<br><br>
+    <strong>E3: Acceso desde dispositivo móvil.</strong><br>
+    Dado que el visitante accede desde un smartphone,<br>
+    cuando hace clic en el CTA principal,<br>
+    entonces el sistema lo redirige a la tienda de aplicaciones correspondiente (App Store o Google Play) según su sistema operativo.
+	
+  </td>
+  <td>EP06</td>
+</tr>
   </tbody>
 </table>
 
