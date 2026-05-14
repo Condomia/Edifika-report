@@ -2481,12 +2481,57 @@ Se adoptan los siguientes conceptos de diseño:
 ### 5.3. Microservices Implementation
 #### 5.3.1. Sprint 1
 ##### 5.3.1.1. Sprint Backlog 1
+
+El objetivo de este Sprint es implementar el microservicio de IAM (Identity and Access Management), desarrollar la Landing Page del producto y elaborar los mockups de los principales módulos de Edifika. Durante este ciclo, el equipo trabajará en completar las funcionalidades de registro, inicio de sesión, gestión de perfiles y autenticación con JWT, así como en la construcción de la página de presentación del producto. El éxito del Sprint se medirá con el avance de las tareas asignadas en el Sprint Backlog y la correcta implementación del microservicio IAM. Esta sección presenta el tablero de control en Trello, junto con la lista de User Stories y tareas desglosadas asignadas a cada miembro del equipo.
+
+<p align="center">
+  <img src="assets/img/trello_sprint1.png" alt="Trello Sprint 1" width="700"/>
+</p>
+
+Enlace del Board: `https://trello.com/invite/b/6a0527cb585a58fe5f5375ba/ATTI112271af5d09099e7ea0df48ce05b74c6FCCB8A8/edifika-sprint-1`
+
+
+| Sprint # | Sprint 1 | | | | | |
+|----------|----------|---|---|---|---|---|
+| **User Story** | | **Work-Item / Task** | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+
+
+
 ##### 5.3.1.2. Development Evidence for Sprint Review
+
+A lo largo del Sprint 1, el historial de commits evidencia el avance incremental del proyecto Edifika en sus repositorios. En el repositorio del microservicio IAM se registran commits orientados a la implementación de funcionalidades clave como el registro de usuarios, inicio de sesión, autenticación mediante JWT y la gestión de perfiles. Cada commit refleja una iteración específica del desarrollo, permitiendo rastrear la evolución del backend desde su configuración inicial hasta la integración completa de los endpoints de autenticación. Asimismo, el repositorio de la Landing Page presenta commits enfocados en la construcción de la página de presentación del producto.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| Edifika-Microservice-IAM | main | 4b20746 | feat(IAM): first commit | - | 12/05/2026 |
+| Edifika-Microservice-IAM | develop | 9a187d4 | feat(IAM): Add IAM auth module and security | - | 12/05/2026 |
+| Edifika-Microservice-IAM | develop | ebcde37 | fix(IAM): fixing error handling to controllers | - | 12/05/2026 |
+| Edifika-Microservice-IAM | develop | c28c544 | feat: Add validations | - | 14/05/2026 |
+| Edifika-Landing-Page | develop | | | - | |
+| Edifika-Landing-Page | develop | | | - | |
+| Edifika-Landing-Page | develop | | | - | |
+
 ##### 5.3.1.3. Testing Suite Evidence for Sprint Review
+
 ##### 5.3.1.4. Execution Evidence for Sprint Review
+
 ##### 5.3.1.5. Microservices Documentation Evidence for Sprint Review
+
 ##### 5.3.1.6. Software Deployment Evidence for Sprint Review
+
 ##### 5.3.1.7. Team Collaboration Insights during Sprint
+
 ##### 5.3.1.8. Kanban Board
 
 
