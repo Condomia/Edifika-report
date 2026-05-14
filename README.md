@@ -2183,13 +2183,20 @@ En esta sección, se presenta el Product Backlog como una recopilación organiza
 | 28 | US28 | Consultar pagos pasados | Como residente, deseo consultar mis pagos pasados para tener un respaldo. | 3 |
 | 29 | US29 | Publicar mensaje en la comunidad | Como residente, quiero publicar un mensaje en el canal del condominio para comunicarme con otros residentes. | 3 |
 | 30 | US30 | Pagar deuda en línea | Como residente, quiero pagar mi deuda en línea para mantenerme al día sin realizar procesos manuales. | 8 |
-| 31 | TS01 | Implementar autenticación JWT | Como desarrollador, quiero implementar autenticación mediante tokens JWT para acceso seguro. | 5 |
-| 32 | TS02 | Endpoints de registro y login | Como desarrollador, quiero implementar los endpoints de registro e inicio de sesión. | 5 |
-| 33 | TS03 | Soporte multiplataforma iOS y Android | Como desarrollador, quiero que el sistema sea accesible desde dispositivos iOS y Android para garantizar disponibilidad a todos los usuarios. | 8 |
-| 34 | TS04 | Implementar base de datos MySQL | Como desarrollador, quiero utilizar MySQL como sistema de almacenamiento para gestionar de forma estructurada la información del sistema. | 5 |
-| 35 | TS05 | Disponibilidad 24/7 del sistema | Como desarrollador, quiero que el sistema esté disponible las 24 horas para garantizar acceso continuo a los usuarios. | 8 |
-| 36 | TS06 | Implementar TIU para acceso temporal | Como desarrollador, quiero implementar un TIU para acceso temporal para permitir ingresos controlados al sistema. | 5 |
-| 37 | TS07 | Cumplimiento de normativa de condominios | Como desarrollador, quiero que el sistema cumpla con el marco regulatorio de condominios para asegurar su correcto uso legal. | 3 |
+| 31 | US41 | Visualizar sección Hero de la Landing Page | Como visitante, quiero ver una sección principal con el mensaje de valor de Edifika para entender rápidamente de qué trata el producto. | 3 |
+| 32 | US42 | Navegar entre secciones de la Landing Page | Como visitante, quiero usar la barra de navegación para desplazarme entre las secciones de la landing page para hacerlo de forma rápida. | 5 |
+| 33 | US43 | Cambiar idioma de la Landing Page | Como visitante internacional, quiero cambiar el idioma entre español e inglés para entender el contenido en mi idioma preferido. | 5 |
+| 34 | US44 | Cambiar tema visual (claro/oscuro) | Como visitante, quiero alternar entre el modo claro y oscuro de la landing page para mejorar mi experiencia visual. | 3 |
+| 35 | US45 | Visualizar sección de funcionalidades | Como visitante, quiero ver las funcionalidades principales de Edifika para evaluar si la plataforma se adapta a mis necesidades. | 3 |
+| 36 | US46 | Visualizar sección del equipo | Como visitante, quiero conocer al equipo detrás de Edifika para generar confianza antes de contratar el servicio. | 2 |
+| 37 | US47 | Acceder a la app web desde la Landing Page | Como usuario registrado, quiero acceder a la aplicación web directamente desde la landing page para iniciar sesión sin pasos adicionales. | 5 |
+| 38 | TS01 | Implementar autenticación JWT | Como desarrollador, quiero implementar autenticación mediante tokens JWT para acceso seguro. | 5 |
+| 39 | TS02 | Endpoints de registro y login | Como desarrollador, quiero implementar los endpoints de registro e inicio de sesión. | 5 |
+| 40 | TS03 | Soporte multiplataforma iOS y Android | Como desarrollador, quiero que el sistema sea accesible desde dispositivos iOS y Android para garantizar disponibilidad a todos los usuarios. | 8 |
+| 41 | TS04 | Implementar base de datos MySQL | Como desarrollador, quiero utilizar MySQL como sistema de almacenamiento para gestionar de forma estructurada la información del sistema. | 5 |
+| 42 | TS05 | Disponibilidad 24/7 del sistema | Como desarrollador, quiero que el sistema esté disponible las 24 horas para garantizar acceso continuo a los usuarios. | 8 |
+| 43 | TS06 | Implementar TIU para acceso temporal | Como desarrollador, quiero implementar un TIU para acceso temporal para permitir ingresos controlados al sistema. | 5 |
+| 44 | TS07 | Cumplimiento de normativa de condominios | Como desarrollador, quiero que el sistema cumpla con el marco regulatorio de condominios para asegurar su correcto uso legal. | 3 |
 
 # CAPÍTULO IV: Product Architecture Design
 
