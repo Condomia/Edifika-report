@@ -2773,20 +2773,27 @@ El objetivo de este Sprint es implementar el microservicio de IAM (Identity and 
 Enlace del Board: `https://trello.com/invite/b/6a0527cb585a58fe5f5375ba/ATTI112271af5d09099e7ea0df48ce05b74c6FCCB8A8/edifika-sprint-1`
 
 
-| Sprint # | Sprint 1 | | | | | |
-|----------|----------|---|---|---|---|---|
-| **User Story** | | **Work-Item / Task** | | | | |
+| Sprint # | Sprint 1 | | | | | | |
+|----------|----------|---|---|---|---|---|---|
+| **User Story** | | **Work-Item / Task** | | | | | |
 | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
+| TS01 | Configuración de autenticación y autorización con JWT | T01 | Implementar generación de token JWT | Configurar generación de token firmado con HMAC-SHA256 con email, userId y rol | 4 | | Done |
+| TS01 | Configuración de autenticación y autorización con JWT | T02 | Implementar filtro de autorización Bearer | Desarrollar BearerAuthorizationRequestFilter para validar tokens en endpoints protegidos | 3 | | Done |
+| TS02 | Implementación de endpoints de registro e inicio de sesión | T03 | Implementar endpoint POST /api/v1/authentication/sign-up | Desarrollar endpoint de registro con validaciones de email, contraseña, DNI y rol ADMIN | 4 | | Done |
+| TS02 | Implementación de endpoints de registro e inicio de sesión | T04 | Implementar endpoint POST /api/v1/authentication/sign-in | Desarrollar endpoint de login con validación BCrypt y retorno de token JWT | 3 | | Done |
+| TS02 | Implementación de endpoints de registro e inicio de sesión | T05 | Implementar endpoint GET /api/v1/users/{id} | Desarrollar endpoint para consultar información de un usuario por su id | 2 | | Done |
+| TS02 | Implementación de endpoints de registro e inicio de sesión | T06 | Implementar endpoint PUT /api/v1/users/{id} | Desarrollar endpoint para actualizar datos del perfil de usuario | 3 | | Done |
+| TS02 | Implementación de endpoints de registro e inicio de sesión | T07 | Implementar endpoint DELETE /api/v1/users/{id} | Desarrollar endpoint para eliminar un usuario del sistema | 2 | | Done |
+| TS02 | Implementación de endpoints de registro e inicio de sesión | T08 | Implementar endpoint GET /api/v1/users | Desarrollar endpoint para listar todos los usuarios registrados | 2 | | Done |
+| TS02 | Implementación de endpoints de registro e inicio de sesión | T09 | Implementar endpoint GET /api/v1/roles | Desarrollar endpoint para consultar los roles disponibles del sistema | 2 | | Done |
+| TS04 | Configuración de base de datos PostgreSQL independiente | T10 | Configurar PostgreSQL para microservicio IAM | Configurar conexión, entidades JPA y creación automática de tablas users, roles y user_roles | 3 | | Done |
+| TS13 | Documentación de API con Swagger | T11 | Integrar Swagger con autenticación JWT en IAM | Configurar Swagger UI con soporte Bearer token para documentar y probar endpoints | 2 | | Done |
+|  |  |  | | | | | To-do |
+|  | |  | | | | | To-do |
+|  |  |  | | | | | To-do |
+|  |  |  | | | | | To-do |
+|  |  |  | | | | | To-do |
+|  |  |  | | | | | To-do |
 
 
 
@@ -2806,7 +2813,67 @@ A lo largo del Sprint 1, el historial de commits evidencia el avance incremental
 
 ##### 5.3.1.3. Testing Suite Evidence for Sprint Review
 
+En esta sección se aplicó la metodología Behavior-Driven Development (BDD) para definir y verificar el comportamiento esperado del microservicio IAM desde la perspectiva técnica y funcional. Se elaboraron archivos de características (.feature) utilizando la sintaxis Gherkin de Cucumber, donde cada escenario describe una interacción específica del sistema mediante la estructura Given–When–Then.
+
+Cada archivo .feature corresponde a una Technical Story del Sprint, cubriendo flujos como el registro de administradores, el inicio de sesión con generación de JWT, la validación de tokens en endpoints protegidos y la gestión de usuarios. Esto permite documentar de forma clara las reglas de negocio implementadas en el backend y facilitar la ejecución de pruebas automatizadas que garanticen el correcto funcionamiento del microservicio.
+
+
+
 ##### 5.3.1.4. Execution Evidence for Sprint Review
+
+Esta sección resume la evidencia de ejecución del Sprint 1, donde se verificó el correcto funcionamiento de los endpoints del microservicio IAM de Edifika. Las pruebas se realizaron mediante Swagger UI, validando los flujos de autenticación, gestión de usuarios y asignación de roles. Se comprobó que el sistema genera tokens JWT al iniciar sesión y que los endpoints protegidos responden correctamente cuando se proporciona un Bearer Token válido. A continuación se detallan las pruebas realizadas por cada endpoint:
+
+**Endpoint: POST /api/v1/authentication/sign-up**
+
+Se verificó el registro de un nuevo administrador enviando los campos requeridos: fullName, email, password, phone, documentType, documentNumber y roles. El sistema validó los datos correctamente y retornó un código 201 confirmando la creación del usuario en la base de datos PostgreSQL.
+
+<p align="center">
+  <img src="assets/img/execution_signin.png" alt="Ejecucion Sign In" width="700"/>
+</p>
+
+<p align="center">
+  <img src="assets/img/execution_signin_response.png" alt="Respuesta Sign In" width="700"/>
+</p>
+
+**Endpoint: GET /api/v1/users/{id}**
+
+Se verificó la consulta de un usuario específico por su id, enviando el Bearer Token en el header Authorization. El sistema retornó un código 200 con los datos completos del usuario incluyendo fullName, email, phone, status, documentType, documentNumber y roles asignados.
+
+<p align="center">
+  <img src="assets/img/execution_get_user.png" alt="Ejecución Get User" width="700"/>
+</p>
+
+**Endpoint: PUT /api/v1/users/{id}**
+
+Se comprobó la actualización de datos de un usuario existente enviando el id como parámetro y los campos editables en el body: fullName, email, password, phone, documentType y documentNumber. El sistema procesó la solicitud con el Bearer Token válido y retornó la confirmación de actualización.
+
+<p align="center">
+  <img src="assets/img/execution_put_user.png" alt="Ejecución Put User" width="700"/>
+</p>
+
+**Endpoint: DELETE /api/v1/users/{id}**
+
+Se verificó la eliminación de un usuario del sistema enviando el id como parámetro con el Bearer Token en el header. El sistema procesó la solicitud y confirmó la eliminación del registro.
+
+<p align="center">
+  <img src="assets/img/execution_delete_user.png" alt="Ejecución Delete User" width="700"/>
+</p>
+
+**Endpoint: GET /api/v1/users**
+
+Se comprobó la consulta de todos los usuarios registrados en el sistema. Con el Bearer Token válido, el sistema retornó un código 200 con la lista completa de usuarios incluyendo sus datos y roles asignados.
+
+<p align="center">
+  <img src="assets/img/execution_get_users.png" alt="Ejecución Get Users" width="700"/>
+</p>
+
+**Endpoint: GET /api/v1/roles**
+
+Se verificó la consulta de roles disponibles en el sistema. El endpoint retornó la lista de roles configurados permitiendo identificar los permisos asignables a cada usuario.
+
+<p align="center">
+  <img src="assets/img/execution_get_roles.png" alt="Ejecución Get Roles" width="700"/>
+</p>
 
 ##### 5.3.1.5. Microservices Documentation Evidence for Sprint Review
 
