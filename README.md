@@ -1703,6 +1703,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 </table>
 
 
+**Technical Stories**
 
 <table>
   <thead>
@@ -1715,133 +1716,278 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
     </tr>
   </thead>
   <tbody>
-
-<tr>
+    <tr>
       <td>TS01</td>
-      <td>Implementar autenticación con JWT</td>
-      <td>Como desarrollador, quiero implementar autenticación mediante tokens JWT para garantizar acceso seguro a todos los endpoints de la API.</td>
+      <td>Configuración de autenticación y autorización con JWT</td>
+      <td>Como desarrollador, quiero implementar autenticación y autorización basada en JWT en el microservicio IAM, para que solo los administradores autorizados puedan acceder a los endpoints protegidos del sistema.</td>
       <td>
-        <strong>Escenario: Generación de token JWT</strong><br>
-        Dado que el usuario se autentica correctamente<br>
-        Cuando el sistema valida sus credenciales<br>
-        Entonces se genera un token JWT válido.<br><br>
-
- <strong>Escenario: Acceso con token inválido</strong><br>
-        Dado que un usuario intenta acceder a un endpoint protegido<br>
-        Cuando el token es inválido o expirado<br>
-        Entonces el sistema rechaza la solicitud con error de autenticación.
+        <strong>Escenario 1: Generación de token JWT exitosa</strong><br>
+        Dado que un administrador envía credenciales válidas al endpoint de sign-in<br>
+        Cuando el sistema valida el email y contraseña correctamente<br>
+        Entonces genera un token JWT firmado con HMAC-SHA256 que incluye email, userId y rol, con expiración de 7 días y tiempo de respuesta menor a 300ms.<br><br>
+        <strong>Escenario 2: Acceso con token inválido o expirado</strong><br>
+        Dado que un cliente intenta acceder a un endpoint protegido con un token inválido o expirado<br>
+        Cuando el filtro BearerAuthorizationRequestFilter evalúa la solicitud<br>
+        Entonces el sistema retorna un error 401 en menos de 100ms con el mensaje correspondiente al tipo de fallo.<br><br>
+        <strong>Escenario 3: Acceso sin token a endpoint protegido</strong><br>
+        Dado que un cliente intenta acceder a un endpoint protegido sin enviar token en el header Authorization<br>
+        Cuando el filtro de seguridad procesa la solicitud<br>
+        Entonces el sistema retorna un error 401 con el mensaje "Token Bearer requerido" sin llegar al microservicio destino.
       </td>
-      <td>EP01</td>
- </tr>
-
-<tr>
-      <td>TS02</td>
-      <td>Implementar endpoints de registro e inicio de sesión</td>
-      <td>Como desarrollador, quiero implementar los endpoints de registro e inicio de sesión para que los usuarios puedan crear cuentas y autenticarse.</td>
-      <td>
-        <strong>Escenario: Registro de usuario exitoso</strong><br>
-        Dado que el usuario envía datos válidos<br>
-        Cuando el sistema procesa el registro<br>
-        Entonces se crea una nueva cuenta en la base de datos.<br><br>
-
- <strong>Escenario: Inicio de sesión exitoso</strong><br>
-        Dado que el usuario ingresa credenciales correctas<br>
-        Cuando realiza la solicitud de login<br>
-        Entonces el sistema autentica al usuario y devuelve un token.
-      </td>
-      <td>EP01</td>
+      <td>EP05</td>
     </tr>
-
-<tr>
-  <td>TS03</td>
-  <td>Soporte multiplataforma iOS y Android</td>
-  <td>Como desarrollador, quiero que el sistema sea accesible desde dispositivos iOS y Android para garantizar disponibilidad a todos los usuarios.</td>
-  <td>
-    <strong>Escenario: Acceso desde dispositivo móvil</strong><br>
-    Dado que el usuario instala la aplicación<br>
-    Cuando accede desde un dispositivo iOS o Android<br>
-    Entonces puede utilizar todas las funcionalidades del sistema.<br><br>
-
-<strong> Escenario: Dispositivo no soportado</strong><br>
-    Dado que el usuario intenta acceder desde un dispositivo incompatible<br>
-    Cuando ejecuta la aplicación<br>
-    Entonces el sistema muestra un mensaje de incompatibilidad.
-  </td>
-  <td>EP05</td>
-</tr>
-
-<tr>
-  <td>TS04</td>
-  <td>Implementar base de datos MySQL</td>
-  <td>Como desarrollador, quiero utilizar MySQL como sistema de almacenamiento para gestionar de forma estructurada la información del sistema.</td>
-  <td>
-    <strong>Escenario: Guardado de datos</strong><br>
-    Dado que el sistema registra información<br>
-    Cuando se almacena en la base de datos<br>
-    Entonces los datos se guardan correctamente.<br><br>
-
-<strong>Escenario: Error de conexión</strong><br>
-    Dado que ocurre un fallo en la base de datos<br>
-    Cuando el sistema intenta guardar información<br>
-    Entonces se genera un error controlado.
-  </td>
-  <td>EP05</td>
-
-  
-</tr>
-
-<tr>
-  <td>TS05</td>
-  <td>Disponibilidad 24/7 del sistema</td>
-  <td>Como desarrollador, quiero que el sistema esté disponible las 24 horas para garantizar acceso continuo a los usuarios.</td>
-  <td>
-    <strong>Escenario: Acceso continuo</strong><br>
-    Dado que el usuario accede al sistema<br>
-    Cuando lo hace en cualquier momento<br>
-    Entonces el sistema responde correctamente.<br><br>
-
-<strong>Escenario: Falla del sistema</strong><br>
-    Dado que ocurre una caída<br>
-    Cuando el sistema detecta el error<br>
-    Entonces activa mecanismos de recuperación.
-  </td>
-  <td>EP05</td>
-</tr>
-
-<tr>
-  <td>TS06</td>
-  <td>Implementar TIU para acceso temporal</td>
-  <td>Como desarrollador, quiero implementar un TIU para acceso temporal para permitir ingresos controlados al sistema.</td>
-  <td>
-    <strong>Escenario: Acceso válido</strong><br>
-    Dado que el usuario tiene un TIU activo<br>
-    Cuando lo usa dentro del tiempo permitido<br>
-    Entonces puede acceder.<br><br>
-
-<strong>Escenario: TIU expirado</strong><br>
-    Dado que el TIU ha vencido<br>
-    Cuando el usuario intenta usarlo<br>
-    Entonces el sistema rechaza el acceso.
-  </td>
-  <td>EP05</td>
-</tr>
-<tr>
-  <td>TS07</td>
-  <td>Cumplimiento de normativa de condominios</td>
-  <td>Como desarrollador, quiero que el sistema cumpla con el marco regulatorio de condominios para asegurar su correcto uso legal.</td>
-  <td>
-    <strong>Escenario: Validación normativa</strong><br>
-    Dado que el sistema gestiona información del condominio<br>
-    Cuando se valida contra normativa vigente<br>
-    Entonces cumple con las regulaciones.<br><br>
-
-<strong>Escenario: Incumplimiento</strong><br>
-    Dado que existe inconsistencia legal<br>
-    Cuando se detecta<br>
-    Entonces el sistema genera una alerta.
-  </td>
-  <td>EP05</td>
-</tr>
+    <tr>
+      <td>TS02</td>
+      <td>Implementación de endpoints de registro e inicio de sesión con validaciones</td>
+      <td>Como desarrollador, quiero implementar los endpoints de registro e inicio de sesión del microservicio IAM con validaciones estrictas de datos, para garantizar que solo administradores con información válida puedan crear cuentas en el sistema.</td>
+      <td>
+        <strong>Escenario 1: Registro exitoso de administrador</strong><br>
+        Dado que se envía un POST a /api/v1/authentication/sign-up con datos válidos incluyendo rol ADMIN, email con formato correcto, contraseña con mayúscula y símbolo, DNI de 8 dígitos y teléfono de 9 dígitos comenzando con 9<br>
+        Cuando el sistema procesa el SignUpCommand<br>
+        Entonces crea el usuario en PostgreSQL con la contraseña encriptada en BCrypt y retorna 201 con los datos del usuario en menos de 500ms.<br><br>
+        <strong>Escenario 2: Registro rechazado por email duplicado</strong><br>
+        Dado que ya existe un usuario registrado con el mismo email en la base de datos<br>
+        Cuando se intenta registrar otro usuario con ese email<br>
+        Entonces el sistema retorna 400 con el mensaje "El email ya está registrado" sin crear ningún registro.<br><br>
+        <strong>Escenario 3: Registro rechazado por rol no permitido</strong><br>
+        Dado que se intenta registrar un usuario con rol OWNER o TENANT en el microservicio IAM<br>
+        Cuando el sistema valida el rol en el SignUpCommand<br>
+        Entonces retorna 400 con el mensaje "En este sistema solo se pueden registrar administradores".<br><br>
+        <strong>Escenario 4: Inicio de sesión exitoso con retorno de token</strong><br>
+        Dado que un administrador registrado envía sus credenciales correctas al endpoint de sign-in<br>
+        Cuando el sistema valida el email y contraseña con BCrypt<br>
+        Entonces retorna 200 con el token JWT, el id y el email del usuario autenticado.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>TS03</td>
+      <td>Configuración del API Gateway como punto de entrada centralizado</td>
+      <td>Como desarrollador, quiero configurar un API Gateway que centralice todas las solicitudes de la aplicación móvil hacia los microservicios de Edifika, para gestionar el enrutamiento, validación de tokens JWT y políticas de seguridad en un único punto de acceso.</td>
+      <td>
+        <strong>Escenario 1: Enrutamiento exitoso con token válido</strong><br>
+        Dado que la aplicación móvil envía una solicitud al API Gateway con un token JWT válido en el header Authorization<br>
+        Cuando el gateway valida el token y determina el microservicio destino según la ruta<br>
+        Entonces redirige la solicitud correctamente y el microservicio responde en menos de 200ms adicionales al tiempo de procesamiento propio.<br><br>
+        <strong>Escenario 2: Bloqueo de solicitud sin token antes de llegar al microservicio</strong><br>
+        Dado que la aplicación móvil envía una solicitud a cualquier endpoint protegido sin token<br>
+        Cuando el API Gateway intercepta la solicitud<br>
+        Entonces retorna 401 en menos de 100ms sin reenviar la solicitud a ningún microservicio.<br><br>
+        <strong>Escenario 3: Respuesta controlada ante microservicio no disponible</strong><br>
+        Dado que el API Gateway recibe una solicitud válida hacia un microservicio que no está disponible<br>
+        Cuando intenta redirigir la solicitud<br>
+        Entonces retorna un error 503 con un mensaje claro sin afectar el funcionamiento de los demás microservicios.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>TS04</td>
+      <td>Configuración de base de datos PostgreSQL independiente por microservicio</td>
+      <td>Como desarrollador, quiero configurar una base de datos PostgreSQL independiente para cada microservicio de Edifika, para garantizar el aislamiento de datos, la autonomía operativa y la consistencia referencial dentro de cada dominio.</td>
+      <td>
+        <strong>Escenario 1: Creación automática de esquema de tablas al iniciar</strong><br>
+        Dado que un microservicio arranca por primera vez con la configuración de PostgreSQL correcta<br>
+        Cuando Hibernate inicializa el contexto de persistencia con ddl-auto en update<br>
+        Entonces crea automáticamente las tablas del dominio correspondiente en su propia base de datos en menos de 5 segundos.<br><br>
+        <strong>Escenario 2: Aislamiento de fallos entre microservicios</strong><br>
+        Dado que la base de datos de un microservicio específico falla o se desconecta<br>
+        Cuando ocurre el error de conexión<br>
+        Entonces únicamente ese microservicio retorna errores 500 mientras los demás continúan respondiendo con normalidad.<br><br>
+        <strong>Escenario 3: Persistencia correcta de datos del microservicio IAM</strong><br>
+        Dado que se registra un nuevo administrador en el microservicio IAM<br>
+        Cuando el sistema guarda el usuario en PostgreSQL<br>
+        Entonces las tablas users, roles y user_roles reflejan los datos correctos con sus relaciones y constraints en menos de 300ms.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>TS05</td>
+      <td>Configuración base del microservicio Residential Management</td>
+      <td>Como desarrollador, quiero crear el microservicio de gestión residencial para administrar edificios, unidades y la vinculación de residentes con sus unidades, de forma independiente y desacoplada del microservicio IAM.</td>
+      <td>
+        <strong>Escenario 1: Registro exitoso de edificio con unidades</strong><br>
+        Dado que el administrador envía un POST con los datos del edificio y sus unidades al microservicio Residential Management con token válido<br>
+        Cuando el microservicio procesa la solicitud<br>
+        Entonces guarda el edificio y sus unidades en su base de datos PostgreSQL y retorna 201 con los datos registrados.<br><br>
+        <strong>Escenario 2: Vinculación de residente a unidad mediante userId del IAM</strong><br>
+        Dado que el administrador vincula un residente a una unidad enviando el userId generado por el microservicio IAM<br>
+        Cuando el Residential Management procesa la solicitud<br>
+        Entonces registra la relación usuario-unidad en su base de datos y retorna 201 sin duplicar la vinculación.<br><br>
+        <strong>Escenario 3: Consulta de residentes por edificio con datos completos</strong><br>
+        Dado que el administrador consulta los residentes de un edificio específico con token válido<br>
+        Cuando el microservicio procesa la solicitud<br>
+        Entonces retorna 200 con la lista de residentes vinculados incluyendo userId, número de unidad y fecha de vinculación en menos de 400ms.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>TS06</td>
+      <td>Configuración base del microservicio Payment Service con integración Culqi</td>
+      <td>Como desarrollador, quiero crear el microservicio de pagos para gestionar deudas, cuotas y transacciones del condominio integrándose con Culqi, garantizando consistencia en el estado de cada pago ante cualquier escenario de fallo.</td>
+      <td>
+        <strong>Escenario 1: Registro de deuda para una unidad residencial</strong><br>
+        Dado que el administrador registra una deuda para una unidad con monto, descripción y fecha de vencimiento<br>
+        Cuando el Payment Service procesa la solicitud con token válido<br>
+        Entonces crea el registro de deuda vinculado a la unidad con estado PENDIENTE y retorna 201 en menos de 300ms.<br><br>
+        <strong>Escenario 2: Actualización de estado tras confirmación de Culqi</strong><br>
+        Dado que un residente completa un pago en línea y Culqi envía la confirmación de transacción aprobada<br>
+        Cuando el Payment Service recibe el webhook de confirmación<br>
+        Entonces actualiza el estado de la deuda a PAGADO, registra el comprobante y retorna 200 garantizando consistencia entre Culqi y la base de datos interna.<br><br>
+        <strong>Escenario 3: Manejo controlado de fallo en Culqi sin afectar la deuda</strong><br>
+        Dado que Culqi no responde durante un intento de pago<br>
+        Cuando el microservicio detecta el timeout o error de conexión<br>
+        Entonces mantiene el estado de la deuda como PENDIENTE, registra el intento fallido y retorna un error 502 sin modificar ningún dato financiero.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>TS07</td>
+      <td>Configuración base del microservicio Reservation Service</td>
+      <td>Como desarrollador, quiero crear el microservicio de reservas para gestionar la disponibilidad y uso de áreas comunes del condominio, garantizando que no existan conflictos ni reservas duplicadas en el sistema.</td>
+      <td>
+        <strong>Escenario 1: Consulta de disponibilidad de área común con calendario</strong><br>
+        Dado que un residente consulta la disponibilidad de un área común con fecha y horario<br>
+        Cuando el Reservation Service procesa la solicitud<br>
+        Entonces retorna 200 con los horarios disponibles del área seleccionada en menos de 300ms.<br><br>
+        <strong>Escenario 2: Bloqueo de reserva duplicada en el mismo horario</strong><br>
+        Dado que ya existe una reserva aprobada para un área común en un horario específico<br>
+        Cuando otro residente intenta reservar el mismo espacio en el mismo horario<br>
+        Entonces el sistema retorna 409 con el mensaje "El horario seleccionado ya está reservado" sin crear el registro.<br><br>
+        <strong>Escenario 3: Notificación automática al aprobar reserva</strong><br>
+        Dado que el administrador aprueba una reserva pendiente<br>
+        Cuando el microservicio actualiza el estado a APROBADO<br>
+        Entonces notifica al Notification Service con el userId y datos de la reserva para que envíe la alerta push al residente en menos de 500ms.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>TS08</td>
+      <td>Configuración base del microservicio Communication Service</td>
+      <td>Como desarrollador, quiero crear el microservicio de comunicados para que los administradores puedan publicar avisos oficiales y tener trazabilidad de quiénes los han leído dentro del condominio.</td>
+      <td>
+        <strong>Escenario 1: Publicación de comunicado con notificación a residentes</strong><br>
+        Dado que el administrador publica un comunicado oficial con título, descripción y prioridad<br>
+        Cuando el Communication Service procesa la solicitud<br>
+        Entonces guarda el comunicado en la base de datos, notifica al Notification Service y retorna 201 en menos de 400ms.<br><br>
+        <strong>Escenario 2: Registro trazable de lectura por residente</strong><br>
+        Dado que un residente abre un comunicado en la aplicación<br>
+        Cuando el microservicio registra la acción<br>
+        Entonces guarda el userId, el id del comunicado y la fecha exacta de visualización en la tabla announcement_read.<br><br>
+        <strong>Escenario 3: Consulta de métricas de lectura con porcentaje de alcance</strong><br>
+        Dado que el administrador consulta las métricas de un comunicado específico<br>
+        Cuando el microservicio procesa la solicitud<br>
+        Entonces retorna 200 con la cantidad total de residentes, cuántos lo leyeron y el porcentaje de alcance del comunicado.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>TS09</td>
+      <td>Configuración base del microservicio Notification Service con Firebase</td>
+      <td>Como desarrollador, quiero crear el microservicio de notificaciones integrado con Firebase Cloud Messaging para enviar alertas push a los dispositivos móviles de los usuarios ante eventos relevantes del sistema.</td>
+      <td>
+        <strong>Escenario 1: Envío exitoso de notificación push por evento del sistema</strong><br>
+        Dado que otro microservicio notifica al Notification Service un evento relevante como pago aprobado o reserva confirmada<br>
+        Cuando el Notification Service procesa el evento y lo envía a Firebase<br>
+        Entonces Firebase entrega la notificación push al dispositivo del usuario en menos de 2 segundos.<br><br>
+        <strong>Escenario 2: Registro de fallo ante indisponibilidad de Firebase</strong><br>
+        Dado que el Notification Service intenta enviar una notificación y Firebase no responde<br>
+        Cuando se detecta el timeout o error de conexión<br>
+        Entonces el microservicio registra el evento fallido en la base de datos con estado FALLIDO sin afectar el flujo principal del sistema que originó la notificación.<br><br>
+        <strong>Escenario 3: Manejo de token de dispositivo inválido o expirado</strong><br>
+        Dado que Firebase retorna un error indicando que el token del dispositivo de un residente es inválido o expirado<br>
+        Cuando el Notification Service recibe la respuesta de error<br>
+        Entonces elimina o actualiza el token inválido en la base de datos sin reintentar el envío y registra el incidente.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>TS10</td>
+      <td>Configuración base del microservicio Report Service</td>
+      <td>Como desarrollador, quiero crear el microservicio de reportes para que los administradores puedan generar y exportar reportes financieros y de actividad del condominio consultando datos de otros microservicios.</td>
+      <td>
+        <strong>Escenario 1: Generación de reporte financiero por período con datos consolidados</strong><br>
+        Dado que el administrador solicita un reporte financiero indicando fecha de inicio y fin<br>
+        Cuando el Report Service consulta los datos al Payment Service mediante REST<br>
+        Entonces genera el resumen con total de ingresos, egresos, deudas pendientes y lista de morosos, retornando 200 en menos de 1 segundo.<br><br>
+        <strong>Escenario 2: Exportación de reporte financiero en formato PDF</strong><br>
+        Dado que el administrador solicita exportar un reporte generado<br>
+        Cuando el microservicio procesa la solicitud de exportación<br>
+        Entonces genera el archivo PDF con los datos del reporte y lo retorna para descarga con el header Content-Type application/pdf.<br><br>
+        <strong>Escenario 3: Rechazo de solicitud con rango de fechas inválido</strong><br>
+        Dado que el administrador envía una fecha de inicio posterior a la fecha de fin en la solicitud<br>
+        Cuando el microservicio valida los parámetros<br>
+        Entonces retorna 400 con el mensaje "El rango de fechas no es válido" sin realizar ninguna consulta a otros microservicios.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>TS11</td>
+      <td>Configuración base del microservicio Messaging Forum Service</td>
+      <td>Como desarrollador, quiero crear el microservicio de foro comunitario para que los residentes puedan publicar mensajes en el canal de su edificio con un límite de una publicación diaria por usuario.</td>
+      <td>
+        <strong>Escenario 1: Publicación exitosa de mensaje en el foro del edificio</strong><br>
+        Dado que un residente que no ha publicado mensajes en el día envía un POST con su mensaje al foro de su edificio<br>
+        Cuando el Messaging Forum Service valida el límite diario y procesa la solicitud<br>
+        Entonces guarda la publicación vinculada al edificio y al userId, notifica al Notification Service y retorna 201.<br><br>
+        <strong>Escenario 2: Bloqueo de publicación por límite diario alcanzado</strong><br>
+        Dado que un residente ya realizó una publicación en el foro durante el día en curso<br>
+        Cuando intenta publicar otro mensaje en el mismo día<br>
+        Entonces el microservicio retorna 429 con el mensaje "Has alcanzado el límite de una publicación diaria" sin crear ningún registro.<br><br>
+        <strong>Escenario 3: Consulta de publicaciones del foro por edificio</strong><br>
+        Dado que un residente o administrador consulta las publicaciones del foro de un edificio<br>
+        Cuando el microservicio procesa la solicitud con token válido<br>
+        Entonces retorna 200 con la lista de publicaciones ordenadas por fecha descendente incluyendo autor, contenido e imagen si aplica.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>TS12</td>
+      <td>Implementación de comunicación entre microservicios mediante REST con manejo de fallos</td>
+      <td>Como desarrollador, quiero implementar la comunicación entre microservicios de Edifika mediante llamadas REST con manejo controlado de errores, para que los servicios intercambien información de forma desacoplada sin generar fallos en cascada.</td>
+      <td>
+        <strong>Escenario 1: Consulta exitosa entre microservicios con token válido</strong><br>
+        Dado que el Report Service necesita datos del Payment Service para generar un reporte<br>
+        Cuando realiza la llamada REST con el token JWT en el header Authorization<br>
+        Entonces obtiene la respuesta con los datos financieros en menos de 500ms y continúa el procesamiento.<br><br>
+        <strong>Escenario 2: Respuesta controlada ante microservicio destino no disponible</strong><br>
+        Dado que un microservicio intenta comunicarse con otro que no está disponible<br>
+        Cuando se produce un timeout o error de conexión en la llamada REST<br>
+        Entonces el microservicio solicitante retorna un error descriptivo al cliente sin colapsar su propio servicio y registra el fallo en sus logs.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>TS13</td>
+      <td>Documentación de API con Swagger y autenticación JWT en cada microservicio</td>
+      <td>Como desarrollador, quiero integrar Swagger con soporte de autenticación JWT en cada microservicio de Edifika, para que los endpoints estén documentados con sus esquemas de request y response y puedan ser probados desde una interfaz gráfica.</td>
+      <td>
+        <strong>Escenario 1: Visualización completa de endpoints en Swagger</strong><br>
+        Dado que un desarrollador accede a la URL de Swagger de cualquier microservicio<br>
+        Cuando la interfaz carga correctamente<br>
+        Entonces muestra todos los endpoints disponibles agrupados por controlador con sus métodos HTTP, parámetros y esquemas de request y response.<br><br>
+        <strong>Escenario 2: Prueba exitosa de endpoint protegido con token JWT desde Swagger</strong><br>
+        Dado que un desarrollador ingresa un token JWT válido en el campo Authorize de Swagger<br>
+        Cuando ejecuta una petición a un endpoint protegido usando el botón Try it out<br>
+        Entonces el sistema procesa la solicitud correctamente y muestra la respuesta con el código HTTP correspondiente en pantalla.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>TS14</td>
+      <td>Configuración de CORS en el API Gateway para comunicación con clientes</td>
+      <td>Como desarrollador, quiero configurar las políticas de CORS en el API Gateway para permitir que la aplicación móvil y el frontend de Edifika se comuniquen correctamente con el backend en entornos de desarrollo y producción.</td>
+      <td>
+        <strong>Escenario 1: Comunicación permitida desde origen autorizado</strong><br>
+        Dado que la aplicación móvil o el frontend realiza una solicitud desde un dominio registrado en la lista de orígenes permitidos del API Gateway<br>
+        Cuando el gateway procesa la solicitud<br>
+        Entonces responde con los headers Access-Control-Allow-Origin y Access-Control-Allow-Methods correctos permitiendo la comunicación.<br><br>
+        <strong>Escenario 2: Bloqueo de solicitud desde origen no autorizado</strong><br>
+        Dado que una aplicación externa intenta consumir un endpoint del sistema desde un dominio no registrado en la configuración de CORS<br>
+        Cuando realiza la petición al API Gateway<br>
+        Entonces el gateway retorna un error de política CORS sin procesar la solicitud ni reenviarla a ningún microservicio.
+      </td>
+      <td>EP05</td>
+    </tr>
   </tbody>
 </table>
 
