@@ -3235,6 +3235,7 @@ Se adoptan los siguientes conceptos de diseño:
 ### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
 <img src="assets/img/TRELLO1.png" alt="context"/>
+*Figura 37. TRElLO - Iteration 1. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
  
 ## 4.3.2 Iteration 2: Refinamiento de módulos críticos (Pagos y Reservas)
 
@@ -3312,17 +3313,17 @@ Se definen los siguientes elementos:
 
 <img src="assets/img/payment.png" alt="context"/>
 
-*Figura 37. Diagrama de Componentes - Payment Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 38. Diagrama de Componentes - Payment Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/reservation.png" alt="context"/>
 
-*Figura 38. Diagrama de Componentes - Reservation Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 39. Diagrama de Componentes - Reservation Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 
 ### 4.3.2.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
 <img src="assets/img/TRELLO2.png" alt="context"/>
-
+*Figura 40. TRElLO - Iteration 2. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
 
 ## 4.3.3 Iteration 3: Optimización de reportes, comunicados y notificaciones
 
@@ -3385,15 +3386,16 @@ Se adoptan los siguientes conceptos de diseño:
 
 <img src="assets/img/communication.png" alt="context"/>
 
-*Figura 39. Diagrama de Componentes - Communication Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 41. Diagrama de Componentes - Communication Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/notification.png" alt="context"/>
 
-*Figura 40. Diagrama de Componentes - Notification Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 42. Diagrama de Componentes - Notification Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 ### 4.3.3.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
 <img src="assets/img/TRELLO3.png" alt="context"/>
+*Figura 43. TRElLO - Iteration 3. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
 
 # CAPÍTULO V: Product Implementation, Validation & Deployment
 ### 5.1. Testing Suites & General Patterns
