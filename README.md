@@ -3069,7 +3069,71 @@ Se verificó la consulta de roles disponibles en el sistema. El endpoint retorn�
 
 ##### 5.3.1.5. Microservices Documentation Evidence for Sprint Review
 
+Durante el Sprint 1 se documentaron los endpoints del microservicio IAM mediante Swagger UI, permitiendo visualizar y probar cada operación disponible directamente desde el navegador. A continuación se presentan los tres controladores implementados con el detalle de sus rutas, métodos HTTP y funcionalidad expuesta. Los endpoints de autenticación son de acceso público, mientras que los de gestión de usuarios y roles están protegidos mediante Bearer Token JWT.
+
+**Authentication Controller**
+
+Controlador encargado del registro de nuevos administradores y la autenticación mediante credenciales. Al iniciar sesión correctamente, el sistema retorna un token JWT que debe utilizarse en las solicitudes posteriores a endpoints protegidos.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | /api/v1/authentication/sign-up | Registra un nuevo administrador con validaciones de email, contraseña, DNI y teléfono. |
+| POST | /api/v1/authentication/sign-in | Autentica al usuario y retorna un token JWT con id y email. |
+
+<p align="center">
+  <img src="assets/img/authentication_controller.png" alt="Authentication Controller" width="700"/>
+</p>
+
+**Users Controller**
+
+Controlador responsable de las operaciones CRUD sobre los usuarios del sistema. Permite consultar usuarios de forma individual o colectiva, modificar su información y eliminarlos. Cada solicitud requiere un token JWT válido en el header Authorization.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | /api/v1/users/{id} | Retorna los datos completos de un usuario según su identificador. |
+| PUT | /api/v1/users/{id} | Modifica la información de un usuario existente. |
+| DELETE | /api/v1/users/{id} | Elimina un usuario del sistema de forma permanente. |
+| GET | /api/v1/users | Lista todos los usuarios registrados con sus roles asignados. |
+
+<p align="center">
+  <img src="assets/img/user_controller.png" alt="Users Controller" width="700"/>
+</p>
+
+**Roles Controller**
+
+Controlador dedicado a la consulta de roles disponibles en el sistema (ADMIN, OWNER, TENANT). Se utiliza internamente para la asignación de permisos durante el registro de usuarios.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | /api/v1/roles | Retorna la lista completa de roles configurados en el sistema. |
+
+<p align="center">
+  <img src="assets/img/roles_controller.png" alt="Roles Controller" width="700"/>
+</p>
+
 ##### 5.3.1.6. Software Deployment Evidence for Sprint Review
+
+En esta sección se documentan los procesos realizados para poner en producción los componentes desarrollados durante el Sprint 1. Se detalla el despliegue del microservicio IAM en Render y su base de datos PostgreSQL en Supabase, además de la Landing Page cuyo despliegue será con Github Pages.
+
+**Landing Page**
+
+
+
+**Microservicio IAM - Backend**
+
+El microservicio IAM fue desplegado en Render, una plataforma cloud que permite alojar aplicaciones backend vinculadas a repositorios de GitHub. Para que Render pudiera construir y ejecutar el proyecto de Spring Boot, fue necesario crear un Dockerfile en la raíz del repositorio. Este archivo define la imagen base de Java, copia el código fuente, ejecuta el build con Maven para generar el archivo .jar y configura el comando de inicio de la aplicación. Una vez creado el Dockerfile, se configuró un nuevo Web Service en Render vinculado al repositorio del microservicio IAM, seleccionando Docker como runtime. Render detecta el Dockerfile automáticamente, construye la imagen y despliega el contenedor generando una URL pública desde la cual se pueden consumir todos los endpoints de autenticación y gestión de usuarios. Cada push a la rama principal dispara un redespliegue automático sin intervención manual.
+
+<p align="center">
+  <img src="assets/img/deploy_backend.png" alt="Despliegue Backend en Render" width="700"/>
+</p>
+
+**Base de datos PostgreSQL**
+
+La base de datos fue desplegada en Supabase, una plataforma que ofrece instancias de PostgreSQL gestionadas en la nube. Desde el dashboard de Supabase se creó un nuevo proyecto, el cual generó automáticamente una instancia de PostgreSQL con sus credenciales de conexión (host, puerto, usuario, contraseña y nombre de la base de datos). Estas credenciales se configuraron como variables de entorno dentro del Web Service de Render, permitiendo que el microservicio IAM se conecte de forma remota a la base de datos. Al iniciar la aplicación, Hibernate crea automáticamente las tablas del dominio (users, roles, user_roles) gracias a la configuración de ddl-auto en update dentro del application.properties.
+
+<p align="center">
+  <img src="assets/img/deploy_db.png" alt="Despliegue Base de Datos en Supabase" width="700"/>
+</p>
 
 ##### 5.3.1.7. Team Collaboration Insights during Sprint
 
