@@ -2293,7 +2293,7 @@ El desarrollo de Edifika se sustenta en enfoques metodológicos y técnicos que 
 
 El diagrama de contexto presenta a Edifika como sistema central e identifica los actores externos que interactúan con él y los sistemas con los que se integra. A través de este diagrama se puede comprender el alcance del sistema, sus límites y las relaciones que establece con el entorno, permitiendo visualizar cómo encaja la plataforma dentro del ecosistema de gestión residencial.
 
-  <img src="assets/img/C4-systemcontext.png" alt="context"/>
+  <img src="assets/img/SystemContext.png" alt="context"/>
   
  *Figura 10. Context Diagram. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
@@ -2304,55 +2304,57 @@ En esta sección se presentan los diagramas que describen el comportamiento y la
 
 **Diagrama de contenedores**
 
- <img src="assets/img/C4-container.png" alt="context"/>
+ <img src="assets/img/ContainerView.png" alt="context"/>
  
 *Figura 11. Diagrama de Contenedores. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
  **Diagramas de componentes**
 
-<img src="assets/img/C4-apigetaway.png" alt="context"/>
+<img src="assets/img/ComponentView_API_Gateway.png" alt="context"/>
 
 *Figura 12. Diagrama de Componentes - API Gateway. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
-<img src="assets/img/C4-auth.png" alt="context"/>
+<img src="assets/img/ComponentView_Auth_Service.png" alt="context"/>
 
 *Figura 13. Diagrama de Componentes - Auth Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
-<img src="assets/img/C4-communication.png" alt="context"/>
+<img src="assets/img/ComponentView_Communication_Service.png" alt="context"/>
 
 *Figura 14. Diagrama de Componentes - Communication Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
-<img src="assets/img/C4-notification.png" alt="context"/>
+<img src="assets/img/ComponentView_Notification_Service.png" alt="context"/>
 
 *Figura 15. Diagrama de Componentes - Notification Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
-<img src="assets/img/C4-payment.png" alt="context"/>
+<img src="assets/img/ComponentView_Payment_Service.png" alt="context"/>
 
 *Figura 16. Diagrama de Componentes - Payment Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
-<img src="assets/img/C4-report.png" alt="context"/>
+<img src="assets/img/ComponentView_Report_Service.png" alt="context"/>
 
 *Figura 17. Diagrama de Componentes - Report Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
-<img src="assets/img/C4-reservation.png" alt="context"/>
+<img src="assets/img/ComponentView_Reservation_Service.png" alt="context"/>
 
 *Figura 18. Diagrama de Componentes - Reservation Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
-<img src="assets/img/C4-forum.png" alt="context"/>
+<img src="assets/img/ComponentView_ForumNotifications.png" alt="context"/>
 
 *Figura 19. Diagrama de Componentes - Forum Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
-<img src="assets/img/C4-residental.png" alt="context"/>
+<img src="assets/img/ComponentView_Residential_Service.png" alt="context"/>
 
 *Figura 20. Diagrama de Componentes - Residential Management Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
  **Diagramas de Clases**
 
-<img src="assets/img/iam_class.png" alt="context"/>
+<img src="assets/img/iam-auth.png" alt="context"/>
+<img src="assets/img/iam-auth1.png" alt="context"/>
+<img src="assets/img/iam-auth2.png" alt="context"/>
 
 *Figura 21. Diagrama de Clases IAM. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
-<img src="assets/img/residental_class.png" alt="context"/>
+<img src="assets/img/Residential-management-class diagram.png" alt="context"/>
 
 *Figura 22. Diagrama de Clases Residential management. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
