@@ -116,11 +116,12 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         4.1 Design Concepts, ViewPoints & ER Diagrams <br>
         4.1.1 Principles Statements <br>
         4.1.2 Approaches Statements Architectural Styles & Patterns <br>
-        4.1.3 Context Diagram <br>
-        4.1.4 Approach driven ViewPoints Diagrams <br>
-        4.1.5 Relational/Non Relational Database Diagram <br>
-        4.1.6 Design Patterns <br>
-        4.1.7 Tactics <br><br>
+		4.1.3 Architectural Styles & Patterns <br>
+        4.1.4 Context Diagram <br>
+        4.1.5 Approach driven ViewPoints Diagrams <br>
+        4.1.6 Relational/Non Relational Database Diagram <br>
+        4.1.7 Design Patterns <br>
+        4.1.8 Tactics <br><br>
         4.2 Architectural Drivers <br>
         4.2.1 Design Purpose <br>
         4.2.2 Primary Functionality (Primary User Stories) <br>
@@ -244,14 +245,15 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
     - [3.4. Product Backlog](#34-product-backlog)
 
 - [CAPÍTULO IV: Product Architecture Design](#capítulo-iv-product-architecture-design)
-  - [4.1. Design Concepts, ViewPoints & ER Diagrams](#41-design-concepts-viewpoints--er-diagrams)
+	- [4.1. Design Concepts, ViewPoints & ER Diagrams](#41-design-concepts-viewpoints--er-diagrams)
       - [4.1.1. Principles Statements](#411-principles-statements)
-      - [4.1.2. Approaches Statements Architectural Styles & Patterns](#412-approaches-statements-architectural-styles--patterns)
-      - [4.1.3. Context Diagram](#413-context-diagram)
-      - [4.1.4. Approach driven ViewPoints Diagrams](#414-approach-driven-viewpoints-diagrams)
-      - [4.1.5. Relational/Non Relational Database Diagram](#415-relationalnon-relational-database-diagram)
-      - [4.1.6. Design Patterns](#416-design-patterns)
-      - [4.1.7. Tactics](#417-tactics)
+	  - [4.1.2. Approaches Statements Architectural Styles & Patterns](#412-approaches-statements-architectural-styles--patterns)
+	  - [4.1.3. Architectural Styles & Patterns](#413-architectural-styles--patterns)
+	  - [4.1.4. Context Diagram](#414-context-diagram)
+	  - [4.1.5. Approach driven ViewPoints Diagrams](#415-approach-driven-viewpoints-diagrams)
+ 	  - [4.1.6. Relational/Non Relational Database Diagram](#416-relationalnon-relational-database-diagram)
+	  - [4.1.7. Design Patterns](#417-design-patterns)
+ 	  - [4.1.8. Tactics](#418-tactics)
 
   - [4.2. Architectural Drivers](#42-architectural-drivers)
       - [4.2.1. Design Purpose](#421-design-purpose)
@@ -2704,56 +2706,40 @@ Principios de Edifika:
 - <strong> Seguridad en el Acceso y los Datos: </strong> La plataforma protege la información personal y financiera de los usuarios mediante autenticación con JWT y control de acceso por roles, garantizando un entorno confiable para todas las operaciones.
 - <strong> Disponibilidad Continua: </strong> El sistema debe estar disponible las 24 horas desde dispositivos iOS y Android, permitiendo que los usuarios accedan a su información y realicen operaciones en cualquier momento sin interrupciones.
 
-### 4.1.2. Approaches Statements Architectural Styles & Patterns
+### 4.1.2. Technical Principles & Approaches Statements
 
-El desarrollo de Edifika se sustenta en enfoques metodológicos y técnicos que garantizan una arquitectura organizada, escalable y alineada con las necesidades reales de la gestión residencial. Estos enfoques permiten tomar decisiones de diseño coherentes desde las primeras etapas del proyecto.
+El diseño de **Edifika** no solo responde a necesidades de negocio, sino que se fundamenta en principios de ingeniería de software que garantizan la robustez técnica del sistema.
 
-<strong> Approaches Statements </strong>
------------
-- <strong>Domain Driven Design (DDD):</strong>
+#### Software Design Principles (SOLID & Others)
 
-	Edifika adoptará DDD como enfoque principal para el modelado del sistema. Dado que la plataforma gestiona dominios bien diferenciados como pagos, reservas y comunicados, este enfoque permite organizar el código en torno a la lógica del negocio real, facilitando 		una arquitectura comprensible, mantenible y alineada con los procesos cotidianos de administración de condominios.
+* **Single Responsibility Principle (SRP):** Este principio fundamenta la elección de una **Arquitectura de Microservicios**. Cada servicio (*Payments, Reservations, Notifications*) tiene una única razón para cambiar, evitando que la complejidad de un dominio afecte a los demás.
+* **Dependency Inversion Principle (DIP):** Aplicado mediante el **Repository Pattern**, permitiendo que las capas de alto nivel (Dominio) no dependan de las de bajo nivel (Infraestructura/Base de Datos), facilitando la testabilidad y el mantenimiento.
+* **Separation of Concerns (SoC):** Se refleja en la adopción de la **Layered Architecture** dentro de cada microservicio, separando estrictamente la lógica de negocio de los contratos de API y el acceso a datos.
+* **Interface Segregation Principle (ISP):** Las APIs de cada microservicio están diseñadas para exponer solo lo necesario para sus consumidores específicos (Residentes o Administradores), evitando dependencias innecesarias.
 
-- <strong>Agile Development:</strong>
+#### Approaches Statements
 
-	El proyecto se desarrollará bajo una metodología ágil con entregas incrementales. Esto permite validar funcionalidades con usuarios reales de ambos segmentos, adaptar el producto a cambios en los requerimientos y asegurar que cada iteración aporte valor concreto a 	administradores y residentes.
+* **Domain Driven Design (DDD):** Enfoque principal para el modelado, utilizando ***Bounded Contexts*** para definir los límites de cada microservicio y asegurar que el código hable el "lenguaje ubicuo" de la administración de condominios.
+* **Attribute-Driven Design (ADD):** Metodología utilizada para derivar la arquitectura a partir de los drivers de calidad (Seguridad, Disponibilidad, Escalabilidad). Cada decisión arquitectónica aquí descrita es el resultado de las iteraciones del proceso ADD.
 
-- <strong>Continuous Integration and Continuous Deployment (CI/CD):</strong>
+---
 
-	Se implementará un flujo de integración y despliegue continuo para automatizar la construcción y entrega de nuevas versiones, reduciendo errores en producción y acelerando la incorporación de mejoras a la plataforma.
+### 4.1.3. Architectural Styles & Patterns
 
-- <strong>Attribute-Driven Design (ADD):</strong>
+Para satisfacer los atributos de calidad definidos en el **ADD**, se han seleccionado los siguientes estilos y patrones:
 
-	Desde el diseño inicial se priorizarán atributos de calidad como disponibilidad, seguridad, usabilidad y escalabilidad, asegurando que la arquitectura de Edifika no solo cumpla con los requisitos funcionales sino también con las expectativas de confiabilidad de 		sus usuarios.
+#### Architectural Styles
 
-<strong> Architectural Styles & Patterns </strong>
------------
+* **Microservices Architecture:** Estilo elegido para lograr escalabilidad independiente y alta disponibilidad. Permite que fallos en un servicio (ej. Comunicados) no interrumpan servicios críticos (ej. Pagos).
+* **Layered Architecture:** Estilo organizativo interno de los servicios (*API, Application, Domain, Infrastructure*) para promover la mantenibilidad.
 
-- <strong>Layered Architecture</strong>
+#### Architectural Patterns
 
-	La plataforma se estructurará en capas definidas: presentación, aplicación, dominio e infraestructura. Este enfoque promueve alta cohesión interna y bajo acoplamiento entre componentes, facilitando el mantenimiento y la evolución del sistema a medida que 		Edifika incorpore nuevas funcionalidades.
+* **API Gateway Pattern:** Punto de entrada único que centraliza la autenticación (**JWT**) e identificación de usuarios, además del enrutamiento, resolviendo la restricción de seguridad del sistema.
+* **Saga Pattern (Choreography-based):** Utilizado para gestionar la consistencia de datos en transacciones que cruzan múltiples microservicios (como el flujo de pagos y reservas) sin utilizar bloqueos de base de datos pesados.
+* **CQRS (Command Query Responsibility Segregation):** Aplicado parcialmente para separar las operaciones de actualización de datos de las consultas de reportes complejos, optimizando el rendimiento en la visualización de estados de cuenta masivos.
 
-- <strong>Microservices Architecture</strong>
-  
-	Edifika se organizará en microservicios independientes por dominio, donde cada módulo como pagos, reservas o comunicados operará de forma autónoma con su propia lógica y base de datos. Esto garantiza escalabilidad, resiliencia y despliegue independiente de cada 		componente, soportado por herramientas como Docker.
-
-<strong> Patrones Arquitectónicos </strong>
------------
-
-- <strong>Repository Pattern:</strong>
-	Abstrae el acceso a datos desacoplando la lógica de negocio de la infraestructura, lo que permite cambiar la fuente de datos sin afectar el comportamiento del sistema. Es fundamental para mantener la coherencia con el enfoque DDD adoptado en Edifika.
-
-- <strong>Observer / Event Publisher-Subscriber:</strong>
-	Permite la comunicación desacoplada entre módulos del sistema, notificando automáticamente a los residentes sobre eventos relevantes como el vencimiento de un pago, la confirmación de una reserva o la publicación de un comunicado oficial.
-
-- <strong>Saga Pattern:</strong>
-	Se aplicará para gestionar transacciones distribuidas entre microservicios, como el proceso de registro de un pago que involucra validación del comprobante, actualización del estado de deuda y notificación al residente, garantizando consistencia sin bloquear el sistema.
-
-- <strong>API Gateway Pattern:</strong>
-	Se utilizará un punto de entrada único para centralizar las solicitudes de los clientes hacia los distintos microservicios. Esto simplifica la comunicación, permite aplicar políticas de seguridad de forma centralizada y mejora el control del tráfico entre el frontend y el backend.
-
-
-### 4.1.3. Context Diagram
+### 4.1.4. Context Diagram
 
 El diagrama de contexto presenta a Edifika como sistema central e identifica los actores externos que interactúan con él y los sistemas con los que se integra. A través de este diagrama se puede comprender el alcance del sistema, sus límites y las relaciones que establece con el entorno, permitiendo visualizar cómo encaja la plataforma dentro del ecosistema de gestión residencial.
 
@@ -2762,7 +2748,7 @@ El diagrama de contexto presenta a Edifika como sistema central e identifica los
  *Figura 10. Context Diagram. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 
-### 4.1.4. Approach driven ViewPoints Diagrams
+### 4.1.5. Approach driven ViewPoints Diagrams
 
 En esta sección se presentan los diagramas que describen el comportamiento y la estructura del sistema desde distintas perspectivas. Se incluyen diagramas de actividad para representar los flujos principales de usuario, diagramas de estado para modelar los ciclos de vida de entidades clave como pagos y reservas, diagramas de clases para reflejar la estructura del dominio, y diagramas C4 complementarios que permiten visualizar la arquitectura del sistema en distintos niveles de detalle.
 
@@ -2939,16 +2925,29 @@ En esta sección se presenta el diagrama de base de datos relacional de Edifika,
 
 *Figura 35. Diagrama Entidad-Relación. Elaborado por el equipo utilizando LucidChart (LucidChart, s.f.).*
 
-### 4.1.6. Design Patterns
+### 4.1.7. Design Patterns
 
 En esta sección se describen los patrones de diseño aplicados en el desarrollo de Edifika. Estos patrones fueron seleccionados con base en las necesidades específicas de cada módulo del sistema, con el objetivo de promover un código más organizado, reutilizable y fácil de mantener, alineado con los principios y estilos arquitectónicos definidos para la plataforma.
 
+**Repository Pattern:**
+Se aplica en todos los microservicios para desacoplar la lógica de dominio de la infraestructura de persistencia (MySQL). Esto permite que las reglas de negocio de Edifika no dependan directamente de las consultas SQL, facilitando la realización de pruebas unitarias y permitiendo cambiar el motor de base de datos en el futuro sin afectar el núcleo del sistema.
 
-### 4.1.7. Tactics
+**Data Transfer Object (DTO):**
+Utilizado para el intercambio de información entre el API Gateway y los microservicios, así como entre las capas internas de cada servicio. El uso de DTOs asegura que solo se exponga la información necesaria hacia el cliente, protegiendo datos sensibles y optimizando el ancho de banda.
+
+**Factory Pattern:**
+Implementado principalmente en el Notification Service y el Report Service. Permite crear diferentes tipos de notificaciones (Push, Email, SMS) o formatos de reporte (PDF, Excel) de manera dinámica según los parámetros de la solicitud, sin acoplar la lógica de creación con la de ejecución.
+
+**Dependency Injection (DI):**
+Fundamental para la arquitectura de Edifika. Se utiliza para gestionar las dependencias entre servicios, repositorios y controladores. Esto facilita la inversión de control, permitiendo que los componentes sean más modulares y fáciles de testear mediante el uso de *mocks*.
+
+**Adapter Pattern:**
+Se aplica en el Payment Service para la integración con la pasarela Culqi. El adaptador traduce la interfaz de la API externa a una interfaz propia del sistema Edifika, actuando como una capa de protección (Anti-Corruption Layer) ante cambios en el servicio de terceros.
+
+
+### 4.1.8. Tactics
 
 En esta sección se describen las tácticas arquitectónicas aplicadas en el diseño de Edifika. Estas tácticas representan decisiones técnicas concretas que permiten alcanzar los atributos de calidad definidos para la plataforma, considerando las restricciones del sistema, los escenarios de calidad identificados y las preocupaciones arquitectónicas que deben ser atendidas.
-
----
 
 **1. Escalabilidad**
 
