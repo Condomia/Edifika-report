@@ -2704,6 +2704,14 @@ En el repositorio del microservicio IAM se concentran los commits relacionados c
 
 ##### 5.3.1.8. Kanban Board
 
+En esta sección se presentan las actividades desarrolladas durante el Sprint 1 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
+
+<p align="center">
+  <img src="assets/img/kanban_board.png" alt="Kanban Board" width="700"/>
+</p>
+
+[https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
+
 
 # Conclusiones
 # Conclusiones y Recomendaciones
