@@ -3373,7 +3373,7 @@ Gestión de tareas del equipo, seguimiento de actividades, organización del flu
 **Ruta de Referencia/Descarga:**  
 Trello (SaaS)
 
-<img src="assets/img/trello.png" alt="context"/>
+<img src="assets/img/trello.png" alt="context" width="200"/>
 
 
 
@@ -3387,7 +3387,7 @@ Comunicación interna del equipo, coordinación de reuniones, resolución de dud
 **Ruta de Referencia/Descarga:**  
 Discord (SaaS / Aplicación de escritorio)
 
-<img src="assets/img/discord.png" alt="context"/>
+<img src="assets/img/discord.png" alt="context" width="200"/>
 
 
 
@@ -3401,7 +3401,7 @@ Diseño de interfaces, wireframes, prototipos navegables y flujos visuales de la
 **Ruta de Referencia/Descarga:**  
 Figma (SaaS)
 
-<img src="assets/img/figma.png" alt="context"/>
+<img src="assets/img/figma.png" alt="context" width="200"/>
 
 
 
@@ -3415,7 +3415,7 @@ Control de versiones, colaboración entre desarrolladores, organización mediant
 **Ruta de Referencia/Descarga:**  
 GitHub (SaaS)
 
-<img src="assets/img/github.png" alt="context"/>
+<img src="assets/img/github.png" alt="context" width="200"/>
 
 
 
@@ -3427,7 +3427,7 @@ Entorno de desarrollo utilizado para implementar el microservicio IAM de EDIFIKA
 **Ruta de Referencia/Descarga:**  
 IntelliJ IDEA (Aplicación de escritorio)
 
-<img src="assets/img/intellidea.png" alt="context"/>
+<img src="assets/img/intellidea.png" alt="context" width="200"/>
 
 
 
@@ -3440,7 +3440,7 @@ Editor utilizado para trabajar con la Landing Page, documentación técnica, arc
 Visual Studio Code (Aplicación de escritorio)
 
 
-<img src="assets/img/visualstudiocode.png" alt="context"/>
+<img src="assets/img/visualstudiocode.png" alt="context" width="200"/>
 
 
 
@@ -3452,7 +3452,7 @@ Framework utilizado para el desarrollo de la aplicación web frontend de EDIFIKA
 **Ruta de Referencia/Descarga:**  
 Angular Framework
 
-<img src="assets/img/angular.png" alt="context"/>
+<img src="assets/img/angular.png" alt="context" width="200"/>
 
 
 
@@ -3464,7 +3464,7 @@ Framework utilizado para construir el microservicio IAM como Web Service backend
 **Ruta de Referencia/Descarga:**  
 Spring Boot Framework
 
-<img src="assets/img/springboot.png" alt="context"/>
+<img src="assets/img/springboot.png" alt="context" width="200"/>
 
 
 
@@ -3479,7 +3479,7 @@ Pruebas de APIs para verificar peticiones, respuestas y funcionamiento de los en
 Postman (SaaS / Aplicación de escritorio)
 
 
-<img src="assets/img/postman.png" alt="context"/>
+<img src="assets/img/postman.png" alt="context" width="200"/>
 
 
 
@@ -3491,7 +3491,7 @@ Documentación y prueba visual de los endpoints expuestos por el microservicio I
 **Ruta de Referencia/Descarga:**  
 Swagger UI integrado en el microservicio IAM
 
-<img src="assets/img/swagger.png" alt="context"/>
+<img src="assets/img/swagger.png" alt="context" width="200"/>
 
 
 
@@ -3506,7 +3506,7 @@ Despliegue de la Landing Page de EDIFIKA, permitiendo su visualización pública
 GitHub Pages (SaaS)
 
 
-<img src="assets/img/githubpages.png" alt="context"/>
+<img src="assets/img/githubpages.png" alt="context" width="200"/>
 
 
 
@@ -3518,7 +3518,7 @@ Plataforma en la nube utilizada para desplegar el microservicio IAM de EDIFIKA. 
 **Ruta de Referencia/Descarga:**  
 Render (PaaS - Plataforma como Servicio)
 
-<img src="assets/img/render.png" alt="context"/>
+<img src="assets/img/render.png" alt="context" width="200"/>
 
 
 
@@ -3533,7 +3533,7 @@ Almacenamiento, versionado y colaboración en la documentación técnica del pro
 GitHub (SaaS)
 
 
-<img src="assets/img/github.png" alt="context"/>
+<img src="assets/img/github.png" alt="context" width="200"/>
 
 
 
@@ -3546,7 +3546,7 @@ Edición de archivos Markdown y documentación técnica relacionada al proyecto.
 Visual Studio Code (Aplicación de escritorio)
 
 
-<img src="assets/img/visualstudiocode.png" alt="context"/>
+<img src="assets/img/visualstudiocode.png" alt="context" width="200"/>
 
 
 
