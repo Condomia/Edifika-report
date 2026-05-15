@@ -3437,13 +3437,18 @@ Enlace del Board: `https://trello.com/invite/b/6a0527cb585a58fe5f5375ba/ATTI1122
 | TS03 | Implementación de endpoints de gestión de usuarios | T09 | Implementar endpoint GET /api/v1/roles | Desarrollar endpoint para consultar los roles disponibles del sistema | 2 | Renato Zegarra | Done |
 | TS05 | Configuración de base de datos PostgreSQL independiente | T10 | Configurar PostgreSQL para microservicio IAM | Configurar conexión, entidades JPA y creación automática de tablas users, roles y user_roles | 3 | Antuanete Ortiz | Done |
 | TS14 | Documentación de API con Swagger | T11 | Integrar Swagger con autenticación JWT en IAM | Configurar Swagger UI con soporte Bearer token para documentar y probar endpoints | 2 | Antuanete Ortiz | Done |
-| | | | | | | | To-do |
-| | | | | | | | To-do |
-| | | | | | | | To-do |
-| | | | | | | | To-do |
-| | | | | | | | To-do |
-| | | | | | | | To-do |
-
+| US41 | Visualizar sección Hero de la Landing Page | T12 | Diseñar sección Hero responsive | Implementar título principal, subtítulo, CTAs y mockup del producto adaptados a distintos dispositivos | 4 | Alessandra Becerra | Done |
+| US41 | Visualizar sección Hero de la Landing Page | T13 | Implementar scroll suave hacia funcionalidades | Configurar navegación automática al hacer clic en “Ver funciones” | 2 | Alessandra Becerra | Done |
+| US42 | Navegar entre secciones de la Landing Page | T14 | Implementar navbar con scroll automático | Configurar navegación entre secciones mediante enlaces del navbar | 3 | Alessandra Becerra | Done |
+| US42 | Navegar entre secciones de la Landing Page | T15 | Resaltar sección activa en navbar | Detectar sección visible y aplicar resaltado dinámico al ítem correspondiente | 2 | Alessandra Becerra | Done |
+| US42 | Navegar entre secciones de la Landing Page | T16 | Implementar navbar sticky | Configurar navbar fijo luego de superar 100px de scroll | 2 | Alessandra Becerra | Done |
+| US43 | Cambiar idioma de la Landing Page | T17 | Implementar selector de idioma ES/EN | Configurar cambio dinámico de idioma sin recargar la página | 4 | Alessandra Becerra | Done |
+| US43 | Cambiar idioma de la Landing Page | T18 | Configurar idioma por defecto | Detectar primera visita y establecer español como idioma inicial | 2 | Alessandra Becerra | Done |
+| US44 | Cambiar tema visual (claro/oscuro) | T19 | Implementar alternancia de tema | Configurar cambio dinámico entre modo claro y oscuro | 3 | Alessandra Becerra | Done |
+| US45 | Visualizar sección de funcionalidades | T20 | Diseñar tarjetas de funcionalidades | Implementar tarjetas para módulos de pagos, reservas y comunicados | 4 | Alessandra Becerra | Done |
+| US45 | Visualizar sección de funcionalidades | T21 | Implementar lista de características | Agregar íconos de verificación y listado de funcionalidades por módulo | 3 | Alessandra Becerra | Done |
+| US45 | Visualizar sección de funcionalidades | T22 | Añadir etiqueta “Más popular” | Resaltar el módulo de Gestión de Pagos y Deudas | 1 | Alessandra Becerra | Done |
+| US46 | Visualizar sección del equipo | T23 | Diseñar sección del equipo | Implementar tarjetas con foto y nombre de los integrantes | 3 | Alessandra Becerra | Done |
 
 
 ##### 5.3.1.2. Development Evidence for Sprint Review
@@ -3456,9 +3461,11 @@ A lo largo del Sprint 1, el historial de commits evidencia el avance incremental
 | Edifika-Microservice-IAM | develop | 9a187d4 | feat(IAM): Add IAM auth module and security | - | 12/05/2026 |
 | Edifika-Microservice-IAM | develop | ebcde37 | fix(IAM): fixing error handling to controllers | - | 12/05/2026 |
 | Edifika-Microservice-IAM | develop | c28c544 | feat: Add validations | - | 14/05/2026 |
-| Edifika-Landing-Page | develop | | | - | |
-| Edifika-Landing-Page | develop | | | - | |
-| Edifika-Landing-Page | develop | | | - | |
+| Edifika-Landing-Page | main | c202af4 | feat: added Landing Page | - | 14/05/2026 |
+| Edifika-Landing-Page | main | 5fa5544 | feat: added i18n | - | 14/05/2026 |
+| Edifika-Landing-Page | main | 126e37c | improve mobile hero responsive | - | 15/05/2026 |
+| Edifika-Landing-Page | main | 05cf8e0 | fix: fixing responsive hero layout on mobile | - | 15/05/2026 |
+| Edifika-Landing-Page | main | 823afc8 | fix: fixing mobile navbar hamburger visibility | - | 15/05/2026 |
 
 ##### 5.3.1.3. Testing Suite Evidence for Sprint Review
 
@@ -3581,7 +3588,14 @@ En esta sección se documentan los procesos realizados para poner en producción
 
 **Landing Page**
 
+El despliegue de la landing page se realizó utilizando GitHub Pages, un servicio que permite publicar sitios web estáticos directamente desde un repositorio de GitHub.
+Primero, se subió el código fuente del proyecto (HTML, CSS y JavaScript) a un repositorio en GitHub. Luego, se verificó que la estructura del proyecto estuviera correctamente organizada, asegurando que el archivo principal (index.html) se encuentre en la raíz o en la carpeta configurada para el despliegue.
+Posteriormente, se accedió a la sección de Settings del repositorio, donde en el apartado de Pages se configuró la rama de publicación (main) como fuente del sitio. Una vez guardados los cambios, GitHub generó automáticamente una URL pública para acceder a la landing page.
+Finalmente, se validó el correcto funcionamiento del sitio en producción, comprobando la carga de estilos, scripts y la adaptación responsive en distintos dispositivos. De esta manera, la landing page quedó desplegada y accesible de forma pública mediante GitHub Pages.
 
+<p align="center">
+  <img src="assets/img/deploy_landing.png" alt="Despliegue Landing en Github Pages" width="700"/>
+</p>
 
 **Microservicio IAM - Backend**
 
@@ -3601,6 +3615,24 @@ La base de datos fue desplegada en Supabase, una plataforma que ofrece instancia
 
 ##### 5.3.1.7. Team Collaboration Insights during Sprint
 
+Esta sección presenta los cuadros analíticos de colaboración del equipo durante el Sprint 1, evidenciando la participación de los miembros a través de los commits registrados en los repositorios de GitHub. Se muestran las contribuciones realizadas tanto en el repositorio de la Landing Page como en el del microservicio IAM, reflejando el trabajo colaborativo y la distribución de responsabilidades dentro del equipo.
+
+**Landing Page**
+
+En el repositorio de la Landing Page se registraron los commits correspondientes a la construcción de la página de presentación del producto Edifika. Los aportes del equipo incluyen la estructura base del sitio, las secciones de funcionalidades, el diseño visual y la sección de contacto.
+
+<p align="center">
+  <img src="assets/img/insights_landing1.png" alt="Insights Landing Page" width="700"/>
+</p>
+
+**Microservicio IAM - Backend**
+
+En el repositorio del microservicio IAM se concentran los commits relacionados con la implementación del backend de autenticación y gestión de usuarios. Los aportes reflejan el desarrollo progresivo de los endpoints, la configuración de seguridad con JWT, la integración con PostgreSQL y la documentación con Swagger.
+
+<p align="center">
+  <img src="assets/img/insights_backend1.png" alt="Insights Backend IAM" width="700"/>
+</p>
+
 ##### 5.3.1.8. Kanban Board
 
 
@@ -3609,20 +3641,28 @@ La base de datos fue desplegada en Supabase, una plataforma que ofrece instancia
 
 TB1:
 
-- La investigación realizada confirmó que la gestión de condominios en el Perú presenta problemas estructurales de desorganización, falta de transparencia y comunicación deficiente, validando la necesidad real que Edifika busca resolver mediante la digitalización.
-- Ambos segmentos objetivo mostraron disposición para adoptar una solución digital, lo que reduce la fricción de entrada al mercado y respalda la viabilidad del producto, siempre que ofrezca una experiencia simple y accesible.
-- El análisis competitivo reveló que las soluciones existentes no están adaptadas al contexto local, lo que representa una oportunidad de diferenciación para Edifika al enfocarse en la simplicidad y las necesidades reales del usuario peruano.
-- Se recomienda priorizar las funcionalidades de mayor impacto como pagos, reservas y comunicados, validarlas con usuarios reales antes del lanzamiento e incorporar métodos de pago locales para facilitar la adopción.
-- Para escalar el producto de forma sostenible, se recomienda explorar alianzas con empresas administradoras de condominios como canal principal de distribución, permitiendo llegar a múltiples comunidades a través de un solo punto de entrada.
-- El desarrollo del product backlog, los user stories y los escenarios To-Be demostró que el equipo logró comprender en profundidad los problemas de ambos segmentos y traducirlos en soluciones concretas, lo que garantiza que el producto esté orientado a generar valor real desde sus primeras versiones.
+La investigación realizada por el equipo confirmó que la gestión de condominios en el Perú presenta problemas estructurales de desorganización, falta de transparencia y comunicación deficiente, validando la necesidad real que Edifika busca resolver mediante la digitalización. Ambos segmentos objetivo mostraron disposición para adoptar una solución digital, lo que reduce la fricción de entrada al mercado y respalda la viabilidad del producto, siempre que ofrezca una experiencia simple y accesible. El análisis competitivo reveló que las soluciones existentes no están adaptadas al contexto local, lo que representa una oportunidad de diferenciación para Edifika al enfocarse en la simplicidad y las necesidades reales del usuario peruano. El desarrollo del product backlog, los user stories y los escenarios To-Be demostró que el equipo logró comprender en profundidad los problemas de ambos segmentos y traducirlos en soluciones concretas, lo que garantiza que el producto esté orientado a generar valor real desde sus primeras versiones.
+
+Recomendación:
+
+Se recomienda priorizar las funcionalidades de mayor impacto como pagos, reservas y comunicados, validarlas con usuarios reales antes del lanzamiento e incorporar métodos de pago locales para facilitar la adopción. Para escalar el producto de forma sostenible, se sugiere explorar alianzas con empresas administradoras de condominios como canal principal de distribución, permitiendo llegar a múltiples comunidades a través de un solo punto de entrada.
 
 TB2:
 
-- La definición de principios y enfoques arquitectónicos para Edifika permitió establecer una base sólida y coherente para el diseño del sistema, asegurando que cada decisión técnica esté alineada con los objetivos del negocio y las necesidades reales de los usuarios.
-- La adopción de una arquitectura basada en microservicios, junto con patrones como API Gateway, Repository y Saga, demostró ser la decisión más adecuada para garantizar la escalabilidad, disponibilidad e independencia de los módulos críticos de Edifika como pagos, reservas y comunicados.
-- La elaboración de los diagramas C4, de secuencia y de base de datos permitió visualizar con claridad cómo interactúan los componentes del sistema, facilitando la identificación de dependencias, riesgos y oportunidades de mejora en etapas tempranas del diseño.
-- Los escenarios de atributos de calidad definidos en el ADD confirmaron que la arquitectura propuesta responde adecuadamente a los requisitos de seguridad, rendimiento, usabilidad e integridad de transacciones que exige una plataforma de gestión residencial.
-- La identificación de restricciones y preocupaciones arquitectónicas permitió al equipo anticipar riesgos como fallos en servicios externos, doble reserva o inconsistencias en pagos, diseñando tácticas concretas para mitigarlos desde el diseño inicial.
+El equipo definió los principios y enfoques arquitectónicos para Edifika lo que permitió establecer una base sólida y coherente para el diseño del sistema, asegurando que cada decisión técnica esté alineada con los objetivos del negocio y las necesidades reales de los usuarios. La adopción de una arquitectura basada en microservicios, junto con patrones como API Gateway, Repository y Saga, demostró ser la decisión más adecuada para garantizar la escalabilidad, disponibilidad e independencia de los módulos críticos como pagos, reservas y comunicados. La elaboración de los diagramas C4, de secuencia y de base de datos permitió visualizar con claridad cómo interactúan los componentes del sistema, facilitando la identificación de dependencias y riesgos en etapas tempranas. Los escenarios de atributos de calidad definidos en el ADD confirmaron que la arquitectura propuesta responde adecuadamente a los requisitos de seguridad, rendimiento, usabilidad e integridad de transacciones. La identificación de restricciones y preocupaciones arquitectónicas permitió al equipo anticipar riesgos como fallos en servicios externos, doble reserva o inconsistencias en pagos, diseñando tácticas concretas para mitigarlos desde el diseño inicial.
+
+Recomendación:
+
+Se recomienda continuar aplicando el enfoque iterativo de ADD en los próximos desarrollos, priorizando los drivers de mayor impacto en cada iteración y validando las decisiones arquitectónicas mediante prototipos funcionales. Además, es importante mantener actualizada la documentación de diagramas y decisiones tomadas para facilitar la colaboración entre los miembros del equipo y asegurar la coherencia técnica durante todo el ciclo de vida del producto.
+
+TP:
+
+El equipo de trabajo realizó la implementación del primer microservicio del sistema. El desarrollo del microservicio IAM permitió concretar un backend funcional con autenticación JWT, gestión de usuarios y documentación Swagger, demostrando que la arquitectura de microservicios planteada en el TB2 se traduce correctamente en componentes operativos. El despliegue del servicio en Render junto con la base de datos PostgreSQL en Supabase validó que la infraestructura cloud seleccionada es viable para el proyecto, logrando disponibilidad continua y conexión remota estable entre los componentes. Las pruebas de ejecución sobre cada endpoint confirmaron que los flujos de registro, inicio de sesión, consulta, actualización y eliminación de usuarios operan correctamente bajo las validaciones definidas en los criterios de aceptación de las Technical Stories. Paralelamente, el equipo elaboró los mockups de la aplicación móvil, permitiendo visualizar de forma temprana la experiencia de usuario propuesta para los módulos de autenticación, pagos, reservas y comunicados, lo cual servirá como guía para el desarrollo frontend en los próximos sprints. La construcción de la Landing Page complementó la entrega al ofrecer un primer punto de contacto con el producto, comunicando la propuesta de valor de Edifika.
+
+Recomendación:
+
+Se recomienda para los próximos sprints avanzar con la implementación de los microservicios restantes (Residential Management, Payment Service, Reservation Service y Communication Service), manteniendo el mismo enfoque de despliegue continuo y documentación detallada aplicado en este primer ciclo. Es importante incorporar pruebas automatizadas con mayor cobertura, incluyendo tests unitarios e integración basados en los escenarios BDD definidos, para fortalecer la confiabilidad del sistema a medida que crece en complejidad. Asimismo, se sugiere utilizar los mockups diseñados como base para iniciar el desarrollo del frontend móvil, validando los flujos de interfaz con usuarios reales para ajustar la experiencia antes de la integración con los servicios backend.
+
 
 # Referencias Bibliografía
   - Aguilar, K. L. B. (2026). Vacíos regulatorios en la Ley de Propiedad en Condominio, análisis de conflictos recurrentes en su modalidad vertical ubicados en el Distrito Central (Tesis doctoral). Centro Universitario Tecnológico CEUTEC. `https://repositorio.unitec.edu/server/api/core/bitstreams/cd97bbd4-204c-49c8-9901-3d0a5a85d7f3/content`
@@ -3649,3 +3689,5 @@ TB2:
 - User Persona 2: `https://drive.google.com/file/d/1Iy0-x1W3vIBjgpKlcGfhzkv9yUg4askm/view?usp=sharing`
 # Links
 - Enlace del repositorio: `https://github.com/Condomia/Edifika-report.git`
+- Enlace del repositorio de Landing page: `https://github.com/Condomia/Edifika-LandingPage.git`
+- Enlace del repositorio Microservicio IAM: `https://github.com/Condomia/Edifika-Microservice-IAM.git`
