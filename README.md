@@ -2722,6 +2722,19 @@ El diseño de **Edifika** no solo responde a necesidades de negocio, sino que se
 * **Domain Driven Design (DDD):** Enfoque principal para el modelado, utilizando ***Bounded Contexts*** para definir los límites de cada microservicio y asegurar que el código hable el "lenguaje ubicuo" de la administración de condominios.
 * **Attribute-Driven Design (ADD):** Metodología utilizada para derivar la arquitectura a partir de los drivers de calidad (Seguridad, Disponibilidad, Escalabilidad). Cada decisión arquitectónica aquí descrita es el resultado de las iteraciones del proceso ADD.
 
+#### Teconologías utilizadas
+
+| Categoría | Herramienta / Tecnología |
+|---|---|
+| IDE | Visual Studio Code / IntelliJ IDEA |
+| **Lenguaje / Framework Backend** | Java / Spring Boot |
+| **Framework Frontend** | Angular |
+| **Base de Datos** | PostgreSQL |
+| **Testing** | JUnit / Mockito |
+| **CI / CD** | GitHub Actions |
+| **Gestión de Proyecto** | Trello (Tablero Kanban) |
+| **Comunicación del Equipo** | Slack / Discord |
+
 ---
 
 ### 4.1.3. Architectural Styles & Patterns
@@ -3216,8 +3229,6 @@ Se adoptan los siguientes conceptos de diseño:
 
 ### 4.3.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
-### 4.3.1.5 Instantiate Architectural Elements
-
 | Elemento | Responsabilidad | Interfaces |
 |----------|--------------|-----------|
 | API Gateway | Validar JWT y enrutar solicitudes | `/api/v1/*` |
@@ -3225,6 +3236,10 @@ Se adoptan los siguientes conceptos de diseño:
 | Payment Service | Gestión de pagos y deudas | `/payments` |
 | Reservation Service | Gestión de reservas | `/reservations` |
 | MySQL | Persistencia de datos | Conexión interna |
+
+
+
+
 
 ### 4.3.1.6 Sketch Views (C4 & UML) and Record Design Decisions
 
@@ -3270,8 +3285,7 @@ Se refinan los siguientes elementos:
 
 Se adoptan los siguientes conceptos:
 
-- **Saga Pattern (Payment Saga)**  
-  Permite coordinar el proceso de pago y mantener consistencia entre pago y deuda.
+- **Saga Pattern (Orquestación)**: Se selecciona la orquestación para centralizar el control del flujo transaccional. Esto permite gestionar estados complejos y asegurar que las acciones compensatorias se ejecuten de manera ordenada ante fallos de servicios externos.
 
 - **Availability Service**  
   Permite validar disponibilidad antes de registrar una reserva.
@@ -3308,6 +3322,27 @@ Se definen los siguientes elementos:
 - **Reservation Service**
   - Registra reservas
 
+**Detalle del Flujo de la Saga de Pagos:**
+
+Para garantizar la integridad (AD-08) y disponibilidad (AD-09), se define el siguiente flujo lógico:
+
+**A) Pasos de la transacción (Secuencia):**
+
+1. **Estado Inicial:** El `Payment Service` registra el intento de pago como **"PENDIENTE"**.
+
+2. **Procesamiento:** Se invoca a la pasarela **Culqi**.
+
+3. **Actualización:** Tras la respuesta exitosa de Culqi, el `Payment Service` comunica internamente el cambio para **actualizar la deuda** en MySQL.
+
+4. **Notificación:** Una vez confirmada la actualización en la base de datos, se dispara el evento para **notificar al usuario** vía Firebase.
+
+**B) Acciones Compensatorias ante fallos:**
+
+- **Fallo en Culqi (Rechazo de pasarela):** La Saga marca el registro como **"FALLIDO"** y termina el proceso. No se afecta la deuda.
+
+- **Fallo de Red/Timeout con Culqi:** Se implementa un **Retry Pattern** (3 intentos). Si persiste, el estado queda como **"PENDIENTE DE VERIFICACIÓN"** para que un proceso asíncrono concilie el estado más tarde sin bloquear al usuario.
+
+- **Fallo en Actualización de Deuda (Error post-cobro):** Si Culqi cobró pero el sistema no pudo actualizar la deuda, la Saga ejecuta una **compensación técnica**: se genera un ticket de reversión automática o se marca para **sincronización manual urgente**, evitando que el residente figure como deudor habiendo pagado.
 
 ### 4.3.2.6 Sketch Views (C4 & UML) and Record Design Decisions
 
@@ -3358,29 +3393,24 @@ Se refinan los siguientes elementos:
 
 Se adoptan los siguientes conceptos de diseño:
 
-- **Query Component**  
-  Permite separar las consultas de reportes de las operaciones transaccionales, evitando afectar el rendimiento de pagos y reservas.
-
-- **Event-Driven Communication**  
-  Permite que eventos como pago registrado, reserva confirmada o comunicado publicado activen notificaciones sin acoplar directamente los servicios.
-
-- **Read Tracking**  
-  Permite registrar qué usuarios leyeron un comunicado, mejorando la trazabilidad de la comunicación interna.
-
-- **Firebase Cloud Messaging**  
-  Permite enviar notificaciones push a los usuarios de la aplicación móvil.
-
+- **Query Component**: Separa consultas pesadas de reportes de las transacciones de escritura (CQRS Lite).
+- **Arquitectura Basada en Eventos (Asincrónica)**: 
+  - **Broker**: Se utiliza **RabbitMQ**.
+  - **Modo**: Comunicación asincrónica mediante modelo **Pub/Sub** para desacoplamiento total.
+  - **Contratos de Eventos**: 
+    - `PaymentRegistered`: Emitido tras confirmar cobro.
+    - `ReservationConfirmed`: Emitido tras validar disponibilidad.
+    - `AnnouncementPublished`: Dispara alertas a la comunidad.
+- **Firebase Cloud Messaging**: Integración para despacho de notificaciones push.
 
 ### 4.3.3.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
-### 4.3.3.5 Instantiate Architectural Elements
-
 | Elemento | Responsabilidad | Interfaces |
 |----------|--------------|-----------|
-| Report Service | Generación de reportes | `/reports` |
-| Communication Service | Gestión de comunicados | `/announcements` |
-| Notification Service | Envío de notificaciones | `/notifications` |
-| Firebase | Notificaciones push | API externa |
+| Report Service | Generación de reportes financieros e históricos. | `/reports` |
+| Communication Service | Gestión de comunicados oficiales y **seguimiento de lectura (Read Tracking)** de residentes. | `/announcements` |
+| Notification Service | Suscripción a colas de RabbitMQ y transformación de eventos para Firebase. | `/notifications` |
+| Firebase | Pasarela externa para entrega de notificaciones push. | API Externa |
 
 ### 4.3.3.6 Sketch Views (C4 & UML) and Record Design Decisions
 
