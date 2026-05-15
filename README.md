@@ -138,10 +138,65 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         4.3.1.6 Sketch Views (C4 & UML) and Record Design Decisions <br>
         4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
       </td>
+		</tr>
+		<tr>
+      <td>TP</td>
+      <td>15/05/2026</td>
+      <td>
+        - Becerra Tejeda, Alessandra Nicole <br>
+        - Bejarano Martinez, Alvaro Leandro <br>
+        - Ortiz Cardenas, Johanna Antuanete <br>
+        - Sarmiento Medina, Loreley <br>
+        - Zegarra López, Renato Sebastián Rubber
+      </td>
+		<td>
+        Se realizaron los siguientes puntos del informe: <br><br>
+        <b>Capítulo V: Product Implementation, Validation & Deployment</b> <br>
+        5.1. Testing Suites & General Patterns <br>
+        5.1.1. Backend Application Core Testing Suite <br>
+        5.1.1. Backend Application Core Testing Suite <br>
+		5.1.3. Pattern Based Custom Software Library <br>
+        5.1.4. Framework Pattern Driven Refactoring Report <br>
+        5.2. Software Configuration Management <br>
+        5.2.1. Software Development Environment Configuration <br>
+        5.2.2. Source Code Management <br>
+        5.2.3. Source Code Style Guide & Conventions <br>
+        5.2.4. Software Deployment Configuration <br>
+        5.3. Microservices Implementation <br>
+        5.3.1. Sprint 1 <br>
+        5.3.1.1. Sprint Backlog 1 <br>
+        5.3.1.2. Development Evidence for Sprint Review <br>
+        5.3.1.3. Testing Suite Evidence for Sprint Review <br><br>
+        5.3.1.3. Testing Suite Evidence for Sprint Review <br>
+        5.3.1.3. Testing Suite Evidence for Sprint Review <br>
+        5.3.1.3. Testing Suite Evidence for Sprint Review <br>
+        5.3.1.3. Testing Suite Evidence for Sprint Review <br>
+        5.3.1.3. Testing Suite Evidence for Sprint Review <br>
+      </td>
     </tr>
   </tbody>
 </table>
 </div>
+
+## **Project Report Collaboration Insights**
+
+TB1 (17/04/2026):
+
+<p align="center">
+  <img src="assets/img/insights1.png" alt="1"/>
+</p>
+
+TB2 (02/05/2026):
+
+<p align="center">
+  <img src="assets/img/insights2.png" alt="2"/>
+</p>
+
+TP (15/05/2026):
+
+<p align="center">
+  <img src="assets/img/insights3.png" alt="3"/>
+</p>
 
 ## **Student Outcome**
 ABET – EAC - Student Outcome 7: Aprendizaje Continuo y Autónomo <br>
@@ -162,23 +217,29 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         Becerra Tejeda, Alessandra Nicole <br><br>
         TB1: <br> Investigué y consolidé conceptos actualizados relacionados con la definición del problem statement, hypothesis y assumptions, aplicándolos de manera estructurada en el planteamiento inicial del proyecto. <br><br>
         TB2: <br>Actualicé y apliqué conceptos de arquitectura de software necesarios para el desarrollo del proyecto, incluyendo drivers arquitectónicos como Design Purpose, User Stories y Quality Attribute Scenarios, logrando estructurar de manera adecuada los requerimientos y decisiones del sistema.<br><br>
+		TP:<br> A <br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: <br>Investigué y apliqué metodologías de diseño centrado en el usuario para la creación de User Personas y la User Task Matrix. Asimismo, profundicé en técnicas de Empathy Mapping y priorización de requisitos mediante la elaboración del Product Backlog, asegurando que la solución Edifika responda a necesidades técnicas y funcionales reales.<br><br>
         TB2: <br>Desarrollé las ADD Iterations del proyecto Edifika, aplicando el método Attribute-Driven Design para definir y refinar la arquitectura del sistema. Identifiqué drivers como disponibilidad, rendimiento, seguridad e integridad de datos, y propuse soluciones como microservicios, API Gateway y patrones como Saga y Availability Service, fortaleciendo el diseño arquitectónico del sistema.<br><br>
+		TP:<br> A <br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: <br>
         Investigué y documenté el perfil de la startup Condomia, el nombre y concepto del producto Edifika, y los antecedentes del problema que busca resolver en la gestión de condominios.<br><br>
         TB2: <br> Investigué y apliqué conceptos de arquitectura de software para definir los principios, enfoques y patrones del sistema Edifika, y desarrollé los diagramas de secuencia junto con las tácticas arquitectónicas del proyecto.<br><br>
+		TP:<br> A <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br>Desarrollé los cuadros As-Is y To-Be, el Impact Map y la entrevista a un usuario, para poder analizar el comportamiento del usuario y alinear sus necesidades con la solución propuesta.<br><br>
         TB2: <br>Durante el desarrollo del capítulo 4, actualicé y apliqué conocimientos relacionados con el diseño de arquitectura de software, incluyendo la identificación de drivers arquitectónicos, constraints y concerns, así como la definición de componentes y relaciones dentro del sistema. Este proceso me permitió fortalecer mi comprensión sobre cómo estructurar una solución técnica alineada a los requerimientos del proyecto.<br><br>
+		TP:<br> A <br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br>Realicé investigación sobre el sector de gestión de condominios, incluyendo análisis de competidores y entrevistas a usuarios, lo que me permitió actualizar conocimientos relevantes para el desarrollo de una solución de software<br><br>
-        TB2:<br> Actualicé y apliqué conocimientos sobre arquitectura de software mediante los diagramas C4 y el diagrama ERD. Esto me permitió comprender mejor la estructura del sistema, sus componentes, servicios, bases de datos y relaciones principales.<br>
+        TB2:<br> Actualicé y apliqué conocimientos sobre arquitectura de software mediante los diagramas C4 y el diagrama ERD. Esto me permitió comprender mejor la estructura del sistema, sus componentes, servicios, bases de datos y relaciones principales.<br><br>
+		TP:<br> A <br><br>
       </td>
       <td>
         TB1: A lo largo del desarrollo del primer entregable, el equipo demostró capacidad para incorporar nuevos conceptos y herramientas propias de la ingeniería de software. El desarrollo del perfil de Condomia, la definición de Edifika y el trabajo con metodologías como Lean UX nos llevaron a investigar y aplicar conocimientos que inicialmente no manejábamos con profundidad. Este proceso de actualización continua se reflejó directamente en la calidad y coherencia de la documentación entregada.<br><br>
-        TB2: Durante el segundo entregable, el equipo profundizó en conceptos de arquitectura de software aplicados directamente al diseño de Edifika. El desarrollo de las ADD Iterations permitió tomar decisiones arquitectónicas basadas en atributos de calidad, así como aplicar patrones y metodologías que fortalecen la estructura del sistema, evidenciando la capacidad del equipo para diseñar soluciones técnicas coherentes y escalables.
+        TB2: Durante el segundo entregable, el equipo profundizó en conceptos de arquitectura de software aplicados directamente al diseño de Edifika. El desarrollo de las ADD Iterations permitió tomar decisiones arquitectónicas basadas en atributos de calidad, así como aplicar patrones y metodologías que fortalecen la estructura del sistema, evidenciando la capacidad del equipo para diseñar soluciones técnicas coherentes y escalables. <br><br>
+		TP: <br><br>
       </td>
     </tr>
     <tr>
@@ -187,22 +248,28 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         Becerra Tejeda, Alessandra Nicole <br><br>
         TB1: <br>Investigué y contrasté información de diversas fuentes para comprender y aplicar adecuadamente los conceptos de problem statement, hypothesis y assumptions en el desarrollo del proyecto.<br><br>
         TB2: <br>Desarrollé en conjunto los drivers arquitectónicos, incluyendo Design Purpose, Primary Functionality (User Stories) y Quality Attribute Scenarios. Para ello, investigué y apliqué conceptos de arquitectura de software, permitiendo estructurar correctamente los requerimientos y decisiones del sistema.<br><br>
+		TP:<br> A <br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: <br>Reconocí la importancia de dominar técnicas de investigación cualitativa mediante el diseño y ejecución de entrevistas a los dos segmentos objetivo. Esta experiencia me permitió comprender que el aprendizaje de nuevas estrategias de recolección de datos es vital para validar hipótesis y reducir la incertidumbre en el desarrollo de software.<br><br>
         TB2: <br>Al desarrollar las ADD Iterations, reconocí que el aprendizaje permanente es clave para tomar decisiones arquitectónicas fundamentadas. Fue necesario investigar conceptos como atributos de calidad, patrones arquitectónicos y diseño de microservicios, comprendiendo que el conocimiento debe actualizarse constantemente para diseñar soluciones robustas.<br><br>
+		TP:<br> A <br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: <br>Reconocí la importancia de investigar el sector de gestión de condominios para desarrollar una solución relevante, lo que me motivó a profundizar en nuevos conceptos y herramientas necesarias para el proyecto Edifika.<br><br>
         TB2: <br> Reconocí que diseñar la arquitectura de Edifika exige aprendizaje continuo, ya que trabajar con patrones como microservicios, DDD y atributos de calidad me motivó a investigar y profundizar en conceptos que no manejaba previamente.<br><br>
+		TP:<br> A <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br>Reconocí la importancia del aprendizaje continuo al desarrollar los cuadros As-Is, To-Be, el Impact Map y la entrevista, lo que me permitió mejorar mi análisis del usuario y comprender mejor cómo estructurar soluciones alineadas a sus necesidades reales.<br><br>
         TB2: <br>A partir del desarrollo del capítulo 4, reconocí la importancia del aprendizaje continuo para comprender conceptos clave de arquitectura de software y su aplicación en un caso real.<br><br>
+		TP:<br> A <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br>A partir del desarrollo del Lean UX Canvas, el análisis de competidores y las entrevistas realizadas, reconocí que el aprendizaje permanente es esencial para el desempeño profesional en ingeniería de software.<br>
-        TB2:<br> Reconocí la importancia del aprendizaje permanente porque, para elaborar estos diagramas, fue necesario reforzar conceptos como arquitectura, comunicación entre servicios y modelado de datos.
+        TB2:<br> Reconocí la importancia del aprendizaje permanente porque, para elaborar estos diagramas, fue necesario reforzar conceptos como arquitectura, comunicación entre servicios y modelado de datos.<br><br>
+		TP:<br> A <br><br>
       </td>
       <td>
         TB1: El desarrollo del proyecto Edifika nos permitió comprender que mantenerse en constante aprendizaje no es opcional, sino necesario. Cada sección trabajada en la TB1 nos presentó nuevos retos que exigieron investigar, cuestionar y adaptarnos.<br><br>
-        TB2: El desarrollo de la arquitectura de Edifika reafirmó que el aprendizaje permanente es indispensable en la ingeniería de software. La aplicación de ADD Iterations, patrones arquitectónicos y diseño basado en atributos de calidad evidenció que el conocimiento debe actualizarse continuamente para enfrentar retos reales del desarrollo de software.
+        TB2: El desarrollo de la arquitectura de Edifika reafirmó que el aprendizaje permanente es indispensable en la ingeniería de software. La aplicación de ADD Iterations, patrones arquitectónicos y diseño basado en atributos de calidad evidenció que el conocimiento debe actualizarse continuamente para enfrentar retos reales del desarrollo de software.<br><br>
+		TP:  <br><br>
       </td>
     </tr>
   </tbody>
