@@ -2500,7 +2500,7 @@ En esta sección se presenta el diagrama de base de datos relacional de Edifika,
 En esta sección se describen los patrones de diseño aplicados en el desarrollo de Edifika. Estos patrones fueron seleccionados con base en las necesidades específicas de cada módulo del sistema, con el objetivo de promover un código más organizado, reutilizable y fácil de mantener, alineado con los principios y estilos arquitectónicos definidos para la plataforma.
 
 **Repository Pattern:**
-Se aplica en todos los microservicios para desacoplar la lógica de dominio de la infraestructura de persistencia (MySQL). Esto permite que las reglas de negocio de Edifika no dependan directamente de las consultas SQL, facilitando la realización de pruebas unitarias y permitiendo cambiar el motor de base de datos en el futuro sin afectar el núcleo del sistema.
+Se aplica en todos los microservicios para desacoplar la lógica de dominio de la infraestructura de persistencia (PostgreSQL). Esto permite que las reglas de negocio de Edifika no dependan directamente de las consultas SQL, facilitando la realización de pruebas unitarias y permitiendo cambiar el motor de base de datos en el futuro sin afectar el núcleo del sistema.
 
 **Data Transfer Object (DTO):**
 Utilizado para el intercambio de información entre el API Gateway y los microservicios, así como entre las capas internas de cada servicio. El uso de DTOs asegura que solo se exponga la información necesaria hacia el cliente, protegiendo datos sensibles y optimizando el ancho de banda.
@@ -2526,7 +2526,7 @@ Escenario: Cuando la cantidad de condominios, unidades y usuarios registrados en
 Tácticas:
 - **Arquitectura basada en microservicios:** Cada módulo del sistema (pagos, reservas, comunicados, usuarios) opera de forma independiente, permitiendo escalar únicamente los componentes con mayor demanda sin afectar al resto.
 - **API Gateway como punto de entrada único:** Centraliza el enrutamiento de solicitudes hacia los microservicios correspondientes, distribuyendo la carga de manera ordenada y permitiendo incorporar nuevos servicios sin modificar los existentes.
-- **Base de datos relacional con modelo optimizado:** El uso de MySQL con relaciones bien definidas entre entidades permite manejar grandes volúmenes de registros sin comprometer la integridad ni el rendimiento de las consultas.
+- **Base de datos relacional con modelo optimizado:** El uso de PostgreSQL con relaciones bien definidas entre entidades permite manejar grandes volúmenes de registros sin comprometer la integridad ni el rendimiento de las consultas.
 
 ---
 
@@ -2560,7 +2560,7 @@ Escenario: Cuando varios usuarios realizan consultas simultáneas sobre deudas, 
 Tácticas:
 - **Paginación de resultados:** Las consultas de historial de pagos, comunicados y reservas se devuelven en páginas para reducir el volumen de datos transferidos en cada solicitud.
 - **Distribución de carga mediante API Gateway:** Al centralizar el enrutamiento, el API Gateway permite distribuir las solicitudes entre los microservicios disponibles, evitando que un solo servicio concentre toda la carga.
-- **Almacenamiento de imágenes en servicio externo:** Los comprobantes de pago e imágenes adjuntas se guardan en un servicio de almacenamiento separado, y la base de datos MySQL solo conserva la URL correspondiente, reduciendo el peso de las consultas.
+- **Almacenamiento de imágenes en servicio externo:** Los comprobantes de pago e imágenes adjuntas se guardan en un servicio de almacenamiento separado, y la base de datos PostgreSQL solo conserva la URL correspondiente, reduciendo el peso de las consultas.
 
 ---
 
@@ -2582,7 +2582,7 @@ Escenario: Cuando la pasarela de pagos Culqi procesa una transacción, el sistem
 Tácticas:
 - **Estados de pago definidos y trazables:** Cada pago registrado en el sistema pasa por estados claros (pendiente, validado, rechazado), con fecha, usuario responsable y referencia del comprobante, asegurando trazabilidad completa de cada operación.
 - **Validación antes de confirmar deuda como pagada:** El Payment Service verifica la respuesta de Culqi antes de actualizar el estado de la deuda del residente, evitando registros incorrectos ante fallos en la comunicación con el servicio externo.
-- **Restricciones en base de datos:** Se aplican constraints relacionales en MySQL para evitar inconsistencias entre pagos, deudas y usuarios, garantizando coherencia en la información financiera almacenada.
+- **Restricciones en base de datos:** Se aplican constraints relacionales en PostgreSQL para evitar inconsistencias entre pagos, deudas y usuarios, garantizando coherencia en la información financiera almacenada.
 
 ## 4.2. Architectural Drivers
 Esta sección describe los principales conceptos de diseño arquitectónico del sistema Edifika, así como los puntos de vista utilizados para su modelado y análisis. Se abordan las decisiones clave que permiten estructurar la solución de manera eficiente, considerando tanto los requerimientos funcionales como los atributos de calidad.
@@ -2701,8 +2701,8 @@ Las restricciones arquitectónicas definen los límites técnicos, tecnológicos
 | Uso de aplicación móvil                                 | EDIFIKA será consumida principalmente desde una aplicación móvil iOS/Android.                    | El backend debe exponer APIs REST seguras y optimizadas para dispositivos móviles.                                                                                    |
 | Uso de API Gateway                                      | Todas las solicitudes deben pasar por el API Gateway.                                              | Centraliza validación JWT, filtros de seguridad y enrutamiento a microservicios.                                                                                      |
 | Uso de JWT                                              | La autenticación se realizará mediante tokens JWT.                                               | Todos los servicios protegidos deben validar identidad y rol del usuario.                                                                                             |
-| Uso de MySQL                                            | La información estructurada se almacenará en una base de datos MySQL.                                                                                                | Las entidades como usuarios, edificios, unidades, deudas, pagos, reservas y comunicados se modelarán relacionalmente.                                                 |
-| Base o almacenamiento de imágenes                       | Las imágenes no deben guardarse directamente como binarios en MySQL.                                                                                                 | Se usará una base/servicio de almacenamiento de imágenes y en MySQL solo se guardará la URL o identificador.                                                          |
+| Uso de PostgreSQL                                            | La información estructurada se almacenará en una base de datos PostgreSQL.                                                                                                | Las entidades como usuarios, edificios, unidades, deudas, pagos, reservas y comunicados se modelarán relacionalmente.                                                 |
+| Base o almacenamiento de imágenes                       | Las imágenes no deben guardarse directamente como binarios en PostgreSQL.                                                                                                 | Se usará una base/servicio de almacenamiento de imágenes y en PostgreSQL solo se guardará la URL o identificador.                                                          |
 | Integración con Culqi                                   | Culqi solo puede usarse si se cumplen sus requisitos de cuenta, comercio, credenciales API y configuración de seguridad.                                             | Payment Service debe aislar la lógica de Culqi y manejar errores, validaciones y confirmaciones de pago.                                                              |
 | Dependencia de Firebase Cloud Messaging                 | Las notificaciones push dependerán de Firebase Cloud Messaging.                                                                                                      | Notification Service debe integrarse con FCM y manejar tokens de dispositivos.                                                                                        |
 | Límite del mini foro                                    | Cada usuario solo podrá realizar una publicación diaria.                                                                                                             | Communication Service debe validar fecha de última publicación antes de aceptar una nueva.                                                                            |
@@ -2747,7 +2747,7 @@ Las preocupaciones arquitectónicas representan los aspectos críticos del siste
 | AD-04 | Uso de JWT | Restricción | Alta | La autenticación se implementará mediante tokens JWT. |
 | AD-05 | Integridad de datos | Atributo de calidad | Alta | La información de pagos, deudas y reservas debe mantenerse consistente. |
 | AD-06 | Uso de API Gateway | Restricción | Alta | Todas las solicitudes deben pasar por un punto centralizado. |
-| AD-07 | Uso de MySQL | Restricción | Alta | Los datos estructurados se almacenan en una base relacional. |
+| AD-07 | Uso de PostgreSQL | Restricción | Alta | Los datos estructurados se almacenan en una base relacional. |
 
 ### 4.3.1.2 Establish Iteration Goal by Selecting Drivers
 
@@ -2764,7 +2764,7 @@ Se refinan los siguientes elementos del sistema:
   - Payment Service
   - Reservation Service
   - IAM / Auth Service
-- **Base de datos MySQL**
+- **Base de datos PostgreSQL**
 
 
 ### 4.3.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
@@ -2780,7 +2780,7 @@ Se adoptan los siguientes conceptos de diseño:
 - **Separación por dominios**  
   Cada servicio maneja una responsabilidad específica, mejorando el rendimiento.
 
-- **Base de datos relacional (MySQL)**  
+- **Base de datos relacional (PostgreSQL)**  
   Permite mantener la integridad de las relaciones entre entidades.
 
 
@@ -2792,7 +2792,7 @@ Se adoptan los siguientes conceptos de diseño:
 | IAM / Auth Service | Autenticación y roles | `/auth` |
 | Payment Service | Gestión de pagos y deudas | `/payments` |
 | Reservation Service | Gestión de reservas | `/reservations` |
-| MySQL | Persistencia de datos | Conexión interna |
+| PostgreSQL | Persistencia de datos | Conexión interna |
 
 
 
@@ -2835,7 +2835,7 @@ Se refinan los siguientes elementos:
 - **Payment Service**
 - **Reservation Service**
 - **Integración con Culqi**
-- **Base de datos MySQL**
+- **Base de datos PostgreSQL**
 
 
 ### 4.3.2.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
@@ -2889,7 +2889,7 @@ Para garantizar la integridad (AD-08) y disponibilidad (AD-09), se define el sig
 
 2. **Procesamiento:** Se invoca a la pasarela **Culqi**.
 
-3. **Actualización:** Tras la respuesta exitosa de Culqi, el `Payment Service` comunica internamente el cambio para **actualizar la deuda** en MySQL.
+3. **Actualización:** Tras la respuesta exitosa de Culqi, el `Payment Service` comunica internamente el cambio para **actualizar la deuda** en PostgreSQL.
 
 4. **Notificación:** Una vez confirmada la actualización en la base de datos, se dispara el evento para **notificar al usuario** vía Firebase.
 
@@ -2943,7 +2943,7 @@ Se refinan los siguientes elementos:
 - **Communication Service**
 - **Notification Service**
 - **Firebase Integration**
-- **Base de datos MySQL**
+- **Base de datos PostgreSQL**
 
 
 ### 4.3.3.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
