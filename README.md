@@ -2468,9 +2468,300 @@ Se adoptan los siguientes conceptos de diseño:
 # CAPÍTULO V: Product Implementation, Validation & Deployment
 ### 5.1. Testing Suites & General Patterns
 ##### 5.1.1. Backend Application Core Testing Suite
+En esta sección se presentan las pruebas realizadas al backend de la aplicación, desarrolladas con el objetivo de validar el correcto funcionamiento de los principales componentes del sistema. Para la implementación de los tests se utilizaron las herramientas JUnit y Mockito, ampliamente empleadas en aplicaciones desarrolladas con Spring Boot para pruebas unitarias y simulación de dependencias.
+
+Las pruebas fueron enfocadas principalmente en los módulos de autenticación (Auth) y gestión de usuarios (User), ya que actualmente representan el núcleo funcional implementado en el backend del proyecto. Asimismo, se realizaron pruebas sobre los Controllers, Queries y servicios relacionados, verificando el comportamiento esperado de los endpoints, la correcta respuesta de las consultas y el manejo adecuado de la lógica de negocio.El uso de Mockito permitió simular dependencias como servicios y repositorios, evitando la necesidad de conectarse directamente a la base de datos durante las pruebas. Por otro lado, JUnit facilitó la validación automatizada de resultados esperados, contribuyendo a mejorar la calidad, estabilidad y mantenibilidad del sistema.
+
+A continuación, se muestran evidencias de las pruebas ejecutadas y sus respectivos resultados satisfactorios.
+
+**COMMANDS**
+
+<img src="assets/img/RoleCommand.PNG" alt="context"/>
+
+<img src="assets/img/UserCommand.PNG" alt="context"/>
+
+**QUERIES**
+
+<img src="assets/img/UserQuery.PNG" alt="context"/>
+
+**COMMANDS**
+
+<img src="assets/img/AuthController.PNG" alt="context"/>
+
+<img src="assets/img/RolesController.PNG" alt="context"/>
+
+<img src="assets/img/UserController.PNG" alt="context"/>
+
 ##### 5.1.2. Pattern Based Backend Application(s)
+
+
+En esta sección se detallan los patrones de diseño y arquitectura utilizados en el backend del proyecto desarrollado con Spring Boot. La implementación de estos patrones permitió mantener una estructura desacoplada, organizada y preparada para futuras ampliaciones del sistema.
+
+### 1. Arquitectura en Capas
+
+a. El backend fue organizado en múltiples capas separadas según sus responsabilidades. Se utilizaron paquetes como:
+- `interfaces.rest`
+- `application`
+- `domain`
+- `infrastructure`
+- `shared`
+
+b. La capa REST se encarga únicamente de manejar solicitudes HTTP y respuestas JSON mediante Controllers como `UserController` y `AuthenticationController`.
+
+c. Toda la lógica de negocio relacionada con autenticación, validaciones y manejo de usuarios fue trasladada hacia servicios especializados dentro de `application.commandservices` y `application.queryservices`.
+
+d. Esta estructura ayudó a reducir el acoplamiento entre componentes y facilitó la mantenibilidad del proyecto conforme fue creciendo.
+
+
+### 2. Patrón de Repositorio
+
+a. Se implementó el patrón Repository utilizando Spring Data JPA mediante interfaces como `UserRepository` y `RoleRepository`.
+
+b. Esto permitió abstraer completamente la lógica de acceso a datos sin necesidad de escribir consultas SQL directamente dentro de los servicios.
+
+c. La implementación también facilitó el manejo de entidades persistentes y relaciones entre usuarios y roles utilizando anotaciones JPA.
+
+
+### 3. MVC (Model-View-Controller)
+
+La aplicación sigue una estructura basada en MVC adaptada a servicios REST.
+
+- Los Controllers reciben solicitudes HTTP.
+- Los Services contienen la lógica de negocio.
+- Las entidades del dominio representan la información persistente del sistema.
+
+En el proyecto, los Controllers fueron diseñados para ser ligeros, delegando toda la lógica compleja a los servicios correspondientes. Esto permitió tener endpoints más limpios y fáciles de probar mediante JUnit y Mockito.
+
+
+### 4. Singleton
+
+a. Los servicios y repositories administrados por Spring funcionan bajo el patrón Singleton por defecto.
+
+b. Esto significa que componentes como `TokenServiceImpl`, `HashingServiceImpl` o `UserDetailsServiceImpl` mantienen una única instancia durante toda la ejecución de la aplicación.
+
+c. Gracias a esto se optimizó el consumo de memoria y se centralizó la gestión de dependencias compartidas.
+
+
+### 5. Assembler Pattern
+
+Se utilizaron clases de transformación dentro del paquete `transform` para convertir entidades internas en Resources expuestos por la API, esto evitó retornar directamente entidades JPA al frontend, reduciendo riesgos de acoplamiento y exposición innecesaria de información sensible.Además, permitió controlar mejor la estructura de las respuestas JSON enviadas al cliente.
+
+### 6. Dependency Injection
+
+Spring Boot administra automáticamente las dependencias del sistema mediante Inyección de Dependencias.
+
+Por ejemplo:
+- Los Controllers reciben Services.
+- Los Services reciben Repositories.
+- Los componentes de seguridad reciben servicios de autenticación y JWT.
+
+Esta implementación facilitó enormemente la modularidad del sistema y permitió reemplazar dependencias reales por mocks durante las pruebas unitarias.
+
+
+### 7. CQRS (Command Query Responsibility Segregation)
+
+a. El backend separa operaciones de escritura y lectura mediante Commands y Queries.
+
+Para las operaciones de modificación se implementaron comandos como:
+- `SignUpCommand`
+- `UpdateUserCommand`
+- `DeleteUserCommand`
+
+Mientras que las operaciones de consulta fueron manejadas mediante Queries como:
+- `GetUserByIdQuery`
+- `GetAllUsersQuery`
+- `GetUserByEmailQuery`
+Esta separación ayudó a mantener una estructura más clara y especializada, especialmente en los servicios `UserCommandServiceImpl` y `UserQueryServiceImpl`.
+
+
 ##### 5.1.3. Pattern Based Custom Software Library
-##### 5.1.4. Framework Pattern Driven Refactoring Report
+En esta sección se describen las principales librerías y dependencias utilizadas en el backend, así como su relación con la arquitectura y patrones implementados.
+
+### 1. Lombok
+
+Lombok fue utilizado para reducir código repetitivo dentro de entidades, DTOs y Resources.
+
+Mediante anotaciones como:
+- `@Getter`
+- `@Setter`
+- `@Builder`
+- `@NoArgsConstructor`
+
+se simplificó considerablemente la definición de clases, haciendo el código más limpio y legible.
+
+### 2. Spring Boot
+
+a. Spring Boot fue seleccionado como framework principal debido a su integración nativa con:
+- Spring Security
+- JPA
+- JWT
+- Testing
+- Dependency Injection
+
+Además, permitió estructurar rápidamente el proyecto utilizando buenas prácticas empresariales y arquitectura desacoplada.
+
+
+
+### 3. Spring Data JPA
+
+Esta librería fue utilizada para gestionar la persistencia de datos mediante entidades y repositories, gracias a JPA se pudieron mapear relaciones entre entidades como usuarios y roles utilizando programación orientada a objetos en lugar de consultas SQL manuales.Asi mismo, nos permitió aprovechar funcionalidades automáticas como generación de queries, paginación y manejo de entidades persistentes.
+
+### 4. JWT (JSON Web Token)
+
+El sistema implementa JWT para autenticación stateless.
+
+Después del login:
+- El backend genera un token firmado.
+- El cliente almacena el token.
+- Cada request protegido valida el token automáticamente mediante filtros de seguridad.
+
+Lo cual permitió evitar sesiones tradicionales y mejorar la seguridad del sistema.
+
+
+### 5. Mockito
+
+Mockito fue utilizado para simular dependencias durante las pruebas unitarias.
+
+Gracias a esto fue posible:
+- Simular repositories
+- Mockear servicios
+- Validar respuestas de Controllers
+- Probar lógica sin conectarse a la base de datos
+
+Esto ayudó a mantener pruebas rápidas y desacopladas.
+
+
+### 6. JUnit
+
+a. JUnit fue utilizado como framework principal para pruebas automatizadas del backend.
+
+b. Se realizaron pruebas sobre:
+- Controllers
+- Queries
+- Servicios de autenticación
+- Gestión de usuarios
+
+Las pruebas permitieron validar tanto respuestas correctas como manejo de errores y comportamiento esperado de los endpoints REST.
+
+
+### 7. Spring Security
+
+a. Spring Security fue integrado para proteger los endpoints del backend mediante autenticación y autorización.
+
+b. Se configuraron filtros personalizados para validar JWT en cada solicitud.
+
+También se implementó `UserDetailsService` para cargar usuarios autenticados desde la base de datos y gestionar permisos según roles.
+
+
+#### 5.1.4. Framework Pattern Driven Refactoring Report
+
+En esta sección se detallan las mejoras aplicadas al backend del proyecto a partir de un proceso de refactorización guiado por patrones de diseño y buenas prácticas del framework Spring Boot. Conforme el desarrollo de la aplicación fue avanzando, especialmente en los módulos de autenticación y gestión de usuarios, se identificaron distintos puntos donde el código comenzaba a presentar mayor acoplamiento entre componentes, lógica repetitiva y responsabilidades mezcladas dentro de una misma clase. Debido a ello, se realizaron diversas mejoras orientadas a obtener una arquitectura más modular, escalable y mantenible.
+
+### 1. Arquitectura en Capas
+
+Uno de los principales cambios realizados fue la reorganización completa de la estructura del backend siguiendo una arquitectura en capas. Inicialmente, varias clases contenían responsabilidades mezcladas relacionadas con acceso a datos, lógica de negocio y manejo de peticiones HTTP. Posteriormente, el proyecto fue dividido en capas especializadas como `interfaces.rest`, `application`, `domain` e `infrastructure`.
+
+Gracias a esta refactorización, los Controllers quedaron enfocados únicamente en recibir solicitudes y devolver respuestas HTTP, mientras que la lógica de negocio fue trasladada hacia servicios especializados dentro de la capa de aplicación. Asimismo, toda la persistencia de datos fue centralizada mediante repositories JPA, permitiendo mantener una mejor separación de responsabilidades y reduciendo el acoplamiento entre componentes.Esta reorganización también facilitó futuras ampliaciones del sistema, ya que permitió agregar nuevos módulos sin afectar directamente otras partes del backend.
+
+### 2. Patrón MVC (Model-View-Controller)
+
+El backend fue refactorizado siguiendo el patrón MVC adaptado a APIs REST. Antes de la refactorización, algunos Controllers contenían validaciones y lógica de negocio directamente dentro de los endpoints, dificultando el mantenimiento y reutilización del código.
+
+Posteriormente, los Controllers fueron simplificados para encargarse únicamente del flujo de entrada y salida de datos mediante solicitudes HTTP y respuestas JSON. Toda la lógica relacionada con autenticación, gestión de usuarios y validaciones fue trasladada hacia servicios especializados.
+
+Por ejemplo, componentes como `AuthenticationController` o `UserController` únicamente gestionan las solicitudes REST y delegan el procesamiento a clases como `UserCommandServiceImpl` o `UserQueryServiceImpl`. Esto permitió mantener Controllers más ligeros, legibles y fáciles de probar mediante pruebas unitarias. Además, la implementación de MVC ayudó a mejorar la organización general del proyecto y facilitó el trabajo colaborativo entre frontend y backend debido a una estructura de respuestas más clara y consistente.
+
+### 3. Patrón de Repositorio
+
+Otra mejora importante fue la implementación del patrón Repository utilizando Spring Data JPA. Durante las primeras etapas del desarrollo, parte de la lógica relacionada con acceso a datos comenzaba a mezclarse con la lógica de negocio, generando dependencias innecesarias entre servicios y persistencia.
+
+Para solucionar esto, se implementaron repositories especializados como `UserRepository` y `RoleRepository`, encargados exclusivamente de interactuar con la base de datos. Gracias a esta refactorización, los servicios dejaron de depender directamente de consultas SQL o lógica específica de persistencia.
+
+Además, el uso de Spring Data JPA permitió aprovechar funcionalidades automáticas como:
+- generación de queries por nombre de método,
+- manejo automático de entidades persistentes,
+- relaciones entre entidades,
+- paginación y consultas personalizadas.
+
+Esto redujo considerablemente la cantidad de código repetitivo dentro del backend y facilitó el mantenimiento de la capa de persistencia.
+
+### 4. Patrón CQRS (Command Query Responsibility Segregation)
+
+Conforme el backend fue creciendo, se identificó que las operaciones de lectura y escritura comenzaban a concentrarse dentro de los mismos servicios, dificultando la organización y escalabilidad del sistema. Debido a ello, se decidió aplicar principios básicos de CQRS separando Commands y Queries.
+
+Las operaciones de escritura fueron implementadas mediante Commands como:
+- `SignUpCommand`
+- `UpdateUserCommand`
+- `DeleteUserCommand`
+
+Mientras que las operaciones de lectura fueron separadas mediante Queries como:
+- `GetUserByIdQuery`
+- `GetAllUsersQuery`
+- `GetUserByEmailQuery`
+
+Esta separación permitió organizar mejor la lógica del backend y crear servicios especializados para cada responsabilidad. Como resultado, se implementaron componentes como `UserCommandServiceImpl` y `UserQueryServiceImpl`, reduciendo la complejidad dentro de una sola clase y facilitando futuras ampliaciones relacionadas con auditoría, eventos o validaciones adicionales.
+
+### 5. Patrón DTO y Resource
+
+Otra mejora importante consistió en desacoplar las entidades internas del backend respecto a las respuestas enviadas al frontend. Inicialmente, algunas entidades del dominio podían exponerse directamente mediante la API REST, lo cual generaba riesgos de seguridad y un mayor acoplamiento entre capas.
+
+Para solucionar esto, se implementaron DTOs y Resources especializados encargados de representar únicamente la información necesaria para cada endpoint. Gracias a esta refactorización fue posible:
+- controlar mejor la información expuesta,
+- evitar enviar atributos sensibles,
+- mantener independencia entre persistencia y presentación,
+- mejorar la claridad de las respuestas JSON.
+
+Además, esta separación permitió adaptar fácilmente las respuestas del backend según las necesidades del frontend sin modificar las entidades principales del dominio.
+
+### 6. Patrón Assembler
+
+Para complementar el uso de DTOs y Resources, se implementó el patrón Assembler mediante clases de transformación ubicadas dentro del paquete `transform`.
+
+Estas clases se encargan de convertir:
+- entidades → resources,
+- resources → commands,
+- commands → entidades.
+
+Antes de esta refactorización, gran parte de las conversiones de datos se realizaban manualmente dentro de Controllers o Services, generando código repetitivo y dificultando el mantenimiento.
+
+Con la incorporación de Assemblers, toda la lógica de transformación quedó centralizada en componentes especializados, mejorando la reutilización del código y facilitando modificaciones futuras en las estructuras de datos.
+
+### 7. Patrón Singleton
+
+Los principales componentes del backend fueron gestionados mediante el contenedor IoC de Spring Boot utilizando el alcance Singleton por defecto.
+
+Esto significa que servicios, repositories y componentes de seguridad como:
+- `TokenServiceImpl`,
+- `HashingServiceImpl`,
+- `UserDetailsServiceImpl`
+
+mantienen una única instancia durante toda la ejecución de la aplicación.
+
+La implementación de Singleton permitió optimizar el consumo de memoria, centralizar configuraciones compartidas y mejorar la administración de dependencias internas del backend.
+
+Asimismo, esta estrategia ayudó a mantener una arquitectura más eficiente y consistente para componentes reutilizados constantemente durante las solicitudes HTTP.
+
+### 8. Dependency Injection
+
+El backend fue desarrollado utilizando Inyección de Dependencias mediante Spring Framework. Esta refactorización permitió desacoplar completamente los componentes internos del sistema y evitar instanciaciones manuales dentro de las clases.
+
+Por ejemplo:
+- los Controllers reciben Services,
+- los Services reciben Repositories,
+- los componentes de seguridad reciben servicios JWT,
+- los filtros reciben componentes de autenticación.
+
+Gracias a Dependency Injection fue posible mejorar considerablemente la modularidad y reutilización del sistema. Además, esta implementación facilitó enormemente las pruebas unitarias utilizando Mockito, ya que permitió reemplazar dependencias reales por mocks sin modificar la lógica original del backend.
+
+### 9. Refactorización orientada a Seguridad
+
+Finalmente, una de las refactorizaciones más importantes estuvo relacionada con la seguridad del backend. Inicialmente, la autenticación del sistema era más básica y se encontraba distribuida entre distintos componentes.
+
+Posteriormente, se integró Spring Security junto con JWT para implementar autenticación stateless basada en tokens. Se añadieron filtros personalizados encargados de validar automáticamente los tokens en cada solicitud protegida y se implementaron servicios especializados para la generación y validación de JWT.
+
+Asimismo, se incorporó BCrypt para el hashing seguro de contraseñas antes de almacenarlas en la base de datos, evitando el manejo de información sensible en texto plano.
+
+Gracias a esta refactorización, el backend obtuvo una arquitectura de seguridad más moderna, modular y alineada con buenas prácticas actuales de desarrollo backend y APIs REST.
 
 
 
