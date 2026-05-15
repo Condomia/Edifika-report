@@ -2506,13 +2506,18 @@ Enlace del Board: `https://trello.com/invite/b/6a0527cb585a58fe5f5375ba/ATTI1122
 | TS03 | Implementación de endpoints de gestión de usuarios | T09 | Implementar endpoint GET /api/v1/roles | Desarrollar endpoint para consultar los roles disponibles del sistema | 2 | Renato Zegarra | Done |
 | TS05 | Configuración de base de datos PostgreSQL independiente | T10 | Configurar PostgreSQL para microservicio IAM | Configurar conexión, entidades JPA y creación automática de tablas users, roles y user_roles | 3 | Antuanete Ortiz | Done |
 | TS14 | Documentación de API con Swagger | T11 | Integrar Swagger con autenticación JWT en IAM | Configurar Swagger UI con soporte Bearer token para documentar y probar endpoints | 2 | Antuanete Ortiz | Done |
-| | | | | | | | To-do |
-| | | | | | | | To-do |
-| | | | | | | | To-do |
-| | | | | | | | To-do |
-| | | | | | | | To-do |
-| | | | | | | | To-do |
-
+| US41 | Visualizar sección Hero de la Landing Page | T12 | Diseñar sección Hero responsive | Implementar título principal, subtítulo, CTAs y mockup del producto adaptados a distintos dispositivos | 4 | Alessandra Becerra | Done |
+| US41 | Visualizar sección Hero de la Landing Page | T13 | Implementar scroll suave hacia funcionalidades | Configurar navegación automática al hacer clic en “Ver funciones” | 2 | Alessandra Becerra | Done |
+| US42 | Navegar entre secciones de la Landing Page | T14 | Implementar navbar con scroll automático | Configurar navegación entre secciones mediante enlaces del navbar | 3 | Alessandra Becerra | Done |
+| US42 | Navegar entre secciones de la Landing Page | T15 | Resaltar sección activa en navbar | Detectar sección visible y aplicar resaltado dinámico al ítem correspondiente | 2 | Alessandra Becerra | Done |
+| US42 | Navegar entre secciones de la Landing Page | T16 | Implementar navbar sticky | Configurar navbar fijo luego de superar 100px de scroll | 2 | Alessandra Becerra | Done |
+| US43 | Cambiar idioma de la Landing Page | T17 | Implementar selector de idioma ES/EN | Configurar cambio dinámico de idioma sin recargar la página | 4 | Alessandra Becerra | Done |
+| US43 | Cambiar idioma de la Landing Page | T18 | Configurar idioma por defecto | Detectar primera visita y establecer español como idioma inicial | 2 | Alessandra Becerra | Done |
+| US44 | Cambiar tema visual (claro/oscuro) | T19 | Implementar alternancia de tema | Configurar cambio dinámico entre modo claro y oscuro | 3 | Alessandra Becerra | Done |
+| US45 | Visualizar sección de funcionalidades | T20 | Diseñar tarjetas de funcionalidades | Implementar tarjetas para módulos de pagos, reservas y comunicados | 4 | Alessandra Becerra | Done |
+| US45 | Visualizar sección de funcionalidades | T21 | Implementar lista de características | Agregar íconos de verificación y listado de funcionalidades por módulo | 3 | Alessandra Becerra | Done |
+| US45 | Visualizar sección de funcionalidades | T22 | Añadir etiqueta “Más popular” | Resaltar el módulo de Gestión de Pagos y Deudas | 1 | Alessandra Becerra | Done |
+| US46 | Visualizar sección del equipo | T23 | Diseñar sección del equipo | Implementar tarjetas con foto y nombre de los integrantes | 3 | Alessandra Becerra | Done |
 
 
 ##### 5.3.1.2. Development Evidence for Sprint Review
@@ -2525,9 +2530,9 @@ A lo largo del Sprint 1, el historial de commits evidencia el avance incremental
 | Edifika-Microservice-IAM | develop | 9a187d4 | feat(IAM): Add IAM auth module and security | - | 12/05/2026 |
 | Edifika-Microservice-IAM | develop | ebcde37 | fix(IAM): fixing error handling to controllers | - | 12/05/2026 |
 | Edifika-Microservice-IAM | develop | c28c544 | feat: Add validations | - | 14/05/2026 |
-| Edifika-Landing-Page | develop | | | - | |
-| Edifika-Landing-Page | develop | | | - | |
-| Edifika-Landing-Page | develop | | | - | |
+| Edifika-Landing-Page | main | | | - | |
+| Edifika-Landing-Page | main | | | - | |
+| Edifika-Landing-Page | main | | | - | |
 
 ##### 5.3.1.3. Testing Suite Evidence for Sprint Review
 
