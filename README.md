@@ -2389,11 +2389,11 @@ En esta sección se presentan los diagramas que describen el comportamiento y la
 
 </div>
 
-Este diagrama muestra el flujo de registro e inicio de sesión del administrador en Edifika. El administrador ingresa sus datos a través de la App Mobile, que envía la solicitud al API Gateway, el cual la redirige al Auth Service para verificar y registrar las credenciales en la base de datos MySQL, retornando finalmente un token JWT para el acceso a la plataforma.
+Este diagrama muestra el flujo de registro e inicio de sesión del administrador en Edifika. Durante el registro, el administrador ingresa sus datos a través de la App Mobile, que envía la solicitud al API Gateway, el cual la redirige al Auth Service para verificar que el correo no esté registrado y crear el usuario en la base de datos PostgreSQL, retornando un 201. Durante el inicio de sesión, el Auth Service valida las credenciales y el rol del usuario, generando un token JWT que permite el acceso a la plataforma.
 
 ---
 
-**Registro e inicio de sesión del Inquilino/Propietario**
+** Inicio de sesión del Inquilino/Propietario**
 
 <div align="center">
 
@@ -2403,7 +2403,7 @@ Este diagrama muestra el flujo de registro e inicio de sesión del administrador
 
 </div>
 
-Este diagrama presenta el flujo de registro e inicio de sesión del propietario o inquilino. Al igual que el administrador, el residente crea su cuenta vinculada a su unidad residencial a través de la App Mobile, pasando por el API Gateway y el Auth Service para validar sus credenciales y obtener acceso a la plataforma mediante un token JWT.
+Este diagrama presenta el flujo de inicio de sesión del propietario o inquilino en Edifika. A diferencia del administrador, el residente no puede registrarse por su cuenta ya que es el administrador quien gestiona su registro desde el microservicio de Residential Management. El residente únicamente ingresa sus credenciales, el Auth Service las valida contra la base de datos PostgreSQL y genera un token JWT que le permite acceder a las funcionalidades disponibles para su rol.
 
 ---
 
@@ -2418,7 +2418,15 @@ Este diagrama presenta el flujo de registro e inicio de sesión del propietario 
 
 </div>
 
-Este diagrama ilustra el proceso de publicación de comunicados oficiales en Edifika. El administrador redacta y publica el comunicado desde la App Mobile, el cual es procesado por el API Gateway y el Announcement Service, que lo almacena en la base de datos y envía notificaciones push a todos los residentes mediante Firebase.
+Se identificaron cuatro flujos principales:
+
+El primero corresponde a la publicación de comunicados oficiales, donde se aplica el **Saga Pattern de Coreografía** con tres pasos: el Announcement Service guarda el comunicado (Paso 1), emite el evento ComunicadoPublicado (Paso 2) y el Notification Service envía las alertas push a los residentes via Firebase (Paso 3). Si Firebase falla, la acción compensatoria registra la notificación como no enviada para reintentarla posteriormente, garantizando que el comunicado quede guardado independientemente del fallo en la notificación.
+
+El segundo flujo corresponde a la respuesta de residentes a los comunicados, donde el sistema valida que cada residente solo pueda enviar un mensaje diario, retornando un error 429 si supera el límite establecido.
+
+El tercero corresponde a la creación de encuestas por parte del administrador, donde el Announcement Service guarda la encuesta con sus opciones y notifica a los residentes mediante el Notification Service.
+
+El cuarto flujo corresponde a la respuesta de encuestas por parte de los residentes, donde el sistema valida que cada residente solo pueda votar una vez por encuesta, retornando un error 409 en caso de intento duplicado. El administrador puede consultar los resultados con el conteo y porcentaje de votos por opción, con actualización en tiempo real gestionada desde el frontend.
 
 ---
 
@@ -2433,7 +2441,13 @@ Este diagrama ilustra el proceso de publicación de comunicados oficiales en Edi
 
 </div>
 
-Este diagrama describe el flujo completo de gestión de pagos en Edifika. El residente consulta su deuda, registra su pago adjuntando el comprobante, y el administrador lo valida desde la plataforma. Una vez aprobado, el Payment Service genera automáticamente una constancia en PDF y notifica al residente mediante una notificación push.
+Este diagrama describe el flujo completo de gestión de pagos en Edifika, dividido en tres secciones.
+
+La primera sección muestra la consulta de deuda, donde el residente obtiene el monto pendiente desde el Payment Service a través del API Gateway.
+
+La segunda sección muestra el registro de pago, donde el residente adjunta su comprobante, el Payment Service lo almacena y registra el pago con estado PENDIENTE hasta que el administrador lo valide.
+
+La tercera sección muestra la aprobación del pago, donde se aplica el **Saga Pattern de Coreografía** con tres pasos: el Payment Service actualiza el estado a PAGADO (Paso 1), genera la constancia PDF (Paso 2) y emite el evento PagoAprobado al Notification Service para enviar la alerta push al residente (Paso 3). Si Culqi falla durante la transacción, la acción compensatoria revierte el estado de la deuda a PENDIENTE y registra el intento fallido, garantizando consistencia en la información financiera sin dejar datos en estado inconsistente.
 
 ---
 
@@ -2447,7 +2461,13 @@ Este diagrama describe el flujo completo de gestión de pagos en Edifika. El res
 
 </div>
 
-Este diagrama muestra el flujo de reserva de áreas comunes en Edifika. El residente consulta la disponibilidad, selecciona un horario y envía su solicitud. El Reservation Service verifica que no existan duplicados y registra la reserva como pendiente. El administrador la revisa y aprueba, notificando automáticamente al residente sobre la confirmación.
+Este diagrama muestra el flujo de reserva de áreas comunes en Edifika, dividido en tres secciones.
+
+La primera sección muestra la consulta de disponibilidad, donde el residente obtiene el calendario de horarios disponibles del área seleccionada desde el Reservation Service.
+
+La segunda sección muestra la creación de la reserva, donde el Reservation Service verifica que no existan duplicados en el horario solicitado antes de registrar la reserva con estado PENDIENTE.
+
+La tercera sección muestra la aprobación de la reserva por el administrador, donde se aplica el **Saga Pattern de Coreografía** con tres pasos: el Reservation Service actualiza el estado a APROBADO (Paso 1), emite el evento ReservaAprobada (Paso 2) y el Notification Service envía la alerta push al residente (Paso 3). Si la notificación falla, la acción compensatoria registra la notificación como pendiente de envío sin afectar el estado de la reserva, que permanece como APROBADO.
 
 **Generación y exportación de reportes**
 
@@ -2457,7 +2477,15 @@ Este diagrama muestra el flujo de reserva de áreas comunes en Edifika. El resid
 
 *Figura 34. Diagrama de Secuencia - Reportes Financieros. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
-Este diagrama describe el flujo de generación y exportación de reportes financieros en Edifika. El administrador selecciona el período y tipo de reporte, el Report Service consulta los datos de pagos y deudas en la base de datos, genera el resumen financiero y lo presenta en pantalla. Adicionalmente, permite exportar el reporte en formato PDF y consultar la lista de residentes morosos para tomar acciones administrativas.
+Este diagrama describe el flujo de reportes financieros en Edifika, dividido en tres secciones.
+
+La primera sección muestra la generación del reporte financiero, donde el Report Service consulta los datos al Payment Service mediante una llamada REST, consolida la información y genera el resumen de ingresos, egresos y deudas del período seleccionado.
+
+La segunda sección muestra la exportación del reporte, donde el administrador puede elegir entre formato PDF o Excel. En ambos casos el Report Service consulta los datos al Payment Service y genera el archivo correspondiente para su descarga, retornando el archivo con el Content-Type adecuado según el formato seleccionado.
+
+La tercera sección muestra la consulta de residentes morosos, donde el Report Service consulta al Payment Service las deudas pendientes y retorna la lista de residentes con pagos atrasados para que el administrador pueda tomar acciones.
+
+Este diagrama no requiere Saga Pattern porque el Report Service únicamente realiza operaciones de lectura sin modificar estados ni gestionar transacciones distribuidas.
 
 ### 4.1.5. Relational/Non Relational Database Diagram
 
