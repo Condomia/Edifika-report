@@ -2530,9 +2530,11 @@ A lo largo del Sprint 1, el historial de commits evidencia el avance incremental
 | Edifika-Microservice-IAM | develop | 9a187d4 | feat(IAM): Add IAM auth module and security | - | 12/05/2026 |
 | Edifika-Microservice-IAM | develop | ebcde37 | fix(IAM): fixing error handling to controllers | - | 12/05/2026 |
 | Edifika-Microservice-IAM | develop | c28c544 | feat: Add validations | - | 14/05/2026 |
-| Edifika-Landing-Page | main | | | - | |
-| Edifika-Landing-Page | main | | | - | |
-| Edifika-Landing-Page | main | | | - | |
+| Edifika-Landing-Page | main | c202af4 | feat: added Landing Page | - | 14/05/2026 |
+| Edifika-Landing-Page | main | 5fa5544 | feat: added i18n | - | 14/05/2026 |
+| Edifika-Landing-Page | main | 126e37c | improve mobile hero responsive | - | 15/05/2026 |
+| Edifika-Landing-Page | main | 05cf8e0 | fix: fixing responsive hero layout on mobile | - | 15/05/2026 |
+| Edifika-Landing-Page | main | 823afc8 | fix: fixing mobile navbar hamburger visibility | - | 15/05/2026 |
 
 ##### 5.3.1.3. Testing Suite Evidence for Sprint Review
 
@@ -2655,7 +2657,14 @@ En esta sección se documentan los procesos realizados para poner en producción
 
 **Landing Page**
 
+El despliegue de la landing page se realizó utilizando GitHub Pages, un servicio que permite publicar sitios web estáticos directamente desde un repositorio de GitHub.
+Primero, se subió el código fuente del proyecto (HTML, CSS y JavaScript) a un repositorio en GitHub. Luego, se verificó que la estructura del proyecto estuviera correctamente organizada, asegurando que el archivo principal (index.html) se encuentre en la raíz o en la carpeta configurada para el despliegue.
+Posteriormente, se accedió a la sección de Settings del repositorio, donde en el apartado de Pages se configuró la rama de publicación (main) como fuente del sitio. Una vez guardados los cambios, GitHub generó automáticamente una URL pública para acceder a la landing page.
+Finalmente, se validó el correcto funcionamiento del sitio en producción, comprobando la carga de estilos, scripts y la adaptación responsive en distintos dispositivos. De esta manera, la landing page quedó desplegada y accesible de forma pública mediante GitHub Pages.
 
+<p align="center">
+  <img src="assets/img/deploy_landing.png" alt="Despliegue Landing en Github Pages" width="700"/>
+</p>
 
 **Microservicio IAM - Backend**
 
