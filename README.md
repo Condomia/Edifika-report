@@ -226,11 +226,11 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB1: <br>
         Investigué y documenté el perfil de la startup Condomia, el nombre y concepto del producto Edifika, y los antecedentes del problema que busca resolver en la gestión de condominios.<br><br>
         TB2: <br> Investigué y apliqué conceptos de arquitectura de software para definir los principios, enfoques y patrones del sistema Edifika, y desarrollé los diagramas de secuencia junto con las tácticas arquitectónicas del proyecto.<br><br>
-		TP:<br> A <br><br>
+		TP:<br> Investigué y apliqué conocimientos de desarrollo backend con Spring Boot para implementar el microservicio IAM de Edifika, incluyendo autenticación JWT, encriptación con BCrypt, filtros de autorización y documentación de API con Swagger. Además, configuré el despliegue del servicio en Render y la base de datos PostgreSQL en Supabase, lo que me exigió aprender sobre contenedorización con Docker y gestión de variables de entorno en plataformas cloud. <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br>Desarrollé los cuadros As-Is y To-Be, el Impact Map y la entrevista a un usuario, para poder analizar el comportamiento del usuario y alinear sus necesidades con la solución propuesta.<br><br>
         TB2: <br>Durante el desarrollo del capítulo 4, actualicé y apliqué conocimientos relacionados con el diseño de arquitectura de software, incluyendo la identificación de drivers arquitectónicos, constraints y concerns, así como la definición de componentes y relaciones dentro del sistema. Este proceso me permitió fortalecer mi comprensión sobre cómo estructurar una solución técnica alineada a los requerimientos del proyecto.<br><br>
-		TP:<br> A <br>
+		TP:<br> Apliqué conocimientos de diseño de interfaces para elaborar los mockups de la aplicación web de Edifika orientada a administradores de condominios. Esto incluyó el estudio de patrones de diseño para dashboards, flujos de navegación y componentes de interfaz adaptados a los módulos de autenticación, pagos, reservas y comunicados. Además, contribuí en la definición de las Testing Suites y patrones de testing del proyecto. <br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br>Realicé investigación sobre el sector de gestión de condominios, incluyendo análisis de competidores y entrevistas a usuarios, lo que me permitió actualizar conocimientos relevantes para el desarrollo de una solución de software<br><br>
         TB2:<br> Actualicé y apliqué conocimientos sobre arquitectura de software mediante los diagramas C4 y el diagrama ERD. Esto me permitió comprender mejor la estructura del sistema, sus componentes, servicios, bases de datos y relaciones principales.<br><br>
@@ -239,7 +239,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       <td>
         TB1: A lo largo del desarrollo del primer entregable, el equipo demostró capacidad para incorporar nuevos conceptos y herramientas propias de la ingeniería de software. El desarrollo del perfil de Condomia, la definición de Edifika y el trabajo con metodologías como Lean UX nos llevaron a investigar y aplicar conocimientos que inicialmente no manejábamos con profundidad. Este proceso de actualización continua se reflejó directamente en la calidad y coherencia de la documentación entregada.<br><br>
         TB2: Durante el segundo entregable, el equipo profundizó en conceptos de arquitectura de software aplicados directamente al diseño de Edifika. El desarrollo de las ADD Iterations permitió tomar decisiones arquitectónicas basadas en atributos de calidad, así como aplicar patrones y metodologías que fortalecen la estructura del sistema, evidenciando la capacidad del equipo para diseñar soluciones técnicas coherentes y escalables. <br><br>
-		TP: <br><br>
+		TP: El equipo avanzó la implementación del sistema Edifika, aplicando conocimientos actualizados en desarrollo backend con Spring Boot, despliegue en plataformas cloud como Render y Supabase, diseño de interfaces para la aplicación web y construcción de la Landing Page. La necesidad de trabajar con tecnologías como JWT, Docker, PostgreSQL y herramientas de prototipado exigió a cada integrante investigar y dominar conceptos que no formaban parte de su experiencia previa, demostrando la capacidad del equipo para adquirir conocimientos técnicos según las demandas del proyecto.<br><br>
       </td>
     </tr>
     <tr>
@@ -256,11 +256,11 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: <br>Reconocí la importancia de investigar el sector de gestión de condominios para desarrollar una solución relevante, lo que me motivó a profundizar en nuevos conceptos y herramientas necesarias para el proyecto Edifika.<br><br>
         TB2: <br> Reconocí que diseñar la arquitectura de Edifika exige aprendizaje continuo, ya que trabajar con patrones como microservicios, DDD y atributos de calidad me motivó a investigar y profundizar en conceptos que no manejaba previamente.<br><br>
-		TP:<br> A <br><br>
+		TP:<br> Durante la implementación del microservicio IAM reconocí que el desarrollo backend con microservicios requiere dominar múltiples tecnologías de forma simultánea. Configurar la seguridad con JWT, estructurar el proyecto siguiendo DDD y desplegar en servicios cloud fueron actividades que me obligaron a investigar documentación técnica y resolver problemas que no había enfrentado previamente, reforzando mi convicción de que el aprendizaje continuo es fundamental para resolver desafíos reales en ingeniería de software. <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br>Reconocí la importancia del aprendizaje continuo al desarrollar los cuadros As-Is, To-Be, el Impact Map y la entrevista, lo que me permitió mejorar mi análisis del usuario y comprender mejor cómo estructurar soluciones alineadas a sus necesidades reales.<br><br>
         TB2: <br>A partir del desarrollo del capítulo 4, reconocí la importancia del aprendizaje continuo para comprender conceptos clave de arquitectura de software y su aplicación en un caso real.<br><br>
-		TP:<br> A <br><br>
+		TP:<br> Al diseñar los mockups de la aplicación web reconocí que trasladar requerimientos funcionales a interfaces visuales coherentes exige actualizar constantemente los conocimientos sobre usabilidad, accesibilidad y tendencias de diseño. Cada módulo presentó decisiones de diseño distintas que me llevaron a investigar referencias y buenas prácticas, confirmando que el aprendizaje permanente es necesario para entregar soluciones que realmente respondan a las necesidades del usuario final. <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br>A partir del desarrollo del Lean UX Canvas, el análisis de competidores y las entrevistas realizadas, reconocí que el aprendizaje permanente es esencial para el desempeño profesional en ingeniería de software.<br>
         TB2:<br> Reconocí la importancia del aprendizaje permanente porque, para elaborar estos diagramas, fue necesario reforzar conceptos como arquitectura, comunicación entre servicios y modelado de datos.<br><br>
@@ -270,7 +270,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       <td>
         TB1: El desarrollo del proyecto Edifika nos permitió comprender que mantenerse en constante aprendizaje no es opcional, sino necesario. Cada sección trabajada en la TB1 nos presentó nuevos retos que exigieron investigar, cuestionar y adaptarnos.<br><br>
         TB2: El desarrollo de la arquitectura de Edifika reafirmó que el aprendizaje permanente es indispensable en la ingeniería de software. La aplicación de ADD Iterations, patrones arquitectónicos y diseño basado en atributos de calidad evidenció que el conocimiento debe actualizarse continuamente para enfrentar retos reales del desarrollo de software.<br><br>
-		TP:  <br>
+		TP: La transición del diseño arquitectónico a la implementación real del primer microservicio evidenció que cada fase del proyecto plantea retos técnicos nuevos que solo pueden resolverse mediante aprendizaje continuo. Desde la configuración de seguridad hasta el despliegue en producción, cada actividad requirió consultar documentación, experimentar con herramientas y resolver problemas inesperados, reafirmando que el aprendizaje permanente es una condición indispensable para el desarrollo profesional en ingeniería de software.<br>
 <br>
       </td>
     </tr>
