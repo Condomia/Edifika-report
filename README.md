@@ -2865,7 +2865,7 @@ Se adoptan los siguientes conceptos de diseño:
 
 ### 4.3.1.6 Sketch Views (C4 & UML) and Record Design Decisions
 
-<img src="assets/img/container.png" alt="context"/>
+<img src="assets/img/ContainerView.png" alt="context"/>
  
 *Figura 36. Diagrama de Contenedores. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
@@ -2966,11 +2966,11 @@ Para garantizar la integridad (AD-08) y disponibilidad (AD-09), se define el sig
 
 ### 4.3.2.6 Sketch Views (C4 & UML) and Record Design Decisions
 
-<img src="assets/img/payment.png" alt="context"/>
+<img src="assets/img/ComponentView_Payment_Service.png" alt="context"/>
 
 *Figura 38. Diagrama de Componentes - Payment Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
-<img src="assets/img/reservation.png" alt="context"/>
+<img src="assets/img/ComponentView_Reservation_Service.png" alt="context"/>
 
 *Figura 39. Diagrama de Componentes - Reservation Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
@@ -3031,11 +3031,11 @@ Se adoptan los siguientes conceptos de diseño:
 
 ### 4.3.3.6 Sketch Views (C4 & UML) and Record Design Decisions
 
-<img src="assets/img/communication.png" alt="context"/>
+<img src="assets/img/ComponentView_Communication_Service.png" alt="context"/>
 
 *Figura 41. Diagrama de Componentes - Communication Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
-<img src="assets/img/notification.png" alt="context"/>
+<img src="assets/img/ComponentView_Notification_Service.png" alt="context"/>
 
 *Figura 42. Diagrama de Componentes - Notification Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
