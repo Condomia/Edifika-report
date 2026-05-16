@@ -154,7 +154,7 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         <b>Capítulo V: Product Implementation, Validation & Deployment</b> <br>
         5.1. Testing Suites & General Patterns <br>
         5.1.1. Backend Application Core Testing Suite <br>
-        5.1.1. Backend Application Core Testing Suite <br>
+        5.1.2. Pattern Based Backend Application(s) <br>
 		5.1.3. Pattern Based Custom Software Library <br>
         5.1.4. Framework Pattern Driven Refactoring Report <br>
         5.2. Software Configuration Management <br>
@@ -167,11 +167,11 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         5.3.1.1. Sprint Backlog 1 <br>
         5.3.1.2. Development Evidence for Sprint Review <br>
         5.3.1.3. Testing Suite Evidence for Sprint Review <br><br>
-        5.3.1.3. Testing Suite Evidence for Sprint Review <br>
-        5.3.1.3. Testing Suite Evidence for Sprint Review <br>
-        5.3.1.3. Testing Suite Evidence for Sprint Review <br>
-        5.3.1.3. Testing Suite Evidence for Sprint Review <br>
-        5.3.1.3. Testing Suite Evidence for Sprint Review <br>
+        5.3.1.4. Execution Evidence for Sprint Review <br>
+        5.3.1.5. Microservices Documentation Evidence for Sprint Review <br>
+        5.3.1.6. Software Deployment Evidence for Sprint Review <br>
+        5.3.1.7. Team Collaboration Insights during Sprint <br>
+        5.3.1.8. Kanban Board <br>
       </td>
     </tr>
   </tbody>
