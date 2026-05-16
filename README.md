@@ -4712,6 +4712,7 @@ Se recomienda para los próximos sprints avanzar con la implementación de los m
   - Aguilar, K. L. B. (2026). Vacíos regulatorios en la Ley de Propiedad en Condominio, análisis de conflictos recurrentes en su modalidad vertical ubicados en el Distrito Central (Tesis doctoral). Centro Universitario Tecnológico CEUTEC. `https://repositorio.unitec.edu/server/api/core/bitstreams/cd97bbd4-204c-49c8-9901-3d0a5a85d7f3/content`
   - Angular. (s.f.). `https://angular.dev/`
   - Condominos. (2024, 4 de noviembre). Manejo de chats de WhatsApp de vecinos en condominios. `https://www.condominos.app/sitio/detalle/OA/manejo-de-chats-de-whatsapp-de-vecinos-en-condominios`
+  - Cucumber. (s.f.). `https://cucumber.io/`
   - Deloitte. (2022). Digital transformation and operational efficiency.
   - Discord. (s.f.). `https://discord.com/`
 `https://www2.deloitte.com/us/en/insights/topics/digital-transformation.html`
