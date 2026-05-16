@@ -4371,10 +4371,10 @@ Enlace del Board: `https://trello.com/invite/b/6a0527cb585a58fe5f5375ba/ATTI1122
 | US43 | Cambiar idioma de la Landing Page | T17 | Implementar selector de idioma ES/EN | Configurar cambio dinámico de idioma sin recargar la página | 4 | Alessandra Becerra | Done |
 | US43 | Cambiar idioma de la Landing Page | T18 | Configurar idioma por defecto | Detectar primera visita y establecer español como idioma inicial | 2 | Alessandra Becerra | Done |
 | US44 | Cambiar tema visual (claro/oscuro) | T19 | Implementar alternancia de tema | Configurar cambio dinámico entre modo claro y oscuro | 3 | Alessandra Becerra | Done |
-| US45 | Visualizar sección de funcionalidades | T20 | Diseñar tarjetas de funcionalidades | Implementar tarjetas para módulos de pagos, reservas y comunicados | 4 | Alessandra Becerra | Done |
-| US45 | Visualizar sección de funcionalidades | T21 | Implementar lista de características | Agregar íconos de verificación y listado de funcionalidades por módulo | 3 | Alessandra Becerra | Done |
-| US45 | Visualizar sección de funcionalidades | T22 | Añadir etiqueta “Más popular” | Resaltar el módulo de Gestión de Pagos y Deudas | 1 | Alessandra Becerra | Done |
-| US46 | Visualizar sección del equipo | T23 | Diseñar sección del equipo | Implementar tarjetas con foto y nombre de los integrantes | 3 | Alessandra Becerra | Done |
+| US45 | Visualizar sección de funcionalidades | T20 | Diseñar tarjetas de funcionalidades | Implementar tarjetas para módulos de pagos, reservas y comunicados | 4 | Loreley Sarmiento | Done |
+| US45 | Visualizar sección de funcionalidades | T21 | Implementar lista de características | Agregar íconos de verificación y listado de funcionalidades por módulo | 3 | Loreley Sarmiento | Done |
+| US45 | Visualizar sección de funcionalidades | T22 | Añadir etiqueta “Más popular” | Resaltar el módulo de Gestión de Pagos y Deudas | 1 | Alvaro Bejarano | Done |
+| US46 | Visualizar sección del equipo | T23 | Diseñar sección del equipo | Implementar tarjetas con foto y nombre de los integrantes | 3 | Alvaro Bejarano | Done |
 
 
 ##### 5.3.1.2. Development Evidence for Sprint Review
