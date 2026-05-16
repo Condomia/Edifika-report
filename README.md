@@ -3059,19 +3059,31 @@ A continuación, se muestran evidencias de las pruebas ejecutadas y sus respecti
 
 <img src="assets/img/RoleCommand.PNG" alt="context"/>
 
+*Figura 41. Role command . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
+
 <img src="assets/img/UserCommand.PNG" alt="context"/>
+
+*Figura 42. User command . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
 
 **QUERIES**
 
 <img src="assets/img/UserQuery.PNG" alt="context"/>
 
-**COMMANDS**
+*Figura 43. User query . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
+
+**CONTROLLERS**
 
 <img src="assets/img/AuthController.PNG" alt="context"/>
 
+*Figura 44. Auth Controller . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
+
 <img src="assets/img/RolesController.PNG" alt="context"/>
 
+*Figura 45. Roles Controller . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
+
 <img src="assets/img/UserController.PNG" alt="context"/>
+
+*Figura 46. User Controller . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
 
 ##### 5.1.2. Pattern Based Backend Application(s)
 
@@ -3371,6 +3383,7 @@ Trello (SaaS)
 
 <img src="assets/img/trello.png" alt="context" width="200"/>
 
+*Figura 47. Plataforma Trello utilizada para la gestión y organización de tareas del proyecto EDIFIKA (Trello, s.f.).*
 
 
 ### Team Communication
@@ -3385,6 +3398,7 @@ Discord (SaaS / Aplicación de escritorio)
 
 <img src="assets/img/discord.png" alt="context" width="200"/>
 
+*Figura 48. Plataforma Discord utilizada para la comunicación y coordinación interna del equipo de desarrollo de EDIFIKA (Discord, s.f.).*
 
 
 ### Product UX/UI Design
@@ -3398,6 +3412,8 @@ Diseño de interfaces, wireframes, prototipos navegables y flujos visuales de la
 Figma (SaaS)
 
 <img src="assets/img/figma.png" alt="context" width="200"/>
+
+*Figura 49. Plataforma Figma utilizada para el diseño de interfaces, wireframes y prototipos visuales de la solución EDIFIKA (Figma, s.f.).*
 
 
 
@@ -3413,6 +3429,8 @@ GitHub (SaaS)
 
 <img src="assets/img/github.png" alt="context" width="200"/>
 
+*Figura 50. Plataforma GitHub utilizada para el control de versiones y colaboración en el desarrollo de los productos digitales de EDIFIKA (GitHub, s.f.).*
+
 
 
 ### IntelliJ IDEA
@@ -3424,6 +3442,8 @@ Entorno de desarrollo utilizado para implementar el microservicio IAM de EDIFIKA
 IntelliJ IDEA (Aplicación de escritorio)
 
 <img src="assets/img/intellidea.png" alt="context" width="200"/>
+
+*Figura 51. Entorno de desarrollo IntelliJ IDEA utilizado para la implementación del microservicio IAM basado en Spring Boot y Java (JetBrains, s.f.).*
 
 
 
@@ -3438,6 +3458,8 @@ Visual Studio Code (Aplicación de escritorio)
 
 <img src="assets/img/visualstudiocode.png" alt="context" width="200"/>
 
+*Figura 52. Editor Visual Studio Code utilizado para el desarrollo frontend, edición de archivos Markdown y documentación técnica del proyecto EDIFIKA (Microsoft, s.f.).*
+
 
 
 ### Angular
@@ -3450,6 +3472,8 @@ Angular Framework
 
 <img src="assets/img/angular.png" alt="context" width="200"/>
 
+*Figura 53. Framework Angular utilizado para el desarrollo de la aplicación web frontend de EDIFIKA (Angular, s.f.).*
+
 
 
 #### Spring Boot
@@ -3461,6 +3485,8 @@ Framework utilizado para construir el microservicio IAM como Web Service backend
 Spring Boot Framework
 
 <img src="assets/img/springboot.png" alt="context" width="200"/>
+
+*Figura 54. Framework Spring Boot utilizado para la construcción y despliegue del microservicio IAM de EDIFIKA (Spring, s.f.).*
 
 
 
@@ -3477,6 +3503,8 @@ Postman (SaaS / Aplicación de escritorio)
 
 <img src="assets/img/postman.png" alt="context" width="200"/>
 
+*Figura 55. Plataforma Postman utilizada para realizar pruebas y validaciones de los endpoints REST del microservicio IAM (Postman, s.f.).*
+
 
 
 #### Swagger UI
@@ -3488,6 +3516,8 @@ Documentación y prueba visual de los endpoints expuestos por el microservicio I
 Swagger UI integrado en el microservicio IAM
 
 <img src="assets/img/swagger.png" alt="context" width="200"/>
+
+*Figura 56. Herramienta Swagger UI utilizada para la documentación y prueba visual de los endpoints expuestos por el backend de EDIFIKA (Swagger, s.f.).*
 
 
 
@@ -3504,6 +3534,8 @@ GitHub Pages (SaaS)
 
 <img src="assets/img/githubpages.png" alt="context" width="200"/>
 
+*Figura 57. Plataforma GitHub Pages utilizada para el despliegue y visualización pública de la Landing Page de EDIFIKA (GitHub, s.f.).*
+
 
 
 #### Render
@@ -3515,6 +3547,8 @@ Plataforma en la nube utilizada para desplegar el microservicio IAM de EDIFIKA. 
 Render (PaaS - Plataforma como Servicio)
 
 <img src="assets/img/render.png" alt="context" width="200"/>
+
+*Figura 58. Plataforma Render utilizada para el despliegue en la nube del microservicio IAM desarrollado para EDIFIKA (Render, s.f.).*
 
 
 
@@ -3531,6 +3565,8 @@ GitHub (SaaS)
 
 <img src="assets/img/github.png" alt="context" width="200"/>
 
+*Figura 59. Plataforma GitHub utilizada para el almacenamiento y versionado de la documentación técnica y código fuente del proyecto EDIFIKA (GitHub, s.f.).*
+
 
 
 #### Visual Studio Code
@@ -3544,6 +3580,7 @@ Visual Studio Code (Aplicación de escritorio)
 
 <img src="assets/img/visualstudiocode.png" alt="context" width="200"/>
 
+*Figura 60. Editor Visual Studio Code utilizado para la edición y organización de la documentación técnica y archivos Markdown del proyecto EDIFIKA (Microsoft, s.f.).*
 
 
 Con esta configuración, nuestro equipo puede colaborar de manera eficiente y gestionar el ciclo de vida completo del desarrollo de EDIFIKA, desde la planificación y diseño hasta el desarrollo, pruebas, documentación, despliegue y mantenimiento.
@@ -4285,6 +4322,8 @@ Como parte de la configuración de despliegue, el equipo incluye el **Deployment
 
 <img src="assets/img/edifika-deployment-c4.png" alt="context"/>
 
+*Figura 61. Deployment Diagram del C4 Model. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+
 Este diagrama considera:
 
 - La **Landing Page** desplegada en **GitHub Pages**.
@@ -4303,6 +4342,8 @@ El objetivo de este Sprint es implementar el microservicio de IAM (Identity and 
 <p align="center">
   <img src="assets/img/trello_sprint1.png" alt="Trello Sprint 1" width="700"/>
 </p>
+
+*Figura 62. Sprint Backlog 1. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 Enlace del Board: `https://trello.com/invite/b/6a0527cb585a58fe5f5375ba/ATTI112271af5d09099e7ea0df48ce05b74c6FCCB8A8/edifika-sprint-1`
 
@@ -4362,6 +4403,7 @@ Cada archivo .feature corresponde a una Technical Story del Sprint, cubriendo fl
   <img src="assets/img/acceptance_tests.png" alt="acceptance tests" width="700"/>
 </p>
 
+*Figura 63. Archivos .feature utilizados para las pruebas BDD del microservicio IAM. Elaborado por el equipo utilizando Cucumber y Visual Studio Code (Cucumber, s.f.; Microsoft, s.f.).*
 
 ##### 5.3.1.4. Execution Evidence for Sprint Review
 
@@ -4375,6 +4417,8 @@ Se verificó el registro de un nuevo administrador enviando los campos requerido
   <img src="assets/img/execution_signup.png" alt="Ejecucion Sign In" width="700"/>
 </p>
 
+*Figura 64. Ejecución del endpoint Sign Up. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
 **Endpoint: POST /api/v1/authentication/sign-in**
 
 Se verificó el inicio de sesión de un administrador registrado enviando el email y contraseña correctos. El sistema validó las credenciales correctamente, generó un token JWT con el userId, email y rol del usuario, y retornó un código 200 confirmando la autenticación exitosa en la base de datos PostgreSQL.
@@ -4382,6 +4426,8 @@ Se verificó el inicio de sesión de un administrador registrado enviando el ema
 <p align="center">
   <img src="assets/img/execution_signin.png" alt="Respuesta Sign In" width="700"/>
 </p>
+
+*Figura 65. Ejecución del endpoint Sign In. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/users/{id}**
 
@@ -4391,6 +4437,8 @@ Se verificó la consulta de un usuario específico por su id, enviando el Bearer
   <img src="assets/img/execution_get_user.png" alt="Ejecución Get User" width="700"/>
 </p>
 
+*Figura 66. Ejecución del endpoint Get User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
 **Endpoint: PUT /api/v1/users/{id}**
 
 Se comprobó la actualización de datos de un usuario existente enviando el id como parámetro y los campos editables en el body: fullName, email, password, phone, documentType y documentNumber. El sistema procesó la solicitud con el Bearer Token válido y retornó la confirmación de actualización.
@@ -4398,6 +4446,8 @@ Se comprobó la actualización de datos de un usuario existente enviando el id c
 <p align="center">
   <img src="assets/img/execution_put_user.png" alt="Ejecución Put User" width="700"/>
 </p>
+
+*Figura 67. Ejecución del endpoint Put User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: DELETE /api/v1/users/{id}**
 
@@ -4407,6 +4457,8 @@ Se verificó la eliminación de un usuario del sistema enviando el id como pará
   <img src="assets/img/execution_delete_user.png" alt="Ejecución Delete User" width="700"/>
 </p>
 
+*Figura 68. Ejecución del endpoint Delete User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
 **Endpoint: GET /api/v1/users**
 
 Se comprobó la consulta de todos los usuarios registrados en el sistema. Con el Bearer Token válido, el sistema retornó un código 200 con la lista completa de usuarios incluyendo sus datos y roles asignados.
@@ -4415,6 +4467,8 @@ Se comprobó la consulta de todos los usuarios registrados en el sistema. Con el
   <img src="assets/img/execution_get_users.png" alt="Ejecución Get Users" width="700"/>
 </p>
 
+*Figura 69. Ejecución del endpoint Get Users. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
 **Endpoint: GET /api/v1/roles**
 
 Se verificó la consulta de roles disponibles en el sistema. El endpoint retornó la lista de roles configurados permitiendo identificar los permisos asignables a cada usuario.
@@ -4422,6 +4476,85 @@ Se verificó la consulta de roles disponibles en el sistema. El endpoint retorn�
 <p align="center">
   <img src="assets/img/execution_get_roles.png" alt="Ejecución Get Roles" width="700"/>
 </p>
+
+*Figura 70. Ejecución del endpoint Get Roles. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**MOCKUP**
+Se crearon mockups de alta fidelidad para mostrar el prototipo de nuestra aplicación web, con sus principales segmentos y flujo.
+
+<p align="center">
+  <img src="assets/img/iniciodesesion.png" alt="Ejecución Get Roles" width="700"/>
+</p>
+
+*Figura 71. Mockup de inicio de sesión. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+
+<p align="center">
+  <img src="assets/img/crearcuenta.png" alt="Ejecución Get Roles" width="700"/>
+</p>
+
+*Figura 72. Mockup de creación de cuenta. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+
+<p align="center">
+  <img src="assets/img/Dashboard.png" alt="Ejecución Get Roles" width="700"/>
+</p>
+
+*Figura 73. Mockup del dashboard principal. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+
+<p align="center">
+  <img src="assets/img/unidades.png" alt="Ejecución Get Roles" width="700"/>
+</p>
+
+*Figura 74. Mockup del módulo de unidades. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+
+<p align="center">
+  <img src="assets/img/Calendar.png" alt="Ejecución Get Roles" width="700"/>
+</p>
+
+*Figura 75. Mockup del calendario de reservas. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+
+<p align="center">
+  <img src="assets/img/detailreservation.png" alt="Ejecución Get Roles" width="700"/>
+</p>
+
+*Figura 76. Mockup del detalle de reserva. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+
+<p align="center">
+  <img src="assets/img/DetailReservation2.png" alt="Ejecución Get Roles" width="700"/>
+</p>
+
+*Figura 77. Mockup alternativo del detalle de reserva. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+
+<p align="center">
+  <img src="assets/img/Report.png" alt="Ejecución Get Roles" width="700"/>
+</p>
+
+*Figura 78. Mockup del módulo de reportes. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+
+<p align="center">
+  <img src="assets/img/residents.png" alt="Ejecución Get Roles" width="700"/>
+</p>
+
+*Figura 79. Mockup del módulo de residentes. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+
+<p align="center">
+  <img src="assets/img/community.png" alt="Ejecución Get Roles" width="700"/>
+</p>
+
+*Figura 80. Mockup del módulo de comunidad. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+
+<p align="center">
+  <img src="assets/img/community.png" alt="Ejecución Get Roles" width="700"/>
+</p>
+
+*Figura 81. Mockup del módulo de comunidad. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+
+<p align="center">
+  <img src="assets/img/config.png" alt="Ejecución Get Roles" width="700"/>
+</p>
+
+*Figura 82. Mockup del módulo de configuración. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+
+Link del Prototipo: `https://www.figma.com/proto/1ksaEJeKckW1WPlgeNyTbH/Untitled?node-id=3015-106&viewport=351%2C196%2C0.16&t=U3A6YtXgGNGnrgnD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3015%3A106&page-id=3012%3A2`
 
 ##### 5.3.1.5. Microservices Documentation Evidence for Sprint Review
 
@@ -4440,6 +4573,8 @@ Controlador encargado del registro de nuevos administradores y la autenticación
   <img src="assets/img/authentication_controller.png" alt="Authentication Controller" width="700"/>
 </p>
 
+*Figura 83. Endpoints del Authentication Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+
 **Users Controller**
 
 Controlador responsable de las operaciones CRUD sobre los usuarios del sistema. Permite consultar usuarios de forma individual o colectiva, modificar su información y eliminarlos. Cada solicitud requiere un token JWT válido en el header Authorization.
@@ -4455,6 +4590,8 @@ Controlador responsable de las operaciones CRUD sobre los usuarios del sistema. 
   <img src="assets/img/user_controller.png" alt="Users Controller" width="700"/>
 </p>
 
+*Figura 84. Endpoints del User Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+
 **Roles Controller**
 
 Controlador dedicado a la consulta de roles disponibles en el sistema (ADMIN, OWNER, TENANT). Se utiliza internamente para la asignación de permisos durante el registro de usuarios.
@@ -4466,6 +4603,8 @@ Controlador dedicado a la consulta de roles disponibles en el sistema (ADMIN, OW
 <p align="center">
   <img src="assets/img/roles_controller.png" alt="Roles Controller" width="700"/>
 </p>
+
+*Figura 85. Endpoints del Roles Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 ##### 5.3.1.6. Software Deployment Evidence for Sprint Review
 
@@ -4482,6 +4621,8 @@ Finalmente, se validó el correcto funcionamiento del sitio en producción, comp
   <img src="assets/img/deploy_landing.png" alt="Despliegue Landing en Github Pages" width="700"/>
 </p>
 
+*Figura 86. Despliegue de la Landing Page. Elaborado por el equipo utilizando GitHub Pages (GitHub, s.f.).*
+
 **Microservicio IAM - Backend**
 
 El microservicio IAM fue desplegado en Render, una plataforma cloud que permite alojar aplicaciones backend vinculadas a repositorios de GitHub. Para que Render pudiera construir y ejecutar el proyecto de Spring Boot, fue necesario crear un Dockerfile en la raíz del repositorio. Este archivo define la imagen base de Java, copia el código fuente, ejecuta el build con Maven para generar el archivo .jar y configura el comando de inicio de la aplicación. Una vez creado el Dockerfile, se configuró un nuevo Web Service en Render vinculado al repositorio del microservicio IAM, seleccionando Docker como runtime. Render detecta el Dockerfile automáticamente, construye la imagen y despliega el contenedor generando una URL pública desde la cual se pueden consumir todos los endpoints de autenticación y gestión de usuarios. Cada push a la rama principal dispara un redespliegue automático sin intervención manual.
@@ -4490,6 +4631,8 @@ El microservicio IAM fue desplegado en Render, una plataforma cloud que permite 
   <img src="assets/img/deploy_backend.png" alt="Despliegue Backend en Render" width="700"/>
 </p>
 
+*Figura 87. Despliegue del backend del microservicio IAM. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
 **Base de datos PostgreSQL**
 
 La base de datos fue desplegada en Supabase, una plataforma que ofrece instancias de PostgreSQL gestionadas en la nube. Desde el dashboard de Supabase se creó un nuevo proyecto, el cual generó automáticamente una instancia de PostgreSQL con sus credenciales de conexión (host, puerto, usuario, contraseña y nombre de la base de datos). Estas credenciales se configuraron como variables de entorno dentro del Web Service de Render, permitiendo que el microservicio IAM se conecte de forma remota a la base de datos. Al iniciar la aplicación, Hibernate crea automáticamente las tablas del dominio (users, roles, user_roles) gracias a la configuración de ddl-auto en update dentro del application.properties.
@@ -4497,6 +4640,8 @@ La base de datos fue desplegada en Supabase, una plataforma que ofrece instancia
 <p align="center">
   <img src="assets/img/deploy_db.png" alt="Despliegue Base de Datos en Supabase" width="700"/>
 </p>
+
+*Figura 88. Despliegue de la base de datos. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
 
 ##### 5.3.1.7. Team Collaboration Insights during Sprint
 
@@ -4510,6 +4655,8 @@ En el repositorio de la Landing Page se registraron los commits correspondientes
   <img src="assets/img/insights_landing1.png" alt="Insights Landing Page" width="700"/>
 </p>
 
+*Figura 89. Insights del repositorio de la Landing Page. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
 **Microservicio IAM - Backend**
 
 En el repositorio del microservicio IAM se concentran los commits relacionados con la implementación del backend de autenticación y gestión de usuarios. Los aportes reflejan el desarrollo progresivo de los endpoints, la configuración de seguridad con JWT, la integración con PostgreSQL y la documentación con Swagger.
@@ -4518,13 +4665,17 @@ En el repositorio del microservicio IAM se concentran los commits relacionados c
   <img src="assets/img/insights_backend1.png" alt="Insights Backend IAM" width="700"/>
 </p>
 
+*Figura 90. Insights del repositorio del backend IAM. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
 ##### 5.3.1.8. Kanban Board
 
 En esta sección se presentan las actividades desarrolladas durante el Sprint 1 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
 
 <p align="center">
-  <img src="assets/img/kanban_board.png" alt="Kanban Board" width="700"/>
+	<img src="assets/img/kanban_board.png" alt="Kanban Board" width="700"/>
 </p>
+
+*Figura 91. Kanban Board del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 [https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
 
@@ -4559,17 +4710,31 @@ Se recomienda para los próximos sprints avanzar con la implementación de los m
 
 # Referencias Bibliográficas
   - Aguilar, K. L. B. (2026). Vacíos regulatorios en la Ley de Propiedad en Condominio, análisis de conflictos recurrentes en su modalidad vertical ubicados en el Distrito Central (Tesis doctoral). Centro Universitario Tecnológico CEUTEC. `https://repositorio.unitec.edu/server/api/core/bitstreams/cd97bbd4-204c-49c8-9901-3d0a5a85d7f3/content`
+  - Angular. (s.f.). `https://angular.dev/`
   - Condominos. (2024, 4 de noviembre). Manejo de chats de WhatsApp de vecinos en condominios. `https://www.condominos.app/sitio/detalle/OA/manejo-de-chats-de-whatsapp-de-vecinos-en-condominios`
   - Deloitte. (2022). Digital transformation and operational efficiency.
+  - Discord. (s.f.). `https://discord.com/`
 `https://www2.deloitte.com/us/en/insights/topics/digital-transformation.html`
   - El Comercio. (2026, 3 de abril). Fallas en la gestión de edificios corporativos pueden generar sobrecostos de hasta 30%. `https://elcomercio.pe/economia/fallas-en-la-gestion-de-edificios-corporativos-pueden-generar-sobrecostos-de-hasta-30-noticia/`
+  - Figma. (s.f) `https://www.figma.com`
   - Gestión. (2023, 12 de septiembre). Advierten que deudas por gastos en condominios llevan a inquilinos a Infocorp. `https://gestion.pe/tu-dinero/inmobiliarias/advierten-que-deudas-por-gastos-en-condominios-llevan-a-inquilinos-a-infocorp-condominios-deudas-por-pagos-de-mantenimiento-noticia/`
+  - GitHub. (s.f.). `https://github.com/`
+  - GitHub Pages. (s.f.). `https://pages.github.com/`
+  - IntelliJ IDEA. (s.f.). `https://www.jetbrains.com/idea/`
   - Instituto Nacional de Estadística e Informática (INEI). (2023). Perú: Características de las viviendas particulares y hogares. `https://www.gob.pe/institucion/inei/informes-publicaciones/4377979-las-tecnologias-de-informacion-y-comunicacion-en-los-hogares-ene-feb-mar-2023`
+  - JUnit. (s.f.) `https://junit.org/`
   - Lucidchart. (s.f.). `https://www.lucidchart.com`
   - Miro. (s.f.). `https://miro.com/`
+  - Microsoft. (s.f.). Visual Studio Code. `https://code.visualstudio.com/`
+  - Mockito. (s.f.). `https://site.mockito.org/`
   - PlantUML. (s.f.). `https://plantuml.com`
+  - Postman. (s.f.). `https://www.postman.com/`
   - ProTool. (2026, 11 de marzo). Administrar un condominio por WhatsApp no es gestión, es un riesgo para la comunidad. `https://www.protool.cl/noticia_detalle.php?slug=administrar-condominios-por-whatsapp-no-es-gestion-es-riesgo`
+  - Render. (s.f.). `https://render.com/`
   - Sociedad Peruana de Bienes Raíces. (2024). Digitalización de edificios y condominios en Perú. `https://bienesraicess.com/blogs/digitalizacion-de-edificios-y-condominios-en-peru`
+  - Spring. (s.f.). Spring Boot. `https://spring.io/projects/spring-boot`
+  - Swagger. (s.f.). `Swagger UI. https://swagger.io/tools/swagger-ui/`
+  - Trello. (s.f.). `https://trello.com/`
   - UXPressia. (s.f.). `https://uxpressia.com/`
   - Verastegui Leon, P. A., Mendoza Castañeda, J. L. D. C., Zapata Becerra, M. L., Capristan Leon, K. E., & Ravines Garcia, M. A. (2025). Propuesta de un plan estratégico para mejora de la Gestión en Edificios Multifamiliares en Lima Moderna: Caso De Estudio: MONARCH MANAGERS EIRL. Universidad Peruana de Ciencias Aplicadas. `https://repositorioacademico.upc.edu.pe/handle/10757/686137`
   
@@ -4584,3 +4749,5 @@ Se recomienda para los próximos sprints avanzar con la implementación de los m
 - Enlace del repositorio: `https://github.com/Condomia/Edifika-report.git`
 - Enlace del repositorio de Landing page: `https://github.com/Condomia/Edifika-LandingPage.git`
 - Enlace del repositorio Microservicio IAM: `https://github.com/Condomia/Edifika-Microservice-IAM.git`
+- Enlace del Acceptance Test: `https://github.com/Condomia/Acceptance-tests-Edifika.git`
+- Enlace del Prototipo: `https://www.figma.com/proto/1ksaEJeKckW1WPlgeNyTbH/Untitled?node-id=3015-106&viewport=351%2C196%2C0.16&t=U3A6YtXgGNGnrgnD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3015%3A106&page-id=3012%3A2`
