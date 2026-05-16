@@ -234,7 +234,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br>Realicé investigación sobre el sector de gestión de condominios, incluyendo análisis de competidores y entrevistas a usuarios, lo que me permitió actualizar conocimientos relevantes para el desarrollo de una solución de software<br><br>
         TB2:<br> Actualicé y apliqué conocimientos sobre arquitectura de software mediante los diagramas C4 y el diagrama ERD. Esto me permitió comprender mejor la estructura del sistema, sus componentes, servicios, bases de datos y relaciones principales.<br><br>
-		TP:<br> A <br><br>
+		TP:<br> Actualicé mis conocimientos sobre arquitectura de software mediante la elaboración de diagramas C4, diagramas de componentes, clases y modelo entidad-relación. Además, reforcé el uso de herramientas de Software Configuration Management, como Git, GitHub y ramas de trabajo, lo que me permitió organizar mejor los cambios del proyecto y aplicar buenas prácticas para el desarrollo de EDIFIKA.<br><br>
       </td>
       <td>
         TB1: A lo largo del desarrollo del primer entregable, el equipo demostró capacidad para incorporar nuevos conceptos y herramientas propias de la ingeniería de software. El desarrollo del perfil de Condomia, la definición de Edifika y el trabajo con metodologías como Lean UX nos llevaron a investigar y aplicar conocimientos que inicialmente no manejábamos con profundidad. Este proceso de actualización continua se reflejó directamente en la calidad y coherencia de la documentación entregada.<br><br>
@@ -264,12 +264,14 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br>A partir del desarrollo del Lean UX Canvas, el análisis de competidores y las entrevistas realizadas, reconocí que el aprendizaje permanente es esencial para el desempeño profesional en ingeniería de software.<br>
         TB2:<br> Reconocí la importancia del aprendizaje permanente porque, para elaborar estos diagramas, fue necesario reforzar conceptos como arquitectura, comunicación entre servicios y modelado de datos.<br><br>
-		TP:<br> A <br><br>
+		TP:<br> Reconocí la importancia del aprendizaje permanente, ya que durante el desarrollo de EDIFIKA fue necesario investigar y reforzar conceptos de arquitectura, modelado C4, diseño de base de datos y gestión de configuración. Esto me permitió mejorar mi desempeño en el proyecto y comprender que, en ingeniería de software, siempre es necesario seguir aprendiendo para adaptarse a nuevas herramientas, tecnologías y buenas prácticas.
+<br><br>
       </td>
       <td>
         TB1: El desarrollo del proyecto Edifika nos permitió comprender que mantenerse en constante aprendizaje no es opcional, sino necesario. Cada sección trabajada en la TB1 nos presentó nuevos retos que exigieron investigar, cuestionar y adaptarnos.<br><br>
         TB2: El desarrollo de la arquitectura de Edifika reafirmó que el aprendizaje permanente es indispensable en la ingeniería de software. La aplicación de ADD Iterations, patrones arquitectónicos y diseño basado en atributos de calidad evidenció que el conocimiento debe actualizarse continuamente para enfrentar retos reales del desarrollo de software.<br><br>
-		TP:  <br><br>
+		TP:  <br>
+<br>
       </td>
     </tr>
   </tbody>
