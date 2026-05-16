@@ -382,7 +382,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
           
 - [Conclusiones](#conclusiones)
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
-- [Referencias Bibliografía](#referencias-bibliografía)
+- [Referencias Bibliográficas](#referencias-bibliográficas)
 - [Anexos](#anexos)
 - [Links](#links)
 
@@ -854,7 +854,7 @@ Táctica: Implementar un calendario interactivo con disponibilidad en tiempo rea
 
 ## 2.2.2 Registro de entrevistas
 
-**Segmento obejtivo: Administradores de edificios y condominios:**
+**Segmento objetivo: Administradores de edificios y condominios:**
 | **ENTREVISTA 1** | |
 |------------------|----------------------------|
 | **Nombre entrevistado** |  Cesar Villalobos  |
@@ -883,7 +883,7 @@ Táctica: Implementar un calendario interactivo con disponibilidad en tiempo rea
 | **Resumen** |Andrés Ventocilla se encarga de la supervisión de 4 inmuebles residenciales, basando toda su estructura de trabajo en documentos de Excel y la mensajería de WhatsApp para el contacto con los residentes. El mayor cuello de botella que enfrenta es la verificación de depósitos, una tarea manual donde debe contrastar cada movimiento bancario con las capturas de pantalla que envían los vecinos, lo que le resta eficiencia a su labor administrativa. Tras haber probado otras alternativas tecnológicas, las descartó por ser demasiado robustas y difíciles de navegar, lo que terminaba por confundir a los usuarios finales. Su meta es integrar la operación en un ecosistema digital como Edifika, siempre que la herramienta priorice la simplicidad visual y permita que los propietarios visualicen el uso de los fondos de forma clara. Bajo su perspectiva, una tarifa mensual de entre S/ 150 y S/ 300 por edificio sería un monto justo, siempre que el sistema logre liberar su tiempo de tareas repetitivas |
 
 
-**Segmento obejtivo: Propietarios e Inquilinos:**
+**Segmento objetivo: Propietarios e Inquilinos:**
 
 | **ENTREVISTA 1** | |
 |------------------|----------------------------|
@@ -2242,7 +2242,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 El  Impact Map muestra la relación entre el objetivo de negocio de Edifika y los cambios de comportamiento esperados en los usuarios clave: administradores y residentes. A partir de este análisis, se definen los impactos principales que la solución busca generar en cada tipo de usuario y los entregables necesarios para lograrlo, los cuales están directamente vinculados a las historias de usuario planteadas. Esto permite asegurar que cada funcionalidad desarrollada responda a necesidades reales y contribuya al cumplimiento del objetivo del sistema.
 
   <img src="assets/img/Impact_map_Edifika.png" alt="IME"/>
-<p><strong><small>Figura 9. Scenario Mapping (Imapct map). Elaborado por el equipo utilizando Uxpressia (UXPressia, s.f.).</small></strong></p>
+<p><strong><small>Figura 9. Scenario Mapping (Impact map). Elaborado por el equipo utilizando UXPressia (UXPressia, s.f.).</small></strong></p>
 
 # 3.4. Product Backlog
 
@@ -2318,7 +2318,7 @@ El diseño de **Edifika** no solo responde a necesidades de negocio, sino que se
 * **Domain Driven Design (DDD):** Enfoque principal para el modelado, utilizando ***Bounded Contexts*** para definir los límites de cada microservicio y asegurar que el código hable el "lenguaje ubicuo" de la administración de condominios.
 * **Attribute-Driven Design (ADD):** Metodología utilizada para derivar la arquitectura a partir de los drivers de calidad (Seguridad, Disponibilidad, Escalabilidad). Cada decisión arquitectónica aquí descrita es el resultado de las iteraciones del proceso ADD.
 
-#### Teconologías utilizadas
+#### Tecnologías utilizadas
 
 | Categoría | Herramienta / Tecnología |
 |---|---|
@@ -2554,7 +2554,7 @@ La tercera sección muestra la consulta de residentes morosos, donde el Report S
 
 Este diagrama no requiere Saga Pattern porque el Report Service únicamente realiza operaciones de lectura sin modificar estados ni gestionar transacciones distribuidas.
 
-### 4.1.5. Relational/Non Relational Database Diagram
+### 4.1.6. Relational/Non Relational Database Diagram
 
 En esta sección se presenta el diagrama de base de datos relacional de Edifika, el cual define las tablas, columnas, tipos de datos, restricciones y relaciones necesarias para garantizar la persistencia de la información del sistema. El diagrama refleja los principales dominios de la plataforma, incluyendo la gestión de usuarios, pagos, reservas de áreas comunes y comunicados oficiales, asegurando integridad referencial mediante el uso de claves primarias y foráneas.
 
@@ -2762,7 +2762,7 @@ Cuando la pasarela de pagos Culqi procesa una transacción, ya sea aprobada o re
 **User Stories relacionadas:** US22  
 
 ### 4.2.4. Constraints
-Las restricciones arquitectónicas definen los límites técnicos, tecnológicos y normativos bajo los cuales diseñaramos el sistema de EDIFIKA. Estas condiciones no pueden ser ignoradas, ya que influyen directamente en las decisiones de diseño, selección de tecnologías e implementación de la solución. Al considerar estas restricciones nos aseguramos la viabilidad del sistema, facilitar su integración con el entorno y reducir riesgos asociados al momento de desarrollar.
+Las restricciones arquitectónicas definen los límites técnicos, tecnológicos y normativos bajo los cuales diseñamos el sistema de EDIFIKA. Estas condiciones no pueden ser ignoradas, ya que influyen directamente en las decisiones de diseño, selección de tecnologías e implementación de la solución. Al considerar estas restricciones nos aseguramos la viabilidad del sistema, facilitar su integración con el entorno y reducir riesgos asociados al momento de desarrollar.
 | Constraint                                              | Descripción                                                                                                                                                          | Impacto arquitectónico                                                                                                                                                |
 | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Uso de aplicación móvil                                 | EDIFIKA será consumida principalmente desde una aplicación móvil iOS/Android.                    | El backend debe exponer APIs REST seguras y optimizadas para dispositivos móviles.                                                                                    |
@@ -2818,9 +2818,7 @@ Las preocupaciones arquitectónicas representan los aspectos críticos del siste
 
 ### 4.3.1.2 Establish Iteration Goal by Selecting Drivers
 
-El objetivo de esta iteración es definir una arquitectura base que permita soportar múltiples usuarios concurrentes garantizando **alta disponibilidad** y **buen rendimiento** en operaciones críticas como pagos y reservas.
-
-
+El objetivo de esta iteración es definir una arquitectura base que permita soportar múltiples usuarios concurrentes garantizando alta disponibilidad y buen rendimiento en operaciones críticas como pagos y reservas. ¿Por qué se seleccionaron estos drivers?: Al ser la primera iteración del diseño arquitectónico, es fundamental mitigar los riesgos técnicos iniciales estableciendo los cimientos funcionales del sistema (API Gateway, IAM y bases de datos relacionales). Sin asegurar la disponibilidad (AD-01), el rendimiento (AD-02) y la seguridad de accesos (AD-03, AD-04) desde el inicio, la plataforma no podría escalar ni soportar las transacciones financieras del negocio de manera confiable.
 
 ### 4.3.1.3 Choose One or More Elements of the System to Refine
 
@@ -2890,9 +2888,7 @@ Se adoptan los siguientes conceptos de diseño:
 
 ### 4.3.2.2 Establish Iteration Goal by Selecting Drivers
 
-El objetivo de esta iteración es refinar los módulos de **Payment Service** y **Reservation Service**, ya que representan operaciones críticas del sistema.
-
-Se busca garantizar la correcta ejecución de pagos, evitar inconsistencias en deudas y prevenir conflictos en reservas de áreas comunes, manteniendo tiempos de respuesta adecuados.
+El objetivo de esta iteración es refinar los módulos de Payment Service y Reservation Service, ya que representan operaciones críticas del sistema. Se busca garantizar la correcta ejecución de pagos, evitar inconsistencias en deudas y prevenir conflictos en reservas de áreas comunes, manteniendo tiempos de respuesta adecuados. ¿Por qué se seleccionaron estos drivers?: Estos componentes constituyen el núcleo transaccional y el valor principal del MVP de Edifika. Un fallo en la consistencia de los saldos financieros (AD-08) o una caída en la integración de la pasarela de pagos Culqi (AD-09) impactaría directamente en la confianza del usuario y en la viabilidad operativa de la administración del condominio, haciendo indispensable robustecer su tolerancia a fallos.
 
 
 ### 4.3.2.3 Choose One or More Elements of the System to Refine
@@ -2997,10 +2993,7 @@ Para garantizar la integridad (AD-08) y disponibilidad (AD-09), se define el sig
 
 ### 4.3.3.2 Establish Iteration Goal by Selecting Drivers
 
-El objetivo de esta iteración es refinar los módulos de **Report Service**, **Communication Service** y **Notification Service**, ya que estos componentes apoyan la operación diaria del condominio mediante reportes, comunicados y alertas.
-
-Se busca que las consultas administrativas y el envío de notificaciones funcionen de manera eficiente, sin sobrecargar los servicios principales como pagos y reservas.
-
+El objetivo de esta iteración es refinar los módulos de Report Service, Communication Service y Notification Service, ya que estos componentes apoyan la operación diaria del condominio mediante reportes, comunicados y alertas. Se busca que las consultas administrativas y el envío de notificaciones funcionen de manera eficiente, sin sobrecargar los servicios principales como pagos y reservas. ¿Por qué se seleccionaron estos drivers?: Conforme el condominio acumula historial de uso, la carga de datos históricos crece de forma sustancial (AD-14), lo que pone en riesgo el rendimiento de las operaciones en tiempo real si no se aíslan las consultas pesadas (AD-12). Además, las alertas masivas y comunicados requieren un canal asincrónico desacoplado (AD-13, AD-15) para evitar que fallos o lentitudes en las notificaciones degraden la experiencia general de la aplicación.
 
 ### 4.3.3.3 Choose One or More Elements of the System to Refine
 
@@ -3056,7 +3049,7 @@ Se adoptan los siguientes conceptos de diseño:
 ##### 5.1.1. Backend Application Core Testing Suite
 En esta sección se presentan las pruebas realizadas al backend de la aplicación, desarrolladas con el objetivo de validar el correcto funcionamiento de los principales componentes del sistema. Para la implementación de los tests se utilizaron las herramientas JUnit y Mockito, ampliamente empleadas en aplicaciones desarrolladas con Spring Boot para pruebas unitarias y simulación de dependencias.
 
-Las pruebas fueron enfocadas principalmente en los módulos de autenticación (Auth) y gestión de usuarios (User), ya que actualmente representan el núcleo funcional implementado en el backend del proyecto. Asimismo, se realizaron pruebas sobre los Controllers, Queries y servicios relacionados, verificando el comportamiento esperado de los endpoints, la correcta respuesta de las consultas y el manejo adecuado de la lógica de negocio.El uso de Mockito permitió simular dependencias como servicios y repositorios, evitando la necesidad de conectarse directamente a la base de datos durante las pruebas. Por otro lado, JUnit facilitó la validación automatizada de resultados esperados, contribuyendo a mejorar la calidad, estabilidad y mantenibilidad del sistema.
+Las pruebas fueron enfocadas principalmente en los módulos de autenticación (Auth) y gestión de usuarios (User), ya que actualmente representan el núcleo funcional implementado en el backend del proyecto. Asimismo, se realizaron pruebas sobre los Controllers, Queries y servicios relacionados, verificando el comportamiento esperado de los endpoints, la correcta respuesta de las consultas y el manejo adecuado de la lógica de negocio. El uso de Mockito permitió simular dependencias como servicios y repositorios, evitando la necesidad de conectarse directamente a la base de datos durante las pruebas. Por otro lado, JUnit facilitó la validación automatizada de resultados esperados, contribuyendo a mejorar la calidad, estabilidad y mantenibilidad del sistema.
 
 A continuación, se muestran evidencias de las pruebas ejecutadas y sus respectivos resultados satisfactorios.
 
@@ -3161,6 +3154,7 @@ Esta separación ayudó a mantener una estructura más clara y especializada, es
 
 
 ##### 5.1.3. Pattern Based Custom Software Library
+
 En esta sección se describen las principales librerías y dependencias utilizadas en el backend, así como su relación con la arquitectura y patrones implementados.
 
 ### 1. Lombok
@@ -3190,7 +3184,7 @@ Además, permitió estructurar rápidamente el proyecto utilizando buenas práct
 
 ### 3. Spring Data JPA
 
-Esta librería fue utilizada para gestionar la persistencia de datos mediante entidades y repositories, gracias a JPA se pudieron mapear relaciones entre entidades como usuarios y roles utilizando programación orientada a objetos en lugar de consultas SQL manuales.Asi mismo, nos permitió aprovechar funcionalidades automáticas como generación de queries, paginación y manejo de entidades persistentes.
+Esta librería fue utilizada para gestionar la persistencia de datos mediante entidades y repositories, gracias a JPA se pudieron mapear relaciones entre entidades como usuarios y roles utilizando programación orientada a objetos en lugar de consultas SQL manuales. Asimismo, nos permitió aprovechar funcionalidades automáticas como generación de queries, paginación y manejo de entidades persistentes.
 
 ### 4. JWT (JSON Web Token)
 
@@ -4561,7 +4555,7 @@ Recomendación:
 Se recomienda para los próximos sprints avanzar con la implementación de los microservicios restantes (Residential Management, Payment Service, Reservation Service y Communication Service), manteniendo el mismo enfoque de despliegue continuo y documentación detallada aplicado en este primer ciclo. Es importante incorporar pruebas automatizadas con mayor cobertura, incluyendo tests unitarios e integración basados en los escenarios BDD definidos, para fortalecer la confiabilidad del sistema a medida que crece en complejidad. Asimismo, se sugiere utilizar los mockups diseñados como base para iniciar el desarrollo del frontend móvil, validando los flujos de interfaz con usuarios reales para ajustar la experiencia antes de la integración con los servicios backend.
 
 
-# Referencias Bibliografía
+# Referencias Bibliográficas
   - Aguilar, K. L. B. (2026). Vacíos regulatorios en la Ley de Propiedad en Condominio, análisis de conflictos recurrentes en su modalidad vertical ubicados en el Distrito Central (Tesis doctoral). Centro Universitario Tecnológico CEUTEC. `https://repositorio.unitec.edu/server/api/core/bitstreams/cd97bbd4-204c-49c8-9901-3d0a5a85d7f3/content`
   - Condominos. (2024, 4 de noviembre). Manejo de chats de WhatsApp de vecinos en condominios. `https://www.condominos.app/sitio/detalle/OA/manejo-de-chats-de-whatsapp-de-vecinos-en-condominios`
   - Deloitte. (2022). Digital transformation and operational efficiency.
