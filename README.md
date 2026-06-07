@@ -4743,7 +4743,60 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 1 
 
 ##### 5.3.2.5. Microservices Documentation Evidence for Sprint Review
 
+Durante el Sprint 2 se documentaron los endpoints de los microservicios Residential Management y Reservation Service mediante Swagger UI. A continuación se presentan los controladores implementados con el detalle de sus rutas, métodos HTTP y funcionalidad expuesta. Todos los endpoints están protegidos mediante Bearer Token JWT, cuya validación se realiza de forma centralizada a través del API Gateway configurado en este sprint. El API Gateway no expone endpoints propios, sino que actúa como punto de entrada único encargado del enrutamiento, la validación de tokens y las políticas de CORS hacia los microservicios destino.
+
+**Residential Controller**
+
+Controlador encargado de la gestión de edificios, unidades residenciales y la vinculación de residentes dentro del condominio. Permite registrar edificios con sus unidades, asociar usuarios a unidades específicas, consultar los residentes de un edificio y gestionar mudanzas entre unidades.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | /api/v1/residential/buildings | Registra un nuevo edificio en el sistema. |
+| GET | /api/v1/residential/buildings | Obtiene la lista de todos los edificios registrados. |
+| GET | /api/v1/residential/buildings/{idBuilding}/units | Consulta las unidades pertenecientes a un edificio específico. |
+| GET | /api/v1/residential/buildings/{idBuilding}/residents | Obtiene la lista de residentes vinculados a un edificio. |
+| POST | /api/v1/residential/units | Registra una nueva unidad residencial. |
+| POST | /api/v1/residential/user-units | Vincula un residente a una unidad específica del edificio. |
+| PUT | /api/v1/residential/user-units/move | Gestiona la mudanza de un residente de una unidad a otra. |
+
+<p align="center">
+  <img src="assets/img/residential_endpoints.png" alt="Residential Controller Endpoints" width="700"/>
+</p>
+
+Figura XX. Endpoints del Residential Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).
+
+**Reservations Controller**
+
+Controlador responsable de la gestión de reservas de áreas comunes del condominio. Permite a los residentes crear nuevas reservas, consultar la disponibilidad de espacios y cancelar reservas existentes.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | /api/v1/reservations | Crea una nueva reserva para un área común en una fecha y horario específicos. |
+| GET | /api/v1/reservations/availability | Consulta la disponibilidad de horarios para las áreas comunes. |
+| POST | /api/v1/reservations/{reservationId}/cancelations | Cancela una reserva existente mediante su identificador. |
+
+<p align="center">
+  <img src="assets/img/reservation_endpoints.png" alt="Reservations Controller Endpoints" width="700"/>
+</p>
+
+Figura XX. Endpoints del Reservations Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).
+
+**Common Areas Controller**
+
+Controlador dedicado al registro de áreas comunes dentro del condominio. Permite a los administradores dar de alta los espacios compartidos que estarán disponibles para reserva por parte de los residentes.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | /api/v1/common-areas | Registra una nueva área común en el sistema del condominio. |
+
+<p align="center">
+  <img src="assets/img/areasComunes_endpoints.png" alt="Common Areas Controller Endpoints" width="700"/>
+</p>
+
+Figura XX. Endpoints del Common Areas Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).
+
 ##### 5.3.2.6. Software Deployment Evidence for Sprint Review
+
 
 ##### 5.3.2.7. Team Collaboration Insights during Sprint
 
