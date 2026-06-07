@@ -4810,6 +4810,8 @@ El repositorio del microservicio de gestión residencial concentra los commits r
   <img src="assets/img/insights_backend_2.png" alt="Insights Backend Residential Management" width="700"/>
 </p>
 
+*Figura XX. Insights del repositorio del backend Residential Management. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
 **Microservicio Reservations - Backend**
 
 El repositorio del microservicio de reservas concentra los commits relacionados con la gestión de áreas comunes del condominio. Los aportes reflejan el desarrollo progresivo de la lógica de negocio dual para controlar la disponibilidad en tiempo real, distinguiendo entre espacios de uso exclusivo y compartidos por aforo, junto con la integración de PostgreSQL y la documentación de los endpoints en Swagger.
@@ -4817,6 +4819,8 @@ El repositorio del microservicio de reservas concentra los commits relacionados 
 <p align="center">
   <img src="assets/img/insights_backend_3.png" alt="Insights Backend Reservation" width="700"/>
 </p>
+
+*Figura XX. Insights del repositorio del backend Reservations. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 ##### 5.3.2.8. Kanban Board
 En esta sección se presentan las actividades desarrolladas durante el Sprint 2 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
