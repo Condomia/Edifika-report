@@ -4763,7 +4763,7 @@ Controlador encargado de la gestión de edificios, unidades residenciales y la v
   <img src="assets/img/residential_endpoints.png" alt="Residential Controller Endpoints" width="700"/>
 </p>
 
-Figura XX. Endpoints del Residential Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).
+*Figura XX. Endpoints del Residential Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Reservations Controller**
 
@@ -4779,7 +4779,7 @@ Controlador responsable de la gestión de reservas de áreas comunes del condomi
   <img src="assets/img/reservation_endpoints.png" alt="Reservations Controller Endpoints" width="700"/>
 </p>
 
-Figura XX. Endpoints del Reservations Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).
+*Figura XX. Endpoints del Reservations Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Common Areas Controller**
 
@@ -4793,7 +4793,7 @@ Controlador dedicado al registro de áreas comunes dentro del condominio. Permit
   <img src="assets/img/areasComunes_endpoints.png" alt="Common Areas Controller Endpoints" width="700"/>
 </p>
 
-Figura XX. Endpoints del Common Areas Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).
+*Figura XX. Endpoints del Common Areas Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 ##### 5.3.2.6. Software Deployment Evidence for Sprint Review
 
