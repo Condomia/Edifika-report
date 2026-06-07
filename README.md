@@ -4741,6 +4741,68 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 1 
 
 ##### 5.3.2.4. Execution Evidence for Sprint Review
 
+Esta sección resume la evidencia de ejecución del Sprint 2, donde se verificó el correcto funcionamiento de los endpoints de los microservicios Residential Management y Reservation Service. Las pruebas se realizaron mediante Postman, enviando todas las solicitudes a través del API Gateway en el puerto 8080, validando que el enrutamiento hacia los microservicios destino y la verificación del Bearer Token JWT funcionan correctamente de forma centralizada. A continuación se detallan las pruebas realizadas por cada endpoint:
+
+**Endpoint: POST /api/v1/residential/buildings**
+
+Se verificó el registro de un nuevo edificio en el sistema enviando los campos requeridos: name, address, district y city. La solicitud fue dirigida al API Gateway, el cual validó el Bearer Token y redirigió la petición al microservicio Residential Management. El sistema procesó los datos correctamente y retornó un código 201 confirmando la creación del edificio en la base de datos.
+
+<p align="center">
+  <img src="assets/img/execution_post_buildings.png" alt="Ejecución POST Buildings" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint POST Buildings a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: POST /api/v1/residential/user-units**
+
+Se comprobó la vinculación de un residente a una unidad específica del edificio enviando los campos idUnit, idUser, startDate, endDate y status. El API Gateway validó el token y enrutó la solicitud al microservicio Residential Management, el cual registró la relación usuario-unidad y retornó un código 201 confirmando la vinculación exitosa.
+
+<p align="center">
+  <img src="assets/img/execution_post_user_units.png" alt="Ejecución POST User Units" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint POST User Units a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: GET /api/v1/residential/buildings/{idBuilding}/residents**
+
+Se verificó la consulta de residentes vinculados a un edificio específico enviando el idBuilding como parámetro de ruta junto con el Bearer Token. El API Gateway redirigió la solicitud al microservicio Residential Management, el cual retornó un código 200 con la lista de residentes incluyendo idUserUnit, idUnit, idUser, startDate, endDate y status de cada vinculación.
+
+<p align="center">
+  <img src="assets/img/execution_get_residents.png" alt="Ejecución GET Residents" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint GET Residents a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: POST /api/v1/common-areas**
+
+Se verificó el registro de una nueva área común del condominio enviando los campos name, maxCapacity y bookingType. La solicitud pasó por el API Gateway, el cual validó el token JWT y enrutó la petición al microservicio Reservation Service. El sistema registró el área común correctamente y retornó un código 201 confirmando su creación.
+
+<p align="center">
+  <img src="assets/img/execution_post_common_areas.png" alt="Ejecución POST Common Areas" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint POST Common Areas a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: POST /api/v1/reservations**
+
+Se comprobó la creación de una nueva reserva enviando los campos residentId, commonAreaId, reservationDate y timeSlot. El API Gateway validó el Bearer Token y redirigió la solicitud al microservicio Reservation Service, el cual verificó la disponibilidad del horario, registró la reserva y retornó un código 201 confirmando la operación.
+
+<p align="center">
+  <img src="assets/img/execution_post_reservations.png" alt="Ejecución POST Reservations" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint POST Reservations a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: GET /api/v1/reservations/availability**
+
+Se verificó la consulta de disponibilidad de un área común enviando los parámetros de query commonAreaId y date. El API Gateway procesó la solicitud con el token válido y la redirigió al microservicio Reservation Service, el cual retornó un código 200 con el mapa de horarios disponibles para el área y fecha consultados.
+
+<p align="center">
+  <img src="assets/img/execution_get_availability.png" alt="Ejecución GET Availability" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint GET Availability a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
 ##### 5.3.2.5. Microservices Documentation Evidence for Sprint Review
 
 Durante el Sprint 2 se documentaron los endpoints de los microservicios Residential Management y Reservation Service mediante Swagger UI. A continuación se presentan los controladores implementados con el detalle de sus rutas, métodos HTTP y funcionalidad expuesta. Todos los endpoints están protegidos mediante Bearer Token JWT, cuya validación se realiza de forma centralizada a través del API Gateway configurado en este sprint. El API Gateway no expone endpoints propios, sino que actúa como punto de entrada único encargado del enrutamiento, la validación de tokens y las políticas de CORS hacia los microservicios destino.
