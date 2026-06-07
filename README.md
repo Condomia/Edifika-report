@@ -4669,7 +4669,7 @@ Posteriormente, se accedió a la sección de Settings del repositorio, donde en 
 Finalmente, se validó el correcto funcionamiento del sitio en producción, comprobando la carga de estilos, scripts y la adaptación responsive en distintos dispositivos. De esta manera, la landing page quedó desplegada y accesible de forma pública mediante GitHub Pages.
 
 <p align="center">
-  <img src="assets/img/deploy_landing.png" alt="Despliegue Landing en Github Pages" width="700"/>
+  <img src="assets/img/deploy_landingpage.png" alt="Despliegue Landing en Github Pages" width="700"/>
 </p>
 
 *Figura 86. Despliegue de la Landing Page. Elaborado por el equipo utilizando GitHub Pages (GitHub, s.f.).*
