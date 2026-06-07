@@ -4754,7 +4754,7 @@ Esta sección presenta los cuadros analíticos de colaboración del equipo duran
 El repositorio del microservicio de gestión residencial concentra los commits relacionados con la administración estructural del condominio y el control de habitabilidad. Los aportes reflejan el desarrollo progresivo de los endpoints para la creación de edificios y departamentos (unidades), la asignación y mudanza de residentes a sus respectivas viviendas, la persistencia de datos en PostgreSQL y la documentación de las consultas de organización interna mediante Swagger.
 
 <p align="center">
-  <img src="assets/img/insights_backend2.png" alt="Insights Backend Residential Management" width="700"/>
+  <img src="assets/img/insights_backend_2.png" alt="Insights Backend Residential Management" width="700"/>
 </p>
 
 **Microservicio Reservations - Backend**
@@ -4762,7 +4762,7 @@ El repositorio del microservicio de gestión residencial concentra los commits r
 El repositorio del microservicio de reservas concentra los commits relacionados con la gestión de áreas comunes del condominio. Los aportes reflejan el desarrollo progresivo de la lógica de negocio dual para controlar la disponibilidad en tiempo real, distinguiendo entre espacios de uso exclusivo y compartidos por aforo, junto con la integración de PostgreSQL y la documentación de los endpoints en Swagger.
 
 <p align="center">
-  <img src="assets/img/insights_backend3.png" alt="Insights Backend Reservation" width="700"/>
+  <img src="assets/img/insights_backend_3.png" alt="Insights Backend Reservation" width="700"/>
 </p>
 
 ##### 5.3.2.8. Kanban Board
