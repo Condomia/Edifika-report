@@ -4703,7 +4703,7 @@ Esta sección presenta los cuadros analíticos de colaboración del equipo duran
 En el repositorio de la Landing Page se registraron los commits correspondientes a la construcción de la página de presentación del producto Edifika. Los aportes del equipo incluyen la estructura base del sitio, las secciones de funcionalidades, el diseño visual y la sección de contacto.
 
 <p align="center">
-  <img src="assets/img/insights_landing1.png" alt="Insights Landing Page" width="700"/>
+  <img src="assets/img/insights_landing.png" alt="Insights Landing Page" width="700"/>
 </p>
 
 *Figura 89. Insights del repositorio de la Landing Page. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
