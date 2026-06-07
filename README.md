@@ -4669,7 +4669,7 @@ Posteriormente, se accedió a la sección de Settings del repositorio, donde en 
 Finalmente, se validó el correcto funcionamiento del sitio en producción, comprobando la carga de estilos, scripts y la adaptación responsive en distintos dispositivos. De esta manera, la landing page quedó desplegada y accesible de forma pública mediante GitHub Pages.
 
 <p align="center">
-  <img src="assets/img/deploy_landing.png" alt="Despliegue Landing en Github Pages" width="700"/>
+  <img src="assets/img/deploy_landingpage.png" alt="Despliegue Landing en Github Pages" width="700"/>
 </p>
 
 *Figura 86. Despliegue de la Landing Page. Elaborado por el equipo utilizando GitHub Pages (GitHub, s.f.).*
@@ -4703,7 +4703,7 @@ Esta sección presenta los cuadros analíticos de colaboración del equipo duran
 En el repositorio de la Landing Page se registraron los commits correspondientes a la construcción de la página de presentación del producto Edifika. Los aportes del equipo incluyen la estructura base del sitio, las secciones de funcionalidades, el diseño visual y la sección de contacto.
 
 <p align="center">
-  <img src="assets/img/insights_landing1.png" alt="Insights Landing Page" width="700"/>
+  <img src="assets/img/insights_landing.png" alt="Insights Landing Page" width="700"/>
 </p>
 
 *Figura 89. Insights del repositorio de la Landing Page. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
@@ -4723,7 +4723,7 @@ En el repositorio del microservicio IAM se concentran los commits relacionados c
 En esta sección se presentan las actividades desarrolladas durante el Sprint 1 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
 
 <p align="center">
-	<img src="assets/img/kanban_board.png" alt="Kanban Board" width="700"/>
+	<img src="assets/img/kanban_board1.png" alt="Kanban Board" width="700"/>
 </p>
 
 *Figura 91. Kanban Board del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
@@ -4756,14 +4756,151 @@ Durante este sprint, el equipo concentró sus esfuerzos en la implementación de
 
 ##### 5.3.2.4. Execution Evidence for Sprint Review
 
+Esta sección resume la evidencia de ejecución del Sprint 2, donde se verificó el correcto funcionamiento de los endpoints de los microservicios Residential Management y Reservation Service. Las pruebas se realizaron mediante Postman, enviando todas las solicitudes a través del API Gateway en el puerto 8080, validando que el enrutamiento hacia los microservicios destino y la verificación del Bearer Token JWT funcionan correctamente de forma centralizada. A continuación se detallan las pruebas realizadas por cada endpoint:
+
+**Endpoint: POST /api/v1/residential/buildings**
+
+Se verificó el registro de un nuevo edificio en el sistema enviando los campos requeridos: name, address, district y city. La solicitud fue dirigida al API Gateway, el cual validó el Bearer Token y redirigió la petición al microservicio Residential Management. El sistema procesó los datos correctamente y retornó un código 201 confirmando la creación del edificio en la base de datos.
+
+<p align="center">
+  <img src="assets/img/execution_post_buildings.png" alt="Ejecución POST Buildings" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint POST Buildings a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: POST /api/v1/residential/user-units**
+
+Se comprobó la vinculación de un residente a una unidad específica del edificio enviando los campos idUnit, idUser, startDate, endDate y status. El API Gateway validó el token y enrutó la solicitud al microservicio Residential Management, el cual registró la relación usuario-unidad y retornó un código 201 confirmando la vinculación exitosa.
+
+<p align="center">
+  <img src="assets/img/execution_post_user_units.png" alt="Ejecución POST User Units" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint POST User Units a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: GET /api/v1/residential/buildings/{idBuilding}/residents**
+
+Se verificó la consulta de residentes vinculados a un edificio específico enviando el idBuilding como parámetro de ruta junto con el Bearer Token. El API Gateway redirigió la solicitud al microservicio Residential Management, el cual retornó un código 200 con la lista de residentes incluyendo idUserUnit, idUnit, idUser, startDate, endDate y status de cada vinculación.
+
+<p align="center">
+  <img src="assets/img/execution_get_residents.png" alt="Ejecución GET Residents" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint GET Residents a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: POST /api/v1/common-areas**
+
+Se verificó el registro de una nueva área común del condominio enviando los campos name, maxCapacity y bookingType. La solicitud pasó por el API Gateway, el cual validó el token JWT y enrutó la petición al microservicio Reservation Service. El sistema registró el área común correctamente y retornó un código 201 confirmando su creación.
+
+<p align="center">
+  <img src="assets/img/execution_post_common_areas.png" alt="Ejecución POST Common Areas" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint POST Common Areas a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: POST /api/v1/reservations**
+
+Se comprobó la creación de una nueva reserva enviando los campos residentId, commonAreaId, reservationDate y timeSlot. El API Gateway validó el Bearer Token y redirigió la solicitud al microservicio Reservation Service, el cual verificó la disponibilidad del horario, registró la reserva y retornó un código 201 confirmando la operación.
+
+<p align="center">
+  <img src="assets/img/execution_post_reservations.png" alt="Ejecución POST Reservations" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint POST Reservations a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: GET /api/v1/reservations/availability**
+
+Se verificó la consulta de disponibilidad de un área común enviando los parámetros de query commonAreaId y date. El API Gateway procesó la solicitud con el token válido y la redirigió al microservicio Reservation Service, el cual retornó un código 200 con el mapa de horarios disponibles para el área y fecha consultados.
+
+<p align="center">
+  <img src="assets/img/execution_get_availability.png" alt="Ejecución GET Availability" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint GET Availability a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
 ##### 5.3.2.5. Microservices Documentation Evidence for Sprint Review
+
+Durante el Sprint 2 se documentaron los endpoints de los microservicios Residential Management y Reservation Service mediante Swagger UI. A continuación se presentan los controladores implementados con el detalle de sus rutas, métodos HTTP y funcionalidad expuesta. Todos los endpoints están protegidos mediante Bearer Token JWT, cuya validación se realiza de forma centralizada a través del API Gateway configurado en este sprint. El API Gateway no expone endpoints propios, sino que actúa como punto de entrada único encargado del enrutamiento, la validación de tokens y las políticas de CORS hacia los microservicios destino.
+
+**Residential Controller**
+
+Controlador encargado de la gestión de edificios, unidades residenciales y la vinculación de residentes dentro del condominio. Permite registrar edificios con sus unidades, asociar usuarios a unidades específicas, consultar los residentes de un edificio y gestionar mudanzas entre unidades.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | /api/v1/residential/buildings | Registra un nuevo edificio en el sistema. |
+| GET | /api/v1/residential/buildings | Obtiene la lista de todos los edificios registrados. |
+| GET | /api/v1/residential/buildings/{idBuilding}/units | Consulta las unidades pertenecientes a un edificio específico. |
+| GET | /api/v1/residential/buildings/{idBuilding}/residents | Obtiene la lista de residentes vinculados a un edificio. |
+| POST | /api/v1/residential/units | Registra una nueva unidad residencial. |
+| POST | /api/v1/residential/user-units | Vincula un residente a una unidad específica del edificio. |
+| PUT | /api/v1/residential/user-units/move | Gestiona la mudanza de un residente de una unidad a otra. |
+
+<p align="center">
+  <img src="assets/img/residential_endpoints.png" alt="Residential Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Endpoints del Residential Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+
+**Reservations Controller**
+
+Controlador responsable de la gestión de reservas de áreas comunes del condominio. Permite a los residentes crear nuevas reservas, consultar la disponibilidad de espacios y cancelar reservas existentes.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | /api/v1/reservations | Crea una nueva reserva para un área común en una fecha y horario específicos. |
+| GET | /api/v1/reservations/availability | Consulta la disponibilidad de horarios para las áreas comunes. |
+| POST | /api/v1/reservations/{reservationId}/cancelations | Cancela una reserva existente mediante su identificador. |
+
+<p align="center">
+  <img src="assets/img/reservation_endpoints.png" alt="Reservations Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Endpoints del Reservations Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+
+**Common Areas Controller**
+
+Controlador dedicado al registro de áreas comunes dentro del condominio. Permite a los administradores dar de alta los espacios compartidos que estarán disponibles para reserva por parte de los residentes.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | /api/v1/common-areas | Registra una nueva área común en el sistema del condominio. |
+
+<p align="center">
+  <img src="assets/img/areasComunes_endpoints.png" alt="Common Areas Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Endpoints del Common Areas Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 ##### 5.3.2.6. Software Deployment Evidence for Sprint Review
 
+
 ##### 5.3.2.7. Team Collaboration Insights during Sprint
 
-##### 5.3.2.8. Kanban Board
+Esta sección presenta los cuadros analíticos de colaboración del equipo durante el Sprint 2, evidenciando la participación de los miembros a través de los commits registrados en los repositorios de GitHub. Se muestran las contribuciones realizadas tanto en el repositorio del microservicio Reservas y Residential Management reflejando el trabajo colaborativo y la distribución de responsabilidades dentro del equipo.
 
+**Microservicio Residential Management - Backend**
+
+El repositorio del microservicio de gestión residencial concentra los commits relacionados con la administración estructural del condominio y el control de habitabilidad. Los aportes reflejan el desarrollo progresivo de los endpoints para la creación de edificios y departamentos (unidades), la asignación y mudanza de residentes a sus respectivas viviendas, la persistencia de datos en PostgreSQL y la documentación de las consultas de organización interna mediante Swagger.
+
+<p align="center">
+  <img src="assets/img/insights_backend_2.png" alt="Insights Backend Residential Management" width="700"/>
+</p>
+
+*Figura XX. Insights del repositorio del backend Residential Management. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
+**Microservicio Reservations - Backend**
+
+El repositorio del microservicio de reservas concentra los commits relacionados con la gestión de áreas comunes del condominio. Los aportes reflejan el desarrollo progresivo de la lógica de negocio dual para controlar la disponibilidad en tiempo real, distinguiendo entre espacios de uso exclusivo y compartidos por aforo, junto con la integración de PostgreSQL y la documentación de los endpoints en Swagger.
+
+<p align="center">
+  <img src="assets/img/insights_backend_3.png" alt="Insights Backend Reservation" width="700"/>
+</p>
+
+*Figura XX. Insights del repositorio del backend Reservations. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
+##### 5.3.2.8. Kanban Board
+En esta sección se presentan las actividades desarrolladas durante el Sprint 2 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
 
 # Conclusiones
 # Conclusiones y Recomendaciones
