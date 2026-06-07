@@ -4723,7 +4723,7 @@ En el repositorio del microservicio IAM se concentran los commits relacionados c
 En esta sección se presentan las actividades desarrolladas durante el Sprint 1 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
 
 <p align="center">
-	<img src="assets/img/kanban_board.png" alt="Kanban Board" width="700"/>
+	<img src="assets/img/kanban_board1.png" alt="Kanban Board" width="700"/>
 </p>
 
 *Figura 91. Kanban Board del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
