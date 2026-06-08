@@ -4758,8 +4758,27 @@ Durante este sprint, el equipo concentró sus esfuerzos en la implementación de
 
 *Figura 92. Sprint Backlog 2. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
-
 ##### 5.3.2.2. Development Evidence for Sprint Review
+
+A lo largo del Sprint 2, el historial de commits evidencia la evolución de la arquitectura de Edifika hacia una solución basada en microservicios. Durante este sprint se desarrollaron componentes clave como el API Gateway, encargado de centralizar y enrutar las solicitudes entre servicios, así como los microservicios de Gestión Residencial y Reservas, incorporando sus respectivas capas de dominio, repositorios, servicios de aplicación y controladores. Asimismo, se implementaron configuraciones de seguridad, políticas CORS y mecanismos de despliegue mediante Docker para facilitar la integración y ejecución de los servicios. En paralelo, el repositorio Frontend registra avances relacionados con la construcción de la estructura base de la aplicación, la implementación de servicios compartidos y el desarrollo de las funcionalidades de autenticación mediante las pantallas de Login y Register. Cada commit representa una iteración verificable del desarrollo, permitiendo rastrear el progreso técnico de la solución desde la creación inicial de los componentes hasta su integración dentro de la plataforma.
+
+| Repository | Branch | Commit Message | Fecha |
+|------------|---------|---------|---------|
+| Edifika-Microservice-Reservation | develop | feat: add reservation microservice | 03/06/2026 |
+| Edifika-Microservice-Reservation | develop | feat: implement booking type enum and dynamic capacity availability | 07/06/2026 |
+| Edifika-API-Gateway | dev | feat: first commit | 07/06/2026 |
+| Edifika-API-Gateway | dev | feat: Add routes, CORS, security, and filter | 07/06/2026 |
+| Edifika-API-Gateway | dev | feat: Add Dockerfile; add common-areas gateway route | 07/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | Initial residential management microservice | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | feat(): Add domain model | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | feat(): Add Repositories | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | feat(): Add ResidentialCommandServiceImpl | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | feat(): Add Assembler and Controller | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | feat(): Add Dockerfile | 07/06/2026 |
+| Edifika-Front | main | initial commit | 06/06/2026 |
+| Edifika-Front | main | base services | 06/06/2026 |
+| Edifika-Front | main | Login | 07/06/2026 |
+| Edifika-Front | main | Register | 07/06/2026 |
 
 ##### 5.3.2.3. Testing Suite Evidence for Sprint Review
 
