@@ -4487,7 +4487,7 @@ Este diagrama considera:
 El objetivo de este Sprint es implementar el microservicio de IAM (Identity and Access Management), desarrollar la Landing Page del producto y elaborar los mockups de los principales módulos de Edifika. Durante este ciclo, el equipo trabajará en completar las funcionalidades de registro, inicio de sesión, gestión de perfiles y autenticación con JWT, así como en la construcción de la página de presentación del producto. El éxito del Sprint se medirá con el avance de las tareas asignadas en el Sprint Backlog y la correcta implementación del microservicio IAM. Esta sección presenta el tablero de control en Trello, junto con la lista de User Stories y tareas desglosadas asignadas a cada miembro del equipo.
 
 <p align="center">
-  <img src="assets/img/trello_sprint1.png" alt="Trello Sprint 1" width="700"/>
+  <img src="assets/img/trello_sprint_1.png" alt="Trello Sprint 1" width="700"/>
 </p>
 
 *Figura 62. Sprint Backlog 1. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
