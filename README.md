@@ -4739,16 +4739,16 @@ Durante este sprint, el equipo concentró sus esfuerzos en la implementación de
 
 | Código US / TS | Título | Id de Tarea | Título de la Tarea | Descripción | Estimación (hrs) | Asignado a | Estado |
 |---------------|---------|-------------|-------------------|-------------|------------------|------------|--------|
-| TS04 | Configuración del API Gateway como punto de entrada centralizado | T04-1 | Configurar API Gateway | Implementar el API Gateway para centralizar las solicitudes hacia los microservicios de Edifika. | 4 | Ortiz Cardenas, Johanna Antuanete | Done |
-| TS15 | Configuración de CORS en el API Gateway | T15-1 | Configurar políticas CORS | Permitir la comunicación segura entre frontend, aplicación móvil y backend. | 3 | Zegarra Lopez, Renato Sebastian Rubber | Done |
-| TS06 | Configuración base del microservicio Residential Management | T06-1 | Crear microservicio Residential Management | Configurar la estructura base para la gestión de edificios, unidades y residentes. | 4 | Bejarano Martinez, Alvaro Leandro | Done |
-| TS08 | Configuración base del microservicio Reservation Service | T08-1 | Crear microservicio Reservation Service | Configurar la estructura base para la gestión de reservas de áreas comunes. | 4 | Sarmiento Medina, Loreley | Done |
-| US18 | Aprobar o rechazar reservas | T18-1 | Gestionar aprobación de reservas | Permitir al administrador aprobar o rechazar solicitudes de reserva de áreas comunes. | 3 | Ortiz Cardenas, Johanna Antuanete | In-Process |
-| US19 | Evitar reservas duplicadas | T19-1 | Validar disponibilidad de reservas | Verificar conflictos de horario para evitar reservas duplicadas. | 3 | Zegarra Lopez, Renato Sebastian Rubber | In-Process |
-| US25 | Generar reportes financieros | T25-1 | Generar reportes financieros | Crear reportes consolidados de ingresos, pagos y deudas del condominio. | 4 | Bejarano Martinez, Alvaro Leandro | In-Process |
-| US35 | Cancelar reserva (Admin) | T35-1 | Cancelar reservas registradas | Permitir al administrador anular reservas realizadas por residentes. | 3 | Sarmiento Medina, Loreley | In-Process |
-| US38 | Habilitar o deshabilitar área común | T38-1 | Gestionar disponibilidad de áreas comunes | Permitir activar o desactivar áreas comunes según su estado operativo. | 3 | Becerra Tejeda, Alessandra Nicole | In-Process |
-| US39 | Configurar reglas de área común | T39-1 | Configurar reglas de uso | Definir horarios, límites y restricciones para el uso de áreas comunes. | 3 | Bejarano Martinez, Alvaro Leandro | In-Process |
+| TS04 | Configuración del API Gateway como punto de entrada centralizado | 24 | Configurar API Gateway | Implementar el API Gateway para centralizar las solicitudes hacia los microservicios de Edifika. | 4 | Ortiz Cardenas, Johanna Antuanete | Done |
+| TS15 | Configuración de CORS en el API Gateway | 25 | Configurar políticas CORS | Permitir la comunicación segura entre frontend, aplicación móvil y backend. | 3 | Zegarra Lopez, Renato Sebastian Rubber | Done |
+| TS06 | Configuración base del microservicio Residential Management | 26 | Crear microservicio Residential Management | Configurar la estructura base para la gestión de edificios, unidades y residentes. | 4 | Bejarano Martinez, Alvaro Leandro | Done |
+| TS08 | Configuración base del microservicio Reservation Service | 27 | Crear microservicio Reservation Service | Configurar la estructura base para la gestión de reservas de áreas comunes. | 4 | Sarmiento Medina, Loreley | Done |
+| US18 | Aprobar o rechazar reservas | 28 | Gestionar aprobación de reservas | Permitir al administrador aprobar o rechazar solicitudes de reserva de áreas comunes. | 3 | Ortiz Cardenas, Johanna Antuanete | In-Process |
+| US19 | Evitar reservas duplicadas | 29 | Validar disponibilidad de reservas | Verificar conflictos de horario para evitar reservas duplicadas. | 3 | Zegarra Lopez, Renato Sebastian Rubber | In-Process |
+| US25 | Generar reportes financieros | 30 | Generar reportes financieros | Crear reportes consolidados de ingresos, pagos y deudas del condominio. | 4 | Bejarano Martinez, Alvaro Leandro | In-Process |
+| US35 | Cancelar reserva (Admin) | 31 | Cancelar reservas registradas | Permitir al administrador anular reservas realizadas por residentes. | 3 | Sarmiento Medina, Loreley | In-Process |
+| US38 | Habilitar o deshabilitar área común | 32 | Gestionar disponibilidad de áreas comunes | Permitir activar o desactivar áreas comunes según su estado operativo. | 3 | Becerra Tejeda, Alessandra Nicole | In-Process |
+| US39 | Configurar reglas de área común | 33 | Configurar reglas de uso | Definir horarios, límites y restricciones para el uso de áreas comunes. | 3 | Bejarano Martinez, Alvaro Leandro | In-Process |
 
 ##### 5.3.2.2. Development Evidence for Sprint Review
 
