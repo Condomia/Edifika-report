@@ -4754,7 +4754,7 @@ Durante este sprint, el equipo concentró sus esfuerzos en la implementación de
   <img src="assets/img/sprintbacklog2.png" alt="Trello Sprint 1" width="700"/>
 </p>
 
-*Figura 91. Sprint Backlog 2. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+*Figura 92. Sprint Backlog 2. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 
 ##### 5.3.2.2. Development Evidence for Sprint Review
