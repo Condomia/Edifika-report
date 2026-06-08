@@ -4862,36 +4862,36 @@ Controlador dedicado al registro de áreas comunes dentro del condominio. Permit
 
 En esta sección se presenta la evidencia del despliegue del software realizado para la revisión del sprint. Se muestran los resultados obtenidos durante la publicación del sistema, incluyendo la disponibilidad del backend y su correcta conexión para ser consumido por otras aplicaciones.
 
-# Backend
+### Backend
 
 Para el backend se empleó Render como plataforma de despliegue en la nube, ya que permite publicar aplicaciones de manera sencilla. El sistema fue desarrollado con Spring Boot en Java y vinculado a un repositorio de GitHub para facilitar el proceso de despliegue. Render se encarga de compilar el proyecto automáticamente usando Maven o Gradle, según la configuración definida en el archivo `pom.xml` o `build.gradle`. Además, se configuró un entorno de ejecución para Java y, después del despliegue, se generó una URL pública que permite acceder a los endpoints del backend desde el frontend o desde otras aplicaciones.
 
-**Api Getaway**
+*Api Getaway*
 <p align="center">
   <img src="assets/img/api_deploy.jpeg" alt="api_deploy" width="700"/>
 </p>
 
-**Residential**
+*Residential*
 <p align="center">
   <img src="assets/img/residential_deploy.png" alt="residential_deploy" width="700"/>
 </p>
 
-**Reservation**
+*Reservation*
 <p align="center">
   <img src="assets/img/reservation_deploy.jpeg" alt="reservation_deploy" width="700"/>
 </p>
 
-# Database
+### Database
 
 Para la base de datos se utilizó Supabase, una plataforma en la nube que permite crear y administrar bases de datos PostgreSQL de forma sencilla. Se creó una instancia de base de datos y Supabase generó las credenciales necesarias para la conexión, como el host, puerto, usuario, contraseña y nombre de la base de datos. Luego, estas credenciales se configuraron en Render mediante variables de entorno, para que el backend desarrollado en Spring Boot pueda conectarse correctamente a la base de datos remota. De esta manera, el sistema puede guardar, consultar y actualizar la información desde el backend desplegado en la nube.
 
 
-**Residential**
+*Residential*
 <p align="center">
   <img src="assets/img/residential_deploy_db.jpeg" alt="residential_deploy" width="700"/>
 </p>
 
-**Reservation**
+*Reservation*
 <p align="center">
   <img src="assets/img/reservation_deploy_db.jpeg" alt="reservation_deploy" width="700"/>
 </p>
