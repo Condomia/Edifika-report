@@ -5058,6 +5058,16 @@ El repositorio del microservicio de reservas concentra los commits relacionados 
 
 *Figura XX. Insights del repositorio del backend Reservations. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
+**Microservicio API Gateway - Backend**
+
+El repositorio del API Gateway centraliza los commits relacionados con la configuración del punto de entrada único para todos los microservicios de Edifika. Los aportes reflejan el desarrollo progresivo de las rutas de enrutamiento hacia los microservicios IAM, Residential Management y Reservation Service, la configuración de seguridad con Spring Cloud Gateway, la propagación del token JWT a los microservicios destino, la configuración de políticas CORS para el frontend y el despliegue en Render mediante Docker.
+
+<p align="center">
+  <img src="assets/img/insights_backend4.png" alt="Insights API Gateway" width="700"/>
+</p>
+
+*Figura XX. Insights del repositorio del backend API Gateway. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
 ##### 5.3.2.8. Kanban Board
 En esta sección se presentan las actividades desarrolladas durante el Sprint 2 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
 
@@ -5148,5 +5158,8 @@ Se recomienda continuar con la implementación de los microservicios pendientes 
 - Enlace del repositorio: `https://github.com/Condomia/Edifika-report.git`
 - Enlace del repositorio de Landing page: `https://github.com/Condomia/Edifika-LandingPage.git`
 - Enlace del repositorio Microservicio IAM: `https://github.com/Condomia/Edifika-Microservice-IAM.git`
+- Enlace del repositorio Microservicio Reservation: `https://github.com/Condomia/Edifika-Microservice-Reservation.git`
+- Enlace del repositorio Microservicio Residential Management: `https://github.com/Condomia/Edifika-Microservice-Residential-Managemen.git`
+- Enlace del repositorio Microservicio API Gateway: `https://github.com/Condomia/Edifika-ApiGateway.git`
 - Enlace del Acceptance Test: `https://github.com/Condomia/Acceptance-tests-Edifika.git`
 - Enlace del Prototipo: `https://www.figma.com/proto/1ksaEJeKckW1WPlgeNyTbH/Untitled?node-id=3015-106&viewport=351%2C196%2C0.16&t=U3A6YtXgGNGnrgnD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3015%3A106&page-id=3012%3A2`
