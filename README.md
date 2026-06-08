@@ -2289,7 +2289,21 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
   </tbody>
 </table>
 
+## Justificación y Trazabilidad de las Historias de Usuario
 
+La siguiente tabla establece la trazabilidad entre las Historias de Usuario definidas para Edifika y los hallazgos obtenidos durante la fase de investigación de usuarios. Cada Historia de Usuario responde a necesidades, problemas (pains) o beneficios esperados (gains) identificados en los Empathy Maps de los perfiles analizados: Ricardo Mendoza (Administrador de Condominios) y Andrea Villacorta (Residente).
+
+| Historias de Usuario | User Persona | Necesidad / Pain Identificado | Justificación |
+|---------------------|--------------|-------------------------------|---------------|
+| US01, US02, US03, US06 | Andrea Villacorta (Residente) | Necesidad de acceder a la información de forma rápida y gestionar sus datos desde una plataforma digital. | Estas historias permiten a los residentes registrarse, iniciar sesión y administrar su perfil sin depender de procesos presenciales o manuales. |
+| US04, US05, US07, US34 | Ricardo Mendoza (Administrador) | Carga operativa elevada debido a registros manuales y falta de organización de la información de residentes y unidades. | Estas historias facilitan la administración centralizada de usuarios, edificios y permisos de acceso, reduciendo el trabajo administrativo manual. |
+| US08, US10, US13, US14 | Ricardo Mendoza y Andrea Villacorta | Falta de comunicación eficiente, pérdida de información y ausencia de transparencia en los comunicados. | Estas historias permiten centralizar los comunicados y garantizar que la información relevante llegue oportunamente a los residentes. |
+| US09, US21, US22, US28, US30 | Andrea Villacorta (Residente) | Incertidumbre sobre el estado de sus pagos, deudas y comprobantes registrados. | Estas historias brindan visibilidad sobre las obligaciones financieras y facilitan el registro y consulta de pagos realizados. |
+| US24, US25, US26, US27 | Ricardo Mendoza (Administrador) | Dificultad para controlar ingresos, egresos y elaborar reportes financieros de forma eficiente. | Estas historias proporcionan herramientas para monitorear la situación financiera del condominio y generar reportes de manera automatizada. |
+| US16, US17, US20 | Andrea Villacorta (Residente) | Problemas para conocer la disponibilidad de áreas comunes y realizar reservas de forma organizada. | Estas historias permiten consultar disponibilidad, reservar espacios y cancelar reservas desde una única plataforma. |
+| US33, US35, US38, US39, US40 | Ricardo Mendoza (Administrador) | Necesidad de controlar el uso de áreas comunes, evitar conflictos y optimizar la gestión de espacios compartidos. | Estas historias brindan mecanismos de supervisión, configuración y análisis de las áreas comunes del condominio. |
+| US29, US36, US37 | Ricardo Mendoza y Andrea Villacorta | Necesidad de fomentar la participación de la comunidad y mantener una convivencia organizada. | Estas historias permiten la interacción entre residentes mediante publicaciones, encuestas y mecanismos de moderación. |
+| US41, US42, US43, US44, US45, US46, US47 | Visitantes y potenciales clientes | Necesidad de comprender la propuesta de valor de Edifika y acceder fácilmente a la plataforma. | Estas historias permiten presentar las funcionalidades del producto, mejorar la experiencia de navegación y facilitar la conversión de visitantes en usuarios. |
 
 # 3.3. Impact Mapping
 El  Impact Map muestra la relación entre el objetivo de negocio de Edifika y los cambios de comportamiento esperados en los usuarios clave: administradores y residentes. A partir de este análisis, se definen los impactos principales que la solución busca generar en cada tipo de usuario y los entregables necesarios para lograrlo, los cuales están directamente vinculados a las historias de usuario planteadas. Esto permite asegurar que cada funcionalidad desarrollada responda a necesidades reales y contribuya al cumplimiento del objetivo del sistema.
