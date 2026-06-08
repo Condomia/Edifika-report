@@ -1382,6 +1382,26 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       </td>
       <td>EP02</td>
     </tr>
+	  <tr>
+  <td><strong>US15</strong></td>
+  <td>Seguimiento de visualización de comunicados</td>
+  <td>Como administrador, quiero saber quién ha visto los comunicados para asegurar su alcance.</td>
+  <td>
+    <strong>E1: Visualización del registro.</strong><br>
+    Dado que el admin accede a un comunicado publicado,<br>
+    cuando revisa el panel de seguimiento,<br>
+    entonces el sistema muestra la lista de residentes que lo han leído con fecha y hora de lectura.<br><br>
+    <strong>E2: Residentes que no han leído.</strong><br>
+    Dado que el admin consulta el seguimiento de un comunicado,<br>
+    cuando filtra por "No leído",<br>
+    entonces el sistema lista los residentes que aún no han abierto el comunicado y permite reenviar la notificación.<br><br>
+    <strong>E3: Error de carga del registro.</strong><br>
+    Dado que el admin intenta ver el seguimiento de visualizaciones,<br>
+    cuando el servicio de base de datos tarda en responder,<br>
+    entonces el sistema muestra un "Skeleton loader" mientras recupera los datos.
+  </td>
+  <td>EP02</td>
+</tr>
     <tr>
       <td><strong>US16</strong></td>
       <td>Ver disponibilidad de áreas comunes</td>
@@ -1422,6 +1442,46 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       </td>
       <td>EP03</td>
     </tr>
+	  <tr>
+  <td><strong>US18</strong></td>
+  <td>Aprobar o rechazar reservas</td>
+  <td>Como administrador, quiero aprobar o rechazar reservas de áreas comunes para mantener el control sobre su uso.</td>
+  <td>
+    <strong>E1: Aprobación exitosa.</strong><br>
+    Dado que el admin recibe una solicitud de reserva pendiente,<br>
+    cuando la aprueba desde el panel de administración,<br>
+    entonces el sistema confirma la reserva y notifica al residente con el código QR de acceso.<br><br>
+    <strong>E2: Rechazo con motivo.</strong><br>
+    Dado que el admin decide rechazar una solicitud de reserva,<br>
+    cuando ingresa el motivo y confirma el rechazo,<br>
+    entonces el sistema libera el horario y notifica al residente indicando el motivo del rechazo.<br><br>
+    <strong>E3: Solicitud expirada.</strong><br>
+    Dado que el admin accede a una solicitud de reserva pendiente,<br>
+    cuando la fecha y hora solicitada ya pasó sin ser procesada,<br>
+    entonces el sistema la marca automáticamente como "Expirada" y la excluye de la lista de pendientes.
+  </td>
+  <td>EP03</td>
+</tr>
+	 <tr>
+  <td><strong>US19</strong></td>
+  <td>Evitar reservas duplicadas</td>
+  <td>Como administrador, quiero que el sistema prevenga reservas duplicadas para evitar conflictos de horario en las áreas comunes.</td>
+  <td>
+    <strong>E1: Bloqueo de duplicado.</strong><br>
+    Dado que un residente intenta reservar un área en un horario ya ocupado,<br>
+    cuando confirma la solicitud,<br>
+    entonces el sistema bloquea la acción e indica "Este horario ya se encuentra reservado, elija otro".<br><br>
+    <strong>E2: Detección en reserva simultánea.</strong><br>
+    Dado que dos residentes intentan reservar el mismo horario al mismo tiempo,<br>
+    cuando ambos confirman la reserva simultáneamente,<br>
+    entonces el sistema otorga la reserva al primero en confirmar y notifica al segundo que el horario ya no está disponible.<br><br>
+    <strong>E3: Alerta al administrador.</strong><br>
+    Dado que el sistema detecta un intento de reserva duplicada,<br>
+    cuando el conflicto es registrado,<br>
+    entonces el admin recibe una notificación indicando el área, horario y los residentes involucrados.
+  </td>
+  <td>EP03</td>
+</tr> 
     <tr>
       <td><strong>US20</strong></td>
       <td>Cancelar reserva</td>
@@ -1482,6 +1542,26 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       </td>
       <td>EP04</td>
     </tr>
+	  <tr>
+  <td><strong>US23</strong></td>
+  <td>Registrar pagos en el sistema</td>
+  <td>Como administrador, quiero registrar manualmente los pagos de los residentes para mantener el sistema actualizado.</td>
+  <td>
+    <strong>E1: Registro exitoso.</strong><br>
+    Dado que el admin accede al módulo de pagos de un residente,<br>
+    cuando ingresa el monto, fecha y método de pago y confirma el registro,<br>
+    entonces el sistema actualiza la deuda del residente y genera un comprobante de pago.<br><br>
+    <strong>E2: Monto inválido.</strong><br>
+    Dado que el admin intenta registrar un pago,<br>
+    cuando ingresa un monto de S/ 0 o un valor negativo,<br>
+    entonces el sistema muestra "El monto ingresado no es válido, verifique los datos".<br><br>
+    <strong>E3: Fallo de persistencia.</strong><br>
+    Dado que el admin intenta guardar el registro de un pago,<br>
+    cuando la base de datos se encuentra en mantenimiento,<br>
+    entonces el sistema muestra "Error 500: No se pudo registrar el pago, intente nuevamente".
+  </td>
+  <td>EP04</td>
+</tr>
     <tr>
       <td><strong>US24</strong></td>
       <td>Visualizar residentes morosos</td>
