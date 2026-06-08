@@ -4750,6 +4750,13 @@ Durante este sprint, el equipo concentró sus esfuerzos en la implementación de
 | US38 | Habilitar o deshabilitar área común | 32 | Gestionar disponibilidad de áreas comunes | Permitir activar o desactivar áreas comunes según su estado operativo. | 3 | Becerra Tejeda, Alessandra Nicole | In-Process |
 | US39 | Configurar reglas de área común | 33 | Configurar reglas de uso | Definir horarios, límites y restricciones para el uso de áreas comunes. | 3 | Bejarano Martinez, Alvaro Leandro | In-Process |
 
+<p align="center">
+  <img src="assets/img/sprintbacklog 2.png" alt="Trello Sprint 1" width="700"/>
+</p>
+
+*Figura 91. Sprint Backlog 2. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+
+
 ##### 5.3.2.2. Development Evidence for Sprint Review
 
 ##### 5.3.2.3. Testing Suite Evidence for Sprint Review
