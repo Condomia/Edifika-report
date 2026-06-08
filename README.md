@@ -4902,6 +4902,15 @@ El repositorio del microservicio de reservas concentra los commits relacionados 
 ##### 5.3.2.8. Kanban Board
 En esta sección se presentan las actividades desarrolladas durante el Sprint 2 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
 
+<p align="center">
+	<img src="assets/img/kanban_board2.png" alt="Kanban Board Sprint 3" width="700"/>
+</p>
+
+*Figura 91. Kanban Board del Sprint 2 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+
+[https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
+
+
 # Conclusiones
 # Conclusiones y Recomendaciones
 
