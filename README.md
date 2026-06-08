@@ -2499,6 +2499,8 @@ En esta sección se presentan los diagramas que describen el comportamiento y la
 
 **Diagramas de Secuencia**
 
+Los diagramas de secuencia presentados a continuación son artefactos de ingeniería de software que documentan los flujos técnicos del sistema desde la perspectiva de la arquitectura y la comunicación entre componentes. Su propósito es detallar cómo interactúan los microservicios, el API Gateway y las bases de datos ante cada operación. Estos diagramas son complementarios a los Scenario Maps presentados en la sección 2.3.4 (As-Is) y 3.1 (To-Be), los cuales abordan los mismos flujos desde la perspectiva de la experiencia del usuario.
+
 **Registro e inicio de sesión del Administrador**
 
 <div align="center">
