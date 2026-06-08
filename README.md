@@ -4713,7 +4713,7 @@ En el repositorio de la Landing Page se registraron los commits correspondientes
 En el repositorio del microservicio IAM se concentran los commits relacionados con la implementación del backend de autenticación y gestión de usuarios. Los aportes reflejan el desarrollo progresivo de los endpoints, la configuración de seguridad con JWT, la integración con PostgreSQL y la documentación con Swagger.
 
 <p align="center">
-  <img src="assets/img/insights_backend1.png" alt="Insights Backend IAM" width="700"/>
+  <img src="assets/img/insights_backend_1.png" alt="Insights Backend IAM" width="700"/>
 </p>
 
 *Figura 90. Insights del repositorio del backend IAM. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
