@@ -4996,6 +4996,44 @@ Controlador dedicado al registro de áreas comunes dentro del condominio. Permit
 ##### 5.3.2.6. Software Deployment Evidence for Sprint Review
 
 
+En esta sección se presenta la evidencia del despliegue del software realizado para la revisión del sprint. Se muestran los resultados obtenidos durante la publicación del sistema, incluyendo la disponibilidad del backend y su correcta conexión para ser consumido por otras aplicaciones.
+
+### Backend
+
+Para el backend se empleó Render como plataforma de despliegue en la nube, ya que permite publicar aplicaciones de manera sencilla. El sistema fue desarrollado con Spring Boot en Java y vinculado a un repositorio de GitHub para facilitar el proceso de despliegue. Render se encarga de compilar el proyecto automáticamente usando Maven o Gradle, según la configuración definida en el archivo `pom.xml` o `build.gradle`. Además, se configuró un entorno de ejecución para Java y, después del despliegue, se generó una URL pública que permite acceder a los endpoints del backend desde el frontend o desde otras aplicaciones.
+
+*Api Getaway*
+<p align="center">
+  <img src="assets/img/api_deploy.jpeg" alt="api_deploy" width="700"/>
+</p>
+
+*Residential*
+<p align="center">
+  <img src="assets/img/residential_deploy.png" alt="residential_deploy" width="700"/>
+</p>
+
+*Reservation*
+<p align="center">
+  <img src="assets/img/reservation_deploy.jpeg" alt="reservation_deploy" width="700"/>
+</p>
+
+### Database
+
+Para la base de datos se utilizó Supabase, una plataforma en la nube que permite crear y administrar bases de datos PostgreSQL de forma sencilla. Se creó una instancia de base de datos y Supabase generó las credenciales necesarias para la conexión, como el host, puerto, usuario, contraseña y nombre de la base de datos. Luego, estas credenciales se configuraron en Render mediante variables de entorno, para que el backend desarrollado en Spring Boot pueda conectarse correctamente a la base de datos remota. De esta manera, el sistema puede guardar, consultar y actualizar la información desde el backend desplegado en la nube.
+
+
+*Residential*
+<p align="center">
+  <img src="assets/img/residential_deploy_db.jpeg" alt="residential_deploy" width="700"/>
+</p>
+
+*Reservation*
+<p align="center">
+  <img src="assets/img/reservation_deploy_db.jpeg" alt="reservation_deploy" width="700"/>
+</p>
+
+
+
 ##### 5.3.2.7. Team Collaboration Insights during Sprint
 
 Esta sección presenta los cuadros analíticos de colaboración del equipo durante el Sprint 2, evidenciando la participación de los miembros a través de los commits registrados en los repositorios de GitHub. Se muestran las contribuciones realizadas tanto en el repositorio del microservicio Reservas y Residential Management reflejando el trabajo colaborativo y la distribución de responsabilidades dentro del equipo.
