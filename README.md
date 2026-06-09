@@ -4877,7 +4877,7 @@ A lo largo del Sprint 2, el historial de commits evidencia la evolución de la a
 
 ##### 5.3.2.4. Execution Evidence for Sprint Review
 
-Esta sección resume la evidencia de ejecución del Sprint 2, donde se verificó el correcto funcionamiento de los endpoints de los microservicios Residential Management y Reservation Service. Las pruebas se realizaron mediante Postman, enviando todas las solicitudes a través del API Gateway en el puerto 8080, validando que el enrutamiento hacia los microservicios destino y la verificación del Bearer Token JWT funcionan correctamente de forma centralizada. A continuación se detallan las pruebas realizadas por cada endpoint:
+Esta sección resume la evidencia de ejecución del Sprint 2, donde se verificó el correcto funcionamiento de los endpoints de los microservicios Residential Management y Reservation Service. Las pruebas se realizaron mediante Postman, enviando todas las solicitudes a través del API Gateway en el puerto 8080, validando que el enrutamiento hacia los microservicios destino y la verificación del Bearer Token JWT funcionan correctamente de forma centralizada.Asimismo, durante este sprint se realizó el despliegue de una primera versión funcional del frontend desarrollado con Angular, permitiendo validar la integración inicial entre la interfaz de usuario y los servicios backend desplegados. A continuación se detallan las pruebas :
 
 **Endpoint: POST /api/v1/residential/buildings**
 
@@ -4938,6 +4938,46 @@ Se verificó la consulta de disponibilidad de un área común enviando los pará
 </p>
 
 *Figura XX. Ejecución del endpoint GET Availability a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Pantalla de Registro de Usuarios**
+
+Se verificó el correcto despliegue de la pantalla de registro de usuarios en el entorno de producción. La interfaz permite ingresar la información requerida para la creación de una cuenta y se encuentra conectada con los servicios de autenticación del sistema. La aplicación fue publicada mediante Render, validando que la interfaz es accesible desde una URL pública y que los recursos se cargan correctamente.
+
+<p align="center">
+  <img src="assets/img/register_deploy.png" alt="Pantalla de Registro Desplegada" width="700"/>
+</p>
+
+*Figura XX. Pantalla de registro de usuarios desplegada en el entorno de producción mediante Render. Elaborado por el equipo.*
+
+**Pantalla de Inicio de Sesión**
+
+Se verificó el correcto funcionamiento de la pantalla de autenticación desplegada en la nube. La interfaz permite a los usuarios ingresar sus credenciales para acceder al sistema, validando la integración inicial entre el frontend desarrollado en Angular y los servicios de autenticación del backend.
+
+<p align="center">
+  <img src="assets/img/login_deploy.png" alt="Pantalla de Login Desplegada" width="700"/>
+</p>
+
+*Figura XX. Pantalla de inicio de sesión desplegada mediante Render e integrada con los servicios de autenticación. Elaborado por el equipo.*
+
+**Dashboard Principal**
+
+Se verificó la correcta visualización del dashboard principal después del despliegue. La pantalla muestra la información y funcionalidades principales disponibles para el usuario autenticado, validando la carga de componentes Angular y la comunicación con los servicios backend correspondientes.
+
+<p align="center">
+  <img src="assets/img/dashboard_deploy.png" alt="Dashboard Desplegado" width="700"/>
+</p>
+
+*Figura XX. Dashboard principal desplegado en el entorno de producción. Elaborado por el equipo.*
+
+**Gestión de Áreas Comunes**
+
+Se verificó el despliegue y funcionamiento de la pantalla de gestión de áreas comunes. La interfaz permite visualizar la información de las áreas registradas y constituye una de las primeras funcionalidades integradas entre el frontend y los microservicios del sistema.
+
+<p align="center">
+  <img src="assets/img/area_deploy.png" alt="Módulo de Áreas Desplegado" width="700"/>
+</p>
+
+*Figura XX. Pantalla de gestión de áreas comunes desplegada mediante Render. Elaborado por el equipo.*
 
 ##### 5.3.2.5. Microservices Documentation Evidence for Sprint Review
 
@@ -5032,7 +5072,15 @@ Para la base de datos se utilizó Supabase, una plataforma en la nube que permit
   <img src="assets/img/reservation_deploy_db.jpeg" alt="reservation_deploy" width="700"/>
 </p>
 
+### Frontend
 
+Para el despliegue de la primera versión del frontend se empleó Render como plataforma de despliegue en la nube, ya que permite publicar aplicaciones web de manera sencilla y automatizada. La interfaz fue desarrollada utilizando el framework Angular, siguiendo las prácticas recomendadas por la comunidad, incluyendo una estructura modular, separación de responsabilidades y convenciones de desarrollo que facilitan el mantenimiento y la escalabilidad del proyecto. Además, el código fuente fue gestionado mediante un repositorio en GitHub, lo que permitió integrar un proceso de despliegue continuo con Render. Cada vez que se realizan cambios en la rama principal del repositorio, Render genera automáticamente una nueva versión de la aplicación y la publica, proporcionando una URL pública desde la cual los usuarios pueden acceder al sistema y consumir los servicios ofrecidos por el backend.
+
+<p align="center">
+  <img src="assets/img/execution_front.png" alt="Ejecución Front" width="700"/>
+</p>
+
+*Figura XX. Ejecución del Frontend. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 ##### 5.3.2.7. Team Collaboration Insights during Sprint
 
