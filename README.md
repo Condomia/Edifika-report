@@ -4545,11 +4545,73 @@ En esta sección se aplicó la metodología Behavior-Driven Development (BDD) pa
 
 Cada archivo .feature corresponde a una Technical Story del Sprint, cubriendo flujos como el registro de administradores, el inicio de sesión con generación de JWT, la validación de tokens en endpoints protegidos y la gestión de usuarios. Esto permite documentar de forma clara las reglas de negocio implementadas en el backend y facilitar la ejecución de pruebas automatizadas que garanticen el correcto funcionamiento del microservicio.
 
+### Repositorio de pruebas de aceptación
+
+| Repository | Branch | Description |
+|---|---|---|
+| Acceptance-tests-Edifika | main | Repositorio que contiene los archivos `.feature` correspondientes a las pruebas BDD de la Landing Page de Edifika. |
+
+### Relación entre User Stories y Feature Files
+
+| User Story | Feature File | Descripción del test |
+|---|---|---|
+| US41 | US41.feature | Valida la correcta visualización de la sección Hero, su responsividad y navegación mediante CTA. |
+| US42 | US42.feature | Valida la navegación entre secciones mediante el navbar, resaltado de sección activa y comportamiento fijo del menú. |
+| US43 | US43.feature | Valida el cambio de idioma entre español e inglés, persistencia del idioma y configuración por defecto. |
+| US44 | US44.feature | Valida el cambio de tema visual entre claro y oscuro, persistencia del tema y adaptación a preferencias del sistema operativo. |
+| US45 | US45.feature | Valida la visualización de la sección de funcionalidades, módulos principales, características y etiqueta destacada. |
+| US46 | US46.feature | Valida la sección del equipo, carga de tarjetas, imágenes de perfil y fallback en caso de error de imagen. |
+
+A continuación se muestra un ejemplo de un archivo feature
+### US42 - Navegar entre secciones de la Landing Page
+
+**Descripción**
+
+Esta prueba valida el correcto funcionamiento del navbar, permitiendo desplazarse entre secciones de forma rápida y visualizando correctamente la sección activa.
+
+```gherkin
+Feature: US42 Navegar entre secciones de la Landing Page
+
+Scenario: Navegación exitosa desde el navbar
+Given el visitante se encuentra en cualquier sección de la landing page
+And visualiza el navbar con las opciones disponibles
+When hace clic en una opción del navbar
+Then la página realiza scroll automático hasta la sección correspondiente
+
+Scenario: Sección activa resaltada en el navbar
+Given el visitante está navegando por la landing page
+And hace scroll por las distintas secciones
+When pasa por una sección determinada
+Then el ítem correspondiente en el navbar se resalta con el color primario
+
+Scenario: Navbar fijo al hacer scroll
+Given el visitante se encuentra en la parte superior de la landing page
+And comienza a hacer scroll hacia abajo
+When supera los primeros 100px de la página
+Then el navbar permanece visible y fijo en la parte superior de la pantalla
+```
+### Evidencia visual de archivos Feature
+Se muestra prueba de los archivos `.feature` desarrollados para las pruebas de aceptación de la Landing Page. Cada archivo corresponde a una User Story específica implementada durante el Sprint.
 <p align="center">
   <img src="assets/img/acceptance_tests.png" alt="acceptance tests" width="700"/>
 </p>
 
 *Figura 63. Archivos .feature utilizados para las pruebas BDD del microservicio IAM. Elaborado por el equipo utilizando Cucumber y Visual Studio Code (Cucumber, s.f.; Microsoft, s.f.).*
+
+Asi mismo se muestra el repositorio GitHub utilizado para almacenar y versionar los archivos `.feature` correspondientes a las pruebas de aceptación del proyecto.
+
+<p align="center">
+  <img src="assets/img/acceptance_tests_repo.png" alt="acceptance tests" width="700"/>
+</p>
+
+*Figura XX. Repositorio de archivos features (Github, s.f).*
+
+### Commits relacionados con Testing
+
+| Repository               | Branch | Commit Id | Commit Message | Commit Message Body                                                                 | Committed On |
+| ------------------------ | ------ | --------- | -------------- | ----------------------------------------------------------------------------------- | ------------ |
+| Acceptance-tests-Edifika | main   | 6778c81   | first commit   | Added BDD acceptance test feature files for Landing Page User Stories US41 to US46. | Last Month   |
+
 
 ##### 5.3.1.4. Execution Evidence for Sprint Review
 
