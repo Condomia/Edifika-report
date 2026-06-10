@@ -4937,6 +4937,176 @@ A lo largo del Sprint 2, el historial de commits evidencia la evolución de la a
 
 ##### 5.3.2.3. Testing Suite Evidence for Sprint Review
 
+Durante el Sprint 2 se implementó una suite de pruebas unitarias utilizando **JUnit 5** y **Mockito**, con el objetivo de validar el correcto funcionamiento de los microservicios desarrollados para la plataforma Edifika. Estas pruebas permiten verificar la lógica de negocio de manera aislada mediante el uso de objetos simulados (*mocks*), garantizando que cada componente responda adecuadamente ante distintos escenarios de ejecución.
+
+La estrategia de pruebas se enfocó en validar servicios de aplicación (*Command Services* y *Query Services*) así como controladores REST (*Controllers*), simulando repositorios y dependencias externas para asegurar que la lógica implementada funcione correctamente sin necesidad de acceder a una base de datos real.
+
+Las pruebas cubren escenarios exitosos, validaciones de negocio y manejo de excepciones, permitiendo detectar errores tempranamente y aumentando la confiabilidad del software antes de su integración con otros componentes del sistema.
+
+### Repositorios de pruebas unitarias
+
+| Repository | Branch | Description |
+|------------|--------|-------------|
+| Edifika-Microservice-IAM | main | Contiene las pruebas unitarias desarrolladas para autenticación, gestión de usuarios y roles utilizando JUnit 5 y Mockito. |
+| Edifika-Microservice-Residential | main | Contiene las pruebas unitarias para la gestión residencial, edificios, unidades y residentes. |
+| Edifika-Microservice-Reservation | main | Contiene las pruebas unitarias para reservas, áreas comunes y disponibilidad de recursos compartidos. |
+
+### Componentes cubiertos por las pruebas
+
+| Microservicio | Clase de prueba | Descripción |
+|---------------|----------------|-------------|
+| IAM | UserCommandServiceImplTest | Valida registro, autenticación, actualización y eliminación de usuarios. |
+| IAM | UserControllerTest | Verifica el comportamiento de los endpoints relacionados con usuarios. |
+| IAM | RoleCommandServiceImplTest | Valida la gestión de roles y permisos del sistema. |
+| IAM | RolesControllerTest | Comprueba las operaciones REST asociadas a la administración de roles. |
+| Residential | ResidentialCommandServiceImplTest | Verifica la creación de edificios, unidades, asignación y traslado de residentes. |
+| Residential | ResidentialQueryServiceImplTest | Valida las consultas de edificios, unidades y residentes registrados. |
+| Residential | ResidentialControllerTest | Comprueba el correcto funcionamiento de los endpoints del microservicio residencial. |
+| Reservation | CommonAreaCommandServiceImplTest | Verifica la creación y configuración de áreas comunes. |
+| Reservation | CommonAreaControllerTest | Valida las operaciones REST asociadas a áreas comunes. |
+| Reservation | ReservationCommandServiceImplTest | Comprueba la creación, cancelación y validaciones de reservas. |
+| Reservation | ReservationQueryServiceImplTest | Verifica la consulta de disponibilidad de áreas comunes. |
+| Reservation | ReservationControllerTest | Valida los endpoints REST relacionados con reservas y disponibilidad. |
+
+### Ejemplo de prueba unitaria
+
+La siguiente prueba valida la creación exitosa de una reserva dentro del microservicio de Reservas, simulando el comportamiento de los repositorios mediante Mockito y verificando que la operación se complete correctamente.
+
+```java
+@Test
+void handleCreateReservationSuccessfullyForExclusiveArea() {
+
+    when(commonAreaRepository.findById(commonAreaId))
+            .thenReturn(Optional.of(commonArea));
+
+    when(commonArea.getBookingType())
+            .thenReturn(EBookingType.EXCLUSIVE);
+
+    when(reservationRepository.save(any(Reservation.class)))
+            .thenReturn(savedReservation);
+
+    var result = reservationCommandService.handleCreateReservation(
+            residentId,
+            commonAreaId,
+            reservationDate,
+            timeSlot
+    );
+
+    assertNotNull(result);
+
+    verify(reservationRepository, times(1))
+            .save(any(Reservation.class));
+}
+```
+
+### Evidencia visual de pruebas unitarias
+
+A continuación se muestran las evidencias de las pruebas unitarias implementadas para los distintos microservicios del proyecto utilizando JUnit 5 y Mockito.
+
+#### Microservicio IAM
+
+<p align="center">
+  <img src="assets/img/AuthControllerLight.PNG" width="700"/>
+</p>
+
+*Figura XX. Pruebas unitarias del controlador de autenticación del microservicio IAM. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/RoleCommandLight.PNG" width="700"/>
+</p>
+
+*Figura XX. Pruebas unitarias del servicio de comandos de roles. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/RolesControllerLight.PNG" width="700"/>
+</p>
+
+*Figura XX. Pruebas unitarias del controlador de roles. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/UserCommandLight.PNG" width="700"/>
+</p>
+
+*Figura XX. Pruebas unitarias del servicio de comandos de usuarios. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/UserControllerLight.PNG" width="700"/>
+</p>
+
+*Figura XX. Pruebas unitarias del controlador de usuarios. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/UserQueryLight.PNG" width="700"/>
+</p>
+
+*Figura XX. Pruebas unitarias del servicio de consultas de usuarios. Elaborado por el equipo.*
+
+
+
+#### Microservicio Residential
+
+<p align="center">
+  <img src="assets/img/ResidentialCommandLight.PNG" width="700"/>
+</p>
+
+*Figura XX. Pruebas unitarias del servicio de comandos residenciales. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/ResidentialControllerLight.PNG" width="700"/>
+</p>
+
+*Figura XX. Pruebas unitarias del controlador residencial. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/ResidentialQueryLight.PNG" width="700"/>
+</p>
+
+*Figura XX. Pruebas unitarias del servicio de consultas residenciales. Elaborado por el equipo.*
+
+
+
+#### Microservicio Reservation
+
+<p align="center">
+  <img src="assets/img/CommonAreaCommandLight.PNG" width="700"/>
+</p>
+
+*Figura XX. Pruebas unitarias del servicio de comandos de áreas comunes. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/CommonAreaControllerLight.PNG" width="700"/>
+</p>
+
+*Figura XX. Pruebas unitarias del controlador de áreas comunes. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/ReservationCommandLight.PNG" width="700"/>
+</p>
+
+*Figura XX. Pruebas unitarias del servicio de comandos de reservas. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/ReservationControllerLight.PNG" width="700"/>
+</p>
+
+*Figura XX. Pruebas unitarias del controlador de reservas. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/ReservationQueryLight.PNG" width="700"/>
+</p>
+
+*Figura XX. Pruebas unitarias del servicio de consultas de reservas. Elaborado por el equipo.*
+
+### Commits relacionados con Testing
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed On |
+|------------|--------|-----------|----------------|---------------------|--------------|
+| Edifika-Microservice-IAM | main | eae4960 | Testing | Added Mockito and JUnit 5 unit tests for authentication, users and roles modules. | Sprint 2 |
+| Edifika-Microservice-Residential | main | 69ba126 |Testing | Added unit tests for residential services, queries and controllers. | Sprint 2 |
+| Edifika-Microservice-Reservation | main | 2653d32 | Testing | Added unit tests for reservations, common areas and availability modules. | Sprint 2 |
+
+Las pruebas unitarias desarrolladas permitieron validar los principales componentes de negocio implementados durante el Sprint 2, garantizando el correcto funcionamiento de los microservicios antes de su integración con el resto de la plataforma y contribuyendo a mejorar la calidad y mantenibilidad del código fuente.
+
 ##### 5.3.2.4. Execution Evidence for Sprint Review
 
 Esta sección resume la evidencia de ejecución del Sprint 2, donde se verificó el correcto funcionamiento de los endpoints de los microservicios Residential Management y Reservation Service. Las pruebas se realizaron mediante Postman, enviando todas las solicitudes a través del API Gateway en el puerto 8080, validando que el enrutamiento hacia los microservicios destino y la verificación del Bearer Token JWT funcionan correctamente de forma centralizada.Asimismo, durante este sprint se realizó el despliegue de una primera versión funcional del frontend desarrollado con Angular, permitiendo validar la integración inicial entre la interfaz de usuario y los servicios backend desplegados. A continuación se detallan las pruebas :
