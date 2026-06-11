@@ -2466,7 +2466,7 @@ En esta sección se presentan los diagramas que describen el comportamiento y la
 
 *Figura 21. Diagrama de Clases IAM. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
-<img src="assets/img/Residential-management-class diagram.png" alt="context"/>
+<img src="assets/img/residential_class_diagramm.png" alt="context"/>
 
 *Figura 22. Diagrama de Clases Residential management. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
@@ -2493,7 +2493,7 @@ En esta sección se presentan los diagramas que describen el comportamiento y la
 *Figura 27. Diagrama de Clases Forums. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 
-<img src="assets/img/reservations_class.png" alt="context"/>
+<img src="assets/img/reservation_class_diagramm.png" alt="context"/>
 
 *Figura 28. Diagrama de Clases Reservations. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
@@ -2611,7 +2611,7 @@ Este diagrama no requiere Saga Pattern porque el Report Service únicamente real
 
 En esta sección se presenta el diagrama de base de datos relacional de Edifika, el cual define las tablas, columnas, tipos de datos, restricciones y relaciones necesarias para garantizar la persistencia de la información del sistema. El diagrama refleja los principales dominios de la plataforma, incluyendo la gestión de usuarios, pagos, reservas de áreas comunes y comunicados oficiales, asegurando integridad referencial mediante el uso de claves primarias y foráneas.
 
-<img src="assets/img/edifika_erd.png" alt="ERD_driagram"/>
+<img src="assets/img/Edifika_ERD_2.png" alt="ERD_driagram"/>
 
 *Figura 35. Diagrama Entidad-Relación. Elaborado por el equipo utilizando LucidChart (LucidChart, s.f.).*
 
