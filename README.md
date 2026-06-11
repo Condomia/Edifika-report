@@ -4603,7 +4603,7 @@ Asi mismo se muestra el repositorio GitHub utilizado para almacenar y versionar 
   <img src="assets/img/acceptance_tests_repo.png" alt="acceptance tests" width="700"/>
 </p>
 
-*Figura XX. Repositorio de archivos features (Github, s.f).*
+*Figura 64. Repositorio de archivos features (Github, s.f).*
 
 ### Commits relacionados con Testing
 
@@ -4624,7 +4624,7 @@ Se verificó el registro de un nuevo administrador enviando los campos requerido
   <img src="assets/img/execution_signup.png" alt="Ejecucion Sign In" width="700"/>
 </p>
 
-*Figura 64. Ejecución del endpoint Sign Up. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 65. Ejecución del endpoint Sign Up. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/authentication/sign-in**
 
@@ -4634,7 +4634,7 @@ Se verificó el inicio de sesión de un administrador registrado enviando el ema
   <img src="assets/img/execution_signin.png" alt="Respuesta Sign In" width="700"/>
 </p>
 
-*Figura 65. Ejecución del endpoint Sign In. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 66. Ejecución del endpoint Sign In. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/users/{id}**
 
@@ -4644,7 +4644,7 @@ Se verificó la consulta de un usuario específico por su id, enviando el Bearer
   <img src="assets/img/execution_get_user.png" alt="Ejecución Get User" width="700"/>
 </p>
 
-*Figura 66. Ejecución del endpoint Get User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 67. Ejecución del endpoint Get User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: PUT /api/v1/users/{id}**
 
@@ -4654,7 +4654,7 @@ Se comprobó la actualización de datos de un usuario existente enviando el id c
   <img src="assets/img/execution_put_user.png" alt="Ejecución Put User" width="700"/>
 </p>
 
-*Figura 67. Ejecución del endpoint Put User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 68. Ejecución del endpoint Put User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: DELETE /api/v1/users/{id}**
 
@@ -4664,7 +4664,7 @@ Se verificó la eliminación de un usuario del sistema enviando el id como pará
   <img src="assets/img/execution_delete_user.png" alt="Ejecución Delete User" width="700"/>
 </p>
 
-*Figura 68. Ejecución del endpoint Delete User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 69. Ejecución del endpoint Delete User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/users**
 
@@ -4674,7 +4674,7 @@ Se comprobó la consulta de todos los usuarios registrados en el sistema. Con el
   <img src="assets/img/execution_get_users.png" alt="Ejecución Get Users" width="700"/>
 </p>
 
-*Figura 69. Ejecución del endpoint Get Users. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 70. Ejecución del endpoint Get Users. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/roles**
 
@@ -4684,7 +4684,7 @@ Se verificó la consulta de roles disponibles en el sistema. El endpoint retorn�
   <img src="assets/img/execution_get_roles.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 70. Ejecución del endpoint Get Roles. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 71. Ejecución del endpoint Get Roles. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **MOCKUP**
 Se crearon mockups de alta fidelidad para mostrar el prototipo de nuestra aplicación web, con sus principales segmentos y flujo.
@@ -4693,61 +4693,55 @@ Se crearon mockups de alta fidelidad para mostrar el prototipo de nuestra aplica
   <img src="assets/img/iniciodesesion.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 71. Mockup de inicio de sesión. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 72. Mockup de inicio de sesión. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/crearcuenta.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 72. Mockup de creación de cuenta. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 73. Mockup de creación de cuenta. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/Dashboard.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 73. Mockup del dashboard principal. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 74. Mockup del dashboard principal. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/unidades.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 74. Mockup del módulo de unidades. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 75. Mockup del módulo de unidades. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/Calendar.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 75. Mockup del calendario de reservas. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 76. Mockup del calendario de reservas. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/detailreservation.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 76. Mockup del detalle de reserva. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 77. Mockup del detalle de reserva. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/DetailReservation2.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 77. Mockup alternativo del detalle de reserva. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 78. Mockup alternativo del detalle de reserva. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/Report.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 78. Mockup del módulo de reportes. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 79. Mockup del módulo de reportes. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/residents.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 79. Mockup del módulo de residentes. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
-
-<p align="center">
-  <img src="assets/img/community.png" alt="Ejecución Get Roles" width="700"/>
-</p>
-
-*Figura 80. Mockup del módulo de comunidad. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 80. Mockup del módulo de residentes. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/community.png" alt="Ejecución Get Roles" width="700"/>
@@ -4756,10 +4750,16 @@ Se crearon mockups de alta fidelidad para mostrar el prototipo de nuestra aplica
 *Figura 81. Mockup del módulo de comunidad. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
+  <img src="assets/img/community.png" alt="Ejecución Get Roles" width="700"/>
+</p>
+
+*Figura 82. Mockup del módulo de comunidad. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+
+<p align="center">
   <img src="assets/img/config.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 82. Mockup del módulo de configuración. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 83. Mockup del módulo de configuración. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 Link del Prototipo: `https://www.figma.com/proto/1ksaEJeKckW1WPlgeNyTbH/Untitled?node-id=3015-106&viewport=351%2C196%2C0.16&t=U3A6YtXgGNGnrgnD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3015%3A106&page-id=3012%3A2`
 
@@ -4780,7 +4780,7 @@ Controlador encargado del registro de nuevos administradores y la autenticación
   <img src="assets/img/authentication_controller.png" alt="Authentication Controller" width="700"/>
 </p>
 
-*Figura 83. Endpoints del Authentication Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 84. Endpoints del Authentication Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Users Controller**
 
@@ -4797,7 +4797,7 @@ Controlador responsable de las operaciones CRUD sobre los usuarios del sistema. 
   <img src="assets/img/user_controller.png" alt="Users Controller" width="700"/>
 </p>
 
-*Figura 84. Endpoints del User Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 85. Endpoints del User Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Roles Controller**
 
@@ -4811,7 +4811,7 @@ Controlador dedicado a la consulta de roles disponibles en el sistema (ADMIN, OW
   <img src="assets/img/roles_controller.png" alt="Roles Controller" width="700"/>
 </p>
 
-*Figura 85. Endpoints del Roles Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 86. Endpoints del Roles Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 ##### 5.3.1.6. Software Deployment Evidence for Sprint Review
 
@@ -4828,7 +4828,7 @@ Finalmente, se validó el correcto funcionamiento del sitio en producción, comp
   <img src="assets/img/deploy_landingpage.png" alt="Despliegue Landing en Github Pages" width="700"/>
 </p>
 
-*Figura 86. Despliegue de la Landing Page. Elaborado por el equipo utilizando GitHub Pages (GitHub, s.f.).*
+*Figura 87. Despliegue de la Landing Page. Elaborado por el equipo utilizando GitHub Pages (GitHub, s.f.).*
 
 **Microservicio IAM - Backend**
 
@@ -4838,7 +4838,7 @@ El microservicio IAM fue desplegado en Render, una plataforma cloud que permite 
   <img src="assets/img/deploy_backend.png" alt="Despliegue Backend en Render" width="700"/>
 </p>
 
-*Figura 87. Despliegue del backend del microservicio IAM. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 88. Despliegue del backend del microservicio IAM. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 **Base de datos PostgreSQL**
 
@@ -4848,7 +4848,7 @@ La base de datos fue desplegada en Supabase, una plataforma que ofrece instancia
   <img src="assets/img/deploy_db.png" alt="Despliegue Base de Datos en Supabase" width="700"/>
 </p>
 
-*Figura 88. Despliegue de la base de datos. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+*Figura 89. Despliegue de la base de datos. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
 
 ##### 5.3.1.7. Team Collaboration Insights during Sprint
 
@@ -4862,7 +4862,7 @@ En el repositorio de la Landing Page se registraron los commits correspondientes
   <img src="assets/img/insights_landing.png" alt="Insights Landing Page" width="700"/>
 </p>
 
-*Figura 89. Insights del repositorio de la Landing Page. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 90. Insights del repositorio de la Landing Page. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 **Microservicio IAM - Backend**
 
@@ -4872,7 +4872,7 @@ En el repositorio del microservicio IAM se concentran los commits relacionados c
   <img src="assets/img/insights_backend_1.png" alt="Insights Backend IAM" width="700"/>
 </p>
 
-*Figura 90. Insights del repositorio del backend IAM. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 91. Insights del repositorio del backend IAM. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 ##### 5.3.1.8. Kanban Board
 
@@ -4882,7 +4882,7 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 1 
 	<img src="assets/img/kanban_board1.png" alt="Kanban Board" width="700"/>
 </p>
 
-*Figura 91. Kanban Board del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+*Figura 92. Kanban Board del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 [https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
 
@@ -4910,7 +4910,7 @@ Durante este sprint, el equipo concentró sus esfuerzos en la implementación de
   <img src="assets/img/sprintbacklog2.png" alt="Trello Sprint 1" width="700"/>
 </p>
 
-*Figura 92. Sprint Backlog 2. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+*Figura 93. Sprint Backlog 2. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 ##### 5.3.2.2. Development Evidence for Sprint Review
 
@@ -5008,37 +5008,37 @@ A continuación se muestran las evidencias de las pruebas unitarias implementada
   <img src="assets/img/AuthControllerLight.PNG" width="700"/>
 </p>
 
-*Figura XX. Pruebas unitarias del controlador de autenticación del microservicio IAM. Elaborado por el equipo.*
+*Figura 94. Pruebas unitarias del controlador de autenticación del microservicio IAM. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/RoleCommandLight.PNG" width="700"/>
 </p>
 
-*Figura XX. Pruebas unitarias del servicio de comandos de roles. Elaborado por el equipo.*
+*Figura 95. Pruebas unitarias del servicio de comandos de roles. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/RolesControllerLight.PNG" width="700"/>
 </p>
 
-*Figura XX. Pruebas unitarias del controlador de roles. Elaborado por el equipo.*
+*Figura 96. Pruebas unitarias del controlador de roles. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/UserCommandLight.PNG" width="700"/>
 </p>
 
-*Figura XX. Pruebas unitarias del servicio de comandos de usuarios. Elaborado por el equipo.*
+*Figura 97. Pruebas unitarias del servicio de comandos de usuarios. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/UserControllerLight.PNG" width="700"/>
 </p>
 
-*Figura XX. Pruebas unitarias del controlador de usuarios. Elaborado por el equipo.*
+*Figura 98. Pruebas unitarias del controlador de usuarios. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/UserQueryLight.PNG" width="700"/>
 </p>
 
-*Figura XX. Pruebas unitarias del servicio de consultas de usuarios. Elaborado por el equipo.*
+*Figura 99. Pruebas unitarias del servicio de consultas de usuarios. Elaborado por el equipo.*
 
 
 
@@ -5048,19 +5048,19 @@ A continuación se muestran las evidencias de las pruebas unitarias implementada
   <img src="assets/img/ResidentialCommandLight.PNG" width="700"/>
 </p>
 
-*Figura XX. Pruebas unitarias del servicio de comandos residenciales. Elaborado por el equipo.*
+*Figura 100. Pruebas unitarias del servicio de comandos residenciales. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/ResidentialControllerLight.PNG" width="700"/>
 </p>
 
-*Figura XX. Pruebas unitarias del controlador residencial. Elaborado por el equipo.*
+*Figura 101. Pruebas unitarias del controlador residencial. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/ResidentialQueryLight.PNG" width="700"/>
 </p>
 
-*Figura XX. Pruebas unitarias del servicio de consultas residenciales. Elaborado por el equipo.*
+*Figura 102. Pruebas unitarias del servicio de consultas residenciales. Elaborado por el equipo.*
 
 
 
@@ -5070,31 +5070,31 @@ A continuación se muestran las evidencias de las pruebas unitarias implementada
   <img src="assets/img/CommonAreaCommandLight.PNG" width="700"/>
 </p>
 
-*Figura XX. Pruebas unitarias del servicio de comandos de áreas comunes. Elaborado por el equipo.*
+*Figura 103. Pruebas unitarias del servicio de comandos de áreas comunes. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/CommonAreaControllerLight.PNG" width="700"/>
 </p>
 
-*Figura XX. Pruebas unitarias del controlador de áreas comunes. Elaborado por el equipo.*
+*Figura 104. Pruebas unitarias del controlador de áreas comunes. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/ReservationCommandLight.PNG" width="700"/>
 </p>
 
-*Figura XX. Pruebas unitarias del servicio de comandos de reservas. Elaborado por el equipo.*
+*Figura 105. Pruebas unitarias del servicio de comandos de reservas. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/ReservationControllerLight.PNG" width="700"/>
 </p>
 
-*Figura XX. Pruebas unitarias del controlador de reservas. Elaborado por el equipo.*
+*Figura 106. Pruebas unitarias del controlador de reservas. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/ReservationQueryLight.PNG" width="700"/>
 </p>
 
-*Figura XX. Pruebas unitarias del servicio de consultas de reservas. Elaborado por el equipo.*
+*Figura 107. Pruebas unitarias del servicio de consultas de reservas. Elaborado por el equipo.*
 
 ### Commits relacionados con Testing
 
