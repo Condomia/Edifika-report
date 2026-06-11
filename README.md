@@ -854,9 +854,11 @@ Estrategia: Optimizar el uso de recursos compartidos dentro del condominio
 Táctica: Implementar un calendario interactivo con disponibilidad en tiempo real, reglas automáticas de uso y confirmaciones instantáneas de reservas
 
 
- # 2.2. Entrevistas
+# 2.2. Entrevistas
  
- ## 2.2.1 Diseño de entrevistas
+## 2.2.1 Diseño de entrevistas
+
+Para el diseño de las entrevistas se utilizó el método de entrevistas semiestructuradas, el cual combina un conjunto de preguntas predefinidas con la flexibilidad de profundizar en las respuestas del entrevistado según el contexto de la conversación. Este enfoque fue seleccionado porque permite recopilar información cualitativa sobre las experiencias, frustraciones y expectativas de los usuarios sin limitar sus respuestas a opciones cerradas. Las preguntas fueron formuladas de manera abierta para incentivar respuestas detalladas y se organizaron en dos guiones diferenciados, uno por cada segmento objetivo del proyecto, asegurando que cada entrevista aborde las problemáticas específicas del perfil entrevistado.
 
 1. Segmento: Administradores de edificios y condominios
 
