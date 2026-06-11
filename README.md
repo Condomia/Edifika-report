@@ -5096,7 +5096,7 @@ Se comprobó la vinculación de un residente a una unidad específica del edific
   <img src="assets/img/execution_post_user_units.png" alt="Ejecución POST User Units" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST User Units a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 103. Ejecución del endpoint POST User Units a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/residential/buildings/{idBuilding}/residents**
 
@@ -5106,7 +5106,7 @@ Se verificó la consulta de residentes vinculados a un edificio específico envi
   <img src="assets/img/execution_get_residents.png" alt="Ejecución GET Residents" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint GET Residents a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 104. Ejecución del endpoint GET Residents a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/common-areas**
 
@@ -5116,7 +5116,7 @@ Se verificó el registro de una nueva área común del condominio enviando los c
   <img src="assets/img/execution_post_common_areas.png" alt="Ejecución POST Common Areas" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Common Areas a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 105. Ejecución del endpoint POST Common Areas a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/reservations**
 
@@ -5126,7 +5126,7 @@ Se comprobó la creación de una nueva reserva enviando los campos residentId, c
   <img src="assets/img/execution_post_reservations.png" alt="Ejecución POST Reservations" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Reservations a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 106. Ejecución del endpoint POST Reservations a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/reservations/availability**
 
@@ -5136,7 +5136,7 @@ Se verificó la consulta de disponibilidad de un área común enviando los pará
   <img src="assets/img/execution_get_availability.png" alt="Ejecución GET Availability" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint GET Availability a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 107. Ejecución del endpoint GET Availability a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Pantalla de Registro de Usuarios**
 
@@ -5146,7 +5146,7 @@ Se verificó el correcto despliegue de la pantalla de registro de usuarios en el
   <img src="assets/img/register_deploy.png" alt="Pantalla de Registro Desplegada" width="700"/>
 </p>
 
-*Figura XX. Pantalla de registro de usuarios desplegada en el entorno de producción mediante Render. Elaborado por el equipo.*
+*Figura 108. Pantalla de registro de usuarios desplegada en el entorno de producción mediante Render. Elaborado por el equipo.*
 
 **Pantalla de Inicio de Sesión**
 
@@ -5156,7 +5156,7 @@ Se verificó el correcto funcionamiento de la pantalla de autenticación despleg
   <img src="assets/img/login_deploy.png" alt="Pantalla de Login Desplegada" width="700"/>
 </p>
 
-*Figura XX. Pantalla de inicio de sesión desplegada mediante Render e integrada con los servicios de autenticación. Elaborado por el equipo.*
+*Figura 109. Pantalla de inicio de sesión desplegada mediante Render e integrada con los servicios de autenticación. Elaborado por el equipo.*
 
 **Dashboard Principal**
 
@@ -5166,7 +5166,7 @@ Se verificó la correcta visualización del dashboard principal después del des
   <img src="assets/img/dashboard_deploy.png" alt="Dashboard Desplegado" width="700"/>
 </p>
 
-*Figura XX. Dashboard principal desplegado en el entorno de producción. Elaborado por el equipo.*
+*Figura 110. Dashboard principal desplegado en el entorno de producción. Elaborado por el equipo.*
 
 **Gestión de Áreas Comunes**
 
@@ -5176,7 +5176,7 @@ Se verificó el despliegue y funcionamiento de la pantalla de gestión de áreas
   <img src="assets/img/area_deploy.png" alt="Módulo de Áreas Desplegado" width="700"/>
 </p>
 
-*Figura XX. Pantalla de gestión de áreas comunes desplegada mediante Render. Elaborado por el equipo.*
+*Figura 111. Pantalla de gestión de áreas comunes desplegada mediante Render. Elaborado por el equipo.*
 
 ##### 5.3.2.5. Microservices Documentation Evidence for Sprint Review
 
@@ -5200,7 +5200,7 @@ Controlador encargado de la gestión de edificios, unidades residenciales y la v
   <img src="assets/img/residential_endpoints.png" alt="Residential Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Endpoints del Residential Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 112. Endpoints del Residential Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Reservations Controller**
 
@@ -5216,7 +5216,7 @@ Controlador responsable de la gestión de reservas de áreas comunes del condomi
   <img src="assets/img/reservation_endpoints.png" alt="Reservations Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Endpoints del Reservations Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 113. Endpoints del Reservations Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Common Areas Controller**
 
@@ -5230,7 +5230,7 @@ Controlador dedicado al registro de áreas comunes dentro del condominio. Permit
   <img src="assets/img/areasComunes_endpoints.png" alt="Common Areas Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Endpoints del Common Areas Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 114. Endpoints del Common Areas Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 ##### 5.3.2.6. Software Deployment Evidence for Sprint Review
 
@@ -5246,15 +5246,21 @@ Para el backend se empleó Render como plataforma de despliegue en la nube, ya q
   <img src="assets/img/api_deploy.jpeg" alt="api_deploy" width="700"/>
 </p>
 
+*Figura 115. Api Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
 *Residential*
 <p align="center">
   <img src="assets/img/residential_deploy.png" alt="residential_deploy" width="700"/>
 </p>
 
+*Figura 116. Residential Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
 *Reservation*
 <p align="center">
   <img src="assets/img/reservation_deploy.jpeg" alt="reservation_deploy" width="700"/>
 </p>
+
+*Figura 116. Residential Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 ### Database
 
@@ -5266,10 +5272,14 @@ Para la base de datos se utilizó Supabase, una plataforma en la nube que permit
   <img src="assets/img/residential_deploy_db.jpeg" alt="residential_deploy" width="700"/>
 </p>
 
+*Figura 117. Residential Deploy DB. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+
 *Reservation*
 <p align="center">
   <img src="assets/img/reservation_deploy_db.jpeg" alt="reservation_deploy" width="700"/>
 </p>
+
+*Figura 118. Residential Deploy DB. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
 
 ### Frontend
 
@@ -5279,7 +5289,7 @@ Para el despliegue de la primera versión del frontend se empleó Render como pl
   <img src="assets/img/execution_front.png" alt="Ejecución Front" width="700"/>
 </p>
 
-*Figura XX. Ejecución del Frontend. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 119. Ejecución del Frontend. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 ##### 5.3.2.7. Team Collaboration Insights during Sprint
 
@@ -5293,7 +5303,7 @@ El repositorio del microservicio de gestión residencial concentra los commits r
   <img src="assets/img/insights_backend_2.png" alt="Insights Backend Residential Management" width="700"/>
 </p>
 
-*Figura XX. Insights del repositorio del backend Residential Management. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 120. Insights del repositorio del backend Residential Management. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 **Microservicio Reservations - Backend**
 
@@ -5303,7 +5313,7 @@ El repositorio del microservicio de reservas concentra los commits relacionados 
   <img src="assets/img/insights_backend_3.png" alt="Insights Backend Reservation" width="700"/>
 </p>
 
-*Figura XX. Insights del repositorio del backend Reservations. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 121. Insights del repositorio del backend Reservations. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 **Microservicio API Gateway - Backend**
 
@@ -5313,7 +5323,7 @@ El repositorio del API Gateway centraliza los commits relacionados con la config
   <img src="assets/img/insights_backend4.png" alt="Insights API Gateway" width="700"/>
 </p>
 
-*Figura XX. Insights del repositorio del backend API Gateway. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 122. Insights del repositorio del backend API Gateway. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 ##### 5.3.2.8. Kanban Board
 En esta sección se presentan las actividades desarrolladas durante el Sprint 2 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
@@ -5322,7 +5332,7 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 2 
 	<img src="assets/img/kanban_board2.png" alt="Kanban Board Sprint 3" width="700"/>
 </p>
 
-*Figura XX. Kanban Board del Sprint 2 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+*Figura 123. Kanban Board del Sprint 2 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 [https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
 
