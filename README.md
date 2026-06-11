@@ -3018,7 +3018,7 @@ Se adoptan los siguientes conceptos de diseño:
 
 ### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
-<img src="assets/img/TRELLO1.PNG" alt="context"/>
+<img src="assets/img/itereacion1blanco.png" alt="context"/>
 *Figura 37. TRElLO - Iteration 1. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
  
 ## 4.3.2 Iteration 2: Refinamiento de módulos críticos (Pagos y Reservas)
@@ -3124,7 +3124,7 @@ Para garantizar la integridad (AD-08) y disponibilidad (AD-09), se define el sig
 
 ### 4.3.2.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
-<img src="assets/img/TRELLO2.PNG" alt="context"/>
+<img src="assets/img/iteracion2blanco.png" alt="context"/>
 *Figura 40. TRElLO - Iteration 2. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
 
 ## 4.3.3 Iteration 3: Optimización de reportes, comunicados y notificaciones
@@ -3188,7 +3188,7 @@ Se adoptan los siguientes conceptos de diseño:
 
 ### 4.3.3.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
-<img src="assets/img/TRELLO3.PNG" alt="context"/>
+<img src="assets/img/iteracion3blanco.png" alt="context"/>
 *Figura 43. TRElLO - Iteration 3. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
 
 # CAPÍTULO V: Product Implementation, Validation & Deployment
