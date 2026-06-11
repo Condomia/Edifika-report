@@ -2553,41 +2553,47 @@ En esta sección se presentan los diagramas que describen el comportamiento y la
  **Diagramas de Clases**
 
 <img src="assets/img/iam-auth.png" alt="context"/>
-<img src="assets/img/iam-auth1.png" alt="context"/>
-<img src="assets/img/iam-auth2.png" alt="context"/>
 
 *Figura 21. Diagrama de Clases IAM. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
+<img src="assets/img/iam-auth1.png" alt="context"/>
+
+*Figura 22. Diagrama de Clases IAM. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
+<img src="assets/img/iam-auth2.png" alt="context"/>
+
+*Figura 23. Diagrama de Clases IAM. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
 <img src="assets/img/residential_class_diagramm.png" alt="context"/>
 
-*Figura 22. Diagrama de Clases Residential management. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 24. Diagrama de Clases Residential management. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 <img src="assets/img/notifications_class.png" alt="context"/>
 
-*Figura 23. Diagrama de Clases Notifications. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 25. Diagrama de Clases Notifications. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 <img src="assets/img/reports_class.png" alt="context"/>
 
-*Figura 24. Diagrama de Clases Reports. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 26. Diagrama de Clases Reports. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 
 <img src="assets/img/communications_class.png" alt="context"/>
 
-*Figura 25. Diagrama de Clases Communications. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 27. Diagrama de Clases Communications. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 <img src="assets/img/payment_class.png" alt="context"/>
 
-*Figura 26. Diagrama de Clases Payments. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 28. Diagrama de Clases Payments. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 
 <img src="assets/img/forum_class.png" alt="context"/>
 
-*Figura 27. Diagrama de Clases Forums. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 29. Diagrama de Clases Forums. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 
 <img src="assets/img/reservation_class_diagramm.png" alt="context"/>
 
-*Figura 28. Diagrama de Clases Reservations. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 30. Diagrama de Clases Reservations. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 **Diagramas de Secuencia**
 
@@ -2599,7 +2605,7 @@ Los diagramas de secuencia presentados a continuación son artefactos de ingenie
 
 <img src="assets/img/secuencia1.png" alt="Diagrama de secuencia autenticación administrador"/>
 
-*Figura 29. Diagrama de Secuencia - Autenticación Administrador. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 31. Diagrama de Secuencia - Autenticación Administrador. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 </div>
 
@@ -2613,7 +2619,7 @@ Este diagrama muestra el flujo de registro e inicio de sesión del administrador
 
 <img src="assets/img/secuencia2.png" alt="Diagrama de secuencia autenticación inquilino propietario"/>
 
-*Figura 30. Diagrama de Secuencia - Autenticación Inquilino/Propietario. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 32. Diagrama de Secuencia - Autenticación Inquilino/Propietario. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 </div>
 
@@ -2628,7 +2634,7 @@ Este diagrama presenta el flujo de inicio de sesión del propietario o inquilino
 
 <img src="assets/img/secuencia_comunicados.png" alt="Diagrama de secuencia comunicados oficiales"/>
 
-*Figura 31. Diagrama de Secuencia - Comunicados Oficiales. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 33. Diagrama de Secuencia - Comunicados Oficiales. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 </div>
 
@@ -2651,7 +2657,7 @@ El cuarto flujo corresponde a la respuesta de encuestas por parte de los residen
 
 <img src="assets/img/secuencia_pagos.png" alt="Diagrama de secuencia gestión de pagos"/>
 
-*Figura 32. Diagrama de Secuencia - Gestión de Pagos. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 34. Diagrama de Secuencia - Gestión de Pagos. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 </div>
 
@@ -2671,7 +2677,7 @@ La tercera sección muestra la aprobación del pago, donde se aplica el **Saga P
 
 <img src="assets/img/secuencia_reservas.png" alt="Diagrama de secuencia reserva de áreas comunes"/>
 
-*Figura 33. Diagrama de Secuencia - Reserva de Áreas Comunes. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 35. Diagrama de Secuencia - Reserva de Áreas Comunes. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 </div>
 
@@ -2689,7 +2695,7 @@ La tercera sección muestra la aprobación de la reserva por el administrador, d
 <img src="assets/img/secuencia_reportes.png" alt="Diagrama de secuencia reportes"/>
 </div>
 
-*Figura 34. Diagrama de Secuencia - Reportes Financieros. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 36. Diagrama de Secuencia - Reportes Financieros. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 Este diagrama describe el flujo de reportes financieros en Edifika, dividido en tres secciones.
 
@@ -2707,7 +2713,7 @@ En esta sección se presenta el diagrama de base de datos relacional de Edifika,
 
 <img src="assets/img/Edifika_ERD_2.png" alt="ERD_driagram"/>
 
-*Figura 35. Diagrama Entidad-Relación. Elaborado por el equipo utilizando LucidChart (LucidChart, s.f.).*
+*Figura 37. Diagrama Entidad-Relación. Elaborado por el equipo utilizando LucidChart (LucidChart, s.f.).*
 
 ### 4.1.7. Design Patterns
 
@@ -3014,12 +3020,12 @@ Se adoptan los siguientes conceptos de diseño:
 
 <img src="assets/img/ContainerView.png" alt="context"/>
  
-*Figura 36. Diagrama de Contenedores. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 38. Diagrama de Contenedores. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 ### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
 <img src="assets/img/itereacion1blanco.png" alt="context"/>
-*Figura 37. TRElLO - Iteration 1. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
+*Figura 39. TRElLO - Iteration 1. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
  
 ## 4.3.2 Iteration 2: Refinamiento de módulos críticos (Pagos y Reservas)
 
@@ -3115,17 +3121,17 @@ Para garantizar la integridad (AD-08) y disponibilidad (AD-09), se define el sig
 
 <img src="assets/img/ComponentView_Payment_Service.png" alt="context"/>
 
-*Figura 38. Diagrama de Componentes - Payment Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 40. Diagrama de Componentes - Payment Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/ComponentView_Reservation_Service.png" alt="context"/>
 
-*Figura 39. Diagrama de Componentes - Reservation Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 41. Diagrama de Componentes - Reservation Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 
 ### 4.3.2.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
 <img src="assets/img/iteracion2blanco.png" alt="context"/>
-*Figura 40. TRElLO - Iteration 2. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
+*Figura 42. TRElLO - Iteration 2. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
 
 ## 4.3.3 Iteration 3: Optimización de reportes, comunicados y notificaciones
 
@@ -3180,16 +3186,16 @@ Se adoptan los siguientes conceptos de diseño:
 
 <img src="assets/img/ComponentView_Communication_Service.png" alt="context"/>
 
-*Figura 41. Diagrama de Componentes - Communication Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 43. Diagrama de Componentes - Communication Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/ComponentView_Notification_Service.png" alt="context"/>
 
-*Figura 42. Diagrama de Componentes - Notification Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 44. Diagrama de Componentes - Notification Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 ### 4.3.3.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
 <img src="assets/img/iteracion3blanco.png" alt="context"/>
-*Figura 43. TRElLO - Iteration 3. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
+*Figura 45. TRElLO - Iteration 3. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
 
 # CAPÍTULO V: Product Implementation, Validation & Deployment
 ### 5.1. Testing Suites & General Patterns
@@ -3206,37 +3212,37 @@ A continuación, se muestran evidencias de las pruebas ejecutadas y sus respecti
   <img src="assets/img/AuthControllerLight.PNG" width="700"/>
 </p>
 
-*Figura 41. Pruebas unitarias del controlador de autenticación del microservicio IAM. Elaborado por el equipo.*
+*Figura 46. Pruebas unitarias del controlador de autenticación del microservicio IAM. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/RoleCommandLight.PNG" width="700"/>
 </p>
 
-*Figura 42. Pruebas unitarias del servicio de comandos de roles. Elaborado por el equipo.*
+*Figura 47. Pruebas unitarias del servicio de comandos de roles. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/RolesControllerLight.PNG" width="700"/>
 </p>
 
-*Figura 43. Pruebas unitarias del controlador de roles. Elaborado por el equipo.*
+*Figura 48. Pruebas unitarias del controlador de roles. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/UserCommandLight.PNG" width="700"/>
 </p>
 
-*Figura 44. Pruebas unitarias del servicio de comandos de usuarios. Elaborado por el equipo.*
+*Figura 49. Pruebas unitarias del servicio de comandos de usuarios. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/UserControllerLight.PNG" width="700"/>
 </p>
 
-*Figura 45. Pruebas unitarias del controlador de usuarios. Elaborado por el equipo.*
+*Figura 50. Pruebas unitarias del controlador de usuarios. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/UserQueryLight.PNG" width="700"/>
 </p>
 
-*Figura 56. Pruebas unitarias del servicio de consultas de usuarios. Elaborado por el equipo.*
+*Figura 51. Pruebas unitarias del servicio de consultas de usuarios. Elaborado por el equipo.*
 
 ##### 5.1.2. Pattern Based Backend Application(s)
 
@@ -3536,7 +3542,7 @@ Trello (SaaS)
 
 <img src="assets/img/trello.png" alt="context" width="200"/>
 
-*Figura 47. Plataforma Trello utilizada para la gestión y organización de tareas del proyecto EDIFIKA (Trello, s.f.).*
+*Figura 52. Plataforma Trello utilizada para la gestión y organización de tareas del proyecto EDIFIKA (Trello, s.f.).*
 
 
 ### Team Communication
@@ -3551,7 +3557,7 @@ Discord (SaaS / Aplicación de escritorio)
 
 <img src="assets/img/discord.png" alt="context" width="200"/>
 
-*Figura 48. Plataforma Discord utilizada para la comunicación y coordinación interna del equipo de desarrollo de EDIFIKA (Discord, s.f.).*
+*Figura 53. Plataforma Discord utilizada para la comunicación y coordinación interna del equipo de desarrollo de EDIFIKA (Discord, s.f.).*
 
 
 ### Product UX/UI Design
@@ -3566,7 +3572,7 @@ Figma (SaaS)
 
 <img src="assets/img/figma.png" alt="context" width="200"/>
 
-*Figura 49. Plataforma Figma utilizada para el diseño de interfaces, wireframes y prototipos visuales de la solución EDIFIKA (Figma, s.f.).*
+*Figura 54. Plataforma Figma utilizada para el diseño de interfaces, wireframes y prototipos visuales de la solución EDIFIKA (Figma, s.f.).*
 
 
 
@@ -3582,7 +3588,7 @@ GitHub (SaaS)
 
 <img src="assets/img/github.png" alt="context" width="200"/>
 
-*Figura 50. Plataforma GitHub utilizada para el control de versiones y colaboración en el desarrollo de los productos digitales de EDIFIKA (GitHub, s.f.).*
+*Figura 55. Plataforma GitHub utilizada para el control de versiones y colaboración en el desarrollo de los productos digitales de EDIFIKA (GitHub, s.f.).*
 
 
 
@@ -3596,7 +3602,7 @@ IntelliJ IDEA (Aplicación de escritorio)
 
 <img src="assets/img/intellidea.png" alt="context" width="200"/>
 
-*Figura 51. Entorno de desarrollo IntelliJ IDEA utilizado para la implementación del microservicio IAM basado en Spring Boot y Java (JetBrains, s.f.).*
+*Figura 56. Entorno de desarrollo IntelliJ IDEA utilizado para la implementación del microservicio IAM basado en Spring Boot y Java (JetBrains, s.f.).*
 
 
 
@@ -3611,7 +3617,7 @@ Visual Studio Code (Aplicación de escritorio)
 
 <img src="assets/img/visualstudiocode.png" alt="context" width="200"/>
 
-*Figura 52. Editor Visual Studio Code utilizado para el desarrollo frontend, edición de archivos Markdown y documentación técnica del proyecto EDIFIKA (Microsoft, s.f.).*
+*Figura 57. Editor Visual Studio Code utilizado para el desarrollo frontend, edición de archivos Markdown y documentación técnica del proyecto EDIFIKA (Microsoft, s.f.).*
 
 
 
@@ -3625,7 +3631,7 @@ Angular Framework
 
 <img src="assets/img/angular.png" alt="context" width="200"/>
 
-*Figura 53. Framework Angular utilizado para el desarrollo de la aplicación web frontend de EDIFIKA (Angular, s.f.).*
+*Figura 58. Framework Angular utilizado para el desarrollo de la aplicación web frontend de EDIFIKA (Angular, s.f.).*
 
 
 
@@ -3639,7 +3645,7 @@ Spring Boot Framework
 
 <img src="assets/img/springboot.png" alt="context" width="200"/>
 
-*Figura 54. Framework Spring Boot utilizado para la construcción y despliegue del microservicio IAM de EDIFIKA (Spring, s.f.).*
+*Figura 59. Framework Spring Boot utilizado para la construcción y despliegue del microservicio IAM de EDIFIKA (Spring, s.f.).*
 
 
 
@@ -3656,7 +3662,7 @@ Postman (SaaS / Aplicación de escritorio)
 
 <img src="assets/img/postman.png" alt="context" width="200"/>
 
-*Figura 55. Plataforma Postman utilizada para realizar pruebas y validaciones de los endpoints REST del microservicio IAM (Postman, s.f.).*
+*Figura 60. Plataforma Postman utilizada para realizar pruebas y validaciones de los endpoints REST del microservicio IAM (Postman, s.f.).*
 
 
 
@@ -3670,7 +3676,7 @@ Swagger UI integrado en el microservicio IAM
 
 <img src="assets/img/swagger.png" alt="context" width="200"/>
 
-*Figura 56. Herramienta Swagger UI utilizada para la documentación y prueba visual de los endpoints expuestos por el backend de EDIFIKA (Swagger, s.f.).*
+*Figura 61. Herramienta Swagger UI utilizada para la documentación y prueba visual de los endpoints expuestos por el backend de EDIFIKA (Swagger, s.f.).*
 
 
 
@@ -3687,7 +3693,7 @@ GitHub Pages (SaaS)
 
 <img src="assets/img/githubpages.png" alt="context" width="200"/>
 
-*Figura 57. Plataforma GitHub Pages utilizada para el despliegue y visualización pública de la Landing Page de EDIFIKA (GitHub, s.f.).*
+*Figura 62. Plataforma GitHub Pages utilizada para el despliegue y visualización pública de la Landing Page de EDIFIKA (GitHub, s.f.).*
 
 
 
@@ -3701,7 +3707,7 @@ Render (PaaS - Plataforma como Servicio)
 
 <img src="assets/img/render.png" alt="context" width="200"/>
 
-*Figura 58. Plataforma Render utilizada para el despliegue en la nube del microservicio IAM desarrollado para EDIFIKA (Render, s.f.).*
+*Figura 63. Plataforma Render utilizada para el despliegue en la nube del microservicio IAM desarrollado para EDIFIKA (Render, s.f.).*
 
 
 
@@ -3718,7 +3724,7 @@ GitHub (SaaS)
 
 <img src="assets/img/github.png" alt="context" width="200"/>
 
-*Figura 59. Plataforma GitHub utilizada para el almacenamiento y versionado de la documentación técnica y código fuente del proyecto EDIFIKA (GitHub, s.f.).*
+*Figura 64. Plataforma GitHub utilizada para el almacenamiento y versionado de la documentación técnica y código fuente del proyecto EDIFIKA (GitHub, s.f.).*
 
 
 
@@ -3733,7 +3739,7 @@ Visual Studio Code (Aplicación de escritorio)
 
 <img src="assets/img/visualstudiocode.png" alt="context" width="200"/>
 
-*Figura 60. Editor Visual Studio Code utilizado para la edición y organización de la documentación técnica y archivos Markdown del proyecto EDIFIKA (Microsoft, s.f.).*
+*Figura 65. Editor Visual Studio Code utilizado para la edición y organización de la documentación técnica y archivos Markdown del proyecto EDIFIKA (Microsoft, s.f.).*
 
 
 Con esta configuración, nuestro equipo puede colaborar de manera eficiente y gestionar el ciclo de vida completo del desarrollo de EDIFIKA, desde la planificación y diseño hasta el desarrollo, pruebas, documentación, despliegue y mantenimiento.
@@ -4475,7 +4481,7 @@ Como parte de la configuración de despliegue, el equipo incluye el **Deployment
 
 <img src="assets/img/edifika-deployment-c4.png" alt="context"/>
 
-*Figura 61. Deployment Diagram del C4 Model. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 66. Deployment Diagram del C4 Model. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 Este diagrama considera:
 
@@ -4496,7 +4502,7 @@ El objetivo de este Sprint es implementar el microservicio de IAM (Identity and 
   <img src="assets/img/trello_sprint_1.png" alt="Trello Sprint 1" width="700"/>
 </p>
 
-*Figura 62. Sprint Backlog 1. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+*Figura 67. Sprint Backlog 1. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 Enlace del Board: `https://trello.com/invite/b/6a0527cb585a58fe5f5375ba/ATTI112271af5d09099e7ea0df48ce05b74c6FCCB8A8/edifika-sprint-1`
 
@@ -4603,7 +4609,7 @@ Se muestra prueba de los archivos `.feature` desarrollados para las pruebas de a
   <img src="assets/img/acceptance_tests_light.png" alt="acceptance tests" width="700"/>
 </p>
 
-*Figura 63. Archivos .feature utilizados para las pruebas BDD del microservicio IAM. Elaborado por el equipo utilizando Cucumber y Visual Studio Code (Cucumber, s.f.; Microsoft, s.f.).*
+*Figura 68. Archivos .feature utilizados para las pruebas BDD del microservicio IAM. Elaborado por el equipo utilizando Cucumber y Visual Studio Code (Cucumber, s.f.; Microsoft, s.f.).*
 
 Asi mismo se muestra el repositorio GitHub utilizado para almacenar y versionar los archivos `.feature` correspondientes a las pruebas de aceptación del proyecto.
 
@@ -4611,7 +4617,7 @@ Asi mismo se muestra el repositorio GitHub utilizado para almacenar y versionar 
   <img src="assets/img/acceptance_tests_repo.png" alt="acceptance tests" width="700"/>
 </p>
 
-*Figura 64. Repositorio de archivos features (Github, s.f).*
+*Figura 69. Repositorio de archivos features (Github, s.f).*
 
 ### Commits relacionados con Testing
 
@@ -4632,7 +4638,7 @@ Se verificó el registro de un nuevo administrador enviando los campos requerido
   <img src="assets/img/execution_signup.png" alt="Ejecucion Sign In" width="700"/>
 </p>
 
-*Figura 65. Ejecución del endpoint Sign Up. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 70. Ejecución del endpoint Sign Up. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/authentication/sign-in**
 
@@ -4642,7 +4648,7 @@ Se verificó el inicio de sesión de un administrador registrado enviando el ema
   <img src="assets/img/execution_signin.png" alt="Respuesta Sign In" width="700"/>
 </p>
 
-*Figura 66. Ejecución del endpoint Sign In. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 71. Ejecución del endpoint Sign In. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/users/{id}**
 
@@ -4652,7 +4658,7 @@ Se verificó la consulta de un usuario específico por su id, enviando el Bearer
   <img src="assets/img/execution_get_user.png" alt="Ejecución Get User" width="700"/>
 </p>
 
-*Figura 67. Ejecución del endpoint Get User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 72. Ejecución del endpoint Get User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: PUT /api/v1/users/{id}**
 
@@ -4662,7 +4668,7 @@ Se comprobó la actualización de datos de un usuario existente enviando el id c
   <img src="assets/img/execution_put_user.png" alt="Ejecución Put User" width="700"/>
 </p>
 
-*Figura 68. Ejecución del endpoint Put User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 73. Ejecución del endpoint Put User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: DELETE /api/v1/users/{id}**
 
@@ -4672,7 +4678,7 @@ Se verificó la eliminación de un usuario del sistema enviando el id como pará
   <img src="assets/img/execution_delete_user.png" alt="Ejecución Delete User" width="700"/>
 </p>
 
-*Figura 69. Ejecución del endpoint Delete User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 74. Ejecución del endpoint Delete User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/users**
 
@@ -4682,7 +4688,7 @@ Se comprobó la consulta de todos los usuarios registrados en el sistema. Con el
   <img src="assets/img/execution_get_users.png" alt="Ejecución Get Users" width="700"/>
 </p>
 
-*Figura 70. Ejecución del endpoint Get Users. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 75. Ejecución del endpoint Get Users. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/roles**
 
@@ -4692,7 +4698,7 @@ Se verificó la consulta de roles disponibles en el sistema. El endpoint retorn�
   <img src="assets/img/execution_get_roles.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 71. Ejecución del endpoint Get Roles. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 76. Ejecución del endpoint Get Roles. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **MOCKUP**
 Se crearon mockups de alta fidelidad para mostrar el prototipo de nuestra aplicación web, con sus principales segmentos y flujo.
@@ -4701,73 +4707,73 @@ Se crearon mockups de alta fidelidad para mostrar el prototipo de nuestra aplica
   <img src="assets/img/iniciodesesion.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 72. Mockup de inicio de sesión. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 77. Mockup de inicio de sesión. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/crearcuenta.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 73. Mockup de creación de cuenta. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 78. Mockup de creación de cuenta. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/Dashboard.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 74. Mockup del dashboard principal. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 79. Mockup del dashboard principal. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/unidades.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 75. Mockup del módulo de unidades. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 80. Mockup del módulo de unidades. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/Calendar.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 76. Mockup del calendario de reservas. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 81. Mockup del calendario de reservas. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/detailreservation.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 77. Mockup del detalle de reserva. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 82. Mockup del detalle de reserva. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/DetailReservation2.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 78. Mockup alternativo del detalle de reserva. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 83. Mockup alternativo del detalle de reserva. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/Report.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 79. Mockup del módulo de reportes. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 84. Mockup del módulo de reportes. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/residents.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 80. Mockup del módulo de residentes. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 85. Mockup del módulo de residentes. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/community.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 81. Mockup del módulo de comunidad. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 86. Mockup del módulo de comunidad. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/community.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 82. Mockup del módulo de comunidad. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 87. Mockup del módulo de comunidad. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/config.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 83. Mockup del módulo de configuración. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 88. Mockup del módulo de configuración. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 Link del Prototipo: `https://www.figma.com/proto/1ksaEJeKckW1WPlgeNyTbH/Untitled?node-id=3015-106&viewport=351%2C196%2C0.16&t=U3A6YtXgGNGnrgnD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3015%3A106&page-id=3012%3A2`
 
@@ -4788,7 +4794,7 @@ Controlador encargado del registro de nuevos administradores y la autenticación
   <img src="assets/img/authentication_controller.png" alt="Authentication Controller" width="700"/>
 </p>
 
-*Figura 84. Endpoints del Authentication Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 89. Endpoints del Authentication Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Users Controller**
 
@@ -4805,7 +4811,7 @@ Controlador responsable de las operaciones CRUD sobre los usuarios del sistema. 
   <img src="assets/img/user_controller.png" alt="Users Controller" width="700"/>
 </p>
 
-*Figura 85. Endpoints del User Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 90. Endpoints del User Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Roles Controller**
 
@@ -4819,7 +4825,7 @@ Controlador dedicado a la consulta de roles disponibles en el sistema (ADMIN, OW
   <img src="assets/img/roles_controller.png" alt="Roles Controller" width="700"/>
 </p>
 
-*Figura 86. Endpoints del Roles Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 91. Endpoints del Roles Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 ##### 5.3.1.6. Software Deployment Evidence for Sprint Review
 
@@ -4836,7 +4842,7 @@ Finalmente, se validó el correcto funcionamiento del sitio en producción, comp
   <img src="assets/img/deploy_landingpage.png" alt="Despliegue Landing en Github Pages" width="700"/>
 </p>
 
-*Figura 87. Despliegue de la Landing Page. Elaborado por el equipo utilizando GitHub Pages (GitHub, s.f.).*
+*Figura 92. Despliegue de la Landing Page. Elaborado por el equipo utilizando GitHub Pages (GitHub, s.f.).*
 
 **Microservicio IAM - Backend**
 
@@ -4846,7 +4852,7 @@ El microservicio IAM fue desplegado en Render, una plataforma cloud que permite 
   <img src="assets/img/deploy_backend.png" alt="Despliegue Backend en Render" width="700"/>
 </p>
 
-*Figura 88. Despliegue del backend del microservicio IAM. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 93. Despliegue del backend del microservicio IAM. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 **Base de datos PostgreSQL**
 
@@ -4856,7 +4862,7 @@ La base de datos fue desplegada en Supabase, una plataforma que ofrece instancia
   <img src="assets/img/deploy_db.png" alt="Despliegue Base de Datos en Supabase" width="700"/>
 </p>
 
-*Figura 89. Despliegue de la base de datos. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+*Figura 94. Despliegue de la base de datos. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
 
 ##### 5.3.1.7. Team Collaboration Insights during Sprint
 
@@ -4870,7 +4876,7 @@ En el repositorio de la Landing Page se registraron los commits correspondientes
   <img src="assets/img/insights_landing.png" alt="Insights Landing Page" width="700"/>
 </p>
 
-*Figura 90. Insights del repositorio de la Landing Page. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 95. Insights del repositorio de la Landing Page. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 **Microservicio IAM - Backend**
 
@@ -4880,7 +4886,7 @@ En el repositorio del microservicio IAM se concentran los commits relacionados c
   <img src="assets/img/insights_backend_1.png" alt="Insights Backend IAM" width="700"/>
 </p>
 
-*Figura 91. Insights del repositorio del backend IAM. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 96. Insights del repositorio del backend IAM. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 ##### 5.3.1.8. Kanban Board
 
@@ -4890,7 +4896,7 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 1 
 	<img src="assets/img/kanban_board1.png" alt="Kanban Board" width="700"/>
 </p>
 
-*Figura 92. Kanban Board del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+*Figura 97. Kanban Board del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 [https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
 
@@ -4918,7 +4924,7 @@ Durante este sprint, el equipo concentró sus esfuerzos en la implementación de
   <img src="assets/img/sprintbacklog2.png" alt="Trello Sprint 1" width="700"/>
 </p>
 
-*Figura 93. Sprint Backlog 2. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+*Figura 98. Sprint Backlog 2. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 ##### 5.3.2.2. Development Evidence for Sprint Review
 
@@ -5016,19 +5022,19 @@ A continuación se muestran las evidencias de las pruebas unitarias implementada
   <img src="assets/img/ResidentialCommandLight.PNG" width="700"/>
 </p>
 
-*Figura 94. Pruebas unitarias del servicio de comandos residenciales. Elaborado por el equipo.*
+*Figura 99. Pruebas unitarias del servicio de comandos residenciales. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/ResidentialControllerLight.PNG" width="700"/>
 </p>
 
-*Figura 95. Pruebas unitarias del controlador residencial. Elaborado por el equipo.*
+*Figura 100. Pruebas unitarias del controlador residencial. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/ResidentialQueryLight.PNG" width="700"/>
 </p>
 
-*Figura 96. Pruebas unitarias del servicio de consultas residenciales. Elaborado por el equipo.*
+*Figura 101. Pruebas unitarias del servicio de consultas residenciales. Elaborado por el equipo.*
 
 
 
@@ -5038,31 +5044,31 @@ A continuación se muestran las evidencias de las pruebas unitarias implementada
   <img src="assets/img/CommonAreaCommandLight.PNG" width="700"/>
 </p>
 
-*Figura 97. Pruebas unitarias del servicio de comandos de áreas comunes. Elaborado por el equipo.*
+*Figura 102. Pruebas unitarias del servicio de comandos de áreas comunes. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/CommonAreaControllerLight.PNG" width="700"/>
 </p>
 
-*Figura 98. Pruebas unitarias del controlador de áreas comunes. Elaborado por el equipo.*
+*Figura 103. Pruebas unitarias del controlador de áreas comunes. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/ReservationCommandLight.PNG" width="700"/>
 </p>
 
-*Figura 99. Pruebas unitarias del servicio de comandos de reservas. Elaborado por el equipo.*
+*Figura 104. Pruebas unitarias del servicio de comandos de reservas. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/ReservationControllerLight.PNG" width="700"/>
 </p>
 
-*Figura 100. Pruebas unitarias del controlador de reservas. Elaborado por el equipo.*
+*Figura 105. Pruebas unitarias del controlador de reservas. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/ReservationQueryLight.PNG" width="700"/>
 </p>
 
-*Figura 101. Pruebas unitarias del servicio de consultas de reservas. Elaborado por el equipo.*
+*Figura 106. Pruebas unitarias del servicio de consultas de reservas. Elaborado por el equipo.*
 
 ### Commits relacionados con Testing
 
@@ -5086,7 +5092,7 @@ Se verificó el registro de un nuevo edificio en el sistema enviando los campos 
   <img src="assets/img/execution_post_buildings.png" alt="Ejecución POST Buildings" width="700"/>
 </p>
 
-*Figura 102. Ejecución del endpoint POST Buildings a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 107. Ejecución del endpoint POST Buildings a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/residential/user-units**
 
@@ -5096,7 +5102,7 @@ Se comprobó la vinculación de un residente a una unidad específica del edific
   <img src="assets/img/execution_post_user_units.png" alt="Ejecución POST User Units" width="700"/>
 </p>
 
-*Figura 103. Ejecución del endpoint POST User Units a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 108. Ejecución del endpoint POST User Units a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/residential/buildings/{idBuilding}/residents**
 
@@ -5106,7 +5112,7 @@ Se verificó la consulta de residentes vinculados a un edificio específico envi
   <img src="assets/img/execution_get_residents.png" alt="Ejecución GET Residents" width="700"/>
 </p>
 
-*Figura 104. Ejecución del endpoint GET Residents a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 109. Ejecución del endpoint GET Residents a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/common-areas**
 
@@ -5116,7 +5122,7 @@ Se verificó el registro de una nueva área común del condominio enviando los c
   <img src="assets/img/execution_post_common_areas.png" alt="Ejecución POST Common Areas" width="700"/>
 </p>
 
-*Figura 105. Ejecución del endpoint POST Common Areas a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 110. Ejecución del endpoint POST Common Areas a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/reservations**
 
@@ -5126,7 +5132,7 @@ Se comprobó la creación de una nueva reserva enviando los campos residentId, c
   <img src="assets/img/execution_post_reservations.png" alt="Ejecución POST Reservations" width="700"/>
 </p>
 
-*Figura 106. Ejecución del endpoint POST Reservations a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 111. Ejecución del endpoint POST Reservations a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/reservations/availability**
 
@@ -5136,7 +5142,7 @@ Se verificó la consulta de disponibilidad de un área común enviando los pará
   <img src="assets/img/execution_get_availability.png" alt="Ejecución GET Availability" width="700"/>
 </p>
 
-*Figura 107. Ejecución del endpoint GET Availability a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 112. Ejecución del endpoint GET Availability a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Pantalla de Registro de Usuarios**
 
@@ -5146,7 +5152,7 @@ Se verificó el correcto despliegue de la pantalla de registro de usuarios en el
   <img src="assets/img/register_deploy.png" alt="Pantalla de Registro Desplegada" width="700"/>
 </p>
 
-*Figura 108. Pantalla de registro de usuarios desplegada en el entorno de producción mediante Render. Elaborado por el equipo.*
+*Figura 113. Pantalla de registro de usuarios desplegada en el entorno de producción mediante Render. Elaborado por el equipo.*
 
 **Pantalla de Inicio de Sesión**
 
@@ -5156,7 +5162,7 @@ Se verificó el correcto funcionamiento de la pantalla de autenticación despleg
   <img src="assets/img/login_deploy.png" alt="Pantalla de Login Desplegada" width="700"/>
 </p>
 
-*Figura 109. Pantalla de inicio de sesión desplegada mediante Render e integrada con los servicios de autenticación. Elaborado por el equipo.*
+*Figura 114. Pantalla de inicio de sesión desplegada mediante Render e integrada con los servicios de autenticación. Elaborado por el equipo.*
 
 **Dashboard Principal**
 
@@ -5166,7 +5172,7 @@ Se verificó la correcta visualización del dashboard principal después del des
   <img src="assets/img/dashboard_deploy.png" alt="Dashboard Desplegado" width="700"/>
 </p>
 
-*Figura 110. Dashboard principal desplegado en el entorno de producción. Elaborado por el equipo.*
+*Figura 115. Dashboard principal desplegado en el entorno de producción. Elaborado por el equipo.*
 
 **Gestión de Áreas Comunes**
 
@@ -5176,7 +5182,7 @@ Se verificó el despliegue y funcionamiento de la pantalla de gestión de áreas
   <img src="assets/img/area_deploy.png" alt="Módulo de Áreas Desplegado" width="700"/>
 </p>
 
-*Figura 111. Pantalla de gestión de áreas comunes desplegada mediante Render. Elaborado por el equipo.*
+*Figura 116. Pantalla de gestión de áreas comunes desplegada mediante Render. Elaborado por el equipo.*
 
 ##### 5.3.2.5. Microservices Documentation Evidence for Sprint Review
 
@@ -5200,7 +5206,7 @@ Controlador encargado de la gestión de edificios, unidades residenciales y la v
   <img src="assets/img/residential_endpoints.png" alt="Residential Controller Endpoints" width="700"/>
 </p>
 
-*Figura 112. Endpoints del Residential Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 117. Endpoints del Residential Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Reservations Controller**
 
@@ -5216,7 +5222,7 @@ Controlador responsable de la gestión de reservas de áreas comunes del condomi
   <img src="assets/img/reservation_endpoints.png" alt="Reservations Controller Endpoints" width="700"/>
 </p>
 
-*Figura 113. Endpoints del Reservations Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 118. Endpoints del Reservations Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Common Areas Controller**
 
@@ -5230,7 +5236,7 @@ Controlador dedicado al registro de áreas comunes dentro del condominio. Permit
   <img src="assets/img/areasComunes_endpoints.png" alt="Common Areas Controller Endpoints" width="700"/>
 </p>
 
-*Figura 114. Endpoints del Common Areas Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 119. Endpoints del Common Areas Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 ##### 5.3.2.6. Software Deployment Evidence for Sprint Review
 
@@ -5246,21 +5252,21 @@ Para el backend se empleó Render como plataforma de despliegue en la nube, ya q
   <img src="assets/img/api_deploy.jpeg" alt="api_deploy" width="700"/>
 </p>
 
-*Figura 115. Api Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 120. Api Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 *Residential*
 <p align="center">
   <img src="assets/img/residential_deploy.png" alt="residential_deploy" width="700"/>
 </p>
 
-*Figura 116. Residential Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 121. Residential Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 *Reservation*
 <p align="center">
   <img src="assets/img/reservation_deploy.jpeg" alt="reservation_deploy" width="700"/>
 </p>
 
-*Figura 116. Residential Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 122. Residential Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 ### Database
 
@@ -5272,14 +5278,14 @@ Para la base de datos se utilizó Supabase, una plataforma en la nube que permit
   <img src="assets/img/residential_deploy_db.jpeg" alt="residential_deploy" width="700"/>
 </p>
 
-*Figura 117. Residential Deploy DB. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+*Figura 123. Residential Deploy DB. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
 
 *Reservation*
 <p align="center">
   <img src="assets/img/reservation_deploy_db.jpeg" alt="reservation_deploy" width="700"/>
 </p>
 
-*Figura 118. Residential Deploy DB. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+*Figura 124. Residential Deploy DB. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
 
 ### Frontend
 
@@ -5289,7 +5295,7 @@ Para el despliegue de la primera versión del frontend se empleó Render como pl
   <img src="assets/img/execution_front.png" alt="Ejecución Front" width="700"/>
 </p>
 
-*Figura 119. Ejecución del Frontend. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 125. Ejecución del Frontend. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 ##### 5.3.2.7. Team Collaboration Insights during Sprint
 
@@ -5303,7 +5309,7 @@ El repositorio del microservicio de gestión residencial concentra los commits r
   <img src="assets/img/insights_backend_2.png" alt="Insights Backend Residential Management" width="700"/>
 </p>
 
-*Figura 120. Insights del repositorio del backend Residential Management. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 126. Insights del repositorio del backend Residential Management. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 **Microservicio Reservations - Backend**
 
@@ -5313,7 +5319,7 @@ El repositorio del microservicio de reservas concentra los commits relacionados 
   <img src="assets/img/insights_backend_3.png" alt="Insights Backend Reservation" width="700"/>
 </p>
 
-*Figura 121. Insights del repositorio del backend Reservations. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 127. Insights del repositorio del backend Reservations. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 **Microservicio API Gateway - Backend**
 
@@ -5323,7 +5329,7 @@ El repositorio del API Gateway centraliza los commits relacionados con la config
   <img src="assets/img/insights_backend4.png" alt="Insights API Gateway" width="700"/>
 </p>
 
-*Figura 122. Insights del repositorio del backend API Gateway. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 128. Insights del repositorio del backend API Gateway. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 ##### 5.3.2.8. Kanban Board
 En esta sección se presentan las actividades desarrolladas durante el Sprint 2 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
@@ -5332,7 +5338,7 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 2 
 	<img src="assets/img/kanban_board2.png" alt="Kanban Board Sprint 3" width="700"/>
 </p>
 
-*Figura 123. Kanban Board del Sprint 2 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+*Figura 129. Kanban Board del Sprint 2 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 [https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
 
