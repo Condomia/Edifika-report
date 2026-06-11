@@ -4600,7 +4600,7 @@ Then el navbar permanece visible y fijo en la parte superior de la pantalla
 ### Evidencia visual de archivos Feature
 Se muestra prueba de los archivos `.feature` desarrollados para las pruebas de aceptación de la Landing Page. Cada archivo corresponde a una User Story específica implementada durante el Sprint.
 <p align="center">
-  <img src="assets/img/acceptance_tests.png" alt="acceptance tests" width="700"/>
+  <img src="assets/img/acceptance_tests_light.png" alt="acceptance tests" width="700"/>
 </p>
 
 *Figura 63. Archivos .feature utilizados para las pruebas BDD del microservicio IAM. Elaborado por el equipo utilizando Cucumber y Visual Studio Code (Cucumber, s.f.; Microsoft, s.f.).*
