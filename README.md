@@ -253,7 +253,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB1: <br>Investigué y apliqué metodologías de diseño centrado en el usuario para la creación de User Personas y la User Task Matrix. Asimismo, profundicé en técnicas de Empathy Mapping y priorización de requisitos mediante la elaboración del Product Backlog, asegurando que la solución Edifika responda a necesidades técnicas y funcionales reales.<br><br>
         TB2: <br>Desarrollé las ADD Iterations del proyecto Edifika, aplicando el método Attribute-Driven Design para definir y refinar la arquitectura del sistema. Identifiqué drivers como disponibilidad, rendimiento, seguridad e integridad de datos, y propuse soluciones como microservicios, API Gateway y patrones como Saga y Availability Service, fortaleciendo el diseño arquitectónico del sistema.<br><br>
 		TP:<br> Actualicé y apliqué conocimientos de diseño de experiencia de usuario para desarrollar los mockups de la aplicación web de Edifika destinada a los administradores de condominios. El proceso implicó investigar sobre arquitectura de información, jerarquía visual y flujos de interacción aplicados a los módulos de gestión financiera, reservas de áreas comunes, comunicados y autenticación. También participé en la elaboración de la documentación de Testing Suites y patrones generales del proyecto. <br><br>
-		TB3: <br><br>
+		TB3: <br>Actualicé y apliqué conocimientos de desarrollo frontend para implementar el dashboard de la aplicación web de Edifika destinado a los administradores de condominios como parte del Sprint Backlog 2. Esto implicó investigar sobre integración de componentes con frameworks modernos, consumo de endpoints REST provenientes de los microservicios del sistema, manejo de estados y renderizado dinámico de datos, así como la estructuración y documentación de evidencias de desarrollo para el Sprint Review.<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: <br>
         Investigué y documenté el perfil de la startup Condomia, el nombre y concepto del producto Edifika, y los antecedentes del problema que busca resolver en la gestión de condominios.<br><br>
@@ -290,7 +290,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB1: <br>Reconocí la importancia de dominar técnicas de investigación cualitativa mediante el diseño y ejecución de entrevistas a los dos segmentos objetivo. Esta experiencia me permitió comprender que el aprendizaje de nuevas estrategias de recolección de datos es vital para validar hipótesis y reducir la incertidumbre en el desarrollo de software.<br><br>
         TB2: <br>Al desarrollar las ADD Iterations, reconocí que el aprendizaje permanente es clave para tomar decisiones arquitectónicas fundamentadas. Fue necesario investigar conceptos como atributos de calidad, patrones arquitectónicos y diseño de microservicios, comprendiendo que el conocimiento debe actualizarse constantemente para diseñar soluciones robustas.<br><br>
 		TP:<br> Reconocí que transformar requerimientos técnicos y user stories en prototipos visuales funcionales demanda un aprendizaje constante sobre herramientas de diseño, principios de usabilidad y estándares de interfaz. Cada módulo de la aplicación web presentó escenarios particulares que me obligaron a buscar soluciones de diseño específicas, investigar componentes y evaluar alternativas, lo que reforzó mi comprensión de que mantenerse actualizado es indispensable para contribuir con entregas de calidad en proyectos de ingeniería de software. <br><br>
-		TB3: <br><br>
+		TB3: <br>Reconocí que construir un dashboard funcional que consuma múltiples microservicios exige aprendizaje continuo, ya que cada módulo presentó retos distintos relacionados con la integración de APIs, el manejo de respuestas asíncronas y la coherencia visual entre componentes. Resolver estos desafíos me obligó a investigar documentación técnica, explorar buenas prácticas de desarrollo frontend y adaptar soluciones según las necesidades del sistema, reafirmando que mantenerse en constante actualización es indispensable para contribuir con calidad en proyectos de ingeniería de software de creciente complejidad.<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: <br>Reconocí la importancia de investigar el sector de gestión de condominios para desarrollar una solución relevante, lo que me motivó a profundizar en nuevos conceptos y herramientas necesarias para el proyecto Edifika.<br><br>
         TB2: <br> Reconocí que diseñar la arquitectura de Edifika exige aprendizaje continuo, ya que trabajar con patrones como microservicios, DDD y atributos de calidad me motivó a investigar y profundizar en conceptos que no manejaba previamente.<br><br>
@@ -318,6 +318,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
     </tr>
   </tbody>
 </table>
+
 
 ## **Contenido**
 - [STUDENT OUTCOME](#student-outcome)
