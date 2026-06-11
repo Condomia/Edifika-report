@@ -4920,6 +4920,8 @@ Durante este sprint, el equipo concentró sus esfuerzos en la implementación de
 | US38 | Habilitar o deshabilitar área común | 32 | Gestionar disponibilidad de áreas comunes | Permitir activar o desactivar áreas comunes según su estado operativo. | 3 | Becerra Tejeda, Alessandra Nicole | In-Process |
 | US39 | Configurar reglas de área común | 33 | Configurar reglas de uso | Definir horarios, límites y restricciones para el uso de áreas comunes. | 3 | Bejarano Martinez, Alvaro Leandro | In-Process |
 
+La siguiente imagen muestra el Kanban Board del Sprint 2 usando la herramienta Trello, donde se visualiza la distribución de las User Stories y Technical Stories entre los miembros del equipo. Se identifican 4 tarjetas completadas en la columna Done (API Gateway, Residential Management, políticas CORS y Reservation Service), 6 tarjetas en proceso correspondientes a funcionalidades de reservas, reportes financieros y gestión de áreas comunes, y ninguna tarea pendiente en To-do, evidenciando que todo el trabajo planificado fue iniciado durante el sprint.
+
 <p align="center">
   <img src="assets/img/sprintbacklog2.png" alt="Trello Sprint 1" width="700"/>
 </p>
