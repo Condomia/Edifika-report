@@ -3200,35 +3200,43 @@ Las pruebas fueron enfocadas principalmente en los módulos de autenticación (A
 
 A continuación, se muestran evidencias de las pruebas ejecutadas y sus respectivos resultados satisfactorios.
 
-**COMMANDS**
+#### Microservicio IAM
 
-<img src="assets/img/RoleCommand.PNG" alt="context"/>
+<p align="center">
+  <img src="assets/img/AuthControllerLight.PNG" width="700"/>
+</p>
 
-*Figura 41. Role command . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
+*Figura 41. Pruebas unitarias del controlador de autenticación del microservicio IAM. Elaborado por el equipo.*
 
-<img src="assets/img/UserCommand.PNG" alt="context"/>
+<p align="center">
+  <img src="assets/img/RoleCommandLight.PNG" width="700"/>
+</p>
 
-*Figura 42. User command . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
+*Figura 42. Pruebas unitarias del servicio de comandos de roles. Elaborado por el equipo.*
 
-**QUERIES**
+<p align="center">
+  <img src="assets/img/RolesControllerLight.PNG" width="700"/>
+</p>
 
-<img src="assets/img/UserQuery.PNG" alt="context"/>
+*Figura 43. Pruebas unitarias del controlador de roles. Elaborado por el equipo.*
 
-*Figura 43. User query . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
+<p align="center">
+  <img src="assets/img/UserCommandLight.PNG" width="700"/>
+</p>
 
-**CONTROLLERS**
+*Figura 44. Pruebas unitarias del servicio de comandos de usuarios. Elaborado por el equipo.*
 
-<img src="assets/img/AuthController.PNG" alt="context"/>
+<p align="center">
+  <img src="assets/img/UserControllerLight.PNG" width="700"/>
+</p>
 
-*Figura 44. Auth Controller . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
+*Figura 45. Pruebas unitarias del controlador de usuarios. Elaborado por el equipo.*
 
-<img src="assets/img/RolesController.PNG" alt="context"/>
+<p align="center">
+  <img src="assets/img/UserQueryLight.PNG" width="700"/>
+</p>
 
-*Figura 45. Roles Controller . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
-
-<img src="assets/img/UserController.PNG" alt="context"/>
-
-*Figura 46. User Controller . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
+*Figura 56. Pruebas unitarias del servicio de consultas de usuarios. Elaborado por el equipo.*
 
 ##### 5.1.2. Pattern Based Backend Application(s)
 
@@ -5002,65 +5010,25 @@ void handleCreateReservationSuccessfullyForExclusiveArea() {
 
 A continuación se muestran las evidencias de las pruebas unitarias implementadas para los distintos microservicios del proyecto utilizando JUnit 5 y Mockito.
 
-#### Microservicio IAM
-
-<p align="center">
-  <img src="assets/img/AuthControllerLight.PNG" width="700"/>
-</p>
-
-*Figura 94. Pruebas unitarias del controlador de autenticación del microservicio IAM. Elaborado por el equipo.*
-
-<p align="center">
-  <img src="assets/img/RoleCommandLight.PNG" width="700"/>
-</p>
-
-*Figura 95. Pruebas unitarias del servicio de comandos de roles. Elaborado por el equipo.*
-
-<p align="center">
-  <img src="assets/img/RolesControllerLight.PNG" width="700"/>
-</p>
-
-*Figura 96. Pruebas unitarias del controlador de roles. Elaborado por el equipo.*
-
-<p align="center">
-  <img src="assets/img/UserCommandLight.PNG" width="700"/>
-</p>
-
-*Figura 97. Pruebas unitarias del servicio de comandos de usuarios. Elaborado por el equipo.*
-
-<p align="center">
-  <img src="assets/img/UserControllerLight.PNG" width="700"/>
-</p>
-
-*Figura 98. Pruebas unitarias del controlador de usuarios. Elaborado por el equipo.*
-
-<p align="center">
-  <img src="assets/img/UserQueryLight.PNG" width="700"/>
-</p>
-
-*Figura 99. Pruebas unitarias del servicio de consultas de usuarios. Elaborado por el equipo.*
-
-
-
 #### Microservicio Residential
 
 <p align="center">
   <img src="assets/img/ResidentialCommandLight.PNG" width="700"/>
 </p>
 
-*Figura 100. Pruebas unitarias del servicio de comandos residenciales. Elaborado por el equipo.*
+*Figura 94. Pruebas unitarias del servicio de comandos residenciales. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/ResidentialControllerLight.PNG" width="700"/>
 </p>
 
-*Figura 101. Pruebas unitarias del controlador residencial. Elaborado por el equipo.*
+*Figura 95. Pruebas unitarias del controlador residencial. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/ResidentialQueryLight.PNG" width="700"/>
 </p>
 
-*Figura 102. Pruebas unitarias del servicio de consultas residenciales. Elaborado por el equipo.*
+*Figura 96. Pruebas unitarias del servicio de consultas residenciales. Elaborado por el equipo.*
 
 
 
@@ -5070,31 +5038,31 @@ A continuación se muestran las evidencias de las pruebas unitarias implementada
   <img src="assets/img/CommonAreaCommandLight.PNG" width="700"/>
 </p>
 
-*Figura 103. Pruebas unitarias del servicio de comandos de áreas comunes. Elaborado por el equipo.*
+*Figura 97. Pruebas unitarias del servicio de comandos de áreas comunes. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/CommonAreaControllerLight.PNG" width="700"/>
 </p>
 
-*Figura 104. Pruebas unitarias del controlador de áreas comunes. Elaborado por el equipo.*
+*Figura 98. Pruebas unitarias del controlador de áreas comunes. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/ReservationCommandLight.PNG" width="700"/>
 </p>
 
-*Figura 105. Pruebas unitarias del servicio de comandos de reservas. Elaborado por el equipo.*
+*Figura 99. Pruebas unitarias del servicio de comandos de reservas. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/ReservationControllerLight.PNG" width="700"/>
 </p>
 
-*Figura 106. Pruebas unitarias del controlador de reservas. Elaborado por el equipo.*
+*Figura 100. Pruebas unitarias del controlador de reservas. Elaborado por el equipo.*
 
 <p align="center">
   <img src="assets/img/ReservationQueryLight.PNG" width="700"/>
 </p>
 
-*Figura 107. Pruebas unitarias del servicio de consultas de reservas. Elaborado por el equipo.*
+*Figura 101. Pruebas unitarias del servicio de consultas de reservas. Elaborado por el equipo.*
 
 ### Commits relacionados con Testing
 
@@ -5118,7 +5086,7 @@ Se verificó el registro de un nuevo edificio en el sistema enviando los campos 
   <img src="assets/img/execution_post_buildings.png" alt="Ejecución POST Buildings" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Buildings a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 102. Ejecución del endpoint POST Buildings a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/residential/user-units**
 
