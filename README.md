@@ -198,6 +198,30 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         5.3.2.8. Kanban Board <br>
       </td>
     </tr>
+	   <tr>
+      <td>TB4</td>
+      <td>20/06/2026</td>
+      <td>
+        - Becerra Tejeda, Alessandra Nicole <br>
+        - Bejarano Martinez, Alvaro Leandro <br>
+        - Ortiz Cardenas, Johanna Antuanete <br>
+        - Sarmiento Medina, Loreley <br>
+        - Zegarra López, Renato Sebastián Rubber
+      </td>
+		<td>
+        Se realizaron los siguientes puntos del informe: <br><br>
+        <b>	Sprint 3</b> <br>
+        5.3.3. Sprint 3 <br>
+        5.3.3.1. Sprint Backlog 3 <br>
+        5.3.3.2. Development Evidence for Sprint Review <br>
+        5.3.3.3. Testing Suite Evidence for Sprint Review <br><br>
+        5.3.3.4. Execution Evidence for Sprint Review <br>
+        5.3.3.5. Microservices Documentation Evidence for Sprint Review <br>
+        5.3.3.6. Software Deployment Evidence for Sprint Review <br>
+        5.3.3.7. Team Collaboration Insights during Sprint <br>
+        5.3.3.8. Kanban Board <br>
+      </td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -432,6 +456,15 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         - [5.3.2.6. Software Deployment Evidence for Sprint Review](#5326-software-deployment-evidence-for-sprint-review)
         - [5.3.2.7. Team Collaboration Insights during Sprint](#5327-team-collaboration-insights-during-sprint)
         - [5.3.2.8. Kanban Board](#5328-kanban-board)
+    - [5.3.3. Sprint 3](#533-sprint-3)
+        - [5.3.3.1. Sprint Backlog 3](#5331-sprint-backlog-3)
+        - [5.3.3.2. Development Evidence for Sprint Review](#5332-development-evidence-for-sprint-review)
+        - [5.3.3.3. Testing Suite Evidence for Sprint Review](#5333-testing-suite-evidence-for-sprint-review)
+        - [5.3.3.4. Execution Evidence for Sprint Review](#5334-execution-evidence-for-sprint-review)
+        - [5.3.3.5. Microservices Documentation Evidence for Sprint Review](#5335-microservices-documentation-evidence-for-sprint-review)
+        - [5.3.3.6. Software Deployment Evidence for Sprint Review](#5336-software-deployment-evidence-for-sprint-review)
+        - [5.3.3.7. Team Collaboration Insights during Sprint](#5337-team-collaboration-insights-during-sprint)
+        - [5.3.3.8. Kanban Board](#5338-kanban-board)
           
 - [Conclusiones](#conclusiones)
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
@@ -4934,6 +4967,24 @@ El repositorio del API Gateway centraliza los commits relacionados con la config
 
 ##### 5.3.2.8. Kanban Board
 En esta sección se presentan las actividades desarrolladas durante el Sprint 2 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
+
+
+#### 5.3.3. Sprint 3
+##### 5.3.3.1. Sprint Backlog 3
+
+##### 5.3.3.2. Development Evidence for Sprint Review
+
+##### 5.3.3.3. Testing Suite Evidence for Sprint Review
+
+##### 5.3.3.4. Execution Evidence for Sprint Review
+
+##### 5.3.3.5. Microservices Documentation Evidence for Sprint Review
+
+##### 5.3.3.6. Software Deployment Evidence for Sprint Review
+
+##### 5.3.3.7. Team Collaboration Insights during Sprint
+
+##### 5.3.3.8. Kanban Board
 
 # Conclusiones
 # Conclusiones y Recomendaciones
