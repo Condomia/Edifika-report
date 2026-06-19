@@ -269,75 +269,72 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       <td>7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software</td>
       <td>
         Becerra Tejeda, Alessandra Nicole <br><br>
-        TB1: <br> Investigué y consolidé conceptos actualizados relacionados con la definición del problem statement, hypothesis y assumptions, aplicándolos de manera estructurada en el planteamiento inicial del proyecto. <br><br>
-        TB2: <br>Actualicé y apliqué conceptos de arquitectura de software necesarios para el desarrollo del proyecto, incluyendo drivers arquitectónicos como Design Purpose, User Stories y Quality Attribute Scenarios, logrando estructurar de manera adecuada los requerimientos y decisiones del sistema.<br><br>
-		TP:<br> Actualicé y apliqué conocimientos de desarrollo frontend y metodologías ágiles durante la implementación de la Landing Page y las actividades desarrolladas en el Sprint 1 del proyecto. <br><br>
-		TB3: <br><br>
+        TB1: Investigué y consolidé conceptos de problem statement, hypothesis y assumptions, aplicándolos en el planteamiento inicial del proyecto (secciones 1.2.3.1, 1.2.3.2, 1.2.3.3).<br><br>
+        TB2: Apliqué conceptos de arquitectura de software para estructurar los drivers Design Purpose, User Stories y Quality Attribute Scenarios del sistema (secciones 4.2.1, 4.2.2, 4.2.3).<br><br>
+        TP: Actualicé conocimientos de desarrollo frontend y metodologías ágiles durante la implementación de la Landing Page y las actividades del Sprint 1 (secciones 5.3.1.1, 5.3.1.2).<br><br>
+        TB3: Apliqué conocimientos de desarrollo backend para implementar el microservicio de reservas y documentar la API REST con Swagger (secciones 5.3.2.2, 5.3.2.5).<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
-        TB1: <br>Investigué y apliqué metodologías de diseño centrado en el usuario para la creación de User Personas y la User Task Matrix. Asimismo, profundicé en técnicas de Empathy Mapping y priorización de requisitos mediante la elaboración del Product Backlog, asegurando que la solución Edifika responda a necesidades técnicas y funcionales reales.<br><br>
-        TB2: <br>Desarrollé las ADD Iterations del proyecto Edifika, aplicando el método Attribute-Driven Design para definir y refinar la arquitectura del sistema. Identifiqué drivers como disponibilidad, rendimiento, seguridad e integridad de datos, y propuse soluciones como microservicios, API Gateway y patrones como Saga y Availability Service, fortaleciendo el diseño arquitectónico del sistema.<br><br>
-		TP:<br> Actualicé y apliqué conocimientos de diseño de experiencia de usuario para desarrollar los mockups de la aplicación web de Edifika destinada a los administradores de condominios. El proceso implicó investigar sobre arquitectura de información, jerarquía visual y flujos de interacción aplicados a los módulos de gestión financiera, reservas de áreas comunes, comunicados y autenticación. También participé en la elaboración de la documentación de Testing Suites y patrones generales del proyecto. <br><br>
-		TB3: <br><br>
+        TB1: Investigué y apliqué metodologías de diseño centrado en el usuario para elaborar los User Personas, User Task Matrix y Empathy Map del proyecto (secciones 2.3.1, 2.3.2, 2.3.3).<br><br>
+        TB2: Apliqué el método ADD para definir la arquitectura del sistema, identificando drivers de calidad y proponiendo soluciones como microservicios y API Gateway (secciones 4.3.1, 4.3.2).<br><br>
+        TP: Apliqué conocimientos de UX para desarrollar los mockups de la aplicación web para administradores, cubriendo los módulos de gestión financiera, reservas, comunicados y autenticación (secciones 5.1.1, 5.1.2).<br><br>
+        TB3: Implementé el dashboard frontend para administradores integrando componentes que consumen los endpoints REST de los microservicios del sistema (secciones 5.3.2.1, 5.3.2.2, 5.3.2.4).<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
-        TB1: <br>
-        Investigué y documenté el perfil de la startup Condomia, el nombre y concepto del producto Edifika, y los antecedentes del problema que busca resolver en la gestión de condominios.<br><br>
-        TB2: <br> Investigué y apliqué conceptos de arquitectura de software para definir los principios, enfoques y patrones del sistema Edifika, y desarrollé los diagramas de secuencia junto con las tácticas arquitectónicas del proyecto.<br><br>
-		TP:<br> Investigué y apliqué conocimientos de desarrollo backend con Spring Boot para implementar el microservicio IAM de Edifika, incluyendo autenticación JWT, encriptación con BCrypt, filtros de autorización y documentación de API con Swagger. Además, configuré el despliegue del servicio en Render y la base de datos PostgreSQL en Supabase, lo que me exigió aprender sobre contenedorización con Docker y gestión de variables de entorno en plataformas cloud. <br><br>
-		TB3: <br><br>
+        TB1: Investigué y documenté el perfil de la startup Condomia, el concepto del producto Edifika y los antecedentes del problema en la gestión de condominios (secciones 1.1.1, 1.2.1, 1.2.2).<br><br>
+        TB2: Apliqué conceptos de arquitectura de software para definir principios, patrones y tácticas del sistema, elaborando los diagramas de secuencia correspondientes (secciones 4.1.1, 4.1.2, 4.1.8).<br><br>
+        TP: Implementé el microservicio IAM con autenticación JWT, encriptación BCrypt y documentación Swagger, desplegándolo en Render con base de datos PostgreSQL en Supabase (secciones 5.3.1.2, 5.3.1.5, 5.3.1.6).<br><br>
+        TB3: Implementé el API Gateway con Spring Cloud Gateway, configurando políticas CORS, filtros de validación JWT y reglas de enrutamiento hacia los microservicios del sistema (secciones 5.3.2.2, 5.3.2.5, 5.3.2.6).<br><br>
         Sarmiento Medina, Loreley <br><br>
-        TB1: <br>Desarrollé los cuadros As-Is y To-Be, el Impact Map y la entrevista a un usuario, para poder analizar el comportamiento del usuario y alinear sus necesidades con la solución propuesta.<br><br>
-        TB2: <br>Durante el desarrollo del capítulo 4, actualicé y apliqué conocimientos relacionados con el diseño de arquitectura de software, incluyendo la identificación de drivers arquitectónicos, constraints y concerns, así como la definición de componentes y relaciones dentro del sistema. Este proceso me permitió fortalecer mi comprensión sobre cómo estructurar una solución técnica alineada a los requerimientos del proyecto.<br><br>
-		TP:<br> Apliqué conocimientos de diseño de interfaces para elaborar los mockups de la aplicación web de Edifika orientada a administradores de condominios. Esto incluyó el estudio de patrones de diseño para dashboards, flujos de navegación y componentes de interfaz adaptados a los módulos de autenticación, pagos, reservas y comunicados. Además, contribuí en la definición de las Testing Suites y patrones de testing del proyecto. <br>
-		TB3: <br><br>
+        TB1: Elaboré los cuadros As-Is y To-Be, el Impact Map y conduje una entrevista a usuario para alinear las necesidades reales con la solución propuesta (secciones 2.3.4, 3.1, 3.3).<br><br>
+        TB2: Apliqué conceptos de arquitectura de software identificando drivers, constraints y concerns, y definiendo componentes y relaciones dentro del sistema (secciones 4.2.4, 4.2.5).<br><br>
+        TP: Diseñé los mockups de la aplicación web para administradores cubriendo los módulos de autenticación, pagos, reservas y comunicados, y contribuí en la definición de las Testing Suites del proyecto (secciones 5.1.1, 5.1.2).<br><br>
+        TB3: Elaboré la evidencia de testing del Sprint 2 y gestioné el despliegue del frontend de la aplicación web de Edifika (secciones 5.3.2.3, 5.3.2.6).<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
-        TB1: <br>Realicé investigación sobre el sector de gestión de condominios, incluyendo análisis de competidores y entrevistas a usuarios, lo que me permitió actualizar conocimientos relevantes para el desarrollo de una solución de software<br><br>
-        TB2:<br> Actualicé y apliqué conocimientos sobre arquitectura de software mediante los diagramas C4 y el diagrama ERD. Esto me permitió comprender mejor la estructura del sistema, sus componentes, servicios, bases de datos y relaciones principales.<br><br>
-		TP:<br> Actualicé mis conocimientos sobre arquitectura de software mediante la elaboración de diagramas C4, diagramas de componentes, clases y modelo entidad-relación. Además, reforcé el uso de herramientas de Software Configuration Management, como Git, GitHub y ramas de trabajo, lo que me permitió organizar mejor los cambios del proyecto y aplicar buenas prácticas para el desarrollo de EDIFIKA.<br><br>
-		TB3: <br><br>
+        TB1: Realicé el análisis de competidores y conduje entrevistas a usuarios, actualizando conocimientos sobre el sector de gestión de condominios (secciones 2.1.1, 2.2.2).<br><br>
+        TB2: Apliqué conocimientos de arquitectura elaborando los diagramas C4 y el diagrama ERD para representar la estructura, servicios y relaciones del sistema (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
+        TP: Actualicé los diagramas C4, de componentes, clases y ERD del sistema, reforzando el uso de Git y GitHub para la gestión del código fuente del proyecto (secciones 4.1.4, 4.1.5, 4.1.6, 5.2.2).<br><br>
+        TB3:Actualicé conocimientos de microservicios y modelado de datos para implementar el microservicio de Residential Management, corrigiendo además los diagramas de clases y ERD para reflejar con mayor precisión la estructura del sistema (secciones 5.3.2.2, 4.1.5, 4.1.6). <br><br>
       </td>
       <td>
-        TB1: A lo largo del desarrollo del primer entregable, el equipo demostró capacidad para incorporar nuevos conceptos y herramientas propias de la ingeniería de software. El desarrollo del perfil de Condomia, la definición de Edifika y el trabajo con metodologías como Lean UX nos llevaron a investigar y aplicar conocimientos que inicialmente no manejábamos con profundidad. Este proceso de actualización continua se reflejó directamente en la calidad y coherencia de la documentación entregada.<br><br>
-        TB2: Durante el segundo entregable, el equipo profundizó en conceptos de arquitectura de software aplicados directamente al diseño de Edifika. El desarrollo de las ADD Iterations permitió tomar decisiones arquitectónicas basadas en atributos de calidad, así como aplicar patrones y metodologías que fortalecen la estructura del sistema, evidenciando la capacidad del equipo para diseñar soluciones técnicas coherentes y escalables. <br><br>
-		TP: El equipo avanzó la implementación del sistema Edifika, aplicando conocimientos actualizados en desarrollo backend con Spring Boot, despliegue en plataformas cloud como Render y Supabase, diseño de interfaces para la aplicación web y construcción de la Landing Page. La necesidad de trabajar con tecnologías como JWT, Docker, PostgreSQL y herramientas de prototipado exigió a cada integrante investigar y dominar conceptos que no formaban parte de su experiencia previa, demostrando la capacidad del equipo para adquirir conocimientos técnicos según las demandas del proyecto.<br><br>
-		TB3: <br><br>
+        TB1: El equipo incorporó nuevos conceptos y herramientas de ingeniería de software a lo largo del primer entregable, reflejando un proceso de actualización continua en la calidad y coherencia de la documentación producida.<br><br>
+        TB2: El equipo profundizó en arquitectura de software aplicada al diseño de Edifika, tomando decisiones basadas en atributos de calidad y aplicando patrones que fortalecen la escalabilidad del sistema.<br><br>
+        TP: El equipo avanzó en la implementación de Edifika aplicando conocimientos en Spring Boot, JWT, Docker, PostgreSQL y herramientas de prototipado, evidenciando la capacidad de adquirir competencias técnicas según las demandas del proyecto.<br><br>
+        TB3: El equipo concretó el desarrollo de los microservicios de Reservas y Residential Management, el API Gateway y secciones del frontend, actualizando conocimientos técnicos por componente e incorporando nuevas tecnologías conforme evolucionó el sistema.<br><br>
       </td>
     </tr>
     <tr>
       <td>7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software.</td>
       <td>
         Becerra Tejeda, Alessandra Nicole <br><br>
-        TB1: <br>Investigué y contrasté información de diversas fuentes para comprender y aplicar adecuadamente los conceptos de problem statement, hypothesis y assumptions en el desarrollo del proyecto.<br><br>
-        TB2: <br>Desarrollé en conjunto los drivers arquitectónicos, incluyendo Design Purpose, Primary Functionality (User Stories) y Quality Attribute Scenarios. Para ello, investigué y apliqué conceptos de arquitectura de software, permitiendo estructurar correctamente los requerimientos y decisiones del sistema.<br><br>
-		TP:<br> Investigué y reforcé conocimientos relacionados con desarrollo web, diseño de interfaces y trabajo ágil para contribuir en la elaboración de la Landing Page y las actividades del Sprint 1 del proyecto. <br><br>
-		TB3: <br><br>
+        TB1: Reconocí la necesidad de contrastar múltiples fuentes para aplicar correctamente los conceptos de problem statement, hypothesis y assumptions en el proyecto (secciones 1.2.3.1, 1.2.3.2, 1.2.3.3).<br><br>
+        TB2: Identifiqué que estructurar los drivers arquitectónicos exige investigación continua, aplicando este aprendizaje en el desarrollo de los Quality Attribute Scenarios (sección 4.2.3).<br><br>
+        TP: Reconocí que el desarrollo web y el trabajo ágil requieren actualización constante, lo que orientó mi contribución en la Landing Page y las actividades del Sprint 1 (secciones 5.3.1.1, 5.3.1.2).<br><br>
+        TB3: Reconocí la necesidad de profundizar en desarrollo backend y documentación de APIs para responder adecuadamente a los requerimientos técnicos del microservicio de reservas (secciones 5.3.2.2, 5.3.2.5).<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
-        TB1: <br>Reconocí la importancia de dominar técnicas de investigación cualitativa mediante el diseño y ejecución de entrevistas a los dos segmentos objetivo. Esta experiencia me permitió comprender que el aprendizaje de nuevas estrategias de recolección de datos es vital para validar hipótesis y reducir la incertidumbre en el desarrollo de software.<br><br>
-        TB2: <br>Al desarrollar las ADD Iterations, reconocí que el aprendizaje permanente es clave para tomar decisiones arquitectónicas fundamentadas. Fue necesario investigar conceptos como atributos de calidad, patrones arquitectónicos y diseño de microservicios, comprendiendo que el conocimiento debe actualizarse constantemente para diseñar soluciones robustas.<br><br>
-		TP:<br> Reconocí que transformar requerimientos técnicos y user stories en prototipos visuales funcionales demanda un aprendizaje constante sobre herramientas de diseño, principios de usabilidad y estándares de interfaz. Cada módulo de la aplicación web presentó escenarios particulares que me obligaron a buscar soluciones de diseño específicas, investigar componentes y evaluar alternativas, lo que reforzó mi comprensión de que mantenerse actualizado es indispensable para contribuir con entregas de calidad en proyectos de ingeniería de software. <br><br>
-		TB3: <br><br>
+        TB1: Reconocí que diseñar y ejecutar entrevistas a los segmentos objetivo exige dominar técnicas de investigación cualitativa para validar hipótesis con fundamento real (secciones 2.2.1, 2.2.2).<br><br>
+        TB2: Al desarrollar las ADD Iterations comprendí que el aprendizaje permanente es clave para tomar decisiones arquitectónicas sólidas sobre atributos de calidad y patrones de diseño (secciones 4.3.1, 4.3.2).<br><br>
+        TP: Reconocí que transformar user stories en prototipos visuales funcionales demanda aprendizaje constante en usabilidad y herramientas de diseño, evidenciado en los mockups de cada módulo (secciones 5.1.1, 5.1.2).<br><br>
+        TB3: Reconocí que construir un dashboard que consuma múltiples microservicios exige aprendizaje continuo en integración de APIs, manejo asíncrono y coherencia visual entre componentes (secciones 5.3.2.1, 5.3.2.4).<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
-        TB1: <br>Reconocí la importancia de investigar el sector de gestión de condominios para desarrollar una solución relevante, lo que me motivó a profundizar en nuevos conceptos y herramientas necesarias para el proyecto Edifika.<br><br>
-        TB2: <br> Reconocí que diseñar la arquitectura de Edifika exige aprendizaje continuo, ya que trabajar con patrones como microservicios, DDD y atributos de calidad me motivó a investigar y profundizar en conceptos que no manejaba previamente.<br><br>
-		TP:<br> Durante la implementación del microservicio IAM reconocí que el desarrollo backend con microservicios requiere dominar múltiples tecnologías de forma simultánea. Configurar la seguridad con JWT, estructurar el proyecto siguiendo DDD y desplegar en servicios cloud fueron actividades que me obligaron a investigar documentación técnica y resolver problemas que no había enfrentado previamente, reforzando mi convicción de que el aprendizaje continuo es fundamental para resolver desafíos reales en ingeniería de software. <br><br>
-		TB3: <br><br>
+        TB1: Reconocí que investigar el sector de gestión de condominios es fundamental para desarrollar una solución relevante, motivándome a profundizar en nuevos conceptos para el proyecto (secciones 1.1.1, 1.2.2).<br><br>
+        TB2: Comprendí que diseñar la arquitectura con patrones como microservicios y DDD exige investigación continua en conceptos que no manejaba previamente (secciones 4.1.2, 4.1.3).<br><br>
+        TP: Reconocí que el desarrollo backend con microservicios requiere dominar múltiples tecnologías en simultáneo, como JWT, DDD y despliegue cloud, enfrentando problemas reales no previstos (secciones 5.3.1.2, 5.3.1.5, 5.3.1.6).<br><br>
+        TB3: Reconocí que implementar un API Gateway exige comprender la interacción entre componentes de una arquitectura distribuida, investigando filtros de seguridad, CORS y ciclo de vida de solicitudes HTTP (secciones 5.3.2.2, 5.3.2.5).<br><br>
         Sarmiento Medina, Loreley <br><br>
-        TB1: <br>Reconocí la importancia del aprendizaje continuo al desarrollar los cuadros As-Is, To-Be, el Impact Map y la entrevista, lo que me permitió mejorar mi análisis del usuario y comprender mejor cómo estructurar soluciones alineadas a sus necesidades reales.<br><br>
-        TB2: <br>A partir del desarrollo del capítulo 4, reconocí la importancia del aprendizaje continuo para comprender conceptos clave de arquitectura de software y su aplicación en un caso real.<br><br>
-		TP:<br> Al diseñar los mockups de la aplicación web reconocí que trasladar requerimientos funcionales a interfaces visuales coherentes exige actualizar constantemente los conocimientos sobre usabilidad, accesibilidad y tendencias de diseño. Cada módulo presentó decisiones de diseño distintas que me llevaron a investigar referencias y buenas prácticas, confirmando que el aprendizaje permanente es necesario para entregar soluciones que realmente respondan a las necesidades del usuario final. <br><br>
-		TB3: <br><br>
+        TB1: Reconocí la importancia del aprendizaje continuo al elaborar los cuadros As-Is, To-Be e Impact Map, herramientas que exigieron comprender cómo analizar al usuario y estructurar soluciones alineadas a sus necesidades (secciones 2.3.4, 3.1, 3.3).<br><br>
+        TB2: Reconocí que comprender la arquitectura de software requiere actualización permanente, evidenciado en la identificación de constraints y concerns del sistema (secciones 4.2.4, 4.2.5).<br><br>
+        TP: Reconocí que diseñar interfaces coherentes exige actualizar constantemente conocimientos en usabilidad y tendencias de diseño, reflejado en las decisiones tomadas para cada módulo de los mockups (secciones 5.1.1, 5.1.2).<br><br>
+        TB3: Reconocí que documentar el testing y gestionar el despliegue del frontend demanda aprendizaje continuo sobre estrategias de validación y configuración de entornos de producción (secciones 5.3.2.3, 5.3.2.6).<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
-        TB1: <br>A partir del desarrollo del Lean UX Canvas, el análisis de competidores y las entrevistas realizadas, reconocí que el aprendizaje permanente es esencial para el desempeño profesional en ingeniería de software.<br>
-        TB2:<br> Reconocí la importancia del aprendizaje permanente porque, para elaborar estos diagramas, fue necesario reforzar conceptos como arquitectura, comunicación entre servicios y modelado de datos.<br><br>
-		TP:<br> Reconocí la importancia del aprendizaje permanente, ya que durante el desarrollo de EDIFIKA fue necesario investigar y reforzar conceptos de arquitectura, modelado C4, diseño de base de datos y gestión de configuración. Esto me permitió mejorar mi desempeño en el proyecto y comprender que, en ingeniería de software, siempre es necesario seguir aprendiendo para adaptarse a nuevas herramientas, tecnologías y buenas prácticas.
-<br><br>
-		  TB3: <br><br>
+        TB1: Reconocí que el aprendizaje permanente es esencial al tener que investigar el sector para desarrollar el Lean UX Canvas y el análisis de competidores (secciones 1.2.3.4, 2.1.1).<br><br>
+        TB2: Reconocí que elaborar los diagramas C4 y ERD exigió reforzar conceptos de arquitectura, comunicación entre servicios y modelado de datos (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
+        TP: Reconocí que el desarrollo de EDIFIKA exige aprendizaje continuo en arquitectura y gestión de configuración, mejorando mi desempeño y adaptación a nuevas herramientas del proyecto (secciones 4.1.4, 5.2.2).<br><br>
+        TB3: Reconocí que implementar y corregir el microservicio de Residential Management exige aprendizaje continuo, ya que cada ajuste en los endpoints REST y los diagramas del sistema demandó investigar y aplicar nuevos conceptos de forma iterativa (secciones 5.3.2.2, 4.1.5, 4.1.6).<br><br>
       </td>
       <td>
-        TB1: El desarrollo del proyecto Edifika nos permitió comprender que mantenerse en constante aprendizaje no es opcional, sino necesario. Cada sección trabajada en la TB1 nos presentó nuevos retos que exigieron investigar, cuestionar y adaptarnos.<br><br>
-        TB2: El desarrollo de la arquitectura de Edifika reafirmó que el aprendizaje permanente es indispensable en la ingeniería de software. La aplicación de ADD Iterations, patrones arquitectónicos y diseño basado en atributos de calidad evidenció que el conocimiento debe actualizarse continuamente para enfrentar retos reales del desarrollo de software.<br><br>
-		TP: La transición del diseño arquitectónico a la implementación real del primer microservicio evidenció que cada fase del proyecto plantea retos técnicos nuevos que solo pueden resolverse mediante aprendizaje continuo. Desde la configuración de seguridad hasta el despliegue en producción, cada actividad requirió consultar documentación, experimentar con herramientas y resolver problemas inesperados, reafirmando que el aprendizaje permanente es una condición indispensable para el desarrollo profesional en ingeniería de software.<br>
-<br>
-		  TB3: <br><br>
+        TB1: El proyecto Edifika demostró que mantenerse en constante aprendizaje es necesario, ya que cada sección trabajada presentó retos que exigieron investigar, cuestionar y adaptarse.<br><br>
+        TB2: La arquitectura de Edifika reafirmó que el aprendizaje permanente es indispensable en ingeniería de software, evidenciado en la aplicación de ADD Iterations, patrones arquitectónicos y diseño basado en atributos de calidad.<br><br>
+        TP: La implementación del primer microservicio evidenció que cada fase del proyecto plantea retos técnicos nuevos que solo se resuelven mediante aprendizaje continuo, desde la configuración de seguridad hasta el despliegue en producción.<br><br>
+        TB3: La implementación simultánea de microservicios, API Gateway y frontend demostró que un sistema distribuido plantea desafíos continuos que obligan a cada integrante a investigar y adaptarse constantemente, reafirmando el aprendizaje permanente como pilar del proyecto.<br><br>
       </td>
     </tr>
   </tbody>
@@ -890,9 +887,11 @@ Estrategia: Optimizar el uso de recursos compartidos dentro del condominio
 Táctica: Implementar un calendario interactivo con disponibilidad en tiempo real, reglas automáticas de uso y confirmaciones instantáneas de reservas
 
 
- # 2.2. Entrevistas
+# 2.2. Entrevistas
  
- ## 2.2.1 Diseño de entrevistas
+## 2.2.1 Diseño de entrevistas
+
+Para el diseño de las entrevistas se utilizó el método de entrevistas semiestructuradas, el cual combina un conjunto de preguntas predefinidas con la flexibilidad de profundizar en las respuestas del entrevistado según el contexto de la conversación. Este enfoque fue seleccionado porque permite recopilar información cualitativa sobre las experiencias, frustraciones y expectativas de los usuarios sin limitar sus respuestas a opciones cerradas. Las preguntas fueron formuladas de manera abierta para incentivar respuestas detalladas y se organizaron en dos guiones diferenciados, uno por cada segmento objetivo del proyecto, asegurando que cada entrevista aborde las problemáticas específicas del perfil entrevistado.
 
 1. Segmento: Administradores de edificios y condominios
 
@@ -1112,14 +1111,13 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 
 **Epics:**
 
-| Epic ID | Título                                          | Descripción                                                                                                                                                                                                                                                                                                                                                                                               |
-| ------- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| EP01    | Autenticación y gestión de usuarios             | Esta épica se enfoca en la creación, registro y administración de usuarios dentro de la plataforma, incluyendo residentes y administradores. Permite vincular cuentas a unidades específicas dentro del edificio, así como gestionar perfiles, validar información y controlar accesos. Su objetivo es garantizar seguridad, organización y correcta identificación de todos los usuarios del sistema.    |
-| EP02    | Comunicación centralizada                       | Esta épica aborda la gestión de notificaciones y comunicados dentro del condominio, permitiendo mantener informados a los residentes sobre incidencias, pagos, reservas y anuncios importantes. Incluye la personalización de notificaciones y el seguimiento de visualización de comunicados, con el fin de mejorar la comunicación interna y la toma de decisiones oportunas.                           |
-| EP03    | Gestión de áreas comunes                        | Esta épica se centra en la administración y uso eficiente de las áreas comunes del condominio. Permite a los residentes consultar disponibilidad, realizar reservas y cancelarlas, mientras que los administradores pueden aprobar solicitudes y evitar conflictos como duplicidad de reservas. Su objetivo es optimizar el uso de espacios compartidos.                                                  |
-| EP04    | Gestión financiera y reportes                   | Esta épica se enfoca en la administración económica del condominio, permitiendo a los residentes consultar su deuda, registrar pagos y revisar su historial financiero. Asimismo, los administradores pueden gestionar pagos, identificar residentes morosos, generar reportes financieros y exportarlos para su análisis y comunicación. Su objetivo es garantizar transparencia, control y confianza en la gestión económica del condominio. |
-| EP05    | Infraestructura, seguridad y restricciones técnicas                   | Esta épica abarca todos los aspectos técnicos necesarios para el correcto funcionamiento del sistema Edifika, incluyendo la arquitectura tecnológica, disponibilidad, seguridad y cumplimiento de restricciones. Su objetivo es garantizar que la plataforma sea segura, escalable, confiable y cumpla con los requerimientos técnicos del proyecto. |
-| EP06    | Landing Page e Interfaz Web                   | Esta épica cubre todas las funcionalidades visibles en la landing page pública de Edifika y la interfaz web de la aplicación. Incluye navegación, presentación de contenido y más, con el objetivo de atraer y convertir nuevos usuarios. |
+| Epic ID | Título | Descripción | User Stories Asociadas |
+|---------|--------|-------------|------------------------|
+| EP01 | Autenticación y gestión de usuarios | Esta épica se enfoca en la creación, registro y administración de usuarios dentro de la plataforma, incluyendo residentes y administradores. Permite vincular cuentas a unidades específicas dentro del edificio, así como gestionar perfiles, validar información y controlar accesos. | US01, US02, US03, US04, US05, US06, US07, US34 |
+| EP02 | Comunicación centralizada | Esta épica aborda la gestión de notificaciones y comunicados dentro del condominio, permitiendo mantener informados a los residentes sobre incidencias, pagos, reservas y anuncios importantes. Incluye la personalización de notificaciones y el seguimiento de visualización de comunicados. | US08, US10, US12, US13, US14, US15, US29, US31, US32, US36, US37 |
+| EP03 | Gestión de áreas comunes | Esta épica se centra en la administración y uso eficiente de las áreas comunes del condominio. Permite a los residentes consultar disponibilidad, realizar y cancelar reservas, mientras que los administradores pueden aprobar solicitudes y evitar conflictos de horario. | US11, US16, US17, US18, US19, US20, US33, US35, US38, US39, US40 |
+| EP04 | Gestión financiera y reportes | Esta épica se enfoca en la administración económica del condominio, permitiendo a los residentes consultar su deuda, registrar pagos y revisar su historial financiero. Los administradores pueden identificar morosos, generar y exportar reportes financieros. | US09, US21, US22, US23, US24, US25, US26, US27, US28, US30 |
+| EP06 | Landing Page e Interfaz Web | Esta épica cubre todas las funcionalidades visibles en la landing page pública de Edifika y la interfaz web de la aplicación. Incluye navegación, presentación de contenido y acceso a la plataforma, con el objetivo de atraer y convertir nuevos usuarios. | US41, US42, US43, US44, US45, US46, US47 |
 
 **User Stories:**
 
@@ -1415,6 +1413,26 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       </td>
       <td>EP02</td>
     </tr>
+	  <tr>
+  <td><strong>US15</strong></td>
+  <td>Seguimiento de visualización de comunicados</td>
+  <td>Como administrador, quiero saber quién ha visto los comunicados para asegurar su alcance.</td>
+  <td>
+    <strong>E1: Visualización del registro.</strong><br>
+    Dado que el admin accede a un comunicado publicado,<br>
+    cuando revisa el panel de seguimiento,<br>
+    entonces el sistema muestra la lista de residentes que lo han leído con fecha y hora de lectura.<br><br>
+    <strong>E2: Residentes que no han leído.</strong><br>
+    Dado que el admin consulta el seguimiento de un comunicado,<br>
+    cuando filtra por "No leído",<br>
+    entonces el sistema lista los residentes que aún no han abierto el comunicado y permite reenviar la notificación.<br><br>
+    <strong>E3: Error de carga del registro.</strong><br>
+    Dado que el admin intenta ver el seguimiento de visualizaciones,<br>
+    cuando el servicio de base de datos tarda en responder,<br>
+    entonces el sistema muestra un "Skeleton loader" mientras recupera los datos.
+  </td>
+  <td>EP02</td>
+</tr>
     <tr>
       <td><strong>US16</strong></td>
       <td>Ver disponibilidad de áreas comunes</td>
@@ -1455,6 +1473,46 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       </td>
       <td>EP03</td>
     </tr>
+	  <tr>
+  <td><strong>US18</strong></td>
+  <td>Aprobar o rechazar reservas</td>
+  <td>Como administrador, quiero aprobar o rechazar reservas de áreas comunes para mantener el control sobre su uso.</td>
+  <td>
+    <strong>E1: Aprobación exitosa.</strong><br>
+    Dado que el admin recibe una solicitud de reserva pendiente,<br>
+    cuando la aprueba desde el panel de administración,<br>
+    entonces el sistema confirma la reserva y notifica al residente con el código QR de acceso.<br><br>
+    <strong>E2: Rechazo con motivo.</strong><br>
+    Dado que el admin decide rechazar una solicitud de reserva,<br>
+    cuando ingresa el motivo y confirma el rechazo,<br>
+    entonces el sistema libera el horario y notifica al residente indicando el motivo del rechazo.<br><br>
+    <strong>E3: Solicitud expirada.</strong><br>
+    Dado que el admin accede a una solicitud de reserva pendiente,<br>
+    cuando la fecha y hora solicitada ya pasó sin ser procesada,<br>
+    entonces el sistema la marca automáticamente como "Expirada" y la excluye de la lista de pendientes.
+  </td>
+  <td>EP03</td>
+</tr>
+	 <tr>
+  <td><strong>US19</strong></td>
+  <td>Evitar reservas duplicadas</td>
+  <td>Como administrador, quiero que el sistema prevenga reservas duplicadas para evitar conflictos de horario en las áreas comunes.</td>
+  <td>
+    <strong>E1: Bloqueo de duplicado.</strong><br>
+    Dado que un residente intenta reservar un área en un horario ya ocupado,<br>
+    cuando confirma la solicitud,<br>
+    entonces el sistema bloquea la acción e indica "Este horario ya se encuentra reservado, elija otro".<br><br>
+    <strong>E2: Detección en reserva simultánea.</strong><br>
+    Dado que dos residentes intentan reservar el mismo horario al mismo tiempo,<br>
+    cuando ambos confirman la reserva simultáneamente,<br>
+    entonces el sistema otorga la reserva al primero en confirmar y notifica al segundo que el horario ya no está disponible.<br><br>
+    <strong>E3: Alerta al administrador.</strong><br>
+    Dado que el sistema detecta un intento de reserva duplicada,<br>
+    cuando el conflicto es registrado,<br>
+    entonces el admin recibe una notificación indicando el área, horario y los residentes involucrados.
+  </td>
+  <td>EP03</td>
+</tr> 
     <tr>
       <td><strong>US20</strong></td>
       <td>Cancelar reserva</td>
@@ -1515,6 +1573,26 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       </td>
       <td>EP04</td>
     </tr>
+	  <tr>
+  <td><strong>US23</strong></td>
+  <td>Registrar pagos en el sistema</td>
+  <td>Como administrador, quiero registrar manualmente los pagos de los residentes para mantener el sistema actualizado.</td>
+  <td>
+    <strong>E1: Registro exitoso.</strong><br>
+    Dado que el admin accede al módulo de pagos de un residente,<br>
+    cuando ingresa el monto, fecha y método de pago y confirma el registro,<br>
+    entonces el sistema actualiza la deuda del residente y genera un comprobante de pago.<br><br>
+    <strong>E2: Monto inválido.</strong><br>
+    Dado que el admin intenta registrar un pago,<br>
+    cuando ingresa un monto de S/ 0 o un valor negativo,<br>
+    entonces el sistema muestra "El monto ingresado no es válido, verifique los datos".<br><br>
+    <strong>E3: Fallo de persistencia.</strong><br>
+    Dado que el admin intenta guardar el registro de un pago,<br>
+    cuando la base de datos se encuentra en mantenimiento,<br>
+    entonces el sistema muestra "Error 500: No se pudo registrar el pago, intente nuevamente".
+  </td>
+  <td>EP04</td>
+</tr>
     <tr>
       <td><strong>US24</strong></td>
       <td>Visualizar residentes morosos</td>
@@ -2322,7 +2400,21 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
   </tbody>
 </table>
 
+## Justificación y Trazabilidad de las Historias de Usuario
 
+La siguiente tabla establece la trazabilidad entre las Historias de Usuario definidas para Edifika y los hallazgos obtenidos durante la fase de investigación de usuarios. Cada Historia de Usuario responde a necesidades, problemas (pains) o beneficios esperados (gains) identificados en los Empathy Maps de los perfiles analizados: Ricardo Mendoza (Administrador de Condominios) y Andrea Villacorta (Residente).
+
+| Historias de Usuario | User Persona | Necesidad / Pain Identificado | Justificación |
+|---------------------|--------------|-------------------------------|---------------|
+| US01, US02, US03, US06 | Andrea Villacorta (Residente) | Necesidad de acceder a la información de forma rápida y gestionar sus datos desde una plataforma digital. | Estas historias permiten a los residentes registrarse, iniciar sesión y administrar su perfil sin depender de procesos presenciales o manuales. |
+| US04, US05, US07, US34 | Ricardo Mendoza (Administrador) | Carga operativa elevada debido a registros manuales y falta de organización de la información de residentes y unidades. | Estas historias facilitan la administración centralizada de usuarios, edificios y permisos de acceso, reduciendo el trabajo administrativo manual. |
+| US08, US10, US13, US14 | Ricardo Mendoza y Andrea Villacorta | Falta de comunicación eficiente, pérdida de información y ausencia de transparencia en los comunicados. | Estas historias permiten centralizar los comunicados y garantizar que la información relevante llegue oportunamente a los residentes. |
+| US09, US21, US22, US28, US30 | Andrea Villacorta (Residente) | Incertidumbre sobre el estado de sus pagos, deudas y comprobantes registrados. | Estas historias brindan visibilidad sobre las obligaciones financieras y facilitan el registro y consulta de pagos realizados. |
+| US24, US25, US26, US27 | Ricardo Mendoza (Administrador) | Dificultad para controlar ingresos, egresos y elaborar reportes financieros de forma eficiente. | Estas historias proporcionan herramientas para monitorear la situación financiera del condominio y generar reportes de manera automatizada. |
+| US16, US17, US20 | Andrea Villacorta (Residente) | Problemas para conocer la disponibilidad de áreas comunes y realizar reservas de forma organizada. | Estas historias permiten consultar disponibilidad, reservar espacios y cancelar reservas desde una única plataforma. |
+| US33, US35, US38, US39, US40 | Ricardo Mendoza (Administrador) | Necesidad de controlar el uso de áreas comunes, evitar conflictos y optimizar la gestión de espacios compartidos. | Estas historias brindan mecanismos de supervisión, configuración y análisis de las áreas comunes del condominio. |
+| US29, US36, US37 | Ricardo Mendoza y Andrea Villacorta | Necesidad de fomentar la participación de la comunidad y mantener una convivencia organizada. | Estas historias permiten la interacción entre residentes mediante publicaciones, encuestas y mecanismos de moderación. |
+| US41, US42, US43, US44, US45, US46, US47 | Visitantes y potenciales clientes | Necesidad de comprender la propuesta de valor de Edifika y acceder fácilmente a la plataforma. | Estas historias permiten presentar las funcionalidades del producto, mejorar la experiencia de navegación y facilitar la conversión de visitantes en usuarios. |
 
 # 3.3. Impact Mapping
 El  Impact Map muestra la relación entre el objetivo de negocio de Edifika y los cambios de comportamiento esperados en los usuarios clave: administradores y residentes. A partir de este análisis, se definen los impactos principales que la solución busca generar en cada tipo de usuario y los entregables necesarios para lograrlo, los cuales están directamente vinculados a las historias de usuario planteadas. Esto permite asegurar que cada funcionalidad desarrollada responda a necesidades reales y contribuya al cumplimiento del objetivo del sistema.
@@ -2494,43 +2586,51 @@ En esta sección se presentan los diagramas que describen el comportamiento y la
  **Diagramas de Clases**
 
 <img src="assets/img/iam-auth.png" alt="context"/>
-<img src="assets/img/iam-auth1.png" alt="context"/>
-<img src="assets/img/iam-auth2.png" alt="context"/>
 
 *Figura 21. Diagrama de Clases IAM. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
+<img src="assets/img/iam-auth1.png" alt="context"/>
+
+*Figura 22. Diagrama de Clases IAM. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
+<img src="assets/img/iam-auth2.png" alt="context"/>
+
+*Figura 23. Diagrama de Clases IAM. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+
 <img src="assets/img/residential_class_diagramm.png" alt="context"/>
 
-*Figura 22. Diagrama de Clases Residential management. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 24. Diagrama de Clases Residential management. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 <img src="assets/img/notifications_class.png" alt="context"/>
 
-*Figura 23. Diagrama de Clases Notifications. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 25. Diagrama de Clases Notifications. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 <img src="assets/img/reports_class.png" alt="context"/>
 
-*Figura 24. Diagrama de Clases Reports. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 26. Diagrama de Clases Reports. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 
 <img src="assets/img/communications_class.png" alt="context"/>
 
-*Figura 25. Diagrama de Clases Communications. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 27. Diagrama de Clases Communications. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 <img src="assets/img/payment_class.png" alt="context"/>
 
-*Figura 26. Diagrama de Clases Payments. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 28. Diagrama de Clases Payments. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 
 <img src="assets/img/forum_class.png" alt="context"/>
 
-*Figura 27. Diagrama de Clases Forums. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 29. Diagrama de Clases Forums. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 
 <img src="assets/img/reservation_class_diagramm.png" alt="context"/>
 
-*Figura 28. Diagrama de Clases Reservations. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 30. Diagrama de Clases Reservations. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 **Diagramas de Secuencia**
+
+Los diagramas de secuencia presentados a continuación son artefactos de ingeniería de software que documentan los flujos técnicos del sistema desde la perspectiva de la arquitectura y la comunicación entre componentes. Su propósito es detallar cómo interactúan los microservicios, el API Gateway y las bases de datos ante cada operación. Estos diagramas son complementarios a los Scenario Maps presentados en la sección 2.3.4 (As-Is) y 3.1 (To-Be), los cuales abordan los mismos flujos desde la perspectiva de la experiencia del usuario.
 
 **Registro e inicio de sesión del Administrador**
 
@@ -2538,7 +2638,7 @@ En esta sección se presentan los diagramas que describen el comportamiento y la
 
 <img src="assets/img/secuencia1.png" alt="Diagrama de secuencia autenticación administrador"/>
 
-*Figura 29. Diagrama de Secuencia - Autenticación Administrador. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 31. Diagrama de Secuencia - Autenticación Administrador. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 </div>
 
@@ -2552,7 +2652,7 @@ Este diagrama muestra el flujo de registro e inicio de sesión del administrador
 
 <img src="assets/img/secuencia2.png" alt="Diagrama de secuencia autenticación inquilino propietario"/>
 
-*Figura 30. Diagrama de Secuencia - Autenticación Inquilino/Propietario. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 32. Diagrama de Secuencia - Autenticación Inquilino/Propietario. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 </div>
 
@@ -2567,7 +2667,7 @@ Este diagrama presenta el flujo de inicio de sesión del propietario o inquilino
 
 <img src="assets/img/secuencia_comunicados.png" alt="Diagrama de secuencia comunicados oficiales"/>
 
-*Figura 31. Diagrama de Secuencia - Comunicados Oficiales. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 33. Diagrama de Secuencia - Comunicados Oficiales. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 </div>
 
@@ -2590,7 +2690,7 @@ El cuarto flujo corresponde a la respuesta de encuestas por parte de los residen
 
 <img src="assets/img/secuencia_pagos.png" alt="Diagrama de secuencia gestión de pagos"/>
 
-*Figura 32. Diagrama de Secuencia - Gestión de Pagos. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 34. Diagrama de Secuencia - Gestión de Pagos. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 </div>
 
@@ -2610,7 +2710,7 @@ La tercera sección muestra la aprobación del pago, donde se aplica el **Saga P
 
 <img src="assets/img/secuencia_reservas.png" alt="Diagrama de secuencia reserva de áreas comunes"/>
 
-*Figura 33. Diagrama de Secuencia - Reserva de Áreas Comunes. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 35. Diagrama de Secuencia - Reserva de Áreas Comunes. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 </div>
 
@@ -2628,7 +2728,7 @@ La tercera sección muestra la aprobación de la reserva por el administrador, d
 <img src="assets/img/secuencia_reportes.png" alt="Diagrama de secuencia reportes"/>
 </div>
 
-*Figura 34. Diagrama de Secuencia - Reportes Financieros. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 36. Diagrama de Secuencia - Reportes Financieros. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 Este diagrama describe el flujo de reportes financieros en Edifika, dividido en tres secciones.
 
@@ -2646,7 +2746,7 @@ En esta sección se presenta el diagrama de base de datos relacional de Edifika,
 
 <img src="assets/img/Edifika_ERD_2.png" alt="ERD_driagram"/>
 
-*Figura 35. Diagrama Entidad-Relación. Elaborado por el equipo utilizando LucidChart (LucidChart, s.f.).*
+*Figura 37. Diagrama Entidad-Relación. Elaborado por el equipo utilizando LucidChart (LucidChart, s.f.).*
 
 ### 4.1.7. Design Patterns
 
@@ -2953,12 +3053,12 @@ Se adoptan los siguientes conceptos de diseño:
 
 <img src="assets/img/ContainerView.png" alt="context"/>
  
-*Figura 36. Diagrama de Contenedores. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 38. Diagrama de Contenedores. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 ### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
-<img src="assets/img/TRELLO1.PNG" alt="context"/>
-*Figura 37. TRElLO - Iteration 1. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
+<img src="assets/img/itereacion1blanco.png" alt="context"/>
+*Figura 39. TRElLO - Iteration 1. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
  
 ## 4.3.2 Iteration 2: Refinamiento de módulos críticos (Pagos y Reservas)
 
@@ -3054,17 +3154,17 @@ Para garantizar la integridad (AD-08) y disponibilidad (AD-09), se define el sig
 
 <img src="assets/img/ComponentView_Payment_Service.png" alt="context"/>
 
-*Figura 38. Diagrama de Componentes - Payment Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 40. Diagrama de Componentes - Payment Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/ComponentView_Reservation_Service.png" alt="context"/>
 
-*Figura 39. Diagrama de Componentes - Reservation Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 41. Diagrama de Componentes - Reservation Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 
 ### 4.3.2.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
-<img src="assets/img/TRELLO2.PNG" alt="context"/>
-*Figura 40. TRElLO - Iteration 2. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
+<img src="assets/img/iteracion2blanco.png" alt="context"/>
+*Figura 42. TRElLO - Iteration 2. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
 
 ## 4.3.3 Iteration 3: Optimización de reportes, comunicados y notificaciones
 
@@ -3119,16 +3219,16 @@ Se adoptan los siguientes conceptos de diseño:
 
 <img src="assets/img/ComponentView_Communication_Service.png" alt="context"/>
 
-*Figura 41. Diagrama de Componentes - Communication Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 43. Diagrama de Componentes - Communication Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 <img src="assets/img/ComponentView_Notification_Service.png" alt="context"/>
 
-*Figura 42. Diagrama de Componentes - Notification Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 44. Diagrama de Componentes - Notification Service. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 ### 4.3.3.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
-<img src="assets/img/TRELLO3.PNG" alt="context"/>
-*Figura 43. TRElLO - Iteration 3. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
+<img src="assets/img/iteracion3blanco.png" alt="context"/>
+*Figura 45. TRElLO - Iteration 3. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
 
 # CAPÍTULO V: Product Implementation, Validation & Deployment
 ### 5.1. Testing Suites & General Patterns
@@ -3139,35 +3239,43 @@ Las pruebas fueron enfocadas principalmente en los módulos de autenticación (A
 
 A continuación, se muestran evidencias de las pruebas ejecutadas y sus respectivos resultados satisfactorios.
 
-**COMMANDS**
+#### Microservicio IAM
 
-<img src="assets/img/RoleCommand.PNG" alt="context"/>
+<p align="center">
+  <img src="assets/img/AuthControllerLight.PNG" width="700"/>
+</p>
 
-*Figura 41. Role command . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
+*Figura 46. Pruebas unitarias del controlador de autenticación del microservicio IAM. Elaborado por el equipo.*
 
-<img src="assets/img/UserCommand.PNG" alt="context"/>
+<p align="center">
+  <img src="assets/img/RoleCommandLight.PNG" width="700"/>
+</p>
 
-*Figura 42. User command . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
+*Figura 47. Pruebas unitarias del servicio de comandos de roles. Elaborado por el equipo.*
 
-**QUERIES**
+<p align="center">
+  <img src="assets/img/RolesControllerLight.PNG" width="700"/>
+</p>
 
-<img src="assets/img/UserQuery.PNG" alt="context"/>
+*Figura 48. Pruebas unitarias del controlador de roles. Elaborado por el equipo.*
 
-*Figura 43. User query . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
+<p align="center">
+  <img src="assets/img/UserCommandLight.PNG" width="700"/>
+</p>
 
-**CONTROLLERS**
+*Figura 49. Pruebas unitarias del servicio de comandos de usuarios. Elaborado por el equipo.*
 
-<img src="assets/img/AuthController.PNG" alt="context"/>
+<p align="center">
+  <img src="assets/img/UserControllerLight.PNG" width="700"/>
+</p>
 
-*Figura 44. Auth Controller . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
+*Figura 50. Pruebas unitarias del controlador de usuarios. Elaborado por el equipo.*
 
-<img src="assets/img/RolesController.PNG" alt="context"/>
+<p align="center">
+  <img src="assets/img/UserQueryLight.PNG" width="700"/>
+</p>
 
-*Figura 45. Roles Controller . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
-
-<img src="assets/img/UserController.PNG" alt="context"/>
-
-*Figura 46. User Controller . Elaborado por el equipo utilizando Junit y Mockito (Junit & Mockito, s.f.).*
+*Figura 51. Pruebas unitarias del servicio de consultas de usuarios. Elaborado por el equipo.*
 
 ##### 5.1.2. Pattern Based Backend Application(s)
 
@@ -3467,7 +3575,7 @@ Trello (SaaS)
 
 <img src="assets/img/trello.png" alt="context" width="200"/>
 
-*Figura 47. Plataforma Trello utilizada para la gestión y organización de tareas del proyecto EDIFIKA (Trello, s.f.).*
+*Figura 52. Plataforma Trello utilizada para la gestión y organización de tareas del proyecto EDIFIKA (Trello, s.f.).*
 
 
 ### Team Communication
@@ -3482,7 +3590,7 @@ Discord (SaaS / Aplicación de escritorio)
 
 <img src="assets/img/discord.png" alt="context" width="200"/>
 
-*Figura 48. Plataforma Discord utilizada para la comunicación y coordinación interna del equipo de desarrollo de EDIFIKA (Discord, s.f.).*
+*Figura 53. Plataforma Discord utilizada para la comunicación y coordinación interna del equipo de desarrollo de EDIFIKA (Discord, s.f.).*
 
 
 ### Product UX/UI Design
@@ -3497,7 +3605,7 @@ Figma (SaaS)
 
 <img src="assets/img/figma.png" alt="context" width="200"/>
 
-*Figura 49. Plataforma Figma utilizada para el diseño de interfaces, wireframes y prototipos visuales de la solución EDIFIKA (Figma, s.f.).*
+*Figura 54. Plataforma Figma utilizada para el diseño de interfaces, wireframes y prototipos visuales de la solución EDIFIKA (Figma, s.f.).*
 
 
 
@@ -3513,7 +3621,7 @@ GitHub (SaaS)
 
 <img src="assets/img/github.png" alt="context" width="200"/>
 
-*Figura 50. Plataforma GitHub utilizada para el control de versiones y colaboración en el desarrollo de los productos digitales de EDIFIKA (GitHub, s.f.).*
+*Figura 55. Plataforma GitHub utilizada para el control de versiones y colaboración en el desarrollo de los productos digitales de EDIFIKA (GitHub, s.f.).*
 
 
 
@@ -3527,7 +3635,7 @@ IntelliJ IDEA (Aplicación de escritorio)
 
 <img src="assets/img/intellidea.png" alt="context" width="200"/>
 
-*Figura 51. Entorno de desarrollo IntelliJ IDEA utilizado para la implementación del microservicio IAM basado en Spring Boot y Java (JetBrains, s.f.).*
+*Figura 56. Entorno de desarrollo IntelliJ IDEA utilizado para la implementación del microservicio IAM basado en Spring Boot y Java (JetBrains, s.f.).*
 
 
 
@@ -3542,7 +3650,7 @@ Visual Studio Code (Aplicación de escritorio)
 
 <img src="assets/img/visualstudiocode.png" alt="context" width="200"/>
 
-*Figura 52. Editor Visual Studio Code utilizado para el desarrollo frontend, edición de archivos Markdown y documentación técnica del proyecto EDIFIKA (Microsoft, s.f.).*
+*Figura 57. Editor Visual Studio Code utilizado para el desarrollo frontend, edición de archivos Markdown y documentación técnica del proyecto EDIFIKA (Microsoft, s.f.).*
 
 
 
@@ -3556,7 +3664,7 @@ Angular Framework
 
 <img src="assets/img/angular.png" alt="context" width="200"/>
 
-*Figura 53. Framework Angular utilizado para el desarrollo de la aplicación web frontend de EDIFIKA (Angular, s.f.).*
+*Figura 58. Framework Angular utilizado para el desarrollo de la aplicación web frontend de EDIFIKA (Angular, s.f.).*
 
 
 
@@ -3570,7 +3678,7 @@ Spring Boot Framework
 
 <img src="assets/img/springboot.png" alt="context" width="200"/>
 
-*Figura 54. Framework Spring Boot utilizado para la construcción y despliegue del microservicio IAM de EDIFIKA (Spring, s.f.).*
+*Figura 59. Framework Spring Boot utilizado para la construcción y despliegue del microservicio IAM de EDIFIKA (Spring, s.f.).*
 
 
 
@@ -3587,7 +3695,7 @@ Postman (SaaS / Aplicación de escritorio)
 
 <img src="assets/img/postman.png" alt="context" width="200"/>
 
-*Figura 55. Plataforma Postman utilizada para realizar pruebas y validaciones de los endpoints REST del microservicio IAM (Postman, s.f.).*
+*Figura 60. Plataforma Postman utilizada para realizar pruebas y validaciones de los endpoints REST del microservicio IAM (Postman, s.f.).*
 
 
 
@@ -3601,7 +3709,7 @@ Swagger UI integrado en el microservicio IAM
 
 <img src="assets/img/swagger.png" alt="context" width="200"/>
 
-*Figura 56. Herramienta Swagger UI utilizada para la documentación y prueba visual de los endpoints expuestos por el backend de EDIFIKA (Swagger, s.f.).*
+*Figura 61. Herramienta Swagger UI utilizada para la documentación y prueba visual de los endpoints expuestos por el backend de EDIFIKA (Swagger, s.f.).*
 
 
 
@@ -3618,7 +3726,7 @@ GitHub Pages (SaaS)
 
 <img src="assets/img/githubpages.png" alt="context" width="200"/>
 
-*Figura 57. Plataforma GitHub Pages utilizada para el despliegue y visualización pública de la Landing Page de EDIFIKA (GitHub, s.f.).*
+*Figura 62. Plataforma GitHub Pages utilizada para el despliegue y visualización pública de la Landing Page de EDIFIKA (GitHub, s.f.).*
 
 
 
@@ -3632,7 +3740,7 @@ Render (PaaS - Plataforma como Servicio)
 
 <img src="assets/img/render.png" alt="context" width="200"/>
 
-*Figura 58. Plataforma Render utilizada para el despliegue en la nube del microservicio IAM desarrollado para EDIFIKA (Render, s.f.).*
+*Figura 63. Plataforma Render utilizada para el despliegue en la nube del microservicio IAM desarrollado para EDIFIKA (Render, s.f.).*
 
 
 
@@ -3649,7 +3757,7 @@ GitHub (SaaS)
 
 <img src="assets/img/github.png" alt="context" width="200"/>
 
-*Figura 59. Plataforma GitHub utilizada para el almacenamiento y versionado de la documentación técnica y código fuente del proyecto EDIFIKA (GitHub, s.f.).*
+*Figura 64. Plataforma GitHub utilizada para el almacenamiento y versionado de la documentación técnica y código fuente del proyecto EDIFIKA (GitHub, s.f.).*
 
 
 
@@ -3664,7 +3772,7 @@ Visual Studio Code (Aplicación de escritorio)
 
 <img src="assets/img/visualstudiocode.png" alt="context" width="200"/>
 
-*Figura 60. Editor Visual Studio Code utilizado para la edición y organización de la documentación técnica y archivos Markdown del proyecto EDIFIKA (Microsoft, s.f.).*
+*Figura 65. Editor Visual Studio Code utilizado para la edición y organización de la documentación técnica y archivos Markdown del proyecto EDIFIKA (Microsoft, s.f.).*
 
 
 Con esta configuración, nuestro equipo puede colaborar de manera eficiente y gestionar el ciclo de vida completo del desarrollo de EDIFIKA, desde la planificación y diseño hasta el desarrollo, pruebas, documentación, despliegue y mantenimiento.
@@ -4406,7 +4514,7 @@ Como parte de la configuración de despliegue, el equipo incluye el **Deployment
 
 <img src="assets/img/edifika-deployment-c4.png" alt="context"/>
 
-*Figura 61. Deployment Diagram del C4 Model. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
+*Figura 66. Deployment Diagram del C4 Model. Elaborado por el equipo utilizando Structurizr (Structurizr, s.f.).*
 
 Este diagrama considera:
 
@@ -4424,10 +4532,10 @@ Este diagrama considera:
 El objetivo de este Sprint es implementar el microservicio de IAM (Identity and Access Management), desarrollar la Landing Page del producto y elaborar los mockups de los principales módulos de Edifika. Durante este ciclo, el equipo trabajará en completar las funcionalidades de registro, inicio de sesión, gestión de perfiles y autenticación con JWT, así como en la construcción de la página de presentación del producto. El éxito del Sprint se medirá con el avance de las tareas asignadas en el Sprint Backlog y la correcta implementación del microservicio IAM. Esta sección presenta el tablero de control en Trello, junto con la lista de User Stories y tareas desglosadas asignadas a cada miembro del equipo.
 
 <p align="center">
-  <img src="assets/img/trello_sprint1.png" alt="Trello Sprint 1" width="700"/>
+  <img src="assets/img/trello_sprint_1.png" alt="Trello Sprint 1" width="700"/>
 </p>
 
-*Figura 62. Sprint Backlog 1. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+*Figura 67. Sprint Backlog 1. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 Enlace del Board: `https://trello.com/invite/b/6a0527cb585a58fe5f5375ba/ATTI112271af5d09099e7ea0df48ce05b74c6FCCB8A8/edifika-sprint-1`
 
@@ -4483,11 +4591,73 @@ En esta sección se aplicó la metodología Behavior-Driven Development (BDD) pa
 
 Cada archivo .feature corresponde a una Technical Story del Sprint, cubriendo flujos como el registro de administradores, el inicio de sesión con generación de JWT, la validación de tokens en endpoints protegidos y la gestión de usuarios. Esto permite documentar de forma clara las reglas de negocio implementadas en el backend y facilitar la ejecución de pruebas automatizadas que garanticen el correcto funcionamiento del microservicio.
 
+### Repositorio de pruebas de aceptación
+
+| Repository | Branch | Description |
+|---|---|---|
+| Acceptance-tests-Edifika | main | Repositorio que contiene los archivos `.feature` correspondientes a las pruebas BDD de la Landing Page de Edifika. |
+
+### Relación entre User Stories y Feature Files
+
+| User Story | Feature File | Descripción del test |
+|---|---|---|
+| US41 | US41.feature | Valida la correcta visualización de la sección Hero, su responsividad y navegación mediante CTA. |
+| US42 | US42.feature | Valida la navegación entre secciones mediante el navbar, resaltado de sección activa y comportamiento fijo del menú. |
+| US43 | US43.feature | Valida el cambio de idioma entre español e inglés, persistencia del idioma y configuración por defecto. |
+| US44 | US44.feature | Valida el cambio de tema visual entre claro y oscuro, persistencia del tema y adaptación a preferencias del sistema operativo. |
+| US45 | US45.feature | Valida la visualización de la sección de funcionalidades, módulos principales, características y etiqueta destacada. |
+| US46 | US46.feature | Valida la sección del equipo, carga de tarjetas, imágenes de perfil y fallback en caso de error de imagen. |
+
+A continuación se muestra un ejemplo de un archivo feature
+### US42 - Navegar entre secciones de la Landing Page
+
+**Descripción**
+
+Esta prueba valida el correcto funcionamiento del navbar, permitiendo desplazarse entre secciones de forma rápida y visualizando correctamente la sección activa.
+
+```gherkin
+Feature: US42 Navegar entre secciones de la Landing Page
+
+Scenario: Navegación exitosa desde el navbar
+Given el visitante se encuentra en cualquier sección de la landing page
+And visualiza el navbar con las opciones disponibles
+When hace clic en una opción del navbar
+Then la página realiza scroll automático hasta la sección correspondiente
+
+Scenario: Sección activa resaltada en el navbar
+Given el visitante está navegando por la landing page
+And hace scroll por las distintas secciones
+When pasa por una sección determinada
+Then el ítem correspondiente en el navbar se resalta con el color primario
+
+Scenario: Navbar fijo al hacer scroll
+Given el visitante se encuentra en la parte superior de la landing page
+And comienza a hacer scroll hacia abajo
+When supera los primeros 100px de la página
+Then el navbar permanece visible y fijo en la parte superior de la pantalla
+```
+### Evidencia visual de archivos Feature
+Se muestra prueba de los archivos `.feature` desarrollados para las pruebas de aceptación de la Landing Page. Cada archivo corresponde a una User Story específica implementada durante el Sprint.
 <p align="center">
-  <img src="assets/img/acceptance_tests.png" alt="acceptance tests" width="700"/>
+  <img src="assets/img/acceptance_tests_light.png" alt="acceptance tests" width="700"/>
 </p>
 
-*Figura 63. Archivos .feature utilizados para las pruebas BDD del microservicio IAM. Elaborado por el equipo utilizando Cucumber y Visual Studio Code (Cucumber, s.f.; Microsoft, s.f.).*
+*Figura 68. Archivos .feature utilizados para las pruebas BDD del microservicio IAM. Elaborado por el equipo utilizando Cucumber y Visual Studio Code (Cucumber, s.f.; Microsoft, s.f.).*
+
+Asi mismo se muestra el repositorio GitHub utilizado para almacenar y versionar los archivos `.feature` correspondientes a las pruebas de aceptación del proyecto.
+
+<p align="center">
+  <img src="assets/img/acceptance_tests_repo.png" alt="acceptance tests" width="700"/>
+</p>
+
+*Figura 69. Repositorio de archivos features (Github, s.f).*
+
+### Commits relacionados con Testing
+
+| Repository               | Branch | Commit Id | Commit Message | Commit Message Body                                                                 | Committed On |
+| ------------------------ | ------ | --------- | -------------- | ----------------------------------------------------------------------------------- | ------------ |
+| Acceptance-tests-Edifika | main   | 6778c81   | first commit   | Added BDD acceptance test feature files for Landing Page User Stories US41 to US46. | Last Month   |
+
 
 ##### 5.3.1.4. Execution Evidence for Sprint Review
 
@@ -4501,7 +4671,7 @@ Se verificó el registro de un nuevo administrador enviando los campos requerido
   <img src="assets/img/execution_signup.png" alt="Ejecucion Sign In" width="700"/>
 </p>
 
-*Figura 64. Ejecución del endpoint Sign Up. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 70. Ejecución del endpoint Sign Up. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/authentication/sign-in**
 
@@ -4511,7 +4681,7 @@ Se verificó el inicio de sesión de un administrador registrado enviando el ema
   <img src="assets/img/execution_signin.png" alt="Respuesta Sign In" width="700"/>
 </p>
 
-*Figura 65. Ejecución del endpoint Sign In. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 71. Ejecución del endpoint Sign In. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/users/{id}**
 
@@ -4521,7 +4691,7 @@ Se verificó la consulta de un usuario específico por su id, enviando el Bearer
   <img src="assets/img/execution_get_user.png" alt="Ejecución Get User" width="700"/>
 </p>
 
-*Figura 66. Ejecución del endpoint Get User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 72. Ejecución del endpoint Get User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: PUT /api/v1/users/{id}**
 
@@ -4531,7 +4701,7 @@ Se comprobó la actualización de datos de un usuario existente enviando el id c
   <img src="assets/img/execution_put_user.png" alt="Ejecución Put User" width="700"/>
 </p>
 
-*Figura 67. Ejecución del endpoint Put User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 73. Ejecución del endpoint Put User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: DELETE /api/v1/users/{id}**
 
@@ -4541,7 +4711,7 @@ Se verificó la eliminación de un usuario del sistema enviando el id como pará
   <img src="assets/img/execution_delete_user.png" alt="Ejecución Delete User" width="700"/>
 </p>
 
-*Figura 68. Ejecución del endpoint Delete User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 74. Ejecución del endpoint Delete User. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/users**
 
@@ -4551,7 +4721,7 @@ Se comprobó la consulta de todos los usuarios registrados en el sistema. Con el
   <img src="assets/img/execution_get_users.png" alt="Ejecución Get Users" width="700"/>
 </p>
 
-*Figura 69. Ejecución del endpoint Get Users. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 75. Ejecución del endpoint Get Users. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/roles**
 
@@ -4561,7 +4731,7 @@ Se verificó la consulta de roles disponibles en el sistema. El endpoint retorn�
   <img src="assets/img/execution_get_roles.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 70. Ejecución del endpoint Get Roles. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 76. Ejecución del endpoint Get Roles. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **MOCKUP**
 Se crearon mockups de alta fidelidad para mostrar el prototipo de nuestra aplicación web, con sus principales segmentos y flujo.
@@ -4570,73 +4740,73 @@ Se crearon mockups de alta fidelidad para mostrar el prototipo de nuestra aplica
   <img src="assets/img/iniciodesesion.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 71. Mockup de inicio de sesión. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 77. Mockup de inicio de sesión. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/crearcuenta.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 72. Mockup de creación de cuenta. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 78. Mockup de creación de cuenta. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/Dashboard.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 73. Mockup del dashboard principal. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 79. Mockup del dashboard principal. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/unidades.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 74. Mockup del módulo de unidades. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 80. Mockup del módulo de unidades. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/Calendar.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 75. Mockup del calendario de reservas. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 81. Mockup del calendario de reservas. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/detailreservation.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 76. Mockup del detalle de reserva. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 82. Mockup del detalle de reserva. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/DetailReservation2.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 77. Mockup alternativo del detalle de reserva. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 83. Mockup alternativo del detalle de reserva. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/Report.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 78. Mockup del módulo de reportes. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 84. Mockup del módulo de reportes. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/residents.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 79. Mockup del módulo de residentes. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 85. Mockup del módulo de residentes. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/community.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 80. Mockup del módulo de comunidad. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 86. Mockup del módulo de comunidad. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/community.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 81. Mockup del módulo de comunidad. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 87. Mockup del módulo de comunidad. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 <p align="center">
   <img src="assets/img/config.png" alt="Ejecución Get Roles" width="700"/>
 </p>
 
-*Figura 82. Mockup del módulo de configuración. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
+*Figura 88. Mockup del módulo de configuración. Elaborado por el equipo utilizando Figma (Figma, s.f.).*
 
 Link del Prototipo: `https://www.figma.com/proto/1ksaEJeKckW1WPlgeNyTbH/Untitled?node-id=3015-106&viewport=351%2C196%2C0.16&t=U3A6YtXgGNGnrgnD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3015%3A106&page-id=3012%3A2`
 
@@ -4657,7 +4827,7 @@ Controlador encargado del registro de nuevos administradores y la autenticación
   <img src="assets/img/authentication_controller.png" alt="Authentication Controller" width="700"/>
 </p>
 
-*Figura 83. Endpoints del Authentication Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 89. Endpoints del Authentication Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Users Controller**
 
@@ -4674,7 +4844,7 @@ Controlador responsable de las operaciones CRUD sobre los usuarios del sistema. 
   <img src="assets/img/user_controller.png" alt="Users Controller" width="700"/>
 </p>
 
-*Figura 84. Endpoints del User Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 90. Endpoints del User Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Roles Controller**
 
@@ -4688,7 +4858,7 @@ Controlador dedicado a la consulta de roles disponibles en el sistema (ADMIN, OW
   <img src="assets/img/roles_controller.png" alt="Roles Controller" width="700"/>
 </p>
 
-*Figura 85. Endpoints del Roles Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 91. Endpoints del Roles Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 ##### 5.3.1.6. Software Deployment Evidence for Sprint Review
 
@@ -4705,7 +4875,7 @@ Finalmente, se validó el correcto funcionamiento del sitio en producción, comp
   <img src="assets/img/deploy_landingpage.png" alt="Despliegue Landing en Github Pages" width="700"/>
 </p>
 
-*Figura 86. Despliegue de la Landing Page. Elaborado por el equipo utilizando GitHub Pages (GitHub, s.f.).*
+*Figura 92. Despliegue de la Landing Page. Elaborado por el equipo utilizando GitHub Pages (GitHub, s.f.).*
 
 **Microservicio IAM - Backend**
 
@@ -4715,7 +4885,7 @@ El microservicio IAM fue desplegado en Render, una plataforma cloud que permite 
   <img src="assets/img/deploy_backend.png" alt="Despliegue Backend en Render" width="700"/>
 </p>
 
-*Figura 87. Despliegue del backend del microservicio IAM. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 93. Despliegue del backend del microservicio IAM. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 **Base de datos PostgreSQL**
 
@@ -4725,7 +4895,7 @@ La base de datos fue desplegada en Supabase, una plataforma que ofrece instancia
   <img src="assets/img/deploy_db.png" alt="Despliegue Base de Datos en Supabase" width="700"/>
 </p>
 
-*Figura 88. Despliegue de la base de datos. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+*Figura 94. Despliegue de la base de datos. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
 
 ##### 5.3.1.7. Team Collaboration Insights during Sprint
 
@@ -4739,17 +4909,17 @@ En el repositorio de la Landing Page se registraron los commits correspondientes
   <img src="assets/img/insights_landing.png" alt="Insights Landing Page" width="700"/>
 </p>
 
-*Figura 89. Insights del repositorio de la Landing Page. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 95. Insights del repositorio de la Landing Page. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 **Microservicio IAM - Backend**
 
 En el repositorio del microservicio IAM se concentran los commits relacionados con la implementación del backend de autenticación y gestión de usuarios. Los aportes reflejan el desarrollo progresivo de los endpoints, la configuración de seguridad con JWT, la integración con PostgreSQL y la documentación con Swagger.
 
 <p align="center">
-  <img src="assets/img/insights_backend1.png" alt="Insights Backend IAM" width="700"/>
+  <img src="assets/img/insights_backend_1.png" alt="Insights Backend IAM" width="700"/>
 </p>
 
-*Figura 90. Insights del repositorio del backend IAM. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 96. Insights del repositorio del backend IAM. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 ##### 5.3.1.8. Kanban Board
 
@@ -4759,7 +4929,7 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 1 
 	<img src="assets/img/kanban_board1.png" alt="Kanban Board" width="700"/>
 </p>
 
-*Figura 91. Kanban Board del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+*Figura 97. Kanban Board del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 [https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
 
@@ -4768,13 +4938,186 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 1 
 
 ##### 5.3.2.1. Sprint Backlog 2
 
+Durante este sprint, el equipo concentró sus esfuerzos en la implementación de componentes clave de la arquitectura backend de Edifika, incluyendo la configuración del API Gateway, las políticas de CORS y la creación de los microservicios de Gestión Residencial y Reservas. Asimismo, se avanzó en funcionalidades administrativas orientadas a la gestión de áreas comunes, control de reservas y generación de reportes financieros para mejorar la administración del condominio.
+
+| Código US / TS | Título | Id de Tarea | Título de la Tarea | Descripción | Estimación (hrs) | Asignado a | Estado |
+|---------------|---------|-------------|-------------------|-------------|------------------|------------|--------|
+| TS04 | Configuración del API Gateway como punto de entrada centralizado | 24 | Configurar API Gateway | Implementar el API Gateway para centralizar las solicitudes hacia los microservicios de Edifika. | 4 | Ortiz Cardenas, Johanna Antuanete | Done |
+| TS15 | Configuración de CORS en el API Gateway | 25 | Configurar políticas CORS | Permitir la comunicación segura entre frontend, aplicación móvil y backend. | 3 | Zegarra Lopez, Renato Sebastian Rubber | Done |
+| TS06 | Configuración base del microservicio Residential Management | 26 | Crear microservicio Residential Management | Configurar la estructura base para la gestión de edificios, unidades y residentes. | 4 | Bejarano Martinez, Alvaro Leandro | Done |
+| TS08 | Configuración base del microservicio Reservation Service | 27 | Crear microservicio Reservation Service | Configurar la estructura base para la gestión de reservas de áreas comunes. | 4 | Sarmiento Medina, Loreley | Done |
+| US18 | Aprobar o rechazar reservas | 28 | Gestionar aprobación de reservas | Permitir al administrador aprobar o rechazar solicitudes de reserva de áreas comunes. | 3 | Ortiz Cardenas, Johanna Antuanete | In-Process |
+| US19 | Evitar reservas duplicadas | 29 | Validar disponibilidad de reservas | Verificar conflictos de horario para evitar reservas duplicadas. | 3 | Becerra Tejeda, Alessandra Nicole | In-Process |
+| US25 | Generar reportes financieros | 30 | Generar reportes financieros | Crear reportes consolidados de ingresos, pagos y deudas del condominio. | 4 | Bejarano Martinez, Alvaro Leandro | In-Process |
+| US35 | Cancelar reserva (Admin) | 31 | Cancelar reservas registradas | Permitir al administrador anular reservas realizadas por residentes. | 3 | Sarmiento Medina, Loreley | In-Process |
+| US38 | Habilitar o deshabilitar área común | 32 | Gestionar disponibilidad de áreas comunes | Permitir activar o desactivar áreas comunes según su estado operativo. | 3 | Becerra Tejeda, Alessandra Nicole | In-Process |
+| US39 | Configurar reglas de área común | 33 | Configurar reglas de uso | Definir horarios, límites y restricciones para el uso de áreas comunes. | 3 | Bejarano Martinez, Alvaro Leandro | In-Process |
+
+La siguiente imagen muestra el Kanban Board del Sprint 2 usando la herramienta Trello, donde se visualiza la distribución de las User Stories y Technical Stories entre los miembros del equipo. Se identifican 4 tarjetas completadas en la columna Done (API Gateway, Residential Management, políticas CORS y Reservation Service), 6 tarjetas en proceso correspondientes a funcionalidades de reservas, reportes financieros y gestión de áreas comunes, y ninguna tarea pendiente en To-do, evidenciando que todo el trabajo planificado fue iniciado durante el sprint.
+
+<p align="center">
+  <img src="assets/img/sprintbacklog2.png" alt="Trello Sprint 1" width="700"/>
+</p>
+
+*Figura 98. Sprint Backlog 2. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+
 ##### 5.3.2.2. Development Evidence for Sprint Review
+
+A lo largo del Sprint 2, el historial de commits evidencia la evolución de la arquitectura de Edifika hacia una solución basada en microservicios. Durante este sprint se desarrollaron componentes clave como el API Gateway, encargado de centralizar y enrutar las solicitudes entre servicios, así como los microservicios de Gestión Residencial y Reservas, incorporando sus respectivas capas de dominio, repositorios, servicios de aplicación y controladores. Asimismo, se implementaron configuraciones de seguridad, políticas CORS y mecanismos de despliegue mediante Docker para facilitar la integración y ejecución de los servicios. En paralelo, el repositorio Frontend registra avances relacionados con la construcción de la estructura base de la aplicación, la implementación de servicios compartidos y el desarrollo de las funcionalidades de autenticación mediante las pantallas de Login y Register. Cada commit representa una iteración verificable del desarrollo, permitiendo rastrear el progreso técnico de la solución desde la creación inicial de los componentes hasta su integración dentro de la plataforma.
+
+| Repository | Branch | Commit Message | Fecha |
+|------------|---------|---------|---------|
+| Edifika-Microservice-Reservation | develop | feat: add reservation microservice | 03/06/2026 |
+| Edifika-Microservice-Reservation | develop | feat: implement booking type enum and dynamic capacity availability | 07/06/2026 |
+| Edifika-API-Gateway | dev | feat: first commit | 07/06/2026 |
+| Edifika-API-Gateway | dev | feat: Add routes, CORS, security, and filter | 07/06/2026 |
+| Edifika-API-Gateway | dev | feat: Add Dockerfile; add common-areas gateway route | 07/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | Initial residential management microservice | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | feat(): Add domain model | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | feat(): Add Repositories | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | feat(): Add ResidentialCommandServiceImpl | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | feat(): Add Assembler and Controller | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | feat(): Add Dockerfile | 07/06/2026 |
+| Edifika-Front | main | initial commit | 06/06/2026 |
+| Edifika-Front | main | base services | 06/06/2026 |
+| Edifika-Front | main | Login | 07/06/2026 |
+| Edifika-Front | main | Register | 07/06/2026 |
 
 ##### 5.3.2.3. Testing Suite Evidence for Sprint Review
 
+Durante el Sprint 2 se implementó una suite de pruebas unitarias utilizando **JUnit 5** y **Mockito**, con el objetivo de validar el correcto funcionamiento de los microservicios desarrollados para la plataforma Edifika. Estas pruebas permiten verificar la lógica de negocio de manera aislada mediante el uso de objetos simulados (*mocks*), garantizando que cada componente responda adecuadamente ante distintos escenarios de ejecución.
+
+La estrategia de pruebas se enfocó en validar servicios de aplicación (*Command Services* y *Query Services*) así como controladores REST (*Controllers*), simulando repositorios y dependencias externas para asegurar que la lógica implementada funcione correctamente sin necesidad de acceder a una base de datos real.
+
+Las pruebas cubren escenarios exitosos, validaciones de negocio y manejo de excepciones, permitiendo detectar errores tempranamente y aumentando la confiabilidad del software antes de su integración con otros componentes del sistema.
+
+### Repositorios de pruebas unitarias
+
+| Repository | Branch | Description |
+|------------|--------|-------------|
+| Edifika-Microservice-IAM | main | Contiene las pruebas unitarias desarrolladas para autenticación, gestión de usuarios y roles utilizando JUnit 5 y Mockito. |
+| Edifika-Microservice-Residential | main | Contiene las pruebas unitarias para la gestión residencial, edificios, unidades y residentes. |
+| Edifika-Microservice-Reservation | main | Contiene las pruebas unitarias para reservas, áreas comunes y disponibilidad de recursos compartidos. |
+
+### Componentes cubiertos por las pruebas
+
+| Microservicio | Clase de prueba | Descripción |
+|---------------|----------------|-------------|
+| IAM | UserCommandServiceImplTest | Valida registro, autenticación, actualización y eliminación de usuarios. |
+| IAM | UserControllerTest | Verifica el comportamiento de los endpoints relacionados con usuarios. |
+| IAM | RoleCommandServiceImplTest | Valida la gestión de roles y permisos del sistema. |
+| IAM | RolesControllerTest | Comprueba las operaciones REST asociadas a la administración de roles. |
+| Residential | ResidentialCommandServiceImplTest | Verifica la creación de edificios, unidades, asignación y traslado de residentes. |
+| Residential | ResidentialQueryServiceImplTest | Valida las consultas de edificios, unidades y residentes registrados. |
+| Residential | ResidentialControllerTest | Comprueba el correcto funcionamiento de los endpoints del microservicio residencial. |
+| Reservation | CommonAreaCommandServiceImplTest | Verifica la creación y configuración de áreas comunes. |
+| Reservation | CommonAreaControllerTest | Valida las operaciones REST asociadas a áreas comunes. |
+| Reservation | ReservationCommandServiceImplTest | Comprueba la creación, cancelación y validaciones de reservas. |
+| Reservation | ReservationQueryServiceImplTest | Verifica la consulta de disponibilidad de áreas comunes. |
+| Reservation | ReservationControllerTest | Valida los endpoints REST relacionados con reservas y disponibilidad. |
+
+### Ejemplo de prueba unitaria
+
+La siguiente prueba valida la creación exitosa de una reserva dentro del microservicio de Reservas, simulando el comportamiento de los repositorios mediante Mockito y verificando que la operación se complete correctamente.
+
+```java
+@Test
+void handleCreateReservationSuccessfullyForExclusiveArea() {
+
+    when(commonAreaRepository.findById(commonAreaId))
+            .thenReturn(Optional.of(commonArea));
+
+    when(commonArea.getBookingType())
+            .thenReturn(EBookingType.EXCLUSIVE);
+
+    when(reservationRepository.save(any(Reservation.class)))
+            .thenReturn(savedReservation);
+
+    var result = reservationCommandService.handleCreateReservation(
+            residentId,
+            commonAreaId,
+            reservationDate,
+            timeSlot
+    );
+
+    assertNotNull(result);
+
+    verify(reservationRepository, times(1))
+            .save(any(Reservation.class));
+}
+```
+
+### Evidencia visual de pruebas unitarias
+
+A continuación se muestran las evidencias de las pruebas unitarias implementadas para los distintos microservicios del proyecto utilizando JUnit 5 y Mockito.
+
+#### Microservicio Residential
+
+<p align="center">
+  <img src="assets/img/ResidentialCommandLight.PNG" width="700"/>
+</p>
+
+*Figura 99. Pruebas unitarias del servicio de comandos residenciales. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/ResidentialControllerLight.PNG" width="700"/>
+</p>
+
+*Figura 100. Pruebas unitarias del controlador residencial. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/ResidentialQueryLight.PNG" width="700"/>
+</p>
+
+*Figura 101. Pruebas unitarias del servicio de consultas residenciales. Elaborado por el equipo.*
+
+
+
+#### Microservicio Reservation
+
+<p align="center">
+  <img src="assets/img/CommonAreaCommandLight.PNG" width="700"/>
+</p>
+
+*Figura 102. Pruebas unitarias del servicio de comandos de áreas comunes. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/CommonAreaControllerLight.PNG" width="700"/>
+</p>
+
+*Figura 103. Pruebas unitarias del controlador de áreas comunes. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/ReservationCommandLight.PNG" width="700"/>
+</p>
+
+*Figura 104. Pruebas unitarias del servicio de comandos de reservas. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/ReservationControllerLight.PNG" width="700"/>
+</p>
+
+*Figura 105. Pruebas unitarias del controlador de reservas. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/ReservationQueryLight.PNG" width="700"/>
+</p>
+
+*Figura 106. Pruebas unitarias del servicio de consultas de reservas. Elaborado por el equipo.*
+
+### Commits relacionados con Testing
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed On |
+|------------|--------|-----------|----------------|---------------------|--------------|
+| Edifika-Microservice-IAM | main | eae4960 | Testing | Added Mockito and JUnit 5 unit tests for authentication, users and roles modules. | Sprint 2 |
+| Edifika-Microservice-Residential | main | 69ba126 |Testing | Added unit tests for residential services, queries and controllers. | Sprint 2 |
+| Edifika-Microservice-Reservation | main | 2653d32 | Testing | Added unit tests for reservations, common areas and availability modules. | Sprint 2 |
+
+Las pruebas unitarias desarrolladas permitieron validar los principales componentes de negocio implementados durante el Sprint 2, garantizando el correcto funcionamiento de los microservicios antes de su integración con el resto de la plataforma y contribuyendo a mejorar la calidad y mantenibilidad del código fuente.
+
 ##### 5.3.2.4. Execution Evidence for Sprint Review
 
-Esta sección resume la evidencia de ejecución del Sprint 2, donde se verificó el correcto funcionamiento de los endpoints de los microservicios Residential Management y Reservation Service. Las pruebas se realizaron mediante Postman, enviando todas las solicitudes a través del API Gateway en el puerto 8080, validando que el enrutamiento hacia los microservicios destino y la verificación del Bearer Token JWT funcionan correctamente de forma centralizada. A continuación se detallan las pruebas realizadas por cada endpoint:
+Esta sección resume la evidencia de ejecución del Sprint 2, donde se verificó el correcto funcionamiento de los endpoints de los microservicios Residential Management y Reservation Service. Las pruebas se realizaron mediante Postman, enviando todas las solicitudes a través del API Gateway en el puerto 8080, validando que el enrutamiento hacia los microservicios destino y la verificación del Bearer Token JWT funcionan correctamente de forma centralizada.Asimismo, durante este sprint se realizó el despliegue de una primera versión funcional del frontend desarrollado con Angular, permitiendo validar la integración inicial entre la interfaz de usuario y los servicios backend desplegados. A continuación se detallan las pruebas :
 
 **Endpoint: POST /api/v1/residential/buildings**
 
@@ -4784,7 +5127,7 @@ Se verificó el registro de un nuevo edificio en el sistema enviando los campos 
   <img src="assets/img/execution_post_buildings.png" alt="Ejecución POST Buildings" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Buildings a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 107. Ejecución del endpoint POST Buildings a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/residential/user-units**
 
@@ -4794,7 +5137,7 @@ Se comprobó la vinculación de un residente a una unidad específica del edific
   <img src="assets/img/execution_post_user_units.png" alt="Ejecución POST User Units" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST User Units a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 108. Ejecución del endpoint POST User Units a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/residential/buildings/{idBuilding}/residents**
 
@@ -4804,7 +5147,7 @@ Se verificó la consulta de residentes vinculados a un edificio específico envi
   <img src="assets/img/execution_get_residents.png" alt="Ejecución GET Residents" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint GET Residents a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 109. Ejecución del endpoint GET Residents a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/common-areas**
 
@@ -4814,7 +5157,7 @@ Se verificó el registro de una nueva área común del condominio enviando los c
   <img src="assets/img/execution_post_common_areas.png" alt="Ejecución POST Common Areas" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Common Areas a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 110. Ejecución del endpoint POST Common Areas a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/reservations**
 
@@ -4824,7 +5167,7 @@ Se comprobó la creación de una nueva reserva enviando los campos residentId, c
   <img src="assets/img/execution_post_reservations.png" alt="Ejecución POST Reservations" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Reservations a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 111. Ejecución del endpoint POST Reservations a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/reservations/availability**
 
@@ -4834,7 +5177,47 @@ Se verificó la consulta de disponibilidad de un área común enviando los pará
   <img src="assets/img/execution_get_availability.png" alt="Ejecución GET Availability" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint GET Availability a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 112. Ejecución del endpoint GET Availability a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Pantalla de Registro de Usuarios**
+
+Se verificó el correcto despliegue de la pantalla de registro de usuarios en el entorno de producción. La interfaz permite ingresar la información requerida para la creación de una cuenta y se encuentra conectada con los servicios de autenticación del sistema. La aplicación fue publicada mediante Render, validando que la interfaz es accesible desde una URL pública y que los recursos se cargan correctamente.
+
+<p align="center">
+  <img src="assets/img/register_deploy.png" alt="Pantalla de Registro Desplegada" width="700"/>
+</p>
+
+*Figura 113. Pantalla de registro de usuarios desplegada en el entorno de producción mediante Render. Elaborado por el equipo.*
+
+**Pantalla de Inicio de Sesión**
+
+Se verificó el correcto funcionamiento de la pantalla de autenticación desplegada en la nube. La interfaz permite a los usuarios ingresar sus credenciales para acceder al sistema, validando la integración inicial entre el frontend desarrollado en Angular y los servicios de autenticación del backend.
+
+<p align="center">
+  <img src="assets/img/login_deploy.png" alt="Pantalla de Login Desplegada" width="700"/>
+</p>
+
+*Figura 114. Pantalla de inicio de sesión desplegada mediante Render e integrada con los servicios de autenticación. Elaborado por el equipo.*
+
+**Dashboard Principal**
+
+Se verificó la correcta visualización del dashboard principal después del despliegue. La pantalla muestra la información y funcionalidades principales disponibles para el usuario autenticado, validando la carga de componentes Angular y la comunicación con los servicios backend correspondientes.
+
+<p align="center">
+  <img src="assets/img/dashboard_deploy.png" alt="Dashboard Desplegado" width="700"/>
+</p>
+
+*Figura 115. Dashboard principal desplegado en el entorno de producción. Elaborado por el equipo.*
+
+**Gestión de Áreas Comunes**
+
+Se verificó el despliegue y funcionamiento de la pantalla de gestión de áreas comunes. La interfaz permite visualizar la información de las áreas registradas y constituye una de las primeras funcionalidades integradas entre el frontend y los microservicios del sistema.
+
+<p align="center">
+  <img src="assets/img/area_deploy.png" alt="Módulo de Áreas Desplegado" width="700"/>
+</p>
+
+*Figura 116. Pantalla de gestión de áreas comunes desplegada mediante Render. Elaborado por el equipo.*
 
 ##### 5.3.2.5. Microservices Documentation Evidence for Sprint Review
 
@@ -4858,7 +5241,7 @@ Controlador encargado de la gestión de edificios, unidades residenciales y la v
   <img src="assets/img/residential_endpoints.png" alt="Residential Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Endpoints del Residential Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 117. Endpoints del Residential Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Reservations Controller**
 
@@ -4874,7 +5257,7 @@ Controlador responsable de la gestión de reservas de áreas comunes del condomi
   <img src="assets/img/reservation_endpoints.png" alt="Reservations Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Endpoints del Reservations Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 118. Endpoints del Reservations Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Common Areas Controller**
 
@@ -4888,7 +5271,7 @@ Controlador dedicado al registro de áreas comunes dentro del condominio. Permit
   <img src="assets/img/areasComunes_endpoints.png" alt="Common Areas Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Endpoints del Common Areas Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 119. Endpoints del Common Areas Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 ##### 5.3.2.6. Software Deployment Evidence for Sprint Review
 
@@ -4904,15 +5287,21 @@ Para el backend se empleó Render como plataforma de despliegue en la nube, ya q
   <img src="assets/img/api_deploy.jpeg" alt="api_deploy" width="700"/>
 </p>
 
+*Figura 120. Api Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
 *Residential*
 <p align="center">
   <img src="assets/img/residential_deploy.png" alt="residential_deploy" width="700"/>
 </p>
 
+*Figura 121. Residential Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
 *Reservation*
 <p align="center">
   <img src="assets/img/reservation_deploy.jpeg" alt="reservation_deploy" width="700"/>
 </p>
+
+*Figura 122. Residential Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 ### Database
 
@@ -4924,12 +5313,24 @@ Para la base de datos se utilizó Supabase, una plataforma en la nube que permit
   <img src="assets/img/residential_deploy_db.jpeg" alt="residential_deploy" width="700"/>
 </p>
 
+*Figura 123. Residential Deploy DB. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+
 *Reservation*
 <p align="center">
   <img src="assets/img/reservation_deploy_db.jpeg" alt="reservation_deploy" width="700"/>
 </p>
 
+*Figura 124. Residential Deploy DB. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
 
+### Frontend
+
+Para el despliegue de la primera versión del frontend se empleó Render como plataforma de despliegue en la nube, ya que permite publicar aplicaciones web de manera sencilla y automatizada. La interfaz fue desarrollada utilizando el framework Angular, siguiendo las prácticas recomendadas por la comunidad, incluyendo una estructura modular, separación de responsabilidades y convenciones de desarrollo que facilitan el mantenimiento y la escalabilidad del proyecto. Además, el código fuente fue gestionado mediante un repositorio en GitHub, lo que permitió integrar un proceso de despliegue continuo con Render. Cada vez que se realizan cambios en la rama principal del repositorio, Render genera automáticamente una nueva versión de la aplicación y la publica, proporcionando una URL pública desde la cual los usuarios pueden acceder al sistema y consumir los servicios ofrecidos por el backend.
+
+<p align="center">
+  <img src="assets/img/execution_front.png" alt="Ejecución Front" width="700"/>
+</p>
+
+*Figura 125. Ejecución del Frontend. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 ##### 5.3.2.7. Team Collaboration Insights during Sprint
 
@@ -4943,7 +5344,7 @@ El repositorio del microservicio de gestión residencial concentra los commits r
   <img src="assets/img/insights_backend_2.png" alt="Insights Backend Residential Management" width="700"/>
 </p>
 
-*Figura XX. Insights del repositorio del backend Residential Management. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 126. Insights del repositorio del backend Residential Management. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 **Microservicio Reservations - Backend**
 
@@ -4953,7 +5354,7 @@ El repositorio del microservicio de reservas concentra los commits relacionados 
   <img src="assets/img/insights_backend_3.png" alt="Insights Backend Reservation" width="700"/>
 </p>
 
-*Figura XX. Insights del repositorio del backend Reservations. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 127. Insights del repositorio del backend Reservations. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 **Microservicio API Gateway - Backend**
 
@@ -4963,10 +5364,18 @@ El repositorio del API Gateway centraliza los commits relacionados con la config
   <img src="assets/img/insights_backend4.png" alt="Insights API Gateway" width="700"/>
 </p>
 
-*Figura XX. Insights del repositorio del backend API Gateway. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 128. Insights del repositorio del backend API Gateway. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 ##### 5.3.2.8. Kanban Board
 En esta sección se presentan las actividades desarrolladas durante el Sprint 2 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
+
+<p align="center">
+	<img src="assets/img/kanban_board2.png" alt="Kanban Board Sprint 3" width="700"/>
+</p>
+
+*Figura 129. Kanban Board del Sprint 2 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+
+[https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
 
 
 #### 5.3.3. Sprint 3
@@ -5012,6 +5421,14 @@ El equipo de trabajo realizó la implementación del primer microservicio del si
 Recomendación:
 
 Se recomienda para los próximos sprints avanzar con la implementación de los microservicios restantes (Residential Management, Payment Service, Reservation Service y Communication Service), manteniendo el mismo enfoque de despliegue continuo y documentación detallada aplicado en este primer ciclo. Es importante incorporar pruebas automatizadas con mayor cobertura, incluyendo tests unitarios e integración basados en los escenarios BDD definidos, para fortalecer la confiabilidad del sistema a medida que crece en complejidad. Asimismo, se sugiere utilizar los mockups diseñados como base para iniciar el desarrollo del frontend móvil, validando los flujos de interfaz con usuarios reales para ajustar la experiencia antes de la integración con los servicios backend.
+
+TB3:
+
+El equipo avanzó con la implementación de los microservicios de Reservas y Residential Management, consolidando los módulos necesarios para gestionar edificios, unidades, vinculación de residentes y la administración de áreas comunes dentro del condominio. La configuración del API Gateway como punto de entrada centralizado permitió unificar el enrutamiento de solicitudes hacia los distintos microservicios, integrando filtros de seguridad para la validación de tokens JWT y políticas de CORS que habilitan la comunicación entre el frontend y el backend de forma controlada. El desarrollo de secciones del frontend de Edifika marcó el inicio de la construcción de la interfaz con la que interactuarán los administradores y residentes, conectando los flujos visuales diseñados en los mockups del TP con los servicios backend ya desplegados. La integración progresiva de estos componentes demostró que la arquitectura de microservicios definida en el TB2 soporta la incorporación incremental de nuevos servicios sin afectar el funcionamiento de los ya existentes, validando la escalabilidad y el desacoplamiento como ventajas concretas del enfoque adoptado.
+
+Recomendación:
+
+Se recomienda continuar con la implementación de los microservicios pendientes como Payment Service, Communication Service y Notification Service, priorizando aquellos que tienen mayor dependencia con los módulos ya desplegados para facilitar la integración temprana. Es fundamental fortalecer las pruebas automatizadas incorporando tests de integración entre microservicios a través del API Gateway, verificando que el enrutamiento, la validación de tokens y el manejo de errores funcionen correctamente en escenarios de comunicación real entre servicios. Además, se sugiere avanzar con la conexión completa del frontend a los endpoints disponibles, implementando los flujos de autenticación, gestión residencial y reservas de extremo a extremo para validar la experiencia de usuario con datos reales antes de la entrega final.
 
 
 # Referencias Bibliográficas
