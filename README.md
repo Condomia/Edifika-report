@@ -5378,8 +5378,34 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 2 
 [https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
 
 
-#### 5.3.3. Sprint 3
-##### 5.3.3.1. Sprint Backlog 3
+
+### 5.3.3. Sprint 3
+
+#### 5.3.3.1. Sprint Backlog 3
+
+Durante este sprint, el equipo concentró sus esfuerzos en fortalecer las funcionalidades principales de Edifika, incorporando módulos orientados a autenticación, gestión de usuarios, reservas, pagos, comunicados y foro comunitario. A diferencia del Sprint 2, donde se trabajó principalmente la configuración base de la arquitectura backend, en el Sprint 3 se avanzó en funcionalidades que permiten mejorar la interacción entre administradores y residentes dentro del condominio.
+
+El objetivo principal del Sprint 3 fue iniciar el desarrollo de flujos funcionales clave, tales como el inicio de sesión, actualización de información de usuarios, edición de perfil, aprobación de reservas, generación de reportes financieros y visualización de disponibilidad global de áreas comunes. Asimismo, se completó la configuración base de nuevos microservicios especializados: Payment Service con integración Culqi, Communication Service y Messaging Forum Service, los cuales permitirán ampliar las capacidades financieras, comunicacionales y comunitarias de la plataforma.
+
+| Código US / TS | Título | Id de Tarea | Título de la Tarea | Descripción | Estimación (hrs) | Asignado a | Estado |
+|---|---|---:|---|---|---:|---|---|
+| US03 | Inicio de sesión | 34 | Implementar login de usuarios | Permitir que administradores y residentes accedan a la plataforma mediante credenciales válidas, redirigiéndolos al dashboard correspondiente según su rol y validando la sesión mediante JWT. | 4 | Ortiz Cardenas, Johanna Antuanete | In-Process |
+| US05 | Actualizar información de usuarios | 35 | Editar datos de usuarios desde administración | Permitir que el administrador modifique datos de contacto y datos generales de los residentes, registrando la trazabilidad de los cambios realizados. | 4 | Bejarano Martinez, Alvaro Leandro | In-Process |
+| US06 | Editar perfil | 36 | Implementar edición de perfil de residente | Permitir que el residente actualice su información personal, datos de contacto y foto de perfil desde la plataforma, validando formatos permitidos y manejo de cancelación de cambios. | 3 | Sarmiento Medina, Loreley | In-Process |
+| US18 | Aprobar o rechazar reservas | 37 | Gestionar aprobación de reservas | Permitir que el administrador apruebe o rechace solicitudes de reserva de áreas comunes, notificando el resultado al residente y liberando horarios en caso de rechazo. | 4 | Ortiz Cardenas, Johanna Antuanete | In-Process |
+| US25 | Generar reportes financieros | 38 | Generar reportes financieros | Implementar la estructura funcional para consultar reportes financieros considerando ingresos, pagos validados, deudas y balance mensual del condominio. | 5 | Bejarano Martinez, Alvaro Leandro | In-Process |
+| US33 | Ver disponibilidad global Admin | 39 | Visualizar disponibilidad global de áreas comunes | Permitir que el administrador visualice la ocupación general de las áreas comunes y pueda bloquear fechas por mantenimiento o restricciones internas. | 4 | Becerra Tejeda, Alessandra Nicole | In-Process |
+| TS07 | Configuración base del microservicio Payment Service con integración Culqi | 40 | Configurar Payment Service con integración Culqi | Crear la estructura base del microservicio de pagos para gestionar deudas, cuotas y transacciones del condominio, considerando la integración con Culqi y la consistencia del estado de cada pago ante escenarios de fallo. | 5 | Zegarra Lopez, Renato Sebastian Rubber | Done |
+| TS09 | Configuración base del microservicio Communication Service | 41 | Configurar Communication Service | Crear la estructura base del microservicio de comunicados para que los administradores puedan publicar avisos oficiales y contar con trazabilidad de lectura por parte de los residentes. | 4 | Becerra Tejeda, Alessandra Nicole | Done |
+| TS12 | Configuración base del microservicio Messaging Forum Service | 42 | Configurar Messaging Forum Service | Crear la estructura base del microservicio de foro comunitario para que los residentes puedan publicar mensajes en el canal de su edificio, aplicando el límite de una publicación diaria por usuario y permitiendo la consulta de publicaciones por edificio. | 4 | Sarmiento Medina, Loreley | Done |
+
+La siguiente imagen muestra el Kanban Board del Sprint 3 usando la herramienta Trello, donde se visualiza la distribución de las User Stories y Technical Stories entre los miembros del equipo. Se identifican 3 tarjetas completadas en la columna Done, correspondientes a la configuración base de los microservicios Payment Service, Communication Service y Messaging Forum Service. Asimismo, se observan 6 tarjetas en la columna In-Process, relacionadas con funcionalidades de autenticación, gestión de usuarios, edición de perfil, aprobación de reservas, reportes financieros y disponibilidad global de áreas comunes. No se registran tareas pendientes en To-do ni tareas en To-Review, evidenciando que todo el trabajo planificado fue iniciado durante el sprint y que los componentes técnicos base fueron completados.
+
+<p align="center">
+  <img src="assets/img/sprintbacklog3.png" alt="Trello Sprint 1" width="700"/>
+</p>
+
+*Figura 130. Sprint Backlog 3. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 ##### 5.3.3.2. Development Evidence for Sprint Review
 
