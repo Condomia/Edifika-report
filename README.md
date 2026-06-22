@@ -278,6 +278,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB2: Apliqué el método ADD para definir la arquitectura del sistema, identificando drivers de calidad y proponiendo soluciones como microservicios y API Gateway (secciones 4.3.1, 4.3.2).<br><br>
         TP: Apliqué conocimientos de UX para desarrollar los mockups de la aplicación web para administradores, cubriendo los módulos de gestión financiera, reservas, comunicados y autenticación (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Implementé el dashboard frontend para administradores integrando componentes que consumen los endpoints REST de los microservicios del sistema (secciones 5.3.2.1, 5.3.2.2, 5.3.2.4).<br><br>
+        TB4: Actualicé conocimientos de desarrollo frontend para mejorar el dashboard y las secciones de inicio de perfil y configuración, optimizando la experiencia de usuario del sistema (sección 5.3.3.1).<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: Investigué y documenté el perfil de la startup Condomia, el concepto del producto Edifika y los antecedentes del problema en la gestión de condominios (secciones 1.1.1, 1.2.1, 1.2.2).<br><br>
         TB2: Apliqué conceptos de arquitectura de software para definir principios, patrones y tácticas del sistema, elaborando los diagramas de secuencia correspondientes (secciones 4.1.1, 4.1.2, 4.1.8).<br><br>
@@ -314,6 +315,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB2: Al desarrollar las ADD Iterations comprendí que el aprendizaje permanente es clave para tomar decisiones arquitectónicas sólidas sobre atributos de calidad y patrones de diseño (secciones 4.3.1, 4.3.2).<br><br>
         TP: Reconocí que transformar user stories en prototipos visuales funcionales demanda aprendizaje constante en usabilidad y herramientas de diseño, evidenciado en los mockups de cada módulo (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Reconocí que construir un dashboard que consuma múltiples microservicios exige aprendizaje continuo en integración de APIs, manejo asíncrono y coherencia visual entre componentes (secciones 5.3.2.1, 5.3.2.4).<br><br>
+        TB4: Reconocí que mejorar la experiencia del dashboard y las secciones de perfil y configuración exige aprendizaje continuo en buenas prácticas de usabilidad y consistencia visual entre componentes del frontend (sección 5.3.3.1).<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: Reconocí que investigar el sector de gestión de condominios es fundamental para desarrollar una solución relevante, motivándome a profundizar en nuevos conceptos para el proyecto (secciones 1.1.1, 1.2.2).<br><br>
         TB2: Comprendí que diseñar la arquitectura con patrones como microservicios y DDD exige investigación continua en conceptos que no manejaba previamente (secciones 4.1.2, 4.1.3).<br><br>
