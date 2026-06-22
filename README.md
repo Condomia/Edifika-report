@@ -5429,7 +5429,7 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 3 
 	<img src="assets/img/kanban_board3.png" alt="Kanban Board Sprint 3" width="700"/>
 </p>
 
-*Figura 129. Kanban Board del Sprint 3 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+*Figura XXX. Kanban Board del Sprint 3 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 [https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
 
