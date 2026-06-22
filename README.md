@@ -273,7 +273,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB2: Apliqué conceptos de arquitectura de software para estructurar los drivers Design Purpose, User Stories y Quality Attribute Scenarios del sistema (secciones 4.2.1, 4.2.2, 4.2.3).<br><br>
         TP: Actualicé conocimientos de desarrollo frontend y metodologías ágiles durante la implementación de la Landing Page y las actividades del Sprint 1 (secciones 5.3.1.1, 5.3.1.2).<br><br>
         TB3: Apliqué conocimientos de desarrollo backend para implementar el microservicio de reservas y documentar la API REST con Swagger (secciones 5.3.2.2, 5.3.2.5).<br><br>
-        TB4: Actualicé conocimientos en DDD y Spring Security para codificar el microservicio de foros comunitarios, aplicando filtros JWT personalizados y gestionando el ciclo de vida del Sprint mediante el Kanban Board del equipo.<br><br>
+        TB4: Actualicé conocimientos en DDD y Spring Security para codificar el microservicio de foros comunitarios, aplicando filtros JWT personalizados y gestionando el ciclo de vida del Sprint mediante el Kanban Board del equipo (sección 5.3.3.7, 5.3.3.8).<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: Investigué y apliqué metodologías de diseño centrado en el usuario para elaborar los User Personas, User Task Matrix y Empathy Map del proyecto (secciones 2.3.1, 2.3.2, 2.3.3).<br><br>
         TB2: Apliqué el método ADD para definir la arquitectura del sistema, identificando drivers de calidad y proposing soluciones como microservicios y API Gateway (secciones 4.3.1, 4.3.2).<br><br>
@@ -311,7 +311,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB2: Identifiqué que estructurar los drivers arquitectónicos exige investigación continua, aplicando este aprendizaje en el desarrollo de los Quality Attribute Scenarios (sección 4.2.3).<br><br>
         TP: Reconocí que el desarrollo web y el trabajo ágil requieren actualización constante, lo que orientó mi contribución en la Landing Page y las actividades del Sprint 1 (secciones 5.3.1.1, 5.3.1.2).<br><br>
         TB3: Reconocí la necesidad de profundizar en desarrollo backend y documentación de APIs para responder adecuadamente a los requerimientos técnicos del microservicio de reservas (secciones 5.3.2.2, 5.3.2.5).<br><br>
-        TB4: Reconocí que implementar lógica distribuida y flujos ágiles requiere un aprendizaje autónomo y continuo, lo cual me llevó a investigar sobre el aislamiento de dominios en microservicios independientes y la optimización de tareas dinámicas mediante el uso del tablero Kanban.<br><br>
+        TB4: Reconocí que implementar lógica distribuida y flujos ágiles requiere un aprendizaje autónomo y continuo, lo cual me llevó a investigar sobre el aislamiento de dominios en microservicios independientes y la optimización de tareas dinámicas mediante el uso del tablero Kanban (sección 5.3.3.7, 5.3.3.8).<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: Reconocí que diseñar y ejecutar entrevistas a los segmentos objetivo exige dominar técnicas de investigación cualitativa para validar hipótesis con fundamento real (secciones 2.2.1, 2.2.2).<br><br>
         TB2: Al desarrollar las ADD Iterations comprendí que el aprendizaje permanente es clave para tomar decisiones arquitectónicas sólidas sobre atributos de calidad y patrones de diseño (secciones 4.3.1, 4.3.2).<br><br>
