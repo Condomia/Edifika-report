@@ -273,9 +273,10 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB2: Apliqué conceptos de arquitectura de software para estructurar los drivers Design Purpose, User Stories y Quality Attribute Scenarios del sistema (secciones 4.2.1, 4.2.2, 4.2.3).<br><br>
         TP: Actualicé conocimientos de desarrollo frontend y metodologías ágiles durante la implementación de la Landing Page y las actividades del Sprint 1 (secciones 5.3.1.1, 5.3.1.2).<br><br>
         TB3: Apliqué conocimientos de desarrollo backend para implementar el microservicio de reservas y documentar la API REST con Swagger (secciones 5.3.2.2, 5.3.2.5).<br><br>
+        TB4: Actualicé conocimientos en DDD y Spring Security para codificar el microservicio de foros comunitarios, aplicando filtros JWT personalizados y gestionando el ciclo de vida del Sprint mediante el Kanban Board del equipo.<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: Investigué y apliqué metodologías de diseño centrado en el usuario para elaborar los User Personas, User Task Matrix y Empathy Map del proyecto (secciones 2.3.1, 2.3.2, 2.3.3).<br><br>
-        TB2: Apliqué el método ADD para definir la arquitectura del sistema, identificando drivers de calidad y proponiendo soluciones como microservicios y API Gateway (secciones 4.3.1, 4.3.2).<br><br>
+        TB2: Apliqué el método ADD para definir la arquitectura del sistema, identificando drivers de calidad y proposing soluciones como microservicios y API Gateway (secciones 4.3.1, 4.3.2).<br><br>
         TP: Apliqué conocimientos de UX para desarrollar los mockups de la aplicación web para administradores, cubriendo los módulos de gestión financiera, reservas, comunicados y autenticación (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Implementé el dashboard frontend para administradores integrando componentes que consumen los endpoints REST de los microservicios del sistema (secciones 5.3.2.1, 5.3.2.2, 5.3.2.4).<br><br>
         TB4: Actualicé conocimientos de desarrollo frontend para mejorar el dashboard y las secciones de inicio de perfil y configuración, optimizando la experiencia de usuario del sistema (sección 5.3.3.1).<br><br>
@@ -293,7 +294,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB1: Realicé el análisis de competidores y conduje entrevistas a usuarios, actualizando conocimientos sobre el sector de gestión de condominios (secciones 2.1.1, 2.2.2).<br><br>
         TB2: Apliqué conocimientos de arquitectura elaborando los diagramas C4 y el diagrama ERD para representar la estructura, servicios y relaciones del sistema (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
         TP: Actualicé los diagramas C4, de componentes, clases y ERD del sistema, reforzando el uso de Git y GitHub para la gestión del código fuente del proyecto (secciones 4.1.4, 4.1.5, 4.1.6, 5.2.2).<br><br>
-        TB3:Actualicé conocimientos de microservicios y modelado de datos para implementar el microservicio de Residential Management, corrigiendo además los diagramas de clases y ERD para reflejar con mayor precisión la estructura del sistema (secciones 5.3.2.2, 4.1.5, 4.1.6). <br><br>
+        TB3: Actualicé conocimientos de microservicios y modelado de datos para implementar el microservicio de Residential Management, corrigiendo además los diagramas de clases y ERD para reflejar con mayor precisión la estructura del sistema (secciones 5.3.2.2, 4.1.5, 4.1.6). <br><br>
       </td>
       <td>
         TB1: El equipo incorporó nuevos conceptos y herramientas de ingeniería de software a lo largo del primer entregable, reflejando un proceso de actualización continua en la calidad y coherencia de la documentación producida.<br><br>
@@ -306,10 +307,11 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       <td>7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software.</td>
       <td>
         Becerra Tejeda, Alessandra Nicole <br><br>
-        TB1: Reconocí la necesidad de contrastar múltiples fuentes para aplicar correctamente los conceptos de problem statement, hypothesis y assumptions en el proyecto (secciones 1.2.3.1, 1.2.3.2, 1.2.3.3).<br><br>
+        TB1: Reconocí la necesidad de contrastar múltiples fuentes para aplicar correctamente los conceptos de problem statement, hypothesis y assumptions in el proyecto (secciones 1.2.3.1, 1.2.3.2, 1.2.3.3).<br><br>
         TB2: Identifiqué que estructurar los drivers arquitectónicos exige investigación continua, aplicando este aprendizaje en el desarrollo de los Quality Attribute Scenarios (sección 4.2.3).<br><br>
         TP: Reconocí que el desarrollo web y el trabajo ágil requieren actualización constante, lo que orientó mi contribución en la Landing Page y las actividades del Sprint 1 (secciones 5.3.1.1, 5.3.1.2).<br><br>
         TB3: Reconocí la necesidad de profundizar en desarrollo backend y documentación de APIs para responder adecuadamente a los requerimientos técnicos del microservicio de reservas (secciones 5.3.2.2, 5.3.2.5).<br><br>
+        TB4: Reconocí que implementar lógica distribuida y flujos ágiles requiere un aprendizaje autónomo y continuo, lo cual me llevó a investigar sobre el aislamiento de dominios en microservicios independientes y la optimización de tareas dinámicas mediante el uso del tablero Kanban.<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: Reconocí que diseñar y ejecutar entrevistas a los segmentos objetivo exige dominar técnicas de investigación cualitativa para validar hipótesis con fundamento real (secciones 2.2.1, 2.2.2).<br><br>
         TB2: Al desarrollar las ADD Iterations comprendí que el aprendizaje permanente es clave para tomar decisiones arquitectónicas sólidas sobre atributos de calidad y patrones de diseño (secciones 4.3.1, 4.3.2).<br><br>
@@ -327,7 +329,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: Reconocí que diseñar interfaces coherentes exige actualizar constantemente conocimientos en usabilidad y tendencias de diseño, reflejado en las decisiones tomadas para cada módulo de los mockups (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Reconocí que documentar el testing y gestionar el despliegue del frontend demanda aprendizaje continuo sobre estrategias de validación y configuración de entornos de producción (secciones 5.3.2.3, 5.3.2.6).<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
-        TB1: Reconocí que el aprendizaje permanente es esencial al tener que investigar el sector para desarrollar el Lean UX Canvas y el análisis de competidores (secciones 1.2.3.4, 2.1.1).<br><br>
+        TB1: Reconocí que el aprendizaje permanente es esencial al tener que investigar el sector para desarrollar el Lean UX Canvas and el análisis de competidores (secciones 1.2.3.4, 2.1.1).<br><br>
         TB2: Reconocí que elaborar los diagramas C4 y ERD exigió reforzar conceptos de arquitectura, comunicación entre servicios y modelado de datos (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
         TP: Reconocí que el desarrollo de EDIFIKA exige aprendizaje continuo en arquitectura y gestión de configuración, mejorando mi desempeño y adaptación a nuevas herramientas del proyecto (secciones 4.1.4, 5.2.2).<br><br>
         TB3: Reconocí que implementar y corregir el microservicio de Residential Management exige aprendizaje continuo, ya que cada ajuste en los endpoints REST y los diagramas del sistema demandó investigar y aplicar nuevos conceptos de forma iterativa (secciones 5.3.2.2, 4.1.5, 4.1.6).<br><br>
