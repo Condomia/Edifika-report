@@ -1390,7 +1390,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       </td>
       <td>EP02</td>
     </tr>
-    <tr>
+   <tr>
       <td><strong>US13</strong></td>
       <td>Publicar comunicados oficiales</td>
       <td>Como administrador, quiero difundir noticias a la comunidad.</td>
@@ -1405,7 +1405,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
         entonces el sistema lo mantiene oculto para los residentes hasta su publicación.<br><br>
         <strong>E3: Error de formato.</strong><br>
         Dado que el admin intenta adjuntar un archivo al comunicado,<br>
-        cuando el archivo supera los 50MB,<br>
+        cuando el archivo supera los 10MB,<br>
         entonces el sistema indica "El archivo excede el límite permitido (10MB)".
       </td>
       <td>EP02</td>
