@@ -21,7 +21,7 @@ NRC: 7944
 <br><br>
 Docente: Abel Nehemias Rosales Caururu  
 <br><br>
-<strong>Informe de TB3</strong>  
+<strong>Informe de TB4</strong>  
 <br><br>
 Startup: Condomia  
 <br><br>
@@ -252,6 +252,12 @@ TB3 (05/06/2026):
   <img src="assets/img/insights4.png" alt="3"/>
 </p>
 
+TB3 (25/06/2026):
+
+<p align="center">
+  <img src="assets/img/insights5.png" alt="3"/>
+</p>
+
 ## **Student Outcome**
 ABET – EAC - Student Outcome 7: Aprendizaje Continuo y Autónomo <br>
 Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
@@ -273,21 +279,25 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB2: Apliqué conceptos de arquitectura de software para estructurar los drivers Design Purpose, User Stories y Quality Attribute Scenarios del sistema (secciones 4.2.1, 4.2.2, 4.2.3).<br><br>
         TP: Actualicé conocimientos de desarrollo frontend y metodologías ágiles durante la implementación de la Landing Page y las actividades del Sprint 1 (secciones 5.3.1.1, 5.3.1.2).<br><br>
         TB3: Apliqué conocimientos de desarrollo backend para implementar el microservicio de reservas y documentar la API REST con Swagger (secciones 5.3.2.2, 5.3.2.5).<br><br>
+        TB4: Actualicé conocimientos en DDD y Spring Security para codificar el microservicio de foros comunitarios, aplicando filtros JWT personalizados y gestionando el ciclo de vida del Sprint mediante el Kanban Board del equipo (sección 5.3.3.7, 5.3.3.8).<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: Investigué y apliqué metodologías de diseño centrado en el usuario para elaborar los User Personas, User Task Matrix y Empathy Map del proyecto (secciones 2.3.1, 2.3.2, 2.3.3).<br><br>
-        TB2: Apliqué el método ADD para definir la arquitectura del sistema, identificando drivers de calidad y proponiendo soluciones como microservicios y API Gateway (secciones 4.3.1, 4.3.2).<br><br>
+        TB2: Apliqué el método ADD para definir la arquitectura del sistema, identificando drivers de calidad y proposing soluciones como microservicios y API Gateway (secciones 4.3.1, 4.3.2).<br><br>
         TP: Apliqué conocimientos de UX para desarrollar los mockups de la aplicación web para administradores, cubriendo los módulos de gestión financiera, reservas, comunicados y autenticación (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Implementé el dashboard frontend para administradores integrando componentes que consumen los endpoints REST de los microservicios del sistema (secciones 5.3.2.1, 5.3.2.2, 5.3.2.4).<br><br>
+        TB4: Actualicé conocimientos de desarrollo frontend para mejorar el dashboard y las secciones de inicio de perfil y configuración, optimizando la experiencia de usuario del sistema (sección 5.3.3.1).<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: Investigué y documenté el perfil de la startup Condomia, el concepto del producto Edifika y los antecedentes del problema en la gestión de condominios (secciones 1.1.1, 1.2.1, 1.2.2).<br><br>
         TB2: Apliqué conceptos de arquitectura de software para definir principios, patrones y tácticas del sistema, elaborando los diagramas de secuencia correspondientes (secciones 4.1.1, 4.1.2, 4.1.8).<br><br>
         TP: Implementé el microservicio IAM con autenticación JWT, encriptación BCrypt y documentación Swagger, desplegándolo en Render con base de datos PostgreSQL en Supabase (secciones 5.3.1.2, 5.3.1.5, 5.3.1.6).<br><br>
         TB3: Implementé el API Gateway con Spring Cloud Gateway, configurando políticas CORS, filtros de validación JWT y reglas de enrutamiento hacia los microservicios del sistema (secciones 5.3.2.2, 5.3.2.5, 5.3.2.6).<br><br>
+		TB4: 7.c1: Implementé el microservicio Payment Service aplicando DDD y Clean Architecture, incluyendo los agregados de Debt y Payment con integración a la pasarela Culqi, el patrón Saga para la consistencia de transacciones y la documentación completa de la API REST mediante Swagger (secciones 5.3.3.4, 5.3.3.5). <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: Elaboré los cuadros As-Is y To-Be, el Impact Map y conduje una entrevista a usuario para alinear las necesidades reales con la solución propuesta (secciones 2.3.4, 3.1, 3.3).<br><br>
         TB2: Apliqué conceptos de arquitectura de software identificando drivers, constraints y concerns, y definiendo componentes y relaciones dentro del sistema (secciones 4.2.4, 4.2.5).<br><br>
         TP: Diseñé los mockups de la aplicación web para administradores cubriendo los módulos de autenticación, pagos, reservas y comunicados, y contribuí en la definición de las Testing Suites del proyecto (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Elaboré la evidencia de testing del Sprint 2 y gestioné el despliegue del frontend de la aplicación web de Edifika (secciones 5.3.2.3, 5.3.2.6).<br><br>
+		TB4: <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: Realicé el análisis de competidores y conduje entrevistas a usuarios, actualizando conocimientos sobre el sector de gestión de condominios (secciones 2.1.1, 2.2.2).<br><br>
         TB2: Apliqué conocimientos de arquitectura elaborando los diagramas C4 y el diagrama ERD para representar la estructura, servicios y relaciones del sistema (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
@@ -300,33 +310,38 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB2: El equipo profundizó en arquitectura de software aplicada al diseño de Edifika, tomando decisiones basadas en atributos de calidad y aplicando patrones que fortalecen la escalabilidad del sistema.<br><br>
         TP: El equipo avanzó en la implementación de Edifika aplicando conocimientos en Spring Boot, JWT, Docker, PostgreSQL y herramientas de prototipado, evidenciando la capacidad de adquirir competencias técnicas según las demandas del proyecto.<br><br>
         TB3: El equipo concretó el desarrollo de los microservicios de Reservas y Residential Management, el API Gateway y secciones del frontend, actualizando conocimientos técnicos por componente e incorporando nuevas tecnologías conforme evolucionó el sistema.<br><br>
+		TB4: El equipo completó la implementación de los microservicios restantes del sistema Edifika, incluyendo el Payment Service con integración a la pasarela Culqi y patrón Saga, el Communication Service para la gestión de comunicados oficiales con métricas de lectura, y el Forum Service para el foro comunitario con control de publicaciones diarias. Paralelamente, se avanzó con el desarrollo del frontend de Edifika, integrando nuevas secciones de la aplicación web con los endpoints de los microservicios desplegados. Cada integrante actualizó sus conocimientos técnicos según el componente asignado, abarcando desde la consistencia transaccional en pagos hasta la gestión de eventos en comunicados y la optimización de la experiencia de usuario en el frontend, demostrando la capacidad del equipo para incorporar nuevas tecnologías en la fase final del proyecto. <br><br>
       </td>
     </tr>
     <tr>
       <td>7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software.</td>
       <td>
         Becerra Tejeda, Alessandra Nicole <br><br>
-        TB1: Reconocí la necesidad de contrastar múltiples fuentes para aplicar correctamente los conceptos de problem statement, hypothesis y assumptions en el proyecto (secciones 1.2.3.1, 1.2.3.2, 1.2.3.3).<br><br>
+        TB1: Reconocí la necesidad de contrastar múltiples fuentes para aplicar correctamente los conceptos de problem statement, hypothesis y assumptions in el proyecto (secciones 1.2.3.1, 1.2.3.2, 1.2.3.3).<br><br>
         TB2: Identifiqué que estructurar los drivers arquitectónicos exige investigación continua, aplicando este aprendizaje en el desarrollo de los Quality Attribute Scenarios (sección 4.2.3).<br><br>
         TP: Reconocí que el desarrollo web y el trabajo ágil requieren actualización constante, lo que orientó mi contribución en la Landing Page y las actividades del Sprint 1 (secciones 5.3.1.1, 5.3.1.2).<br><br>
         TB3: Reconocí la necesidad de profundizar en desarrollo backend y documentación de APIs para responder adecuadamente a los requerimientos técnicos del microservicio de reservas (secciones 5.3.2.2, 5.3.2.5).<br><br>
+        TB4: Reconocí que implementar lógica distribuida y flujos ágiles requiere un aprendizaje autónomo y continuo, lo cual me llevó a investigar sobre el aislamiento de dominios en microservicios independientes y la optimización de tareas dinámicas mediante el uso del tablero Kanban (sección 5.3.3.7, 5.3.3.8).<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: Reconocí que diseñar y ejecutar entrevistas a los segmentos objetivo exige dominar técnicas de investigación cualitativa para validar hipótesis con fundamento real (secciones 2.2.1, 2.2.2).<br><br>
         TB2: Al desarrollar las ADD Iterations comprendí que el aprendizaje permanente es clave para tomar decisiones arquitectónicas sólidas sobre atributos de calidad y patrones de diseño (secciones 4.3.1, 4.3.2).<br><br>
         TP: Reconocí que transformar user stories en prototipos visuales funcionales demanda aprendizaje constante en usabilidad y herramientas de diseño, evidenciado en los mockups de cada módulo (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Reconocí que construir un dashboard que consuma múltiples microservicios exige aprendizaje continuo en integración de APIs, manejo asíncrono y coherencia visual entre componentes (secciones 5.3.2.1, 5.3.2.4).<br><br>
+        TB4: Reconocí que mejorar la experiencia del dashboard y las secciones de perfil y configuración exige aprendizaje continuo en buenas prácticas de usabilidad y consistencia visual entre componentes del frontend (sección 5.3.3.1).<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: Reconocí que investigar el sector de gestión de condominios es fundamental para desarrollar una solución relevante, motivándome a profundizar en nuevos conceptos para el proyecto (secciones 1.1.1, 1.2.2).<br><br>
         TB2: Comprendí que diseñar la arquitectura con patrones como microservicios y DDD exige investigación continua en conceptos que no manejaba previamente (secciones 4.1.2, 4.1.3).<br><br>
         TP: Reconocí que el desarrollo backend con microservicios requiere dominar múltiples tecnologías en simultáneo, como JWT, DDD y despliegue cloud, enfrentando problemas reales no previstos (secciones 5.3.1.2, 5.3.1.5, 5.3.1.6).<br><br>
         TB3: Reconocí que implementar un API Gateway exige comprender la interacción entre componentes de una arquitectura distribuida, investigando filtros de seguridad, CORS y ciclo de vida de solicitudes HTTP (secciones 5.3.2.2, 5.3.2.5).<br><br>
+		TB4: Reconocí que implementar un microservicio de pagos con integración a pasarelas externas exige dominar conceptos de consistencia transaccional, manejo de fallos y compensación mediante el patrón Saga, lo cual me obligó a investigar estrategias de resiliencia que no había aplicado previamente en el proyecto (secciones 5.3.3.4, 5.3.3.5). <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: Reconocí la importancia del aprendizaje continuo al elaborar los cuadros As-Is, To-Be e Impact Map, herramientas que exigieron comprender cómo analizar al usuario y estructurar soluciones alineadas a sus necesidades (secciones 2.3.4, 3.1, 3.3).<br><br>
         TB2: Reconocí que comprender la arquitectura de software requiere actualización permanente, evidenciado en la identificación de constraints y concerns del sistema (secciones 4.2.4, 4.2.5).<br><br>
         TP: Reconocí que diseñar interfaces coherentes exige actualizar constantemente conocimientos en usabilidad y tendencias de diseño, reflejado en las decisiones tomadas para cada módulo de los mockups (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Reconocí que documentar el testing y gestionar el despliegue del frontend demanda aprendizaje continuo sobre estrategias de validación y configuración de entornos de producción (secciones 5.3.2.3, 5.3.2.6).<br><br>
+		TB4: <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
-        TB1: Reconocí que el aprendizaje permanente es esencial al tener que investigar el sector para desarrollar el Lean UX Canvas y el análisis de competidores (secciones 1.2.3.4, 2.1.1).<br><br>
+        TB1: Reconocí que el aprendizaje permanente es esencial al tener que investigar el sector para desarrollar el Lean UX Canvas and el análisis de competidores (secciones 1.2.3.4, 2.1.1).<br><br>
         TB2: Reconocí que elaborar los diagramas C4 y ERD exigió reforzar conceptos de arquitectura, comunicación entre servicios y modelado de datos (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
         TP: Reconocí que el desarrollo de EDIFIKA exige aprendizaje continuo en arquitectura y gestión de configuración, mejorando mi desempeño y adaptación a nuevas herramientas del proyecto (secciones 4.1.4, 5.2.2).<br><br>
         TB3: Reconocí que implementar y corregir el microservicio de Residential Management exige aprendizaje continuo, ya que cada ajuste en los endpoints REST y los diagramas del sistema demandó investigar y aplicar nuevos conceptos de forma iterativa (secciones 5.3.2.2, 4.1.5, 4.1.6).<br><br>
@@ -337,10 +352,12 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB2: La arquitectura de Edifika reafirmó que el aprendizaje permanente es indispensable en ingeniería de software, evidenciado en la aplicación de ADD Iterations, patrones arquitectónicos y diseño basado en atributos de calidad.<br><br>
         TP: La implementación del primer microservicio evidenció que cada fase del proyecto plantea retos técnicos nuevos que solo se resuelven mediante aprendizaje continuo, desde la configuración de seguridad hasta el despliegue en producción.<br><br>
         TB3: La implementación simultánea de microservicios, API Gateway y frontend demostró que un sistema distribuido plantea desafíos continuos que obligan a cada integrante a investigar y adaptarse constantemente, reafirmando el aprendizaje permanente como pilar del proyecto.<br><br>
+		TB4: La implementación de los últimos microservicios y el avance del frontend evidenciaron que cada etapa del desarrollo plantea desafíos técnicos distintos que demandan aprendizaje autónomo y continuo. Resolver la integración con pasarelas de pago externas, garantizar la trazabilidad de comunicados, controlar límites de publicación en el foro y conectar los componentes del frontend con múltiples servicios backend fueron actividades que exigieron a cada miembro investigar soluciones específicas, validando que el aprendizaje permanente es la competencia que sostiene la calidad de un proyecto de ingeniería de software a lo largo de todo su ciclo de vida. <br><br>
       </td>
     </tr>
   </tbody>
 </table>
+
 
 ## **Contenido**
 - [STUDENT OUTCOME](#student-outcome)
@@ -1140,15 +1157,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Crear cuenta vinculada a unidad</td>
       <td>Como residente, deseo crear una cuenta vinculada a mi unidad para acceder a la gestión de mi edificio.</td>
       <td>
-        <strong>E1: Registro exitoso.</strong><br>
+        <strong>Escenario 1: Registro exitoso.</strong><br>
         Dado que el residente completa sus datos y selecciona torre/unidad,<br>
         cuando envía el formulario de registro,<br>
         entonces el sistema confirma el vínculo y crea la cuenta exitosamente.<br><br>
-        <strong>E2: Unidad ya ocupada.</strong><br>
+        <strong>Escenario 2: Unidad ya ocupada.</strong><br>
         Dado que el residente selecciona una unidad con titular activo,<br>
         cuando intenta completar el registro,<br>
         entonces el sistema bloquea el registro y solicita adjuntar título de propiedad para validación manual.<br><br>
-        <strong>E3: Error de red.</strong><br>
+        <strong>Escenario 3: Error de red.</strong><br>
         Dado que el residente está en proceso de vinculación,<br>
         cuando se pierde la conexión a internet,<br>
         entonces el sistema muestra "Error de sincronización" y permite reintentar sin rellenar todo el formulario.
@@ -1160,15 +1177,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Registro con correo</td>
       <td>Como usuario, quiero registrarme con mi correo para acceder a la plataforma.</td>
       <td>
-        <strong>E1: Validación de formato.</strong><br>
+        <strong>Escenario 1: Validación de formato.</strong><br>
         Dado que el usuario está completando el formulario de registro,<br>
         cuando ingresa un correo sin "@",<br>
         entonces el sistema muestra instantáneamente "Formato de correo inválido".<br><br>
-        <strong>E2: Correo duplicado.</strong><br>
+        <strong>Escenario 2: Correo duplicado.</strong><br>
         Dado que el usuario intenta registrarse con un correo existente,<br>
         cuando envía el formulario,<br>
         entonces el sistema indica que la cuenta ya existe y ofrece la opción de recuperar contraseña.<br><br>
-        <strong>E3: Timeout en verificación.</strong><br>
+        <strong>Escenario 3: Timeout en verificación.</strong><br>
         Dado que el usuario espera el código de verificación,<br>
         cuando el servicio de envío demora más de 30 segundos,<br>
         entonces el sistema muestra "Servicio temporalmente lento" y habilita el botón "Reenviar código".
@@ -1180,15 +1197,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Inicio de sesión</td>
       <td>Como usuario, quiero iniciar sesión para acceder a mi información.</td>
       <td>
-        <strong>E1: Login exitoso.</strong><br>
+        <strong>Escenario 1: Login exitoso.</strong><br>
         Dado que el usuario tiene credenciales válidas,<br>
         cuando las ingresa y confirma el inicio de sesión,<br>
         entonces el sistema lo redirige al dashboard correspondiente según su rol (Admin/Residente).<br><br>
-        <strong>E2: Bloqueo por intentos.</strong><br>
+        <strong>Escenario 2: Bloqueo por intentos.</strong><br>
         Dado que el usuario ha ingresado credenciales incorrectas,<br>
         cuando acumula 5 intentos fallidos,<br>
         entonces el sistema bloquea la cuenta por 15 minutos por razones de seguridad.<br><br>
-        <strong>E3: Sesión expirada.</strong><br>
+        <strong>Escenario 3: Sesión expirada.</strong><br>
         Dado que el token JWT del usuario ha caducado,<br>
         cuando intenta navegar dentro de la plataforma,<br>
         entonces el sistema lo redirige al login con el mensaje "Su sesión ha expirado".
@@ -1200,15 +1217,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Verificar información por torre y dpto.</td>
       <td>Como administrador, quiero verificar los datos de usuarios por ubicación para asegurar que el censo sea correcto.</td>
       <td>
-        <strong>E1: Validación exitosa.</strong><br>
+        <strong>Escenario 1: Validación exitosa.</strong><br>
         Dado que el admin filtra por "Torre B - 402",<br>
         cuando revisa el DNI adjunto y los datos coinciden,<br>
         entonces puede marcar el registro como "Verificado".<br><br>
-        <strong>E2: Datos inconsistentes.</strong><br>
+        <strong>Escenario 2: Datos inconsistentes.</strong><br>
         Dado que el admin revisa un registro con datos incorrectos,<br>
         cuando el nombre no coincide con el documento adjunto,<br>
         entonces el sistema permite marcar como "Pendiente de corrección" y notifica al residente el motivo específico.<br><br>
-        <strong>E3: Error de carga de media.</strong><br>
+        <strong>Escenario 3: Error de carga de media.</strong><br>
         Dado que el admin intenta abrir el documento adjunto,<br>
         cuando el servidor de archivos no responde,<br>
         entonces el sistema muestra "No se pudo cargar la imagen del DNI, reintente en unos minutos".
@@ -1217,18 +1234,18 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
     </tr>
     <tr>
       <td><strong>US05</strong></td>
-      <td>Actualizar info. de usuarios</td>
+      <td>Actualizar información de usuarios</td>
       <td>Como administrador, quiero editar datos de usuarios para corregir errores.</td>
       <td>
-        <strong>E1: Edición de contacto.</strong><br>
+        <strong>Escenario 1: Edición de contacto.</strong><br>
         Dado que el admin accede al perfil de un residente,<br>
         cuando modifica el número de teléfono y guarda los cambios,<br>
         entonces el sistema almacena la información y registra en el log quién realizó el cambio.<br><br>
-        <strong>E2: Cambio de rol inválido.</strong><br>
+        <strong>Escenario 2: Cambio de rol inválido.</strong><br>
         Dado que el admin es el único administrador activo del sistema,<br>
         cuando intenta quitarse sus propios permisos de administrador,<br>
         entonces el sistema lanza "Error: Debe existir al menos un administrador activo".<br><br>
-        <strong>E3: Fallo de persistencia.</strong><br>
+        <strong>Escenario 3: Fallo de persistencia.</strong><br>
         Dado que el admin intenta guardar cambios en un perfil,<br>
         cuando la base de datos se encuentra en mantenimiento,<br>
         entonces el sistema muestra "Error 500: No se pudieron guardar los cambios".
@@ -1240,15 +1257,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Editar perfil</td>
       <td>Como residente, quiero editar mi perfil para mantener mi contacto actualizado.</td>
       <td>
-        <strong>E1: Actualización de foto.</strong><br>
+        <strong>Escenario 1: Actualización de foto.</strong><br>
         Dado que el residente accede a la edición de su perfil,<br>
         cuando sube una nueva imagen de perfil,<br>
         entonces el sistema la procesa y actualiza en todos los módulos de la plataforma.<br><br>
-        <strong>E2: Cancelación.</strong><br>
+        <strong>Escenario 2: Cancelación.</strong><br>
         Dado que el usuario ha modificado campos de su perfil,<br>
         cuando pulsa el botón "Cancelar",<br>
         entonces el sistema descarta los cambios y vuelve al estado anterior sin alterar la base de datos.<br><br>
-        <strong>E3: Formato no soportado.</strong><br>
+        <strong>Escenario 3: Formato no soportado.</strong><br>
         Dado que el usuario intenta subir una imagen de perfil,<br>
         cuando selecciona un archivo en formato .gif,<br>
         entonces el sistema indica "Solo se permiten formatos JPG/PNG".
@@ -1260,15 +1277,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Registrar edificio y unidades</td>
       <td>Como administrador, quiero configurar la estructura del edificio (torres/unidades).</td>
       <td>
-        <strong>E1: Configuración inicial.</strong><br>
+        <strong>Escenario 1: Configuración inicial.</strong><br>
         Dado que el admin ingresa la configuración del edificio,<br>
         cuando registra 2 torres con 20 departamentos cada una,<br>
         entonces el sistema genera IDs únicos para cada unidad automáticamente.<br><br>
-        <strong>E2: Unidades duplicadas.</strong><br>
+        <strong>Escenario 2: Unidades duplicadas.</strong><br>
         Dado que el admin intenta registrar una unidad,<br>
         cuando el "Dpto 101" ya existe en la misma torre,<br>
         entonces el sistema arroja "Error: Identificador de unidad ya existe".<br><br>
-        <strong>E3: Interrupción de carga masiva.</strong><br>
+        <strong>Escenario 3: Interrupción de carga masiva.</strong><br>
         Dado que el admin está subiendo un Excel de unidades,<br>
         cuando el proceso se interrumpe inesperadamente,<br>
         entonces el sistema indica cuál fue la última fila procesada exitosamente.
@@ -1280,15 +1297,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Notificaciones de emergencias</td>
       <td>Como residente/admin, quiero gestionar avisos inmediatos de incidencias.</td>
       <td>
-        <strong>E1: Alerta de incendio.</strong><br>
+        <strong>Escenario 1: Alerta de incendio.</strong><br>
         Dado que el admin activa una alerta de emergencia,<br>
         cuando confirma el envío,<br>
         entonces todos los residentes reciben push y SMS en menos de 5 segundos.<br><br>
-        <strong>E2: Reporte de incidencia.</strong><br>
+        <strong>Escenario 2: Reporte de incidencia.</strong><br>
         Dado que un residente detecta una fuga de gas,<br>
         cuando reporta la incidencia desde la app,<br>
         entonces el admin recibe una notificación con la ubicación exacta (Torre/Dpto).<br><br>
-        <strong>E3: Fallo de Push Service.</strong><br>
+        <strong>Escenario 3: Fallo de Push Service.</strong><br>
         Dado que se intenta enviar una notificación de emergencia,<br>
         cuando el servicio de Firebase no está disponible,<br>
         entonces el sistema registra el error y reintenta el envío automáticamente hasta 3 veces.
@@ -1300,15 +1317,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Recordatorios de pago</td>
       <td>Como residente, quiero recibir alertas de mis deudas próximas a vencer.</td>
       <td>
-        <strong>E1: Aviso preventivo.</strong><br>
+        <strong>Escenario 1: Aviso preventivo.</strong><br>
         Dado que un pago de mantenimiento está próximo a vencer,<br>
         cuando faltan 3 días para la fecha límite,<br>
         entonces el sistema envía automáticamente un recordatorio al residente.<br><br>
-        <strong>E2: Notificación de mora.</strong><br>
+        <strong>Escenario 2: Notificación de mora.</strong><br>
         Dado que un residente no realizó su pago a tiempo,<br>
         cuando se cumple el primer día de retraso,<br>
         entonces el sistema alerta al residente sobre el recargo aplicado.<br><br>
-        <strong>E3: Pago parcial.</strong><br>
+        <strong>Escenario 3: Pago parcial.</strong><br>
         Dado que el residente tiene una deuda de S/ 100,<br>
         cuando realiza un abono de S/ 50,<br>
         entonces el sistema notifica que aún queda un saldo pendiente de S/ 50.
@@ -1320,15 +1337,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Recepción de comunicados</td>
       <td>Como residente, quiero recibir información oficial del condominio.</td>
       <td>
-        <strong>E1: Lectura de acta.</strong><br>
+        <strong>Escenario 1: Lectura de acta.</strong><br>
         Dado que el admin publica el acta de una junta,<br>
         cuando el residente recibe el aviso,<br>
         entonces puede abrir y leer el PDF directamente desde la app.<br><br>
-        <strong>E2: Filtro de relevancia.</strong><br>
+        <strong>Escenario 2: Filtro de relevancia.</strong><br>
         Dado que el admin publica un aviso dirigido únicamente a "Torre A",<br>
         cuando el comunicado es enviado,<br>
         entonces los residentes de "Torre B" no reciben el mensaje.<br><br>
-        <strong>E3: Notificaciones desactivadas.</strong><br>
+        <strong>Escenario 3: Notificaciones desactivadas.</strong><br>
         Dado que el residente tiene las notificaciones push desactivadas,<br>
         cuando el admin publica un comunicado,<br>
         entonces el sistema no envía push pero marca el mensaje como "No leído" en el buzón interno.
@@ -1340,15 +1357,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Notificaciones de reservas</td>
       <td>Como residente, quiero avisos sobre mis turnos en áreas comunes.</td>
       <td>
-        <strong>E1: Confirmación.</strong><br>
+        <strong>Escenario 1: Confirmación.</strong><br>
         Dado que el residente completa una reserva en el gimnasio,<br>
         cuando el sistema procesa la solicitud,<br>
         entonces envía una notificación confirmando el día y la hora reservados.<br><br>
-        <strong>E2: Recordatorio de uso.</strong><br>
+        <strong>Escenario 2: Recordatorio de uso.</strong><br>
         Dado que el residente tiene una reserva activa,<br>
         cuando falta 1 hora para el inicio del turno,<br>
         entonces el sistema envía el aviso: "Tu turno en el área común inicia pronto".<br><br>
-        <strong>E3: Cancelación forzada.</strong><br>
+        <strong>Escenario 3: Cancelación forzada.</strong><br>
         Dado que el admin cierra un área por mantenimiento,<br>
         cuando existen reservas activas para esa área,<br>
         entonces el sistema notifica al residente afectado y libera el cobro si correspondiera.
@@ -1360,37 +1377,37 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Configuración de notificaciones</td>
       <td>Como residente, quiero elegir qué avisos recibir.</td>
       <td>
-        <strong>E1: Personalización.</strong><br>
+        <strong>Escenario 1: Personalización.</strong><br>
         Dado que el usuario accede a la configuración de notificaciones,<br>
         cuando desactiva "Comunicados" pero mantiene "Pagos" activo,<br>
         entonces el sistema guarda esa preferencia en su perfil.<br><br>
-        <strong>E2: Error al guardar.</strong><br>
+        <strong>Escenario 2: Error al guardar.</strong><br>
         Dado que el usuario intenta guardar sus preferencias,<br>
         cuando el servicio de preferencias falla,<br>
         entonces el sistema muestra "No se pudo actualizar la configuración, intente más tarde".<br><br>
-        <strong>E3: Reseteo de preferencias.</strong><br>
+        <strong>Escenario 3: Reseteo de preferencias.</strong><br>
         Dado que el usuario desea volver a la configuración original,<br>
         cuando pulsa el botón "Restablecer",<br>
         entonces el sistema activa todas las notificaciones con sus valores por defecto.
       </td>
       <td>EP02</td>
     </tr>
-    <tr>
+   <tr>
       <td><strong>US13</strong></td>
       <td>Publicar comunicados oficiales</td>
       <td>Como administrador, quiero difundir noticias a la comunidad.</td>
       <td>
-        <strong>E1: Publicación con adjunto.</strong><br>
+        <strong>Escenario 1: Publicación con adjunto.</strong><br>
         Dado que el admin redacta un comunicado con el presupuesto anual adjunto,<br>
         cuando lo publica,<br>
         entonces el sistema lo distribuye a todos los perfiles activos.<br><br>
-        <strong>E2: Borrador de comunicado.</strong><br>
+        <strong>Escenario 2: Borrador de comunicado.</strong><br>
         Dado que el admin está redactando un comunicado,<br>
         cuando lo guarda como borrador,<br>
         entonces el sistema lo mantiene oculto para los residentes hasta su publicación.<br><br>
-        <strong>E3: Error de formato.</strong><br>
+        <strong>Escenario 3: Error de formato.</strong><br>
         Dado que el admin intenta adjuntar un archivo al comunicado,<br>
-        cuando el archivo supera los 50MB,<br>
+        cuando el archivo supera los 10MB,<br>
         entonces el sistema indica "El archivo excede el límite permitido (10MB)".
       </td>
       <td>EP02</td>
@@ -1400,15 +1417,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Visualizar comunicados anteriores</td>
       <td>Como residente, quiero ver el historial de anuncios.</td>
       <td>
-        <strong>E1: Búsqueda histórica.</strong><br>
+        <strong>Escenario 1: Búsqueda histórica.</strong><br>
         Dado que el residente accede al historial de comunicados,<br>
         cuando filtra por "Enero 2024",<br>
         entonces el sistema lista los comunicados de ese período de forma cronológica.<br><br>
-        <strong>E2: Lista vacía.</strong><br>
+        <strong>Escenario 2: Lista vacía.</strong><br>
         Dado que el residente aplica un filtro de búsqueda,<br>
         cuando no existen registros para ese período,<br>
         entonces el sistema muestra "No hay comunicados para este periodo".<br><br>
-        <strong>E3: Error de carga de lista.</strong><br>
+        <strong>Escenario 3: Error de carga de lista.</strong><br>
         Dado que el residente solicita el historial de comunicados,<br>
         cuando el servicio de base de datos demora en responder,<br>
         entonces el sistema muestra un "Skeleton loader" mientras recupera los datos.
@@ -1420,15 +1437,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
   <td>Seguimiento de visualización de comunicados</td>
   <td>Como administrador, quiero saber quién ha visto los comunicados para asegurar su alcance.</td>
   <td>
-    <strong>E1: Visualización del registro.</strong><br>
+    <strong>Escenario 1: Visualización del registro.</strong><br>
     Dado que el admin accede a un comunicado publicado,<br>
     cuando revisa el panel de seguimiento,<br>
     entonces el sistema muestra la lista de residentes que lo han leído con fecha y hora de lectura.<br><br>
-    <strong>E2: Residentes que no han leído.</strong><br>
+    <strong>Escenario 2: Residentes que no han leído.</strong><br>
     Dado que el admin consulta el seguimiento de un comunicado,<br>
     cuando filtra por "No leído",<br>
     entonces el sistema lista los residentes que aún no han abierto el comunicado y permite reenviar la notificación.<br><br>
-    <strong>E3: Error de carga del registro.</strong><br>
+    <strong>Escenario 3: Error de carga del registro.</strong><br>
     Dado que el admin intenta ver el seguimiento de visualizaciones,<br>
     cuando el servicio de base de datos tarda en responder,<br>
     entonces el sistema muestra un "Skeleton loader" mientras recupera los datos.
@@ -1440,15 +1457,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Ver disponibilidad de áreas comunes</td>
       <td>Como residente/admin, quiero ver qué áreas están libres.</td>
       <td>
-        <strong>E1: Consulta de calendario.</strong><br>
+        <strong>Escenario 1: Consulta de calendario.</strong><br>
         Dado que el usuario accede al área "Piscina",<br>
         cuando visualiza el calendario,<br>
         entonces puede ver los bloques de 1 hora disponibles y ocupados.<br><br>
-        <strong>E2: Área fuera de servicio.</strong><br>
+        <strong>Escenario 2: Área fuera de servicio.</strong><br>
         Dado que el admin marca el "Gimnasio" como inactivo,<br>
         cuando un residente consulta la disponibilidad,<br>
         entonces ve el área sombreada con el mensaje "Mantenimiento".<br><br>
-        <strong>E3: Error de concurrencia.</strong><br>
+        <strong>Escenario 3: Error de concurrencia.</strong><br>
         Dado que dos usuarios consultan el mismo horario simultáneamente,<br>
         cuando uno de ellos completa una reserva,<br>
         entonces el sistema actualiza la disponibilidad en tiempo real para el otro usuario.
@@ -1460,15 +1477,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Reservar área común</td>
       <td>Como residente, quiero separar un espacio para uso personal.</td>
       <td>
-        <strong>E1: Reserva exitosa.</strong><br>
+        <strong>Escenario 1: Reserva exitosa.</strong><br>
         Dado que el residente selecciona un horario disponible,<br>
         cuando confirma la reserva,<br>
         entonces el sistema genera un código QR de acceso para ese turno.<br><br>
-        <strong>E2: Cruce de horarios.</strong><br>
+        <strong>Escenario 2: Cruce de horarios.</strong><br>
         Dado que el residente intenta reservar un área común,<br>
         cuando el horario seleccionado ya está tomado,<br>
         entonces el sistema indica "Horario no disponible, elija otro".<br><br>
-        <strong>E3: Límite de reservas.</strong><br>
+        <strong>Escenario 3: Límite de reservas.</strong><br>
         Dado que el residente ya alcanzó el máximo de reservas diarias,<br>
         cuando intenta realizar una quinta reserva en el mismo día,<br>
         entonces el sistema bloquea la acción indicando "Límite diario de reservas alcanzado".
@@ -1480,15 +1497,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
   <td>Aprobar o rechazar reservas</td>
   <td>Como administrador, quiero aprobar o rechazar reservas de áreas comunes para mantener el control sobre su uso.</td>
   <td>
-    <strong>E1: Aprobación exitosa.</strong><br>
+    <strong>Escenario 1: Aprobación exitosa.</strong><br>
     Dado que el admin recibe una solicitud de reserva pendiente,<br>
     cuando la aprueba desde el panel de administración,<br>
     entonces el sistema confirma la reserva y notifica al residente con el código QR de acceso.<br><br>
-    <strong>E2: Rechazo con motivo.</strong><br>
+    <strong>Escenario 2: Rechazo con motivo.</strong><br>
     Dado que el admin decide rechazar una solicitud de reserva,<br>
     cuando ingresa el motivo y confirma el rechazo,<br>
     entonces el sistema libera el horario y notifica al residente indicando el motivo del rechazo.<br><br>
-    <strong>E3: Solicitud expirada.</strong><br>
+    <strong>Escenario 3: Solicitud expirada.</strong><br>
     Dado que el admin accede a una solicitud de reserva pendiente,<br>
     cuando la fecha y hora solicitada ya pasó sin ser procesada,<br>
     entonces el sistema la marca automáticamente como "Expirada" y la excluye de la lista de pendientes.
@@ -1500,15 +1517,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
   <td>Evitar reservas duplicadas</td>
   <td>Como administrador, quiero que el sistema prevenga reservas duplicadas para evitar conflictos de horario en las áreas comunes.</td>
   <td>
-    <strong>E1: Bloqueo de duplicado.</strong><br>
+    <strong>Escenario 1: Bloqueo de duplicado.</strong><br>
     Dado que un residente intenta reservar un área en un horario ya ocupado,<br>
     cuando confirma la solicitud,<br>
     entonces el sistema bloquea la acción e indica "Este horario ya se encuentra reservado, elija otro".<br><br>
-    <strong>E2: Detección en reserva simultánea.</strong><br>
+    <strong>Escenario 2: Detección en reserva simultánea.</strong><br>
     Dado que dos residentes intentan reservar el mismo horario al mismo tiempo,<br>
     cuando ambos confirman la reserva simultáneamente,<br>
     entonces el sistema otorga la reserva al primero en confirmar y notifica al segundo que el horario ya no está disponible.<br><br>
-    <strong>E3: Alerta al administrador.</strong><br>
+    <strong>Escenario 3: Alerta al administrador.</strong><br>
     Dado que el sistema detecta un intento de reserva duplicada,<br>
     cuando el conflicto es registrado,<br>
     entonces el admin recibe una notificación indicando el área, horario y los residentes involucrados.
@@ -1520,15 +1537,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Cancelar reserva</td>
       <td>Como residente, quiero liberar un espacio que ya no usaré.</td>
       <td>
-        <strong>E1: Cancelación a tiempo.</strong><br>
+        <strong>Escenario 1: Cancelación a tiempo.</strong><br>
         Dado que el residente desea cancelar su reserva,<br>
         cuando lo hace con al menos 24 horas de anticipación,<br>
         entonces el sistema libera el cupo y notifica la disponibilidad a otros residentes.<br><br>
-        <strong>E2: Cancelación tardía.</strong><br>
+        <strong>Escenario 2: Cancelación tardía.</strong><br>
         Dado que el residente intenta cancelar una reserva,<br>
         cuando lo hace faltando solo 5 minutos para el turno,<br>
         entonces el sistema indica "Plazo de cancelación vencido, se aplicará el cobro".<br><br>
-        <strong>E3: Error de estado.</strong><br>
+        <strong>Escenario 3: Error de estado.</strong><br>
         Dado que el residente intenta cancelar una reserva,<br>
         cuando esta ya fue cancelada previamente por el admin,<br>
         entonces el sistema muestra "Esta reserva ya no está activa".
@@ -1540,15 +1557,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Ver deuda actual</td>
       <td>Como residente, quiero saber cuánto debo pagar de mantenimiento.</td>
       <td>
-        <strong>E1: Detalle de deuda.</strong><br>
+        <strong>Escenario 1: Detalle de deuda.</strong><br>
         Dado que el residente accede a la sección de pagos,<br>
         cuando consulta su deuda actual,<br>
         entonces el sistema muestra el desglose: mantenimiento + multas + servicios adicionales.<br><br>
-        <strong>E2: Sin deuda.</strong><br>
+        <strong>Escenario 2: Sin deuda.</strong><br>
         Dado que el residente está al día con sus pagos,<br>
         cuando consulta su saldo,<br>
         entonces el sistema muestra "Saldo: S/ 0.00" y un botón para descargar la constancia de no adeudo.<br><br>
-        <strong>E3: Error de sincronización bancaria.</strong><br>
+        <strong>Escenario 3: Error de sincronización bancaria.</strong><br>
         Dado que el residente consulta su deuda,<br>
         cuando el sistema de pagos externos está caído,<br>
         entonces se muestra el aviso "Los montos podrían no estar actualizados".
@@ -1560,15 +1577,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Registrar pago con comprobante</td>
       <td>Como residente, quiero subir mi foto de voucher para validar mi pago.</td>
       <td>
-        <strong>E1: Subida exitosa.</strong><br>
+        <strong>Escenario 1: Subida exitosa.</strong><br>
         Dado que el residente realizó un pago,<br>
         cuando adjunta la foto del voucher en la plataforma,<br>
         entonces el sistema cambia el estado de la deuda a "En revisión".<br><br>
-        <strong>E2: Voucher ilegible.</strong><br>
+        <strong>Escenario 2: Voucher ilegible.</strong><br>
         Dado que el admin revisa un comprobante enviado,<br>
         cuando la imagen no permite leer la información correctamente,<br>
         entonces el sistema notifica al residente que debe subir una imagen más clara.<br><br>
-        <strong>E3: Archivo corrupto.</strong><br>
+        <strong>Escenario 3: Archivo corrupto.</strong><br>
         Dado que el residente intenta subir su comprobante,<br>
         cuando el archivo seleccionado está dañado,<br>
         entonces el sistema muestra "Error: No se pudo procesar el archivo, intente de nuevo".
@@ -1580,15 +1597,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
   <td>Registrar pagos en el sistema</td>
   <td>Como administrador, quiero registrar manualmente los pagos de los residentes para mantener el sistema actualizado.</td>
   <td>
-    <strong>E1: Registro exitoso.</strong><br>
+    <strong>Escenario 1: Registro exitoso.</strong><br>
     Dado que el admin accede al módulo de pagos de un residente,<br>
     cuando ingresa el monto, fecha y método de pago y confirma el registro,<br>
     entonces el sistema actualiza la deuda del residente y genera un comprobante de pago.<br><br>
-    <strong>E2: Monto inválido.</strong><br>
+    <strong>Escenario 2: Monto inválido.</strong><br>
     Dado que el admin intenta registrar un pago,<br>
     cuando ingresa un monto de S/ 0 o un valor negativo,<br>
     entonces el sistema muestra "El monto ingresado no es válido, verifique los datos".<br><br>
-    <strong>E3: Fallo de persistencia.</strong><br>
+    <strong>Escenario 3: Fallo de persistencia.</strong><br>
     Dado que el admin intenta guardar el registro de un pago,<br>
     cuando la base de datos se encuentra en mantenimiento,<br>
     entonces el sistema muestra "Error 500: No se pudo registrar el pago, intente nuevamente".
@@ -1600,15 +1617,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Visualizar residentes morosos</td>
       <td>Como administrador, quiero ver la lista de deudores.</td>
       <td>
-        <strong>E1: Filtro de morosidad.</strong><br>
+        <strong>Escenario 1: Filtro de morosidad.</strong><br>
         Dado que el admin accede al módulo de morosidad,<br>
         cuando aplica el filtro de más de 2 meses de deuda,<br>
         entonces el sistema lista los residentes en esa condición para aplicar restricciones.<br><br>
-        <strong>E2: Exportar reporte.</strong><br>
+        <strong>Escenario 2: Exportar reporte.</strong><br>
         Dado que el admin necesita el listado de morosos,<br>
         cuando solicita la descarga en PDF,<br>
         entonces el sistema genera el archivo con nombres, departamentos y montos totales.<br><br>
-        <strong>E3: Error de datos masivos.</strong><br>
+        <strong>Escenario 3: Error de datos masivos.</strong><br>
         Dado que existen 500 residentes morosos registrados,<br>
         cuando el admin consulta la lista completa,<br>
         entonces el sistema implementa paginación para evitar que la app se cuelgue.
@@ -1620,15 +1637,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Generar reportes financieros</td>
       <td>Como administrador, quiero ver el balance de ingresos/egresos.</td>
       <td>
-        <strong>E1: Reporte mensual.</strong><br>
+        <strong>Escenario 1: Reporte mensual.</strong><br>
         Dado que el admin selecciona el mes "Mayo",<br>
         cuando solicita el reporte,<br>
         entonces el sistema suma los pagos validados versus los gastos registrados y muestra el neto.<br><br>
-        <strong>E2: Rango inválido.</strong><br>
+        <strong>Escenario 2: Rango inválido.</strong><br>
         Dado que el admin configura el rango de fechas del reporte,<br>
         cuando la fecha de fin es anterior a la fecha de inicio,<br>
         entonces el sistema muestra "Rango de fechas incoherente".<br><br>
-        <strong>E3: Timeout de cálculo.</strong><br>
+        <strong>Escenario 3: Timeout de cálculo.</strong><br>
         Dado que el admin solicita un reporte anual,<br>
         cuando el procesamiento tarda demasiado,<br>
         entonces el sistema muestra una barra de progreso y permite descargar el resultado al finalizar.
@@ -1640,15 +1657,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Exportar reportes financieros</td>
       <td>Como administrador, quiero descargar balances en Excel/PDF.</td>
       <td>
-        <strong>E1: Exportación exitosa.</strong><br>
+        <strong>Escenario 1: Exportación exitosa.</strong><br>
         Dado que el admin genera un reporte de ingresos,<br>
         cuando descarga el archivo Excel,<br>
         entonces el sistema aplica correctamente los formatos de moneda.<br><br>
-        <strong>E2: Error de permisos.</strong><br>
+        <strong>Escenario 2: Error de permisos.</strong><br>
         Dado que un usuario sin rol de administrador accede al módulo de reportes,<br>
         cuando intenta exportar un balance,<br>
         entonces el sistema deniega el acceso con el mensaje "Permisos insuficientes".<br><br>
-        <strong>E3: Fallo de generación.</strong><br>
+        <strong>Escenario 3: Fallo de generación.</strong><br>
         Dado que el admin solicita exportar un reporte,<br>
         cuando no existen datos para el período seleccionado,<br>
         entonces el sistema exporta un documento indicando "Sin registros encontrados".
@@ -1660,15 +1677,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Ver resumen de gastos</td>
       <td>Como residente, quiero saber en qué se gasta el dinero del edificio.</td>
       <td>
-        <strong>E1: Gráfico de gastos.</strong><br>
+        <strong>Escenario 1: Gráfico de gastos.</strong><br>
         Dado que el residente accede al resumen financiero,<br>
         cuando consulta la distribución de gastos,<br>
         entonces el sistema muestra un gráfico de torta con categorías como: 40% Seguridad, 30% Limpieza, etc.<br><br>
-        <strong>E2: Consulta de facturas.</strong><br>
+        <strong>Escenario 2: Consulta de facturas.</strong><br>
         Dado que el residente visualiza el resumen de gastos,<br>
         cuando selecciona un ítem específico,<br>
         entonces el sistema muestra la descripción del gasto (ej: Reparación de bomba de agua).<br><br>
-        <strong>E3: Información no publicada.</strong><br>
+        <strong>Escenario 3: Información no publicada.</strong><br>
         Dado que el admin aún no ha cerrado el período mensual,<br>
         cuando el residente consulta el resumen,<br>
         entonces el sistema muestra "Información en proceso de cierre".
@@ -1680,15 +1697,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Consultar pagos pasados</td>
       <td>Como residente, quiero ver mi historial de transacciones.</td>
       <td>
-        <strong>E1: Historial histórico.</strong><br>
+        <strong>Escenario 1: Historial histórico.</strong><br>
         Dado que el residente accede a su historial de pagos,<br>
         cuando consulta el período de los últimos 12 meses,<br>
         entonces el sistema lista todos sus pagos con sus respectivos comprobantes.<br><br>
-        <strong>E2: Filtro por año.</strong><br>
+        <strong>Escenario 2: Filtro por año.</strong><br>
         Dado que el residente desea revisar pagos anteriores,<br>
         cuando selecciona el año "2023",<br>
         entonces el sistema recupera únicamente los pagos de ese ejercicio fiscal.<br><br>
-        <strong>E3: Error de base de datos.</strong><br>
+        <strong>Escenario 3: Error de base de datos.</strong><br>
         Dado que el residente consulta su historial,<br>
         cuando el servidor de archivos de vouchers antiguos falla,<br>
         entonces el sistema muestra "Detalles temporalmente no disponibles".
@@ -1700,15 +1717,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Publicar mensaje en la comunidad</td>
       <td>Como residente, quiero escribir en el muro comunitario.</td>
       <td>
-        <strong>E1: Publicación exitosa.</strong><br>
+        <strong>Escenario 1: Publicación exitosa.</strong><br>
         Dado que el residente redacta un mensaje en el muro comunitario,<br>
         cuando lo publica,<br>
         entonces el sistema lo muestra en el feed de la comunidad.<br><br>
-        <strong>E2: Límite diario.</strong><br>
+        <strong>Escenario 2: Límite diario.</strong><br>
         Dado que el residente ya publicó un mensaje en el día,<br>
         cuando intenta publicar un segundo mensaje,<br>
         entonces el sistema bloquea la acción indicando "Máximo 1 post por día".<br><br>
-        <strong>E3: Filtro de palabras.</strong><br>
+        <strong>Escenario 3: Filtro de palabras.</strong><br>
         Dado que el residente redacta un mensaje con contenido inapropiado,<br>
         cuando intenta publicarlo,<br>
         entonces el sistema detecta las palabras prohibidas y bloquea la publicación.
@@ -1720,15 +1737,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Pagar deuda en línea</td>
       <td>Como residente, quiero pagar con tarjeta de crédito/débito.</td>
       <td>
-        <strong>E1: Pago aprobado.</strong><br>
+        <strong>Escenario 1: Pago aprobado.</strong><br>
         Dado que el residente ingresa los datos de su tarjeta para pagar S/ 200,<br>
         cuando la pasarela de pago aprueba la transacción,<br>
         entonces la deuda se marca como "Pagado" de forma inmediata.<br><br>
-        <strong>E2: Transacción rechazada.</strong><br>
+        <strong>Escenario 2: Transacción rechazada.</strong><br>
         Dado que el residente intenta pagar con su tarjeta,<br>
         cuando la tarjeta no tiene fondos suficientes,<br>
         entonces el sistema muestra el error del banco y permite cambiar de tarjeta.<br><br>
-        <strong>E3: Pago parcial permitido.</strong><br>
+        <strong>Escenario 3: Pago parcial permitido.</strong><br>
         Dado que el residente tiene una deuda de S/ 300,<br>
         cuando realiza un pago de S/ 100,<br>
         entonces el sistema actualiza el saldo restante a S/ 200 de forma inmediata.
@@ -1740,15 +1757,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Notificación por reserva (Admin)</td>
       <td>Como admin, quiero saber cuándo alguien reserva un área común.</td>
       <td>
-        <strong>E1: Alerta inmediata.</strong><br>
+        <strong>Escenario 1: Alerta inmediata.</strong><br>
         Dado que un residente realiza una reserva en el área de parrillas,<br>
         cuando la reserva es confirmada,<br>
         entonces el admin recibe un push: "Reserva nueva en Área Parrillas - Dpto 501".<br><br>
-        <strong>E2: Filtro de alertas.</strong><br>
+        <strong>Escenario 2: Filtro de alertas.</strong><br>
         Dado que el admin configura sus preferencias de notificación,<br>
         cuando desactiva alertas para áreas de bajo impacto,<br>
         entonces el sistema solo le notifica las reservas de áreas críticas.<br><br>
-        <strong>E3: Sobrecarga de avisos.</strong><br>
+        <strong>Escenario 3: Sobrecarga de avisos.</strong><br>
         Dado que se registran 50 reservas en 1 minuto,<br>
         cuando el sistema procesa todas las notificaciones,<br>
         entonces las agrupa en un resumen para no saturar al administrador.
@@ -1760,15 +1777,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Consultar Leyes y Manuales</td>
       <td>Como administrador, quiero ver la normativa legal y del edificio.</td>
       <td>
-        <strong>E1: Lectura de PDF.</strong><br>
+        <strong>Escenario 1: Lectura de PDF.</strong><br>
         Dado que el admin accede a la sección de documentos legales,<br>
         cuando abre el "Reglamento de Convivencia",<br>
         entonces el sistema permite hacer zoom y buscar palabras clave dentro del documento.<br><br>
-        <strong>E2: Actualización de leyes.</strong><br>
+        <strong>Escenario 2: Actualización de leyes.</strong><br>
         Dado que existe una actualización en la normativa legal,<br>
         cuando el admin consulta la sección correspondiente,<br>
         entonces el sistema muestra un enlace a la última ley de propiedad horizontal accesible vía webview.<br><br>
-        <strong>E3: Archivo no disponible.</strong><br>
+        <strong>Escenario 3: Archivo no disponible.</strong><br>
         Dado que el admin intenta abrir un manual del edificio,<br>
         cuando el archivo fue eliminado accidentalmente,<br>
         entonces el sistema muestra "Documento no encontrado, contacte a soporte".
@@ -1780,15 +1797,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Ver disponibilidad global (Admin)</td>
       <td>Como admin, quiero ver el mapa de ocupación de todo el edificio.</td>
       <td>
-        <strong>E1: Vista de calendario total.</strong><br>
+        <strong>Escenario 1: Vista de calendario total.</strong><br>
         Dado que el admin accede al panel de disponibilidad global,<br>
         cuando consulta el día actual,<br>
         entonces puede ver qué áreas están ocupadas para coordinar el personal de limpieza.<br><br>
-        <strong>E2: Bloqueo de fechas.</strong><br>
+        <strong>Escenario 2: Bloqueo de fechas.</strong><br>
         Dado que el admin necesita reservar la piscina para mantenimiento el domingo,<br>
         cuando bloquea esa fecha en el calendario,<br>
         entonces los residentes ya no pueden realizar reservas para ese día.<br><br>
-        <strong>E3: Error de refresco.</strong><br>
+        <strong>Escenario 3: Error de refresco.</strong><br>
         Dado que el admin visualiza el calendario de ocupación,<br>
         cuando los datos no se actualizan correctamente,<br>
         entonces el sistema ofrece un botón de "Forzar actualización".
@@ -1800,15 +1817,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Activar/Desactivar cuentas</td>
       <td>Como administrador, quiero controlar quién tiene acceso a la app.</td>
       <td>
-        <strong>E1: Desactivación por mudanza.</strong><br>
+        <strong>Escenario 1: Desactivación por mudanza.</strong><br>
         Dado que un residente se ha mudado del edificio,<br>
         cuando el admin inactiva su cuenta,<br>
         entonces las credenciales del residente dejan de funcionar al instante.<br><br>
-        <strong>E2: Reactivación.</strong><br>
+        <strong>Escenario 2: Reactivación.</strong><br>
         Dado que el admin habilita una cuenta suspendida,<br>
         cuando confirma la reactivación,<br>
         entonces el sistema envía automáticamente un correo: "Tu cuenta ha sido reactivada".<br><br>
-        <strong>E3: Error al desactivar Admin.</strong><br>
+        <strong>Escenario 3: Error al desactivar Admin.</strong><br>
         Dado que el sistema tiene un único super-administrador activo,<br>
         cuando se intenta desactivar esa cuenta,<br>
         entonces el sistema impide la acción por razones de seguridad.
@@ -1820,15 +1837,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Cancelar reserva (Admin)</td>
       <td>Como administrador, quiero anular una reserva de un residente.</td>
       <td>
-        <strong>E1: Anulación por emergencia.</strong><br>
+        <strong>Escenario 1: Anulación por emergencia.</strong><br>
         Dado que ocurre una rotura de tubería en el SUM,<br>
         cuando el admin cancela las reservas activas de esa área,<br>
         entonces el sistema notifica a cada residente afectado con el motivo de la cancelación.<br><br>
-        <strong>E2: Anulación por deuda.</strong><br>
+        <strong>Escenario 2: Anulación por deuda.</strong><br>
         Dado que un residente con reserva activa entra en mora,<br>
         cuando el admin cancela su reserva,<br>
         entonces el sistema la anula y bloquea futuras reservas para ese residente.<br><br>
-        <strong>E3: Error de red.</strong><br>
+        <strong>Escenario 3: Error de red.</strong><br>
         Dado que el admin intenta cancelar una reserva,<br>
         cuando el sistema falla durante el proceso,<br>
         entonces se muestra "No se pudo cancelar, verifique su conexión e intente de nuevo".
@@ -1840,15 +1857,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Crear encuestas o votaciones para la comunidad</td>
       <td>Como administrador, quiero crear encuestas o votaciones para conocer la opinión de los residentes sobre temas del condominio.</td>
       <td>
-        <strong>E1: Creación exitosa.</strong><br>
+        <strong>Escenario 1: Creación exitosa.</strong><br>
         Dado que el admin completa el formulario de encuesta con pregunta y opciones,<br>
         cuando la publica,<br>
         entonces todos los residentes activos reciben una notificación y pueden votar desde la app.<br><br>
-        <strong>E2: Encuesta con fecha límite.</strong><br>
+        <strong>Escenario 2: Encuesta con fecha límite.</strong><br>
         Dado que el admin configura una fecha de cierre para la encuesta,<br>
         cuando se cumple el plazo,<br>
         entonces el sistema cierra automáticamente la votación y muestra los resultados finales.<br><br>
-        <strong>E3: Voto duplicado.</strong><br>
+        <strong>Escenario 3: Voto duplicado.</strong><br>
         Dado que un residente ya emitió su voto,<br>
         cuando intenta votar nuevamente,<br>
         entonces el sistema bloquea la acción indicando "Ya has registrado tu voto en esta encuesta".
@@ -1860,15 +1877,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Moderar mensajes del muro comunitario</td>
       <td>Como administrador, quiero revisar y eliminar mensajes inapropiados del muro para mantener un ambiente respetuoso.</td>
       <td>
-        <strong>E1: Eliminación exitosa.</strong><br>
+        <strong>Escenario 1: Eliminación exitosa.</strong><br>
         Dado que el admin detecta un mensaje con contenido inapropiado,<br>
         cuando lo elimina desde el panel de moderación,<br>
         entonces el mensaje desaparece del feed y el residente recibe una notificación indicando el motivo.<br><br>
-        <strong>E2: Advertencia al residente.</strong><br>
+        <strong>Escenario 2: Advertencia al residente.</strong><br>
         Dado que un residente publica contenido que infringe las normas por primera vez,<br>
         cuando el admin aplica una advertencia,<br>
         entonces el sistema registra el aviso en el perfil del residente y lo notifica.<br><br>
-        <strong>E3: Bloqueo por reincidencia.</strong><br>
+        <strong>Escenario 3: Bloqueo por reincidencia.</strong><br>
         Dado que un residente acumula 3 advertencias,<br>
         cuando el admin confirma el bloqueo,<br>
         entonces el residente queda inhabilitado para publicar en el muro comunitario.
@@ -1880,15 +1897,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Habilitar o deshabilitar área común</td>
       <td>Como administrador, quiero activar o desactivar áreas comunes para reflejar su disponibilidad real según mantenimiento o restricciones.</td>
       <td>
-        <strong>E1: Deshabilitación exitosa.</strong><br>
+        <strong>Escenario 1: Deshabilitación exitosa.</strong><br>
         Dado que el admin deshabilita el "Gimnasio" por mantenimiento,<br>
         cuando confirma la acción,<br>
         entonces el área aparece como no disponible y los residentes no pueden realizar nuevas reservas.<br><br>
-        <strong>E2: Notificación a reservas activas.</strong><br>
+        <strong>Escenario 2: Notificación a reservas activas.</strong><br>
         Dado que existen reservas vigentes en el área deshabilitada,<br>
         cuando el admin la desactiva,<br>
         entonces el sistema cancela esas reservas automáticamente y notifica a los residentes afectados.<br><br>
-        <strong>E3: Rehabilitación del área.</strong><br>
+        <strong>Escenario 3: Rehabilitación del área.</strong><br>
         Dado que el admin reactiva un área previamente deshabilitada,<br>
         cuando confirma la acción,<br>
         entonces el área vuelve a aparecer disponible para reservas y el sistema notifica a los residentes.
@@ -1900,15 +1917,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Configurar reglas de área común</td>
       <td>Como administrador, quiero definir las reglas, horarios y límites de cada área común para regular su uso correctamente.</td>
       <td>
-        <strong>E1: Configuración exitosa.</strong><br>
+        <strong>Escenario 1: Configuración exitosa.</strong><br>
         Dado que el admin accede a la configuración de un área,<br>
         cuando establece el aforo máximo, horario de apertura/cierre y duración máxima de reserva,<br>
         entonces el sistema aplica esas reglas en todas las nuevas reservas.<br><br>
-        <strong>E2: Conflicto con reservas existentes.</strong><br>
+        <strong>Escenario 2: Conflicto con reservas existentes.</strong><br>
         Dado que el admin reduce el horario de un área con reservas ya registradas fuera del nuevo rango,<br>
         cuando guarda los cambios,<br>
         entonces el sistema alerta "Existen reservas que superan el nuevo horario, serán canceladas" y solicita confirmación.<br><br>
-        <strong>E3: Validación de datos inválidos.</strong><br>
+        <strong>Escenario 3: Validación de datos inválidos.</strong><br>
         Dado que el admin ingresa un aforo de 0 personas o un horario de cierre anterior al de apertura,<br>
         cuando intenta guardar,<br>
         entonces el sistema muestra "Configuración inválida, verifique los datos ingresados".
@@ -1920,15 +1937,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
       <td>Ver historial de uso de áreas comunes</td>
       <td>Como administrador, quiero consultar el historial completo de uso de las áreas comunes con estadísticas para tomar mejores decisiones de gestión.</td>
       <td>
-        <strong>E1: Consulta de historial.</strong><br>
+        <strong>Escenario 1: Consulta de historial.</strong><br>
         Dado que el admin accede al historial de un área,<br>
         cuando selecciona un rango de fechas,<br>
         entonces el sistema lista todas las reservas realizadas con residente, fecha, hora y estado (completada/cancelada).<br><br>
-        <strong>E2: Estadísticas de uso.</strong><br>
+        <strong>Escenario 2: Estadísticas de uso.</strong><br>
         Dado que el admin consulta las estadísticas globales,<br>
         cuando visualiza el resumen,<br>
         entonces el sistema muestra el área más usada, el horario pico y el porcentaje de cancelaciones del período.<br><br>
-        <strong>E3: Exportar historial.</strong><br>
+        <strong>Escenario 3: Exportar historial.</strong><br>
         Dado que el admin necesita el historial para un informe,<br>
         cuando solicita la exportación,<br>
         entonces el sistema genera un archivo Excel con todos los registros del período seleccionado.
@@ -1940,15 +1957,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
   <td>Visualizar sección Hero de la Landing Page</td>
   <td>Como visitante, quiero ver una sección principal con el mensaje de valor de Edifika para entender rápidamente de qué trata el producto.</td>
   <td>
-    <strong>E1: Carga correcta.</strong><br>
+    <strong>Escenario 1: Carga correcta.</strong><br>
     Dado que el visitante accede a la landing page,<br>
     cuando la página termina de cargar,<br>
     entonces visualiza el título principal, subtítulo descriptivo, botones CTA ("Solicitar demo gratis" y "Ver funciones") y el mockup del producto.<br><br>
-    <strong>E2: Responsividad.</strong><br>
+    <strong>Escenario 2: Responsividad.</strong><br>
     Dado que el visitante accede desde un dispositivo móvil,<br>
     cuando carga la sección Hero,<br>
     entonces el contenido se adapta correctamente sin desbordamiento ni elementos superpuestos.<br><br>
-    <strong>E3: Navegación por CTA.</strong><br>
+    <strong>Escenario 3: Navegación por CTA.</strong><br>
     Dado que el visitante hace clic en "Ver funciones",<br>
     cuando el sistema procesa la acción,<br>
     entonces la página realiza scroll suave hacia la sección de funcionalidades.
@@ -1961,15 +1978,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
   <td>Navegar entre secciones de la Landing Page</td>
   <td>Como visitante, quiero usar la barra de navegación para desplazarme entre las secciones de la landing page para hacerlo de forma rápida.</td>
   <td>
-    <strong>E1: Navegación exitosa.</strong><br>
+    <strong>Escenario 1: Navegación exitosa.</strong><br>
     Dado que el visitante hace clic en "Planes" desde el navbar,<br>
     cuando el sistema procesa la acción,<br>
     entonces la página realiza scroll automático hasta la sección de planes.<br><br>
-    <strong>E2: Sección activa resaltada.</strong><br>
+    <strong>Escenario 2: Sección activa resaltada.</strong><br>
     Dado que el visitante hace scroll por la página,<br>
     cuando pasa por una sección específica,<br>
     entonces el ítem correspondiente en el navbar se resalta visualmente con el color primario.<br><br>
-    <strong>E3: Navbar fijo en scroll.</strong><br>
+    <strong>Escenario 3: Navbar fijo en scroll.</strong><br>
     Dado que el visitante hace scroll hacia abajo,<br>
     cuando supera los primeros 100px de la página,<br>
     entonces el navbar permanece visible y fijo en la parte superior de la pantalla.
@@ -1982,15 +1999,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
   <td>Cambiar idioma de la Landing Page</td>
   <td>Como visitante internacional, quiero cambiar el idioma entre español e inglés para entender el contenido en mi idioma preferido.</td>
   <td>
-    <strong>E1: Cambio a inglés.</strong><br>
+    <strong>Escenario 1: Cambio a inglés.</strong><br>
     Dado que el visitante hace clic en "EN" en el selector de idioma,<br>
     cuando el sistema procesa el cambio,<br>
     entonces todo el contenido visible de la página se actualiza al inglés sin recargar la página.<br><br>
-    <strong>E2: Persistencia de idioma.</strong><br>
+    <strong>Escenario 2: Persistencia de idioma.</strong><br>
     Dado que el visitante seleccionó inglés previamente,<br>
     cuando navega a otra sección o recarga la página,<br>
     entonces el sistema mantiene el idioma previamente seleccionado.<br><br>
-    <strong>E3: Idioma por defecto.</strong><br>
+    <strong>Escenario 3: Idioma por defecto.</strong><br>
     Dado que el visitante accede a la landing por primera vez,<br>
     cuando no ha configurado preferencia de idioma alguna,<br>
     entonces el sistema muestra el contenido en español por defecto.
@@ -2003,15 +2020,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
   <td>Cambiar tema visual (claro/oscuro)</td>
   <td>Como visitante, quiero alternar entre el modo claro y oscuro de la landing page para mejorar mi experiencia visual.</td>
   <td>
-    <strong>E1: Activar modo claro.</strong><br>
+    <strong>Escenario 1: Activar modo claro.</strong><br>
     Dado que la página está en modo oscuro,<br>
     cuando el visitante hace clic en el ícono de sol,<br>
     entonces la interfaz cambia al tema claro con todos sus colores adaptados correctamente.<br><br>
-    <strong>E2: Persistencia del tema.</strong><br>
+    <strong>Escenario 2: Persistencia del tema.</strong><br>
     Dado que el visitante activó el modo claro,<br>
     cuando recarga la página,<br>
     entonces el sistema conserva la preferencia guardada localmente.<br><br>
-    <strong>E3: Preferencia del sistema operativo.</strong><br>
+    <strong>Escenario 3: Preferencia del sistema operativo.</strong><br>
     Dado que el visitante tiene configurado modo oscuro en su sistema operativo,<br>
     cuando accede a la landing por primera vez sin preferencia guardada,<br>
     entonces la página adopta automáticamente el tema oscuro.
@@ -2024,15 +2041,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
   <td>Visualizar sección de funcionalidades</td>
   <td>Como visitante, quiero ver las funcionalidades principales de Edifika para evaluar si la plataforma se adapta a mis necesidades.</td>
   <td>
-    <strong>E1: Visualización de módulos.</strong><br>
+    <strong>Escenario 1: Visualización de módulos.</strong><br>
     Dado que el visitante accede a la sección "Funciones",<br>
     cuando la sección carga correctamente,<br>
     entonces se muestran los tres módulos clave: Gestión de Pagos y Deudas, Reserva de Áreas Comunes y Comunicados, cada uno con su descripción e ícono.<br><br>
-    <strong>E2: Listado de características.</strong><br>
+    <strong>Escenario 2: Listado de características.</strong><br>
     Dado que el visitante revisa cada tarjeta de módulo,<br>
     cuando lee su contenido,<br>
     entonces puede ver el listado de características con íconos de verificación para cada funcionalidad incluida.<br><br>
-    <strong>E3: Etiqueta de módulo destacado.</strong><br>
+    <strong>Escenario 3: Etiqueta de módulo destacado.</strong><br>
     Dado que el visitante visualiza las tarjetas de funcionalidades,<br>
     cuando observa la tarjeta de Gestión de Pagos y Deudas,<br>
     entonces aparece visible la etiqueta "Más popular" para orientar la decisión del visitante.
@@ -2045,15 +2062,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
   <td>Visualizar sección del equipo</td>
   <td>Como visitante, quiero conocer al equipo detrás de Edifika para generar confianza antes de contratar el servicio.</td>
   <td>
-    <strong>E1: Tarjetas del equipo visibles.</strong><br>
+    <strong>Escenario 1: Tarjetas del equipo visibles.</strong><br>
     Dado que el visitante accede a la sección "Equipo",<br>
     cuando la sección carga correctamente,<br>
     entonces se muestran las tarjetas con foto y nombre de cada uno de los cinco integrantes del equipo.<br><br>
-    <strong>E2: Carga exitosa de imágenes de perfil.</strong><br>
+    <strong>Escenario 2: Carga exitosa de imágenes de perfil.</strong><br>
     Dado que el visitante navega por la sección del equipo,<br>
     cuando las imágenes de perfil están disponibles en el servidor,<br>
     entonces cada tarjeta muestra la fotografía del integrante con su nombre completo visible debajo.<br><br>
-    <strong>E3: Fallback por fallo en carga de imagen.</strong><br>
+    <strong>Escenario 3: Fallback por fallo en carga de imagen.</strong><br>
     Dado que una imagen de perfil no puede ser cargada por fallo del servidor,<br>
     cuando el navegador no puede renderizarla,<br>
     entonces el sistema muestra un avatar con las iniciales del integrante como imagen alternativa.
@@ -2066,15 +2083,15 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
   <td>Acceder a la app web desde la Landing Page</td>
   <td>Como usuario registrado, quiero acceder a la aplicación web directamente desde la landing page para iniciar sesión sin pasos adicionales.</td>
   <td>
-    <strong>E1: Redirección al login.</strong><br>
+    <strong>Escenario 1: Redirección al login.</strong><br>
     Dado que el visitante hace clic en "Empieza gratis" desde el navbar,<br>
     cuando el sistema procesa la acción,<br>
     entonces es redirigido a la pantalla de registro o login de la aplicación web.<br><br>
-    <strong>E2: Usuario con sesión activa.</strong><br>
+    <strong>Escenario 2: Usuario con sesión activa.</strong><br>
     Dado que el usuario ya tiene una sesión activa en la plataforma,<br>
     cuando accede a la landing y hace clic en "Empieza gratis",<br>
     entonces es redirigido directamente a su dashboard sin pasar por el formulario de login.<br><br>
-    <strong>E3: Acceso desde dispositivo móvil.</strong><br>
+    <strong>Escenario 3: Acceso desde dispositivo móvil.</strong><br>
     Dado que el visitante accede desde un smartphone,<br>
     cuando hace clic en el CTA principal,<br>
     entonces el sistema lo redirige a la tienda de aplicaciones correspondiente (App Store o Google Play) según su sistema operativo.
@@ -2589,15 +2606,15 @@ En esta sección se presentan los diagramas que describen el comportamiento y la
 
 <img src="assets/img/iam-auth.png" alt="context"/>
 
-*Figura 21. Diagrama de Clases IAM. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 21. Figura 21. Diagrama de Clases del Microservicio IAM — Vista General. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 <img src="assets/img/iam-auth1.png" alt="context"/>
 
-*Figura 22. Diagrama de Clases IAM. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 22. Diagrama de Clases del Microservicio IAM — Capas de Aplicación y Dominio. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 <img src="assets/img/iam-auth2.png" alt="context"/>
 
-*Figura 23. Diagrama de Clases IAM. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
+*Figura 23. Diagrama de Clases del Microservicio IAM — Capas de Infraestructura e Interfaces. Elaborado por el equipo utilizando PlantUML Editor (PlantUML, s.f.).*
 
 <img src="assets/img/residential_class_diagramm.png" alt="context"/>
 
@@ -4944,16 +4961,16 @@ Durante este sprint, el equipo concentró sus esfuerzos en la implementación de
 
 | Código US / TS | Título | Id de Tarea | Título de la Tarea | Descripción | Estimación (hrs) | Asignado a | Estado |
 |---------------|---------|-------------|-------------------|-------------|------------------|------------|--------|
-| TS04 | Configuración del API Gateway como punto de entrada centralizado | 24 | Configurar API Gateway | Implementar el API Gateway para centralizar las solicitudes hacia los microservicios de Edifika. | 4 | Ortiz Cardenas, Johanna Antuanete | Done |
-| TS15 | Configuración de CORS en el API Gateway | 25 | Configurar políticas CORS | Permitir la comunicación segura entre frontend, aplicación móvil y backend. | 3 | Zegarra Lopez, Renato Sebastian Rubber | Done |
-| TS06 | Configuración base del microservicio Residential Management | 26 | Crear microservicio Residential Management | Configurar la estructura base para la gestión de edificios, unidades y residentes. | 4 | Bejarano Martinez, Alvaro Leandro | Done |
-| TS08 | Configuración base del microservicio Reservation Service | 27 | Crear microservicio Reservation Service | Configurar la estructura base para la gestión de reservas de áreas comunes. | 4 | Sarmiento Medina, Loreley | Done |
-| US18 | Aprobar o rechazar reservas | 28 | Gestionar aprobación de reservas | Permitir al administrador aprobar o rechazar solicitudes de reserva de áreas comunes. | 3 | Ortiz Cardenas, Johanna Antuanete | In-Process |
-| US19 | Evitar reservas duplicadas | 29 | Validar disponibilidad de reservas | Verificar conflictos de horario para evitar reservas duplicadas. | 3 | Becerra Tejeda, Alessandra Nicole | In-Process |
-| US25 | Generar reportes financieros | 30 | Generar reportes financieros | Crear reportes consolidados de ingresos, pagos y deudas del condominio. | 4 | Bejarano Martinez, Alvaro Leandro | In-Process |
-| US35 | Cancelar reserva (Admin) | 31 | Cancelar reservas registradas | Permitir al administrador anular reservas realizadas por residentes. | 3 | Sarmiento Medina, Loreley | In-Process |
-| US38 | Habilitar o deshabilitar área común | 32 | Gestionar disponibilidad de áreas comunes | Permitir activar o desactivar áreas comunes según su estado operativo. | 3 | Becerra Tejeda, Alessandra Nicole | In-Process |
-| US39 | Configurar reglas de área común | 33 | Configurar reglas de uso | Definir horarios, límites y restricciones para el uso de áreas comunes. | 3 | Bejarano Martinez, Alvaro Leandro | In-Process |
+| TS04 | Configuración del API Gateway como punto de entrada centralizado | T24 | Configurar API Gateway | Implementar el API Gateway para centralizar las solicitudes hacia los microservicios de Edifika. | 4 | Ortiz Cardenas, Johanna Antuanete | Done |
+| TS15 | Configuración de CORS en el API Gateway | T25 | Configurar políticas CORS | Permitir la comunicación segura entre frontend, aplicación móvil y backend. | 3 | Zegarra Lopez, Renato Sebastian Rubber | Done |
+| TS06 | Configuración base del microservicio Residential Management | T26 | Crear microservicio Residential Management | Configurar la estructura base para la gestión de edificios, unidades y residentes. | 4 | Bejarano Martinez, Alvaro Leandro | Done |
+| TS08 | Configuración base del microservicio Reservation Service | T27 | Crear microservicio Reservation Service | Configurar la estructura base para la gestión de reservas de áreas comunes. | 4 | Sarmiento Medina, Loreley | Done |
+| US18 | Aprobar o rechazar reservas | T28 | Gestionar aprobación de reservas | Permitir al administrador aprobar o rechazar solicitudes de reserva de áreas comunes. | 3 | Ortiz Cardenas, Johanna Antuanete | In-Process |
+| US19 | Evitar reservas duplicadas | T29 | Validar disponibilidad de reservas | Verificar conflictos de horario para evitar reservas duplicadas. | 3 | Becerra Tejeda, Alessandra Nicole | In-Process |
+| US25 | Generar reportes financieros | T30 | Generar reportes financieros | Crear reportes consolidados de ingresos, pagos y deudas del condominio. | 4 | Bejarano Martinez, Alvaro Leandro | In-Process |
+| US35 | Cancelar reserva (Admin) | T31 | Cancelar reservas registradas | Permitir al administrador anular reservas realizadas por residentes. | 3 | Sarmiento Medina, Loreley | In-Process |
+| US38 | Habilitar o deshabilitar área común | T32 | Gestionar disponibilidad de áreas comunes | Permitir activar o desactivar áreas comunes según su estado operativo. | 3 | Becerra Tejeda, Alessandra Nicole | In-Process |
+| US39 | Configurar reglas de área común | T33 | Configurar reglas de uso | Definir horarios, límites y restricciones para el uso de áreas comunes. | 3 | Bejarano Martinez, Alvaro Leandro | In-Process |
 
 La siguiente imagen muestra el Kanban Board del Sprint 2 usando la herramienta Trello, donde se visualiza la distribución de las User Stories y Technical Stories entre los miembros del equipo. Se identifican 4 tarjetas completadas en la columna Done (API Gateway, Residential Management, políticas CORS y Reservation Service), 6 tarjetas en proceso correspondientes a funcionalidades de reservas, reportes financieros y gestión de áreas comunes, y ninguna tarea pendiente en To-do, evidenciando que todo el trabajo planificado fue iniciado durante el sprint.
 
@@ -4967,24 +4984,63 @@ La siguiente imagen muestra el Kanban Board del Sprint 2 usando la herramienta T
 
 A lo largo del Sprint 2, el historial de commits evidencia la evolución de la arquitectura de Edifika hacia una solución basada en microservicios. Durante este sprint se desarrollaron componentes clave como el API Gateway, encargado de centralizar y enrutar las solicitudes entre servicios, así como los microservicios de Gestión Residencial y Reservas, incorporando sus respectivas capas de dominio, repositorios, servicios de aplicación y controladores. Asimismo, se implementaron configuraciones de seguridad, políticas CORS y mecanismos de despliegue mediante Docker para facilitar la integración y ejecución de los servicios. En paralelo, el repositorio Frontend registra avances relacionados con la construcción de la estructura base de la aplicación, la implementación de servicios compartidos y el desarrollo de las funcionalidades de autenticación mediante las pantallas de Login y Register. Cada commit representa una iteración verificable del desarrollo, permitiendo rastrear el progreso técnico de la solución desde la creación inicial de los componentes hasta su integración dentro de la plataforma.
 
-| Repository | Branch | Commit Message | Fecha |
-|------------|---------|---------|---------|
-| Edifika-Microservice-Reservation | develop | feat: add reservation microservice | 03/06/2026 |
-| Edifika-Microservice-Reservation | develop | feat: implement booking type enum and dynamic capacity availability | 07/06/2026 |
-| Edifika-API-Gateway | dev | feat: first commit | 07/06/2026 |
-| Edifika-API-Gateway | dev | feat: Add routes, CORS, security, and filter | 07/06/2026 |
-| Edifika-API-Gateway | dev | feat: Add Dockerfile; add common-areas gateway route | 07/06/2026 |
-| Edifika-Microservice-Residential-Management | develop | Initial residential management microservice | 02/06/2026 |
-| Edifika-Microservice-Residential-Management | develop | feat(): Add domain model | 02/06/2026 |
-| Edifika-Microservice-Residential-Management | develop | feat(): Add Repositories | 02/06/2026 |
-| Edifika-Microservice-Residential-Management | develop | feat(): Add ResidentialCommandServiceImpl | 02/06/2026 |
-| Edifika-Microservice-Residential-Management | develop | feat(): Add Assembler and Controller | 02/06/2026 |
-| Edifika-Microservice-Residential-Management | develop | feat(): Add Dockerfile | 07/06/2026 |
-| Edifika-Front | main | initial commit | 06/06/2026 |
-| Edifika-Front | main | base services | 06/06/2026 |
-| Edifika-Front | main | Login | 07/06/2026 |
-| Edifika-Front | main | Register | 07/06/2026 |
-
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|---|---|---|---|---|
+| Edifika-Microservice-IAM | develop | f5e5044 | Merge pull request #3 from Condomia/develop | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 4c3986b | feat: Add document fields, validations and configs | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 1ec8be0 | Merge pull request #4 from Condomia/develop | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 612c4f4 | fix: Use env vars for datasource config | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 80900a7 | Merge pull request #5 from Condomia/develop | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 6bad10d | feat: create Dockerfile | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 1b44f89 | Merge pull request #6 from Condomia/develop | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 0898e45 | update properties | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 86041de | Merge pull request #7 from Condomia/develop | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 59634d8 | feat: signup roles via RoleRepository | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 6104bc3 | Merge pull request #8 from Condomia/develop | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 68ed6c0 | Update application.properties | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 50f4022 | Merge pull request #9 from Condomia/develop | 14/05/2026 |
+| Edifika-Microservice-IAM | main | eae4960 | Testing | 10/06/2026 |
+| Edifika-Front | main | fe46fae | initial commit | 06/06/2026 |
+| Edifika-Front | main | d80bb4a | Estructura base | 06/06/2026 |
+| Edifika-Front | main | c47fd8b | base services | 06/06/2026 |
+| Edifika-Front | main | dee3544 | Login | 07/06/2026 |
+| Edifika-Front | main | d04c9e5 | Register | 07/06/2026 |
+| Edifika-Front | main | e09c972 | Update index.html | 07/06/2026 |
+| Edifika-Front | main | be60628 | feat add: pantallas | 07/06/2026 |
+| Edifika-Front | main | d877621 | Refactor project structure | 07/06/2026 |
+| Edifika-Front | main | 05c56ef | feat: update dashboard view | 07/06/2026 |
+| Edifika-Front | main | 3b14c8a | Common Area | 08/06/2026 |
+| Edifika-Front | main | c88abcb | Common Area | 09/06/2026 |
+| Edifika-Microservice-Residential-Management | main | 5a5829f | Merge pull request #1 from Condomia/develop | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | 2e4b541 | feat(): Add shared | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | main | 291ad3b | Merge pull request #2 from Condomia/develop | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | 58488ec | feat() domain model | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | main | 1a47e61 | Merge pull request #3 from Condomia/develop | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | ca8e1c1 | feat() Repositories | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | main | 7a43bdd | Merge pull request #4 from Condomia/develop | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | 1fa0fda | feat() ResidentialCommandServiceImpl | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | main | ec4526c | Merge pull request #5 from Condomia/develop | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | 1dbf860 | feat() Assembler and Controller | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | main | e956ff9 | Merge pull request #6 from Condomia/develop | 06/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | c4c0f83 | fix() Unit | 06/06/2026 |
+| Edifika-Microservice-Residential-Management | main | 7bf3eea | Merge pull request #7 from Condomia/develop | 07/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | 32971d8 | fix() application properties | 07/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | 2e6af7f | feat() Dockerfile | 07/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | 93867cf | feat() Dockerfile | 07/06/2026 |
+| Edifika-Microservice-Residential-Management | main | f1d5f66 | Merge pull request #8 from Condomia/develop | 07/06/2026 |
+| Edifika-Microservice-Reservation | main | bb57076 | feat: add reservation microservice | 03/06/2026 |
+| Edifika-Microservice-Reservation | develop | 4294aa3 | feat: implement booking type enum and dynamic capacity availability | 07/06/2026 |
+| Edifika-Microservice-Reservation | main | 0edf46d | Merge pull request #1 from Condomia/develop | 07/06/2026 |
+| Edifika-Microservice-Reservation | develop | 2159a88 | chore: configure properties and Dockerfile for reservations deployment | 07/06/2026 |
+| Edifika-Microservice-Reservation | main | 4bde84d | Merge pull request #2 from Condomia/develop | 07/06/2026 |
+| Edifika-Microservice-Reservation | develop | 8b74edb | fix: update Dockerfile to use Java 21 to match pom.xml | 07/06/2026 |
+| Edifika-Microservice-Reservation | develop | 41b3bd0 | fix: add production server to swagger | 07/06/2026 |
+| Edifika-Microservice-Reservation | develop | a27ceea | feat: add common area rules, types support and fix outbound mapping | 09/06/2026 |
+| Edifika-ApiGateway | main | c16d9a3 | feat: first commit | 07/06/2026 |
+| Edifika-ApiGateway | main | 287329a | feat: Add routes, CORS, security, and filter | 07/06/2026 |
+| Edifika-ApiGateway | main | d519878 | Merge pull request #1 from Condomia/dev | 07/06/2026 |
+| Edifika-ApiGateway | main | cff8c00 | feat: Add Dockerfile; add common-areas gateway route | 07/06/2026 |
+| Edifika-ApiGateway | main | d9f9695 | Merge pull request #2 from Condomia/dev | 07/06/2026 |
 ##### 5.3.2.3. Testing Suite Evidence for Sprint Review
 
 Durante el Sprint 2 se implementó una suite de pruebas unitarias utilizando **JUnit 5** y **Mockito**, con el objetivo de validar el correcto funcionamiento de los microservicios desarrollados para la plataforma Edifika. Estas pruebas permiten verificar la lógica de negocio de manera aislada mediante el uso de objetos simulados (*mocks*), garantizando que cada componente responda adecuadamente ante distintos escenarios de ejecución.
@@ -5372,7 +5428,7 @@ El repositorio del API Gateway centraliza los commits relacionados con la config
 En esta sección se presentan las actividades desarrolladas durante el Sprint 2 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
 
 <p align="center">
-	<img src="assets/img/kanban_board2.png" alt="Kanban Board Sprint 3" width="700"/>
+	<img src="assets/img/kanban_board2.png" alt="Kanban Board Sprint 2" width="700"/>
 </p>
 
 *Figura 129. Kanban Board del Sprint 2 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
@@ -5380,10 +5436,65 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 2 
 [https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
 
 
-#### 5.3.3. Sprint 3
-##### 5.3.3.1. Sprint Backlog 3
+
+### 5.3.3. Sprint 3
+
+#### 5.3.3.1. Sprint Backlog 3
+
+Durante este sprint, el equipo concentró sus esfuerzos en fortalecer las funcionalidades principales de Edifika, incorporando módulos orientados a autenticación, gestión de usuarios, reservas, pagos, comunicados y foro comunitario. A diferencia del Sprint 2, donde se trabajó principalmente la configuración base de la arquitectura backend, en el Sprint 3 se avanzó en funcionalidades que permiten mejorar la interacción entre administradores y residentes dentro del condominio.
+
+El objetivo principal del Sprint 3 fue iniciar el desarrollo de flujos funcionales clave, tales como el inicio de sesión, actualización de información de usuarios, edición de perfil, aprobación de reservas, generación de reportes financieros y visualización de disponibilidad global de áreas comunes. Asimismo, se completó la configuración base de nuevos microservicios especializados: Payment Service con integración Culqi, Communication Service y Messaging Forum Service, los cuales permitirán ampliar las capacidades financieras, comunicacionales y comunitarias de la plataforma.
+
+| Código US / TS | Título | Id de Tarea | Título de la Tarea | Descripción | Estimación (hrs) | Asignado a | Estado |
+|---|---|---:|---|---|---:|---|---|
+| US03 | Inicio de sesión | T34 | Implementar login de usuarios | Permitir que administradores y residentes accedan a la plataforma mediante credenciales válidas, redirigiéndolos al dashboard correspondiente según su rol y validando la sesión mediante JWT. | 4 | Ortiz Cardenas, Johanna Antuanete | In-Process |
+| US05 | Actualizar información de usuarios | T35 | Editar datos de usuarios desde administración | Permitir que el administrador modifique datos de contacto y datos generales de los residentes, registrando la trazabilidad de los cambios realizados. | 4 | Bejarano Martinez, Alvaro Leandro | In-Process |
+| US06 | Editar perfil | T36 | Implementar edición de perfil de residente | Permitir que el residente actualice su información personal, datos de contacto y foto de perfil desde la plataforma, validando formatos permitidos y manejo de cancelación de cambios. | 3 | Sarmiento Medina, Loreley | In-Process |
+| US18 | Aprobar o rechazar reservas | T37 | Gestionar aprobación de reservas | Permitir que el administrador apruebe o rechace solicitudes de reserva de áreas comunes, notificando el resultado al residente y liberando horarios en caso de rechazo. | 4 | Ortiz Cardenas, Johanna Antuanete | In-Process |
+| US33 | Ver disponibilidad global Admin | T39 | Visualizar disponibilidad global de áreas comunes | Permitir que el administrador visualice la ocupación general de las áreas comunes y pueda bloquear fechas por mantenimiento o restricciones internas. | 4 | Becerra Tejeda, Alessandra Nicole | In-Process |
+| TS07 | Configuración base del microservicio Payment Service con integración Culqi | T40 | Configurar Payment Service con integración Culqi | Crear la estructura base del microservicio de pagos para gestionar deudas, cuotas y transacciones del condominio, considerando la integración con Culqi y la consistencia del estado de cada pago ante escenarios de fallo. | T5 | Zegarra Lopez, Renato Sebastian Rubber | Done |
+| TS09 | Configuración base del microservicio Communication Service | T41 | Configurar Communication Service | Crear la estructura base del microservicio de comunicados para que los administradores puedan publicar avisos oficiales y contar con trazabilidad de lectura por parte de los residentes. | 4 | Becerra Tejeda, Alessandra Nicole | Done |
+| TS12 | Configuración base del microservicio Messaging Forum Service | T42 | Configurar Messaging Forum Service | Crear la estructura base del microservicio de foro comunitario para que los residentes puedan publicar mensajes en el canal de su edificio, aplicando el límite de una publicación diaria por usuario y permitiendo la consulta de publicaciones por edificio. | T4 | Sarmiento Medina, Loreley | Done |
+
+
+La siguiente imagen muestra el Kanban Board del Sprint 3 usando la herramienta Trello, donde se visualiza la distribución de las User Stories y Technical Stories entre los miembros del equipo. Se identifican 3 tarjetas completadas en la columna Done, correspondientes a la configuración base de los microservicios Payment Service, Communication Service y Messaging Forum Service. Asimismo, se observan 6 tarjetas en la columna In-Process, relacionadas con funcionalidades de autenticación, gestión de usuarios, edición de perfil, aprobación de reservas, reportes financieros y disponibilidad global de áreas comunes. No se registran tareas pendientes en To-do ni tareas en To-Review, evidenciando que todo el trabajo planificado fue iniciado durante el sprint y que los componentes técnicos base fueron completados.
+
+<p align="center">
+  <img src="assets/img/sprintbacklog3.png" alt="Trello Sprint 1" width="700"/>
+</p>
+
+*Figura 130. Sprint Backlog 3. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 ##### 5.3.3.2. Development Evidence for Sprint Review
+
+A lo largo del Sprint 3, el historial de commits evidencia el avance incremental del proyecto Edifika en sus distintos repositorios. En los microservicios Forum, Communications y Payment se registran commits orientados a la implementación de funcionalidades clave como la configuración de seguridad, autenticación mediante JWT, creación de servicios, controladores, modelos de dominio y lógica de pagos. Estos avances fortalecen la arquitectura basada en microservicios, permitiendo que cada bounded context continúe evolucionando de manera independiente y segura.
+
+Asimismo, en el repositorio Edifika-Front se evidencian commits enfocados en la integración visual y funcional de la aplicación web, incluyendo mejoras en el dashboard, consumo de datos desde db.json, configuración de token mock, gestión de áreas comunes y actualización de vistas según roles y asociaciones de unidades. Cada commit representa una iteración específica del desarrollo, facilitando la trazabilidad del trabajo realizado durante el Sprint.
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|---|---|---|---|---|
+| Edifika-Microservice-Forum | main | 3933a53 | feat(security): implement jwt authentication filter and security config | 21/06/2026 |
+| Edifika-Microservice-Communications | main | 16846b2 | Merge pull request #2 from Condomia/develop | 21/06/2026 |
+| Edifika-Microservice-Communications | develop | 4f3101e | feat() security | 21/06/2026 |
+| Edifika-Microservice-Communications | develop | 60c0055 | feat() security JWT | 21/06/2026 |
+| Edifika-Microservice-Communications | main | b93fc17 | Merge pull request #1 from Condomia/develop | 21/06/2026 |
+| Edifika-Microservice-Communications | develop | 6c1e43d | feat() and Controller | 21/06/2026 |
+| Edifika-Microservice-Communications | develop | 2b6748c | feat() services | 21/06/2026 |
+| Edifika-Microservice-Communications | develop | 3d17d21 | feat() Communication model domain services | 21/06/2026 |
+| Edifika-Microservice-Communications | develop | 14f141a | feat() propierties | 21/06/2026 |
+| Edifika-Microservice-Communications | develop | 5d81666 | feat() Shared | 21/06/2026 |
+| Edifika-Microservice-Communications | main | 7a3fa9e | Primer commit | 21/06/2026 |
+| Edifika-Microservice-Payment | main | 468fc50 | Merge pull request #1 from Condomia/dev | 20/06/2026 |
+| Edifika-Microservice-Payment | dev | 7361b91 | feat: Add payment domain, services & JWT security | 20/06/2026 |
+| Edifika-Microservice-Payment | dev | cee86bf | feat: first commit | 19/06/2026 |
+| Edifika-Front | main | 841de89 | options diseño y funcion | 24/06/2026 |
+| Edifika-Front | main | 8776d7e | Actualizar dashboard por roles y asociaciones de unidades | 24/06/2026 |
+| Edifika-Front | main | 7b1bc97 | token Mockuo | 22/06/2026 |
+| Edifika-Front | main | bd8a2a8 | token Mockuo | 22/06/2026 |
+| Edifika-Front | main | ab31299 | Configuration falta | 21/06/2026 |
+| Edifika-Front | main | 0b0300c | Dashboard consumiendo dbjson | 20/06/2026 |
+| Edifika-Front | main | e939d56 | Merge remote-tracking branch 'origin/main' | 20/06/2026 |
+| Edifika-Front | main | 7c0c86f | Common Area | 20/06/2026 |
 
 ##### 5.3.3.3. Testing Suite Evidence for Sprint Review
 
@@ -5623,8 +5734,53 @@ Gracias a este proceso, la aplicación web permanece disponible mediante una URL
 
 
 ##### 5.3.3.7. Team Collaboration Insights during Sprint
+Esta sección presenta los cuadros analíticos de colaboración del equipo durante el Sprint 3, evidenciando la participación de los miembros a través de los commits registrados en los repositorios de GitHub. Se muestran las contribuciones realizadas tanto en el repositorio de microservicios como Payment, Forum y Communication.
+
+**Microservicio Payment - Backend**
+
+En el repositorio del microservicio de pagos se registraron los commits correspondientes a la gestión financiera del condominio. Los aportes del equipo incluyen la lógica para el control de deudas y cuotas de mantenimiento y la integración con la pasarela Culqi.
+
+<p align="center">
+  <img src="assets/img/insights_payment.png" alt="Insights Landing Page" width="700"/>
+</p>
+
+*Figura XXX. Insights del repositorio de payment. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
+**Microservicio Forum - Backend**
+
+En el repositorio del microservicio de foro se registraron los commits correspondientes al canal de interacción vecinal de cada edificio. Los aportes del equipo incluyen la regla de negocio de un post diario por residente, el módulo de moderación y la protección de endpoints con seguridad JWT.
+
+<p align="center">
+  <img src="assets/img/insights_forum.png" alt="Insights Landing Page" width="700"/>
+</p>
+
+*Figura XXX. Insights del repositorio de forum. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
+
+**Microservicio Communication - Backend**
+
+En el repositorio del microservicio de comunicados se registraron los commits correspondientes a la difusión de avisos oficiales en la plataforma. Los aportes del equipo incluyen el desarrollo de las herramientas de publicación para administradores.
+
+<p align="center">
+  <img src="assets/img/insights_communications.png" alt="Insights Landing Page" width="700"/>
+</p>
+
+*Figura XXX. Insights del repositorio de communication. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
+
 
 ##### 5.3.3.8. Kanban Board
+
+En esta sección se presentan las actividades desarrolladas durante el Sprint 3 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
+
+<p align="center">
+	<img src="assets/img/kanban_board3.png" alt="Kanban Board Sprint 3" width="700"/>
+</p>
+
+*Figura XXX. Kanban Board del Sprint 3 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+
+[https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
+
 
 # Conclusiones
 # Conclusiones y Recomendaciones
@@ -5661,6 +5817,13 @@ Recomendación:
 
 Se recomienda continuar con la implementación de los microservicios pendientes como Payment Service, Communication Service y Notification Service, priorizando aquellos que tienen mayor dependencia con los módulos ya desplegados para facilitar la integración temprana. Es fundamental fortalecer las pruebas automatizadas incorporando tests de integración entre microservicios a través del API Gateway, verificando que el enrutamiento, la validación de tokens y el manejo de errores funcionen correctamente en escenarios de comunicación real entre servicios. Además, se sugiere avanzar con la conexión completa del frontend a los endpoints disponibles, implementando los flujos de autenticación, gestión residencial y reservas de extremo a extremo para validar la experiencia de usuario con datos reales antes de la entrega final.
 
+TB4:
+
+El equipo completó la implementación de todos los microservicios planificados para la plataforma Edifika, concretando el desarrollo del Payment Service con integración a la pasarela Culqi y patrón Saga para garantizar la consistencia transaccional, el Communication Service para la publicación de comunicados oficiales con trazabilidad de lectura y métricas de alcance, y el Forum Service para el foro comunitario con control de límite diario de publicaciones por residente. Paralelamente, se avanzó con el desarrollo del frontend de la aplicación web, integrando las secciones de gestión de pagos, comunicados y foro con los endpoints de los microservicios desplegados. Las pruebas de ejecución realizadas a través del API Gateway confirmaron que los flujos de registro de deudas, procesamiento de pagos, publicación de comunicados, registro de lectura y creación de publicaciones en el foro operan correctamente bajo las validaciones definidas en los criterios de aceptación. Con este entregable, el sistema Edifika cuenta con todos sus módulos principales implementados y funcionando de manera integrada, demostrando que la arquitectura de microservicios adoptada desde el TB2 permitió al equipo desarrollar, desplegar y conectar servicios independientes de forma progresiva sin comprometer la estabilidad de los componentes ya existentes.
+
+Recomendación:
+
+Se recomienda enfocar los esfuerzos futuros en la activación de la integración real con la pasarela Culqi utilizando las credenciales de prueba del entorno sandbox, reemplazando el stub actual para validar el flujo completo de pagos en línea con transacciones reales. Es fundamental implementar pruebas automatizadas de integración que verifiquen la comunicación entre microservicios a través del API Gateway en escenarios de éxito y de fallo, incluyendo la compensación del patrón Saga ante caídas de servicios externos. Asimismo, se sugiere realizar pruebas de usabilidad con usuarios reales sobre el frontend desplegado para identificar mejoras en la experiencia de navegación y en la claridad de los flujos de pagos, reservas y comunicados antes de una eventual puesta en producción.
 
 # Referencias Bibliográficas
   - Aguilar, K. L. B. (2026). Vacíos regulatorios en la Ley de Propiedad en Condominio, análisis de conflictos recurrentes en su modalidad vertical ubicados en el Distrito Central (Tesis doctoral). Centro Universitario Tecnológico CEUTEC. `https://repositorio.unitec.edu/server/api/core/bitstreams/cd97bbd4-204c-49c8-9901-3d0a5a85d7f3/content`
