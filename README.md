@@ -5036,10 +5036,10 @@ A lo largo del Sprint 2, el historial de commits evidencia la evolución de la a
 | Edifika-Microservice-Reservation | develop | 8b74edb | fix: update Dockerfile to use Java 21 to match pom.xml | 07/06/2026 |
 | Edifika-Microservice-Reservation | develop | 41b3bd0 | fix: add production server to swagger | 07/06/2026 |
 | Edifika-Microservice-Reservation | develop | a27ceea | feat: add common area rules, types support and fix outbound mapping | 09/06/2026 |
-| Edifika-ApiGateway | main | c16d9a3 | feat: first commit | (3 semanas antes del 07/06/2026) |
-| Edifika-ApiGateway | main | 287329a | feat: Add routes, CORS, security, and filter | (2 semanas antes del 07/06/2026) |
+| Edifika-ApiGateway | main | c16d9a3 | feat: first commit | 07/06/2026 |
+| Edifika-ApiGateway | main | 287329a | feat: Add routes, CORS, security, and filter | 07/06/2026 |
 | Edifika-ApiGateway | main | d519878 | Merge pull request #1 from Condomia/dev | 07/06/2026 |
-| Edifika-ApiGateway | main | cff8c00 | feat: Add Dockerfile; add common-areas gateway route | (2 semanas antes del 07/06/2026) |
+| Edifika-ApiGateway | main | cff8c00 | feat: Add Dockerfile; add common-areas gateway route | 07/06/2026 |
 | Edifika-ApiGateway | main | d9f9695 | Merge pull request #2 from Condomia/dev | 07/06/2026 |
 ##### 5.3.2.3. Testing Suite Evidence for Sprint Review
 
