@@ -5426,6 +5426,35 @@ La siguiente imagen muestra el Kanban Board del Sprint 3 usando la herramienta T
 
 ##### 5.3.3.2. Development Evidence for Sprint Review
 
+A lo largo del Sprint 3, el historial de commits evidencia el avance incremental del proyecto Edifika en sus distintos repositorios. En los microservicios Forum, Communications y Payment se registran commits orientados a la implementación de funcionalidades clave como la configuración de seguridad, autenticación mediante JWT, creación de servicios, controladores, modelos de dominio y lógica de pagos. Estos avances fortalecen la arquitectura basada en microservicios, permitiendo que cada bounded context continúe evolucionando de manera independiente y segura.
+
+Asimismo, en el repositorio Edifika-Front se evidencian commits enfocados en la integración visual y funcional de la aplicación web, incluyendo mejoras en el dashboard, consumo de datos desde db.json, configuración de token mock, gestión de áreas comunes y actualización de vistas según roles y asociaciones de unidades. Cada commit representa una iteración específica del desarrollo, facilitando la trazabilidad del trabajo realizado durante el Sprint.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Edifika-Microservice-Forum | main | 3933a53 | feat(security): implement jwt authentication filter and security config | - | 21/06/2026 |
+| Edifika-Microservice-Communications | main | 16846b2 | Merge pull request #2 from Condomia/develop | - | 21/06/2026 |
+| Edifika-Microservice-Communications | develop | 4f3101e | feat() security | - | 21/06/2026 |
+| Edifika-Microservice-Communications | develop | 60c0055 | feat() security JWT | - | 21/06/2026 |
+| Edifika-Microservice-Communications | main | b93fc17 | Merge pull request #1 from Condomia/develop | - | 21/06/2026 |
+| Edifika-Microservice-Communications | develop | 6c1e43d | feat() and Controller | - | 21/06/2026 |
+| Edifika-Microservice-Communications | develop | 2b6748c | feat() services | - | 21/06/2026 |
+| Edifika-Microservice-Communications | develop | 3d17d21 | feat() Communication model domain services | - | 21/06/2026 |
+| Edifika-Microservice-Communications | develop | 14f141a | feat() propierties | - | 21/06/2026 |
+| Edifika-Microservice-Communications | develop | 5d81666 | feat() Shared | - | 21/06/2026 |
+| Edifika-Microservice-Communications | main | 7a3fa9e | Primer commit | - | 21/06/2026 |
+| Edifika-Microservice-Payment | main | 468fc50 | Merge pull request #1 from Condomia/dev | - | 20/06/2026 |
+| Edifika-Microservice-Payment | dev | 7361b91 | feat: Add payment domain, services & JWT security | - | 20/06/2026 |
+| Edifika-Microservice-Payment | dev | cee86bf | feat: first commit | - | 19/06/2026 |
+| Edifika-Front | main | 841de89 | options diseño y funcion | - | 24/06/2026 |
+| Edifika-Front | main | 8776d7e | Actualizar dashboard por roles y asociaciones de unidades | - | 24/06/2026 |
+| Edifika-Front | main | 7b1bc97 | token Mockuo | - | 22/06/2026 |
+| Edifika-Front | main | bd8a2a8 | token Mockuo | - | 22/06/2026 |
+| Edifika-Front | main | ab31299 | Configuration falta | - | 21/06/2026 |
+| Edifika-Front | main | 0b0300c | Dashboard consumiendo dbjson | - | 20/06/2026 |
+| Edifika-Front | main | e939d56 | Merge remote-tracking branch 'origin/main' | - | 20/06/2026 |
+| Edifika-Front | main | 7c0c86f | Common Area | - | 20/06/2026 |
+
 ##### 5.3.3.3. Testing Suite Evidence for Sprint Review
 
 ##### 5.3.3.4. Execution Evidence for Sprint Review
