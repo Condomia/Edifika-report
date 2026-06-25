@@ -5863,12 +5863,32 @@ Se recomienda enfocar los esfuerzos futuros en la activación de la integración
 - Impact map: `https://drive.google.com/file/d/1vSoBPwzNnKNbPt-nrmsQtPQPS1uqYmOt/view?usp=sharing`
 - User Persona 1: `https://drive.google.com/file/d/1CZasihoytHlc5yitISw_9r6zasZjfTG0/view?usp=sharing`
 - User Persona 2: `https://drive.google.com/file/d/1Iy0-x1W3vIBjgpKlcGfhzkv9yUg4askm/view?usp=sharing`
+  
 # Links
-- Enlace del repositorio: `https://github.com/Condomia/Edifika-report.git`
-- Enlace del repositorio de Landing page: `https://github.com/Condomia/Edifika-LandingPage.git`
-- Enlace del repositorio Microservicio IAM: `https://github.com/Condomia/Edifika-Microservice-IAM.git`
-- Enlace del repositorio Microservicio Reservation: `https://github.com/Condomia/Edifika-Microservice-Reservation.git`
-- Enlace del repositorio Microservicio Residential Management: `https://github.com/Condomia/Edifika-Microservice-Residential-Managemen.git`
-- Enlace del repositorio Microservicio API Gateway: `https://github.com/Condomia/Edifika-ApiGateway.git`
-- Enlace del Acceptance Test: `https://github.com/Condomia/Acceptance-tests-Edifika.git`
-- Enlace del Prototipo: `https://www.figma.com/proto/1ksaEJeKckW1WPlgeNyTbH/Untitled?node-id=3015-106&viewport=351%2C196%2C0.16&t=U3A6YtXgGNGnrgnD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3015%3A106&page-id=3012%3A2`
+
+**Repositorios**
+
+- Enlace del repositorio del informe: `https://github.com/Condomia/Edifika-report.git`
+- Enlace del repositorio de la página de aterrizaje: `https://github.com/Condomia/Edifika-LandingPage.git`
+- Enlace del repositorio del microservicio de autenticación (IAM): `https://github.com/Condomia/Edifika-Microservice-IAM.git`
+- Enlace del repositorio del microservicio de reservas: `https://github.com/Condomia/Edifika-Microservice-Reservation.git`
+- Enlace del repositorio del microservicio de gestión residencial: `https://github.com/Condomia/Edifika-Microservice-Residential-Managemen.git`
+- Enlace del repositorio del microservicio de puerta de enlace (API Gateway): `https://github.com/Condomia/Edifika-ApiGateway.git`
+- Enlace del repositorio del microservicio de pagos: `https://github.com/Condomia/Edifika-Microservice-Payment.git`
+- Enlace del repositorio del microservicio de comunicados: `https://github.com/Condomia/Edifika-Microservice-Communications.git`
+- Enlace del repositorio del microservicio de foro: `https://github.com/Condomia/Edifika-Microservice-Forum.git`
+- Enlace del repositorio del frontend: `https://github.com/Condomia/Edifika-Front.git`
+- Enlace del repositorio de pruebas de aceptación: `https://github.com/Condomia/Acceptance-tests-Edifika.git`
+- Enlace del prototipo: `https://www.figma.com/proto/1ksaEJeKckW1WPlgeNyTbH/Untitled?node-id=3015-106&viewport=351%2C196%2C0.16&t=U3A6YtXgGNGnrgnD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3015%3A106&page-id=3012%3A2`
+
+**Despliegues**
+
+- Enlace del despliegue del microservicio de autenticación (IAM): `https://edifika-microservice-iam.onrender.com`
+- Enlace del despliegue del microservicio de reservas: ` `
+- Enlace del despliegue del microservicio de gestión residencial: ` `
+- Enlace del despliegue del microservicio de puerta de enlace (API Gateway): `https://edifika-apigateway.onrender.com`
+- Enlace del despliegue del microservicio de pagos: `https://edifika-microservice-payment.onrender.com`
+- Enlace del despliegue del microservicio de comunicados: ` `
+- Enlace del despliegue del microservicio de foro: ` `
+- Enlace del despliegue del frontend: ` `
+
