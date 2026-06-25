@@ -5387,6 +5387,98 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 2 
 
 ##### 5.3.3.4. Execution Evidence for Sprint Review
 
+Esta sección se evidencia de ejecución del Sprint 3, donde se verificó el correcto funcionamiento de los endpoints de los microservicios Payment Service, Communication Service y Forum Service. Las pruebas se realizaron mediante Postman, enviando todas las solicitudes a través del API Gateway en el puerto 8080, validando que el enrutamiento, la verificación del Bearer Token JWT y las reglas de negocio de cada microservicio operan correctamente. A continuación se detallan las pruebas realizadas:
+
+**Endpoint: POST /api/v1/payments/debts**
+
+Se verificó el registro de una nueva deuda asociada a una unidad residencial enviando los campos requeridos como el identificador de la unidad, el monto, la descripción y la fecha de vencimiento. La solicitud fue procesada a través del API Gateway, el cual validó el Bearer Token y redirigió la petición al microservicio Payment Service. El sistema registró la deuda con estado PENDIENTE y retornó un código 201 confirmando la creación del registro.
+
+<p align="center">
+  <img src="assets/img/execution_post_debts.png" alt="Ejecución POST Debts" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint POST Debts a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: GET /api/v1/payments/debts/unit/{unitId}**
+
+Se comprobó la consulta de deudas pendientes de una unidad residencial específica enviando el unitId como parámetro de ruta junto con el Bearer Token. El API Gateway redirigió la solicitud al microservicio Payment Service, el cual retornó un código 200 con la lista de deudas asociadas a la unidad incluyendo monto, descripción, fecha de vencimiento y estado.
+
+<p align="center">
+  <img src="assets/img/execution_get_debts_unit.png" alt="Ejecución GET Debts by Unit" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint GET Debts by Unit a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: POST /api/v1/payments**
+
+Se verificó el registro de un pago enviando los datos de la transacción junto con el token de Culqi para procesar el cobro contra la pasarela externa. El API Gateway validó el Bearer Token y enrutó la solicitud al microservicio Payment Service, el cual procesó el pago, registró la transacción y retornó un código 201 confirmando la operación.
+
+<p align="center">
+  <img src="assets/img/execution_post_payments.png" alt="Ejecución POST Payments" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint POST Payments a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: PUT /api/v1/payments/{paymentId}/confirm**
+
+Se comprobó la confirmación manual de un pago por parte del administrador enviando el paymentId como parámetro de ruta y el estado de confirmación en el body. El API Gateway procesó la solicitud y la redirigió al microservicio Payment Service, el cual actualizó el estado del pago y la deuda asociada, retornando un código 200 con los datos actualizados.
+
+<p align="center">
+  <img src="assets/img/execution_put_confirm_payment.png" alt="Ejecución PUT Confirm Payment" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint PUT Confirm Payment a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: GET /api/v1/payments/user/{userId}**
+
+Se verificó la consulta del historial de pagos de un residente enviando el userId como parámetro de ruta con el Bearer Token. El microservicio Payment Service retornó un código 200 con la lista completa de transacciones del residente incluyendo monto, fecha, estado y referencia de la deuda asociada.
+
+<p align="center">
+  <img src="assets/img/execution_get_payments_user.png" alt="Ejecución GET Payments by User" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint GET Payments by User a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: POST /api/v1/announcements**
+
+Se verificó la publicación de un nuevo comunicado oficial enviando los campos de título, descripción, prioridad y el identificador del edificio destino. El API Gateway validó el token y redirigió la solicitud al microservicio Communication Service, el cual registró el comunicado y retornó un código 201 confirmando su publicación.
+
+<p align="center">
+  <img src="assets/img/execution_post_announcements.png" alt="Ejecución POST Announcements" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint POST Announcements a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: GET /api/v1/announcements?buildingId={id}**
+
+Se comprobó la consulta de comunicados asociados a un edificio específico enviando el buildingId como parámetro de query junto con el Bearer Token. El microservicio Communication Service retornó un código 200 con la lista de comunicados del edificio incluyendo título, descripción, prioridad y fecha de publicación.
+
+<p align="center">
+  <img src="assets/img/execution_get_announcements.png" alt="Ejecución GET Announcements" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint GET Announcements a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: GET /api/v1/announcements/{announcementId}/metrics**
+
+Se verificó la consulta de métricas de lectura de un comunicado específico enviando el announcementId como parámetro de ruta. El microservicio Communication Service retornó un código 200 con la cantidad total de residentes del edificio, cuántos leyeron el comunicado y el porcentaje de alcance.
+
+<p align="center">
+  <img src="assets/img/execution_get_metrics.png" alt="Ejecución GET Metrics" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint GET Metrics a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: POST /api/v1/posts**
+
+Se comprobó la creación de una nueva publicación en el foro comunitario enviando el contenido del mensaje, el identificador del residente, el identificador del edificio y opcionalmente una URL de imagen. El API Gateway validó el token y redirigió la solicitud al microservicio Forum Service, el cual verificó que el residente no haya superado el límite de una publicación diaria, registró el mensaje y retornó un código 201 confirmando la publicación.
+
+<p align="center">
+  <img src="assets/img/execution_post_forum.png" alt="Ejecución POST Forum" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint POST Forum a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
 ##### 5.3.3.5. Microservices Documentation Evidence for Sprint Review
 
 Durante el Sprint 3 se documentaron los endpoints de los microservicios Payment Service, Communication Service y Forum Service mediante Swagger UI. A continuación se presentan los controladores implementados con el detalle de sus rutas, métodos HTTP y funcionalidad expuesta. Todos los endpoints están protegidos mediante Bearer Token JWT, cuya validación se realiza de forma centralizada a través del API Gateway. Estos tres microservicios completan los módulos principales de la plataforma Edifika, abarcando la gestión financiera, los comunicados oficiales y el foro comunitario del condominio.
