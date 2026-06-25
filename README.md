@@ -4984,23 +4984,63 @@ La siguiente imagen muestra el Kanban Board del Sprint 2 usando la herramienta T
 
 A lo largo del Sprint 2, el historial de commits evidencia la evolución de la arquitectura de Edifika hacia una solución basada en microservicios. Durante este sprint se desarrollaron componentes clave como el API Gateway, encargado de centralizar y enrutar las solicitudes entre servicios, así como los microservicios de Gestión Residencial y Reservas, incorporando sus respectivas capas de dominio, repositorios, servicios de aplicación y controladores. Asimismo, se implementaron configuraciones de seguridad, políticas CORS y mecanismos de despliegue mediante Docker para facilitar la integración y ejecución de los servicios. En paralelo, el repositorio Frontend registra avances relacionados con la construcción de la estructura base de la aplicación, la implementación de servicios compartidos y el desarrollo de las funcionalidades de autenticación mediante las pantallas de Login y Register. Cada commit representa una iteración verificable del desarrollo, permitiendo rastrear el progreso técnico de la solución desde la creación inicial de los componentes hasta su integración dentro de la plataforma.
 
-| Repository | Branch | Commit Message | Fecha |
-|------------|---------|---------|---------|
-| Edifika-Microservice-Reservation | develop | feat: add reservation microservice | 03/06/2026 |
-| Edifika-Microservice-Reservation | develop | feat: implement booking type enum and dynamic capacity availability | 07/06/2026 |
-| Edifika-API-Gateway | dev | feat: first commit | 07/06/2026 |
-| Edifika-API-Gateway | dev | feat: Add routes, CORS, security, and filter | 07/06/2026 |
-| Edifika-API-Gateway | dev | feat: Add Dockerfile; add common-areas gateway route | 07/06/2026 |
-| Edifika-Microservice-Residential-Management | develop | Initial residential management microservice | 02/06/2026 |
-| Edifika-Microservice-Residential-Management | develop | feat(): Add domain model | 02/06/2026 |
-| Edifika-Microservice-Residential-Management | develop | feat(): Add Repositories | 02/06/2026 |
-| Edifika-Microservice-Residential-Management | develop | feat(): Add ResidentialCommandServiceImpl | 02/06/2026 |
-| Edifika-Microservice-Residential-Management | develop | feat(): Add Assembler and Controller | 02/06/2026 |
-| Edifika-Microservice-Residential-Management | develop | feat(): Add Dockerfile | 07/06/2026 |
-| Edifika-Front | main | initial commit | 06/06/2026 |
-| Edifika-Front | main | base services | 06/06/2026 |
-| Edifika-Front | main | Login | 07/06/2026 |
-| Edifika-Front | main | Register | 07/06/2026 |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Edifika-Microservice-IAM | develop | f5e5044 | Merge pull request #3 from Condomia/develop | - | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 4c3986b | feat: Add document fields, validations and configs | - | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 1ec8be0 | Merge pull request #4 from Condomia/develop | - | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 612c4f4 | fix: Use env vars for datasource config | - | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 80900a7 | Merge pull request #5 from Condomia/develop | - | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 6bad10d | feat: create Dockerfile | - | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 1b44f89 | Merge pull request #6 from Condomia/develop | - | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 0898e45 | update properties | - | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 86041de | Merge pull request #7 from Condomia/develop | - | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 59634d8 | feat: signup roles via RoleRepository | - | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 6104bc3 | Merge pull request #8 from Condomia/develop | - | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 68ed6c0 | Update application.properties | - | 14/05/2026 |
+| Edifika-Microservice-IAM | develop | 50f4022 | Merge pull request #9 from Condomia/develop | - | 14/05/2026 |
+| Edifika-Microservice-IAM | main | eae4960 | Testing | - | 10/06/2026 |
+| Edifika-Front | main | fe46fae | initial commit | - | 06/06/2026 |
+| Edifika-Front | main | d80bb4a | Estructura base | - | 06/06/2026 |
+| Edifika-Front | main | c47fd8b | base services | - | 06/06/2026 |
+| Edifika-Front | main | dee3544 | Login | - | 07/06/2026 |
+| Edifika-Front | main | d04c9e5 | Register | - | 07/06/2026 |
+| Edifika-Front | main | e09c972 | Update index.html | - | 07/06/2026 |
+| Edifika-Front | main | be60628 | feat add: pantallas | - | 07/06/2026 |
+| Edifika-Front | main | d877621 | Refactor project structure | - | 07/06/2026 |
+| Edifika-Front | main | 05c56ef | feat: update dashboard view | - | 07/06/2026 |
+| Edifika-Front | main | 3b14c8a | Common Area | - | 08/06/2026 |
+| Edifika-Front | main | c88abcb | Common Area | - | 09/06/2026 |
+| Edifika-Microservice-Residential-Management | main | 5a5829f | Merge pull request #1 from Condomia/develop | - | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | 2e4b541 | feat(): Add shared | - | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | main | 291ad3b | Merge pull request #2 from Condomia/develop | - | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | 58488ec | feat() domain model | - | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | main | 1a47e61 | Merge pull request #3 from Condomia/develop | - | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | ca8e1c1 | feat() Repositories | - | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | main | 7a43bdd | Merge pull request #4 from Condomia/develop | - | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | 1fa0fda | feat() ResidentialCommandServiceImpl | - | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | main | ec4526c | Merge pull request #5 from Condomia/develop | - | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | 1dbf860 | feat() Assembler and Controller | - | 02/06/2026 |
+| Edifika-Microservice-Residential-Management | main | e956ff9 | Merge pull request #6 from Condomia/develop | - | 06/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | c4c0f83 | fix() Unit | - | 06/06/2026 |
+| Edifika-Microservice-Residential-Management | main | 7bf3eea | Merge pull request #7 from Condomia/develop | - | 07/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | 32971d8 | fix() application properties | - | 07/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | 2e6af7f | feat() Dockerfile | - | 07/06/2026 |
+| Edifika-Microservice-Residential-Management | develop | 93867cf | feat() Dockerfile | - | 07/06/2026 |
+| Edifika-Microservice-Residential-Management | main | f1d5f66 | Merge pull request #8 from Condomia/develop | - | 07/06/2026 |
+| Edifika-Microservice-Reservation | main | bb57076 | feat: add reservation microservice | - | 03/06/2026 |
+| Edifika-Microservice-Reservation | develop | 4294aa3 | feat: implement booking type enum and dynamic capacity availability | - | 07/06/2026 |
+| Edifika-Microservice-Reservation | main | 0edf46d | Merge pull request #1 from Condomia/develop | - | 07/06/2026 |
+| Edifika-Microservice-Reservation | develop | 2159a88 | chore: configure properties and Dockerfile for reservations deployment | - | 07/06/2026 |
+| Edifika-Microservice-Reservation | main | 4bde84d | Merge pull request #2 from Condomia/develop | - | 07/06/2026 |
+| Edifika-Microservice-Reservation | develop | 8b74edb | fix: update Dockerfile to use Java 21 to match pom.xml | - | 07/06/2026 |
+| Edifika-Microservice-Reservation | develop | 41b3bd0 | fix: add production server to swagger | - | 07/06/2026 |
+| Edifika-Microservice-Reservation | develop | a27ceea | feat: add common area rules, types support and fix outbound mapping | - | 09/06/2026 |
+| Edifika-ApiGateway | main | c16d9a3 | feat: first commit | - | (3 semanas antes del 07/06/2026) |
+| Edifika-ApiGateway | main | 287329a | feat: Add routes, CORS, security, and filter | - | (2 semanas antes del 07/06/2026) |
+| Edifika-ApiGateway | main | d519878 | Merge pull request #1 from Condomia/dev | - | 07/06/2026 |
+| Edifika-ApiGateway | main | cff8c00 | feat: Add Dockerfile; add common-areas gateway route | - | (2 semanas antes del 07/06/2026) |
+| Edifika-ApiGateway | main | d9f9695 | Merge pull request #2 from Condomia/dev | - | 07/06/2026 |
 
 ##### 5.3.2.3. Testing Suite Evidence for Sprint Review
 
