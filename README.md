@@ -5389,6 +5389,60 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 2 
 
 ##### 5.3.3.5. Microservices Documentation Evidence for Sprint Review
 
+Durante el Sprint 3 se documentaron los endpoints de los microservicios Payment Service, Communication Service y Forum Service mediante Swagger UI. A continuación se presentan los controladores implementados con el detalle de sus rutas, métodos HTTP y funcionalidad expuesta. Todos los endpoints están protegidos mediante Bearer Token JWT, cuya validación se realiza de forma centralizada a través del API Gateway. Estos tres microservicios completan los módulos principales de la plataforma Edifika, abarcando la gestión financiera, los comunicados oficiales y el foro comunitario del condominio.
+
+**Payment Controller**
+
+Controlador encargado de la gestión financiera del condominio. Permite registrar deudas asociadas a unidades residenciales, procesar pagos a través de la pasarela Culqi, confirmar o rechazar pagos manualmente y consultar el historial de pagos de cada residente con posibilidad de filtrado por año.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | /api/v1/payments/debts | Registra una nueva deuda asociada a una unidad residencial. |
+| GET | /api/v1/payments/debts/unit/{unitId} | Consulta las deudas pendientes de una unidad específica. |
+| POST | /api/v1/payments | Registra un intento de pago y lo procesa contra la pasarela Culqi. |
+| PUT | /api/v1/payments/{paymentId}/confirm | Confirma o rechaza manualmente un pago por parte del administrador. |
+| GET | /api/v1/payments/user/{userId} | Consulta el historial completo de pagos de un residente. |
+| GET | /api/v1/payments/user/{userId}/year/{year} | Consulta el historial de pagos de un residente filtrado por año. |
+
+<p align="center">
+  <img src="assets/img/payment_controller.png" alt="Payment Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Endpoints del Payment Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+
+**Communication Controller**
+
+Controlador responsable de la gestión de comunicados oficiales del condominio. Permite a los administradores publicar avisos, consultar comunicados por edificio, registrar la lectura por parte de los residentes, archivar comunicados y obtener métricas de alcance de cada publicación.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | /api/v1/announcements | Publica un nuevo comunicado oficial en el condominio. |
+| GET | /api/v1/announcements?buildingId={id} | Obtiene los comunicados asociados a un edificio específico. |
+| GET | /api/v1/announcements/{announcementId} | Consulta el detalle de un comunicado por su identificador. |
+| POST | /api/v1/announcements/{announcementId}/read | Registra la lectura de un comunicado por parte de un residente. |
+| PUT | /api/v1/announcements/{announcementId}/archive | Archiva un comunicado para que deje de mostrarse como activo. |
+| GET | /api/v1/announcements/{announcementId}/metrics | Obtiene las métricas de lectura y porcentaje de alcance del comunicado. |
+
+<p align="center">
+  <img src="assets/img/communication_controller.png" alt="Communication Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Endpoints del Communication Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+
+**Post Controller**
+
+Controlador dedicado al foro comunitario del condominio. Permite a los residentes publicar mensajes en el canal de su edificio, incluyendo la posibilidad de adjuntar una imagen a la publicación.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | /api/v1/posts | Crea una nueva publicación en el foro comunitario del edificio. |
+
+<p align="center">
+  <img src="assets/img/post_controller.png" alt="Post Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Endpoints del Post Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+
 ##### 5.3.3.6. Software Deployment Evidence for Sprint Review
 
 ##### 5.3.3.7. Team Collaboration Insights during Sprint
