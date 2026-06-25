@@ -5612,7 +5612,7 @@ Controlador dedicado al foro comunitario del condominio. Permite a los residente
 ##### 5.3.3.7. Team Collaboration Insights during Sprint
 Esta sección presenta los cuadros analíticos de colaboración del equipo durante el Sprint 3, evidenciando la participación de los miembros a través de los commits registrados en los repositorios de GitHub. Se muestran las contribuciones realizadas tanto en el repositorio de microservicios como Payment, Forum y Communication.
 
-**Microservicio Payment - Backend*
+**Microservicio Payment - Backend**
 
 En el repositorio del microservicio de pagos se registraron los commits correspondientes a la gestión financiera del condominio. Los aportes del equipo incluyen la lógica para el control de deudas y cuotas de mantenimiento y la integración con la pasarela Culqi.
 
@@ -5620,7 +5620,9 @@ En el repositorio del microservicio de pagos se registraron los commits correspo
   <img src="assets/img/insights_payment.png" alt="Insights Landing Page" width="700"/>
 </p>
 
-**Microservicio Forum - Backend*
+*Figura XXX. Insights del repositorio de payment. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
+**Microservicio Forum - Backend**
 
 En el repositorio del microservicio de foro se registraron los commits correspondientes al canal de interacción vecinal de cada edificio. Los aportes del equipo incluyen la regla de negocio de un post diario por residente, el módulo de moderación y la protección de endpoints con seguridad JWT.
 
@@ -5628,13 +5630,19 @@ En el repositorio del microservicio de foro se registraron los commits correspon
   <img src="assets/img/insights_forum.png" alt="Insights Landing Page" width="700"/>
 </p>
 
-**Microservicio Communication - Backend*
+*Figura XXX. Insights del repositorio de forum. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
+
+**Microservicio Communication - Backend**
 
 En el repositorio del microservicio de comunicados se registraron los commits correspondientes a la difusión de avisos oficiales en la plataforma. Los aportes del equipo incluyen el desarrollo de las herramientas de publicación para administradores.
 
 <p align="center">
   <img src="assets/img/insights_communications.png" alt="Insights Landing Page" width="700"/>
 </p>
+
+*Figura XXX. Insights del repositorio de communication. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
 
 
 ##### 5.3.3.8. Kanban Board
