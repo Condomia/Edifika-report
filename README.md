@@ -302,8 +302,8 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB1: Realicé el análisis de competidores y conduje entrevistas a usuarios, actualizando conocimientos sobre el sector de gestión de condominios (secciones 2.1.1, 2.2.2).<br><br>
         TB2: Apliqué conocimientos de arquitectura elaborando los diagramas C4 y el diagrama ERD para representar la estructura, servicios y relaciones del sistema (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
         TP: Actualicé los diagramas C4, de componentes, clases y ERD del sistema, reforzando el uso de Git y GitHub para la gestión del código fuente del proyecto (secciones 4.1.4, 4.1.5, 4.1.6, 5.2.2).<br><br>
-        TB3: Actualicé conocimientos de microservicios y modelado de datos para implementar el microservicio de Residential Management, corrigiendo además los diagramas de clases y ERD para reflejar con mayor precisión la estructura del sistema (secciones 5.3.2.2, 4.1.5, 4.1.6). <br><br>
-		TB4: <br><br>
+        TB3:Actualicé conocimientos de microservicios y modelado de datos para implementar el microservicio de Residential Management, corrigiendo además los diagramas de clases y ERD para reflejar con mayor precisión la estructura del sistema (secciones 5.3.2.2, 4.1.5, 4.1.6). <br><br>
+		  TB4: Actualicé mis conocimientos sobre el desarrollo y despliegue de microservicios con Spring Boot, implementando el microservicio de Communication e integrándolo con una base de datos PostgreSQL desplegada en Supabase. Asimismo, configuré el despliegue del servicio en Render, fortaleciendo mis competencias en integración de servicios y gestión de infraestructura en la nube para soluciones de ingeniería de software (sección 5.3.2.6).<br><br>
       </td>
       <td>
         TB1: El equipo incorporó nuevos conceptos y herramientas de ingeniería de software a lo largo del primer entregable, reflejando un proceso de actualización continua en la calidad y coherencia de la documentación producida.<br><br>
@@ -345,7 +345,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB2: Reconocí que elaborar los diagramas C4 y ERD exigió reforzar conceptos de arquitectura, comunicación entre servicios y modelado de datos (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
         TP: Reconocí que el desarrollo de EDIFIKA exige aprendizaje continuo en arquitectura y gestión de configuración, mejorando mi desempeño y adaptación a nuevas herramientas del proyecto (secciones 4.1.4, 5.2.2).<br><br>
         TB3: Reconocí que implementar y corregir el microservicio de Residential Management exige aprendizaje continuo, ya que cada ajuste en los endpoints REST y los diagramas del sistema demandó investigar y aplicar nuevos conceptos de forma iterativa (secciones 5.3.2.2, 4.1.5, 4.1.6).<br><br>
-		TB4: <br><br>
+		  TB4: Reconocí la importancia del aprendizaje continuo al adquirir conocimientos sobre plataformas de despliegue en la nube y configuración de bases de datos remotas, lo que me permitió publicar el microservicio de Communication y establecer su conexión con PostgreSQL mediante variables de entorno. Esta experiencia fortaleció mis habilidades para desarrollar e implementar soluciones de software utilizando tecnologías actuales (sección 5.3.2.6).<br><br>
       </td>
       <td>
         TB1: El proyecto Edifika demostró que mantenerse en constante aprendizaje es necesario, ya que cada sección trabajada presentó retos que exigieron investigar, cuestionar y adaptarse.<br><br>
@@ -5649,6 +5649,89 @@ Controlador dedicado al foro comunitario del condominio. Permite a los residente
 *Figura XX. Endpoints del Post Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 ##### 5.3.3.6. Software Deployment Evidence for Sprint Review
+
+
+En esta sección se presenta la evidencia del despliegue del software realizado para la revisión del Sprint 2. Se muestran los resultados obtenidos durante la publicación de los microservicios desarrollados, evidenciando su disponibilidad en la nube y su correcta configuración para ser consumidos por otros componentes de la arquitectura basada en microservicios.
+
+### Backend
+
+Para el despliegue de los microservicios se utilizó **Render** como plataforma en la nube, ya que permite automatizar la publicación de aplicaciones desarrolladas con Spring Boot. Cada microservicio fue vinculado a su respectivo repositorio de GitHub, permitiendo que Render compile automáticamente el proyecto utilizando Maven, según la configuración definida en el archivo `pom.xml`.
+
+Además, se configuró un entorno de ejecución para Java y las variables de entorno necesarias para el funcionamiento de cada servicio. Una vez finalizado el proceso de despliegue, Render generó una URL pública para cada microservicio, permitiendo su acceso mediante peticiones HTTP desde el API Gateway u otros servicios de la arquitectura.
+
+*Communication*
+
+<p align="center">
+  <img src="assets/img/communication_deploy.png" alt="Post Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Communication Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Payment Microservice*
+
+<p align="center">
+  <img src="assets/img/payment_deploy.png" alt="Post Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Payment Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+Forum*
+
+<p align="center">
+  <img src="assets/img/forum_deploy.png" alt="Post Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Forum Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+
+### Database
+
+Para el almacenamiento de la información se utilizó **Supabase**, una plataforma en la nube que proporciona bases de datos PostgreSQL administradas. Para cada microservicio se configuró una instancia de base de datos con sus respectivas credenciales de acceso, incluyendo host, puerto, nombre de la base de datos, usuario y contraseña.
+
+Estas credenciales fueron registradas como variables de entorno dentro de Render, permitiendo que cada microservicio establezca una conexión segura con su base de datos durante la ejecución. De esta manera, los servicios pueden realizar operaciones de persistencia, consulta y actualización de información de forma remota.
+
+*Communication*
+
+<p align="center">
+  <img src="assets/img/communication_db_deploy.png" alt="Post Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Communication Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+
+*Payment*
+
+<p align="center">
+  <img src="assets/img/payment_db_deploy.png" alt="Post Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Payment Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+
+*Forum*
+
+<p align="center">
+  <img src="assets/img/forum_db_deploy.png" alt="Post Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Forum Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+
+
+### Frontend
+
+Durante el Sprint 2, el frontend continuó desplegado mediante **Render**, permitiendo integrar las nuevas funcionalidades correspondientes a los microservicios de **Communication**, **Payment** y **Forum**.
+
+La aplicación fue desarrollada utilizando **Angular**, siguiendo una arquitectura modular que facilita la integración de nuevos módulos y el consumo de servicios REST expuestos por los microservicios. El código fuente se gestionó mediante GitHub, permitiendo implementar un flujo de integración y despliegue continuo (CI/CD), donde cada actualización realizada sobre la rama principal genera automáticamente una nueva versión del sistema en Render.
+
+Gracias a este proceso, la aplicación web permanece disponible mediante una URL pública y puede consumir los endpoints expuestos por los microservicios desplegados durante el Sprint 2.
+
+<p align="center">
+  <img src="assets/img/front_deploy2.png" alt="Post Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Frontend Deployment. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+
+
+
 
 ##### 5.3.3.7. Team Collaboration Insights during Sprint
 Esta sección presenta los cuadros analíticos de colaboración del equipo durante el Sprint 3, evidenciando la participación de los miembros a través de los commits registrados en los repositorios de GitHub. Se muestran las contribuciones realizadas tanto en el repositorio de microservicios como Payment, Forum y Communication.
