@@ -252,6 +252,11 @@ TB3 (05/06/2026):
   <img src="assets/img/insights4.png" alt="3"/>
 </p>
 
+TB3 (25/06/2026):
+
+<p align="center">
+  <img src="assets/img/insights5.png" alt="3"/>
+</p>
 ## **Student Outcome**
 ABET – EAC - Student Outcome 7: Aprendizaje Continuo y Autónomo <br>
 Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
@@ -285,22 +290,26 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB2: Apliqué conceptos de arquitectura de software para definir principios, patrones y tácticas del sistema, elaborando los diagramas de secuencia correspondientes (secciones 4.1.1, 4.1.2, 4.1.8).<br><br>
         TP: Implementé el microservicio IAM con autenticación JWT, encriptación BCrypt y documentación Swagger, desplegándolo en Render con base de datos PostgreSQL en Supabase (secciones 5.3.1.2, 5.3.1.5, 5.3.1.6).<br><br>
         TB3: Implementé el API Gateway con Spring Cloud Gateway, configurando políticas CORS, filtros de validación JWT y reglas de enrutamiento hacia los microservicios del sistema (secciones 5.3.2.2, 5.3.2.5, 5.3.2.6).<br><br>
+		TB4: <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: Elaboré los cuadros As-Is y To-Be, el Impact Map y conduje una entrevista a usuario para alinear las necesidades reales con la solución propuesta (secciones 2.3.4, 3.1, 3.3).<br><br>
         TB2: Apliqué conceptos de arquitectura de software identificando drivers, constraints y concerns, y definiendo componentes y relaciones dentro del sistema (secciones 4.2.4, 4.2.5).<br><br>
         TP: Diseñé los mockups de la aplicación web para administradores cubriendo los módulos de autenticación, pagos, reservas y comunicados, y contribuí en la definición de las Testing Suites del proyecto (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Elaboré la evidencia de testing del Sprint 2 y gestioné el despliegue del frontend de la aplicación web de Edifika (secciones 5.3.2.3, 5.3.2.6).<br><br>
+		TB4: <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: Realicé el análisis de competidores y conduje entrevistas a usuarios, actualizando conocimientos sobre el sector de gestión de condominios (secciones 2.1.1, 2.2.2).<br><br>
         TB2: Apliqué conocimientos de arquitectura elaborando los diagramas C4 y el diagrama ERD para representar la estructura, servicios y relaciones del sistema (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
         TP: Actualicé los diagramas C4, de componentes, clases y ERD del sistema, reforzando el uso de Git y GitHub para la gestión del código fuente del proyecto (secciones 4.1.4, 4.1.5, 4.1.6, 5.2.2).<br><br>
         TB3: Actualicé conocimientos de microservicios y modelado de datos para implementar el microservicio de Residential Management, corrigiendo además los diagramas de clases y ERD para reflejar con mayor precisión la estructura del sistema (secciones 5.3.2.2, 4.1.5, 4.1.6). <br><br>
+		TB4: <br><br>
       </td>
       <td>
         TB1: El equipo incorporó nuevos conceptos y herramientas de ingeniería de software a lo largo del primer entregable, reflejando un proceso de actualización continua en la calidad y coherencia de la documentación producida.<br><br>
         TB2: El equipo profundizó en arquitectura de software aplicada al diseño de Edifika, tomando decisiones basadas en atributos de calidad y aplicando patrones que fortalecen la escalabilidad del sistema.<br><br>
         TP: El equipo avanzó en la implementación de Edifika aplicando conocimientos en Spring Boot, JWT, Docker, PostgreSQL y herramientas de prototipado, evidenciando la capacidad de adquirir competencias técnicas según las demandas del proyecto.<br><br>
         TB3: El equipo concretó el desarrollo de los microservicios de Reservas y Residential Management, el API Gateway y secciones del frontend, actualizando conocimientos técnicos por componente e incorporando nuevas tecnologías conforme evolucionó el sistema.<br><br>
+		TB4: <br><br>
       </td>
     </tr>
     <tr>
@@ -323,22 +332,26 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB2: Comprendí que diseñar la arquitectura con patrones como microservicios y DDD exige investigación continua en conceptos que no manejaba previamente (secciones 4.1.2, 4.1.3).<br><br>
         TP: Reconocí que el desarrollo backend con microservicios requiere dominar múltiples tecnologías en simultáneo, como JWT, DDD y despliegue cloud, enfrentando problemas reales no previstos (secciones 5.3.1.2, 5.3.1.5, 5.3.1.6).<br><br>
         TB3: Reconocí que implementar un API Gateway exige comprender la interacción entre componentes de una arquitectura distribuida, investigando filtros de seguridad, CORS y ciclo de vida de solicitudes HTTP (secciones 5.3.2.2, 5.3.2.5).<br><br>
+		TB4: <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: Reconocí la importancia del aprendizaje continuo al elaborar los cuadros As-Is, To-Be e Impact Map, herramientas que exigieron comprender cómo analizar al usuario y estructurar soluciones alineadas a sus necesidades (secciones 2.3.4, 3.1, 3.3).<br><br>
         TB2: Reconocí que comprender la arquitectura de software requiere actualización permanente, evidenciado en la identificación de constraints y concerns del sistema (secciones 4.2.4, 4.2.5).<br><br>
         TP: Reconocí que diseñar interfaces coherentes exige actualizar constantemente conocimientos en usabilidad y tendencias de diseño, reflejado en las decisiones tomadas para cada módulo de los mockups (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Reconocí que documentar el testing y gestionar el despliegue del frontend demanda aprendizaje continuo sobre estrategias de validación y configuración de entornos de producción (secciones 5.3.2.3, 5.3.2.6).<br><br>
+		TB4: <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: Reconocí que el aprendizaje permanente es esencial al tener que investigar el sector para desarrollar el Lean UX Canvas and el análisis de competidores (secciones 1.2.3.4, 2.1.1).<br><br>
         TB2: Reconocí que elaborar los diagramas C4 y ERD exigió reforzar conceptos de arquitectura, comunicación entre servicios y modelado de datos (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
         TP: Reconocí que el desarrollo de EDIFIKA exige aprendizaje continuo en arquitectura y gestión de configuración, mejorando mi desempeño y adaptación a nuevas herramientas del proyecto (secciones 4.1.4, 5.2.2).<br><br>
         TB3: Reconocí que implementar y corregir el microservicio de Residential Management exige aprendizaje continuo, ya que cada ajuste en los endpoints REST y los diagramas del sistema demandó investigar y aplicar nuevos conceptos de forma iterativa (secciones 5.3.2.2, 4.1.5, 4.1.6).<br><br>
+		TB4: <br><br>
       </td>
       <td>
         TB1: El proyecto Edifika demostró que mantenerse en constante aprendizaje es necesario, ya que cada sección trabajada presentó retos que exigieron investigar, cuestionar y adaptarse.<br><br>
         TB2: La arquitectura de Edifika reafirmó que el aprendizaje permanente es indispensable en ingeniería de software, evidenciado en la aplicación de ADD Iterations, patrones arquitectónicos y diseño basado en atributos de calidad.<br><br>
         TP: La implementación del primer microservicio evidenció que cada fase del proyecto plantea retos técnicos nuevos que solo se resuelven mediante aprendizaje continuo, desde la configuración de seguridad hasta el despliegue en producción.<br><br>
         TB3: La implementación simultánea de microservicios, API Gateway y frontend demostró que un sistema distribuido plantea desafíos continuos que obligan a cada integrante a investigar y adaptarse constantemente, reafirmando el aprendizaje permanente como pilar del proyecto.<br><br>
+		TB4: <br><br>
       </td>
     </tr>
   </tbody>
@@ -5643,6 +5656,9 @@ Recomendación:
 
 Se recomienda continuar con la implementación de los microservicios pendientes como Payment Service, Communication Service y Notification Service, priorizando aquellos que tienen mayor dependencia con los módulos ya desplegados para facilitar la integración temprana. Es fundamental fortalecer las pruebas automatizadas incorporando tests de integración entre microservicios a través del API Gateway, verificando que el enrutamiento, la validación de tokens y el manejo de errores funcionen correctamente en escenarios de comunicación real entre servicios. Además, se sugiere avanzar con la conexión completa del frontend a los endpoints disponibles, implementando los flujos de autenticación, gestión residencial y reservas de extremo a extremo para validar la experiencia de usuario con datos reales antes de la entrega final.
 
+TB4: 
+
+Recomendación:
 
 # Referencias Bibliográficas
   - Aguilar, K. L. B. (2026). Vacíos regulatorios en la Ley de Propiedad en Condominio, análisis de conflictos recurrentes en su modalidad vertical ubicados en el Distrito Central (Tesis doctoral). Centro Universitario Tecnológico CEUTEC. `https://repositorio.unitec.edu/server/api/core/bitstreams/cd97bbd4-204c-49c8-9901-3d0a5a85d7f3/content`
