@@ -21,7 +21,7 @@ NRC: 7944
 <br><br>
 Docente: Abel Nehemias Rosales Caururu  
 <br><br>
-<strong>Informe de TB3</strong>  
+<strong>Informe de TB4</strong>  
 <br><br>
 Startup: Condomia  
 <br><br>
