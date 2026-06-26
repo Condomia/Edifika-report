@@ -71,33 +71,9 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         - Zegarra López, Renato Sebastián Rubber
       </td>
       <td>
-        Se realizaron los siguientes puntos del informe: <br><br>
-        <b>Capítulo I: Introducción</b> <br>
-        1.1 Startup Profile <br>
-        1.1.1 Descripción de la Startup <br>
-        1.1.2 Perfiles de integrantes del equipo <br>
-        1.2 Solution Profile <br>
-        1.2.1 Nombre del producto <br>
-        1.2.2 Antecedentes y problemática <br>
-        1.2.3 Lean UX Process <br>
-        1.2.3.1 Lean UX Problem Statement <br>
-        1.2.3.2 Lean UX Assumptions <br>
-        1.2.3.3 Lean UX Hypothesis <br>
-        1.2.3.4 Lean UX Canvas <br>
-        1.3 Segmentos objetivo <br><br>
-        <b>Capítulo II: Requirements & Analysis</b> <br>
-        2.1 Competidores <br>
-        2.2 Entrevistas <br>
-        2.3 Needfinding <br>
-        2.3.1 User Personas <br>
-        2.3.2 User Task Matrix <br>
-        2.3.3 Empathy Maps <br>
-        2.3.4 As-is Scenario Mapping <br><br>
-        <b>Capítulo III: Requirements Specification</b> <br>
-        3.1 To-Be Scenario Mapping <br>
-        3.2 User Stories <br>
-        3.3 Impact Map <br>
-        3.4 Product Backlog
+        - Capítulo I: Introducción (1.1 – 1.3) <br>
+        - Capítulo II: Requirements & Analysis (2.1 – 2.3) <br>
+        - Capítulo III: Requirements Specification (3.1 – 3.4)
       </td>
     </tr>
     <tr>
@@ -111,35 +87,11 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         - Zegarra López, Renato Sebastián Rubber
       </td>
       <td>
-        Se realizaron los siguientes puntos del informe: <br><br>
-        <b>Capítulo IV: Product Architecture Design</b> <br>
-        4.1 Design Concepts, ViewPoints & ER Diagrams <br>
-        4.1.1 Principles Statements <br>
-        4.1.2 Approaches Statements Architectural Styles & Patterns <br>
-		4.1.3 Architectural Styles & Patterns <br>
-        4.1.4 Context Diagram <br>
-        4.1.5 Approach driven ViewPoints Diagrams <br>
-        4.1.6 Relational/Non Relational Database Diagram <br>
-        4.1.7 Design Patterns <br>
-        4.1.8 Tactics <br><br>
-        4.2 Architectural Drivers <br>
-        4.2.1 Design Purpose <br>
-        4.2.2 Primary Functionality (Primary User Stories) <br>
-        4.2.3 Quality Attribute Scenarios <br>
-        4.2.4 Constraints <br>
-        4.2.5 Architectural Concerns <br><br>
-        4.3 ADD Iterations <br>
-        4.3.1 Iteration 1 <br>
-        4.3.1.1 Architectural Design Backlog <br>
-        4.3.1.2 Establish Iteration Goal by Selecting Drivers <br>
-        4.3.1.3 Choose One or More Elements of the System to Refine <br>
-        4.3.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers <br>
-        4.3.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces <br>
-        4.3.1.6 Sketch Views (C4 & UML) and Record Design Decisions <br>
-        4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+        - Capítulo IV: Product Architecture Design (4.1 – 4.3) <br>
+        - Iteraciones ADD 1, 2 y 3 (4.3.1 – 4.3.3)
       </td>
-		</tr>
-		<tr>
+    </tr>
+    <tr>
       <td>TP</td>
       <td>15/05/2026</td>
       <td>
@@ -149,32 +101,14 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         - Sarmiento Medina, Loreley <br>
         - Zegarra López, Renato Sebastián Rubber
       </td>
-		<td>
-        Se realizaron los siguientes puntos del informe: <br><br>
-        <b>Capítulo V: Product Implementation, Validation & Deployment</b> <br>
-        5.1. Testing Suites & General Patterns <br>
-        5.1.1. Backend Application Core Testing Suite <br>
-        5.1.2. Pattern Based Backend Application(s) <br>
-		5.1.3. Pattern Based Custom Software Library <br>
-        5.1.4. Framework Pattern Driven Refactoring Report <br>
-        5.2. Software Configuration Management <br>
-        5.2.1. Software Development Environment Configuration <br>
-        5.2.2. Source Code Management <br>
-        5.2.3. Source Code Style Guide & Conventions <br>
-        5.2.4. Software Deployment Configuration <br>
-        5.3. Microservices Implementation <br>
-        5.3.1. Sprint 1 <br>
-        5.3.1.1. Sprint Backlog 1 <br>
-        5.3.1.2. Development Evidence for Sprint Review <br>
-        5.3.1.3. Testing Suite Evidence for Sprint Review <br><br>
-        5.3.1.4. Execution Evidence for Sprint Review <br>
-        5.3.1.5. Microservices Documentation Evidence for Sprint Review <br>
-        5.3.1.6. Software Deployment Evidence for Sprint Review <br>
-        5.3.1.7. Team Collaboration Insights during Sprint <br>
-        5.3.1.8. Kanban Board <br>
+      <td>
+        - Capítulo V: Product Implementation, Validation & Deployment (5.1 – 5.3) <br>
+        - Testing Suites & General Patterns (5.1.1 – 5.1.4) <br>
+        - Software Configuration Management (5.2.1 – 5.2.4) <br>
+        - Sprint 1 (5.3.1.1 – 5.3.1.8)
       </td>
     </tr>
-	  <tr>
+    <tr>
       <td>TB3</td>
       <td>05/06/2026</td>
       <td>
@@ -184,23 +118,14 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         - Sarmiento Medina, Loreley <br>
         - Zegarra López, Renato Sebastián Rubber
       </td>
-		<td>
-        Se realizaron los siguientes puntos del informe: <br><br>
-        <b>	Sprint 2</b> <br>
-        5.3.2. Sprint 2 <br>
-        5.3.2.1. Sprint Backlog 2 <br>
-        5.3.2.2. Development Evidence for Sprint Review <br>
-        5.3.2.3. Testing Suite Evidence for Sprint Review <br><br>
-        5.3.2.4. Execution Evidence for Sprint Review <br>
-        5.3.2.5. Microservices Documentation Evidence for Sprint Review <br>
-        5.3.2.6. Software Deployment Evidence for Sprint Review <br>
-        5.3.2.7. Team Collaboration Insights during Sprint <br>
-        5.3.2.8. Kanban Board <br>
+      <td>
+        - Sprint 2 (5.3.2.1 – 5.3.2.8) <br>
+        - Correcciones de entregas anteriores
       </td>
     </tr>
-	   <tr>
+    <tr>
       <td>TB4</td>
-      <td>20/06/2026</td>
+      <td>25/06/2026</td>
       <td>
         - Becerra Tejeda, Alessandra Nicole <br>
         - Bejarano Martinez, Alvaro Leandro <br>
@@ -208,18 +133,9 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         - Sarmiento Medina, Loreley <br>
         - Zegarra López, Renato Sebastián Rubber
       </td>
-		<td>
-        Se realizaron los siguientes puntos del informe: <br><br>
-        <b>	Sprint 3</b> <br>
-        5.3.3. Sprint 3 <br>
-        5.3.3.1. Sprint Backlog 3 <br>
-        5.3.3.2. Development Evidence for Sprint Review <br>
-        5.3.3.3. Testing Suite Evidence for Sprint Review <br><br>
-        5.3.3.4. Execution Evidence for Sprint Review <br>
-        5.3.3.5. Microservices Documentation Evidence for Sprint Review <br>
-        5.3.3.6. Software Deployment Evidence for Sprint Review <br>
-        5.3.3.7. Team Collaboration Insights during Sprint <br>
-        5.3.3.8. Kanban Board <br>
+      <td>
+        - Sprint 3 (5.3.3.1 – 5.3.3.8) <br>
+        - Correcciones de entregas anteriores
       </td>
     </tr>
   </tbody>
@@ -1146,6 +1062,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 | EP02 | Comunicación centralizada | Esta épica aborda la gestión de notificaciones y comunicados dentro del condominio, permitiendo mantener informados a los residentes sobre incidencias, pagos, reservas y anuncios importantes. Incluye la personalización de notificaciones y el seguimiento de visualización de comunicados. | US08, US10, US12, US13, US14, US15, US29, US31, US32, US36, US37 |
 | EP03 | Gestión de áreas comunes | Esta épica se centra en la administración y uso eficiente de las áreas comunes del condominio. Permite a los residentes consultar disponibilidad, realizar y cancelar reservas, mientras que los administradores pueden aprobar solicitudes y evitar conflictos de horario. | US11, US16, US17, US18, US19, US20, US33, US35, US38, US39, US40 |
 | EP04 | Gestión financiera y reportes | Esta épica se enfoca en la administración económica del condominio, permitiendo a los residentes consultar su deuda, registrar pagos y revisar su historial financiero. Los administradores pueden identificar morosos, generar y exportar reportes financieros. | US09, US21, US22, US23, US24, US25, US26, US27, US28, US30 |
+| EP05 | Infraestructura, seguridad y arquitectura técnica | Esta épica abarca todos los aspectos técnicos necesarios para el correcto funcionamiento del sistema Edifika, incluyendo la configuración de microservicios, autenticación JWT, API Gateway, bases de datos independientes, documentación de APIs, comunicación entre servicios y despliegue en la nube. Su objetivo es garantizar que la plataforma sea segura, escalable y mantenible. | TS01, TS02, TS03, TS04, TS05, TS06, TS07, TS08, TS09, TS10, TS11, TS12, TS13, TS14, TS15 |
 | EP06 | Landing Page e Interfaz Web | Esta épica cubre todas las funcionalidades visibles en la landing page pública de Edifika y la interfaz web de la aplicación. Incluye navegación, presentación de contenido y acceso a la plataforma, con el objetivo de atraer y convertir nuevos usuarios. | US41, US42, US43, US44, US45, US46, US47 |
 
 **User Stories:**
