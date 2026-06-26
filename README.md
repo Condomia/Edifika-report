@@ -5662,7 +5662,7 @@ Además, se configuró un entorno de ejecución para Java y las variables de ent
 *Communication*
 
 <p align="center">
-  <img src="assets/img/communication_deploy.png" alt="Post Controller Endpoints" width="700"/>
+  <img src="assets/img/communication_deployy.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
 *Figura XX. Communication Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
@@ -5693,7 +5693,7 @@ Estas credenciales fueron registradas como variables de entorno dentro de Render
 *Communication*
 
 <p align="center">
-  <img src="assets/img/communication_db_deploy.png" alt="Post Controller Endpoints" width="700"/>
+  <img src="assets/img/communication_db_deployy.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
 *Figura XX. Communication Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
