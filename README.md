@@ -5885,7 +5885,7 @@ Se recomienda enfocar los esfuerzos futuros en la activación de la integración
 
 - Enlace del despliegue del microservicio de autenticación (IAM): `https://edifika-microservice-iam.onrender.com`
 - Enlace del despliegue del microservicio de reservas: ` `
-- Enlace del despliegue del microservicio de gestión residencial: ` `
+- Enlace del despliegue del microservicio de gestión residencial: `https://edifika-microservice-residential.onrender.com `
 - Enlace del despliegue del microservicio de puerta de enlace (API Gateway): `https://edifika-apigateway.onrender.com`
 - Enlace del despliegue del microservicio de pagos: `https://edifika-microservice-payment.onrender.com`
 - Enlace del despliegue del microservicio de comunicados: `https://edifika-microservice-communications.onrender.com/ `
