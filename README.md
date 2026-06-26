@@ -223,7 +223,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB2: Apliqué conceptos de arquitectura de software identificando drivers, constraints y concerns, y definiendo componentes y relaciones dentro del sistema (secciones 4.2.4, 4.2.5).<br><br>
         TP: Diseñé los mockups de la aplicación web para administradores cubriendo los módulos de autenticación, pagos, reservas y comunicados, y contribuí en la definición de las Testing Suites del proyecto (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Elaboré la evidencia de testing del Sprint 2 y gestioné el despliegue del frontend de la aplicación web de Edifika (secciones 5.3.2.3, 5.3.2.6).<br><br>
-		TB4: <br><br>
+		TB4: Actualicé conocimientos en pruebas unitarias y aseguramiento de calidad mediante la elaboración de la evidencia de testing del Sprint 3, documentando las pruebas con JUnit 5 y Mockito para los microservicios Payment, Communication y Forum. Además, participé en el avance del frontend de la aplicación web de Edifika, contribuyendo a la integración visual de nuevas secciones y a la mejora de la experiencia de usuario en los módulos trabajados durante el Sprint (secciones 5.3.3.1, 5.3.3.3).<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: Realicé el análisis de competidores y conduje entrevistas a usuarios, actualizando conocimientos sobre el sector de gestión de condominios (secciones 2.1.1, 2.2.2).<br><br>
         TB2: Apliqué conocimientos de arquitectura elaborando los diagramas C4 y el diagrama ERD para representar la estructura, servicios y relaciones del sistema (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
@@ -265,7 +265,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TB2: Reconocí que comprender la arquitectura de software requiere actualización permanente, evidenciado en la identificación de constraints y concerns del sistema (secciones 4.2.4, 4.2.5).<br><br>
         TP: Reconocí que diseñar interfaces coherentes exige actualizar constantemente conocimientos en usabilidad y tendencias de diseño, reflejado en las decisiones tomadas para cada módulo de los mockups (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Reconocí que documentar el testing y gestionar el despliegue del frontend demanda aprendizaje continuo sobre estrategias de validación y configuración de entornos de producción (secciones 5.3.2.3, 5.3.2.6).<br><br>
-		TB4: <br><br>
+		TB4: Reconocí la importancia del aprendizaje continuo al documentar y comprender la estrategia de pruebas unitarias aplicada en los microservicios del Sprint 3, ya que fue necesario investigar el uso de mocks, validaciones de servicios, controladores REST y manejo de excepciones con JUnit 5 y Mockito. Asimismo, al participar en el desarrollo de parte del frontend, reforcé la necesidad de mantener una actualización constante en integración de interfaces, consumo de servicios backend y consistencia visual entre componentes de la plataforma Edifika (secciones 5.3.3.1, 5.3.3.3).<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: Reconocí que el aprendizaje permanente es esencial al tener que investigar el sector para desarrollar el Lean UX Canvas and el análisis de competidores (secciones 1.2.3.4, 2.1.1).<br><br>
         TB2: Reconocí que elaborar los diagramas C4 y ERD exigió reforzar conceptos de arquitectura, comunicación entre servicios y modelado de datos (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
