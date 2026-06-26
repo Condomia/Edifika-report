@@ -5714,7 +5714,7 @@ Controlador dedicado al foro comunitario del condominio. Permite a los residente
 ##### 5.3.3.6. Software Deployment Evidence for Sprint Review
 
 
-En esta sección se presenta la evidencia del despliegue del software realizado para la revisión del Sprint 2. Se muestran los resultados obtenidos durante la publicación de los microservicios desarrollados, evidenciando su disponibilidad en la nube y su correcta configuración para ser consumidos por otros componentes de la arquitectura basada en microservicios.
+En esta sección se presenta la evidencia del despliegue del software realizado para la revisión del Sprint 3. Se muestran los resultados obtenidos durante la publicación de los microservicios desarrollados, evidenciando su disponibilidad en la nube y su correcta configuración para ser consumidos por otros componentes de la arquitectura basada en microservicios.
 
 ### Backend
 
@@ -5776,21 +5776,6 @@ Estas credenciales fueron registradas como variables de entorno dentro de Render
 </p>
 
 *Figura 156. Forum Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
-
-
-### Frontend
-
-Durante el Sprint 2, el frontend continuó desplegado mediante Render, permitiendo integrar las nuevas funcionalidades correspondientes a los microservicios de **Communication**, **Payment** y **Forum**.
-
-La aplicación fue desarrollada utilizando Angular, siguiendo una arquitectura modular que facilita la integración de nuevos módulos y el consumo de servicios REST expuestos por los microservicios. El código fuente se gestionó mediante GitHub, permitiendo implementar un flujo de integración y despliegue continuo (CI/CD), donde cada actualización realizada sobre la rama principal genera automáticamente una nueva versión del sistema en Render.
-
-Gracias a este proceso, la aplicación web permanece disponible mediante una URL pública y puede consumir los endpoints expuestos por los microservicios desplegados durante el Sprint 2.
-
-<p align="center">
-  <img src="assets/img/front_deploy2.png" alt="Post Controller Endpoints" width="700"/>
-</p>
-
-*Figura 157. Frontend Deployment. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 
 
