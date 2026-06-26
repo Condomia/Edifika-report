@@ -5817,5 +5817,5 @@ Se recomienda enfocar los esfuerzos futuros en la activación de la integración
 - Enlace del despliegue del microservicio de pagos: `https://edifika-microservice-payment.onrender.com`
 - Enlace del despliegue del microservicio de comunicados: `https://edifika-microservice-communications.onrender.com/ `
 - Enlace del despliegue del microservicio de foro: `https://edifika-microservice-forum.onrender.com`
-- Enlace del despliegue del frontend: ` `
+- Enlace del despliegue del frontend: `https://edifika-front.onrender.com/`
 
