@@ -5425,6 +5425,142 @@ Asimismo, en el repositorio Edifika-Front se evidencian commits enfocados en la 
 
 ##### 5.3.3.3. Testing Suite Evidence for Sprint Review
 
+Durante el Sprint 3 se implementó una nueva suite de pruebas unitarias utilizando JUnit 5 y Mockito, con el objetivo de validar el correcto funcionamiento de los microservicios desarrollados recientemente para la plataforma Edifika. Estas pruebas permitieron comprobar la lógica de negocio de manera aislada mediante el uso de objetos simulados , evitando la dependencia directa de una base de datos real o de servicios externos durante la etapa de validación.
+
+La estrategia de pruebas se enfocó en validar los componentes principales de los microservicios **Payment**, **Communication** y **Forum**, considerando servicios de comandos, servicios de consultas y controladores REST. Para ello, se simularon repositorios, servicios de dominio y ensambladores de recursos, permitiendo verificar el comportamiento de cada clase frente a escenarios exitosos, validaciones de negocio y manejo de excepciones.
+
+Estas pruebas contribuyen a detectar errores tempranamente, mejorar la mantenibilidad del código y asegurar que los nuevos microservicios puedan integrarse de forma más confiable con el resto de la arquitectura de Edifika.
+
+### Repositorios de pruebas unitarias
+
+| Repository                         | Branch | Description                                                                                                                              |
+| ---------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Edifika-Microservice-Payment       | main   | Contiene las pruebas unitarias para la gestión de deudas, pagos, confirmación manual de pagos e historial de pagos.                      |
+| Edifika-Microservice-Communication | main   | Contiene las pruebas unitarias para la gestión de anuncios, lectura de comunicados, archivado y métricas de alcance.                     |
+| Edifika-Microservice-Forum         | main   | Contiene las pruebas unitarias para la creación de publicaciones en el mini foro y la validación de restricciones de publicación diaria. |
+
+### Componentes cubiertos por las pruebas
+
+| Microservicio | Clase de prueba                     | Descripción                                                                                                                                           |
+| ------------- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Payment       | PaymentCommandServiceImplTest       | Valida la creación de deudas, el registro de pagos y la confirmación manual de pagos, simulando repositorios y servicios de dominio mediante Mockito. |
+| Payment       | PaymentQueryServiceImplTest         | Verifica la consulta de deudas por unidad, pagos por usuario e historial de pagos filtrado por año.                                                   |
+| Payment       | PaymentControllerTest               | Comprueba el comportamiento de los endpoints REST relacionados con deudas, pagos, confirmaciones e historial de pagos.                                |
+| Communication | CommunicationCommandServiceImplTest | Valida la creación de anuncios, el marcado de comunicados como leídos y el archivado de anuncios.                                                     |
+| Communication | CommunicationQueryServiceImplTest   | Verifica la consulta de anuncios por edificio, búsqueda por identificador y cálculo de métricas de lectura.                                           |
+| Communication | CommunicationControllerTest         | Comprueba el correcto funcionamiento de los endpoints REST para anuncios, lectura, archivado y métricas.                                              |
+| Forum         | PostCommandServiceImplTest          | Valida la creación de publicaciones y la restricción de negocio que permite solo una publicación diaria por residente.                                |
+| Forum         | PostControllerTest                  | Verifica el endpoint REST de creación de publicaciones y el manejo de errores cuando se incumple la restricción diaria.                               |
+
+### Ejemplo de prueba unitaria
+
+La siguiente prueba valida una de las reglas principales del microservicio **Forum**, donde un residente no puede realizar más de una publicación durante el mismo día. Para ello, se simula la existencia de una publicación previa realizada en la fecha actual y se verifica que el servicio lance una excepción controlada.
+
+```java
+@Test
+void shouldThrowExceptionWhenResidentAlreadyPostedToday() {
+
+    CreatePostResource resource = mock(CreatePostResource.class);
+
+    when(resource.residentId()).thenReturn(1L);
+
+    String uploadedImageUrl = "https://storage.com/image.png";
+
+    Post lastPost = mock(Post.class);
+
+    when(lastPost.getCreatedAt())
+            .thenReturn(LocalDate.now().atStartOfDay());
+
+    when(postRepository.findFirstByResidentIdOrderByCreatedAtDesc(1L))
+            .thenReturn(Optional.of(lastPost));
+
+    IllegalArgumentException exception = assertThrows(
+            IllegalArgumentException.class,
+            () -> postCommandService.handle(resource, uploadedImageUrl)
+    );
+
+    assertEquals(
+            "Restricción del mini foro: Cada usuario solo podrá realizar una publicación diaria.",
+            exception.getMessage()
+    );
+
+    verify(postRepository, times(1))
+            .findFirstByResidentIdOrderByCreatedAtDesc(1L);
+
+    verify(postRepository, never())
+            .save(any(Post.class));
+}
+```
+
+Esta prueba evidencia el uso de Mockito para simular el repositorio de publicaciones y de JUnit 5 para validar que la excepción lanzada sea la esperada. Además, se comprueba que el repositorio no guarde una nueva publicación cuando se incumple la regla de negocio.
+
+### Evidencia visual de pruebas unitarias
+
+A continuación se muestran las evidencias de las pruebas unitarias implementadas durante el Sprint 3 para los microservicios **Communication**, **Payment** y **Forum**, utilizando JUnit 5 y Mockito.
+
+#### Microservicio Communication
+
+<p align="center">
+  <img src="assets/img/CommunicationCommandLight.PNG" width="700"/>
+</p>
+
+*Figura 131. Pruebas unitarias del servicio de comandos del microservicio Communication. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/CommunicationControllerLight.PNG" width="700"/>
+</p>
+
+*Figura 132. Pruebas unitarias del controlador REST del microservicio Communication. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/CommunicationQueryLight.PNG" width="700"/>
+</p>
+
+*Figura 133. Pruebas unitarias del servicio de consultas del microservicio Communication. Elaborado por el equipo.*
+
+#### Microservicio Payment
+
+<p align="center">
+  <img src="assets/img/PaymentCommandLight.PNG" width="700"/>
+</p>
+
+*Figura 134. Pruebas unitarias del servicio de comandos del microservicio Payment. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/PaymentControllerLight.PNG" width="700"/>
+</p>
+
+*Figura 135. Pruebas unitarias del controlador REST del microservicio Payment. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/PaymentQueryLight.PNG" width="700"/>
+</p>
+
+*Figura 136. Pruebas unitarias del servicio de consultas del microservicio Payment. Elaborado por el equipo.*
+
+#### Microservicio Forum
+
+<p align="center">
+  <img src="assets/img/PostCommandLight.PNG" width="700"/>
+</p>
+
+*Figura 137. Pruebas unitarias del servicio de comandos del microservicio Forum. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/PostControllerLight.PNG" width="700"/>
+</p>
+
+*Figura 138. Pruebas unitarias del controlador REST del microservicio Forum. Elaborado por el equipo.*
+
+### Commits relacionados con Testing
+
+| Repository                         | Branch | Commit Id | Commit Message                             | Commit Message Body                                                                                             | Committed On |
+| ---------------------------------- | ------ | --------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------- | ------------ |
+| Edifika-Microservice-Payment       | main   | 279994d   | Testing                                    | Added JUnit 5 and Mockito unit tests for payment command services, query services and REST controllers.         | Sprint 3     |
+| Edifika-Microservice-Communication | main   | bb550ab   | Merge remote-tracking branch 'origin/main' | Integrated testing changes for communication command services, query services and REST controllers.             | Sprint 3     |
+| Edifika-Microservice-Forum         | main   | 97ba3c6   | Testing                                    | Added JUnit 5 and Mockito unit tests for post creation, daily posting restriction and REST controller behavior. | Sprint 3     |
+
+
 ##### 5.3.3.4. Execution Evidence for Sprint Review
 
 Esta sección se evidencia de ejecución del Sprint 3, donde se verificó el correcto funcionamiento de los endpoints de los microservicios Payment Service, Communication Service y Forum Service. Las pruebas se realizaron mediante Postman, enviando todas las solicitudes a través del API Gateway en el puerto 8080, validando que el enrutamiento, la verificación del Bearer Token JWT y las reglas de negocio de cada microservicio operan correctamente. A continuación se detallan las pruebas realizadas:
@@ -5437,7 +5573,7 @@ Se verificó el registro de una nueva deuda asociada a una unidad residencial en
   <img src="assets/img/execution_post_debts.png" alt="Ejecución POST Debts" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Debts a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 139. Ejecución del endpoint POST Debts a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/payments/debts/unit/{unitId}**
 
@@ -5447,7 +5583,7 @@ Se comprobó la consulta de deudas pendientes de una unidad residencial específ
   <img src="assets/img/execution_get_debts_unit.png" alt="Ejecución GET Debts by Unit" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint GET Debts by Unit a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 140. Ejecución del endpoint GET Debts by Unit a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/payments**
 
@@ -5457,7 +5593,7 @@ Se verificó el registro de un pago enviando los datos de la transacción junto 
   <img src="assets/img/execution_post_payments.png" alt="Ejecución POST Payments" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Payments a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 141. Ejecución del endpoint POST Payments a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: PUT /api/v1/payments/{paymentId}/confirm**
 
@@ -5467,7 +5603,7 @@ Se comprobó la confirmación manual de un pago por parte del administrador envi
   <img src="assets/img/execution_put_confirm_payment.png" alt="Ejecución PUT Confirm Payment" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint PUT Confirm Payment a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 142. Ejecución del endpoint PUT Confirm Payment a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/payments/user/{userId}**
 
@@ -5477,7 +5613,7 @@ Se verificó la consulta del historial de pagos de un residente enviando el user
   <img src="assets/img/execution_get_payments_user.png" alt="Ejecución GET Payments by User" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint GET Payments by User a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 143. Ejecución del endpoint GET Payments by User a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/announcements**
 
@@ -5487,7 +5623,7 @@ Se verificó la publicación de un nuevo comunicado oficial enviando los campos 
   <img src="assets/img/execution_post_announcements.png" alt="Ejecución POST Announcements" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Announcements a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 144. Ejecución del endpoint POST Announcements a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/announcements?buildingId={id}**
 
@@ -5497,7 +5633,7 @@ Se comprobó la consulta de comunicados asociados a un edificio específico envi
   <img src="assets/img/execution_get_announcements.png" alt="Ejecución GET Announcements" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint GET Announcements a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 145. Ejecución del endpoint GET Announcements a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/announcements/{announcementId}/metrics**
 
@@ -5507,7 +5643,7 @@ Se verificó la consulta de métricas de lectura de un comunicado específico en
   <img src="assets/img/execution_get_metrics.png" alt="Ejecución GET Metrics" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint GET Metrics a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 146. Ejecución del endpoint GET Metrics a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/posts**
 
@@ -5517,7 +5653,7 @@ Se comprobó la creación de una nueva publicación en el foro comunitario envia
   <img src="assets/img/execution_post_forum.png" alt="Ejecución POST Forum" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Forum a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 147. Ejecución del endpoint POST Forum a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 ##### 5.3.3.5. Microservices Documentation Evidence for Sprint Review
 
@@ -5540,7 +5676,7 @@ Controlador encargado de la gestión financiera del condominio. Permite registra
   <img src="assets/img/payment_controller.png" alt="Payment Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Endpoints del Payment Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 148. Endpoints del Payment Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Communication Controller**
 
@@ -5559,7 +5695,7 @@ Controlador responsable de la gestión de comunicados oficiales del condominio. 
   <img src="assets/img/communication_controller.png" alt="Communication Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Endpoints del Communication Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 149. Endpoints del Communication Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Post Controller**
 
@@ -5573,7 +5709,7 @@ Controlador dedicado al foro comunitario del condominio. Permite a los residente
   <img src="assets/img/post_controller.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Endpoints del Post Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 150. Endpoints del Post Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 ##### 5.3.3.6. Software Deployment Evidence for Sprint Review
 
@@ -5592,7 +5728,7 @@ Además, se configuró un entorno de ejecución para Java y las variables de ent
   <img src="assets/img/communication_deploy.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Communication Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 151. Communication Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 *Payment Microservice*
 
@@ -5600,7 +5736,7 @@ Además, se configuró un entorno de ejecución para Java y las variables de ent
   <img src="assets/img/payment_deploy.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Payment Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 152. Payment Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 Forum*
 
@@ -5608,7 +5744,7 @@ Forum*
   <img src="assets/img/forum_deploy.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Forum Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 153. Forum Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 
 ### Database
@@ -5623,7 +5759,7 @@ Estas credenciales fueron registradas como variables de entorno dentro de Render
   <img src="assets/img/communication_db_deploy.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Communication Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+*Figura 154. Communication Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
 
 *Payment*
 
@@ -5631,7 +5767,7 @@ Estas credenciales fueron registradas como variables de entorno dentro de Render
   <img src="assets/img/payment_db_deploy.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Payment Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+*Figura 155. Payment Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
 
 *Forum*
 
@@ -5639,14 +5775,14 @@ Estas credenciales fueron registradas como variables de entorno dentro de Render
   <img src="assets/img/forum_db_deploy.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Forum Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+*Figura 156. Forum Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
 
 
 ### Frontend
 
-Durante el Sprint 2, el frontend continuó desplegado mediante **Render**, permitiendo integrar las nuevas funcionalidades correspondientes a los microservicios de **Communication**, **Payment** y **Forum**.
+Durante el Sprint 2, el frontend continuó desplegado mediante Render, permitiendo integrar las nuevas funcionalidades correspondientes a los microservicios de **Communication**, **Payment** y **Forum**.
 
-La aplicación fue desarrollada utilizando **Angular**, siguiendo una arquitectura modular que facilita la integración de nuevos módulos y el consumo de servicios REST expuestos por los microservicios. El código fuente se gestionó mediante GitHub, permitiendo implementar un flujo de integración y despliegue continuo (CI/CD), donde cada actualización realizada sobre la rama principal genera automáticamente una nueva versión del sistema en Render.
+La aplicación fue desarrollada utilizando Angular, siguiendo una arquitectura modular que facilita la integración de nuevos módulos y el consumo de servicios REST expuestos por los microservicios. El código fuente se gestionó mediante GitHub, permitiendo implementar un flujo de integración y despliegue continuo (CI/CD), donde cada actualización realizada sobre la rama principal genera automáticamente una nueva versión del sistema en Render.
 
 Gracias a este proceso, la aplicación web permanece disponible mediante una URL pública y puede consumir los endpoints expuestos por los microservicios desplegados durante el Sprint 2.
 
@@ -5654,7 +5790,7 @@ Gracias a este proceso, la aplicación web permanece disponible mediante una URL
   <img src="assets/img/front_deploy2.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Frontend Deployment. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 157. Frontend Deployment. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 
 
@@ -5671,7 +5807,7 @@ En el repositorio del microservicio de pagos se registraron los commits correspo
   <img src="assets/img/insights_payment.png" alt="Insights Landing Page" width="700"/>
 </p>
 
-*Figura XXX. Insights del repositorio de payment. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 158. Insights del repositorio de payment. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 **Microservicio Forum - Backend**
 
@@ -5681,7 +5817,7 @@ En el repositorio del microservicio de foro se registraron los commits correspon
   <img src="assets/img/insights_forum.png" alt="Insights Landing Page" width="700"/>
 </p>
 
-*Figura XXX. Insights del repositorio de forum. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 159. Insights del repositorio de forum. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 
 **Microservicio Communication - Backend**
@@ -5692,7 +5828,7 @@ En el repositorio del microservicio de comunicados se registraron los commits co
   <img src="assets/img/insights_communications.png" alt="Insights Landing Page" width="700"/>
 </p>
 
-*Figura XXX. Insights del repositorio de communication. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 160. Insights del repositorio de communication. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 
 
@@ -5704,7 +5840,7 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 3 
 	<img src="assets/img/kanban_board3.png" alt="Kanban Board Sprint 3" width="700"/>
 </p>
 
-*Figura XXX. Kanban Board del Sprint 3 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+*Figura 161. Kanban Board del Sprint 3 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 [https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
 
