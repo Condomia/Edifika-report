@@ -230,11 +230,15 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
 
 TB1 (17/04/2026):
 
+El equipo distribuyó las secciones del capítulo 1 y 2 entre los integrantes, coordinando avances mediante reuniones semanales. Cada miembro fue responsable de investigar, redactar y subir su parte al repositorio del informe.
+
 <p align="center">
   <img src="assets/img/insights1.png" alt="1"/>
 </p>
 
 TB2 (02/05/2026):
+
+El equipo trabajó en el diseño arquitectónico del capítulo 4, distribuyendo los diagramas C4, de secuencia, patrones y tácticas entre los integrantes. Se realizaron revisiones para asegurar coherencia y trazabilidad entre las secciones antes de la entrega.
 
 <p align="center">
   <img src="assets/img/insights2.png" alt="2"/>
@@ -242,20 +246,26 @@ TB2 (02/05/2026):
 
 TP (15/05/2026):
 
+Se distribuyó el trabajo entre la implementación del microservicio IAM, la Landing Page y los mockups de la aplicación web. Cada integrante documentó su avance en las secciones correspondientes del Sprint 1 dentro del capítulo 5.
+
 <p align="center">
   <img src="assets/img/insights3.png" alt="3"/>
 </p>
 
 TB3 (05/06/2026):
 
+El equipo avanzó con los microservicios de Reservas, Gestión Residencial, el API Gateway y secciones del frontend. Las tareas se coordinaron mediante el tablero Kanban en Trello y cada integrante documentó su contribución en el Sprint 2.
+
 <p align="center">
-  <img src="assets/img/insights4.png" alt="3"/>
+  <img src="assets/img/insights4.png" alt="4"/>
 </p>
 
-TB3 (25/06/2026):
+TB4 (25/06/2026):
+
+Se completó la implementación de los microservicios de Pagos, Comunicados y Foro, además del avance del frontend. El equipo incorporó las correcciones de entregas anteriores y documentó el Sprint 3 en las secciones correspondientes.
 
 <p align="center">
-  <img src="assets/img/insights5.png" alt="3"/>
+  <img src="assets/img/insights5.png" alt="5"/>
 </p>
 
 ## **Student Outcome**
