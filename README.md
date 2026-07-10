@@ -5917,7 +5917,29 @@ El objetivo principal del Sprint 4 fue completar funcionalidades clave como la a
 | TS10 | Configuración base del microservicio Notification Service con Firebase | T58 | Configurar Notification Service con Firebase | Crear la estructura base del microservicio de notificaciones e integrarlo con Firebase Cloud Messaging para enviar notificaciones push, gestionar tokens inválidos y registrar envíos fallidos sin afectar el flujo principal del sistema. | 7 | Ortiz Cardenas, Johanna Antuanete | Done |
 | TS11 | Configuración base del microservicio Report Service | T59 | Configurar microservicio Report Service | Crear la estructura base del microservicio de reportes para consolidar información financiera y de actividad, validar rangos de fechas y permitir la exportación de reportes en formato PDF. | 8 | Sarmiento Medina, Loreley | Done |
 
+<p align="center">
+  <img src="assets/img/TRELLO4.PNG" alt="Trello Sprint 4" width="700"/>
+</p>
+
+*Figura 130. Sprint Backlog 4. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+
 ##### 5.3.4.2. Development Evidence for Sprint Review
+
+Durante el Sprint 4 se realizaron avances relacionados con la implementación, configuración, pruebas y despliegue de los nuevos microservicios de reportes y notificaciones de Edifika. Asimismo, se incorporaron mejoras en el frontend asociadas con la aceptación del reglamento, el módulo financiero y el muro comunitario.
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|---|---|---|---|---|
+| Edifika-Microservice-Report | main | de0eb37 | deploy | 10/07/2026 |
+| Edifika-Microservice-Report | main | fb39bda | Testing | 10/07/2026 |
+| Edifika-Microservice-Report | main | b41f109 | Primer commit | 08/07/2026 |
+| Edifika-Microservice-Notification | main | e3217d1 | fix: fixing error route | 10/07/2026 |
+| Edifika-Microservice-Notification | main | 136929b | docs: fixing firebase config | 10/07/2026 |
+| Edifika-Microservice-Notification | main | db8b851 | Switch database credentials to environment variables | 10/07/2026 |
+| Edifika-Microservice-Notification | main | 64f07bc | feat: added dockerfile | 08/07/2026 |
+| Edifika-Microservice-Notification | main | 08bab58 | First commit | 07/07/2026 |
+| Edifika-Front | main | a38ba99 | feat: agregar aceptación de reglamento en registro y muro comunitario | 10/07/2026 |
+| Edifika-Front | main | 2815fcf | Finance and community wall | 08/07/2026 |
+
 ##### 5.3.4.3. Testing Suite Evidence for Sprint Review
 ##### 5.3.4.4. Execution Evidence for Sprint Review
 
