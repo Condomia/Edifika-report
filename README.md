@@ -5843,6 +5843,15 @@ Estas credenciales fueron registradas como variables de entorno dentro de Render
 
 ### 5.4. Microservices Deployment
 ##### 5.4.1. Cloud Architecture Diagram
+
+El sistema Edifika se despliega utilizando Render como plataforma principal para el frontend y los microservicios backend y Supabase para las bases de datos PostgreSQL. El API Gateway centraliza todas las solicitudes entrantes, valida los tokens JWT y dirige el tráfico hacia los ocho microservicios del sistema: IAM, Residential Management, Reservation, Payment, Communication, Forum, Notification y Report, cada uno con su base de datos independiente. La integración con Culqi permite el procesamiento de pagos en línea, mientras que Firebase Cloud Messaging se encarga del envío de notificaciones push hacia los dispositivos móviles de residentes e inquilinos a través del microservicio de Notification. El microservicio de Report consulta datos de los demás servicios mediante REST para generar y exportar reportes financieros en PDF y Excel. El siguiente diagrama presenta la distribución de componentes y las conexiones entre cada capa de la arquitectura:
+
+<p align="center">
+  <img src="assets/img/cloud_architecture_diagram.png" alt="Cloud Architecture Diagram" width="700"/>
+</p>
+
+*Figura XX. Diagrama de arquitectura cloud de Edifika. Elaborado por el equipo utilizando Lucidchart (Lucidchart, s.f.).*
+
 ##### 5.4.2. Cloud Architecture Deployment
 
 
