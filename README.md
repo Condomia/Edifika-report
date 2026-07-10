@@ -244,7 +244,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: Implementé el microservicio IAM con autenticación JWT, encriptación BCrypt y documentación Swagger, desplegándolo en Render con base de datos PostgreSQL en Supabase (secciones 5.3.1.2, 5.3.1.5, 5.3.1.6).<br><br>
         TB3: Implementé el API Gateway con Spring Cloud Gateway, configurando políticas CORS, filtros de validación JWT y reglas de enrutamiento hacia los microservicios del sistema (secciones 5.3.2.2, 5.3.2.5, 5.3.2.6).<br><br>
 		TB4: 7.c1: Implementé el microservicio Payment Service aplicando DDD y Clean Architecture, incluyendo los agregados de Debt y Payment con integración a la pasarela Culqi, el patrón Saga para la consistencia de transacciones y la documentación completa de la API REST mediante Swagger (secciones 5.3.3.4, 5.3.3.5). <br><br>
-		TF:<br><br>
+		TF: Elaboré la documentación del diagrama de arquitectura cloud del sistema Edifika y la evidencia de despliegue de todos los componentes en sus respectivas plataformas, consolidando la visión completa de la infraestructura distribuida del proyecto. Además, documenté la evidencia de ejecución y documentación de los microservicios Notification y Report del Sprint 4, y coordiné la incorporación de las correcciones señaladas en entregas anteriores incluyendo la reestructuración del registro de versiones, la diferenciación de diagramas de clases y la corrección del microservicio Forum (secciones 5.3.4.4, 5.3.4.5, 5.4.1, 5.4.2). <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: Elaboré los cuadros As-Is y To-Be, el Impact Map y conduje una entrevista a usuario para alinear las necesidades reales con la solución propuesta (secciones 2.3.4, 3.1, 3.3).<br><br>
         TB2: Apliqué conceptos de arquitectura de software identificando drivers, constraints y concerns, y definiendo componentes y relaciones dentro del sistema (secciones 4.2.4, 4.2.5).<br><br>
@@ -266,7 +266,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: El equipo avanzó en la implementación de Edifika aplicando conocimientos en Spring Boot, JWT, Docker, PostgreSQL y herramientas de prototipado, evidenciando la capacidad de adquirir competencias técnicas según las demandas del proyecto.<br><br>
         TB3: El equipo concretó el desarrollo de los microservicios de Reservas y Residential Management, el API Gateway y secciones del frontend, actualizando conocimientos técnicos por componente e incorporando nuevas tecnologías conforme evolucionó el sistema.<br><br>
 		TB4: El equipo completó la implementación de los microservicios restantes del sistema Edifika, incluyendo el Payment Service con integración a la pasarela Culqi y patrón Saga, el Communication Service para la gestión de comunicados oficiales con métricas de lectura, y el Forum Service para el foro comunitario con control de publicaciones diarias. Paralelamente, se avanzó con el desarrollo del frontend de Edifika, integrando nuevas secciones de la aplicación web con los endpoints de los microservicios desplegados. Cada integrante actualizó sus conocimientos técnicos según el componente asignado, abarcando desde la consistencia transaccional en pagos hasta la gestión de eventos en comunicados y la optimización de la experiencia de usuario en el frontend, demostrando la capacidad del equipo para incorporar nuevas tecnologías en la fase final del proyecto. <br><br>
-		TF:<br><br>
+		TF:  El equipo culminó el desarrollo del sistema Edifika con la implementación del Sprint 4 y el despliegue completo de la arquitectura cloud. Se documentaron los microservicios de Notification y Report, se consolidó la evidencia de despliegue de todos los componentes en Render, Supabase y GitHub Pages, y se elaboró el diagrama de arquitectura cloud que refleja la distribución final del sistema. Asimismo, se incorporaron las correcciones identificadas en entregas anteriores, incluyendo ajustes en el microservicio Forum, la reestructuración del registro de versiones y la corrección de inconsistencias en la documentación, demostrando la capacidad del equipo para actualizar y aplicar conocimientos técnicos hasta la entrega final del proyecto.<br><br>
       </td>
     </tr>
     <tr>
@@ -291,7 +291,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: Reconocí que el desarrollo backend con microservicios requiere dominar múltiples tecnologías en simultáneo, como JWT, DDD y despliegue cloud, enfrentando problemas reales no previstos (secciones 5.3.1.2, 5.3.1.5, 5.3.1.6).<br><br>
         TB3: Reconocí que implementar un API Gateway exige comprender la interacción entre componentes de una arquitectura distribuida, investigando filtros de seguridad, CORS y ciclo de vida de solicitudes HTTP (secciones 5.3.2.2, 5.3.2.5).<br><br>
 		TB4: Reconocí que implementar un microservicio de pagos con integración a pasarelas externas exige dominar conceptos de consistencia transaccional, manejo de fallos y compensación mediante el patrón Saga, lo cual me obligó a investigar estrategias de resiliencia que no había aplicado previamente en el proyecto (secciones 5.3.3.4, 5.3.3.5). <br><br>
-		TF:<br><br>
+		TF: Reconocí que documentar la arquitectura cloud de un sistema distribuido completo exige comprender cómo interactúan todas las capas del sistema de extremo a extremo, desde los usuarios hasta las bases de datos y servicios externos. Consolidar la evidencia de despliegue de ocho microservicios, sus bases de datos, el frontend y la Landing Page en distintas plataformas me obligó a investigar y validar cada conexión, confirmando que cerrar un proyecto de esta magnitud demanda una visión integral que solo se adquiere mediante aprendizaje continuo a lo largo de todo el ciclo de desarrollo (secciones 5.3.4.4, 5.3.4.5, 5.4.1, 5.4.2). <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: Reconocí la importancia del aprendizaje continuo al elaborar los cuadros As-Is, To-Be e Impact Map, herramientas que exigieron comprender cómo analizar al usuario y estructurar soluciones alineadas a sus necesidades (secciones 2.3.4, 3.1, 3.3).<br><br>
         TB2: Reconocí que comprender la arquitectura de software requiere actualización permanente, evidenciado en la identificación de constraints y concerns del sistema (secciones 4.2.4, 4.2.5).<br><br>
@@ -313,7 +313,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: La implementación del primer microservicio evidenció que cada fase del proyecto plantea retos técnicos nuevos que solo se resuelven mediante aprendizaje continuo, desde la configuración de seguridad hasta el despliegue en producción.<br><br>
         TB3: La implementación simultánea de microservicios, API Gateway y frontend demostró que un sistema distribuido plantea desafíos continuos que obligan a cada integrante a investigar y adaptarse constantemente, reafirmando el aprendizaje permanente como pilar del proyecto.<br><br>
 		TB4: La implementación de los últimos microservicios y el avance del frontend evidenciaron que cada etapa del desarrollo plantea desafíos técnicos distintos que demandan aprendizaje autónomo y continuo. Resolver la integración con pasarelas de pago externas, garantizar la trazabilidad de comunicados, controlar límites de publicación en el foro y conectar los componentes del frontend con múltiples servicios backend fueron actividades que exigieron a cada miembro investigar soluciones específicas, validando que el aprendizaje permanente es la competencia que sostiene la calidad de un proyecto de ingeniería de software a lo largo de todo su ciclo de vida. <br><br>
-		TF:<br><br>
+		TF: El cierre del proyecto confirmó que el aprendizaje permanente es indispensable en cada fase del desarrollo de software, no solo durante la implementación sino también durante la documentación, el despliegue y la corrección de entregas previas. Consolidar un sistema distribuido con ocho microservicios, múltiples bases de datos, servicios externos y un frontend integrado exigió a cada integrante mantener una visión completa del sistema y resolver problemas de integración que solo se presentan al conectar todos los componentes en producción, reafirmando que la capacidad de aprender de forma autónoma es lo que permite a un equipo de ingeniería de software entregar un producto funcional y coherente.<br><br>
       </td>
     </tr>
   </tbody>
@@ -6323,6 +6323,25 @@ Recomendación:
 
 Se recomienda para una futura evolución del producto implementar un sistema de monitoreo centralizado que permita supervisar el estado de salud de cada microservicio desplegado, detectando caídas o degradaciones de rendimiento de forma proactiva. Es importante migrar la integración con Culqi del entorno sandbox al entorno de producción una vez que se cuente con las credenciales comerciales, validando el flujo completo de cobro con transacciones reales. Además, se sugiere incorporar un broker de mensajería como RabbitMQ cuando el sistema escale a un volumen significativo de usuarios concurrentes, lo cual permitiría desacoplar la comunicación entre microservicios y mejorar la resiliencia ante picos de demanda. Finalmente, se recomienda realizar pruebas de usabilidad con administradores y residentes reales para identificar oportunidades de mejora en la experiencia de usuario antes de un lanzamiento comercial.
 
+# Video About-The-Team
+
+En este video, cada integrante del equipo Condomia presenta su participación y contribuciones a lo largo del desarrollo del proyecto Edifika, abarcando desde la investigación inicial hasta la implementación y despliegue de los microservicios del sistema.
+
+| Sección | Inicio | Descripción |
+|---------|--------|-------------|
+| Introducción | 00:00:00 | Presentación del equipo Condomia y del producto Edifika. |
+| Alvaro Bejarano | 00:00:05 | Contribuciones en User Personas, ADD Iterations, mockups, dashboard frontend y mejoras de interfaz. |
+| Alessandra Becerra | 00:00:56 | Contribuciones en Lean UX, drivers arquitectónicos, Landing Page, microservicio de Reservas y Forum. |
+| Johanna Antuanete Ortiz | 00:01:56 | Rol como team leader, implementación del microservicio IAM, API Gateway y Payment Service. |
+| Loreley Sarmiento | 00:03:08 | Contribuciones en As-Is/To-Be, mockups, Testing Suites, despliegue del frontend y evidencia de pruebas, desarrollo del microservicios de reportes. |
+| Renato Zegarra | 00:04:09 | Contribuciones en análisis de competidores, diagramas C4/ERD, microservicio Residential Management y Communication. |
+
+<p align="center">
+  <img src="assets/img/about.png" alt="video" width="700"/>
+</p>
+
+Enlace del video: `https://www.youtube.com/watch?v=SjhYG9Lk7fk`
+
 
 # Referencias Bibliográficas
   - Aguilar, K. L. B. (2026). Vacíos regulatorios en la Ley de Propiedad en Condominio, análisis de conflictos recurrentes en su modalidad vertical ubicados en el Distrito Central (Tesis doctoral). Centro Universitario Tecnológico CEUTEC. `https://repositorio.unitec.edu/server/api/core/bitstreams/cd97bbd4-204c-49c8-9901-3d0a5a85d7f3/content`
@@ -6391,4 +6410,8 @@ Se recomienda para una futura evolución del producto implementar un sistema de 
 - Enlace del despliegue del microservicio de comunicados: `https://edifika-microservice-communications.onrender.com/ `
 - Enlace del despliegue del microservicio de foro: `https://edifika-microservice-forum.onrender.com`
 - Enlace del despliegue del frontend: `https://edifika-front.onrender.com/`
+
+**Videos**
+
+- Enlace a video about the team:  `https://www.youtube.com/watch?v=SjhYG9Lk7fk`
 
