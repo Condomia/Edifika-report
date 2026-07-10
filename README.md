@@ -5826,7 +5826,8 @@ Estas credenciales fueron registradas como variables de entorno dentro de Render
 
 ### Frontend
 
-Durante el Sprint 2, el frontend continuó desplegado mediante Render, permitiendo integrar las nuevas funcionalidades correspondientes a los microservicios de **Communication**, **Payment** y **Forum**.
+Durante el Sprint 3, el frontend continuó desplegado mediante **Render**, permitiendo integrar las nuevas funcionalidades correspondientes a los microservicios de **Communication**, **Payment** y **Forum**.
+
 
 La aplicación fue desarrollada utilizando Angular, siguiendo una arquitectura modular que facilita la integración de nuevos módulos y el consumo de servicios REST expuestos por los microservicios. El código fuente se gestionó mediante GitHub, permitiendo implementar un flujo de integración y despliegue continuo (CI/CD), donde cada actualización realizada sobre la rama principal genera automáticamente una nueva versión del sistema en Render.
 
@@ -5847,7 +5848,7 @@ Esta sección presenta los cuadros analíticos de colaboración del equipo duran
 En el repositorio del microservicio de pagos se registraron los commits correspondientes a la gestión financiera del condominio. Los aportes del equipo incluyen la lógica para el control de deudas y cuotas de mantenimiento y la integración con la pasarela Culqi.
 
 <p align="center">
-  <img src="assets/img/insights_payment.png" alt="Insights Landing Page" width="700"/>
+  <img src="assets/img/insights_payment.png" alt="Insights Payment" width="700"/>
 </p>
 
 *Figura 158. Insights del repositorio de payment. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
@@ -5857,7 +5858,7 @@ En el repositorio del microservicio de pagos se registraron los commits correspo
 En el repositorio del microservicio de foro se registraron los commits correspondientes al canal de interacción vecinal de cada edificio. Los aportes del equipo incluyen la regla de negocio de un post diario por residente, el módulo de moderación y la protección de endpoints con seguridad JWT.
 
 <p align="center">
-  <img src="assets/img/insights_forum.png" alt="Insights Landing Page" width="700"/>
+  <img src="assets/img/insights_forum.png" alt="Insights Forum" width="700"/>
 </p>
 
 *Figura 159. Insights del repositorio de forum. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
@@ -5868,7 +5869,7 @@ En el repositorio del microservicio de foro se registraron los commits correspon
 En el repositorio del microservicio de comunicados se registraron los commits correspondientes a la difusión de avisos oficiales en la plataforma. Los aportes del equipo incluyen el desarrollo de las herramientas de publicación para administradores.
 
 <p align="center">
-  <img src="assets/img/insights_communications.png" alt="Insights Landing Page" width="700"/>
+  <img src="assets/img/insights_communications.png" alt="Insights Communication" width="700"/>
 </p>
 
 *Figura 160. Insights del repositorio de communication. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
@@ -5892,14 +5893,355 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 3 
 ##### 5.3.4.2. Development Evidence for Sprint Review
 ##### 5.3.4.3. Testing Suite Evidence for Sprint Review
 ##### 5.3.4.4. Execution Evidence for Sprint Review
+
+En esta sección se presenta la evidencia de ejecución del Sprint 4, donde se verificó el correcto funcionamiento de los endpoints de los microservicios Notification Service y Report Service. Las pruebas se realizaron mediante Postman, enviando todas las solicitudes a través del API Gateway, validando que el enrutamiento y la verificación del Bearer Token JWT operan correctamente. A continuación se detallan las pruebas realizadas:
+
+**Endpoint: POST /api/v1/device-tokens**
+
+Se verificó el registro de un token de dispositivo móvil enviando los campos userId y token. La solicitud fue procesada a través del API Gateway, el cual validó el Bearer Token y redirigió la petición al microservicio Notification Service. El sistema registró el token correctamente y retornó un código 201 confirmando la asociación del dispositivo al usuario.
+
+<p align="center">
+  <img src="assets/img/execution_post_device_token.png" alt="Ejecución POST Device Token" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint POST Device Tokens a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: POST /api/v1/notifications**
+
+Se comprobó la creación y envío de una notificación enviando los campos userId, title y content. El API Gateway validó el token y enrutó la solicitud al microservicio Notification Service, el cual registró la notificación y retornó un código 201 confirmando su creación.
+
+<p align="center">
+  <img src="assets/img/execution_post_notification.png" alt="Ejecución POST Notification" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint POST Notifications a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: GET /api/v1/notifications/user/{userId}**
+
+Se verificó la consulta de notificaciones de un usuario específico enviando el userId como parámetro de ruta con el Bearer Token. El microservicio retornó un código 200 con la lista paginada de notificaciones del usuario incluyendo título, contenido, fecha y estado de lectura.
+
+<p align="center">
+  <img src="assets/img/execution_get_notifications_user.png" alt="Ejecución GET Notifications by User" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint GET Notifications by User a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: PATCH /api/v1/notifications/{id}/read**
+
+Se comprobó el marcado de una notificación como leída enviando el id de la notificación como parámetro de ruta. El API Gateway procesó la solicitud y la redirigió al microservicio Notification Service, el cual actualizó el estado de lectura y retornó un código 200 con los datos actualizados.
+
+<p align="center">
+  <img src="assets/img/execution_patch_notification_read.png" alt="Ejecución PATCH Notification Read" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint PATCH Notification Read a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
+**Endpoint: GET /api/v1/reports/financial/buildings/{buildingId}**
+
+Se verificó la generación de un reporte financiero consolidado enviando el buildingId como parámetro de ruta con el Bearer Token. El API Gateway redirigió la solicitud al microservicio Report Service, el cual consultó datos del Payment Service y del Residential Management Service mediante REST y retornó un código 200 con el resumen financiero del edificio.
+
+<p align="center">
+  <img src="assets/img/execution_get_financial_report.png" alt="Ejecución GET Financial Report" width="700"/>
+</p>
+
+*Figura XX. Ejecución del endpoint GET Financial Report a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+
 ##### 5.3.4.5. Microservices Documentation Evidence for Sprint Review
+
+Durante el Sprint 4 se documentaron los endpoints de los microservicios Notification Service y Report Service mediante Swagger UI. A continuación se presentan los controladores implementados con el detalle de sus rutas, métodos HTTP y funcionalidad expuesta. Todos los endpoints están protegidos mediante Bearer Token JWT, cuya validación se realiza de forma centralizada a través del API Gateway. Estos dos microservicios completan la arquitectura del sistema Edifika, abarcando el envío de notificaciones push y la generación de reportes financieros consolidados.
+
+**Device Token Controller**
+
+Controlador encargado del registro y consulta de tokens de dispositivos móviles para el envío de notificaciones push mediante Firebase Cloud Messaging. Permite registrar el token de un dispositivo asociado a un usuario y consultarlo por identificador de usuario o por id del registro.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | /api/v1/device-tokens | Registra un nuevo token de dispositivo asociado a un usuario. |
+| GET | /api/v1/device-tokens/user/{userId} | Consulta el token de dispositivo de un usuario específico. |
+| GET | /api/v1/device-tokens/{id} | Consulta un token de dispositivo por su identificador. |
+
+<p align="center">
+  <img src="assets/img/device_token_controller.png" alt="Device Token Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Endpoints del Device Token Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+
+**Notification Controller**
+
+Controlador responsable de la creación, consulta y gestión de notificaciones del sistema. Permite enviar notificaciones a usuarios específicos, consultar el historial de notificaciones de un residente con paginación y marcar notificaciones como leídas.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | /api/v1/notifications | Crea y envía una nueva notificación a un usuario. |
+| GET | /api/v1/notifications/user/{userId} | Consulta las notificaciones de un usuario con paginación. |
+| GET | /api/v1/notifications/{id} | Consulta una notificación específica por su identificador. |
+| PATCH | /api/v1/notifications/{id}/read | Marca una notificación como leída. |
+
+<p align="center">
+  <img src="assets/img/notification_controller.png" alt="Notification Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Endpoints del Notification Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+
+**Financial Report Controller**
+
+Controlador dedicado a la generación de reportes financieros consolidados por edificio. Consulta datos del Payment Service y del Residential Management Service mediante REST para construir un resumen financiero completo del condominio.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | /api/v1/reports/financial/buildings/{buildingId} | Genera un reporte financiero consolidado de un edificio específico. |
+
+<p align="center">
+  <img src="assets/img/report_controller.png" alt="Financial Report Controller Endpoints" width="700"/>
+</p>
+
+*Figura XX. Endpoints del Financial Report Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+
 ##### 5.3.4.6. Software Deployment Evidence for Sprint Review
+
+En esta sección se presenta la evidencia del despliegue del software realizado para la revisión del Sprint 4. Se muestran los resultados obtenidos durante la publicación de los microservicios desarrollados, evidenciando su disponibilidad en la nube y su correcta configuración para ser consumidos por otros componentes de la arquitectura basada en microservicios.
+
+### Backend
+
+Para el despliegue de los microservicios se utilizó **Render** como plataforma en la nube, ya que permite automatizar la publicación de aplicaciones desarrolladas con Spring Boot. Cada microservicio fue vinculado a su respectivo repositorio de GitHub, permitiendo que Render compile automáticamente el proyecto utilizando Maven, según la configuración definida en el archivo `pom.xml`.
+
+Además, se configuró un entorno de ejecución para Java y las variables de entorno necesarias para el funcionamiento de cada servicio. Una vez finalizado el proceso de despliegue, Render generó una URL pública para cada microservicio, permitiendo su acceso mediante peticiones HTTP desde el API Gateway u otros servicios de la arquitectura.
+
+*Notification Microservice*
+
+<p align="center">
+  <img src="assets/img/notification_deploy.jpg" alt="deploy" width="700"/>
+</p>
+
+*Figura XX. Notification Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Report Microservice*
+
+<p align="center">
+  <img src="assets/img/report_deploy.jpeg" alt="deploy" width="700"/>
+</p>
+
+*Figura XX. Report Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+
+### Database
+
+Para el almacenamiento de la información se utilizó **Supabase**, una plataforma en la nube que proporciona bases de datos PostgreSQL administradas. Para cada microservicio se configuró una instancia de base de datos con sus respectivas credenciales de acceso, incluyendo host, puerto, nombre de la base de datos, usuario y contraseña.
+
+Estas credenciales fueron registradas como variables de entorno dentro de Render, permitiendo que cada microservicio establezca una conexión segura con su base de datos durante la ejecución. De esta manera, los servicios pueden realizar operaciones de persistencia, consulta y actualización de información de forma remota.
+
+*Notification Microservice*
+
+<p align="center">
+  <img src="assets/img/notification_db_deploy.jpeg" alt="deploy" width="700"/>
+</p>
+
+*Figura XX. Notification Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+
+*Report Microservice*
+
+<p align="center">
+  <img src="assets/img/report_db_deploy.jpeg" alt="deploy" width="700"/>
+</p>
+
+*Figura XX. Report Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+
+
 ##### 5.3.4.7. Team Collaboration Insights during Sprint
+
+Esta sección presenta los cuadros analíticos de colaboración del equipo durante el Sprint 4, evidenciando la participación de los miembros a través de los commits registrados en los repositorios de GitHub. Se muestran las contribuciones realizadas tanto en el repositorio de microservicios como Report y Notification.
+
+**Microservicio Report - Backend**
+
+En el repositorio del microservicio de reportes se registraron los commits correspondientes a la consolidación de información financiera del condominio. Los aportes del equipo incluyen la lógica para la generación de reportes financieros mediante consultas al Payment Service, la exportación en formato PDF y Excel, y la consulta de residentes morosos con pagos atrasados.
+
+<p align="center">
+  <img src="assets/img/insights_report.png" alt="Insights Report" width="700"/>
+</p>
+
+*Figura XXX. Insights del repositorio de report. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
+**Microservicio Notification - Backend**
+
+En el repositorio del microservicio de notificaciones se registraron los commits correspondientes a la integración con Firebase Cloud Messaging. Los aportes del equipo incluyen la lógica para el envío de notificaciones push en tiempo real, el manejo de fallos y la validación y actualización de tokens de dispositivo.
+
+<p align="center">
+  <img src="assets/img/insights_notification.png" alt="Insights Notification" width="700"/>
+</p>
+
+*Figura XXX. Insights del repositorio de report. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
 ##### 5.3.4.8. Kanban Board
+
+En esta sección se presentan las actividades desarrolladas durante el Sprint 4 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
+
+<p align="center">
+	<img src="assets/img/kanban_board4.png" alt="Kanban Board Sprint 4" width="700"/>
+</p>
+
+*Figura XXX. Kanban Board del Sprint 4 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+
+[https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
+
 
 ### 5.4. Microservices Deployment
 ##### 5.4.1. Cloud Architecture Diagram
+
+El sistema Edifika se despliega de forma distribuida utilizando Render como plataforma principal para el frontend y los microservicios backend, Supabase para las bases de datos PostgreSQL. El API Gateway centraliza todas las solicitudes entrantes, valida los tokens JWT y dirige el tráfico hacia los ocho microservicios del sistema: IAM, Residential Management, Reservation, Payment, Communication, Forum, Notification y Report, cada uno con su base de datos independiente. La integración con Culqi permite el procesamiento de pagos en línea, mientras que Firebase Cloud Messaging se encarga del envío de notificaciones push hacia los dispositivos móviles de residentes e inquilinos a través del microservicio de Notification. El microservicio de Report consulta datos de los demás servicios mediante REST para generar y exportar reportes financieros. El siguiente diagrama presenta la distribución de componentes y las conexiones entre cada capa de la arquitectura:
+
+<p align="center">
+  <img src="assets/img/cloud_architecture_diagram.png" alt="Cloud Architecture Diagram" width="700"/>
+</p>
+
+*Figura XX. Diagrama de arquitectura cloud de Edifika. Elaborado por el equipo utilizando Lucidchart (Lucidchart, s.f.).*
+
 ##### 5.4.2. Cloud Architecture Deployment
+
+A continuación se detalla la evidencia del despliegue de cada componente del sistema Edifika en sus respectivas plataformas cloud.
+
+**Microservicios Backend**
+
+Todos los microservicios fueron desplegados en Render como Web Services independientes. Cada repositorio cuenta con un Dockerfile que define la imagen base de Java, ejecuta el build con Maven para generar el archivo .jar y configura el comando de inicio de la aplicación. Render detecta el Dockerfile automáticamente, construye la imagen y despliega el contenedor generando una URL pública por cada servicio. Cada push a la rama principal dispara un redespliegue automático sin intervención manual.
+
+*IAM Microservice*
+
+<p align="center">
+  <img src="assets/img/deploy_backend.png" alt="Despliegue Backend en Render" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio IAM. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*API Gateway*
+
+<p align="center">
+  <img src="assets/img/api_deploy.jpeg" alt="API Gateway Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del API Gateway. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Residential Management Microservice*
+
+<p align="center">
+  <img src="assets/img/residential_deploy.png" alt="Residential Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio Residential Management. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Reservation Microservice*
+
+<p align="center">
+  <img src="assets/img/reservation_deploy.jpeg" alt="Reservation Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio Reservation. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Payment Microservice*
+
+<p align="center">
+  <img src="assets/img/payment_deploy.png" alt="Payment Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio Payment. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Communication Microservice*
+
+<p align="center">
+  <img src="assets/img/communication_deployy.png" alt="Communication Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio Communication. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Forum Microservice*
+
+<p align="center">
+  <img src="assets/img/forum_deploy.png" alt="Forum Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio Forum. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Notification Microservice*
+
+<p align="center">
+  <img src="assets/img/notification_deploy.jpg" alt="Notification Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio Notification. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Report Microservice*
+
+<p align="center">
+  <img src="assets/img/report_deploy.jpeg" alt="Report Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio Report. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+**Bases de datos PostgreSQL**
+
+Cada microservicio cuenta con su propia instancia de PostgreSQL alojada en Supabase. Las credenciales de conexión (host, puerto, usuario, contraseña y nombre de la base de datos) se configuraron como variables de entorno dentro de cada Web Service en Render, utilizando el Transaction Pooler en el puerto 6543 para la gestión de conexiones. Al iniciar cada servicio, Hibernate crea automáticamente las tablas del dominio correspondiente.
+
+*IAM Database*
+
+<p align="center">
+  <img src="assets/img/deploy_db.png" alt="IAM DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio IAM. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+
+*Residential Management Database*
+
+<p align="center">
+  <img src="assets/img/residential_deploy_db.jpeg" alt="Residential DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio Residential Management. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+
+*Reservation Database*
+
+<p align="center">
+  <img src="assets/img/reservation_deploy_db.jpeg" alt="Reservation DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio Reservation. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+
+*Payment Database*
+
+<p align="center">
+  <img src="assets/img/payment_db_deploy.png" alt="Payment DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio Payment. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+
+*Communication Database*
+
+<p align="center">
+  <img src="assets/img/communication_db_deployy.png" alt="Communication DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio Communication. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+
+*Forum Database*
+
+<p align="center">
+  <img src="assets/img/forum_db_deploy.png" alt="Forum DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio Forum. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+
+*Notification Database*
+
+<p align="center">
+  <img src="assets/img/notification_db_deploy.jpeg" alt="Notification DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio Notification. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+
+*Report Database*
+
+<p align="center">
+  <img src="assets/img/report_db_deploy.jpeg" alt="Report DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio Report. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
 
 
 
@@ -5948,8 +6290,11 @@ Se recomienda enfocar los esfuerzos futuros en la activación de la integración
 
 TF:
 
+El equipo culminó el desarrollo del sistema Edifika con la implementación del Sprint 4 y el despliegue completo de la arquitectura cloud del proyecto. Durante este entregable se atendieron las recomendaciones planteadas en el TB4: se activó la integración real con la pasarela Culqi en el microservicio de Payment, se corrigió el microservicio de Forum para ajustar la lógica de control de publicaciones diarias y se fortalecieron las pruebas de ejecución a través del API Gateway verificando los flujos completos de cada microservicio. Asimismo, se incorporaron las correcciones señaladas en revisiones anteriores del informe, incluyendo la diferenciación de títulos en los diagramas de clases, la unificación del registro de versiones, la corrección de errores tipográficos en las User Stories, la adición de párrafos descriptivos en las secciones de Project Report Collaboration Insights y la reestructuración de la tabla Student Outcome con separación visual clara entre integrantes. La documentación del despliegue cloud consolidó la evidencia de que todos los microservicios, bases de datos, frontend y Landing Page operan de forma integrada en sus respectivas plataformas (Render, Supabase y GitHub Pages), cumpliendo con la arquitectura distribuida diseñada desde el TB2.
 
 Recomendación:
+
+Se recomienda para una futura evolución del producto implementar un sistema de monitoreo centralizado que permita supervisar el estado de salud de cada microservicio desplegado, detectando caídas o degradaciones de rendimiento de forma proactiva. Es importante migrar la integración con Culqi del entorno sandbox al entorno de producción una vez que se cuente con las credenciales comerciales, validando el flujo completo de cobro con transacciones reales. Además, se sugiere incorporar un broker de mensajería como RabbitMQ cuando el sistema escale a un volumen significativo de usuarios concurrentes, lo cual permitiría desacoplar la comunicación entre microservicios y mejorar la resiliencia ante picos de demanda. Finalmente, se recomienda realizar pruebas de usabilidad con administradores y residentes reales para identificar oportunidades de mejora en la experiencia de usuario antes de un lanzamiento comercial.
 
 
 # Referencias Bibliográficas
@@ -5990,6 +6335,7 @@ Recomendación:
 - Impact map: `https://drive.google.com/file/d/1vSoBPwzNnKNbPt-nrmsQtPQPS1uqYmOt/view?usp=sharing`
 - User Persona 1: `https://drive.google.com/file/d/1CZasihoytHlc5yitISw_9r6zasZjfTG0/view?usp=sharing`
 - User Persona 2: `https://drive.google.com/file/d/1Iy0-x1W3vIBjgpKlcGfhzkv9yUg4askm/view?usp=sharing`
+- Diagrama de arquitectura cloud: `https://lucid.app/lucidchart/b723df84-0abd-44b8-a826-db1cb95b1a0b/edit?viewport_loc=-907%2C-3314%2C4893%2C2367%2C0_0&invitationId=inv_9b5c7c64-de50-4af9-8378-89b3cb1f0e04`
   
 # Links
 
