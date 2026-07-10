@@ -42,7 +42,7 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
 <br><br>
 <br>
 
-**Junio, 2026**
+**Julio, 2026**
 </h3>
 </div>
 
@@ -138,6 +138,22 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         - Correcciones de entregas anteriores
       </td>
     </tr>
+	 <tr>
+      <td>TF</td>
+      <td>10/07/2026</td>
+      <td>
+        - Becerra Tejeda, Alessandra Nicole <br>
+        - Bejarano Martinez, Alvaro Leandro <br>
+        - Ortiz Cardenas, Johanna Antuanete <br>
+        - Sarmiento Medina, Loreley <br>
+        - Zegarra López, Renato Sebastián Rubber
+      </td>
+      <td>
+        - Sprint 4 (5.3.4.1 – 5.3.4.8) <br>
+        - Microservices Deployment (5.4.1 – 5.4.2) <br>
+        - Correcciones de entregas anteriores
+      </td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -184,6 +200,14 @@ Se completó la implementación de los microservicios de Pagos, Comunicados y Fo
   <img src="assets/img/insights5.png" alt="5"/>
 </p>
 
+TF (10/07/2026):
+
+...
+
+<p align="center">
+  <img src="assets/img/insights6.png" alt="5"/>
+</p>
+
 ## **Student Outcome**
 ABET – EAC - Student Outcome 7: Aprendizaje Continuo y Autónomo <br>
 Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
@@ -206,30 +230,35 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: Actualicé conocimientos de desarrollo frontend y metodologías ágiles durante la implementación de la Landing Page y las actividades del Sprint 1 (secciones 5.3.1.1, 5.3.1.2).<br><br>
         TB3: Apliqué conocimientos de desarrollo backend para implementar el microservicio de reservas y documentar la API REST con Swagger (secciones 5.3.2.2, 5.3.2.5).<br><br>
         TB4: Actualicé conocimientos en DDD y Spring Security para codificar el microservicio de foros comunitarios, aplicando filtros JWT personalizados y gestionando el ciclo de vida del Sprint mediante el Kanban Board del equipo (sección 5.3.3.7, 5.3.3.8).<br><br>
+		TF:<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: Investigué y apliqué metodologías de diseño centrado en el usuario para elaborar los User Personas, User Task Matrix y Empathy Map del proyecto (secciones 2.3.1, 2.3.2, 2.3.3).<br><br>
         TB2: Apliqué el método ADD para definir la arquitectura del sistema, identificando drivers de calidad y proposing soluciones como microservicios y API Gateway (secciones 4.3.1, 4.3.2).<br><br>
         TP: Apliqué conocimientos de UX para desarrollar los mockups de la aplicación web para administradores, cubriendo los módulos de gestión financiera, reservas, comunicados y autenticación (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Implementé el dashboard frontend para administradores integrando componentes que consumen los endpoints REST de los microservicios del sistema (secciones 5.3.2.1, 5.3.2.2, 5.3.2.4).<br><br>
         TB4: Actualicé conocimientos de desarrollo frontend para mejorar el dashboard y las secciones de inicio de perfil y configuración, optimizando la experiencia de usuario del sistema (sección 5.3.3.1).<br><br>
+		TF:<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: Investigué y documenté el perfil de la startup Condomia, el concepto del producto Edifika y los antecedentes del problema en la gestión de condominios (secciones 1.1.1, 1.2.1, 1.2.2).<br><br>
         TB2: Apliqué conceptos de arquitectura de software para definir principios, patrones y tácticas del sistema, elaborando los diagramas de secuencia correspondientes (secciones 4.1.1, 4.1.2, 4.1.8).<br><br>
         TP: Implementé el microservicio IAM con autenticación JWT, encriptación BCrypt y documentación Swagger, desplegándolo en Render con base de datos PostgreSQL en Supabase (secciones 5.3.1.2, 5.3.1.5, 5.3.1.6).<br><br>
         TB3: Implementé el API Gateway con Spring Cloud Gateway, configurando políticas CORS, filtros de validación JWT y reglas de enrutamiento hacia los microservicios del sistema (secciones 5.3.2.2, 5.3.2.5, 5.3.2.6).<br><br>
 		TB4: 7.c1: Implementé el microservicio Payment Service aplicando DDD y Clean Architecture, incluyendo los agregados de Debt y Payment con integración a la pasarela Culqi, el patrón Saga para la consistencia de transacciones y la documentación completa de la API REST mediante Swagger (secciones 5.3.3.4, 5.3.3.5). <br><br>
+		TF:<br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: Elaboré los cuadros As-Is y To-Be, el Impact Map y conduje una entrevista a usuario para alinear las necesidades reales con la solución propuesta (secciones 2.3.4, 3.1, 3.3).<br><br>
         TB2: Apliqué conceptos de arquitectura de software identificando drivers, constraints y concerns, y definiendo componentes y relaciones dentro del sistema (secciones 4.2.4, 4.2.5).<br><br>
         TP: Diseñé los mockups de la aplicación web para administradores cubriendo los módulos de autenticación, pagos, reservas y comunicados, y contribuí en la definición de las Testing Suites del proyecto (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Elaboré la evidencia de testing del Sprint 2 y gestioné el despliegue del frontend de la aplicación web de Edifika (secciones 5.3.2.3, 5.3.2.6).<br><br>
 		TB4: Actualicé conocimientos en pruebas unitarias y aseguramiento de calidad mediante la elaboración de la evidencia de testing del Sprint 3, documentando las pruebas con JUnit 5 y Mockito para los microservicios Payment, Communication y Forum. Además, participé en el avance del frontend de la aplicación web de Edifika, contribuyendo a la integración visual de nuevas secciones y a la mejora de la experiencia de usuario en los módulos trabajados durante el Sprint (secciones 5.3.3.1, 5.3.3.3).<br><br>
+		TF:<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: Realicé el análisis de competidores y conduje entrevistas a usuarios, actualizando conocimientos sobre el sector de gestión de condominios (secciones 2.1.1, 2.2.2).<br><br>
         TB2: Apliqué conocimientos de arquitectura elaborando los diagramas C4 y el diagrama ERD para representar la estructura, servicios y relaciones del sistema (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
         TP: Actualicé los diagramas C4, de componentes, clases y ERD del sistema, reforzando el uso de Git y GitHub para la gestión del código fuente del proyecto (secciones 4.1.4, 4.1.5, 4.1.6, 5.2.2).<br><br>
         TB3:Actualicé conocimientos de microservicios y modelado de datos para implementar el microservicio de Residential Management, corrigiendo además los diagramas de clases y ERD para reflejar con mayor precisión la estructura del sistema (secciones 5.3.2.2, 4.1.5, 4.1.6). <br><br>
-		  TB4: Actualicé mis conocimientos sobre el desarrollo y despliegue de microservicios con Spring Boot, implementando el microservicio de Communication e integrándolo con una base de datos PostgreSQL desplegada en Supabase. Asimismo, configuré el despliegue del servicio en Render, fortaleciendo mis competencias en integración de servicios y gestión de infraestructura en la nube para soluciones de ingeniería de software (sección 5.3.2.6).<br><br>
+		TB4: Actualicé mis conocimientos sobre el desarrollo y despliegue de microservicios con Spring Boot, implementando el microservicio de Communication e integrándolo con una base de datos PostgreSQL desplegada en Supabase. Asimismo, configuré el despliegue del servicio en Render, fortaleciendo mis competencias en integración de servicios y gestión de infraestructura en la nube para soluciones de ingeniería de software (sección 5.3.2.6).<br><br>
+		TF:<br><br>
       </td>
       <td>
         TB1: El equipo incorporó nuevos conceptos y herramientas de ingeniería de software a lo largo del primer entregable, reflejando un proceso de actualización continua en la calidad y coherencia de la documentación producida.<br><br>
@@ -237,6 +266,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: El equipo avanzó en la implementación de Edifika aplicando conocimientos en Spring Boot, JWT, Docker, PostgreSQL y herramientas de prototipado, evidenciando la capacidad de adquirir competencias técnicas según las demandas del proyecto.<br><br>
         TB3: El equipo concretó el desarrollo de los microservicios de Reservas y Residential Management, el API Gateway y secciones del frontend, actualizando conocimientos técnicos por componente e incorporando nuevas tecnologías conforme evolucionó el sistema.<br><br>
 		TB4: El equipo completó la implementación de los microservicios restantes del sistema Edifika, incluyendo el Payment Service con integración a la pasarela Culqi y patrón Saga, el Communication Service para la gestión de comunicados oficiales con métricas de lectura, y el Forum Service para el foro comunitario con control de publicaciones diarias. Paralelamente, se avanzó con el desarrollo del frontend de Edifika, integrando nuevas secciones de la aplicación web con los endpoints de los microservicios desplegados. Cada integrante actualizó sus conocimientos técnicos según el componente asignado, abarcando desde la consistencia transaccional en pagos hasta la gestión de eventos en comunicados y la optimización de la experiencia de usuario en el frontend, demostrando la capacidad del equipo para incorporar nuevas tecnologías en la fase final del proyecto. <br><br>
+		TF:<br><br>
       </td>
     </tr>
     <tr>
@@ -248,6 +278,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: Reconocí que el desarrollo web y el trabajo ágil requieren actualización constante, lo que orientó mi contribución en la Landing Page y las actividades del Sprint 1 (secciones 5.3.1.1, 5.3.1.2).<br><br>
         TB3: Reconocí la necesidad de profundizar en desarrollo backend y documentación de APIs para responder adecuadamente a los requerimientos técnicos del microservicio de reservas (secciones 5.3.2.2, 5.3.2.5).<br><br>
         TB4: Reconocí que implementar lógica distribuida y flujos ágiles requiere un aprendizaje autónomo y continuo, lo cual me llevó a investigar sobre el aislamiento de dominios en microservicios independientes y la optimización de tareas dinámicas mediante el uso del tablero Kanban (sección 5.3.3.7, 5.3.3.8).<br><br>
+		TF:<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: Reconocí que diseñar y ejecutar entrevistas a los segmentos objetivo exige dominar técnicas de investigación cualitativa para validar hipótesis con fundamento real (secciones 2.2.1, 2.2.2).<br><br>
         TB2: Al desarrollar las ADD Iterations comprendí que el aprendizaje permanente es clave para tomar decisiones arquitectónicas sólidas sobre atributos de calidad y patrones de diseño (secciones 4.3.1, 4.3.2).<br><br>
@@ -260,18 +291,21 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: Reconocí que el desarrollo backend con microservicios requiere dominar múltiples tecnologías en simultáneo, como JWT, DDD y despliegue cloud, enfrentando problemas reales no previstos (secciones 5.3.1.2, 5.3.1.5, 5.3.1.6).<br><br>
         TB3: Reconocí que implementar un API Gateway exige comprender la interacción entre componentes de una arquitectura distribuida, investigando filtros de seguridad, CORS y ciclo de vida de solicitudes HTTP (secciones 5.3.2.2, 5.3.2.5).<br><br>
 		TB4: Reconocí que implementar un microservicio de pagos con integración a pasarelas externas exige dominar conceptos de consistencia transaccional, manejo de fallos y compensación mediante el patrón Saga, lo cual me obligó a investigar estrategias de resiliencia que no había aplicado previamente en el proyecto (secciones 5.3.3.4, 5.3.3.5). <br><br>
+		TF:<br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: Reconocí la importancia del aprendizaje continuo al elaborar los cuadros As-Is, To-Be e Impact Map, herramientas que exigieron comprender cómo analizar al usuario y estructurar soluciones alineadas a sus necesidades (secciones 2.3.4, 3.1, 3.3).<br><br>
         TB2: Reconocí que comprender la arquitectura de software requiere actualización permanente, evidenciado en la identificación de constraints y concerns del sistema (secciones 4.2.4, 4.2.5).<br><br>
         TP: Reconocí que diseñar interfaces coherentes exige actualizar constantemente conocimientos en usabilidad y tendencias de diseño, reflejado en las decisiones tomadas para cada módulo de los mockups (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Reconocí que documentar el testing y gestionar el despliegue del frontend demanda aprendizaje continuo sobre estrategias de validación y configuración de entornos de producción (secciones 5.3.2.3, 5.3.2.6).<br><br>
 		TB4: Reconocí la importancia del aprendizaje continuo al documentar y comprender la estrategia de pruebas unitarias aplicada en los microservicios del Sprint 3, ya que fue necesario investigar el uso de mocks, validaciones de servicios, controladores REST y manejo de excepciones con JUnit 5 y Mockito. Asimismo, al participar en el desarrollo de parte del frontend, reforcé la necesidad de mantener una actualización constante en integración de interfaces, consumo de servicios backend y consistencia visual entre componentes de la plataforma Edifika (secciones 5.3.3.1, 5.3.3.3).<br><br>
+		TF:<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: Reconocí que el aprendizaje permanente es esencial al tener que investigar el sector para desarrollar el Lean UX Canvas and el análisis de competidores (secciones 1.2.3.4, 2.1.1).<br><br>
         TB2: Reconocí que elaborar los diagramas C4 y ERD exigió reforzar conceptos de arquitectura, comunicación entre servicios y modelado de datos (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
         TP: Reconocí que el desarrollo de EDIFIKA exige aprendizaje continuo en arquitectura y gestión de configuración, mejorando mi desempeño y adaptación a nuevas herramientas del proyecto (secciones 4.1.4, 5.2.2).<br><br>
         TB3: Reconocí que implementar y corregir el microservicio de Residential Management exige aprendizaje continuo, ya que cada ajuste en los endpoints REST y los diagramas del sistema demandó investigar y aplicar nuevos conceptos de forma iterativa (secciones 5.3.2.2, 4.1.5, 4.1.6).<br><br>
 		  TB4: Reconocí la importancia del aprendizaje continuo al adquirir conocimientos sobre plataformas de despliegue en la nube y configuración de bases de datos remotas, lo que me permitió publicar el microservicio de Communication y establecer su conexión con PostgreSQL mediante variables de entorno. Esta experiencia fortaleció mis habilidades para desarrollar e implementar soluciones de software utilizando tecnologías actuales (sección 5.3.2.6).<br><br>
+		  TF:<br><br>
       </td>
       <td>
         TB1: El proyecto Edifika demostró que mantenerse en constante aprendizaje es necesario, ya que cada sección trabajada presentó retos que exigieron investigar, cuestionar y adaptarse.<br><br>
@@ -279,6 +313,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: La implementación del primer microservicio evidenció que cada fase del proyecto plantea retos técnicos nuevos que solo se resuelven mediante aprendizaje continuo, desde la configuración de seguridad hasta el despliegue en producción.<br><br>
         TB3: La implementación simultánea de microservicios, API Gateway y frontend demostró que un sistema distribuido plantea desafíos continuos que obligan a cada integrante a investigar y adaptarse constantemente, reafirmando el aprendizaje permanente como pilar del proyecto.<br><br>
 		TB4: La implementación de los últimos microservicios y el avance del frontend evidenciaron que cada etapa del desarrollo plantea desafíos técnicos distintos que demandan aprendizaje autónomo y continuo. Resolver la integración con pasarelas de pago externas, garantizar la trazabilidad de comunicados, controlar límites de publicación en el foro y conectar los componentes del frontend con múltiples servicios backend fueron actividades que exigieron a cada miembro investigar soluciones específicas, validando que el aprendizaje permanente es la competencia que sostiene la calidad de un proyecto de ingeniería de software a lo largo de todo su ciclo de vida. <br><br>
+		TF:<br><br>
       </td>
     </tr>
   </tbody>
@@ -407,7 +442,18 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         - [5.3.3.6. Software Deployment Evidence for Sprint Review](#5336-software-deployment-evidence-for-sprint-review)
         - [5.3.3.7. Team Collaboration Insights during Sprint](#5337-team-collaboration-insights-during-sprint)
         - [5.3.3.8. Kanban Board](#5338-kanban-board)
-          
+    - [5.3.4. Sprint 4](#534-sprint-4)
+        - [5.3.4.1. Sprint Backlog 4](#5341-sprint-backlog-4)
+        - [5.3.4.2. Development Evidence for Sprint Review](#5342-development-evidence-for-sprint-review)
+        - [5.3.4.3. Testing Suite Evidence for Sprint Review](#5343-testing-suite-evidence-for-sprint-review)
+        - [5.3.4.4. Execution Evidence for Sprint Review](#5344-execution-evidence-for-sprint-review)
+        - [5.3.4.5. Microservices Documentation Evidence for Sprint Review](#5345-microservices-documentation-evidence-for-sprint-review)
+        - [5.3.4.6. Software Deployment Evidence for Sprint Review](#5346-software-deployment-evidence-for-sprint-review)
+        - [5.3.4.7. Team Collaboration Insights during Sprint](#5347-team-collaboration-insights-during-sprint)
+        - [5.3.4.8. Kanban Board](#5348-kanban-board)
+  	- [5.4. Microservices Deployment](#54-microservices-deployment)
+      - [5.4.1. Cloud Architecture Diagram](#541-cloud-architecture-diagram)
+      - [5.4.2. Cloud Architecture Deployment](#542-cloud-architecture-deployment)
 - [Conclusiones](#conclusiones)
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Referencias Bibliográficas](#referencias-bibliográficas)
@@ -5840,6 +5886,7 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 3 
 *Figura 161. Kanban Board del Sprint 3 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 [https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
+
 
 
 # Conclusiones
