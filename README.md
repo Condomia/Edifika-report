@@ -5745,14 +5745,16 @@ Controlador responsable de la gestión de comunicados oficiales del condominio. 
 
 **Post Controller**
 
-Controlador dedicado al foro comunitario del condominio. Permite a los residentes publicar mensajes en el canal de su edificio, incluyendo la posibilidad de adjuntar una imagen a la publicación.
-
+Controlador dedicado al foro comunitario del condominio. Permite a los residentes publicar mensajes en el canal de su edificio, incluyendo la posibilidad de adjuntar una imagen a la publicación, además de consultar las publicaciones existentes.
+ 
 | Método | Endpoint | Descripción |
 |--------|----------|-------------|
+| GET | /api/v1/posts | Lista las publicaciones del foro comunitario de forma paginada. |
 | POST | /api/v1/posts | Crea una nueva publicación en el foro comunitario del edificio. |
+| GET | /api/v1/posts/{id} | Obtiene el detalle de una publicación específica según su identificador. |
 
 <p align="center">
-  <img src="assets/img/post_controller.png" alt="Post Controller Endpoints" width="700"/>
+  <img src="assets/img/post_controller_2.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
 *Figura 150. Endpoints del Post Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
