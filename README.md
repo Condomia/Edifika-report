@@ -5801,7 +5801,7 @@ Además, se configuró un entorno de ejecución para Java y las variables de ent
 *Notification Microservice*
 
 <p align="center">
-  <img src="assets/img/notification_deploy.jpeg" alt="deploy" width="700"/>
+  <img src="assets/img/notification_deploy.jpg" alt="deploy" width="700"/>
 </p>
 
 *Figura XX. Notification Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
@@ -5809,7 +5809,7 @@ Además, se configuró un entorno de ejecución para Java y las variables de ent
 *Report Microservice*
 
 <p align="center">
-  <img src="assets/img/report_deploy.png" alt="deploy" width="700"/>
+  <img src="assets/img/report_deploy.jpeg" alt="deploy" width="700"/>
 </p>
 
 *Figura XX. Report Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
