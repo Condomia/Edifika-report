@@ -5923,6 +5923,8 @@ El objetivo principal del Sprint 4 fue completar funcionalidades clave como la a
 
 *Figura 130. Sprint Backlog 4. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
+[https://trello.com/invite/b/6a517a0295ce5b5485e0f3c6/ATTIca3693665d49c53fa719118b8aed0b9a52735F84/sprint-backlog-4](https://trello.com/invite/b/6a517a0295ce5b5485e0f3c6/ATTIca3693665d49c53fa719118b8aed0b9a52735F84/sprint-backlog-4)
+
 ##### 5.3.4.2. Development Evidence for Sprint Review
 
 Durante el Sprint 4 se realizaron avances relacionados con la implementación, configuración, pruebas y despliegue de los nuevos microservicios de reportes y notificaciones de Edifika. Asimismo, se incorporaron mejoras en el frontend asociadas con la aceptación del reglamento, el módulo financiero y el muro comunitario.
