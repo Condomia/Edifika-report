@@ -5741,7 +5741,7 @@ Esta sección presenta los cuadros analíticos de colaboración del equipo duran
 En el repositorio del microservicio de pagos se registraron los commits correspondientes a la gestión financiera del condominio. Los aportes del equipo incluyen la lógica para el control de deudas y cuotas de mantenimiento y la integración con la pasarela Culqi.
 
 <p align="center">
-  <img src="assets/img/insights_payment.png" alt="Insights Landing Page" width="700"/>
+  <img src="assets/img/insights_payment.png" alt="Insights Payment" width="700"/>
 </p>
 
 *Figura XXX. Insights del repositorio de payment. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
@@ -5751,7 +5751,7 @@ En el repositorio del microservicio de pagos se registraron los commits correspo
 En el repositorio del microservicio de foro se registraron los commits correspondientes al canal de interacción vecinal de cada edificio. Los aportes del equipo incluyen la regla de negocio de un post diario por residente, el módulo de moderación y la protección de endpoints con seguridad JWT.
 
 <p align="center">
-  <img src="assets/img/insights_forum.png" alt="Insights Landing Page" width="700"/>
+  <img src="assets/img/insights_forum.png" alt="Insights Forum" width="700"/>
 </p>
 
 *Figura XXX. Insights del repositorio de forum. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
@@ -5762,7 +5762,7 @@ En el repositorio del microservicio de foro se registraron los commits correspon
 En el repositorio del microservicio de comunicados se registraron los commits correspondientes a la difusión de avisos oficiales en la plataforma. Los aportes del equipo incluyen el desarrollo de las herramientas de publicación para administradores.
 
 <p align="center">
-  <img src="assets/img/insights_communications.png" alt="Insights Landing Page" width="700"/>
+  <img src="assets/img/insights_communications.png" alt="Insights Communication" width="700"/>
 </p>
 
 *Figura XXX. Insights del repositorio de communication. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
@@ -5941,7 +5941,41 @@ Estas credenciales fueron registradas como variables de entorno dentro de Render
 
 
 ##### 5.3.4.7. Team Collaboration Insights during Sprint
+
+Esta sección presenta los cuadros analíticos de colaboración del equipo durante el Sprint 4, evidenciando la participación de los miembros a través de los commits registrados en los repositorios de GitHub. Se muestran las contribuciones realizadas tanto en el repositorio de microservicios como Report y Notification.
+
+**Microservicio Report - Backend**
+
+En el repositorio del microservicio de reportes se registraron los commits correspondientes a la consolidación de información financiera del condominio. Los aportes del equipo incluyen la lógica para la generación de reportes financieros mediante consultas al Payment Service, la exportación en formato PDF y Excel, y la consulta de residentes morosos con pagos atrasados.
+
+<p align="center">
+  <img src="assets/img/insights_report.png" alt="Insights Report" width="700"/>
+</p>
+
+*Figura XXX. Insights del repositorio de report. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
+**Microservicio Notification - Backend**
+
+En el repositorio del microservicio de notificaciones se registraron los commits correspondientes a la integración con Firebase Cloud Messaging. Los aportes del equipo incluyen la lógica para el envío de notificaciones push en tiempo real, el manejo de fallos y la validación y actualización de tokens de dispositivo.
+
+<p align="center">
+  <img src="assets/img/insights_notification.png" alt="Insights Notification" width="700"/>
+</p>
+
+*Figura XXX. Insights del repositorio de report. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+
 ##### 5.3.4.8. Kanban Board
+
+En esta sección se presentan las actividades desarrolladas durante el Sprint 4 mediante un Kanban Board. Las tareas se muestran en la columna Done, luego de haber pasado por los estados To Do, In Progress y To Review hasta su correcta finalización.
+
+<p align="center">
+	<img src="assets/img/kanban_board4.png" alt="Kanban Board Sprint 4" width="700"/>
+</p>
+
+*Figura XXX. Kanban Board del Sprint 4 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+
+[https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
+
 
 ### 5.4. Microservices Deployment
 ##### 5.4.1. Cloud Architecture Diagram
