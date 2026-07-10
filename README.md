@@ -202,7 +202,7 @@ Se completó la implementación de los microservicios de Pagos, Comunicados y Fo
 
 TF (10/07/2026):
 
-...
+Se completó la implementación de los microservicios de notificaciones y reportes, además del avance del frontend. El equipo incorporó las correcciones de entregas anteriores y documentó el Sprint 4 en las secciones correspondientes.
 
 <p align="center">
   <img src="assets/img/insights6.png" alt="5"/>
