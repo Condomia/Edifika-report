@@ -5651,7 +5651,7 @@ Controlador dedicado al foro comunitario del condominio. Permite a los residente
 ##### 5.3.3.6. Software Deployment Evidence for Sprint Review
 
 
-En esta sección se presenta la evidencia del despliegue del software realizado para la revisión del Sprint 2. Se muestran los resultados obtenidos durante la publicación de los microservicios desarrollados, evidenciando su disponibilidad en la nube y su correcta configuración para ser consumidos por otros componentes de la arquitectura basada en microservicios.
+En esta sección se presenta la evidencia del despliegue del software realizado para la revisión del Sprint 3. Se muestran los resultados obtenidos durante la publicación de los microservicios desarrollados, evidenciando su disponibilidad en la nube y su correcta configuración para ser consumidos por otros componentes de la arquitectura basada en microservicios.
 
 ### Backend
 
@@ -5717,7 +5717,7 @@ Estas credenciales fueron registradas como variables de entorno dentro de Render
 
 ### Frontend
 
-Durante el Sprint 2, el frontend continuó desplegado mediante **Render**, permitiendo integrar las nuevas funcionalidades correspondientes a los microservicios de **Communication**, **Payment** y **Forum**.
+Durante el Sprint 3, el frontend continuó desplegado mediante **Render**, permitiendo integrar las nuevas funcionalidades correspondientes a los microservicios de **Communication**, **Payment** y **Forum**.
 
 La aplicación fue desarrollada utilizando **Angular**, siguiendo una arquitectura modular que facilita la integración de nuevos módulos y el consumo de servicios REST expuestos por los microservicios. El código fuente se gestionó mediante GitHub, permitiendo implementar un flujo de integración y despliegue continuo (CI/CD), donde cada actualización realizada sobre la rama principal genera automáticamente una nueva versión del sistema en Render.
 
@@ -5788,6 +5788,56 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 3 
 ##### 5.3.4.4. Execution Evidence for Sprint Review
 ##### 5.3.4.5. Microservices Documentation Evidence for Sprint Review
 ##### 5.3.4.6. Software Deployment Evidence for Sprint Review
+
+
+En esta sección se presenta la evidencia del despliegue del software realizado para la revisión del Sprint 4. Se muestran los resultados obtenidos durante la publicación de los microservicios desarrollados, evidenciando su disponibilidad en la nube y su correcta configuración para ser consumidos por otros componentes de la arquitectura basada en microservicios.
+
+### Backend
+
+Para el despliegue de los microservicios se utilizó **Render** como plataforma en la nube, ya que permite automatizar la publicación de aplicaciones desarrolladas con Spring Boot. Cada microservicio fue vinculado a su respectivo repositorio de GitHub, permitiendo que Render compile automáticamente el proyecto utilizando Maven, según la configuración definida en el archivo `pom.xml`.
+
+Además, se configuró un entorno de ejecución para Java y las variables de entorno necesarias para el funcionamiento de cada servicio. Una vez finalizado el proceso de despliegue, Render generó una URL pública para cada microservicio, permitiendo su acceso mediante peticiones HTTP desde el API Gateway u otros servicios de la arquitectura.
+
+*Notification Microservice*
+
+<p align="center">
+  <img src="assets/img/notification_deploy.jpeg" alt="deploy" width="700"/>
+</p>
+
+*Figura XX. Notification Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Report Microservice*
+
+<p align="center">
+  <img src="assets/img/report_deploy.png" alt="deploy" width="700"/>
+</p>
+
+*Figura XX. Report Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+
+### Database
+
+Para el almacenamiento de la información se utilizó **Supabase**, una plataforma en la nube que proporciona bases de datos PostgreSQL administradas. Para cada microservicio se configuró una instancia de base de datos con sus respectivas credenciales de acceso, incluyendo host, puerto, nombre de la base de datos, usuario y contraseña.
+
+Estas credenciales fueron registradas como variables de entorno dentro de Render, permitiendo que cada microservicio establezca una conexión segura con su base de datos durante la ejecución. De esta manera, los servicios pueden realizar operaciones de persistencia, consulta y actualización de información de forma remota.
+
+*Notification Microservice*
+
+<p align="center">
+  <img src="assets/img/notification_db_deploy.jpeg" alt="deploy" width="700"/>
+</p>
+
+*Figura XX. Notification Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+
+*Report Microservice*
+
+<p align="center">
+  <img src="assets/img/report_db_deploy.jpeg" alt="deploy" width="700"/>
+</p>
+
+*Figura XX. Report Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+
+
 ##### 5.3.4.7. Team Collaboration Insights during Sprint
 ##### 5.3.4.8. Kanban Board
 
