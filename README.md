@@ -1,49 +1,47 @@
 
-
 <div align="center">
-
 <p align="center">
-  <img src="assets/img/upc_logo.png" alt="logo" width="200"/>
+  <img src="assets/img/upc_logo.png" alt="logo" width="150"/>
 </p>
 
-<h3 align="center">
-Universidad Peruana de Ciencias Aplicadas
-</h3>
+<strong>Universidad Peruana de Ciencias Aplicadas</strong>
 
-<h3 align="center">
-Ingeniería de Software  
-<br><br>
-Periodo: 202610
-<br><br>
-1ASI0657 - Fundamentos de Arquitectura de Software
-<br><br>
-NRC: 7944  
-<br><br>
-Docente: Abel Nehemias Rosales Caururu  
-<br><br>
-<strong>Informe de TB4</strong>  
-<br><br>
-Startup: Condomia  
-<br><br>
-Producto: Edifika  
-<br><br>
-<br><br>
-<strong>Integrantes:</strong>  
-<br><br>
-Becerra Tejeda, Alessandra Nicole (u202318947)
-<br><br>
-Bejarano Martinez, Alvaro Leandro (u202311640)
-<br><br>
-Ortiz Cardenas, Johanna Antuanete (u202310358)
-<br><br>
-Sarmiento Medina, Loreley (u202310005) 
-<br><br>
-Zegarra López, Renato Sebastián Rubber (u202311558)
-<br><br>
+<strong>Ingeniería de Software</strong>
+
+<strong>1ASI0657  Fundamentos de Arquitectura de Software<br>202610</strong>
+
+<br>
+
+<strong>NRC: 7944</strong>
+
+<br>
+
+<strong>Profesor:  Abel Nehemias Rosales Caururu</strong>
+
+<br>
+
+<strong>TRABAJO FINAL</strong>
+
+<br>
+
+<strong>Nombre del Producto</strong> : Edifika
+
+<br>
+
+<strong>Integrantes:</strong>
+
+| Alumno | Codigo |
+|---|---|
+| Becerra Tejeda, Alessandra Nicole | u202318947 |
+| Bejarano Martinez, Alvaro Leandro | u202311640 |
+| Ortiz Cardenas, Johanna Antuanete | u202310358 |
+| Sarmiento Medina, Loreley | u202310005 |
+| Zegarra López, Renato Sebastián Rubber | u202311558 |
+
 <br>
 
 **Julio, 2026**
-</h3>
+
 </div>
 
 
