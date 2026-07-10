@@ -6433,8 +6433,11 @@ Enlace del video: `https://www.youtube.com/watch?v=SjhYG9Lk7fk`
 - Enlace del despliegue del microservicio de pagos: `https://edifika-microservice-payment.onrender.com`
 - Enlace del despliegue del microservicio de comunicados: `https://edifika-microservice-communications.onrender.com/ `
 - Enlace del despliegue del microservicio de foro: `https://edifika-microservice-forum.onrender.com`
+- Enlace del despliegue del microservicio de notificaciones: `https://edifika-microservice-notification.onrender.com`
+- Enlace de desploegue de microservicio de reportes: `https://edifika-microservice-report.onrender.com`
 - Enlace del despliegue del frontend: `https://edifika-front.onrender.com/`
 
+  
 **Videos**
 
 - Enlace a video about the team:  `https://www.youtube.com/watch?v=SjhYG9Lk7fk`
