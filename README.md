@@ -42,7 +42,7 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
 <br><br>
 <br>
 
-**Junio, 2026**
+**Julio, 2026**
 </h3>
 </div>
 
@@ -71,33 +71,9 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         - Zegarra López, Renato Sebastián Rubber
       </td>
       <td>
-        Se realizaron los siguientes puntos del informe: <br><br>
-        <b>Capítulo I: Introducción</b> <br>
-        1.1 Startup Profile <br>
-        1.1.1 Descripción de la Startup <br>
-        1.1.2 Perfiles de integrantes del equipo <br>
-        1.2 Solution Profile <br>
-        1.2.1 Nombre del producto <br>
-        1.2.2 Antecedentes y problemática <br>
-        1.2.3 Lean UX Process <br>
-        1.2.3.1 Lean UX Problem Statement <br>
-        1.2.3.2 Lean UX Assumptions <br>
-        1.2.3.3 Lean UX Hypothesis <br>
-        1.2.3.4 Lean UX Canvas <br>
-        1.3 Segmentos objetivo <br><br>
-        <b>Capítulo II: Requirements & Analysis</b> <br>
-        2.1 Competidores <br>
-        2.2 Entrevistas <br>
-        2.3 Needfinding <br>
-        2.3.1 User Personas <br>
-        2.3.2 User Task Matrix <br>
-        2.3.3 Empathy Maps <br>
-        2.3.4 As-is Scenario Mapping <br><br>
-        <b>Capítulo III: Requirements Specification</b> <br>
-        3.1 To-Be Scenario Mapping <br>
-        3.2 User Stories <br>
-        3.3 Impact Map <br>
-        3.4 Product Backlog
+        - Capítulo I: Introducción (1.1 – 1.3) <br>
+        - Capítulo II: Requirements & Analysis (2.1 – 2.3) <br>
+        - Capítulo III: Requirements Specification (3.1 – 3.4)
       </td>
     </tr>
     <tr>
@@ -111,35 +87,11 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         - Zegarra López, Renato Sebastián Rubber
       </td>
       <td>
-        Se realizaron los siguientes puntos del informe: <br><br>
-        <b>Capítulo IV: Product Architecture Design</b> <br>
-        4.1 Design Concepts, ViewPoints & ER Diagrams <br>
-        4.1.1 Principles Statements <br>
-        4.1.2 Approaches Statements Architectural Styles & Patterns <br>
-		4.1.3 Architectural Styles & Patterns <br>
-        4.1.4 Context Diagram <br>
-        4.1.5 Approach driven ViewPoints Diagrams <br>
-        4.1.6 Relational/Non Relational Database Diagram <br>
-        4.1.7 Design Patterns <br>
-        4.1.8 Tactics <br><br>
-        4.2 Architectural Drivers <br>
-        4.2.1 Design Purpose <br>
-        4.2.2 Primary Functionality (Primary User Stories) <br>
-        4.2.3 Quality Attribute Scenarios <br>
-        4.2.4 Constraints <br>
-        4.2.5 Architectural Concerns <br><br>
-        4.3 ADD Iterations <br>
-        4.3.1 Iteration 1 <br>
-        4.3.1.1 Architectural Design Backlog <br>
-        4.3.1.2 Establish Iteration Goal by Selecting Drivers <br>
-        4.3.1.3 Choose One or More Elements of the System to Refine <br>
-        4.3.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers <br>
-        4.3.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces <br>
-        4.3.1.6 Sketch Views (C4 & UML) and Record Design Decisions <br>
-        4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
+        - Capítulo IV: Product Architecture Design (4.1 – 4.3) <br>
+        - Iteraciones ADD 1, 2 y 3 (4.3.1 – 4.3.3)
       </td>
-		</tr>
-		<tr>
+    </tr>
+    <tr>
       <td>TP</td>
       <td>15/05/2026</td>
       <td>
@@ -149,32 +101,14 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         - Sarmiento Medina, Loreley <br>
         - Zegarra López, Renato Sebastián Rubber
       </td>
-		<td>
-        Se realizaron los siguientes puntos del informe: <br><br>
-        <b>Capítulo V: Product Implementation, Validation & Deployment</b> <br>
-        5.1. Testing Suites & General Patterns <br>
-        5.1.1. Backend Application Core Testing Suite <br>
-        5.1.2. Pattern Based Backend Application(s) <br>
-		5.1.3. Pattern Based Custom Software Library <br>
-        5.1.4. Framework Pattern Driven Refactoring Report <br>
-        5.2. Software Configuration Management <br>
-        5.2.1. Software Development Environment Configuration <br>
-        5.2.2. Source Code Management <br>
-        5.2.3. Source Code Style Guide & Conventions <br>
-        5.2.4. Software Deployment Configuration <br>
-        5.3. Microservices Implementation <br>
-        5.3.1. Sprint 1 <br>
-        5.3.1.1. Sprint Backlog 1 <br>
-        5.3.1.2. Development Evidence for Sprint Review <br>
-        5.3.1.3. Testing Suite Evidence for Sprint Review <br><br>
-        5.3.1.4. Execution Evidence for Sprint Review <br>
-        5.3.1.5. Microservices Documentation Evidence for Sprint Review <br>
-        5.3.1.6. Software Deployment Evidence for Sprint Review <br>
-        5.3.1.7. Team Collaboration Insights during Sprint <br>
-        5.3.1.8. Kanban Board <br>
+      <td>
+        - Capítulo V: Product Implementation, Validation & Deployment (5.1 – 5.3) <br>
+        - Testing Suites & General Patterns (5.1.1 – 5.1.4) <br>
+        - Software Configuration Management (5.2.1 – 5.2.4) <br>
+        - Sprint 1 (5.3.1.1 – 5.3.1.8)
       </td>
     </tr>
-	  <tr>
+    <tr>
       <td>TB3</td>
       <td>05/06/2026</td>
       <td>
@@ -184,23 +118,14 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         - Sarmiento Medina, Loreley <br>
         - Zegarra López, Renato Sebastián Rubber
       </td>
-		<td>
-        Se realizaron los siguientes puntos del informe: <br><br>
-        <b>	Sprint 2</b> <br>
-        5.3.2. Sprint 2 <br>
-        5.3.2.1. Sprint Backlog 2 <br>
-        5.3.2.2. Development Evidence for Sprint Review <br>
-        5.3.2.3. Testing Suite Evidence for Sprint Review <br><br>
-        5.3.2.4. Execution Evidence for Sprint Review <br>
-        5.3.2.5. Microservices Documentation Evidence for Sprint Review <br>
-        5.3.2.6. Software Deployment Evidence for Sprint Review <br>
-        5.3.2.7. Team Collaboration Insights during Sprint <br>
-        5.3.2.8. Kanban Board <br>
+      <td>
+        - Sprint 2 (5.3.2.1 – 5.3.2.8) <br>
+        - Correcciones de entregas anteriores
       </td>
     </tr>
-	   <tr>
+    <tr>
       <td>TB4</td>
-      <td>20/06/2026</td>
+      <td>25/06/2026</td>
       <td>
         - Becerra Tejeda, Alessandra Nicole <br>
         - Bejarano Martinez, Alvaro Leandro <br>
@@ -208,18 +133,25 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
         - Sarmiento Medina, Loreley <br>
         - Zegarra López, Renato Sebastián Rubber
       </td>
-		<td>
-        Se realizaron los siguientes puntos del informe: <br><br>
-        <b>	Sprint 3</b> <br>
-        5.3.3. Sprint 3 <br>
-        5.3.3.1. Sprint Backlog 3 <br>
-        5.3.3.2. Development Evidence for Sprint Review <br>
-        5.3.3.3. Testing Suite Evidence for Sprint Review <br><br>
-        5.3.3.4. Execution Evidence for Sprint Review <br>
-        5.3.3.5. Microservices Documentation Evidence for Sprint Review <br>
-        5.3.3.6. Software Deployment Evidence for Sprint Review <br>
-        5.3.3.7. Team Collaboration Insights during Sprint <br>
-        5.3.3.8. Kanban Board <br>
+      <td>
+        - Sprint 3 (5.3.3.1 – 5.3.3.8) <br>
+        - Correcciones de entregas anteriores
+      </td>
+    </tr>
+	 <tr>
+      <td>TF</td>
+      <td>10/07/2026</td>
+      <td>
+        - Becerra Tejeda, Alessandra Nicole <br>
+        - Bejarano Martinez, Alvaro Leandro <br>
+        - Ortiz Cardenas, Johanna Antuanete <br>
+        - Sarmiento Medina, Loreley <br>
+        - Zegarra López, Renato Sebastián Rubber
+      </td>
+      <td>
+        - Sprint 4 (5.3.4.1 – 5.3.4.8) <br>
+        - Microservices Deployment (5.4.1 – 5.4.2) <br>
+        - Correcciones de entregas anteriores
       </td>
     </tr>
   </tbody>
@@ -230,11 +162,15 @@ Zegarra López, Renato Sebastián Rubber (u202311558)
 
 TB1 (17/04/2026):
 
+El equipo distribuyó las secciones del capítulo 1 y 2 entre los integrantes, coordinando avances mediante reuniones semanales. Cada miembro fue responsable de investigar, redactar y subir su parte al repositorio del informe.
+
 <p align="center">
   <img src="assets/img/insights1.png" alt="1"/>
 </p>
 
 TB2 (02/05/2026):
+
+El equipo trabajó en el diseño arquitectónico del capítulo 4, distribuyendo los diagramas C4, de secuencia, patrones y tácticas entre los integrantes. Se realizaron revisiones para asegurar coherencia y trazabilidad entre las secciones antes de la entrega.
 
 <p align="center">
   <img src="assets/img/insights2.png" alt="2"/>
@@ -242,20 +178,34 @@ TB2 (02/05/2026):
 
 TP (15/05/2026):
 
+Se distribuyó el trabajo entre la implementación del microservicio IAM, la Landing Page y los mockups de la aplicación web. Cada integrante documentó su avance en las secciones correspondientes del Sprint 1 dentro del capítulo 5.
+
 <p align="center">
   <img src="assets/img/insights3.png" alt="3"/>
 </p>
 
 TB3 (05/06/2026):
 
+El equipo avanzó con los microservicios de Reservas, Gestión Residencial, el API Gateway y secciones del frontend. Las tareas se coordinaron mediante el tablero Kanban en Trello y cada integrante documentó su contribución en el Sprint 2.
+
 <p align="center">
-  <img src="assets/img/insights4.png" alt="3"/>
+  <img src="assets/img/insights4.png" alt="4"/>
 </p>
 
-TB3 (25/06/2026):
+TB4 (25/06/2026):
+
+Se completó la implementación de los microservicios de Pagos, Comunicados y Foro, además del avance del frontend. El equipo incorporó las correcciones de entregas anteriores y documentó el Sprint 3 en las secciones correspondientes.
 
 <p align="center">
-  <img src="assets/img/insights5.png" alt="3"/>
+  <img src="assets/img/insights5.png" alt="5"/>
+</p>
+
+TF (10/07/2026):
+
+...
+
+<p align="center">
+  <img src="assets/img/insights6.png" alt="5"/>
 </p>
 
 ## **Student Outcome**
@@ -280,30 +230,35 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: Actualicé conocimientos de desarrollo frontend y metodologías ágiles durante la implementación de la Landing Page y las actividades del Sprint 1 (secciones 5.3.1.1, 5.3.1.2).<br><br>
         TB3: Apliqué conocimientos de desarrollo backend para implementar el microservicio de reservas y documentar la API REST con Swagger (secciones 5.3.2.2, 5.3.2.5).<br><br>
         TB4: Actualicé conocimientos en DDD y Spring Security para codificar el microservicio de foros comunitarios, aplicando filtros JWT personalizados y gestionando el ciclo de vida del Sprint mediante el Kanban Board del equipo (sección 5.3.3.7, 5.3.3.8).<br><br>
+		TF:<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: Investigué y apliqué metodologías de diseño centrado en el usuario para elaborar los User Personas, User Task Matrix y Empathy Map del proyecto (secciones 2.3.1, 2.3.2, 2.3.3).<br><br>
         TB2: Apliqué el método ADD para definir la arquitectura del sistema, identificando drivers de calidad y proposing soluciones como microservicios y API Gateway (secciones 4.3.1, 4.3.2).<br><br>
         TP: Apliqué conocimientos de UX para desarrollar los mockups de la aplicación web para administradores, cubriendo los módulos de gestión financiera, reservas, comunicados y autenticación (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Implementé el dashboard frontend para administradores integrando componentes que consumen los endpoints REST de los microservicios del sistema (secciones 5.3.2.1, 5.3.2.2, 5.3.2.4).<br><br>
         TB4: Actualicé conocimientos de desarrollo frontend para mejorar el dashboard y las secciones de inicio de perfil y configuración, optimizando la experiencia de usuario del sistema (sección 5.3.3.1).<br><br>
+		TF:<br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: Investigué y documenté el perfil de la startup Condomia, el concepto del producto Edifika y los antecedentes del problema en la gestión de condominios (secciones 1.1.1, 1.2.1, 1.2.2).<br><br>
         TB2: Apliqué conceptos de arquitectura de software para definir principios, patrones y tácticas del sistema, elaborando los diagramas de secuencia correspondientes (secciones 4.1.1, 4.1.2, 4.1.8).<br><br>
         TP: Implementé el microservicio IAM con autenticación JWT, encriptación BCrypt y documentación Swagger, desplegándolo en Render con base de datos PostgreSQL en Supabase (secciones 5.3.1.2, 5.3.1.5, 5.3.1.6).<br><br>
         TB3: Implementé el API Gateway con Spring Cloud Gateway, configurando políticas CORS, filtros de validación JWT y reglas de enrutamiento hacia los microservicios del sistema (secciones 5.3.2.2, 5.3.2.5, 5.3.2.6).<br><br>
 		TB4: 7.c1: Implementé el microservicio Payment Service aplicando DDD y Clean Architecture, incluyendo los agregados de Debt y Payment con integración a la pasarela Culqi, el patrón Saga para la consistencia de transacciones y la documentación completa de la API REST mediante Swagger (secciones 5.3.3.4, 5.3.3.5). <br><br>
+		TF:<br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: Elaboré los cuadros As-Is y To-Be, el Impact Map y conduje una entrevista a usuario para alinear las necesidades reales con la solución propuesta (secciones 2.3.4, 3.1, 3.3).<br><br>
         TB2: Apliqué conceptos de arquitectura de software identificando drivers, constraints y concerns, y definiendo componentes y relaciones dentro del sistema (secciones 4.2.4, 4.2.5).<br><br>
         TP: Diseñé los mockups de la aplicación web para administradores cubriendo los módulos de autenticación, pagos, reservas y comunicados, y contribuí en la definición de las Testing Suites del proyecto (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Elaboré la evidencia de testing del Sprint 2 y gestioné el despliegue del frontend de la aplicación web de Edifika (secciones 5.3.2.3, 5.3.2.6).<br><br>
-		TB4: <br><br>
+		TB4: Actualicé conocimientos en pruebas unitarias y aseguramiento de calidad mediante la elaboración de la evidencia de testing del Sprint 3, documentando las pruebas con JUnit 5 y Mockito para los microservicios Payment, Communication y Forum. Además, participé en el avance del frontend de la aplicación web de Edifika, contribuyendo a la integración visual de nuevas secciones y a la mejora de la experiencia de usuario en los módulos trabajados durante el Sprint (secciones 5.3.3.1, 5.3.3.3).<br><br>
+		TF:<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: Realicé el análisis de competidores y conduje entrevistas a usuarios, actualizando conocimientos sobre el sector de gestión de condominios (secciones 2.1.1, 2.2.2).<br><br>
         TB2: Apliqué conocimientos de arquitectura elaborando los diagramas C4 y el diagrama ERD para representar la estructura, servicios y relaciones del sistema (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
         TP: Actualicé los diagramas C4, de componentes, clases y ERD del sistema, reforzando el uso de Git y GitHub para la gestión del código fuente del proyecto (secciones 4.1.4, 4.1.5, 4.1.6, 5.2.2).<br><br>
         TB3:Actualicé conocimientos de microservicios y modelado de datos para implementar el microservicio de Residential Management, corrigiendo además los diagramas de clases y ERD para reflejar con mayor precisión la estructura del sistema (secciones 5.3.2.2, 4.1.5, 4.1.6). <br><br>
-		  TB4: Actualicé mis conocimientos sobre el desarrollo y despliegue de microservicios con Spring Boot, implementando el microservicio de Communication e integrándolo con una base de datos PostgreSQL desplegada en Supabase. Asimismo, configuré el despliegue del servicio en Render, fortaleciendo mis competencias en integración de servicios y gestión de infraestructura en la nube para soluciones de ingeniería de software (sección 5.3.2.6).<br><br>
+		TB4: Actualicé mis conocimientos sobre el desarrollo y despliegue de microservicios con Spring Boot, implementando el microservicio de Communication e integrándolo con una base de datos PostgreSQL desplegada en Supabase. Asimismo, configuré el despliegue del servicio en Render, fortaleciendo mis competencias en integración de servicios y gestión de infraestructura en la nube para soluciones de ingeniería de software (sección 5.3.2.6).<br><br>
+		TF:<br><br>
       </td>
       <td>
         TB1: El equipo incorporó nuevos conceptos y herramientas de ingeniería de software a lo largo del primer entregable, reflejando un proceso de actualización continua en la calidad y coherencia de la documentación producida.<br><br>
@@ -311,6 +266,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: El equipo avanzó en la implementación de Edifika aplicando conocimientos en Spring Boot, JWT, Docker, PostgreSQL y herramientas de prototipado, evidenciando la capacidad de adquirir competencias técnicas según las demandas del proyecto.<br><br>
         TB3: El equipo concretó el desarrollo de los microservicios de Reservas y Residential Management, el API Gateway y secciones del frontend, actualizando conocimientos técnicos por componente e incorporando nuevas tecnologías conforme evolucionó el sistema.<br><br>
 		TB4: El equipo completó la implementación de los microservicios restantes del sistema Edifika, incluyendo el Payment Service con integración a la pasarela Culqi y patrón Saga, el Communication Service para la gestión de comunicados oficiales con métricas de lectura, y el Forum Service para el foro comunitario con control de publicaciones diarias. Paralelamente, se avanzó con el desarrollo del frontend de Edifika, integrando nuevas secciones de la aplicación web con los endpoints de los microservicios desplegados. Cada integrante actualizó sus conocimientos técnicos según el componente asignado, abarcando desde la consistencia transaccional en pagos hasta la gestión de eventos en comunicados y la optimización de la experiencia de usuario en el frontend, demostrando la capacidad del equipo para incorporar nuevas tecnologías en la fase final del proyecto. <br><br>
+		TF:<br><br>
       </td>
     </tr>
     <tr>
@@ -322,6 +278,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: Reconocí que el desarrollo web y el trabajo ágil requieren actualización constante, lo que orientó mi contribución en la Landing Page y las actividades del Sprint 1 (secciones 5.3.1.1, 5.3.1.2).<br><br>
         TB3: Reconocí la necesidad de profundizar en desarrollo backend y documentación de APIs para responder adecuadamente a los requerimientos técnicos del microservicio de reservas (secciones 5.3.2.2, 5.3.2.5).<br><br>
         TB4: Reconocí que implementar lógica distribuida y flujos ágiles requiere un aprendizaje autónomo y continuo, lo cual me llevó a investigar sobre el aislamiento de dominios en microservicios independientes y la optimización de tareas dinámicas mediante el uso del tablero Kanban (sección 5.3.3.7, 5.3.3.8).<br><br>
+		TF:<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: Reconocí que diseñar y ejecutar entrevistas a los segmentos objetivo exige dominar técnicas de investigación cualitativa para validar hipótesis con fundamento real (secciones 2.2.1, 2.2.2).<br><br>
         TB2: Al desarrollar las ADD Iterations comprendí que el aprendizaje permanente es clave para tomar decisiones arquitectónicas sólidas sobre atributos de calidad y patrones de diseño (secciones 4.3.1, 4.3.2).<br><br>
@@ -334,18 +291,21 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: Reconocí que el desarrollo backend con microservicios requiere dominar múltiples tecnologías en simultáneo, como JWT, DDD y despliegue cloud, enfrentando problemas reales no previstos (secciones 5.3.1.2, 5.3.1.5, 5.3.1.6).<br><br>
         TB3: Reconocí que implementar un API Gateway exige comprender la interacción entre componentes de una arquitectura distribuida, investigando filtros de seguridad, CORS y ciclo de vida de solicitudes HTTP (secciones 5.3.2.2, 5.3.2.5).<br><br>
 		TB4: Reconocí que implementar un microservicio de pagos con integración a pasarelas externas exige dominar conceptos de consistencia transaccional, manejo de fallos y compensación mediante el patrón Saga, lo cual me obligó a investigar estrategias de resiliencia que no había aplicado previamente en el proyecto (secciones 5.3.3.4, 5.3.3.5). <br><br>
+		TF:<br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: Reconocí la importancia del aprendizaje continuo al elaborar los cuadros As-Is, To-Be e Impact Map, herramientas que exigieron comprender cómo analizar al usuario y estructurar soluciones alineadas a sus necesidades (secciones 2.3.4, 3.1, 3.3).<br><br>
         TB2: Reconocí que comprender la arquitectura de software requiere actualización permanente, evidenciado en la identificación de constraints y concerns del sistema (secciones 4.2.4, 4.2.5).<br><br>
         TP: Reconocí que diseñar interfaces coherentes exige actualizar constantemente conocimientos en usabilidad y tendencias de diseño, reflejado en las decisiones tomadas para cada módulo de los mockups (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Reconocí que documentar el testing y gestionar el despliegue del frontend demanda aprendizaje continuo sobre estrategias de validación y configuración de entornos de producción (secciones 5.3.2.3, 5.3.2.6).<br><br>
-		TB4: <br><br>
+		TB4: Reconocí la importancia del aprendizaje continuo al documentar y comprender la estrategia de pruebas unitarias aplicada en los microservicios del Sprint 3, ya que fue necesario investigar el uso de mocks, validaciones de servicios, controladores REST y manejo de excepciones con JUnit 5 y Mockito. Asimismo, al participar en el desarrollo de parte del frontend, reforcé la necesidad de mantener una actualización constante en integración de interfaces, consumo de servicios backend y consistencia visual entre componentes de la plataforma Edifika (secciones 5.3.3.1, 5.3.3.3).<br><br>
+		TF:<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: Reconocí que el aprendizaje permanente es esencial al tener que investigar el sector para desarrollar el Lean UX Canvas and el análisis de competidores (secciones 1.2.3.4, 2.1.1).<br><br>
         TB2: Reconocí que elaborar los diagramas C4 y ERD exigió reforzar conceptos de arquitectura, comunicación entre servicios y modelado de datos (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
         TP: Reconocí que el desarrollo de EDIFIKA exige aprendizaje continuo en arquitectura y gestión de configuración, mejorando mi desempeño y adaptación a nuevas herramientas del proyecto (secciones 4.1.4, 5.2.2).<br><br>
         TB3: Reconocí que implementar y corregir el microservicio de Residential Management exige aprendizaje continuo, ya que cada ajuste en los endpoints REST y los diagramas del sistema demandó investigar y aplicar nuevos conceptos de forma iterativa (secciones 5.3.2.2, 4.1.5, 4.1.6).<br><br>
 		  TB4: Reconocí la importancia del aprendizaje continuo al adquirir conocimientos sobre plataformas de despliegue en la nube y configuración de bases de datos remotas, lo que me permitió publicar el microservicio de Communication y establecer su conexión con PostgreSQL mediante variables de entorno. Esta experiencia fortaleció mis habilidades para desarrollar e implementar soluciones de software utilizando tecnologías actuales (sección 5.3.2.6).<br><br>
+		  TF:<br><br>
       </td>
       <td>
         TB1: El proyecto Edifika demostró que mantenerse en constante aprendizaje es necesario, ya que cada sección trabajada presentó retos que exigieron investigar, cuestionar y adaptarse.<br><br>
@@ -353,6 +313,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: La implementación del primer microservicio evidenció que cada fase del proyecto plantea retos técnicos nuevos que solo se resuelven mediante aprendizaje continuo, desde la configuración de seguridad hasta el despliegue en producción.<br><br>
         TB3: La implementación simultánea de microservicios, API Gateway y frontend demostró que un sistema distribuido plantea desafíos continuos que obligan a cada integrante a investigar y adaptarse constantemente, reafirmando el aprendizaje permanente como pilar del proyecto.<br><br>
 		TB4: La implementación de los últimos microservicios y el avance del frontend evidenciaron que cada etapa del desarrollo plantea desafíos técnicos distintos que demandan aprendizaje autónomo y continuo. Resolver la integración con pasarelas de pago externas, garantizar la trazabilidad de comunicados, controlar límites de publicación en el foro y conectar los componentes del frontend con múltiples servicios backend fueron actividades que exigieron a cada miembro investigar soluciones específicas, validando que el aprendizaje permanente es la competencia que sostiene la calidad de un proyecto de ingeniería de software a lo largo de todo su ciclo de vida. <br><br>
+		TF:<br><br>
       </td>
     </tr>
   </tbody>
@@ -481,7 +442,18 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         - [5.3.3.6. Software Deployment Evidence for Sprint Review](#5336-software-deployment-evidence-for-sprint-review)
         - [5.3.3.7. Team Collaboration Insights during Sprint](#5337-team-collaboration-insights-during-sprint)
         - [5.3.3.8. Kanban Board](#5338-kanban-board)
-          
+    - [5.3.4. Sprint 4](#534-sprint-4)
+        - [5.3.4.1. Sprint Backlog 4](#5341-sprint-backlog-4)
+        - [5.3.4.2. Development Evidence for Sprint Review](#5342-development-evidence-for-sprint-review)
+        - [5.3.4.3. Testing Suite Evidence for Sprint Review](#5343-testing-suite-evidence-for-sprint-review)
+        - [5.3.4.4. Execution Evidence for Sprint Review](#5344-execution-evidence-for-sprint-review)
+        - [5.3.4.5. Microservices Documentation Evidence for Sprint Review](#5345-microservices-documentation-evidence-for-sprint-review)
+        - [5.3.4.6. Software Deployment Evidence for Sprint Review](#5346-software-deployment-evidence-for-sprint-review)
+        - [5.3.4.7. Team Collaboration Insights during Sprint](#5347-team-collaboration-insights-during-sprint)
+        - [5.3.4.8. Kanban Board](#5348-kanban-board)
+  	- [5.4. Microservices Deployment](#54-microservices-deployment)
+      - [5.4.1. Cloud Architecture Diagram](#541-cloud-architecture-diagram)
+      - [5.4.2. Cloud Architecture Deployment](#542-cloud-architecture-deployment)
 - [Conclusiones](#conclusiones)
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Referencias Bibliográficas](#referencias-bibliográficas)
@@ -1136,6 +1108,7 @@ El escenario ideal propone una experiencia digital simple, rápida y centralizad
 | EP02 | Comunicación centralizada | Esta épica aborda la gestión de notificaciones y comunicados dentro del condominio, permitiendo mantener informados a los residentes sobre incidencias, pagos, reservas y anuncios importantes. Incluye la personalización de notificaciones y el seguimiento de visualización de comunicados. | US08, US10, US12, US13, US14, US15, US29, US31, US32, US36, US37 |
 | EP03 | Gestión de áreas comunes | Esta épica se centra en la administración y uso eficiente de las áreas comunes del condominio. Permite a los residentes consultar disponibilidad, realizar y cancelar reservas, mientras que los administradores pueden aprobar solicitudes y evitar conflictos de horario. | US11, US16, US17, US18, US19, US20, US33, US35, US38, US39, US40 |
 | EP04 | Gestión financiera y reportes | Esta épica se enfoca en la administración económica del condominio, permitiendo a los residentes consultar su deuda, registrar pagos y revisar su historial financiero. Los administradores pueden identificar morosos, generar y exportar reportes financieros. | US09, US21, US22, US23, US24, US25, US26, US27, US28, US30 |
+| EP05 | Infraestructura, seguridad y arquitectura técnica | Esta épica abarca todos los aspectos técnicos necesarios para el correcto funcionamiento del sistema Edifika, incluyendo la configuración de microservicios, autenticación JWT, API Gateway, bases de datos independientes, documentación de APIs, comunicación entre servicios y despliegue en la nube. Su objetivo es garantizar que la plataforma sea segura, escalable y mantenible. | TS01, TS02, TS03, TS04, TS05, TS06, TS07, TS08, TS09, TS10, TS11, TS12, TS13, TS14, TS15 |
 | EP06 | Landing Page e Interfaz Web | Esta épica cubre todas las funcionalidades visibles en la landing page pública de Edifika y la interfaz web de la aplicación. Incluye navegación, presentación de contenido y acceso a la plataforma, con el objetivo de atraer y convertir nuevos usuarios. | US41, US42, US43, US44, US45, US46, US47 |
 
 **User Stories:**
@@ -5498,6 +5471,142 @@ Asimismo, en el repositorio Edifika-Front se evidencian commits enfocados en la 
 
 ##### 5.3.3.3. Testing Suite Evidence for Sprint Review
 
+Durante el Sprint 3 se implementó una nueva suite de pruebas unitarias utilizando JUnit 5 y Mockito, con el objetivo de validar el correcto funcionamiento de los microservicios desarrollados recientemente para la plataforma Edifika. Estas pruebas permitieron comprobar la lógica de negocio de manera aislada mediante el uso de objetos simulados , evitando la dependencia directa de una base de datos real o de servicios externos durante la etapa de validación.
+
+La estrategia de pruebas se enfocó en validar los componentes principales de los microservicios **Payment**, **Communication** y **Forum**, considerando servicios de comandos, servicios de consultas y controladores REST. Para ello, se simularon repositorios, servicios de dominio y ensambladores de recursos, permitiendo verificar el comportamiento de cada clase frente a escenarios exitosos, validaciones de negocio y manejo de excepciones.
+
+Estas pruebas contribuyen a detectar errores tempranamente, mejorar la mantenibilidad del código y asegurar que los nuevos microservicios puedan integrarse de forma más confiable con el resto de la arquitectura de Edifika.
+
+### Repositorios de pruebas unitarias
+
+| Repository                         | Branch | Description                                                                                                                              |
+| ---------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Edifika-Microservice-Payment       | main   | Contiene las pruebas unitarias para la gestión de deudas, pagos, confirmación manual de pagos e historial de pagos.                      |
+| Edifika-Microservice-Communication | main   | Contiene las pruebas unitarias para la gestión de anuncios, lectura de comunicados, archivado y métricas de alcance.                     |
+| Edifika-Microservice-Forum         | main   | Contiene las pruebas unitarias para la creación de publicaciones en el mini foro y la validación de restricciones de publicación diaria. |
+
+### Componentes cubiertos por las pruebas
+
+| Microservicio | Clase de prueba                     | Descripción                                                                                                                                           |
+| ------------- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Payment       | PaymentCommandServiceImplTest       | Valida la creación de deudas, el registro de pagos y la confirmación manual de pagos, simulando repositorios y servicios de dominio mediante Mockito. |
+| Payment       | PaymentQueryServiceImplTest         | Verifica la consulta de deudas por unidad, pagos por usuario e historial de pagos filtrado por año.                                                   |
+| Payment       | PaymentControllerTest               | Comprueba el comportamiento de los endpoints REST relacionados con deudas, pagos, confirmaciones e historial de pagos.                                |
+| Communication | CommunicationCommandServiceImplTest | Valida la creación de anuncios, el marcado de comunicados como leídos y el archivado de anuncios.                                                     |
+| Communication | CommunicationQueryServiceImplTest   | Verifica la consulta de anuncios por edificio, búsqueda por identificador y cálculo de métricas de lectura.                                           |
+| Communication | CommunicationControllerTest         | Comprueba el correcto funcionamiento de los endpoints REST para anuncios, lectura, archivado y métricas.                                              |
+| Forum         | PostCommandServiceImplTest          | Valida la creación de publicaciones y la restricción de negocio que permite solo una publicación diaria por residente.                                |
+| Forum         | PostControllerTest                  | Verifica el endpoint REST de creación de publicaciones y el manejo de errores cuando se incumple la restricción diaria.                               |
+
+### Ejemplo de prueba unitaria
+
+La siguiente prueba valida una de las reglas principales del microservicio **Forum**, donde un residente no puede realizar más de una publicación durante el mismo día. Para ello, se simula la existencia de una publicación previa realizada en la fecha actual y se verifica que el servicio lance una excepción controlada.
+
+```java
+@Test
+void shouldThrowExceptionWhenResidentAlreadyPostedToday() {
+
+    CreatePostResource resource = mock(CreatePostResource.class);
+
+    when(resource.residentId()).thenReturn(1L);
+
+    String uploadedImageUrl = "https://storage.com/image.png";
+
+    Post lastPost = mock(Post.class);
+
+    when(lastPost.getCreatedAt())
+            .thenReturn(LocalDate.now().atStartOfDay());
+
+    when(postRepository.findFirstByResidentIdOrderByCreatedAtDesc(1L))
+            .thenReturn(Optional.of(lastPost));
+
+    IllegalArgumentException exception = assertThrows(
+            IllegalArgumentException.class,
+            () -> postCommandService.handle(resource, uploadedImageUrl)
+    );
+
+    assertEquals(
+            "Restricción del mini foro: Cada usuario solo podrá realizar una publicación diaria.",
+            exception.getMessage()
+    );
+
+    verify(postRepository, times(1))
+            .findFirstByResidentIdOrderByCreatedAtDesc(1L);
+
+    verify(postRepository, never())
+            .save(any(Post.class));
+}
+```
+
+Esta prueba evidencia el uso de Mockito para simular el repositorio de publicaciones y de JUnit 5 para validar que la excepción lanzada sea la esperada. Además, se comprueba que el repositorio no guarde una nueva publicación cuando se incumple la regla de negocio.
+
+### Evidencia visual de pruebas unitarias
+
+A continuación se muestran las evidencias de las pruebas unitarias implementadas durante el Sprint 3 para los microservicios **Communication**, **Payment** y **Forum**, utilizando JUnit 5 y Mockito.
+
+#### Microservicio Communication
+
+<p align="center">
+  <img src="assets/img/CommunicationCommandLight.PNG" width="700"/>
+</p>
+
+*Figura 131. Pruebas unitarias del servicio de comandos del microservicio Communication. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/CommunicationControllerLight.PNG" width="700"/>
+</p>
+
+*Figura 132. Pruebas unitarias del controlador REST del microservicio Communication. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/CommunicationQueryLight.PNG" width="700"/>
+</p>
+
+*Figura 133. Pruebas unitarias del servicio de consultas del microservicio Communication. Elaborado por el equipo.*
+
+#### Microservicio Payment
+
+<p align="center">
+  <img src="assets/img/PaymentCommandLight.PNG" width="700"/>
+</p>
+
+*Figura 134. Pruebas unitarias del servicio de comandos del microservicio Payment. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/PaymentControllerLight.PNG" width="700"/>
+</p>
+
+*Figura 135. Pruebas unitarias del controlador REST del microservicio Payment. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/PaymentQueryLight.PNG" width="700"/>
+</p>
+
+*Figura 136. Pruebas unitarias del servicio de consultas del microservicio Payment. Elaborado por el equipo.*
+
+#### Microservicio Forum
+
+<p align="center">
+  <img src="assets/img/PostCommandLight.PNG" width="700"/>
+</p>
+
+*Figura 137. Pruebas unitarias del servicio de comandos del microservicio Forum. Elaborado por el equipo.*
+
+<p align="center">
+  <img src="assets/img/PostControllerLight.PNG" width="700"/>
+</p>
+
+*Figura 138. Pruebas unitarias del controlador REST del microservicio Forum. Elaborado por el equipo.*
+
+### Commits relacionados con Testing
+
+| Repository                         | Branch | Commit Id | Commit Message                             | Commit Message Body                                                                                             | Committed On |
+| ---------------------------------- | ------ | --------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------- | ------------ |
+| Edifika-Microservice-Payment       | main   | 279994d   | Testing                                    | Added JUnit 5 and Mockito unit tests for payment command services, query services and REST controllers.         | Sprint 3     |
+| Edifika-Microservice-Communication | main   | bb550ab   | Merge remote-tracking branch 'origin/main' | Integrated testing changes for communication command services, query services and REST controllers.             | Sprint 3     |
+| Edifika-Microservice-Forum         | main   | 97ba3c6   | Testing                                    | Added JUnit 5 and Mockito unit tests for post creation, daily posting restriction and REST controller behavior. | Sprint 3     |
+
+
 ##### 5.3.3.4. Execution Evidence for Sprint Review
 
 Esta sección se evidencia de ejecución del Sprint 3, donde se verificó el correcto funcionamiento de los endpoints de los microservicios Payment Service, Communication Service y Forum Service. Las pruebas se realizaron mediante Postman, enviando todas las solicitudes a través del API Gateway en el puerto 8080, validando que el enrutamiento, la verificación del Bearer Token JWT y las reglas de negocio de cada microservicio operan correctamente. A continuación se detallan las pruebas realizadas:
@@ -5510,7 +5619,7 @@ Se verificó el registro de una nueva deuda asociada a una unidad residencial en
   <img src="assets/img/execution_post_debts.png" alt="Ejecución POST Debts" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Debts a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 139. Ejecución del endpoint POST Debts a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/payments/debts/unit/{unitId}**
 
@@ -5520,7 +5629,7 @@ Se comprobó la consulta de deudas pendientes de una unidad residencial específ
   <img src="assets/img/execution_get_debts_unit.png" alt="Ejecución GET Debts by Unit" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint GET Debts by Unit a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 140. Ejecución del endpoint GET Debts by Unit a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/payments**
 
@@ -5530,7 +5639,7 @@ Se verificó el registro de un pago enviando los datos de la transacción junto 
   <img src="assets/img/execution_post_payments.png" alt="Ejecución POST Payments" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Payments a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 141. Ejecución del endpoint POST Payments a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: PUT /api/v1/payments/{paymentId}/confirm**
 
@@ -5540,7 +5649,7 @@ Se comprobó la confirmación manual de un pago por parte del administrador envi
   <img src="assets/img/execution_put_confirm_payment.png" alt="Ejecución PUT Confirm Payment" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint PUT Confirm Payment a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 142. Ejecución del endpoint PUT Confirm Payment a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/payments/user/{userId}**
 
@@ -5550,7 +5659,7 @@ Se verificó la consulta del historial de pagos de un residente enviando el user
   <img src="assets/img/execution_get_payments_user.png" alt="Ejecución GET Payments by User" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint GET Payments by User a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 143. Ejecución del endpoint GET Payments by User a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/announcements**
 
@@ -5560,7 +5669,7 @@ Se verificó la publicación de un nuevo comunicado oficial enviando los campos 
   <img src="assets/img/execution_post_announcements.png" alt="Ejecución POST Announcements" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Announcements a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 144. Ejecución del endpoint POST Announcements a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/announcements?buildingId={id}**
 
@@ -5570,7 +5679,7 @@ Se comprobó la consulta de comunicados asociados a un edificio específico envi
   <img src="assets/img/execution_get_announcements.png" alt="Ejecución GET Announcements" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint GET Announcements a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 145. Ejecución del endpoint GET Announcements a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/announcements/{announcementId}/metrics**
 
@@ -5580,7 +5689,7 @@ Se verificó la consulta de métricas de lectura de un comunicado específico en
   <img src="assets/img/execution_get_metrics.png" alt="Ejecución GET Metrics" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint GET Metrics a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 146. Ejecución del endpoint GET Metrics a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/posts**
 
@@ -5590,7 +5699,7 @@ Se comprobó la creación de una nueva publicación en el foro comunitario envia
   <img src="assets/img/execution_post_forum.png" alt="Ejecución POST Forum" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Forum a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 147. Ejecución del endpoint POST Forum a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 ##### 5.3.3.5. Microservices Documentation Evidence for Sprint Review
 
@@ -5613,7 +5722,7 @@ Controlador encargado de la gestión financiera del condominio. Permite registra
   <img src="assets/img/payment_controller.png" alt="Payment Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Endpoints del Payment Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 148. Endpoints del Payment Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Communication Controller**
 
@@ -5632,7 +5741,7 @@ Controlador responsable de la gestión de comunicados oficiales del condominio. 
   <img src="assets/img/communication_controller.png" alt="Communication Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Endpoints del Communication Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 149. Endpoints del Communication Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Post Controller**
 
@@ -5646,7 +5755,7 @@ Controlador dedicado al foro comunitario del condominio. Permite a los residente
   <img src="assets/img/post_controller.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Endpoints del Post Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 150. Endpoints del Post Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 ##### 5.3.3.6. Software Deployment Evidence for Sprint Review
 
@@ -5665,7 +5774,7 @@ Además, se configuró un entorno de ejecución para Java y las variables de ent
   <img src="assets/img/communication_deployy.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Communication Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 151. Communication Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 *Payment Microservice*
 
@@ -5673,7 +5782,7 @@ Además, se configuró un entorno de ejecución para Java y las variables de ent
   <img src="assets/img/payment_deploy.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Payment Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 152. Payment Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 Forum*
 
@@ -5681,7 +5790,7 @@ Forum*
   <img src="assets/img/forum_deploy.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Forum Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 153. Forum Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 
 ### Database
@@ -5696,7 +5805,7 @@ Estas credenciales fueron registradas como variables de entorno dentro de Render
   <img src="assets/img/communication_db_deployy.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Communication Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+*Figura 154. Communication Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
 
 *Payment*
 
@@ -5704,7 +5813,7 @@ Estas credenciales fueron registradas como variables de entorno dentro de Render
   <img src="assets/img/payment_db_deploy.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Payment Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+*Figura 155. Payment Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
 
 *Forum*
 
@@ -5712,25 +5821,23 @@ Estas credenciales fueron registradas como variables de entorno dentro de Render
   <img src="assets/img/forum_db_deploy.png" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Forum Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+*Figura 156. Forum Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
 
 
 ### Frontend
 
 Durante el Sprint 3, el frontend continuó desplegado mediante **Render**, permitiendo integrar las nuevas funcionalidades correspondientes a los microservicios de **Communication**, **Payment** y **Forum**.
 
-La aplicación fue desarrollada utilizando **Angular**, siguiendo una arquitectura modular que facilita la integración de nuevos módulos y el consumo de servicios REST expuestos por los microservicios. El código fuente se gestionó mediante GitHub, permitiendo implementar un flujo de integración y despliegue continuo (CI/CD), donde cada actualización realizada sobre la rama principal genera automáticamente una nueva versión del sistema en Render.
+
+La aplicación fue desarrollada utilizando Angular, siguiendo una arquitectura modular que facilita la integración de nuevos módulos y el consumo de servicios REST expuestos por los microservicios. El código fuente se gestionó mediante GitHub, permitiendo implementar un flujo de integración y despliegue continuo (CI/CD), donde cada actualización realizada sobre la rama principal genera automáticamente una nueva versión del sistema en Render.
 
 Gracias a este proceso, la aplicación web permanece disponible mediante una URL pública y puede consumir los endpoints expuestos por los microservicios desplegados durante el Sprint 2.
 
 <p align="center">
-  <img src="assets/img/front_deploy2.png" alt="Post Controller Endpoints" width="700"/>
+  <img src="assets/img/front_deploy2.PNG" alt="Post Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Frontend Deployment. Elaborado por el equipo utilizando Render (Render, s.f.).*
-
-
-
+*Figura 157. Frontend Deployment. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 
 ##### 5.3.3.7. Team Collaboration Insights during Sprint
@@ -5744,7 +5851,7 @@ En el repositorio del microservicio de pagos se registraron los commits correspo
   <img src="assets/img/insights_payment.png" alt="Insights Payment" width="700"/>
 </p>
 
-*Figura XXX. Insights del repositorio de payment. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 158. Insights del repositorio de payment. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 **Microservicio Forum - Backend**
 
@@ -5754,7 +5861,7 @@ En el repositorio del microservicio de foro se registraron los commits correspon
   <img src="assets/img/insights_forum.png" alt="Insights Forum" width="700"/>
 </p>
 
-*Figura XXX. Insights del repositorio de forum. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 159. Insights del repositorio de forum. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 
 **Microservicio Communication - Backend**
@@ -5765,7 +5872,7 @@ En el repositorio del microservicio de comunicados se registraron los commits co
   <img src="assets/img/insights_communications.png" alt="Insights Communication" width="700"/>
 </p>
 
-*Figura XXX. Insights del repositorio de communication. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 160. Insights del repositorio de communication. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 
 
@@ -5777,7 +5884,7 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 3 
 	<img src="assets/img/kanban_board3.png" alt="Kanban Board Sprint 3" width="700"/>
 </p>
 
-*Figura XXX. Kanban Board del Sprint 3 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+*Figura 161. Kanban Board del Sprint 3 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 [https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
 
@@ -6137,6 +6244,7 @@ Cada microservicio cuenta con su propia instancia de PostgreSQL alojada en Supab
 *Figura XX. Base de datos del microservicio Report. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
 
 
+
 # Conclusiones
 # Conclusiones y Recomendaciones
 
@@ -6230,11 +6338,30 @@ Se recomienda para una futura evolución del producto implementar un sistema de 
 - Diagrama de arquitectura cloud: `https://lucid.app/lucidchart/b723df84-0abd-44b8-a826-db1cb95b1a0b/edit?viewport_loc=-907%2C-3314%2C4893%2C2367%2C0_0&invitationId=inv_9b5c7c64-de50-4af9-8378-89b3cb1f0e04`
   
 # Links
-- Enlace del repositorio: `https://github.com/Condomia/Edifika-report.git`
-- Enlace del repositorio de Landing page: `https://github.com/Condomia/Edifika-LandingPage.git`
-- Enlace del repositorio Microservicio IAM: `https://github.com/Condomia/Edifika-Microservice-IAM.git`
-- Enlace del repositorio Microservicio Reservation: `https://github.com/Condomia/Edifika-Microservice-Reservation.git`
-- Enlace del repositorio Microservicio Residential Management: `https://github.com/Condomia/Edifika-Microservice-Residential-Managemen.git`
-- Enlace del repositorio Microservicio API Gateway: `https://github.com/Condomia/Edifika-ApiGateway.git`
-- Enlace del Acceptance Test: `https://github.com/Condomia/Acceptance-tests-Edifika.git`
-- Enlace del Prototipo: `https://www.figma.com/proto/1ksaEJeKckW1WPlgeNyTbH/Untitled?node-id=3015-106&viewport=351%2C196%2C0.16&t=U3A6YtXgGNGnrgnD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3015%3A106&page-id=3012%3A2`
+
+**Repositorios**
+
+- Enlace del repositorio del informe: `https://github.com/Condomia/Edifika-report.git`
+- Enlace del repositorio de la página de aterrizaje: `https://github.com/Condomia/Edifika-LandingPage.git`
+- Enlace del repositorio del microservicio de autenticación (IAM): `https://github.com/Condomia/Edifika-Microservice-IAM.git`
+- Enlace del repositorio del microservicio de reservas: `https://github.com/Condomia/Edifika-Microservice-Reservation.git`
+- Enlace del repositorio del microservicio de gestión residencial: `https://github.com/Condomia/Edifika-Microservice-Residential-Managemen.git`
+- Enlace del repositorio del microservicio de puerta de enlace (API Gateway): `https://github.com/Condomia/Edifika-ApiGateway.git`
+- Enlace del repositorio del microservicio de pagos: `https://github.com/Condomia/Edifika-Microservice-Payment.git`
+- Enlace del repositorio del microservicio de comunicados: `https://github.com/Condomia/Edifika-Microservice-Communications.git`
+- Enlace del repositorio del microservicio de foro: `https://github.com/Condomia/Edifika-Microservice-Forum.git`
+- Enlace del repositorio del frontend: `https://github.com/Condomia/Edifika-Front.git`
+- Enlace del repositorio de pruebas de aceptación: `https://github.com/Condomia/Acceptance-tests-Edifika.git`
+- Enlace del prototipo: `https://www.figma.com/proto/1ksaEJeKckW1WPlgeNyTbH/Untitled?node-id=3015-106&viewport=351%2C196%2C0.16&t=U3A6YtXgGNGnrgnD-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3015%3A106&page-id=3012%3A2`
+
+**Despliegues**
+
+- Enlace del despliegue del microservicio de autenticación (IAM): `https://edifika-microservice-iam.onrender.com`
+- Enlace del despliegue del microservicio de reservas: `https://edifika-microservice-reservation.onrender.com`
+- Enlace del despliegue del microservicio de gestión residencial: `https://edifika-microservice-residential.onrender.com `
+- Enlace del despliegue del microservicio de puerta de enlace (API Gateway): `https://edifika-apigateway.onrender.com`
+- Enlace del despliegue del microservicio de pagos: `https://edifika-microservice-payment.onrender.com`
+- Enlace del despliegue del microservicio de comunicados: `https://edifika-microservice-communications.onrender.com/ `
+- Enlace del despliegue del microservicio de foro: `https://edifika-microservice-forum.onrender.com`
+- Enlace del despliegue del frontend: `https://edifika-front.onrender.com/`
+
