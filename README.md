@@ -5887,6 +5887,20 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 3 
 
 [https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
 
+### 5.3.4. Sprint 4
+#### 5.3.4.1. Sprint Backlog 4
+##### 5.3.4.2. Development Evidence for Sprint Review
+##### 5.3.4.3. Testing Suite Evidence for Sprint Review
+##### 5.3.4.4. Execution Evidence for Sprint Review
+##### 5.3.4.5. Microservices Documentation Evidence for Sprint Review
+##### 5.3.4.6. Software Deployment Evidence for Sprint Review
+##### 5.3.4.7. Team Collaboration Insights during Sprint
+##### 5.3.4.8. Kanban Board
+
+### 5.4. Microservices Deployment
+##### 5.4.1. Cloud Architecture Diagram
+##### 5.4.2. Cloud Architecture Deployment
+
 
 
 # Conclusiones
@@ -5931,6 +5945,12 @@ El equipo completó la implementación de todos los microservicios planificados 
 Recomendación:
 
 Se recomienda enfocar los esfuerzos futuros en la activación de la integración real con la pasarela Culqi utilizando las credenciales de prueba del entorno sandbox, reemplazando el stub actual para validar el flujo completo de pagos en línea con transacciones reales. Es fundamental implementar pruebas automatizadas de integración que verifiquen la comunicación entre microservicios a través del API Gateway en escenarios de éxito y de fallo, incluyendo la compensación del patrón Saga ante caídas de servicios externos. Asimismo, se sugiere realizar pruebas de usabilidad con usuarios reales sobre el frontend desplegado para identificar mejoras en la experiencia de navegación y en la claridad de los flujos de pagos, reservas y comunicados antes de una eventual puesta en producción.
+
+TF:
+
+
+Recomendación:
+
 
 # Referencias Bibliográficas
   - Aguilar, K. L. B. (2026). Vacíos regulatorios en la Ley de Propiedad en Condominio, análisis de conflictos recurrentes en su modalidad vertical ubicados en el Distrito Central (Tesis doctoral). Centro Universitario Tecnológico CEUTEC. `https://repositorio.unitec.edu/server/api/core/bitstreams/cd97bbd4-204c-49c8-9901-3d0a5a85d7f3/content`
