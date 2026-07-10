@@ -5844,7 +5844,7 @@ Estas credenciales fueron registradas como variables de entorno dentro de Render
 ### 5.4. Microservices Deployment
 ##### 5.4.1. Cloud Architecture Diagram
 
-El sistema Edifika se despliega utilizando Render como plataforma principal para el frontend y los microservicios backend y Supabase para las bases de datos PostgreSQL. El API Gateway centraliza todas las solicitudes entrantes, valida los tokens JWT y dirige el tráfico hacia los ocho microservicios del sistema: IAM, Residential Management, Reservation, Payment, Communication, Forum, Notification y Report, cada uno con su base de datos independiente. La integración con Culqi permite el procesamiento de pagos en línea, mientras que Firebase Cloud Messaging se encarga del envío de notificaciones push hacia los dispositivos móviles de residentes e inquilinos a través del microservicio de Notification. El microservicio de Report consulta datos de los demás servicios mediante REST para generar y exportar reportes financieros en PDF y Excel. El siguiente diagrama presenta la distribución de componentes y las conexiones entre cada capa de la arquitectura:
+El sistema Edifika se despliega de forma distribuida utilizando Render como plataforma principal para el frontend y los microservicios backend, Supabase para las bases de datos PostgreSQL. El API Gateway centraliza todas las solicitudes entrantes, valida los tokens JWT y dirige el tráfico hacia los ocho microservicios del sistema: IAM, Residential Management, Reservation, Payment, Communication, Forum, Notification y Report, cada uno con su base de datos independiente. La integración con Culqi permite el procesamiento de pagos en línea, mientras que Firebase Cloud Messaging se encarga del envío de notificaciones push hacia los dispositivos móviles de residentes e inquilinos a través del microservicio de Notification. El microservicio de Report consulta datos de los demás servicios mediante REST para generar y exportar reportes financieros. El siguiente diagrama presenta la distribución de componentes y las conexiones entre cada capa de la arquitectura:
 
 <p align="center">
   <img src="assets/img/cloud_architecture_diagram.png" alt="Cloud Architecture Diagram" width="700"/>
@@ -5853,6 +5853,152 @@ El sistema Edifika se despliega utilizando Render como plataforma principal para
 *Figura XX. Diagrama de arquitectura cloud de Edifika. Elaborado por el equipo utilizando Lucidchart (Lucidchart, s.f.).*
 
 ##### 5.4.2. Cloud Architecture Deployment
+
+A continuación se detalla la evidencia del despliegue de cada componente del sistema Edifika en sus respectivas plataformas cloud.
+
+**Microservicios Backend**
+
+Todos los microservicios fueron desplegados en Render como Web Services independientes. Cada repositorio cuenta con un Dockerfile que define la imagen base de Java, ejecuta el build con Maven para generar el archivo .jar y configura el comando de inicio de la aplicación. Render detecta el Dockerfile automáticamente, construye la imagen y despliega el contenedor generando una URL pública por cada servicio. Cada push a la rama principal dispara un redespliegue automático sin intervención manual.
+
+*IAM Microservice*
+
+<p align="center">
+  <img src="assets/img/deploy_backend.png" alt="Despliegue Backend en Render" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio IAM. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*API Gateway*
+
+<p align="center">
+  <img src="assets/img/api_deploy.jpeg" alt="API Gateway Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del API Gateway. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Residential Management Microservice*
+
+<p align="center">
+  <img src="assets/img/residential_deploy.png" alt="Residential Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio Residential Management. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Reservation Microservice*
+
+<p align="center">
+  <img src="assets/img/reservation_deploy.jpeg" alt="Reservation Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio Reservation. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Payment Microservice*
+
+<p align="center">
+  <img src="assets/img/payment_deploy.png" alt="Payment Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio Payment. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Communication Microservice*
+
+<p align="center">
+  <img src="assets/img/communication_deployy.png" alt="Communication Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio Communication. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Forum Microservice*
+
+<p align="center">
+  <img src="assets/img/forum_deploy.png" alt="Forum Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio Forum. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Notification Microservice*
+
+<p align="center">
+  <img src="assets/img/notification_deploy.jpg" alt="Notification Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio Notification. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+*Report Microservice*
+
+<p align="center">
+  <img src="assets/img/report_deploy.jpeg" alt="Report Deploy" width="700"/>
+</p>
+
+*Figura XX. Despliegue del microservicio Report. Elaborado por el equipo utilizando Render (Render, s.f.).*
+
+**Bases de datos PostgreSQL**
+
+Cada microservicio cuenta con su propia instancia de PostgreSQL alojada en Supabase. Las credenciales de conexión (host, puerto, usuario, contraseña y nombre de la base de datos) se configuraron como variables de entorno dentro de cada Web Service en Render, utilizando el Transaction Pooler en el puerto 6543 para la gestión de conexiones. Al iniciar cada servicio, Hibernate crea automáticamente las tablas del dominio correspondiente.
+
+*IAM Database*
+
+<p align="center">
+  <img src="assets/img/deploy_db.png" alt="IAM DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio IAM. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+
+*Residential Management Database*
+
+<p align="center">
+  <img src="assets/img/residential_deploy_db.jpeg" alt="Residential DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio Residential Management. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+
+*Reservation Database*
+
+<p align="center">
+  <img src="assets/img/reservation_deploy_db.jpeg" alt="Reservation DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio Reservation. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+
+*Payment Database*
+
+<p align="center">
+  <img src="assets/img/payment_db_deploy.png" alt="Payment DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio Payment. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+
+*Communication Database*
+
+<p align="center">
+  <img src="assets/img/communication_db_deployy.png" alt="Communication DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio Communication. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+
+*Forum Database*
+
+<p align="center">
+  <img src="assets/img/forum_db_deploy.png" alt="Forum DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio Forum. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+
+*Notification Database*
+
+<p align="center">
+  <img src="assets/img/notification_db_deploy.jpeg" alt="Notification DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio Notification. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+
+*Report Database*
+
+<p align="center">
+  <img src="assets/img/report_db_deploy.jpeg" alt="Report DB Deploy" width="700"/>
+</p>
+
+*Figura XX. Base de datos del microservicio Report. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
 
 
 # Conclusiones
