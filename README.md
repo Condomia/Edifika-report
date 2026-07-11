@@ -248,14 +248,14 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: Diseñé los mockups de la aplicación web para administradores cubriendo los módulos de autenticación, pagos, reservas y comunicados, y contribuí en la definición de las Testing Suites del proyecto (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Elaboré la evidencia de testing del Sprint 2 y gestioné el despliegue del frontend de la aplicación web de Edifika (secciones 5.3.2.3, 5.3.2.6).<br><br>
 		TB4: Actualicé conocimientos en pruebas unitarias y aseguramiento de calidad mediante la elaboración de la evidencia de testing del Sprint 3, documentando las pruebas con JUnit 5 y Mockito para los microservicios Payment, Communication y Forum. Además, participé en el avance del frontend de la aplicación web de Edifika, contribuyendo a la integración visual de nuevas secciones y a la mejora de la experiencia de usuario en los módulos trabajados durante el Sprint (secciones 5.3.3.1, 5.3.3.3).<br><br>
-		TF:<br><br>
+		TF: Actualicé y apliqué conocimientos en arquitectura de microservicios, Domain-Driven Design, Spring Boot y pruebas unitarias durante la creación del microservicio Financial Report. Implementé los componentes necesarios para generar reportes financieros a partir de la información de pagos, deudas, reservas, áreas comunes, unidades y usuarios, organizando la solución mediante servicios de aplicación, entidades de dominio, clientes externos y controladores REST. Asimismo, elaboré la evidencia de testing del Sprint 4, documentando y validando con JUnit 5 y Mockito los Command Services, Query Services y Controllers de los microservicios Notification y Financial Report, incluyendo escenarios exitosos, resultados vacíos, manejo de excepciones, paginación y validación de respuestas HTTP (secciones 5.3.4.2, 5.3.4.3).<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: Realicé el análisis de competidores y conduje entrevistas a usuarios, actualizando conocimientos sobre el sector de gestión de condominios (secciones 2.1.1, 2.2.2).<br><br>
         TB2: Apliqué conocimientos de arquitectura elaborando los diagramas C4 y el diagrama ERD para representar la estructura, servicios y relaciones del sistema (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
         TP: Actualicé los diagramas C4, de componentes, clases y ERD del sistema, reforzando el uso de Git y GitHub para la gestión del código fuente del proyecto (secciones 4.1.4, 4.1.5, 4.1.6, 5.2.2).<br><br>
         TB3:Actualicé conocimientos de microservicios y modelado de datos para implementar el microservicio de Residential Management, corrigiendo además los diagramas de clases y ERD para reflejar con mayor precisión la estructura del sistema (secciones 5.3.2.2, 4.1.5, 4.1.6). <br><br>
 		TB4: Actualicé mis conocimientos sobre el desarrollo y despliegue de microservicios con Spring Boot, implementando el microservicio de Communication e integrándolo con una base de datos PostgreSQL desplegada en Supabase. Asimismo, configuré el despliegue del servicio en Render, fortaleciendo mis competencias en integración de servicios y gestión de infraestructura en la nube para soluciones de ingeniería de software (sección 5.3.2.6).<br><br>
-		TF:<br><br>
+		TF :Implementé la arquitectura basada en microservicios para la plataforma Edifika utilizando Spring Boot, DDD y Clean Architecture. Desarrollé servicios independientes para los módulos principales, implementé comunicación mediante APIs REST y documenté cada microservicio con Swagger, fortaleciendo mis conocimientos en diseño de arquitecturas escalables y mantenibles.<br><br>
       </td>
       <td>
         TB1: El equipo incorporó nuevos conceptos y herramientas de ingeniería de software a lo largo del primer entregable, reflejando un proceso de actualización continua en la calidad y coherencia de la documentación producida.<br><br>
@@ -295,14 +295,14 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
         TP: Reconocí que diseñar interfaces coherentes exige actualizar constantemente conocimientos en usabilidad y tendencias de diseño, reflejado en las decisiones tomadas para cada módulo de los mockups (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Reconocí que documentar el testing y gestionar el despliegue del frontend demanda aprendizaje continuo sobre estrategias de validación y configuración de entornos de producción (secciones 5.3.2.3, 5.3.2.6).<br><br>
 		TB4: Reconocí la importancia del aprendizaje continuo al documentar y comprender la estrategia de pruebas unitarias aplicada en los microservicios del Sprint 3, ya que fue necesario investigar el uso de mocks, validaciones de servicios, controladores REST y manejo de excepciones con JUnit 5 y Mockito. Asimismo, al participar en el desarrollo de parte del frontend, reforcé la necesidad de mantener una actualización constante en integración de interfaces, consumo de servicios backend y consistencia visual entre componentes de la plataforma Edifika (secciones 5.3.3.1, 5.3.3.3).<br><br>
-		TF:<br><br>
+		TF: Reconocí que la implementación de un microservicio de reportes financieros exige aprendizaje permanente en integración de servicios distribuidos, modelado de información financiera y aplicación de patrones arquitectónicos. Para desarrollar el Financial Report Service fue necesario comprender cómo consumir y consolidar datos provenientes de otros microservicios, realizar cálculos de deuda, recaudación, morosidad e ingresos por reservas, y exponer los resultados mediante endpoints REST. Del mismo modo, la elaboración de las pruebas del Sprint 4 me permitió profundizar en el uso de JUnit 5 y Mockito para aislar dependencias, simular repositorios y servicios externos, verificar interacciones y comprobar el comportamiento de servicios y controladores ante diferentes escenarios, reforzando la importancia de actualizar continuamente los conocimientos técnicos durante el desarrollo de soluciones de software (secciones 5.3.4.2, 5.3.4.3).<br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: Reconocí que el aprendizaje permanente es esencial al tener que investigar el sector para desarrollar el Lean UX Canvas and el análisis de competidores (secciones 1.2.3.4, 2.1.1).<br><br>
         TB2: Reconocí que elaborar los diagramas C4 y ERD exigió reforzar conceptos de arquitectura, comunicación entre servicios y modelado de datos (secciones 4.1.4, 4.1.5, 4.1.6).<br><br>
         TP: Reconocí que el desarrollo de EDIFIKA exige aprendizaje continuo en arquitectura y gestión de configuración, mejorando mi desempeño y adaptación a nuevas herramientas del proyecto (secciones 4.1.4, 5.2.2).<br><br>
         TB3: Reconocí que implementar y corregir el microservicio de Residential Management exige aprendizaje continuo, ya que cada ajuste en los endpoints REST y los diagramas del sistema demandó investigar y aplicar nuevos conceptos de forma iterativa (secciones 5.3.2.2, 4.1.5, 4.1.6).<br><br>
 		  TB4: Reconocí la importancia del aprendizaje continuo al adquirir conocimientos sobre plataformas de despliegue en la nube y configuración de bases de datos remotas, lo que me permitió publicar el microservicio de Communication y establecer su conexión con PostgreSQL mediante variables de entorno. Esta experiencia fortaleció mis habilidades para desarrollar e implementar soluciones de software utilizando tecnologías actuales (sección 5.3.2.6).<br><br>
-		  TF:<br><br>
+		  TF: Reconocí que el desarrollo de una arquitectura de microservicios requiere aprender continuamente conceptos como comunicación entre servicios, gestión de dependencias, resiliencia, balanceo de carga y despliegue independiente. Esto me llevó a investigar y aplicar nuevas prácticas y herramientas que no había utilizado previamente para mejorar la calidad y escalabilidad del proyecto Edifika<br><br>
       </td>
       <td>
         TB1: El proyecto Edifika demostró que mantenerse en constante aprendizaje es necesario, ya que cada sección trabajada presentó retos que exigieron investigar, cuestionar y adaptarse.<br><br>
@@ -5941,6 +5941,216 @@ Durante el Sprint 4 se realizaron avances relacionados con la implementación, c
 | Edifika-Front | main | 2815fcf | Finance and community wall | 08/07/2026 |
 
 ##### 5.3.4.3. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 4 se implementó una suite de pruebas unitarias para validar el funcionamiento de los componentes principales de los microservicios **Notification** y **Financial Report** de la plataforma Edifika. Las pruebas fueron desarrolladas utilizando **JUnit 5** y **Mockito**, permitiendo verificar la lógica de aplicación de forma aislada mediante el uso de objetos simulados o *mocks*.
+
+La estrategia de pruebas se enfocó principalmente en los servicios de comandos, servicios de consultas y controladores REST. Para ello, se simularon las dependencias externas, como los repositorios JPA, los servicios de consulta de tokens y el gateway de Firebase, evitando depender de una base de datos real o del servicio externo de notificaciones durante la ejecución de las pruebas.
+
+En el microservicio **Notification** se validó el registro y consulta de tokens de dispositivos, la creación de notificaciones, el envío de notificaciones push cuando el usuario cuenta con un token registrado, la consulta paginada de notificaciones y la actualización de su estado de `UNREAD` a `READ`.
+
+Asimismo, en el microservicio **Financial Report** se verificó la generación y consulta de reportes financieros mediante pruebas aplicadas a sus servicios de aplicación y controladores REST. Estas pruebas permitieron comprobar que los componentes respondan correctamente ante escenarios exitosos y ante situaciones en las que no existen registros asociados.
+
+### Tecnologías utilizadas
+
+| Tecnología | Propósito |
+|---|---|
+| JUnit 5 | Framework utilizado para definir y ejecutar las pruebas unitarias. |
+| Mockito | Librería utilizada para simular repositorios, servicios y gateways externos. |
+| Spring Boot Test | Proporciona soporte para la ejecución de pruebas dentro del ecosistema Spring Boot. |
+| AssertJ / JUnit Assertions | Utilizado para verificar los resultados obtenidos durante la ejecución de las pruebas. |
+| Maven | Herramienta utilizada para compilar el proyecto y ejecutar la suite de pruebas. |
+
+### Componentes evaluados
+
+| Microservicio | Componente evaluado | Descripción de las pruebas |
+|---|---|---|
+| Notification | `DeviceTokenCommandServiceImpl` | Valida el registro de un token de dispositivo y la correcta persistencia de los datos del usuario. |
+| Notification | `DeviceTokenQueryServiceImpl` | Valida la consulta de tokens mediante el identificador del usuario y el identificador del token. |
+| Notification | `NotificationCommandServiceImpl` | Valida la creación de notificaciones, el envío mediante Firebase y la actualización del estado de lectura. |
+| Notification | `NotificationQueryServiceImpl` | Valida la consulta de notificaciones por identificador y la recuperación paginada por usuario. |
+| Notification | `DeviceTokenController` | Valida las respuestas HTTP para el registro y consulta de tokens de dispositivo. |
+| Notification | `NotificationController` | Valida la creación, consulta y actualización de notificaciones mediante los endpoints REST. |
+| Financial Report | `ReportCommandServiceImpl` | Valida la generación y persistencia de la información correspondiente al reporte financiero. |
+| Financial Report | `ReportController` | Valida las respuestas HTTP relacionadas con la generación y consulta de reportes financieros. |
+
+### Casos de prueba del microservicio Notification
+
+#### DeviceTokenCommandServiceImpl
+
+Las pruebas implementadas para `DeviceTokenCommandServiceImpl` verifican que el servicio construya correctamente la entidad `DeviceTokenEntity`, invoque una única vez al repositorio y transforme el resultado persistido en un agregado `DeviceToken`.
+
+| Caso de prueba | Resultado esperado |
+|---|---|
+| Registrar token correctamente | El repositorio guarda una entidad con el `userId` y token recibidos. |
+| Mapear entidad persistida | El resultado contiene el identificador, usuario y token correspondientes. |
+| Error durante la persistencia | El servicio propaga la excepción generada por el repositorio. |
+
+<p align="center">
+  <img src="assets/img/DeviceCommandService.PNG" alt="Device token command service test" width="700"/>
+</p>
+
+*Figura 70. Pruebas unitarias del servicio de comandos de tokens de dispositivo. Elaborado por el equipo utilizando JUnit 5, Mockito e IntelliJ IDEA.*
+
+#### DeviceTokenQueryServiceImpl
+
+Las pruebas de `DeviceTokenQueryServiceImpl` validan la recuperación de tokens registrados mediante el identificador del usuario y el identificador interno del token. También se comprobaron los escenarios en los que no existe información asociada.
+
+| Caso de prueba | Resultado esperado |
+|---|---|
+| Consultar token por usuario existente | Se retorna un `Optional` con el token correctamente mapeado. |
+| Consultar token por usuario inexistente | Se retorna un `Optional.empty()`. |
+| Consultar token por identificador existente | Se retorna el token solicitado. |
+| Consultar token por identificador inexistente | Se retorna un resultado vacío. |
+
+<p align="center">
+  <img src="assets/img/DeviceQueryService.PNG" alt="Device token query service test" width="700"/>
+</p>
+
+*Figura 71. Pruebas unitarias del servicio de consultas de tokens de dispositivo. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
+
+#### NotificationCommandServiceImpl
+
+En `NotificationCommandServiceImpl` se verificó el proceso completo de creación de una notificación. El servicio debe guardar inicialmente la notificación con estado `UNREAD`, consultar si el usuario posee un token registrado y, de ser así, invocar al gateway encargado de comunicarse con Firebase.
+
+También se evaluó el proceso de marcado de una notificación como leída, comprobando que su estado sea actualizado a `READ`.
+
+| Caso de prueba | Resultado esperado |
+|---|---|
+| Crear notificación con token registrado | Se guarda la notificación y se invoca el gateway de Firebase. |
+| Crear notificación sin token registrado | Se guarda la notificación sin invocar Firebase. |
+| Marcar notificación como leída | El estado cambia de `UNREAD` a `READ` y se guarda la entidad actualizada. |
+| Marcar como leída una notificación inexistente | Se lanza `NotificationNotFoundException`. |
+
+<p align="center">
+  <img src="assets/img/NotificationCommandService.PNG" alt="Notification command service test" width="700"/>
+</p>
+
+*Figura 72. Pruebas unitarias del servicio de comandos de notificaciones. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
+
+#### NotificationQueryServiceImpl
+
+Las pruebas de `NotificationQueryServiceImpl` permiten comprobar la recuperación de una notificación específica y la consulta paginada de notificaciones asociadas a un usuario.
+
+Para la validación de la paginación se utilizó `PageImpl`, permitiendo simular el resultado generado por Spring Data y verificar propiedades como el número de página, cantidad de elementos y total de registros.
+
+| Caso de prueba | Resultado esperado |
+|---|---|
+| Consultar notificación existente por ID | Se retorna la notificación correctamente mapeada. |
+| Consultar notificación inexistente | Se retorna `Optional.empty()`. |
+| Consultar notificaciones por usuario | Se retorna una página con las notificaciones del usuario. |
+| Consultar usuario sin notificaciones | Se retorna una página vacía. |
+
+<p align="center">
+  <img src="assets/img/NotificationQueryService.PNG" alt="Notification query service test" width="700"/>
+</p>
+
+*Figura 73. Pruebas unitarias del servicio de consultas de notificaciones. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
+
+#### DeviceTokenController
+
+Las pruebas de `DeviceTokenController` validan las respuestas generadas por los endpoints relacionados con el registro y consulta de tokens de dispositivos.
+
+| Endpoint | Caso evaluado | Código HTTP esperado |
+|---|---|---|
+| `POST /api/v1/device-tokens` | Registro correcto de token | `201 Created` |
+| `GET /api/v1/device-tokens/user/{userId}` | Token encontrado por usuario | `200 OK` |
+| `GET /api/v1/device-tokens/user/{userId}` | Token no encontrado | `404 Not Found` |
+| `GET /api/v1/device-tokens/{id}` | Token encontrado por ID | `200 OK` |
+| `GET /api/v1/device-tokens/{id}` | Token no encontrado por ID | `404 Not Found` |
+
+<p align="center">
+  <img src="assets/img/DeviceController.PNG" alt="Device token controller test" width="700"/>
+</p>
+
+*Figura 74. Pruebas unitarias del controlador REST de tokens de dispositivo. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
+
+#### NotificationController
+
+Las pruebas de `NotificationController` verifican las respuestas HTTP y el contenido retornado por los endpoints encargados de crear, consultar y actualizar notificaciones.
+
+| Endpoint | Caso evaluado | Código HTTP esperado |
+|---|---|---|
+| `POST /api/v1/notifications` | Creación correcta de notificación | `201 Created` |
+| `GET /api/v1/notifications/user/{userId}` | Consulta paginada de notificaciones | `200 OK` |
+| `GET /api/v1/notifications/user/{userId}` | Usuario sin notificaciones | `200 OK` con página vacía |
+| `GET /api/v1/notifications/{id}` | Notificación encontrada | `200 OK` |
+| `GET /api/v1/notifications/{id}` | Notificación no encontrada | `404 Not Found` |
+| `PATCH /api/v1/notifications/{id}/read` | Notificación marcada como leída | `200 OK` |
+
+<p align="center">
+  <img src="assets/img/NotificationController.PNG" alt="Notification controller test" width="700"/>
+</p>
+
+*Figura 75. Pruebas unitarias del controlador REST de notificaciones. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
+
+### Casos de prueba del microservicio Financial Report
+
+#### ReportCommandServiceImpl
+
+Las pruebas aplicadas al servicio de comandos de reportes financieros verifican la correcta generación de los datos financieros y la interacción con los repositorios o clientes externos requeridos por el microservicio.
+
+Se utilizaron objetos simulados para representar la información obtenida desde los microservicios de pagos, deudas, reservas, áreas comunes, unidades y usuarios. Esto permitió comprobar los cálculos financieros sin depender de servicios desplegados.
+
+| Caso de prueba | Resultado esperado |
+|---|---|
+| Generar reporte con información disponible | Se procesan correctamente los datos financieros obtenidos. |
+| Calcular ingresos y deudas | Los montos del reporte corresponden a los datos simulados. |
+| Generar reporte sin determinados registros | El servicio mantiene valores controlados y evita errores de procesamiento. |
+| Error en una dependencia externa | El servicio controla o propaga la excepción según la lógica implementada. |
+
+<p align="center">
+  <img src="assets/img/ReportCommandService.PNG" alt="Report command service test" width="700"/>
+</p>
+
+*Figura 76. Pruebas unitarias del servicio de comandos del microservicio Financial Report. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
+
+#### ReportController
+
+Las pruebas del controlador de reportes financieros verifican que los endpoints respondan con los códigos HTTP correspondientes y que los recursos retornados contengan los indicadores financieros generados por la capa de aplicación.
+
+| Caso de prueba | Resultado esperado |
+|---|---|
+| Solicitar reporte financiero válido | Se retorna `200 OK` con la información financiera. |
+| Generar reporte correctamente | Se retorna el recurso construido por el servicio de aplicación. |
+| Solicitar información inexistente | Se retorna la respuesta definida por el controlador. |
+| Error durante la generación | Se propaga o transforma el error según la configuración del microservicio. |
+
+<p align="center">
+  <img src="assets/img/ReportController.PNG" alt="Report controller test" width="700"/>
+</p>
+
+*Figura 77. Pruebas unitarias del controlador REST del microservicio Financial Report. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
+
+### Evidencia de ejecución de las pruebas
+
+A continuación, se presenta la evidencia de ejecución de las pruebas unitarias correspondientes al microservicio Notification. La ejecución satisfactoria demuestra que los servicios de comandos, servicios de consultas y controladores cumplen con el comportamiento esperado.
+
+<p align="center">
+  <img src="assets/img/TestingNotification.PNG" alt="Notification test execution" width="700"/>
+</p>
+
+*Figura 78. Ejecución satisfactoria de la suite de pruebas del microservicio Notification. Elaborado por el equipo utilizando IntelliJ IDEA, JUnit 5 y Mockito.*
+
+Asimismo, se presenta la ejecución de las pruebas correspondientes al microservicio Financial Report, donde se validaron los componentes responsables de la generación y exposición de reportes financieros.
+
+<p align="center">
+  <img src="assets/img/TestingReport.PNG" alt="Financial report test execution" width="700"/>
+</p>
+
+*Figura 79. Ejecución satisfactoria de la suite de pruebas del microservicio Financial Report. Elaborado por el equipo utilizando IntelliJ IDEA, JUnit 5 y Mockito.*
+
+### Commits relacionados con Testing
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed On |
+|---|---|---|---|---|---|
+| Edifika-notification-service | main | `72dbcb5` | `test: add notification unit tests` | Added unit tests for device token and notification command services, query services and REST controllers using JUnit 5 and Mockito. | `10/07/2026` |
+| Edifika-financial-report-service | main | `fb39bda` | `test: add financial report unit tests` | Added unit tests for financial report application services and REST controllers using JUnit 5 and Mockito. | `10/07/2026` |
+
+### Resultado de la suite de pruebas
+
+La implementación de estas pruebas permitió comprobar de manera aislada el comportamiento de los componentes principales desarrollados durante el Sprint 4. El uso de Mockito permitió simular las dependencias de infraestructura y servicios externos, mientras que JUnit 5 facilitó la validación de los resultados y de las interacciones entre componentes.
+
+Las pruebas evidencian que el microservicio Notification puede registrar tokens, crear y consultar notificaciones, enviar solicitudes de notificación push y actualizar el estado de lectura. Del mismo modo, las pruebas del microservicio Financial Report permiten verificar la generación y exposición de los principales indicadores financieros de Edifika.
 ##### 5.3.4.4. Execution Evidence for Sprint Review
 
 En esta sección se presenta la evidencia de ejecución del Sprint 4, donde se verificó el correcto funcionamiento de los endpoints de los microservicios Notification Service y Report Service. Las pruebas se realizaron mediante Postman, enviando todas las solicitudes a través del API Gateway, validando que el enrutamiento y la verificación del Bearer Token JWT operan correctamente. A continuación se detallan las pruebas realizadas:
