@@ -5986,7 +5986,7 @@ Las pruebas implementadas para `DeviceTokenCommandServiceImpl` verifican que el 
 | Error durante la persistencia | El servicio propaga la excepción generada por el repositorio. |
 
 <p align="center">
-  <img src="assets/img/DeviceCommandService.PNG" alt="Device token command service test" width="700"/>
+  <img src="assets/img/DeviceCommandsService.PNG" alt="Device token command service test" width="700"/>
 </p>
 
 *Figura 70. Pruebas unitarias del servicio de comandos de tokens de dispositivo. Elaborado por el equipo utilizando JUnit 5, Mockito e IntelliJ IDEA.*
@@ -6022,7 +6022,7 @@ También se evaluó el proceso de marcado de una notificación como leída, comp
 | Marcar como leída una notificación inexistente | Se lanza `NotificationNotFoundException`. |
 
 <p align="center">
-  <img src="assets/img/NotificationCommandService.PNG" alt="Notification command service test" width="700"/>
+  <img src="assets/img/NotificationCommandsService.PNG" alt="Notification command service test" width="700"/>
 </p>
 
 *Figura 72. Pruebas unitarias del servicio de comandos de notificaciones. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
@@ -6099,7 +6099,7 @@ Se utilizaron objetos simulados para representar la información obtenida desde 
 | Error en una dependencia externa | El servicio controla o propaga la excepción según la lógica implementada. |
 
 <p align="center">
-  <img src="assets/img/ReportCommandService.PNG" alt="Report command service test" width="700"/>
+  <img src="assets/img/ReportCommandsService.PNG" alt="Report command service test" width="700"/>
 </p>
 
 *Figura 76. Pruebas unitarias del servicio de comandos del microservicio Financial Report. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
