@@ -30,14 +30,21 @@
 
 <strong>Integrantes:</strong>
 
-| Alumno | Codigo |
-|---|---|
-| Becerra Tejeda, Alessandra Nicole | u202318947 |
-| Bejarano Martinez, Alvaro Leandro | u202311640 |
-| Ortiz Cardenas, Johanna Antuanete | u202310358 |
-| Sarmiento Medina, Loreley | u202310005 |
-| Zegarra López, Renato Sebastián Rubber | u202311558 |
-
+<table border="1">
+  <thead>
+    <tr>
+      <th>Alumno</th>
+      <th>Codigo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Becerra Tejeda, Alessandra Nicole</td><td>u202318947</td></tr>
+    <tr><td>Bejarano Martinez, Alvaro Leandro</td><td>u202311640</td></tr>
+    <tr><td>Ortiz Cardenas, Johanna Antuanete</td><td>u202310358</td></tr>
+    <tr><td>Sarmiento Medina, Loreley</td><td>u202310005</td></tr>
+    <tr><td>Zegarra López, Renato Sebastián Rubber</td><td>u202311558</td></tr>
+  </tbody>
+</table>
 <br>
 
 **Julio, 2026**
