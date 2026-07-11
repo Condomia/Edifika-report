@@ -5920,7 +5920,7 @@ El objetivo principal del Sprint 4 fue completar funcionalidades clave como la a
   <img src="assets/img/TRELLO4.PNG" alt="Trello Sprint 4" width="700"/>
 </p>
 
-*Figura 130. Sprint Backlog 4. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+*Figura 162. Sprint Backlog 4. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 [https://trello.com/invite/b/6a517a0295ce5b5485e0f3c6/ATTIca3693665d49c53fa719118b8aed0b9a52735F84/sprint-backlog-4](https://trello.com/invite/b/6a517a0295ce5b5485e0f3c6/ATTIca3693665d49c53fa719118b8aed0b9a52735F84/sprint-backlog-4)
 
@@ -5990,7 +5990,7 @@ Las pruebas implementadas para `DeviceTokenCommandServiceImpl` verifican que el 
   <img src="assets/img/DeviceCommandsService.PNG" alt="Device token command service test" width="700"/>
 </p>
 
-*Figura 70. Pruebas unitarias del servicio de comandos de tokens de dispositivo. Elaborado por el equipo utilizando JUnit 5, Mockito e IntelliJ IDEA.*
+*Figura 163. Pruebas unitarias del servicio de comandos de tokens de dispositivo. Elaborado por el equipo utilizando JUnit 5, Mockito e IntelliJ IDEA.*
 
 #### DeviceTokenQueryServiceImpl
 
@@ -6007,7 +6007,7 @@ Las pruebas de `DeviceTokenQueryServiceImpl` validan la recuperación de tokens 
   <img src="assets/img/DeviceQueryService.PNG" alt="Device token query service test" width="700"/>
 </p>
 
-*Figura 71. Pruebas unitarias del servicio de consultas de tokens de dispositivo. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
+*Figura 164. Pruebas unitarias del servicio de consultas de tokens de dispositivo. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
 
 #### NotificationCommandServiceImpl
 
@@ -6026,7 +6026,7 @@ También se evaluó el proceso de marcado de una notificación como leída, comp
   <img src="assets/img/NotificationCommandsService.PNG" alt="Notification command service test" width="700"/>
 </p>
 
-*Figura 72. Pruebas unitarias del servicio de comandos de notificaciones. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
+*Figura 165. Pruebas unitarias del servicio de comandos de notificaciones. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
 
 #### NotificationQueryServiceImpl
 
@@ -6045,7 +6045,7 @@ Para la validación de la paginación se utilizó `PageImpl`, permitiendo simula
   <img src="assets/img/NotificationQueryService.PNG" alt="Notification query service test" width="700"/>
 </p>
 
-*Figura 73. Pruebas unitarias del servicio de consultas de notificaciones. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
+*Figura 166. Pruebas unitarias del servicio de consultas de notificaciones. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
 
 #### DeviceTokenController
 
@@ -6063,7 +6063,7 @@ Las pruebas de `DeviceTokenController` validan las respuestas generadas por los 
   <img src="assets/img/DeviceController.PNG" alt="Device token controller test" width="700"/>
 </p>
 
-*Figura 74. Pruebas unitarias del controlador REST de tokens de dispositivo. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
+*Figura 167. Pruebas unitarias del controlador REST de tokens de dispositivo. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
 
 #### NotificationController
 
@@ -6082,7 +6082,7 @@ Las pruebas de `NotificationController` verifican las respuestas HTTP y el conte
   <img src="assets/img/NotificationController.PNG" alt="Notification controller test" width="700"/>
 </p>
 
-*Figura 75. Pruebas unitarias del controlador REST de notificaciones. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
+*Figura 168. Pruebas unitarias del controlador REST de notificaciones. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
 
 ### Casos de prueba del microservicio Financial Report
 
@@ -6103,7 +6103,7 @@ Se utilizaron objetos simulados para representar la información obtenida desde 
   <img src="assets/img/ReportCommandsService.PNG" alt="Report command service test" width="700"/>
 </p>
 
-*Figura 76. Pruebas unitarias del servicio de comandos del microservicio Financial Report. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
+*Figura 169. Pruebas unitarias del servicio de comandos del microservicio Financial Report. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
 
 #### ReportController
 
@@ -6120,7 +6120,7 @@ Las pruebas del controlador de reportes financieros verifican que los endpoints 
   <img src="assets/img/ReportController.PNG" alt="Report controller test" width="700"/>
 </p>
 
-*Figura 77. Pruebas unitarias del controlador REST del microservicio Financial Report. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
+*Figura 170. Pruebas unitarias del controlador REST del microservicio Financial Report. Elaborado por el equipo utilizando JUnit 5 y Mockito.*
 
 ### Evidencia de ejecución de las pruebas
 
@@ -6130,7 +6130,7 @@ A continuación, se presenta la evidencia de ejecución de las pruebas unitarias
   <img src="assets/img/TestingNotification.PNG" alt="Notification test execution" width="700"/>
 </p>
 
-*Figura 78. Ejecución satisfactoria de la suite de pruebas del microservicio Notification. Elaborado por el equipo utilizando IntelliJ IDEA, JUnit 5 y Mockito.*
+*Figura 171. Ejecución satisfactoria de la suite de pruebas del microservicio Notification. Elaborado por el equipo utilizando IntelliJ IDEA, JUnit 5 y Mockito.*
 
 Asimismo, se presenta la ejecución de las pruebas correspondientes al microservicio Financial Report, donde se validaron los componentes responsables de la generación y exposición de reportes financieros.
 
@@ -6138,7 +6138,7 @@ Asimismo, se presenta la ejecución de las pruebas correspondientes al microserv
   <img src="assets/img/TestingReport.PNG" alt="Financial report test execution" width="700"/>
 </p>
 
-*Figura 79. Ejecución satisfactoria de la suite de pruebas del microservicio Financial Report. Elaborado por el equipo utilizando IntelliJ IDEA, JUnit 5 y Mockito.*
+*Figura 172. Ejecución satisfactoria de la suite de pruebas del microservicio Financial Report. Elaborado por el equipo utilizando IntelliJ IDEA, JUnit 5 y Mockito.*
 
 ### Commits relacionados con Testing
 
@@ -6164,7 +6164,7 @@ Se verificó el registro de un token de dispositivo móvil enviando los campos u
   <img src="assets/img/execution_post_device_token.png" alt="Ejecución POST Device Token" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Device Tokens a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 173. Ejecución del endpoint POST Device Tokens a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: POST /api/v1/notifications**
 
@@ -6174,7 +6174,7 @@ Se comprobó la creación y envío de una notificación enviando los campos user
   <img src="assets/img/execution_post_notification.png" alt="Ejecución POST Notification" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint POST Notifications a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 173. Ejecución del endpoint POST Notifications a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/notifications/user/{userId}**
 
@@ -6184,7 +6184,7 @@ Se verificó la consulta de notificaciones de un usuario específico enviando el
   <img src="assets/img/execution_get_notifications_user.png" alt="Ejecución GET Notifications by User" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint GET Notifications by User a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 174. Ejecución del endpoint GET Notifications by User a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: PATCH /api/v1/notifications/{id}/read**
 
@@ -6194,7 +6194,7 @@ Se comprobó el marcado de una notificación como leída enviando el id de la no
   <img src="assets/img/execution_patch_notification_read.png" alt="Ejecución PATCH Notification Read" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint PATCH Notification Read a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 175. Ejecución del endpoint PATCH Notification Read a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Endpoint: GET /api/v1/reports/financial/buildings/{buildingId}**
 
@@ -6204,7 +6204,7 @@ Se verificó la generación de un reporte financiero consolidado enviando el bui
   <img src="assets/img/execution_get_financial_report.png" alt="Ejecución GET Financial Report" width="700"/>
 </p>
 
-*Figura XX. Ejecución del endpoint GET Financial Report a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
+*Figura 176. Ejecución del endpoint GET Financial Report a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
 **Dashboard**
 
@@ -6214,7 +6214,7 @@ Se verificó el correcto despliegue del panel principal de Edifika en el entorno
   <img src="assets/img/dashboard_deploy.jpeg" alt="Dashboard Desplegado" width="700"/>
 </p>
 
-*Figura X. Dashboard principal de Edifika desplegado en el entorno de producción. Elaborado por el equipo.*
+*Figura 177. Dashboard principal de Edifika desplegado en el entorno de producción. Elaborado por el equipo.*
 
 
 
@@ -6226,7 +6226,7 @@ Se verificó el correcto funcionamiento de la pantalla de gestión de unidades y
   <img src="assets/img/units_residents_deploy.jpeg" alt="Gestión de Unidades y Residentes" width="700"/>
 </p>
 
-*Figura X. Pantalla de gestión de unidades y residentes desplegada en el entorno de producción. Elaborado por el equipo.*
+*Figura 178. Pantalla de gestión de unidades y residentes desplegada en el entorno de producción. Elaborado por el equipo.*
 
 
 
@@ -6238,7 +6238,7 @@ Se verificó el correcto despliegue de la pantalla de administración de áreas 
   <img src="assets/img/common_areas_deploy.jpeg" alt="Áreas Comunes Desplegadas" width="700"/>
 </p>
 
-*Figura X. Pantalla de administración de áreas comunes desplegada en el entorno de producción. Elaborado por el equipo.*
+*Figura 179. Pantalla de administración de áreas comunes desplegada en el entorno de producción. Elaborado por el equipo.*
 
 
 **Modal de Configuración de Reglas para Áreas Comunes**
@@ -6249,7 +6249,7 @@ Se verificó el funcionamiento del formulario de configuración de reglas para �
   <img src="assets/img/edit_common_area_rules_deploy.jpeg" alt="Configuración de Reglas de Áreas Comunes" width="700"/>
 </p>
 
-*Figura X. Modal de configuración de reglas para áreas comunes desplegado en el entorno de producción. Elaborado por el equipo.*
+*Figura 180. Modal de configuración de reglas para áreas comunes desplegado en el entorno de producción. Elaborado por el equipo.*
 
 
 
@@ -6261,7 +6261,7 @@ Se verificó el correcto funcionamiento del muro comunitario desplegado en produ
   <img src="assets/img/community_wall_deploy.jpeg" alt="Community Wall Desplegado" width="700"/>
 </p>
 
-*Figura X. Pantalla del Community Wall desplegada en el entorno de producción. Elaborado por el equipo.*
+*Figura 181. Pantalla del Community Wall desplegada en el entorno de producción. Elaborado por el equipo.*
 
 
 
@@ -6273,7 +6273,7 @@ Se verificó el correcto despliegue de la pantalla de configuración del perfil 
   <img src="assets/img/settings_profile_deploy.jpeg" alt="Configuración del Perfil" width="700"/>
 </p>
 
-*Figura X. Pantalla de configuración del perfil de usuario desplegada en el entorno de producción. Elaborado por el equipo.*
+*Figura 182. Pantalla de configuración del perfil de usuario desplegada en el entorno de producción. Elaborado por el equipo.*
 
 
 **Pantalla de Configuración de la Propiedad**
@@ -6284,7 +6284,7 @@ Se verificó el correcto funcionamiento de la pantalla de configuración de la p
   <img src="assets/img/settings_property_deploy.jpeg" alt="Configuración de la Propiedad" width="700"/>
 </p>
 
-*Figura X. Pantalla de configuración de la propiedad desplegada en el entorno de producción. Elaborado por el equipo.*
+*Figura 183. Pantalla de configuración de la propiedad desplegada en el entorno de producción. Elaborado por el equipo.*
 
 
 ##### 5.3.4.5. Microservices Documentation Evidence for Sprint Review
@@ -6305,7 +6305,7 @@ Controlador encargado del registro y consulta de tokens de dispositivos móviles
   <img src="assets/img/device_token_controller.png" alt="Device Token Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Endpoints del Device Token Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 184. Endpoints del Device Token Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Notification Controller**
 
@@ -6322,7 +6322,7 @@ Controlador responsable de la creación, consulta y gestión de notificaciones d
   <img src="assets/img/notification_controller.png" alt="Notification Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Endpoints del Notification Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 185. Endpoints del Notification Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 **Financial Report Controller**
 
@@ -6336,7 +6336,7 @@ Controlador dedicado a la generación de reportes financieros consolidados por e
   <img src="assets/img/report_controller.png" alt="Financial Report Controller Endpoints" width="700"/>
 </p>
 
-*Figura XX. Endpoints del Financial Report Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
+*Figura 186. Endpoints del Financial Report Controller. Elaborado por el equipo utilizando Swagger UI (Swagger, s.f.).*
 
 ##### 5.3.4.6. Software Deployment Evidence for Sprint Review
 
@@ -6354,7 +6354,7 @@ Además, se configuró un entorno de ejecución para Java y las variables de ent
   <img src="assets/img/notification_deploy.jpg" alt="deploy" width="700"/>
 </p>
 
-*Figura XX. Notification Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 187. Notification Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 *Report Microservice*
 
@@ -6362,7 +6362,7 @@ Además, se configuró un entorno de ejecución para Java y las variables de ent
   <img src="assets/img/report_deploy.jpg" alt="deploy" width="700"/>
 </p>
 
-*Figura XX. Report Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 188. Report Microservice Deploy. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 
 ### Database
@@ -6377,7 +6377,7 @@ Estas credenciales fueron registradas como variables de entorno dentro de Render
   <img src="assets/img/notification_db_deploy.jpeg" alt="deploy" width="700"/>
 </p>
 
-*Figura XX. Notification Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+*Figura 189. Notification Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
 
 *Report Microservice*
 
@@ -6385,7 +6385,7 @@ Estas credenciales fueron registradas como variables de entorno dentro de Render
   <img src="assets/img/report_db_deploy.jpg" alt="deploy" width="700"/>
 </p>
 
-*Figura XX. Report Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
+*Figura 190. Report Database Deployment. Elaborado por el equipo utilizando PostgreSQL (PostgreSQL, s.f.).*
 
 
 ##### 5.3.4.7. Team Collaboration Insights during Sprint
@@ -6400,7 +6400,7 @@ En el repositorio del microservicio de reportes se registraron los commits corre
   <img src="assets/img/insights_report.png" alt="Insights Report" width="700"/>
 </p>
 
-*Figura XXX. Insights del repositorio de report. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 191. Insights del repositorio de report. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 **Microservicio Notification - Backend**
 
@@ -6410,7 +6410,7 @@ En el repositorio del microservicio de notificaciones se registraron los commits
   <img src="assets/img/insights_notification.png" alt="Insights Notification" width="700"/>
 </p>
 
-*Figura XXX. Insights del repositorio de report. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
+*Figura 192. Insights del repositorio de report. Elaborado por el equipo utilizando GitHub (GitHub, s.f.).*
 
 ##### 5.3.4.8. Kanban Board
 
@@ -6420,7 +6420,7 @@ En esta sección se presentan las actividades desarrolladas durante el Sprint 4 
 	<img src="assets/img/kanban_board_4.png" alt="Kanban Board Sprint 4" width="700"/>
 </p>
 
-*Figura XXX. Kanban Board del Sprint 4 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
+*Figura 193. Kanban Board del Sprint 4 del proyecto. Elaborado por el equipo utilizando Trello (Trello, s.f.).*
 
 [https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board](https://trello.com/invite/b/6a0755f90671e532818473cd/ATTI5709d4773ea0fdf82cd67d7446795594221FE17D/edifika-kanban-board)
 
@@ -6434,7 +6434,7 @@ El sistema Edifika se despliega de forma distribuida utilizando Render como plat
   <img src="assets/img/cloud_architecture_diagram.png" alt="Cloud Architecture Diagram" width="700"/>
 </p>
 
-*Figura XX. Diagrama de arquitectura cloud de Edifika. Elaborado por el equipo utilizando Lucidchart (Lucidchart, s.f.).*
+*Figura 194. Diagrama de arquitectura cloud de Edifika. Elaborado por el equipo utilizando Lucidchart (Lucidchart, s.f.).*
 
 ##### 5.4.2. Cloud Architecture Deployment
 
@@ -6450,7 +6450,7 @@ Todos los microservicios fueron desplegados en Render como Web Services independ
   <img src="assets/img/deploy_backend.png" alt="Despliegue Backend en Render" width="700"/>
 </p>
 
-*Figura XX. Despliegue del microservicio IAM. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 195. Despliegue del microservicio IAM. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 *API Gateway*
 
@@ -6458,7 +6458,7 @@ Todos los microservicios fueron desplegados en Render como Web Services independ
   <img src="assets/img/api_deploy.jpeg" alt="API Gateway Deploy" width="700"/>
 </p>
 
-*Figura XX. Despliegue del API Gateway. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 196. Despliegue del API Gateway. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 *Residential Management Microservice*
 
@@ -6466,7 +6466,7 @@ Todos los microservicios fueron desplegados en Render como Web Services independ
   <img src="assets/img/residential_deploy.png" alt="Residential Deploy" width="700"/>
 </p>
 
-*Figura XX. Despliegue del microservicio Residential Management. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 197. Despliegue del microservicio Residential Management. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 *Reservation Microservice*
 
@@ -6474,7 +6474,7 @@ Todos los microservicios fueron desplegados en Render como Web Services independ
   <img src="assets/img/reservation_deploy.jpeg" alt="Reservation Deploy" width="700"/>
 </p>
 
-*Figura XX. Despliegue del microservicio Reservation. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 198. Despliegue del microservicio Reservation. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 *Payment Microservice*
 
@@ -6482,7 +6482,7 @@ Todos los microservicios fueron desplegados en Render como Web Services independ
   <img src="assets/img/payment_deploy.png" alt="Payment Deploy" width="700"/>
 </p>
 
-*Figura XX. Despliegue del microservicio Payment. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 199. Despliegue del microservicio Payment. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 *Communication Microservice*
 
@@ -6490,7 +6490,7 @@ Todos los microservicios fueron desplegados en Render como Web Services independ
   <img src="assets/img/communication_deployy.png" alt="Communication Deploy" width="700"/>
 </p>
 
-*Figura XX. Despliegue del microservicio Communication. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 200. Despliegue del microservicio Communication. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 *Forum Microservice*
 
@@ -6498,7 +6498,7 @@ Todos los microservicios fueron desplegados en Render como Web Services independ
   <img src="assets/img/forum_deploy.png" alt="Forum Deploy" width="700"/>
 </p>
 
-*Figura XX. Despliegue del microservicio Forum. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 201. Despliegue del microservicio Forum. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 *Notification Microservice*
 
@@ -6506,7 +6506,7 @@ Todos los microservicios fueron desplegados en Render como Web Services independ
   <img src="assets/img/notification_deploy.jpg" alt="Notification Deploy" width="700"/>
 </p>
 
-*Figura XX. Despliegue del microservicio Notification. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 202. Despliegue del microservicio Notification. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 *Report Microservice*
 
@@ -6514,7 +6514,7 @@ Todos los microservicios fueron desplegados en Render como Web Services independ
   <img src="assets/img/report_deploy.jpg" alt="Report Deploy" width="700"/>
 </p>
 
-*Figura XX. Despliegue del microservicio Report. Elaborado por el equipo utilizando Render (Render, s.f.).*
+*Figura 203. Despliegue del microservicio Report. Elaborado por el equipo utilizando Render (Render, s.f.).*
 
 **Bases de datos PostgreSQL**
 
@@ -6526,7 +6526,7 @@ Cada microservicio cuenta con su propia instancia de PostgreSQL alojada en Supab
   <img src="assets/img/deploy_db.png" alt="IAM DB Deploy" width="700"/>
 </p>
 
-*Figura XX. Base de datos del microservicio IAM. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+*Figura 204. Base de datos del microservicio IAM. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
 
 *Residential Management Database*
 
@@ -6534,7 +6534,7 @@ Cada microservicio cuenta con su propia instancia de PostgreSQL alojada en Supab
   <img src="assets/img/residential_deploy_db.jpeg" alt="Residential DB Deploy" width="700"/>
 </p>
 
-*Figura XX. Base de datos del microservicio Residential Management. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+*Figura 205. Base de datos del microservicio Residential Management. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
 
 *Reservation Database*
 
@@ -6542,7 +6542,7 @@ Cada microservicio cuenta con su propia instancia de PostgreSQL alojada en Supab
   <img src="assets/img/reservation_deploy_db.jpeg" alt="Reservation DB Deploy" width="700"/>
 </p>
 
-*Figura XX. Base de datos del microservicio Reservation. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+*Figura 206. Base de datos del microservicio Reservation. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
 
 *Payment Database*
 
@@ -6550,7 +6550,7 @@ Cada microservicio cuenta con su propia instancia de PostgreSQL alojada en Supab
   <img src="assets/img/payment_db_deploy.png" alt="Payment DB Deploy" width="700"/>
 </p>
 
-*Figura XX. Base de datos del microservicio Payment. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+*Figura 207. Base de datos del microservicio Payment. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
 
 *Communication Database*
 
@@ -6558,7 +6558,7 @@ Cada microservicio cuenta con su propia instancia de PostgreSQL alojada en Supab
   <img src="assets/img/communication_db_deployy.png" alt="Communication DB Deploy" width="700"/>
 </p>
 
-*Figura XX. Base de datos del microservicio Communication. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+*Figura 208. Base de datos del microservicio Communication. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
 
 *Forum Database*
 
@@ -6566,7 +6566,7 @@ Cada microservicio cuenta con su propia instancia de PostgreSQL alojada en Supab
   <img src="assets/img/forum_db_deploy.png" alt="Forum DB Deploy" width="700"/>
 </p>
 
-*Figura XX. Base de datos del microservicio Forum. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+*Figura 209. Base de datos del microservicio Forum. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
 
 *Notification Database*
 
@@ -6574,7 +6574,7 @@ Cada microservicio cuenta con su propia instancia de PostgreSQL alojada en Supab
   <img src="assets/img/notification_db_deploy.jpeg" alt="Notification DB Deploy" width="700"/>
 </p>
 
-*Figura XX. Base de datos del microservicio Notification. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+*Figura 210. Base de datos del microservicio Notification. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
 
 *Report Database*
 
@@ -6582,7 +6582,7 @@ Cada microservicio cuenta con su propia instancia de PostgreSQL alojada en Supab
   <img src="assets/img/report_db_deploy.jpg" alt="Report DB Deploy" width="700"/>
 </p>
 
-*Figura XX. Base de datos del microservicio Report. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
+*Figura 211. Base de datos del microservicio Report. Elaborado por el equipo utilizando Supabase (Supabase, s.f.).*
 
 
 
