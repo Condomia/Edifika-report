@@ -30,19 +30,19 @@
 
 <strong>Integrantes:</strong>
 
-<table border="1">
+<table style="border-collapse: collapse; width: 100%;">
   <thead>
     <tr>
-      <th>Alumno</th>
-      <th>Codigo</th>
+      <th style="border: 1px solid black; padding: 6px; text-align: left;">Alumno</th>
+      <th style="border: 1px solid black; padding: 6px; text-align: left;">Codigo</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Becerra Tejeda, Alessandra Nicole</td><td>u202318947</td></tr>
-    <tr><td>Bejarano Martinez, Alvaro Leandro</td><td>u202311640</td></tr>
-    <tr><td>Ortiz Cardenas, Johanna Antuanete</td><td>u202310358</td></tr>
-    <tr><td>Sarmiento Medina, Loreley</td><td>u202310005</td></tr>
-    <tr><td>Zegarra López, Renato Sebastián Rubber</td><td>u202311558</td></tr>
+    <tr><td style="border: 1px solid black; padding: 6px;">Becerra Tejeda, Alessandra Nicole</td><td style="border: 1px solid black; padding: 6px;">u202318947</td></tr>
+    <tr><td style="border: 1px solid black; padding: 6px;">Bejarano Martinez, Alvaro Leandro</td><td style="border: 1px solid black; padding: 6px;">u202311640</td></tr>
+    <tr><td style="border: 1px solid black; padding: 6px;">Ortiz Cardenas, Johanna Antuanete</td><td style="border: 1px solid black; padding: 6px;">u202310358</td></tr>
+    <tr><td style="border: 1px solid black; padding: 6px;">Sarmiento Medina, Loreley</td><td style="border: 1px solid black; padding: 6px;">u202310005</td></tr>
+    <tr><td style="border: 1px solid black; padding: 6px;">Zegarra López, Renato Sebastián Rubber</td><td style="border: 1px solid black; padding: 6px;">u202311558</td></tr>
   </tbody>
 </table>
 <br>
