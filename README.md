@@ -1,56 +1,48 @@
-
 <div align="center">
 <p align="center">
-  <img src="assets/img/upc_logo.png" alt="logo" width="150"/>
+  <img src="assets/img/upc_logo.png" alt="logo" width="200"/>
 </p>
 
-<strong>Universidad Peruana de Ciencias Aplicadas</strong>
+<h3>Universidad Peruana de Ciencias Aplicadas</h3>
+<h3>Ingeniería de Software</h3>
 
-<strong>Ingeniería de Software</strong>
+<h4>1ASI0657 - Fundamentos de Arquitectura de Software<br>202610</h4>
 
-<strong>1ASI0657  Fundamentos de Arquitectura de Software<br>202610</strong>
+<h4>NRC: 7944</h4>
 
-<br>
+<h4>Docente: Abel Nehemias Rosales Caururu</h4>
 
-<strong>NRC: 7944</strong>
+<h3>TRABAJO FINAL</h3>
 
-<br>
+<h4>Nombre del Producto: Edifika</h4>
 
-<strong>Profesor:  Abel Nehemias Rosales Caururu</strong>
-
-<br>
-
-<strong>TRABAJO FINAL</strong>
 
 <br>
 
-<strong>Nombre del Producto</strong> : Edifika
+<h4>Integrantes:</h4>
 
-<br>
-
-<strong>Integrantes:</strong>
-
-<table style="border-collapse: collapse; width: 100%;">
+<table style="border-collapse: collapse;">
   <thead>
     <tr>
-      <th style="border: 1px solid black; padding: 6px; text-align: left;">Alumno</th>
-      <th style="border: 1px solid black; padding: 6px; text-align: left;">Codigo</th>
+      <th style="border: 1px solid black;">Alumno</th>
+      <th style="border: 1px solid black;">Codigo</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td style="border: 1px solid black; padding: 6px;">Becerra Tejeda, Alessandra Nicole</td><td style="border: 1px solid black; padding: 6px;">u202318947</td></tr>
-    <tr><td style="border: 1px solid black; padding: 6px;">Bejarano Martinez, Alvaro Leandro</td><td style="border: 1px solid black; padding: 6px;">u202311640</td></tr>
-    <tr><td style="border: 1px solid black; padding: 6px;">Ortiz Cardenas, Johanna Antuanete</td><td style="border: 1px solid black; padding: 6px;">u202310358</td></tr>
-    <tr><td style="border: 1px solid black; padding: 6px;">Sarmiento Medina, Loreley</td><td style="border: 1px solid black; padding: 6px;">u202310005</td></tr>
-    <tr><td style="border: 1px solid black; padding: 6px;">Zegarra López, Renato Sebastián Rubber</td><td style="border: 1px solid black; padding: 6px;">u202311558</td></tr>
+    <tr><td style="border: 1px solid black;">Becerra Tejeda, Alessandra Nicole</td><td style="border: 1px solid black;">u202318947</td></tr>
+    <tr><td style="border: 1px solid black;">Bejarano Martinez, Alvaro Leandro</td><td style="border: 1px solid black;">u202311640</td></tr>
+    <tr><td style="border: 1px solid black;">Ortiz Cardenas, Johanna Antuanete</td><td style="border: 1px solid black;">u202310358</td></tr>
+    <tr><td style="border: 1px solid black;">Sarmiento Medina, Loreley</td><td style="border: 1px solid black;">u202310005</td></tr>
+    <tr><td style="border: 1px solid black;">Zegarra López, Renato Sebastián Rubber</td><td style="border: 1px solid black;">u202311558</td></tr>
   </tbody>
 </table>
 <br>
 
-**Julio, 2026**
+<h4>Julio, 2026</h4>
 
 </div>
 
+<div style="page-break-after: always;"></div>
 
 ## Registro de Versiones del Informe
 
