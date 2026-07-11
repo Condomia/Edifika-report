@@ -3048,7 +3048,7 @@ Se adoptan los siguientes conceptos de diseño:
 
 ### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
-<img src="assets/img/itereacion1blanco.png" alt="context"/>
+<img src="assets/img/iteracion1blanco.png" alt="context"/>
 *Figura 39. TRElLO - Iteration 1. Elaborado por el equipo utilizando TRELLO (TRELLO, s.f.).*
  
 ## 4.3.2 Iteration 2: Refinamiento de módulos críticos (Pagos y Reservas)
