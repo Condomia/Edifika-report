@@ -6205,6 +6205,87 @@ Se verificó la generación de un reporte financiero consolidado enviando el bui
 
 *Figura XX. Ejecución del endpoint GET Financial Report a través del API Gateway. Elaborado por el equipo utilizando Postman (Postman, s.f.).*
 
+**Dashboard**
+
+Se verificó el correcto despliegue del panel principal de Edifika en el entorno de producción. La interfaz presenta un resumen general del estado del condominio mediante indicadores de ocupación, facturación, reservas pendientes y publicaciones recientes del muro comunitario. Asimismo, se validó la correcta carga de los componentes visuales y la integración con los servicios del backend desplegados en la nube.
+
+<p align="center">
+  <img src="assets/img/dashboard_deploy.jpeg" alt="Dashboard Desplegado" width="700"/>
+</p>
+
+*Figura X. Dashboard principal de Edifika desplegado en el entorno de producción. Elaborado por el equipo.*
+
+
+
+**Pantalla de Gestión de Unidades y Residentes**
+
+Se verificó el correcto funcionamiento de la pantalla de gestión de unidades y residentes desplegada en producción. La interfaz permite visualizar la información de las unidades registradas, los residentes asociados, el estado de ocupación, las deudas pendientes y realizar acciones de administración sobre cada registro. Además, se comprobó la correcta comunicación con los microservicios responsables de la gestión de propiedades y residentes.
+
+<p align="center">
+  <img src="assets/img/units_residents_deploy.jpeg" alt="Gestión de Unidades y Residentes" width="700"/>
+</p>
+
+*Figura X. Pantalla de gestión de unidades y residentes desplegada en el entorno de producción. Elaborado por el equipo.*
+
+
+
+**Pantalla de Administración de Áreas Comunes**
+
+Se verificó el correcto despliegue de la pantalla de administración de áreas comunes en el entorno de producción. La interfaz integra un calendario de reservas junto con un panel para la gestión de amenidades, permitiendo administrar la disponibilidad de los espacios compartidos y controlar sus reglas de uso. Asimismo, se validó la correcta interacción con los servicios encargados de la gestión de reservas y áreas comunes.
+
+<p align="center">
+  <img src="assets/img/common_areas_deploy.jpeg" alt="Áreas Comunes Desplegadas" width="700"/>
+</p>
+
+*Figura X. Pantalla de administración de áreas comunes desplegada en el entorno de producción. Elaborado por el equipo.*
+
+
+**Modal de Configuración de Reglas para Áreas Comunes**
+
+Se verificó el funcionamiento del formulario de configuración de reglas para áreas comunes desplegado en producción. La ventana permite modificar parámetros como capacidad, tipo de reserva, disponibilidad, horarios máximos, montos de garantía, penalidades y políticas de cancelación, validando la correcta integración entre la interfaz y los servicios encargados de la configuración de las áreas compartidas.
+
+<p align="center">
+  <img src="assets/img/edit_common_area_rules_deploy.jpeg" alt="Configuración de Reglas de Áreas Comunes" width="700"/>
+</p>
+
+*Figura X. Modal de configuración de reglas para áreas comunes desplegado en el entorno de producción. Elaborado por el equipo.*
+
+
+
+**Pantalla de Community Wall**
+
+Se verificó el correcto funcionamiento del muro comunitario desplegado en producción. La interfaz permite a los residentes publicar anuncios, compartir imágenes y visualizar las publicaciones de la comunidad, favoreciendo la comunicación entre los miembros del condominio. Además, se validó la integración con los servicios responsables de la gestión de publicaciones.
+
+<p align="center">
+  <img src="assets/img/community_wall_deploy.jpeg" alt="Community Wall Desplegado" width="700"/>
+</p>
+
+*Figura X. Pantalla del Community Wall desplegada en el entorno de producción. Elaborado por el equipo.*
+
+
+
+**Pantalla de Configuración del Perfil de Usuario**
+
+Se verificó el correcto despliegue de la pantalla de configuración del perfil de usuario en el entorno de producción. La interfaz muestra la información del administrador autenticado y permite gestionar los datos asociados a la cuenta, comprobando la correcta comunicación con los servicios de autenticación y administración de usuarios.
+
+<p align="center">
+  <img src="assets/img/settings_profile_deploy.jpeg" alt="Configuración del Perfil" width="700"/>
+</p>
+
+*Figura X. Pantalla de configuración del perfil de usuario desplegada en el entorno de producción. Elaborado por el equipo.*
+
+
+**Pantalla de Configuración de la Propiedad**
+
+Se verificó el correcto funcionamiento de la pantalla de configuración de la propiedad desplegada en producción. La interfaz permite administrar la información general del condominio, como nombre, distrito, ciudad y dirección, validando la correcta actualización de los datos almacenados mediante los servicios correspondientes del sistema.
+
+<p align="center">
+  <img src="assets/img/settings_property_deploy.jpeg" alt="Configuración de la Propiedad" width="700"/>
+</p>
+
+*Figura X. Pantalla de configuración de la propiedad desplegada en el entorno de producción. Elaborado por el equipo.*
+
+
 ##### 5.3.4.5. Microservices Documentation Evidence for Sprint Review
 
 Durante el Sprint 4 se documentaron los endpoints de los microservicios Notification Service y Report Service mediante Swagger UI. A continuación se presentan los controladores implementados con el detalle de sus rutas, métodos HTTP y funcionalidad expuesta. Todos los endpoints están protegidos mediante Bearer Token JWT, cuya validación se realiza de forma centralizada a través del API Gateway. Estos dos microservicios completan la arquitectura del sistema Edifika, abarcando el envío de notificaciones push y la generación de reportes financieros consolidados.
