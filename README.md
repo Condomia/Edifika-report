@@ -230,7 +230,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
 		TF: Actualicé conocimientos en mensajería asíncrona y manejo de eventos para implementar el microservicio de Notificaciones integrado con Firebase Cloud Messaging, y gestioné el seguimiento final del equipo mediante el Team Collaboration Insights y el Kanban Board del Sprint 4 (secciones 5.3.4.7, 5.3.4.8).<br><br>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: Investigué y apliqué metodologías de diseño centrado en el usuario para elaborar los User Personas, User Task Matrix y Empathy Map del proyecto (secciones 2.3.1, 2.3.2, 2.3.3).<br><br>
-        TB2: Apliqué el método ADD para definir la arquitectura del sistema, identificando drivers de calidad y proposing soluciones como microservicios y API Gateway (secciones 4.3.1, 4.3.2).<br><br>
+        TB2: Apliqué el método ADD para definir la arquitectura del sistema, identificando drivers de calidad y soluciones como microservicios y API Gateway (secciones 4.3.1, 4.3.2).<br><br>
         TP: Apliqué conocimientos de UX para desarrollar los mockups de la aplicación web para administradores, cubriendo los módulos de gestión financiera, reservas, comunicados y autenticación (secciones 5.1.1, 5.1.2).<br><br>
         TB3: Implementé el dashboard frontend para administradores integrando componentes que consumen los endpoints REST de los microservicios del sistema (secciones 5.3.2.1, 5.3.2.2, 5.3.2.4).<br><br>
         TB4: Actualicé conocimientos de desarrollo frontend para mejorar el dashboard y las secciones de inicio de perfil y configuración, optimizando la experiencia de usuario del sistema (sección 5.3.3.1).<br><br>
@@ -270,7 +270,7 @@ Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea nec
       <td>7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software.</td>
       <td>
         Becerra Tejeda, Alessandra Nicole <br><br>
-        TB1: Reconocí la necesidad de contrastar múltiples fuentes para aplicar correctamente los conceptos de problem statement, hypothesis y assumptions in el proyecto (secciones 1.2.3.1, 1.2.3.2, 1.2.3.3).<br><br>
+        TB1: Reconocí la necesidad de contrastar múltiples fuentes para aplicar correctamente los conceptos de problem statement, hypothesis y assumptions en el proyecto (secciones 1.2.3.1, 1.2.3.2, 1.2.3.3).<br><br>
         TB2: Identifiqué que estructurar los drivers arquitectónicos exige investigación continua, aplicando este aprendizaje en el desarrollo de los Quality Attribute Scenarios (sección 4.2.3).<br><br>
         TP: Reconocí que el desarrollo web y el trabajo ágil requieren actualización constante, lo que orientó mi contribución en la Landing Page y las actividades del Sprint 1 (secciones 5.3.1.1, 5.3.1.2).<br><br>
         TB3: Reconocí la necesidad de profundizar en desarrollo backend y documentación de APIs para responder adecuadamente a los requerimientos técnicos del microservicio de reservas (secciones 5.3.2.2, 5.3.2.5).<br><br>
@@ -2820,7 +2820,7 @@ Tácticas:
 
 **6. Integridad de transacciones**
 
-Escenario: Cuando la pasarela de pagos Culqi procesa una transacción, el sistema debe reflejar de inmediata y correctamente el resultado en la cuenta del usuario, garantizando el 100% de consistencia entre el estado registrado en Culqi y el estado interno del sistema.
+Escenario: Cuando la pasarela de pagos Culqi procesa una transacción, el sistema debe reflejar de inmediato y correctamente el resultado en la cuenta del usuario, garantizando el 100% de consistencia entre el estado registrado en Culqi y el estado interno del sistema.
 
 Tácticas:
 - **Estados de pago definidos y trazables:** Cada pago registrado en el sistema pasa por estados claros (pendiente, validado, rechazado), con fecha, usuario responsable y referencia del comprobante, asegurando trazabilidad completa de cada operación.
@@ -2957,7 +2957,7 @@ Las restricciones arquitectónicas definen los límites técnicos, tecnológicos
 | Cumplimiento normativo para administración de edificios | EDIFIKA debe considerar la normativa peruana relacionada con la administración de edificios, bienes comunes, cuotas, acuerdos y responsabilidades del administrador. | Los módulos de pagos, deudas, comunicados, reservas y reportes deben registrar información trazable, ordenada y consultable para respaldar la gestión del condominio. |
 
 ### 4.2.5. Architectural Concerns
-Las preocupaciones arquitectónicas representan los aspectos críticos del sistema que generan interés o riesgo para el negocio y los usuarios. Estas preocupaciones están relacionadas con atributos de calidad como seguridad, disponibilidad, escalabilidad y mantenibilidad, y deben ser abordadas mediante decisiones arquitectónicas adecuadas. Al identificarlas nos permite anticipar problemas potenciales y diseñar soluciones que garanticen el correcto funcionamiento del sistema.
+Las preocupaciones arquitectónicas representan los aspectos críticos del sistema que generan interés o riesgo para el negocio y los usuarios. Estas preocupaciones están relacionadas con atributos de calidad como seguridad, disponibilidad, escalabilidad y mantenibilidad, y deben ser abordadas mediante decisiones arquitectónicas adecuadas. Al identificarlas permite anticipar problemas potenciales y diseñar soluciones que garanticen el correcto funcionamiento del sistema.
 
 | Concern                                 | Riesgo                                                                                                          | Decisión arquitectónica                                                                                                     |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
