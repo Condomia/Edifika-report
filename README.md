@@ -6725,6 +6725,7 @@ Enlace del video: `https://www.youtube.com/watch?v=SjhYG9Lk7fk`
 - Enlace del despliegue del microservicio de notificaciones: `https://edifika-microservice-notification.onrender.com`
 - Enlace de desploegue de microservicio de reportes: `https://edifika-microservice-report.onrender.com`
 - Enlace del despliegue del frontend: `https://edifika-front.onrender.com/`
+- Enlace del despliegue del website: `https://condomia.github.io/Edifika-LandingPage/`
 
   
 **Videos**
